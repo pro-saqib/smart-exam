@@ -49,9 +49,27 @@ function SubjectsPage() {
         if (isPdf) {
           const text = await extractTextFromPdf(file);
           const parsed = parseMCQs(text);
-          const added = addMCQs(subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
-          total += added;
-          toast.success(`${file.name}: imported ${added} MCQs`);
+          if (parsed.length > 100) {
+            // split into batches of 100 and create new subjects for each batch
+            const base = subjects.find((x) => x.id === subjectId)?.name || "Subject";
+            // also add all parsed MCQs to the main subject (but avoid duplicates via addMCQs)
+            const addedMain = addMCQs(subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
+            total += addedMain;
+            if (addedMain) toast.success(`${file.name}: imported ${addedMain} MCQs into ${base}`);
+            for (let i = 0; i < parsed.length; i += 100) {
+              const chunk = parsed.slice(i, i + 100);
+              const start = i + 1;
+              const end = i + chunk.length;
+              const newSub = addSubject(`${base} ${start}-${end}`);
+              const added = addMCQs(newSub.id, chunk.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
+              total += added;
+              toast.success(`${file.name}: created ${newSub.name} with ${added} MCQs`);
+            }
+          } else {
+            const added = addMCQs(subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
+            total += added;
+            toast.success(`${file.name}: imported ${added} MCQs`);
+          }
         } else {
           // Treat anything non-PDF as plain text (covers .txt, .text, no extension, etc.)
           const text = await file.text();
@@ -79,11 +97,29 @@ function SubjectsPage() {
 
   const confirmTxtImport = () => {
     if (!preview) return;
-    const added = addMCQs(
-      preview.subjectId,
-      preview.result.valid.map((p) => ({ question: p.question, options: p.options, correct: p.correct })),
-    );
-    toast.success(`${preview.fileName}: imported ${added} MCQs`);
+    const parsed = preview.result.valid;
+    if (parsed.length > 100) {
+      const base = subjects.find((x) => x.id === preview.subjectId)?.name || "Subject";
+      // add all to main subject as well (dedupe logic in addMCQs prevents duplicates)
+      const addedMain = addMCQs(preview.subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
+      let totalAdded = addedMain;
+      if (addedMain) toast.success(`${preview.fileName}: imported ${addedMain} MCQs into ${base}`);
+      for (let i = 0; i < parsed.length; i += 100) {
+        const chunk = parsed.slice(i, i + 100);
+        const start = i + 1;
+        const end = i + chunk.length;
+        const newSub = addSubject(`${base} ${start}-${end}`);
+        const added = addMCQs(newSub.id, chunk.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
+        totalAdded += added;
+      }
+      toast.success(`${preview.fileName}: imported ${totalAdded} MCQs into ${Math.ceil(parsed.length / 100)} batch subjects`);
+    } else {
+      const added = addMCQs(
+        preview.subjectId,
+        parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })),
+      );
+      toast.success(`${preview.fileName}: imported ${added} MCQs`);
+    }
     setPreview(null);
   };
 
@@ -282,7 +318,7 @@ function TxtPreviewDialog({
                     <div className="text-xs text-muted-foreground">Q{i + 1}</div>
                     <div className="text-sm mt-0.5 font-medium">{q.question}</div>
                     <ul className="mt-2 grid sm:grid-cols-2 gap-1 text-xs">
-                      {(["A", "B", "C", "D"] as const).map((L) => (
+                      {(["A", "B", "C", "D", "E"] as const).map((L) => (
                         <li
                           key={L}
                           className={`px-2 py-1 rounded ${q.correct === L ? "bg-success/15 text-success font-medium" : "text-muted-foreground"}`}

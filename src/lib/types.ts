@@ -4,8 +4,8 @@ export interface MCQ {
   id: string;
   subjectId: string;
   question: string;
-  options: { A: string; B: string; C: string; D: string };
-  correct?: "A" | "B" | "C" | "D";
+  options: { A: string; B: string; C: string; D: string; E?: string };
+  correct?: "A" | "B" | "C" | "D" | "E";
   explanation?: string;
   difficulty?: Difficulty;
   tags?: string[];
@@ -27,7 +27,7 @@ export interface AttemptLog {
   id: string;
   mcqId: string;
   subjectId: string;
-  selected: "A" | "B" | "C" | "D";
+  selected: "A" | "B" | "C" | "D" | "E";
   correct: boolean;
   at: number;
 }

@@ -33,23 +33,23 @@ export function validateTxtMCQs(raw: string): TxtParseResult {
     const qLine = numMatch ? lines[0].slice(numMatch[0].length).trim() : lines[0];
     let question = qLine;
 
-    const opts: Partial<Record<"A" | "B" | "C" | "D", string>> = {};
+      const opts: Partial<Record<"A" | "B" | "C" | "D" | "E", string>> = {};
     let answerRaw: string | undefined;
 
     let i = 1;
-    while (i < lines.length && !/^\(?[A-Da-d]\s*[\)\.\-:]/.test(lines[i]) && !/^Ans(?:wer)?\s*[:\-]/i.test(lines[i])) {
+    while (i < lines.length && !/^\(?[A-Ea-e]\s*[\)\.\-:]/.test(lines[i]) && !/^Ans(?:wer)?\s*[:\-]/i.test(lines[i])) {
       question += " " + lines[i];
       i++;
     }
 
-    let currentLetter: "A" | "B" | "C" | "D" | null = null;
+    let currentLetter: "A" | "B" | "C" | "D" | "E" | null = null;
     for (; i < lines.length; i++) {
       const line = lines[i];
       const ansM = line.match(/^Ans(?:wer)?\s*[:\-]\s*(.+)$/i);
       if (ansM) { answerRaw = ansM[1].trim(); currentLetter = null; continue; }
-      const optM = line.match(/^\(?([A-Da-d])\s*[\)\.\-:]\s*(.*)$/);
+      const optM = line.match(/^\(?([A-Ea-e])\s*[\)\.\-:]\s*(.*)$/);
       if (optM) {
-        currentLetter = optM[1].toUpperCase() as "A" | "B" | "C" | "D";
+        currentLetter = optM[1].toUpperCase() as "A" | "B" | "C" | "D" | "E";
         opts[currentLetter] = (optM[2] || "").trim();
       } else if (currentLetter) {
         opts[currentLetter] = ((opts[currentLetter] || "") + " " + line).trim();
@@ -59,6 +59,7 @@ export function validateTxtMCQs(raw: string): TxtParseResult {
     question = question.replace(/\s+/g, " ").trim();
     const errors: string[] = [];
     if (question.length < 3) errors.push("Question text is missing or too short.");
+    // E is optional — only require A-D
     const missingLetters = (["A", "B", "C", "D"] as const).filter((L) => !opts[L]);
     if (missingLetters.length) errors.push(`Missing option${missingLetters.length > 1 ? "s" : ""} ${missingLetters.join(", ")}.`);
     if (!answerRaw) errors.push('Missing "Answer:" line.');
@@ -71,11 +72,11 @@ export function validateTxtMCQs(raw: string): TxtParseResult {
       } else {
         const norm = (s: string) => s.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
         const want = norm(answerRaw);
-        for (const L of ["A", "B", "C", "D"] as const) {
+          for (const L of ["A", "B", "C", "D", "E"] as const) {
           if (norm(opts[L]!) === want) { correct = L; break; }
         }
         if (!correct) {
-          for (const L of ["A", "B", "C", "D"] as const) {
+            for (const L of ["A", "B", "C", "D", "E"] as const) {
             if (norm(opts[L]!).includes(want) || want.includes(norm(opts[L]!))) { correct = L; break; }
           }
         }
@@ -92,7 +93,7 @@ export function validateTxtMCQs(raw: string): TxtParseResult {
 
     result.valid.push({
       question,
-      options: { A: opts.A!, B: opts.B!, C: opts.C!, D: opts.D! },
+      options: { A: opts.A!, B: opts.B!, C: opts.C!, D: opts.D!, E: opts.E },
       correct,
     });
   }

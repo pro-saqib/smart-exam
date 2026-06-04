@@ -11,7 +11,7 @@ interface State {
   deleteSubject: (id: string) => void;
   addMCQs: (subjectId: string, items: Omit<MCQ, "id" | "subjectId" | "attemptCount" | "wrongCount" | "solveLater" | "createdAt">[]) => number;
   toggleSolveLater: (id: string) => void;
-  recordAttempt: (mcqId: string, selected: "A" | "B" | "C" | "D") => boolean;
+  recordAttempt: (mcqId: string, selected: "A" | "B" | "C" | "D" | "E") => boolean;
   deleteMCQ: (id: string) => void;
   clearAttempts: () => void;
 }

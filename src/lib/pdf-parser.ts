@@ -1,7 +1,7 @@
 export interface ParsedMCQ {
   question: string;
-  options: { A: string; B: string; C: string; D: string };
-  correct?: "A" | "B" | "C" | "D";
+  options: { A: string; B: string; C: string; D: string; E?: string };
+  correct?: "A" | "B" | "C" | "D" | "E";
 }
 
 export async function extractTextFromPdf(file: File): Promise<string> {
@@ -71,19 +71,19 @@ export function parseMCQs(text: string): ParsedMCQ[] {
 
 function parseChunk(chunk: string): ParsedMCQ | null {
   // Find option markers: A) A. (A) a) etc., for A-D
-  const optRe = /(?:^|\s|\n)\(?\s*([A-Da-d])\s*[\)\.\-:]\s*/g;
-  const matches: { letter: "A" | "B" | "C" | "D"; idx: number; len: number }[] = [];
+  const optRe = /(?:^|\s|\n)\(?\s*([A-Ea-e])\s*[\)\.\-:]\s*/g;
+  const matches: { letter: "A" | "B" | "C" | "D" | "E"; idx: number; len: number }[] = [];
   let m: RegExpExecArray | null;
   while ((m = optRe.exec(chunk))) {
-    const L = m[1].toUpperCase() as "A" | "B" | "C" | "D";
+    const L = m[1].toUpperCase() as "A" | "B" | "C" | "D" | "E";
     matches.push({ letter: L, idx: m.index + m[0].indexOf(m[1]), len: m[0].length });
   }
   // Need to find a contiguous A,B,C,D set
   const seq: typeof matches = [];
   for (const x of matches) {
-    const need = "ABCD"[seq.length];
+    const need = "ABCDE"[seq.length];
     if (x.letter === need) seq.push(x);
-    if (seq.length === 4) break;
+    if (seq.length === 5) break;
   }
   if (seq.length < 4) return null;
 
@@ -105,11 +105,12 @@ function parseChunk(chunk: string): ParsedMCQ | null {
   const A = slice(0);
   const B = slice(1);
   const C = slice(2);
-  let D = slice(3);
+  const D = slice(3);
+  const E = seq.length >= 5 ? slice(4) : undefined;
 
   // D may also include answer marker, strip it
   let correct: ParsedMCQ["correct"] | undefined;
-  const ansRe = /(?:^|\s|\n)(?:Ans(?:wer)?|Correct(?: Answer)?)\s*[:\-\.\)]?\s*\(?\s*([A-Da-d])\s*\)?/i;
+  const ansRe = /(?:^|\s|\n)(?:Ans(?:wer)?|Correct(?: Answer)?)\s*[:\-\.\)]?\s*\(?\s*([A-Ea-e])\s*\)?/i;
   const ansMatch = D.match(ansRe);
   if (ansMatch) {
     correct = ansMatch[1].toUpperCase() as ParsedMCQ["correct"];
@@ -121,7 +122,7 @@ function parseChunk(chunk: string): ParsedMCQ | null {
     if (am) correct = am[1].toUpperCase() as ParsedMCQ["correct"];
     // Also check for star/bold marker like "*" before/after an option
     if (!correct) {
-      const starRe = /\*\s*\(?([A-Da-d])\)?/;
+      const starRe = /\*\s*\(?([A-Ea-e])\)?/;
       const sm = chunk.match(starRe);
       if (sm) correct = sm[1].toUpperCase() as ParsedMCQ["correct"];
     }
@@ -129,9 +130,11 @@ function parseChunk(chunk: string): ParsedMCQ | null {
 
   const clean = (s: string) => s.replace(/\s+/g, " ").trim();
   if (!A || !B || !C || !D) return null;
+  const options: any = { A: clean(A), B: clean(B), C: clean(C), D: clean(D) };
+  if (E) options.E = clean(E);
   return {
     question: clean(question),
-    options: { A: clean(A), B: clean(B), C: clean(C), D: clean(D) },
+    options,
     correct,
   };
 }

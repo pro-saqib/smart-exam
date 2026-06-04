@@ -12,7 +12,7 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
   const [timeLimitMin, setTimeLimitMin] = useState<0 | 30 | 60>(0);
   const [order, setOrder] = useState<string[]>([]);
   const [idx, setIdx] = useState(0);
-  const [picked, setPicked] = useState<"A" | "B" | "C" | "D" | null>(null);
+  const [picked, setPicked] = useState<"A" | "B" | "C" | "D" | "E" | null>(null);
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [retryQueue, setRetryQueue] = useState<string[]>([]);
   const [elapsed, setElapsed] = useState(0);
@@ -164,7 +164,7 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
     );
   }
 
-  const submit = (letter: "A" | "B" | "C" | "D") => {
+  const submit = (letter: "A" | "B" | "C" | "D" | "E") => {
     if (picked) return;
     setPicked(letter);
     if (current.correct) {
@@ -191,9 +191,11 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
   const progress = ((idx) / items.length) * 100;
 
   // Build (possibly shuffled) option order for the current question
+  const allLetters = (["A", "B", "C", "D", "E"] as const);
+  const available = allLetters.filter((L) => Boolean(current.options[L]));
   const letterOrder = shuffleOptions
-    ? shuffleDeterministic(["A", "B", "C", "D"] as const, current.id)
-    : (["A", "B", "C", "D"] as const);
+    ? shuffleDeterministic(available, current.id)
+    : available;
 
   const remaining = timeLimitMin > 0 ? Math.max(0, timeLimitMin * 60 - elapsed) : null;
 
