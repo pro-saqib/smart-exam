@@ -1,6 +1,7 @@
 import { Link, useLocation } from "@tanstack/react-router";
-import { LayoutDashboard, BookOpen, Bookmark, Brain, Sparkles } from "lucide-react";
+import { LayoutDashboard, BookOpen, Bookmark, Brain, Sparkles, PanelLeft } from "lucide-react";
 import { useApp } from "@/store/app-store";
+import { useEffect, useState } from "react";
 
 const NAV = [
   { to: "/", label: "Dashboard", icon: LayoutDashboard },
@@ -12,10 +13,24 @@ const NAV = [
 export function AppShell({ children }: { children: React.ReactNode }) {
   const loc = useLocation();
   const solveCount = useApp((s) => s.mcqs.filter((m) => m.solveLater).length);
+  const [hidden, setHidden] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem("sidebar_hidden") === "1";
+    } catch {
+      return false;
+    }
+  });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem("sidebar_hidden", hidden ? "1" : "0");
+    } catch {}
+  }, [hidden]);
 
   return (
     <div className="min-h-screen flex">
-      <aside className="hidden md:flex w-64 shrink-0 flex-col bg-sidebar/80 backdrop-blur-xl border-r border-sidebar-border">
+      {!hidden && (
+        <aside className="hidden md:flex w-64 shrink-0 flex-col bg-sidebar/80 backdrop-blur-xl border-r border-sidebar-border">
         <div className="px-6 py-6 flex items-center gap-2">
           <div className="size-9 rounded-xl gradient-primary grid place-items-center shadow-glow">
             <Sparkles className="size-5 text-primary-foreground" />
@@ -56,7 +71,29 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <div className="text-sm mt-1">Your data stays on this device.</div>
           </div>
         </div>
+        <div className="px-4 py-3">
+          <button
+            onClick={() => setHidden(true)}
+            className="w-full inline-flex items-center justify-center gap-2 rounded-md px-3 py-2 text-sm bg-card border border-border hover:bg-accent"
+          >
+            <PanelLeft className="size-4 rotate-180" />
+            Hide
+          </button>
+        </div>
       </aside>
+      )}
+
+      {hidden && (
+        <div className="hidden md:flex fixed left-2 top-1/2 z-40 -translate-y-1/2">
+          <button
+            onClick={() => setHidden(false)}
+            className="inline-flex items-center justify-center rounded-full p-2 bg-card border border-border hover:bg-accent shadow"
+            title="Show sidebar"
+          >
+            <PanelLeft className="size-4" />
+          </button>
+        </div>
+      )}
 
       {/* Mobile top bar */}
       <div className="md:hidden fixed top-0 inset-x-0 z-30 glass border-b border-border px-4 py-3 flex items-center gap-2">
