@@ -40,9 +40,6 @@ export function buildTxtExport(result: MCQExtractionResult): string {
       const marker = option.label === item.correctLabel ? " *" : "";
       lines.push(`${option.label}. ${option.text}${marker}`);
     }
-    if (item.explanation) {
-      lines.push(`Explanation: ${item.explanation}`);
-    }
     lines.push("");
   }
 

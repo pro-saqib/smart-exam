@@ -112,14 +112,11 @@ function parseTestpointBlocks($: cheerio.CheerioAPI, sourceUrl: string, startPag
       .toArray()
       .findIndex((li) => hasClassToken($(li).attr("class"), "correct"));
 
-    const explanation = cleanText(findNearestFollowingNode($, questionEl, ".question-explanation").text());
-
     items.push({
       id: `tp-${index + 1}-${hashText(questionText)}`,
       question: urduPrompt ? `${questionText} / ${urduPrompt}` : questionText,
       options,
       correctLabel: resolvedCorrectLabel >= 0 ? OPTION_LABELS[resolvedCorrectLabel] : undefined,
-      explanation: explanation || undefined,
       sourceUrl,
       sourcePage: startPage,
       sourceTitle: questionText,
@@ -240,19 +237,6 @@ function findNearestOptionsList($: cheerio.CheerioAPI, questionEl: cheerio.Cheer
     if (fallback.length) return fallback;
   }
   return $("ol[type='A']").first();
-}
-
-function findNearestFollowingNode(
-  $: cheerio.CheerioAPI,
-  questionEl: cheerio.Cheerio<any>,
-  selector: string,
-): cheerio.Cheerio<any> {
-  const ancestors = questionEl.parents().toArray();
-  for (const ancestor of ancestors) {
-    const found = $(ancestor).nextAll(selector).first();
-    if (found.length) return found;
-  }
-  return $(selector).first();
 }
 
 function buildSourceUrls(sourceUrl: string, startPage: number, endPage: number): Array<{ url: string; page: number }> {

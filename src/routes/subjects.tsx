@@ -309,9 +309,9 @@ function TxtPreviewDialog({
 
           {validCount > 0 && (
             <section>
-              <h3 className="text-sm font-medium text-success flex items-center gap-2 mb-2">
+              {/* <h3 className="text-sm font-medium text-success flex items-center gap-2 mb-2">
                 <CheckCircle2 className="size-4" /> Ready to import
-              </h3>
+              </h3> */}
               <ul className="space-y-3">
                 {result.valid.map((q, i) => (
                   <li key={i} className="rounded-lg border border-border bg-secondary/30 p-3">
@@ -347,7 +347,7 @@ function TxtPreviewDialog({
             disabled={validCount === 0}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            <Check className="size-4" /> Import {validCount} question{validCount === 1 ? "" : "s"}
+            <Check className="size-4" /> Add to subject
           </button>
         </footer>
       </div>

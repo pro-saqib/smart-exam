@@ -1,12 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import { AlertTriangle, CheckCircle2, Download, FileText, Loader2 } from "lucide-react";
+import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Plus, X } from "lucide-react";
 import { toast } from "sonner";
 import { MCQExtractorForm } from "@/components/mcq-extractor/mcq-extractor-form";
 import { MCQResultCard } from "@/components/mcq-extractor/mcq-result-card";
 import { buildTxtExport, extractMCQsFromSource } from "@/lib/mcq-extractor-service";
 import type { MCQExtractionResult, MCQExtractorFormValues } from "@/lib/mcq-extractor-types";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { useApp } from "@/store/app-store";
 
 export const Route = createFileRoute("/extractor")({
   head: () => ({
@@ -31,9 +32,11 @@ const INITIAL_FORM: MCQExtractorFormValues = {
 };
 
 function MCQExtractorPage() {
+  const { subjects, addSubject, addMCQs } = useApp();
   const [form, setForm] = useState(INITIAL_FORM);
   const [state, setState] = useState<ExtractState>({ status: "idle", result: null, error: null });
   const [resultsOpen, setResultsOpen] = useState(false);
+  const [savingSubject, setSavingSubject] = useState(false);
 
   const canDownload = state.status === "success" && state.result.items.length > 0;
 
@@ -41,11 +44,41 @@ function MCQExtractorPage() {
     if (state.status !== "success") return null;
     const source = new URL(state.result.sourceUrl);
     return {
-      name: source.pathname.split("/").filter(Boolean).pop() || source.host,
+      name: formatSubjectName(source.pathname.split("/").filter(Boolean).pop() || source.host),
       pages: `${state.result.startPage}-${state.result.endPage}`,
       total: state.result.items.length,
     };
   }, [state]);
+
+  const handleAddToSubject = () => {
+    if (state.status !== "success" || !state.result.items.length || savingSubject) return;
+
+    setSavingSubject(true);
+    try {
+      const subjectName = summary?.name ?? formatSubjectName(new URL(state.result.sourceUrl).host);
+      const existing = subjects.find((subject) => normalizeSubjectName(subject.name) === normalizeSubjectName(subjectName));
+      const subject = existing ?? addSubject(subjectName);
+      const added = addMCQs(
+        subject.id,
+        state.result.items.map((item) => ({
+          question: item.question,
+          options: {
+            A: item.options.find((option) => option.label === "A")?.text ?? "",
+            B: item.options.find((option) => option.label === "B")?.text ?? "",
+            C: item.options.find((option) => option.label === "C")?.text ?? "",
+            D: item.options.find((option) => option.label === "D")?.text ?? "",
+            E: item.options.find((option) => option.label === "E")?.text,
+          },
+          correct: item.correctLabel,
+        })),
+      );
+
+      toast.success(added > 0 ? `${added} MCQs added to ${subject.name}` : `No new MCQs were added to ${subject.name}`);
+      setResultsOpen(false);
+    } finally {
+      setSavingSubject(false);
+    }
+  };
 
   const handleExtract = async () => {
     try {
@@ -117,6 +150,9 @@ function MCQExtractorPage() {
                   <span className="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-success/15 text-success">
                     <CheckCircle2 className="size-3.5" /> {summary?.total ?? 0} extracted
                   </span>
+                  <span className="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-secondary/60 text-secondary-foreground">
+                    <FileText className="size-3.5" /> Pages {summary?.pages ?? "-"}
+                  </span>
                   {state.result.warnings?.length ? (
                     <span className="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-warning/15 text-warning">
                       <AlertTriangle className="size-3.5" /> {state.result.warnings.length} warning{state.result.warnings.length === 1 ? "" : "s"}
@@ -124,14 +160,17 @@ function MCQExtractorPage() {
                   ) : null}
                 </div>
               </div>
+              <button onClick={() => setResultsOpen(false)} className="p-2 rounded-md hover:bg-accent text-muted-foreground" aria-label="Close">
+                <X className="size-4" />
+              </button>
             </header>
 
             <div className="overflow-y-auto p-5 space-y-4">
               {state.result.items.length > 0 ? (
                 <section>
-                  <h3 className="text-sm font-medium text-success flex items-center gap-2 mb-2">
+                  {/* <h3 className="text-sm font-medium text-success flex items-center gap-2 mb-2">
                     <CheckCircle2 className="size-4" /> Ready to import
-                  </h3>
+                  </h3> */}
                   <div className="space-y-3">
                     {state.result.items.map((item, index) => (
                       <MCQResultCard key={item.id} item={item} index={index} />
@@ -151,6 +190,13 @@ function MCQExtractorPage() {
             <footer className="p-4 border-t border-border flex items-center justify-end gap-2">
               <button onClick={() => setResultsOpen(false)} className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm hover:bg-accent">
                 Close
+              </button>
+              <button
+                onClick={handleAddToSubject}
+                disabled={!canDownload || savingSubject}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-success text-success-foreground text-sm font-medium hover:bg-success/90 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <Plus className="size-4" /> {savingSubject ? "Adding..." : "Add to subject"}
               </button>
               <button
                 onClick={handleDownload}
@@ -200,4 +246,16 @@ function LoadingState() {
       Extracting MCQs and preparing the preview...
     </div>
   );
+}
+
+function formatSubjectName(raw: string): string {
+  return raw
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function normalizeSubjectName(raw: string): string {
+  return raw.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
 }
