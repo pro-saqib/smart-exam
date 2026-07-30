@@ -105,7 +105,7 @@ function parseChunk(chunk: string): ParsedMCQ | null {
   const A = slice(0);
   const B = slice(1);
   const C = slice(2);
-  const D = slice(3);
+  let D = slice(3);
   const E = seq.length >= 5 ? slice(4) : undefined;
 
   // D may also include answer marker, strip it
@@ -119,7 +119,29 @@ function parseChunk(chunk: string): ParsedMCQ | null {
     // Search the whole chunk for an answer marker after D
     const rest = chunk.slice(seq[3].idx);
     const am = rest.match(ansRe);
-    if (am) correct = am[1].toUpperCase() as ParsedMCQ["correct"];
+    if (am) {
+      const letterMatch = am[0].match(/([A-Ea-e])/i);
+      if (letterMatch) {
+        correct = letterMatch[1].toUpperCase() as ParsedMCQ["correct"];
+        // Check if answer includes descriptive text (e.g., "B. Leave")
+        const fullAnswerMatch = am[0].match(/([A-Ea-e])\s*[\.\):]?\s*(.+)/i);
+        if (fullAnswerMatch && fullAnswerMatch[2]) {
+          const answerText = fullAnswerMatch[2].trim();
+          const norm = (s: string) => s.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
+          const normalizedAnswer = norm(answerText);
+          const clean = (s: string) => s.replace(/\s+/g, " ").trim();
+          // Try to match the answer text against the options
+          const options: any = { A: clean(A), B: clean(B), C: clean(C), D: clean(D) };
+          if (E) options.E = clean(E);
+          for (const L of ["A", "B", "C", "D", "E"] as const) {
+            if (norm(options[L]) === normalizedAnswer) {
+              correct = L;
+              break;
+            }
+          }
+        }
+      }
+    }
     // Also check for star/bold marker like "*" before/after an option
     if (!correct) {
       const starRe = /\*\s*\(?([A-Ea-e])\)?/;

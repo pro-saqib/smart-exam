@@ -9,7 +9,7 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
   const [started, setStarted] = useState(false);
   const [shuffleQuestions, setShuffleQuestions] = useState(true);
   const [shuffleOptions, setShuffleOptions] = useState(false);
-  const [timeLimitMin, setTimeLimitMin] = useState<0 | 30 | 60>(0);
+  const [timeLimitMin, setTimeLimitMin] = useState<0 | 15 | 30>(0);
   const [order, setOrder] = useState<string[]>([]);
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<"A" | "B" | "C" | "D" | "E" | null>(null);
@@ -52,6 +52,28 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
     window.addEventListener("keydown", fn);
     return () => window.removeEventListener("keydown", fn);
   }, [picked]);
+
+  // Auto-advance 1s after a selection while preserving the manual Next button
+  useEffect(() => {
+    if (picked === null) return;
+    // Only auto-advance when the selected answer is correct.
+    if (current && current.correct && picked === current.correct) {
+      const t = setTimeout(() => {
+        setPicked(null);
+        setIdx((i) => i + 1);
+      }, 500);
+      return () => clearTimeout(t);
+    }
+    return;
+  }, [picked, current]);
+
+  // When session ends (idx >= items.length), ensure elapsed is finalised
+  useEffect(() => {
+    if (!started || startTs === null) return;
+    if (idx >= items.length) {
+      setElapsed(Math.floor((Date.now() - startTs) / 1000));
+    }
+  }, [idx, items.length, started, startTs]);
 
   if (!items.length) {
     return (
@@ -102,13 +124,13 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2">
               {([
+                { v: 15, label: "15 min" },
                 { v: 30, label: "30 min" },
-                { v: 60, label: "60 min" },
                 { v: 0, label: "No limit" },
               ] as const).map((opt) => (
                 <button
                   key={opt.v}
-                  onClick={() => setTimeLimitMin(opt.v as 0 | 30 | 60)}
+                  onClick={() => setTimeLimitMin(opt.v as 0 | 15 | 30)}
                   className={`px-3 py-2 rounded-lg text-sm border transition-all ${
                     timeLimitMin === opt.v
                       ? "gradient-primary text-primary-foreground border-transparent shadow-glow"
@@ -135,29 +157,48 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
   if (!current) {
     const uniqueRetry = Array.from(new Set(retryQueue));
     return (
-      <div className="rounded-2xl bg-card border border-border p-10 text-center shadow-card">
-        <div className="size-14 mx-auto rounded-2xl gradient-primary grid place-items-center shadow-glow">
-          <CheckCircle2 className="size-7 text-primary-foreground" />
+      <div className="rounded-2xl bg-card border border-border p-10 text-center shadow-card max-w-2xl mx-auto">
+        <div className="w-28 h-28 mx-auto rounded-full bg-gradient-to-br from-primary to-purple-500 grid place-items-center shadow-glow">
+          <CheckCircle2 className="size-10 text-white" />
         </div>
-        <h2 className="mt-4 text-2xl">{timeUp ? "Time's up" : "Session complete"}</h2>
-        <p className="text-muted-foreground mt-1">
-          {score.correct} correct · {score.wrong} wrong · {Math.round((score.correct / Math.max(1, score.correct + score.wrong)) * 100)}% accuracy
-        </p>
-        <p className="text-xs text-muted-foreground mt-1">Time used: {fmtTime(elapsed)}</p>
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
+        <h2 className="mt-6 text-3xl font-semibold">{timeUp ? "Time's up" : "Session complete"}</h2>
+        <div className="mt-4 flex flex-col md:flex-row items-center justify-center gap-6">
+          <div className="text-center">
+            <div className="text-xs text-muted-foreground">Correct</div>
+            <div className="text-3xl font-bold text-success">{score.correct}</div>
+          </div>
+          <div className="text-center">
+            <div className="text-xs text-muted-foreground">Wrong</div>
+            <div className="text-3xl font-bold text-destructive">{score.wrong}</div>
+          </div>
+          <div className="text-center">
+            <div className="text-xs text-muted-foreground">Accuracy</div>
+            <div className="text-3xl font-bold">{Math.round((score.correct / Math.max(1, score.correct + score.wrong)) * 100)}%</div>
+          </div>
+        </div>
+
+        <div className="mt-4 text-sm text-muted-foreground">Time used: <span className="font-medium text-foreground">{fmtTime(elapsed)}</span></div>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
           {uniqueRetry.length > 0 && (
             <button
               onClick={() => begin(uniqueRetry)}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
             >
-              <SkipForward className="size-4" /> Attempt skipped / wrong ({uniqueRetry.length})
+              <SkipForward className="size-4" /> Retry missed ({uniqueRetry.length})
             </button>
           )}
           <button
-            onClick={() => setStarted(false)}
+            onClick={() => begin()}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium hover:bg-accent"
           >
-            <RotateCcw className="size-4" /> Restart
+            <Play className="size-4" /> Restart
+          </button>
+          <button
+            onClick={() => setStarted(false)}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:bg-accent border border-border"
+          >
+            Close
           </button>
         </div>
       </div>
@@ -173,6 +214,9 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
       if (!ok) setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
     }
   };
+
+  // Auto-advance 1s after a selection while preserving the manual Next button
+  // (moved earlier)
 
   const next = () => {
     setPicked(null);

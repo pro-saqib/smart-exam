@@ -1,11 +1,12 @@
 import { Link, useLocation } from "@tanstack/react-router";
-import { LayoutDashboard, BookOpen, Bookmark, Brain, Sparkles, PanelLeft } from "lucide-react";
+import { LayoutDashboard, BookOpen, Bookmark, Brain, Sparkles, PanelLeft, ScanSearch } from "lucide-react";
 import { useApp } from "@/store/app-store";
 import { useEffect, useState } from "react";
 
 const NAV = [
   { to: "/", label: "Dashboard", icon: LayoutDashboard },
   { to: "/subjects", label: "Subjects", icon: BookOpen },
+  { to: "/extractor", label: "MCQ Extractor", icon: ScanSearch },
   { to: "/practice", label: "Practice", icon: Brain },
   { to: "/solve-later", label: "Solve Later", icon: Bookmark },
 ];

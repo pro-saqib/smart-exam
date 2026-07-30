@@ -1,0 +1,33 @@
+export type MCQOptionLabel = "A" | "B" | "C" | "D" | "E";
+
+export interface MCQExtractorFormValues {
+  sourceUrl: string;
+  startPage: string;
+  endPage: string;
+}
+
+export interface MCQExtractorRequest {
+  sourceUrl: string;
+  startPage: number;
+  endPage: number;
+}
+
+export interface ExtractedMCQ {
+  id: string;
+  question: string;
+  options: Array<{ label: MCQOptionLabel; text: string }>;
+  correctLabel?: MCQOptionLabel;
+  explanation?: string;
+  sourceUrl: string;
+  sourcePage: number;
+  sourceTitle?: string;
+}
+
+export interface MCQExtractionResult {
+  sourceUrl: string;
+  startPage: number;
+  endPage: number;
+  extractedAt: number;
+  items: ExtractedMCQ[];
+  warnings?: string[];
+}

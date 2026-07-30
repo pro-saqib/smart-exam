@@ -153,7 +153,7 @@ function SubjectsPage() {
           No subjects yet. Add your first subject above.
         </div>
       ) : (
-        <div className="grid md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
           {subjects.map((s) => {
             const count = mcqs.filter((m) => m.subjectId === s.id).length;
             return (
@@ -177,7 +177,7 @@ function SubjectsPage() {
                     </div>
                   ) : (
                     <div className="flex-1">
-                      <h3 className="text-lg font-medium">{s.name}</h3>
+                      <h3 className="text-sm font-medium">{s.name}</h3>
                       <p className="text-xs text-muted-foreground mt-0.5">{count} MCQs</p>
                     </div>
                   )}
@@ -217,7 +217,7 @@ function SubjectsPage() {
                     className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-secondary text-secondary-foreground text-xs font-medium hover:bg-accent disabled:opacity-60"
                   >
                     {busyId === s.id ? <Loader2 className="size-4 animate-spin" /> : <Upload className="size-4" />}
-                    {busyId === s.id ? "Importing…" : "Upload PDF / TXT"}
+                    {busyId === s.id ? "Importing…" : "Upload"}
                   </button>
                   {count > 0 && (
                     <Link

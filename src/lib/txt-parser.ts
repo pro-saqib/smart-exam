@@ -66,21 +66,48 @@ export function validateTxtMCQs(raw: string): TxtParseResult {
 
     let correct: ParsedMCQ["correct"] | undefined;
     if (answerRaw && missingLetters.length === 0) {
+      // First try: match just the letter (e.g., "B" or "B.")
       const letterOnly = answerRaw.match(/^\(?([A-Da-d])\)?[\.\s]*$/);
       if (letterOnly) {
         correct = letterOnly[1].toUpperCase() as ParsedMCQ["correct"];
       } else {
-        const norm = (s: string) => s.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
-        const want = norm(answerRaw);
-          for (const L of ["A", "B", "C", "D", "E"] as const) {
-          if (norm(opts[L]!) === want) { correct = L; break; }
-        }
-        if (!correct) {
+        // Try to extract letter from answer like "B. Leave"
+        const letterWithText = answerRaw.match(/^\(?([A-Da-d])\s*[\.\)]?\s+(.+)$/i);
+        if (letterWithText) {
+          const possibleLetter = letterWithText[1].toUpperCase() as ParsedMCQ["correct"];
+          const answerText = letterWithText[2].trim();
+          const norm = (s: string) => s.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
+          const normalizedAnswer = norm(answerText);
+          const normalizedOption = norm(opts[possibleLetter]!);
+          
+          // Check if the extracted letter's option text matches the answer text
+          if (normalizedAnswer === normalizedOption || normalizedOption.includes(normalizedAnswer) || normalizedAnswer.includes(normalizedOption)) {
+            correct = possibleLetter;
+          } else {
+            // Fallback: search all options for text match
             for (const L of ["A", "B", "C", "D", "E"] as const) {
-            if (norm(opts[L]!).includes(want) || want.includes(norm(opts[L]!))) { correct = L; break; }
+              const normalized = norm(opts[L]!);
+              if (normalized === normalizedAnswer || normalized.includes(normalizedAnswer) || normalizedAnswer.includes(normalized)) {
+                correct = L;
+                break;
+              }
+            }
+            if (!correct) errors.push(`Answer "${answerRaw}" does not match any option.`);
           }
+        } else {
+          // Original fallback logic for answers like "Continue" (just text, no letter)
+          const norm = (s: string) => s.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
+          const want = norm(answerRaw);
+          for (const L of ["A", "B", "C", "D", "E"] as const) {
+            if (norm(opts[L]!) === want) { correct = L; break; }
+          }
+          if (!correct) {
+            for (const L of ["A", "B", "C", "D", "E"] as const) {
+              if (norm(opts[L]!).includes(want) || want.includes(norm(opts[L]!))) { correct = L; break; }
+            }
+          }
+          if (!correct) errors.push(`Answer "${answerRaw}" does not match any option.`);
         }
-        if (!correct) errors.push(`Answer "${answerRaw}" does not match any option.`);
       }
     }
 
