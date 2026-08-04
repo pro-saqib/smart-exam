@@ -315,7 +315,6 @@ function TxtPreviewDialog({
               <ul className="space-y-3">
                 {result.valid.map((q, i) => (
                   <li key={i} className="rounded-lg border border-border bg-secondary/30 p-3">
-                    <div className="text-xs text-muted-foreground">Q{i + 1}</div>
                     <div className="text-sm mt-0.5 font-medium">{q.question}</div>
                     <ul className="mt-2 grid sm:grid-cols-2 gap-1 text-xs">
                       {(["A", "B", "C", "D", "E"] as const).map((L) => (
@@ -324,7 +323,7 @@ function TxtPreviewDialog({
                           className={`px-2 py-1 rounded ${q.correct === L ? "bg-success/15 text-success font-medium" : "text-muted-foreground"}`}
                         >
                           <span className="font-mono">{L}.</span> {q.options[L]}
-                          {q.correct === L && " ✓"}
+                          {/* {q.correct === L && " ✓"} */}
                         </li>
                       ))}
                     </ul>

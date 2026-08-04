@@ -23,13 +23,13 @@ export function MCQExtractorForm({
       <div className="space-y-1">
         <div className="text-xs uppercase tracking-[0.22em] text-primary-glow">MCQ Extractor</div>
         <h2 className="text-2xl">Extract questions from a source page range</h2>
-        <p className="text-sm text-muted-foreground max-w-2xl">
+        {/* <p className="text-sm text-muted-foreground max-w-2xl">
           Provide the source URL and the pages you want to inspect. Extraction runs on the backend so the browser only handles previewing and downloading the result.
-        </p>
+        </p> */}
       </div>
 
       <div className="grid gap-4">
-        <Field label="Source URL" hint="Paste the page that contains MCQs or the paper landing page.">
+        <Field label="Source URL">
           <input
             type="url"
             value={values.sourceUrl}
