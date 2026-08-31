@@ -31,3 +31,21 @@ export interface MCQExtractionResult {
   items: ExtractedMCQ[];
   warnings?: string[];
 }
+
+export interface TestpointSubject {
+  name: string;
+  url: string;
+}
+
+export interface TestpointYearGroup {
+  year: string;
+  subjects: TestpointSubject[];
+}
+
+export interface TestpointExtractorFormValues {
+  selectedYear: string;
+  selectedSubject: string;
+  startPage: number;
+  endPage: number;
+  maxPages: number;
+}

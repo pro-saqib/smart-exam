@@ -1,7 +1,7 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, Outlet, useMatchRoute, useNavigate } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
-import { useRef, useState } from "react";
-import { Plus, Upload, Pencil, Trash2, FileText, Loader2, Check, X, AlertTriangle, CheckCircle2, FileWarning } from "lucide-react";
+import { useMemo, useRef, useState } from "react";
+import { Upload, FileText, Loader2, Check, X, AlertTriangle, CheckCircle2, FileWarning } from "lucide-react";
 import { extractTextFromPdf, parseMCQs } from "@/lib/pdf-parser";
 import { validateTxtMCQs, type TxtParseResult } from "@/lib/txt-parser";
 import { toast } from "sonner";
@@ -17,10 +17,20 @@ export const Route = createFileRoute("/subjects")({
 });
 
 function SubjectsPage() {
-  const { subjects, mcqs, addSubject, renameSubject, deleteSubject, addMCQs } = useApp();
-  const [newName, setNewName] = useState("");
-  const [editingId, setEditingId] = useState<string | null>(null);
-  const [editName, setEditName] = useState("");
+  const matchRoute = useMatchRoute();
+  const isSubjectDetail = matchRoute({ to: "/subjects/$subjectId" });
+
+  if (isSubjectDetail) {
+    return <Outlet />;
+  }
+
+  return <SubjectsList />;
+}
+
+function SubjectsList() {
+  const { subjects, mcqs, attempts, addSubject, addMCQs } = useApp();
+
+  const navigate = useNavigate();
   const [busyId, setBusyId] = useState<string | null>(null);
   const fileRefs = useRef<Record<string, HTMLInputElement | null>>({});
   const [preview, setPreview] = useState<{
@@ -29,13 +39,30 @@ function SubjectsPage() {
     result: TxtParseResult;
   } | null>(null);
 
-  const create = () => {
-    const n = newName.trim();
-    if (!n) return;
-    addSubject(n);
-    setNewName("");
-    toast.success(`Subject "${n}" created`);
-  };
+  const parents = useMemo(() => subjects.filter((s) => !s.parentId), [subjects]);
+  const childrenByParent = useMemo(() => {
+    const map: Record<string, typeof subjects> = {};
+    for (const s of subjects) {
+      if (s.parentId) {
+        if (!map[s.parentId]) map[s.parentId] = [];
+        map[s.parentId].push(s);
+      }
+    }
+    return map;
+  }, [subjects]);
+
+  const statsByParent = useMemo(() => {
+    const map: Record<string, { totalAttempts: number; correctAttempts: number }> = {};
+    for (const p of parents) {
+      const childIds = childrenByParent[p.id]?.map((c) => c.id) || [];
+      const relevantAttempts = attempts.filter((a) => a.subjectId === p.id || childIds.includes(a.subjectId));
+      map[p.id] = {
+        totalAttempts: relevantAttempts.length,
+        correctAttempts: relevantAttempts.filter((a) => a.correct).length,
+      };
+    }
+    return map;
+  }, [parents, childrenByParent, attempts]);
 
   const handleFiles = async (subjectId: string, files: FileList | null) => {
     if (!files || !files.length) return;
@@ -50,9 +77,7 @@ function SubjectsPage() {
           const text = await extractTextFromPdf(file);
           const parsed = parseMCQs(text);
           if (parsed.length > 100) {
-            // split into batches of 100 and create new subjects for each batch
             const base = subjects.find((x) => x.id === subjectId)?.name || "Subject";
-            // also add all parsed MCQs to the main subject (but avoid duplicates via addMCQs)
             const addedMain = addMCQs(subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
             total += addedMain;
             if (addedMain) toast.success(`${file.name}: imported ${addedMain} MCQs into ${base}`);
@@ -60,7 +85,7 @@ function SubjectsPage() {
               const chunk = parsed.slice(i, i + 100);
               const start = i + 1;
               const end = i + chunk.length;
-              const newSub = addSubject(`${base} ${start}-${end}`);
+              const newSub = addSubject(`${base} ${start}-${end}`, subjectId);
               const added = addMCQs(newSub.id, chunk.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
               total += added;
               toast.success(`${file.name}: created ${newSub.name} with ${added} MCQs`);
@@ -71,10 +96,8 @@ function SubjectsPage() {
             toast.success(`${file.name}: imported ${added} MCQs`);
           }
         } else {
-          // Treat anything non-PDF as plain text (covers .txt, .text, no extension, etc.)
           const text = await file.text();
           const result = validateTxtMCQs(text);
-          // Defer to preview dialog (first .txt only; others are skipped this round)
           if (!txtToPreview) txtToPreview = { file, result };
           else toast.message(`${file.name} skipped — review one .txt file at a time.`);
         }
@@ -89,7 +112,6 @@ function SubjectsPage() {
       toast.error("Failed to parse file");
     } finally {
       setBusyId(null);
-      // Reset the file input so the same file can be re-selected later
       const el = fileRefs.current[subjectId];
       if (el) el.value = "";
     }
@@ -100,7 +122,6 @@ function SubjectsPage() {
     const parsed = preview.result.valid;
     if (parsed.length > 100) {
       const base = subjects.find((x) => x.id === preview.subjectId)?.name || "Subject";
-      // add all to main subject as well (dedupe logic in addMCQs prevents duplicates)
       const addedMain = addMCQs(preview.subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
       let totalAdded = addedMain;
       if (addedMain) toast.success(`${preview.fileName}: imported ${addedMain} MCQs into ${base}`);
@@ -108,7 +129,7 @@ function SubjectsPage() {
         const chunk = parsed.slice(i, i + 100);
         const start = i + 1;
         const end = i + chunk.length;
-        const newSub = addSubject(`${base} ${start}-${end}`);
+        const newSub = addSubject(`${base} ${start}-${end}`, preview.subjectId);
         const added = addMCQs(newSub.id, chunk.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
         totalAdded += added;
       }
@@ -127,113 +148,71 @@ function SubjectsPage() {
     <div className="space-y-8">
       <header>
         <h1 className="text-3xl">Subjects</h1>
-        <p className="text-muted-foreground mt-1">Create unlimited subjects and import MCQ PDFs into each.</p>
+        <p className="text-muted-foreground mt-1">Core subjects dashboard.</p>
       </header>
 
-      <div className="rounded-2xl bg-card border border-border p-5 shadow-card">
-        <div className="flex flex-col sm:flex-row gap-2">
-          <input
-            value={newName}
-            onChange={(e) => setNewName(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && create()}
-            placeholder="e.g. English, General Knowledge, Pakistan Affairs…"
-            className="flex-1 rounded-lg bg-input/60 border border-border px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
-          />
-          <button
-            onClick={create}
-            className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
-          >
-            <Plus className="size-4" /> Add subject
-          </button>
-        </div>
-      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        {parents.map((parent) => {
+          const totalMcqs = mcqs.filter((m) => m.subjectId === parent.id || childrenByParent[parent.id]?.some((c) => c.id === m.subjectId)).length;
+          const stats = statsByParent[parent.id] || { totalAttempts: 0, correctAttempts: 0 };
+          const accuracy = stats.totalAttempts > 0 ? Math.round((stats.correctAttempts / stats.totalAttempts) * 100) : 0;
 
-      {subjects.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
-          No subjects yet. Add your first subject above.
-        </div>
-      ) : (
-        <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
-          {subjects.map((s) => {
-            const count = mcqs.filter((m) => m.subjectId === s.id).length;
-            return (
-              <div key={s.id} className="rounded-2xl bg-card border border-border p-5 shadow-card">
-                <div className="flex items-start justify-between gap-2">
-                  {editingId === s.id ? (
-                    <div className="flex-1 flex items-center gap-2">
-                      <input
-                        value={editName}
-                        onChange={(e) => setEditName(e.target.value)}
-                        className="flex-1 rounded-md bg-input/60 border border-border px-3 py-1.5 text-sm"
-                        autoFocus
-                      />
-                      <button
-                        onClick={() => { renameSubject(s.id, editName); setEditingId(null); toast.success("Renamed"); }}
-                        className="p-1.5 rounded-md bg-success/20 text-success hover:bg-success/30"
-                      ><Check className="size-4" /></button>
-                      <button onClick={() => setEditingId(null)} className="p-1.5 rounded-md bg-muted hover:bg-accent">
-                        <X className="size-4" />
-                      </button>
-                    </div>
-                  ) : (
-                    <div className="flex-1">
-                      <h3 className="text-sm font-medium">{s.name}</h3>
-                      <p className="text-xs text-muted-foreground mt-0.5">{count} MCQs</p>
-                    </div>
-                  )}
-                  {editingId !== s.id && (
-                    <div className="flex items-center gap-1">
-                      <button
-                        onClick={() => { setEditingId(s.id); setEditName(s.name); }}
-                        className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent"
-                        title="Rename"
-                      ><Pencil className="size-4" /></button>
-                      <button
-                        onClick={() => {
-                          if (confirm(`Delete "${s.name}" and all its MCQs?`)) {
-                            deleteSubject(s.id);
-                            toast.success("Deleted");
-                          }
-                        }}
-                        className="p-2 rounded-md text-muted-foreground hover:text-destructive hover:bg-destructive/10"
-                        title="Delete"
-                      ><Trash2 className="size-4" /></button>
-                    </div>
-                  )}
-                </div>
+          return (
+            <div
+              key={parent.id}
+              className="group rounded-2xl p-5 bg-card border border-border hover:border-primary/60 transition-all shadow-card hover:shadow-glow flex flex-col gap-4 cursor-pointer"
+              onClick={() => navigate({ to: "/subjects/$subjectId", params: { subjectId: parent.id } })}
+            >
+              <div className="flex items-start justify-between">
+                <h3 className="font-medium text-lg">{parent.name}</h3>
+              </div>
 
-                <div className="mt-4 flex flex-wrap items-center gap-2">
-                  <input
-                    ref={(el) => { fileRefs.current[s.id] = el; }}
-                    type="file"
-                    accept="application/pdf,text/plain,.pdf,.txt"
-                    multiple
-                    className="hidden"
-                    onChange={(e) => handleFiles(s.id, e.target.files)}
+              <span className="text-xs text-muted-foreground -mt-2">{totalMcqs} MCQs</span>
+
+              <div className="mt-auto pt-2 space-y-2">
+                <div className="h-2 rounded-full bg-muted overflow-hidden">
+                  <div
+                    className="h-full gradient-primary transition-all"
+                    style={{ width: `${Math.min(100, accuracy)}%` }}
                   />
-                  <button
-                    onClick={() => fileRefs.current[s.id]?.click()}
-                    disabled={busyId === s.id}
-                    className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-secondary text-secondary-foreground text-xs font-medium hover:bg-accent disabled:opacity-60"
-                  >
-                    {busyId === s.id ? <Loader2 className="size-4 animate-spin" /> : <Upload className="size-4" />}
-                    {busyId === s.id ? "Importing…" : "Upload"}
-                  </button>
-                  {count > 0 && (
-                    <Link
-                      to="/quiz/$subjectId"
-                      params={{ subjectId: s.id }}
-                      className="inline-flex items-center gap-2 px-3 py-2 rounded-lg gradient-primary text-primary-foreground text-xs font-medium"
-                    >
-                      <FileText className="size-4" /> Practice
-                    </Link>
-                  )}
+                </div>
+                <div className="text-xs text-muted-foreground">
+                  <span>{accuracy}% accuracy</span>
                 </div>
               </div>
-            );
-          })}
-        </div>
-      )}
+
+              <div className="flex items-center gap-2 pt-2" onClick={(e) => e.stopPropagation()}>
+                <input
+                  ref={(el) => { fileRefs.current[parent.id] = el; }}
+                  type="file"
+                  accept="application/pdf,text/plain,.pdf,.txt"
+                  multiple
+                  className="hidden"
+                  onChange={(e) => { e.stopPropagation(); handleFiles(parent.id, e.target.files); }}
+                />
+                <button
+                  onClick={(e) => { e.stopPropagation(); fileRefs.current[parent.id]?.click(); }}
+                  disabled={busyId === parent.id}
+                  className="flex-1 inline-flex items-center justify-center gap-2 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm font-medium hover:bg-accent disabled:opacity-60"
+                >
+                  {busyId === parent.id ? <Loader2 className="size-4 animate-spin" /> : <Upload className="size-4" />}
+                  {busyId === parent.id ? "Importing..." : "Upload"}
+                </button>
+                {totalMcqs > 0 && (
+                  <Link
+                    to="/quiz/$subjectId"
+                    params={{ subjectId: parent.id }}
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex-1 inline-flex items-center justify-center gap-2 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
+                  >
+                    <FileText className="size-4" /> Practice
+                  </Link>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
 
       {preview && (
         <TxtPreviewDialog
@@ -309,9 +288,6 @@ function TxtPreviewDialog({
 
           {validCount > 0 && (
             <section>
-              {/* <h3 className="text-sm font-medium text-success flex items-center gap-2 mb-2">
-                <CheckCircle2 className="size-4" /> Ready to import
-              </h3> */}
               <ul className="space-y-3">
                 {result.valid.map((q, i) => (
                   <li key={i} className="rounded-lg border border-border bg-secondary/30 p-3">
@@ -323,7 +299,6 @@ function TxtPreviewDialog({
                           className={`px-2 py-1 rounded ${q.correct === L ? "bg-success/15 text-success font-medium" : "text-muted-foreground"}`}
                         >
                           <span className="font-mono">{L}.</span> {q.options[L]}
-                          {/* {q.correct === L && " ✓"} */}
                         </li>
                       ))}
                     </ul>

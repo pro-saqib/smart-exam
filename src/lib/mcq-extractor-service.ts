@@ -1,7 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 import type { MCQExtractionRequest, MCQExtractionResult } from "@/lib/mcq-extractor-types";
-import { extractMcqsFromSource } from "@/lib/mcq-extractor.server";
+import { extractMcqsFromSource, getTestpointSubjects, getTestpointPageLimit } from "@/lib/mcq-extractor.server";
 
 export const extractMCQsFromSource = createServerFn({ method: "POST" })
   .inputValidator(
@@ -19,6 +19,17 @@ export const extractMCQsFromSource = createServerFn({ method: "POST" })
   .handler(async ({ data }) => {
     const request: MCQExtractionRequest = data;
     return (await extractMcqsFromSource(request)) as MCQExtractionResult;
+  });
+
+export const fetchTestpointSubjects = createServerFn({ method: "GET" })
+  .handler(async () => {
+    return await getTestpointSubjects();
+  });
+
+export const fetchTestpointPageLimit = createServerFn({ method: "POST" })
+  .inputValidator(z.object({ url: z.string().url() }))
+  .handler(async ({ data }) => {
+    return await getTestpointPageLimit(data.url);
   });
 
 export function buildTxtExport(result: MCQExtractionResult): string {

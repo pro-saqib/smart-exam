@@ -3,6 +3,110 @@ import type { ExtractedMCQ, MCQExtractionRequest, MCQExtractionResult, MCQOption
 
 const OPTION_LABELS: MCQOptionLabel[] = ["A", "B", "C", "D", "E"];
 
+const TESTPOINT_MAIN_URL = "https://testpointpk.com/past-papers-mcqs/ppsc-5-years-past-papers-subject-wise-(solved-with-details)";
+
+export interface TestpointSubject {
+  name: string;
+  url: string;
+}
+
+export interface TestpointYearGroup {
+  year: string;
+  subjects: TestpointSubject[];
+}
+
+export async function getTestpointSubjects(): Promise<TestpointYearGroup[]> {
+  const response = await fetch(TESTPOINT_MAIN_URL, {
+    headers: { "user-agent": "PrepMind MCQ Extractor/1.0" }
+  });
+  if (!response.ok) throw new Error("Failed to fetch Testpoint subjects page");
+
+  const html = await response.text();
+  const $ = cheerio.load(html);
+  const yearGroups: TestpointYearGroup[] = [];
+  const yearMap = new Map<string, TestpointSubject[]>();
+
+  // Parse the table rows
+  $("table.table-bordered tr").each((i, row) => {
+    const cells = $(row).find("td");
+    if (cells.length >= 2) {
+      const link = $(cells[1]).find("a").first();
+      const href = link.attr("href");
+      const text = link.text().trim();
+
+      if (href && text) {
+        // Extract year from text (e.g., "PPSC all MCQs 2026" or "PPSC Past Papers Urdu MCQs 2026")
+        const yearMatch = text.match(/\b(20\d{2})\b/);
+        const year = yearMatch ? yearMatch[1] : "Other";
+
+        if (!yearMap.has(year)) yearMap.set(year, []);
+        yearMap.get(year)!.push({
+          name: text,
+          url: href.startsWith("http") ? href : `https://testpointpk.com${href}`
+        });
+      }
+    }
+  });
+
+  // Convert map to array and sort by year (newest first)
+  for (const [year, subjects] of yearMap.entries()) {
+    yearGroups.push({ year, subjects });
+  }
+  yearGroups.sort((a, b) => {
+    if (a.year === "Other") return 1;
+    if (b.year === "Other") return -1;
+    return parseInt(b.year) - parseInt(a.year);
+  });
+
+  return yearGroups;
+}
+
+export async function getTestpointPageLimit(url: string): Promise<number> {
+  const response = await fetch(url, {
+    headers: { "user-agent": "PrepMind MCQ Extractor/1.0" }
+  });
+  if (!response.ok) return 1;
+
+  const html = await response.text();
+  const $ = cheerio.load(html);
+
+  // Look for pagination - common patterns
+  let maxPage = 1;
+
+  // Pattern 1: data-page attribute
+  $("[data-page]").each((i, el) => {
+    const page = parseInt($(el).attr("data-page") || "0");
+    if (page > maxPage) maxPage = page;
+  });
+
+  // Pattern 2: Pagination links (e.g., ?page=N)
+  if (maxPage === 1) {
+    $("a[href*='page=']").each((i, el) => {
+      const href = $(el).attr("href") || "";
+      const match = href.match(/page=(\d+)/);
+      if (match) {
+        const page = parseInt(match[1]);
+        if (page > maxPage) maxPage = page;
+      }
+    });
+  }
+
+  // Pattern 3: Look for "last page" link or numbered pagination
+  if (maxPage === 1) {
+    const paginationLinks = $("a").filter((i, el) => {
+      const text = $(el).text().trim();
+      return /^\d+$/.test(text);
+    });
+
+    paginationLinks.each((i, el) => {
+      const page = parseInt($(el).text().trim());
+      if (page > maxPage) maxPage = page;
+    });
+  }
+
+  return maxPage;
+}
+
 export async function extractMcqsFromSource(request: MCQExtractionRequest): Promise<MCQExtractionResult> {
   const sourceUrl = request.sourceUrl.trim();
   if (!sourceUrl) throw new Error("Please enter a source URL.");

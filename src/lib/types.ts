@@ -19,7 +19,7 @@ export interface MCQ {
 export interface Subject {
   id: string;
   name: string;
-  color?: string;
+  parentId?: string;
   createdAt: number;
 }
 

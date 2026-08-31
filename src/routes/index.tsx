@@ -16,14 +16,16 @@ export const Route = createFileRoute("/")({
 function Dashboard() {
   const { subjects, mcqs, attempts } = useApp();
   const stats = useMemo(() => {
+    const parents = subjects.filter((s) => !s.parentId);
     const attempted = mcqs.filter((m) => m.attemptCount > 0).length;
     const correct = attempts.filter((a) => a.correct).length;
     const total = attempts.length;
     const accuracy = total ? Math.round((correct / total) * 100) : 0;
     const solveLater = mcqs.filter((m) => m.solveLater).length;
-    const bySubj = subjects.map((s) => {
-      const ms = mcqs.filter((m) => m.subjectId === s.id);
-      const at = attempts.filter((a) => a.subjectId === s.id);
+    const bySubj = parents.map((s) => {
+      const childIds = subjects.filter((c) => c.parentId === s.id).map((c) => c.id);
+      const ms = mcqs.filter((m) => m.subjectId === s.id || childIds.includes(m.subjectId));
+      const at = attempts.filter((a) => a.subjectId === s.id || childIds.includes(a.subjectId));
       const acc = at.length ? Math.round((at.filter((x) => x.correct).length / at.length) * 100) : 0;
       return { subject: s, count: ms.length, attempts: at.length, accuracy: acc };
     });
@@ -77,7 +79,10 @@ function Dashboard() {
                 className="group rounded-2xl p-5 bg-card border border-border hover:border-primary/60 transition-all shadow-card hover:shadow-glow"
               >
                 <div className="flex items-start justify-between">
-                  <h3 className="text-base font-medium">{subject.name}</h3>
+                  <div className="flex items-center gap-2">
+                    {subject.color && <span className="size-3 rounded-full shrink-0 mt-0.5" style={{ backgroundColor: subject.color }} />}
+                    <h3 className="text-base font-medium">{subject.name}</h3>
+                  </div>
                   <span className="text-[11px] text-muted-foreground">{count} MCQs</span>
                 </div>
                 <div className="mt-4 h-2 rounded-full bg-muted overflow-hidden">

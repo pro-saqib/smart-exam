@@ -1,12 +1,25 @@
 import { useEffect, useMemo, useState } from "react";
-import type { MCQ } from "@/lib/types";
+import type { MCQ, Subject } from "@/lib/types";
 import { useApp } from "@/store/app-store";
 import { Bookmark, BookmarkCheck, ArrowRight, RotateCcw, CheckCircle2, XCircle, AlertCircle, Play, Shuffle, SkipForward, Timer as TimerIcon } from "lucide-react";
 import { toast } from "sonner";
 
-export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: string; emptyText: string }) {
+export function QuizRunner({
+  items,
+  title,
+  emptyText,
+  subtopics = [],
+  mcqsBySubtopic = {},
+}: {
+  items: MCQ[];
+  title: string;
+  emptyText: string;
+  subtopics?: Subject[];
+  mcqsBySubtopic?: Record<string, MCQ[]>;
+}) {
   const { recordAttempt, toggleSolveLater } = useApp();
   const [started, setStarted] = useState(false);
+  const [selectedSubtopic, setSelectedSubtopic] = useState<string>("__all__");
   const [shuffleQuestions, setShuffleQuestions] = useState(true);
   const [shuffleOptions, setShuffleOptions] = useState(false);
   const [timeLimitMin, setTimeLimitMin] = useState<0 | 15 | 30>(0);
@@ -19,7 +32,12 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
   const [startTs, setStartTs] = useState<number | null>(null);
   const [timeUp, setTimeUp] = useState(false);
 
-  const current = useMemo(() => items.find((m) => m.id === order[idx]), [items, order, idx]);
+  const activeItems = useMemo(() => {
+    if (selectedSubtopic === "__all__") return items;
+    return mcqsBySubtopic[selectedSubtopic] ?? items;
+  }, [items, selectedSubtopic, mcqsBySubtopic]);
+
+  const current = useMemo(() => activeItems.find((m) => m.id === order[idx]), [activeItems, order, idx]);
 
   // Timer tick
   useEffect(() => {
@@ -84,7 +102,7 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
   }
 
   const begin = (idsOverride?: string[]) => {
-    const ids = idsOverride ?? items.map((m) => m.id);
+    const ids = idsOverride ?? activeItems.map((m) => m.id);
     setOrder(shuffleQuestions ? shuffle(ids) : ids);
     setIdx(0);
     setPicked(null);
@@ -101,9 +119,24 @@ export function QuizRunner({ items, title, emptyText }: { items: MCQ[]; title: s
       <div className="rounded-2xl bg-card border border-border p-6 md:p-8 shadow-card max-w-xl">
         <div className="text-xs text-primary-glow uppercase tracking-wider">{title}</div>
         <h2 className="mt-1 text-2xl">Ready to practice?</h2>
-        <p className="text-muted-foreground mt-1 text-sm">{items.length} question{items.length === 1 ? "" : "s"} in this set.</p>
+        <p className="text-muted-foreground mt-1 text-sm">{activeItems.length} question{activeItems.length === 1 ? "" : "s"} in this set.</p>
 
         <div className="mt-6 space-y-3">
+          {subtopics.length > 0 && (
+            <div className="space-y-1.5">
+              <label className="text-sm font-medium text-muted-foreground">Subtopic</label>
+              <select
+                value={selectedSubtopic}
+                onChange={(e) => setSelectedSubtopic(e.target.value)}
+                className="w-full rounded-lg bg-input/60 border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+              >
+                <option value="__all__">All subtopics</option>
+                {subtopics.map((s) => (
+                  <option key={s.id} value={s.id}>{s.name} ({mcqsBySubtopic[s.id]?.length ?? 0})</option>
+                ))}
+              </select>
+            </div>
+          )}
           <ToggleRow
             label="Shuffle questions"
             description="Present questions in random order each session."

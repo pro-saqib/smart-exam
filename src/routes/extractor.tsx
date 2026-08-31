@@ -1,11 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Plus, X } from "lucide-react";
 import { toast } from "sonner";
-import { MCQExtractorForm } from "@/components/mcq-extractor/mcq-extractor-form";
+import { MCQExtractorForm, TestpointExtractorForm } from "@/components/mcq-extractor/mcq-extractor-form";
 import { MCQResultCard } from "@/components/mcq-extractor/mcq-result-card";
-import { buildTxtExport, extractMCQsFromSource } from "@/lib/mcq-extractor-service";
-import type { MCQExtractionResult, MCQExtractorFormValues } from "@/lib/mcq-extractor-types";
+import { buildTxtExport, extractMCQsFromSource, fetchTestpointSubjects, fetchTestpointPageLimit } from "@/lib/mcq-extractor-service";
+import type { MCQExtractionResult, MCQExtractorFormValues, TestpointExtractorFormValues, TestpointYearGroup } from "@/lib/mcq-extractor-types";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useApp } from "@/store/app-store";
 
@@ -31,12 +31,63 @@ const INITIAL_FORM: MCQExtractorFormValues = {
   endPage: "3",
 };
 
+const INITIAL_TESTPOINT_FORM: TestpointExtractorFormValues = {
+  selectedYear: "",
+  selectedSubject: "",
+  startPage: 1,
+  endPage: 1,
+  maxPages: 0,
+};
+
 function MCQExtractorPage() {
   const { subjects, addSubject, addMCQs } = useApp();
   const [form, setForm] = useState(INITIAL_FORM);
+  const [tpForm, setTpForm] = useState(INITIAL_TESTPOINT_FORM);
+  const [yearGroups, setYearGroups] = useState<TestpointYearGroup[]>([]);
   const [state, setState] = useState<ExtractState>({ status: "idle", result: null, error: null });
   const [resultsOpen, setResultsOpen] = useState(false);
   const [savingSubject, setSavingSubject] = useState(false);
+  const [loadingSubjects, setLoadingSubjects] = useState(false);
+  const [loadingPages, setLoadingPages] = useState(false);
+
+  useEffect(() => {
+    const loadSubjects = async () => {
+      setLoadingSubjects(true);
+      try {
+        const groups = await fetchTestpointSubjects();
+        setYearGroups(groups);
+      } catch (error) {
+        console.error("Failed to load Testpoint subjects:", error);
+        toast.error("Failed to load Testpoint subjects");
+      } finally {
+        setLoadingSubjects(false);
+      }
+    };
+    loadSubjects();
+  }, []);
+
+  const handleYearChange = async (year: string) => {
+    setTpForm(prev => ({ ...prev, selectedYear: year, selectedSubject: "", startPage: 1, endPage: 1, maxPages: 0 }));
+  };
+
+  const handleSubjectChange = async (subjectUrl: string) => {
+    if (!subjectUrl) {
+      setTpForm(prev => ({ ...prev, selectedSubject: "", startPage: 1, endPage: 1, maxPages: 0 }));
+      return;
+    }
+
+    setLoadingPages(true);
+    try {
+      const maxPages = await fetchTestpointPageLimit({ data: { url: subjectUrl } });
+      setTpForm(prev => ({ ...prev, selectedSubject: subjectUrl, startPage: 1, endPage: maxPages, maxPages }));
+    } catch (error) {
+      console.error("Failed to get page limit:", error);
+      setTpForm(prev => ({ ...prev, selectedSubject: subjectUrl, startPage: 1, endPage: 10, maxPages: 10 }));
+      toast.error("Could not detect page count, defaulting to 10 pages");
+    } finally {
+      setLoadingPages(false);
+    }
+  };
 
   const canDownload = state.status === "success" && state.result.items.length > 0;
 
@@ -80,16 +131,16 @@ function MCQExtractorPage() {
     }
   };
 
-  const handleExtract = async () => {
+  const handleExtract = async (sourceUrl: string, startPage: number, endPage: number) => {
     try {
       setResultsOpen(false);
       setState((current) => ({ status: "loading", result: current.result, error: null }));
 
       const result = await extractMCQsFromSource({
         data: {
-          sourceUrl: form.sourceUrl,
-          startPage: Number(form.startPage),
-          endPage: Number(form.endPage),
+          sourceUrl,
+          startPage,
+          endPage,
         },
       });
 
@@ -107,6 +158,15 @@ function MCQExtractorPage() {
     }
   };
 
+  const handleTestpointExtract = () => {
+    if (!tpForm.selectedSubject) return;
+    handleExtract(tpForm.selectedSubject, tpForm.startPage, tpForm.endPage);
+  };
+
+  const handleManualExtract = () => {
+    handleExtract(form.sourceUrl, Number(form.startPage), Number(form.endPage));
+  };
+
   const handleDownload = () => {
     if (!canDownload) return;
     const blob = new Blob([buildTxtExport(state.result)], { type: "text/plain;charset=utf-8" });
@@ -122,7 +182,27 @@ function MCQExtractorPage() {
 
   return (
     <div className="space-y-6 md:space-y-8">
-      <MCQExtractorForm values={form} loading={state.status === "loading"} onChange={setForm} onSubmit={handleExtract} />
+      <TestpointExtractorForm
+        values={tpForm}
+        yearGroups={yearGroups}
+        loading={state.status === "loading"}
+        loadingPages={loadingPages}
+        onChange={setTpForm}
+        onSubmit={handleTestpointExtract}
+        onYearChange={handleYearChange}
+        onSubjectChange={handleSubjectChange}
+      />
+
+      <div className="relative">
+        <div className="absolute inset-0 flex items-center">
+          <span className="w-full border-t border-border" />
+        </div>
+        <div className="relative flex justify-center text-xs uppercase">
+          <span className="bg-background px-2 text-muted-foreground">Or use manual URL</span>
+        </div>
+      </div>
+
+      <MCQExtractorForm values={form} loading={state.status === "loading"} onChange={setForm} onSubmit={handleManualExtract} />
 
       {state.status === "loading" && <LoadingState />}
 
@@ -135,7 +215,7 @@ function MCQExtractorPage() {
           tone="neutral"
           icon={<FileText className="size-5" />}
           title="No extraction yet"
-          description="Enter a base URL and page range, then click Extract MCQs to preview the results in a popup."
+          description="Select a year and subject from Testpoint, or enter a manual URL, then click Extract MCQs to preview the results."
         />
       )}
 
@@ -168,9 +248,6 @@ function MCQExtractorPage() {
             <div className="overflow-y-auto p-5 space-y-4">
               {state.result.items.length > 0 ? (
                 <section>
-                  {/* <h3 className="text-sm font-medium text-success flex items-center gap-2 mb-2">
-                    <CheckCircle2 className="size-4" /> Ready to import
-                  </h3> */}
                   <div className="space-y-3">
                     {state.result.items.map((item, index) => (
                       <MCQResultCard key={item.id} item={item} index={index} />

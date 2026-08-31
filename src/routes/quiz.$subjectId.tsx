@@ -15,6 +15,16 @@ function QuizPage() {
   const subject = useMemo(() => subjects.find((x) => x.id === subjectId), [subjects, subjectId]);
   const items = useMemo(() => mcqs.filter((m) => m.subjectId === subjectId), [mcqs, subjectId]);
 
+  const subtopics = useMemo(() => subjects.filter((s) => s.parentId === subjectId), [subjects, subjectId]);
+
+  const mcqsBySubtopic = useMemo(() => {
+    const map: Record<string, typeof mcqs> = {};
+    for (const sub of subtopics) {
+      map[sub.id] = mcqs.filter((m) => m.subjectId === sub.id);
+    }
+    return map;
+  }, [mcqs, subtopics]);
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
@@ -26,7 +36,13 @@ function QuizPage() {
         <div className="text-xs text-primary-glow uppercase tracking-wider">Practice</div>
         <h1 className="text-3xl">{subject?.name ?? "Subject"}</h1>
       </div>
-      <QuizRunner items={items} title={subject?.name ?? ""} emptyText="No MCQs yet — upload a PDF on the Subjects page." />
+      <QuizRunner
+        items={items}
+        title={subject?.name ?? ""}
+        emptyText="No MCQs yet — upload a PDF on the Subjects page."
+        subtopics={subtopics}
+        mcqsBySubtopic={mcqsBySubtopic}
+      />
     </div>
   );
 }
