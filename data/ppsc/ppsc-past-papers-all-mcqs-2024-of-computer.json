@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2024 of Computer",
+  "mcqs": [
+    {
+      "question": "What is an other name for Junk Email?",
+      "options": {
+        "A": "Spoof",
+        "B": "Spill",
+        "C": "Spam",
+        "D": "Spat"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "\"Ctrl + Home\" is used to ______?",
+      "options": {
+        "A": "Moves the cursor to the beginning of Line",
+        "B": "Moves the cursor to the beginning of Paragraph",
+        "C": "Moves the cursor to the beginning of Document",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following standard file formats is used in PowerPoint when saving a presentation?",
+      "options": {
+        "A": ".ppt",
+        "B": ".docx",
+        "C": ".xlsx",
+        "D": ".pptx"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In order to edit a chart, you can _______?",
+      "options": {
+        "A": "Click the chart object",
+        "B": "Triple click the chart object",
+        "C": "Click and drag the chart object",
+        "D": "Double click the chart object"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which shortcut key is used to use the find and replace feature?",
+      "options": {
+        "A": "CTRL + H",
+        "B": "CTRL + F",
+        "C": "CTRL + G",
+        "D": "CTRL + R"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Header and Footer command are located on the _______ tab in MS Word.",
+      "options": {
+        "A": "Home",
+        "B": "Insert",
+        "C": "View",
+        "D": "Header"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The function of Alt + Tab on the keyboard is?",
+      "options": {
+        "A": "Switch between open program / Open applications/windows",
+        "B": "Switch between close program",
+        "C": "Active search",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The intersection of columns and rows in called a?",
+      "options": {
+        "A": "Schema",
+        "B": "Cell",
+        "C": "Table",
+        "D": "Data"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which part of computer is known as Heart/Brain of Computer?",
+      "options": {
+        "A": "Monitor",
+        "B": "Microprocessor/CPU",
+        "C": "Scanner",
+        "D": "Keyboard"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the founder of Google?",
+      "options": {
+        "A": "Sergen Brin",
+        "B": "Larry Page",
+        "C": "Steve Jobs",
+        "D": "Both A & B"
+      },
+      "correct": "D"
+    }
+  ]
+}

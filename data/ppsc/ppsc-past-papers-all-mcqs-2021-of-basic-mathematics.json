@@ -1,0 +1,965 @@
+{
+  "name": "PPSC Past Papers all MCQs 2021 of Basic Mathematics",
+  "mcqs": [
+    {
+      "question": "If one-third of one-fourth of a number is 15, then three-tenth of that number is?",
+      "options": {
+        "A": "66",
+        "B": "55",
+        "C": "56",
+        "D": "54"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "15 men were hired to plough a piece if land in 10 days. To complete the same job in three days more number of men is required _____?",
+      "options": {
+        "A": "35",
+        "B": "40",
+        "C": "50",
+        "D": "30"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A school has only four classes that contain 10, 20, 30, and 40 students respectively. The pass percentage of these classes are 20%, 30%, 60%, and 100% respectively. Find the pass % of the entire school.",
+      "options": {
+        "A": "56%",
+        "B": "44%",
+        "C": "66%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The mean proportional between 2 and 8 is?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "8",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Working 5 hours a day, A can Complete a work in 8 days and working 6 hours a day, B can complete the same work in 10 days. Working 8 hours a day, they can jointly completely the work in?",
+      "options": {
+        "A": "4.5 days",
+        "B": "4 days",
+        "C": "3 days",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "220% of a number X is 44. What is 44% of X.",
+      "options": {
+        "A": "6.6",
+        "B": "8.9",
+        "C": "8.8",
+        "D": "8.0"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If P * Q = P + Q + P / Q then 8 * 2 is?",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "14",
+        "D": "16"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If a/3 = b/2 then value of is 2a+3b/3a-2b is?",
+      "options": {
+        "A": "12/5",
+        "B": "10/7",
+        "C": "11/6",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The angle of elevation of a ladder leaning against a wall 60° and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is?",
+      "options": {
+        "A": "9.2",
+        "B": "10.2",
+        "C": "8.2",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The ratio of ages of two students is 3 : 2. One is older than the other by 5 years. What is the age of the younger student?",
+      "options": {
+        "A": "3 years",
+        "B": "10 years",
+        "C": "15 years",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The angle of elevation of the sun, when the length of the shadow of a tree is equal to the height of the tree is?",
+      "options": {
+        "A": "45 degree",
+        "B": "30 degree",
+        "C": "75 degree",
+        "D": "60 degree"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "1.14 expressed as a percent of 1.9 is?",
+      "options": {
+        "A": "60%",
+        "B": "6%",
+        "C": "10%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If x, y are two positive real number and x13=y14,. then which of the following relations is true?",
+      "options": {
+        "A": "X3=Y4",
+        "B": "X=Y4",
+        "C": "X3=Y",
+        "D": "None of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The value of 3.5×1.4/0.7 is? |",
+      "options": {
+        "A": "7",
+        "B": "0.7",
+        "C": "0.07",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of two numbers is 40 and their difference is 4. The ratio of the numbers is:",
+      "options": {
+        "A": "21:19",
+        "B": "22:9",
+        "C": "11:9",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Two numbers are respectively 20% and 50% more than a third number. The percentage of two numbers is?",
+      "options": {
+        "A": "65%",
+        "B": "70%",
+        "C": "80%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A man walked for 1/3 hour and then got an automobile ride for 1/2 hour, what part of time consumed he ride on automobile?",
+      "options": {
+        "A": "1.4",
+        "B": "3",
+        "C": "0.3",
+        "D": "0.6"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Express the recurring decimal 0.125125 as a rational number?",
+      "options": {
+        "A": "125/999",
+        "B": "125/9",
+        "C": "125/99",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The solution of (1+1/x) (1+1/x+1) (1+1/x+2) (1 + 1/x + 3) is?",
+      "options": {
+        "A": "x + 6/x",
+        "B": "x + 8/x",
+        "C": "x + 4/x",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a set S: {0, 2, 4, 5, 9}. Which number, if skipped in the set, maintains the same average?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The average age of 3 friends is 23. Even if the age of the 4th friend is added, the average remains 23. What is the age of the 4th friend?",
+      "options": {
+        "A": "23 years",
+        "B": "22 years",
+        "C": "33 years",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "0.005 × 0.2 = ______?",
+      "options": {
+        "A": "0.01",
+        "B": "0.001",
+        "C": "0.2",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "There are two sections A and B of a class, consisting of 36 and 44 students respectively. If the average weight of section A is 40kg and that of section B is 35kg. Find the average weight of the whole class?",
+      "options": {
+        "A": "37.25 kg.",
+        "B": "37.85 kg.",
+        "C": "35.25 kg.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 3^x+3 + 7 = 250; then x is equal to?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A certain number of two digits is three times the sum of its digits. If 45 is added to it, the digits are reversed. The number is?",
+      "options": {
+        "A": "26",
+        "B": "27",
+        "C": "25",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "There are twice as many boys as there are girls if 30% of the boys and 45% of the girls failed in the exams then. What percentage of the class passed the exams?",
+      "options": {
+        "A": "65%",
+        "B": "40%",
+        "C": "52%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Rs. 1200 is lent out at 5% per annum simple interest for 3 years. Find the amount after 3 years.",
+      "options": {
+        "A": "1380",
+        "B": "1290",
+        "C": "1470",
+        "D": "1200"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A class had 14 boys with an average height of 5.3 feet. A new boy joined the class. Now the average of the 15 boys in the class was 5.25 feet. How tall was the new boy?",
+      "options": {
+        "A": "4.55 feet",
+        "B": "5.55 feet",
+        "C": "3.55",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The area of a circle is 98.56 cm^2. Find it's circumference?",
+      "options": {
+        "A": "37.2 cm",
+        "B": "39.2 cm",
+        "C": "35.2 cm",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the value of X 3889 + 12.952 - X = 3854.002.",
+      "options": {
+        "A": "47.95",
+        "B": "44.95",
+        "C": "50.95",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "0.009/x = 0.01. Find the value of X.",
+      "options": {
+        "A": "0.9",
+        "B": "0.09",
+        "C": "0.009",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the average of the numbers: 0, 0, 4, 10, 5, and 5?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Two numbers are respectively 60% and 20% more than a third number. What percentage is the second to the first?",
+      "options": {
+        "A": "75%",
+        "B": "80%",
+        "C": "70%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Two numbers are in the ratio 3:5. If 9 is subtracted from each number, the ratio becomes 12:23. The smaller number is?",
+      "options": {
+        "A": "32",
+        "B": "33",
+        "C": "31",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "15 cattle can graze a field in 20 days 20 cattle can graze 3 such field in how many days?",
+      "options": {
+        "A": "45",
+        "B": "30",
+        "C": "60",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 2/3 of A=75% of B = 0.6 of C, then A : B : C is?",
+      "options": {
+        "A": "9:8:10",
+        "B": "9:7:10",
+        "C": "6:8:10",
+        "D": "9:6:10"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Three-forth of a number is 60 more than its one-third. The number is _____?",
+      "options": {
+        "A": "84",
+        "B": "144",
+        "C": "108",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If X% of 25/2 is 150 then the value of \"X\" is ______?",
+      "options": {
+        "A": "1200",
+        "B": "1000",
+        "C": "1400",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A sum of Rs.12,500 amounts to Rs. 15,500 in 4 years at the rate of simple interest. What is the rate of interest?",
+      "options": {
+        "A": "8%",
+        "B": "6%",
+        "C": "10%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A student obtained 75%, 80% and 85% in three subjects, if the marks of another subject are added then the number cannot be less than ______?",
+      "options": {
+        "A": "70%",
+        "B": "80%",
+        "C": "60%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If a number is multiplied by two-third of itself the value so obtained is 864. What is the number?",
+      "options": {
+        "A": "36",
+        "B": "34",
+        "C": "35",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In how many ways can a President, Vice President, and Water-boy be selected from a group of 10 people?",
+      "options": {
+        "A": "10P3",
+        "B": "10C3",
+        "C": "240",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If x : y = 5 : 2, then (8x + 9y) : (8x + 2y) is?",
+      "options": {
+        "A": "29:22",
+        "B": "26:61",
+        "C": "22:29",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Given that 10^0.48 = x, 10^0.70 = y and x^z = y^2, then the value of z is closest to _____?",
+      "options": {
+        "A": "2.9",
+        "B": "1.45",
+        "C": "1.88",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "4.036 is divided by 0.04 we get?",
+      "options": {
+        "A": "100.9",
+        "B": "101.0",
+        "C": "100.0",
+        "D": "102.0"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A:B = 2:3, B:C = 3:4, A:D = 4:5. Find C:D?",
+      "options": {
+        "A": "2:5",
+        "B": "8:5",
+        "C": "4:5",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The angle of depression of a point situated at a distance of 70m from the base of a tower is 60. the height of the tower is?",
+      "options": {
+        "A": "35square root 3m",
+        "B": "70 square root 3/3m",
+        "C": "70 m",
+        "D": "70 square root 3m"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If A : B = 2 : 3 and B : C = 4 : 5, then A : B : C =?",
+      "options": {
+        "A": "8 : 12 : 15",
+        "B": "9 : 11 : 15",
+        "C": "9 : 17 : 18",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The cost of a car is 400% greater than the cost of a bike. If there is an increase in the cost of the car is 15% and that of bike 20%. Then the total increase in the cost of the 5 cars and 10 bikes is ____?",
+      "options": {
+        "A": "15 3/7%",
+        "B": "14 3/7%",
+        "C": "16 3/7%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The average of five numbers is 27. If one number is excluded, the average becomes 25. The excluded number is _______?",
+      "options": {
+        "A": "27",
+        "B": "35",
+        "C": "30",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The salaries of A, B and C are in the ratio 1 : 3 : 4. If the salaries are increased by 5%, 10% and 15% respectively, then the increased salaries will be in the ratio?",
+      "options": {
+        "A": "21 : 66 : 92",
+        "B": "20 : 66 : 95",
+        "C": "21 : 66 : 95",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "1/Log3 60 + 1/Log4 60 +1/ Log5 60 = ____?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "5",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A washer man irons 4 shirts in 12 minutes. How many shirts he ironed in one hour?",
+      "options": {
+        "A": "16",
+        "B": "20",
+        "C": "24",
+        "D": "30"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A and B can do a piece of work in 12 days B and C in 15 days C and A in 20 days then that numbers of days taken by A B and C together to finish the work are?",
+      "options": {
+        "A": "20 days",
+        "B": "10 days",
+        "C": "14 days",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Hassan borrowed 5000 with simple interest for five years. He paid an extra 500 then how much percent he pays per annum?",
+      "options": {
+        "A": "3.5%",
+        "B": "2%",
+        "C": "3%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "50 Ali shell collection share is 80% more than Aslam. If Aslam has 80 more shell than total number of shell will be _____?",
+      "options": {
+        "A": "620",
+        "B": "820",
+        "C": "720",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 10 persons can do a job in 20 days than 20 persons with twice efficiency can do the same job in ____?",
+      "options": {
+        "A": "5 days",
+        "B": "10 days",
+        "C": "3 days",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A person bought an item for Rs.2500 and sold it for 15% discount. What was the selling price after discount?",
+      "options": {
+        "A": "Rs. 2025",
+        "B": "Rs. 2250",
+        "C": "Rs. 2125",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 4^(4x+1)=1/64, then the value of X is?",
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "0",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Three times the first of three consecutive odd integers is 3 more than twice the third. What is the third integer?",
+      "options": {
+        "A": "15",
+        "B": "19",
+        "C": "17",
+        "D": "14"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If m:n = 3:2, the (4m+5n):(4m-5n) is equal to _____?",
+      "options": {
+        "A": "4:9",
+        "B": "11:1",
+        "C": "9:4",
+        "D": "9:1"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If a 162km long road can be constructed in 9 months.How many number of months are required to construct a 306km long road?",
+      "options": {
+        "A": "17",
+        "B": "16",
+        "C": "19",
+        "D": "15"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If a person A completes a work in 12 days and person B in 6 days and they start working together then In how many days they will complete the work?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the area of a circle is 38.5m 2, then its circumference will be _____?",
+      "options": {
+        "A": "22 m",
+        "B": "2.2 m",
+        "C": "38.5 m",
+        "D": "35 m"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A sum of 95000 is to be divided among A, B and C in such a way that A:B is 2:3 and B:C is 2:3 what will be the share of A?",
+      "options": {
+        "A": "20000",
+        "B": "35000",
+        "C": "17000",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A village has 5860 voters, of whom 7% usually forget to vote. In order to win an election, a candidate must gain at least 50% of the remaining votes. How many votes does he need to win.",
+      "options": {
+        "A": "2725",
+        "B": "5450",
+        "C": "3450",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 42 women can do a work in 18 days, how many women will do the same work in 21 days?",
+      "options": {
+        "A": "18",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If A is equal to √5+1+ √5 -1 B is equal to √5 -1+ √5 + 1 then A+B is?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 2994 ÷ 14.5 = 172, then 29.94 ÷ 1.45 = _____?",
+      "options": {
+        "A": "0.172",
+        "B": "17.2",
+        "C": "1.72",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A chemical solution contains 8% acid. If there is 15 ml acid in the solution. what is the volume of the solution?",
+      "options": {
+        "A": "187 ml",
+        "B": "188 ml",
+        "C": "197 ml",
+        "D": "187.5 ml"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "21 binders can bind 1400 books in 15 days. How many binders will required to bind 800 books in 20 days?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "5",
+        "D": "3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A ladder makes an angle of 60 degree with the ground when placed against a wall. If the foot of the ladder is 2m away from the wall, then the length (in meters) is?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "(2.39)^2 - (1.61)^2/2.39 - 1.61?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "0.232323 is also written in the form of?",
+      "options": {
+        "A": "1/5",
+        "B": "23/99",
+        "C": "23/100",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "An army camp of 200 men has enough food for 60 days. How long will the food last if the number of men in the camp is reduced to 160?",
+      "options": {
+        "A": "80",
+        "B": "75",
+        "C": "70",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "12 men and 15 women can reap a field in 14 days. Find the number of days that 7 men and 5 women will take to reap it?",
+      "options": {
+        "A": "168/11 days",
+        "B": "160/11 days",
+        "C": "178/11 days",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the interest on Rs. 800 in 2 years is more than the interest on Rs. 400 by Rs. 40 in 2 years. Find the rate of simple interest.",
+      "options": {
+        "A": "5%",
+        "B": "6%",
+        "C": "7%",
+        "D": "9%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If log2 = 0.3010 and 3=0.4771, the value of log5 512 is?",
+      "options": {
+        "A": "3.876",
+        "B": "3.89",
+        "C": "3.987",
+        "D": "3.098"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If a school cafeteria needs C cans of soup each week for each student, and if there are S students in the school, for how many weeks will X cans of soup last?",
+      "options": {
+        "A": "X/SC",
+        "B": "X/CX",
+        "C": "XS/C",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If x= 3 + √8. Find the value of x² + 1/x²?",
+      "options": {
+        "A": "36",
+        "B": "32",
+        "C": "34",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The price of the pen is 75. After a 15% discount its prize is?",
+      "options": {
+        "A": "60",
+        "B": "55",
+        "C": "51",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 1 < x 2, then the value of √(x - 1)^2 + √(3 - x)^2?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "2",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the angle between minutes and hour hands of a clock 8:30?",
+      "options": {
+        "A": "60 degree",
+        "B": "65 degree",
+        "C": "70 degree",
+        "D": "75 degree"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The average of runs of a cricket player in 10 innings was 32. How many runs must he make in his next innings so as to increase his average of runs by 4?",
+      "options": {
+        "A": "76",
+        "B": "75",
+        "C": "74",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 60 women spin 48 kg of cotton by working 8 hours daily, how much cotton will 30 women spin by working 12 hours daily?",
+      "options": {
+        "A": "32 kg",
+        "B": "36 kg",
+        "C": "34 kg",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A sum of money doubles in 3 years at compound interest, compounded annually at the same rate. It will become 4 times itself in _____?",
+      "options": {
+        "A": "5 years",
+        "B": "4 years",
+        "C": "6 years",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The average of 50 numbers is 30. If two numbers 35 and 40 are discarded, then the average of the remaining numbers is nearly?",
+      "options": {
+        "A": "29.68",
+        "B": "28.32",
+        "C": "29.27",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The first and foremost function of management is:",
+      "options": {
+        "A": "planning",
+        "B": "organizing",
+        "C": "controlling",
+        "D": "coordination"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "_______ refers to the risk inherent to the entire market r market segment.",
+      "options": {
+        "A": "Financial risk",
+        "B": "Purchasing power",
+        "C": "Systematic risk",
+        "D": "Interest free risk"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "value of 3.4*1/4/0.7= ___ ?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "5",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Product of two numbers is 72.Find the other number when one is 9?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "5",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sum of 2 numbers is 40 and their difference is 4.Ratio of numbers is",
+      "options": {
+        "A": "11:9",
+        "B": "11:7",
+        "C": "11:1",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A hollow iron pipe is 21cm long and its external diameter is 8cm. If the thickness of the pipe is 1cm and iron weighs 8g/cm 3 , then the weight of pipe is :",
+      "options": {
+        "A": "3.696kg",
+        "B": "6.696kg",
+        "C": "4.696kg",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of five consecutive even numbers of set x is 440. Find the sum of a different set of five consecutive integers whose second least number is 121 less than double the least number of set x?",
+      "options": {
+        "A": "236",
+        "B": "228",
+        "C": "240",
+        "D": "248"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a mixture 60 litres, the ratio of milk and water 2:1. If this ratio is to be 1:2, then the quanity of water to be further added is",
+      "options": {
+        "A": "60",
+        "B": "50",
+        "C": "40",
+        "D": "80"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A farmer bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "correct": "B"
+    }
+  ]
+}

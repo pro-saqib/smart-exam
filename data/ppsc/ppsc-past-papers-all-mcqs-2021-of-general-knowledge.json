@@ -1,0 +1,1404 @@
+{
+  "name": "PPSC Past Papers all MCQs 2021 of General Knowledge",
+  "mcqs": [
+    {
+      "question": "Which Continent has no desert?",
+      "options": {
+        "A": "Europe",
+        "B": "Australia",
+        "C": "N.America",
+        "D": "S.America"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mount Vesuvius is located in which country?",
+      "options": {
+        "A": "Greece",
+        "B": "Italy",
+        "C": "Turkey",
+        "D": "Spain"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest Island of the world is _____?",
+      "options": {
+        "A": "Iceland",
+        "B": "Cyprus",
+        "C": "Greenland",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When did the United Kingdom (UK) leave the European Union (Brexit)?",
+      "options": {
+        "A": "28 January 2020",
+        "B": "29 January 2020",
+        "C": "30 January 2020",
+        "D": "31 January 2020"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Neymar of Brazil is associated with which sport?",
+      "options": {
+        "A": "Football",
+        "B": "Cricket",
+        "C": "Tennis",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cyprus is disputed between ______?",
+      "options": {
+        "A": "Italy and Turkey",
+        "B": "Greece and Italy",
+        "C": "Greece and Turkey",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "United Nations Organization (UNO) officially came into existence / was founded / established on?",
+      "options": {
+        "A": "10 October 1945",
+        "B": "14 October 1945",
+        "C": "24 October 1945",
+        "D": "28 October 1945"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which flower is the National flower of Pakistan?",
+      "options": {
+        "A": "Rose",
+        "B": "Sunflower",
+        "C": "Lilly",
+        "D": "Jasmine"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many Countries are members of OIC?",
+      "options": {
+        "A": "55",
+        "B": "56",
+        "C": "57",
+        "D": "69"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Where is the headquarters of SAARC located?",
+      "options": {
+        "A": "Katmandu, Nepal",
+        "B": "Islamabad, Pakistan",
+        "C": "Delhi, India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the capital of Chile?",
+      "options": {
+        "A": "Prague",
+        "B": "Vienna",
+        "C": "Santiago",
+        "D": "Bern"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Dr Yousaf",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The world’s Largest fresh water Lake is?",
+      "options": {
+        "A": "Lake Superior",
+        "B": "Lake Victoria",
+        "C": "Great Bear Lake",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CPEC stands for _____?",
+      "options": {
+        "A": "China Pakistan Economic Council",
+        "B": "China–Pakistan Economic Corridor",
+        "C": "China Pakistan Energy Corridor",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the artist of famous painting \"Mona Lisa\"?",
+      "options": {
+        "A": "Michael-Angelo",
+        "B": "Leonardo da Vinci",
+        "C": "Picasso",
+        "D": "Van Gogh"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What was the purpose of the Marshall Plan in 1948?",
+      "options": {
+        "A": "Foreign aid to Western Europe / Rebuild war-torn European economies",
+        "B": "Economic assistance to Africa",
+        "C": "Recovery from WW1",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Magna Carta signed by King John of England?",
+      "options": {
+        "A": "1212",
+        "B": "1215",
+        "C": "1216",
+        "D": "1218"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest bird in the world is?",
+      "options": {
+        "A": "Cranes Bald-eagle",
+        "B": "Ostrich",
+        "C": "Penguin",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is the deepest ocean of the world?",
+      "options": {
+        "A": "Artic Ocean",
+        "B": "Pacific Ocean",
+        "C": "Atlantic Ocean",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Human Rights Day is observed on which date?",
+      "options": {
+        "A": "10 December",
+        "B": "20 December",
+        "C": "15 December",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When the first Oscar Award was given?",
+      "options": {
+        "A": "1968",
+        "B": "1901",
+        "C": "1929",
+        "D": "1946"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country is called the Land of Flowers?",
+      "options": {
+        "A": "Netherlands",
+        "B": "Holland",
+        "C": "Indonesia",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the Longest River in the World?",
+      "options": {
+        "A": "Nile",
+        "B": "Amazon",
+        "C": "Missi pissi",
+        "D": "Yangtze"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Business through the internet is called?",
+      "options": {
+        "A": "E-Commerce",
+        "B": "Courier",
+        "C": "Credit card",
+        "D": "Online shopping"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Mughal emperor abolished the Jizya tax?",
+      "options": {
+        "A": "Aurangzeb",
+        "B": "Akbar",
+        "C": "Humayun",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Golden Gate Bridge is located in _____?",
+      "options": {
+        "A": "San Francisco",
+        "B": "Washington",
+        "C": "New York",
+        "D": "None of the"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Corona Virus initiated in which city of China?",
+      "options": {
+        "A": "Beijing",
+        "B": "Wuhan",
+        "C": "Tianjin",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the national currency of China?",
+      "options": {
+        "A": "Yen",
+        "B": "Lira",
+        "C": "Yuan",
+        "D": "Rupee"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the Capital of Lebanon country?",
+      "options": {
+        "A": "Beriut",
+        "B": "Cairo",
+        "C": "Bako",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "International Committee of Red Cross (ICRC) has won Nobel Prize ________ times.",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the capital of Turkey?",
+      "options": {
+        "A": "Marmaris",
+        "B": "Ankara",
+        "C": "Anatolia",
+        "D": "Azmier"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Taj Mahal is located in the city of _____?",
+      "options": {
+        "A": "Delhi",
+        "B": "Bombay",
+        "C": "Calcutta",
+        "D": "Agra"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Antonio Guterres became 9th Secretary General of UNO. He belongs to which country?",
+      "options": {
+        "A": "Portugal",
+        "B": "Spain",
+        "C": "France",
+        "D": "England"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was NATO founded?",
+      "options": {
+        "A": "1948",
+        "B": "1951",
+        "C": "1946",
+        "D": "1949"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which year did the Bolsheviks Revolution take place in Russia?",
+      "options": {
+        "A": "1913",
+        "B": "1917",
+        "C": "1915",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Greenwich is located near which country?",
+      "options": {
+        "A": "London",
+        "B": "Switzerland",
+        "C": "Belgium",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"Myanmar\" is the new/old name of _____ ?",
+      "options": {
+        "A": "Chilli",
+        "B": "Burma",
+        "C": "Niger",
+        "D": "Tibet"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Former Secretary General Kofi Annan of United Nations belonged to which country?",
+      "options": {
+        "A": "Uganda",
+        "B": "Ghana",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the writer of the book \"India wins freedom\"?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Abul Kalam Azad",
+        "C": "Choudhri Rehmat Ali",
+        "D": "General Ayoub Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is known as Father of History of Psychology?",
+      "options": {
+        "A": "Herodotus",
+        "B": "Edward gibbon",
+        "C": "Wilhem Wundt",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Capital of Libya is _____?",
+      "options": {
+        "A": "Tripoli",
+        "B": "London",
+        "C": "Cairo",
+        "D": "Tashkent"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mesopotamia means",
+      "options": {
+        "A": "Land between oceans",
+        "B": "Land between seas",
+        "C": "Land between rivers",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Arctic region of earth contains how reserves of Earth _____?",
+      "options": {
+        "A": "25%",
+        "B": "10%",
+        "C": "20%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country has no land border?",
+      "options": {
+        "A": "Cuba",
+        "B": "Sri Lanka",
+        "C": "Nepal",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first to invent Airplane?",
+      "options": {
+        "A": "Wright Brothers",
+        "B": "Aero Brothers",
+        "C": "William Brothers",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the capital of Argentina?",
+      "options": {
+        "A": "Harare",
+        "B": "Kuala Lumpur",
+        "C": "Buenos Aires",
+        "D": "Brazilia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which two oceans are connected by the Panama Canal?",
+      "options": {
+        "A": "Mediterranean Sea with Red Sea",
+        "B": "Atlantic and Pacific ocean",
+        "C": "Mediterranean Sea with Baltic Sea",
+        "D": "Mediterranean Sea with Black Sea"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which university was the Bitcoin currency first introduced?",
+      "options": {
+        "A": "Nicosia",
+        "B": "Oxford",
+        "C": "Monash",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the Currency of Indonesia?",
+      "options": {
+        "A": "Dinar",
+        "B": "Rupiah",
+        "C": "Ringgit",
+        "D": "Dollar"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the capital of Denmark?",
+      "options": {
+        "A": "Kuala Lumpur",
+        "B": "Copenhagen",
+        "C": "Kabul",
+        "D": "London"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A person who loves mankind is called ---",
+      "options": {
+        "A": "Philanthropist",
+        "B": "Physiotherapist",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "WIPO is the abbreviation of _____?",
+      "options": {
+        "A": "World International Peace Organization",
+        "B": "World Intellectual Property Organization",
+        "C": "Web International Peace Organization",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country became the 20th member to join Euro Zone?",
+      "options": {
+        "A": "Slovenia",
+        "B": "Serbia",
+        "C": "Croatia",
+        "D": "Zagreb"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Treaty of versailles signed between Allied forces and _____?",
+      "options": {
+        "A": "Germany",
+        "B": "France",
+        "C": "Russia",
+        "D": "UK"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Bandar Abbas seaport is in which country?",
+      "options": {
+        "A": "Iraq",
+        "B": "Iran",
+        "C": "Egypt",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "IPP stands for?",
+      "options": {
+        "A": "International press of Pakistan",
+        "B": "Independent power producer",
+        "C": "Internal power plant",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The purest form of water is obtained from _____?",
+      "options": {
+        "A": "Rain water",
+        "B": "Sea water",
+        "C": "Acid rain",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Beirut is the capital city of which country?",
+      "options": {
+        "A": "Yemen",
+        "B": "Lebanon",
+        "C": "Greece",
+        "D": "Jordan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Ambassador of European Union to Pakistan?",
+      "options": {
+        "A": "Androulla Kaminara",
+        "B": "Stavros Lambrinidis",
+        "C": "Dr Riina Kionka",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the Largest Continent by Population?",
+      "options": {
+        "A": "Europe",
+        "B": "Asia",
+        "C": "North America",
+        "D": "South America"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "UN Organization works for Tourism Promotion is _____?",
+      "options": {
+        "A": "Tourist Commission",
+        "B": "World Tourist Organization",
+        "C": "World Tourist Community",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the capital of Georgia?",
+      "options": {
+        "A": "Sofia",
+        "B": "Bulgaria",
+        "C": "Atlanta",
+        "D": "Tbilisi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which Viceroy convened the ‘Simla Conference’ in 1945?",
+      "options": {
+        "A": "Lord Mountbatten",
+        "B": "Lord Wavell",
+        "C": "Lord Linlithgow",
+        "D": "Lord Willington"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many countries are members of the European Union?",
+      "options": {
+        "A": "28",
+        "B": "29",
+        "C": "30",
+        "D": "27"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Post Second World War era divided Germany into how many zones?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country has the largest nuclear power plant?",
+      "options": {
+        "A": "Japan",
+        "B": "Israel",
+        "C": "US",
+        "D": "UK"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Tashkent is the capital of ______?",
+      "options": {
+        "A": "Turkmenistan",
+        "B": "Kazakhstan",
+        "C": "Uzbekistan",
+        "D": "Azerbaijan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Industrial revolution started from which country?",
+      "options": {
+        "A": "England",
+        "B": "USA",
+        "C": "Canada",
+        "D": "UAE"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mossad is the intelligence agency of ______?",
+      "options": {
+        "A": "Israel",
+        "B": "Jordan",
+        "C": "UAE",
+        "D": "UK"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Great Bear is a _____?",
+      "options": {
+        "A": "Lake",
+        "B": "Monument",
+        "C": "Historical place",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which continent Japan is located?",
+      "options": {
+        "A": "East Asia",
+        "B": "Middle East",
+        "C": "Central Asia",
+        "D": "South Asia"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What percentage of the Earth is covered by forest?",
+      "options": {
+        "A": "31%",
+        "B": "50%",
+        "C": "40%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "During which year the first World War was started?",
+      "options": {
+        "A": "1912",
+        "B": "1913",
+        "C": "1914",
+        "D": "1915"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Francois Bernier was a ____traveler.",
+      "options": {
+        "A": "French",
+        "B": "British",
+        "C": "Dutch",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The third stage of the Rostow Model is _____?",
+      "options": {
+        "A": "Take off",
+        "B": "Traditional society",
+        "C": "Age of high mass",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "On which date did Israel attack Masjid-e-Aqsa?",
+      "options": {
+        "A": "11 May 2021",
+        "B": "10 May 2021",
+        "C": "9 May 2021",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the President of the USA during the Cuban missile U2 incident on October 14, 1962?",
+      "options": {
+        "A": "Lyndon B Johnson",
+        "B": "Richard Nixon",
+        "C": "John F. Kennedy",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does Schengen Area mean?",
+      "options": {
+        "A": "Free movement without passport check",
+        "B": "Certain restrictions",
+        "C": "Special visa is required to visit",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The last ruler of Soviet Union (USSR) was _______?",
+      "options": {
+        "A": "Mikhail Gorbachev",
+        "B": "Boris Yeltsin",
+        "C": "Leonid Brezhnev",
+        "D": "Ban Ki Moon"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "After the withdrawal of American forces, who took charge of Kabul airport?",
+      "options": {
+        "A": "Turkey",
+        "B": "India",
+        "C": "Taliban forces",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In the UK, who is first in line for the throne?",
+      "options": {
+        "A": "Prince of Wales",
+        "B": "Prince Andrew",
+        "C": "Prince Harry",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is considered one of the greatest investors in the world?",
+      "options": {
+        "A": "Bill Gates",
+        "B": "Elon Musk",
+        "C": "Warren Buffett",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Nagorno Karabagh dispute region among which countries?",
+      "options": {
+        "A": "Azerbaijan and India",
+        "B": "Armenia and India",
+        "C": "Azerbaijan and Armenia",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "UPS stands for _____?",
+      "options": {
+        "A": "Uninterruptible power supply",
+        "B": "Unforeseeable power supply",
+        "C": "Uninterruptible power supplement",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The headquarters of Economic Cooperation Organization (ECO) is at ____?",
+      "options": {
+        "A": "Islamabad",
+        "B": "Ankara",
+        "C": "Tehran",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country has threatened to withdraw from NPT?",
+      "options": {
+        "A": "Israel",
+        "B": "Russia",
+        "C": "Iran",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the owner of Amazon?",
+      "options": {
+        "A": "Mark Zuckerberg",
+        "B": "Jeff Bezos",
+        "C": "Elon Musk",
+        "D": "Satya Nadeela"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "First Arab space mission to Mars Al-Amal launched by which country?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "UAE",
+        "C": "Qatar",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Crimean Peninsula was annexed by the Russian Federation in ______?",
+      "options": {
+        "A": "2014",
+        "B": "2015",
+        "C": "2016",
+        "D": "2017"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Siddhartha was written by ____?",
+      "options": {
+        "A": "Herman Hesse",
+        "B": "Gotam Buddah",
+        "C": "Kishan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is a basin?",
+      "options": {
+        "A": "Deep area of River",
+        "B": "Lower area of land",
+        "C": "High area of land",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How much trade are made through South China Sea?",
+      "options": {
+        "A": "$3.5 billion",
+        "B": "$1.5 billion",
+        "C": "$2.5 billion",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The slogan \"No taxation without representation\" was first raised in which country?",
+      "options": {
+        "A": "America",
+        "B": "France",
+        "C": "Germany",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Swiss Port established in _____?",
+      "options": {
+        "A": "1996",
+        "B": "1999",
+        "C": "1994",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is known as Birds continent?",
+      "options": {
+        "A": "North America",
+        "B": "South America",
+        "C": "Asia",
+        "D": "Europe"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ismail Haniyeh was the leader of ______?",
+      "options": {
+        "A": "PLO",
+        "B": "Hamas",
+        "C": "Hezbollah",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many members are there of Commonwealth?",
+      "options": {
+        "A": "50",
+        "B": "56",
+        "C": "48",
+        "D": "47"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is known as the Treaty of Treaties?",
+      "options": {
+        "A": "Manual of Treaties",
+        "B": "The Treaties on Public and Private International Law",
+        "C": "Vienna Convocation on the Law of Treaties",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "OIC is related to _____?",
+      "options": {
+        "A": "Developing Countries",
+        "B": "European Organization",
+        "C": "Muslim World",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country joined BRICS grouping in 2010?",
+      "options": {
+        "A": "Russia",
+        "B": "China",
+        "C": "South Africa",
+        "D": "India"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "SAARC consist of _____?",
+      "options": {
+        "A": "Central Asia",
+        "B": "Middle East",
+        "C": "South Asia",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Shatt Al-Arab is the River that borders two countries which are ______?",
+      "options": {
+        "A": "Iran and Iraq",
+        "B": "Iran and Egypt",
+        "C": "Iran and Oman",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Max Weber was famous a German ____?",
+      "options": {
+        "A": "Sociologist",
+        "B": "Biologist",
+        "C": "Artist",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mussolini is from which country?",
+      "options": {
+        "A": "Italy",
+        "B": "France",
+        "C": "Russia",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who started Civil Rights Movement?",
+      "options": {
+        "A": "Martin Luther King",
+        "B": "Martin Luther",
+        "C": "Abraham Lincoln",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "India took up the case of Kulbushan Jhadav in?",
+      "options": {
+        "A": "International Criminal Court",
+        "B": "European Court of Justice",
+        "C": "International Court of Justice",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Iron Dome is a Mobile Defence system developed by which country?",
+      "options": {
+        "A": "Israel",
+        "B": "Iran",
+        "C": "Japan",
+        "D": "USA"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Desert is called Cold Desert?",
+      "options": {
+        "A": "Gobi",
+        "B": "Sahara",
+        "C": "Arabian",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Adam Smith was famous a/an ______?",
+      "options": {
+        "A": "Musician",
+        "B": "Historian",
+        "C": "Poet",
+        "D": "Economist"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The last leap year, where February had 29 days, was ___?",
+      "options": {
+        "A": "2023",
+        "B": "2024",
+        "C": "2022",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discovered Hydrogen Bomb?",
+      "options": {
+        "A": "Robert Oppen Heimer",
+        "B": "WC Roentgen",
+        "C": "Edward Teller",
+        "D": "Rozer Banken"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "UN Climate Change Conference (COP26) 2021 was held in _____?",
+      "options": {
+        "A": "Glasgow, UK",
+        "B": "Islamabad, Pakistan",
+        "C": "Mumbai, India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Asian Volleyball 2021 Tournament was held in ______?",
+      "options": {
+        "A": "Nepal",
+        "B": "Japan",
+        "C": "Indonesia",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CoronaVac is an inactivated virus COVID-19 Vaccine was developed by ____?",
+      "options": {
+        "A": "America",
+        "B": "Russia",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country registers ‘world’s first’ Covid-19 vaccine for animals?",
+      "options": {
+        "A": "China",
+        "B": "Russia",
+        "C": "India",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country introduced equal payment to men and women in private sector?",
+      "options": {
+        "A": "UAE",
+        "B": "Saudi Arabia",
+        "C": "Qatar",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The latest internet clampdown in occupied Kashmir by the Indian Government started on _____?",
+      "options": {
+        "A": "15 August 2019",
+        "B": "05 August 2019",
+        "C": "25 August 2019",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "On 25 December 2020 which legendary Urdu writer died of Covid -19 Complications?",
+      "options": {
+        "A": "Shams Ur Rahman Farooqi",
+        "B": "Rahat Indori",
+        "C": "Sibte Arif",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The 14th United Nations Congress on Crime Prevention and Criminal Justice was held in _____?",
+      "options": {
+        "A": "Rabat, Morocco",
+        "B": "Kyoto, Japan",
+        "C": "Osaka, Japan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest exporter of LNG is _____?",
+      "options": {
+        "A": "Qarar",
+        "B": "UAE",
+        "C": "Turkey",
+        "D": "USA"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Tyson Luke Fury is a famous British professional ______?",
+      "options": {
+        "A": "Cricket",
+        "B": "Hockey",
+        "C": "Boxing",
+        "D": "Football"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "WhIch country became the victim of Ukraine plane crash?",
+      "options": {
+        "A": "Germany",
+        "B": "Canada",
+        "C": "Iran",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which author has been selected for the Booker Prize 2020 for his work 'Shuggie Bain'?",
+      "options": {
+        "A": "Douglas Stuart",
+        "B": "Howard Jacobson",
+        "C": "Bernice Rubens",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "People in England died in 1952 due to _____?",
+      "options": {
+        "A": "The Great Flood",
+        "B": "The Great Smog",
+        "C": "The Great Fire",
+        "D": "The Great Earthquake"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The law that prohibit state and local law enforcement from targeting a person on the basis of racism, religious and national origin ____?",
+      "options": {
+        "A": "George Floyd Justice in Policing Act",
+        "B": "Police Reforms 2017",
+        "C": "End Racial and Religious Profiling Act",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Doha Agreement was settled between US and Afghanistan that ensures that Afghanistan soil could not be used against ______?",
+      "options": {
+        "A": "US and China",
+        "B": "US and Its Allies",
+        "C": "US and Pakistan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Palestinian uprising against Israel occupation of West Bank to Gaza from 1987 to 1991 is termed as?",
+      "options": {
+        "A": "Second Intifada",
+        "B": "First Intifada",
+        "C": "Third Intifada",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "United Nations election in 2020 is about _____?",
+      "options": {
+        "A": "To select non-permanent members of UN Security Council",
+        "B": "Kashmir Issue",
+        "C": "Armenia Issue",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the name of the UAE peace agreement with Israel?",
+      "options": {
+        "A": "Aman Accord",
+        "B": "Abraham Accord",
+        "C": "Hebrew Accord",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The average temperature of Pacific Ocean in summer or winter is _______?",
+      "options": {
+        "A": "Decreased",
+        "B": "Not Change",
+        "C": "Increased",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The continental shelf was one of the _______ treaties that agreed on the First convention of UN on Law of Sea.",
+      "options": {
+        "A": "Three",
+        "B": "Two",
+        "C": "Four",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country gets most monsoon rain?",
+      "options": {
+        "A": "East US",
+        "B": "South and East Asia",
+        "C": "Africa",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "FAO stands for _____?",
+      "options": {
+        "A": "Food and Airoplane Organization",
+        "B": "Food and Agriculture Olympic",
+        "C": "Food and Agriculture Organization",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Saudi Arabia allow women to join army?",
+      "options": {
+        "A": "28 February 2019",
+        "B": "26 February 2018",
+        "C": "31 January 2018",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sanghar district is also known as land of _____?",
+      "options": {
+        "A": "Hur Mujahid",
+        "B": "Singers",
+        "C": "Saints",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Organization of dependencies of UK which are now sovereign states where nominal need of organization is British Monarch?",
+      "options": {
+        "A": "European Union",
+        "B": "Common Wealth",
+        "C": "African countries",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "EURO TM was formulated n 1957 Its purpose was _____?",
+      "options": {
+        "A": "Provide nuclear energy to member states of European Union",
+        "B": "Sell energy to non-member states European states",
+        "C": "Procure atomic and nuclear energy",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many European countries who are member of European union but they are not using euro as their currency?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Empire State Building is located in _____?",
+      "options": {
+        "A": "London",
+        "B": "Birmingham",
+        "C": "Paris",
+        "D": "New Delhi"
+      }
+    },
+    {
+      "question": "The Muslims population in the world is?",
+      "options": {
+        "A": "1.9 billion",
+        "B": "1.7 billion",
+        "C": "1.8 billion",
+        "D": "None of these"
+      },
+      "correct": "C"
+    }
+  ]
+}

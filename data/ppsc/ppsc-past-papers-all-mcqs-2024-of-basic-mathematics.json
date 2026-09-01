@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2024 of Basic Mathematics",
+  "mcqs": [
+    {
+      "question": "If a dishwasher cleans 1350 dishes in 1 hour, how many dishes will it wash in 16 minutes?",
+      "options": {
+        "A": "360",
+        "B": "3600",
+        "C": "3600",
+        "D": "540"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the area of a circle is 275 m², what is its circumference?",
+      "options": {
+        "A": "55.8 m",
+        "B": "58.8 m",
+        "C": "60.5 m",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find the missing number 6,?,21,33,48.",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "8",
+        "D": "20"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of three consecutive numbers is 78. Find the greatest number?",
+      "options": {
+        "A": "27",
+        "B": "28",
+        "C": "29",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A person 1.6 m tall is 20 m away from a tower and observes the angle of elevation of the top of the tower to be 45°. What is the height of the tower?",
+      "options": {
+        "A": "21.6 m",
+        "B": "20.0 m",
+        "C": "20.6 m",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "C in Roman Language stands for",
+      "options": {
+        "A": "50",
+        "B": "100",
+        "C": "150",
+        "D": "200"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A number is increased by 20% and then decreased by 20%. Find the net increase or decrease percent?",
+      "options": {
+        "A": "Does not changes",
+        "B": "Decreased by 4%",
+        "C": "Increased by 4%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does a trade surplus mean?",
+      "options": {
+        "A": "Imports are greater than exports",
+        "B": "Exports are greater than imports",
+        "C": "Both exports and imports are equal",
+        "D": "There is no international trade"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A toy is sold for Rs. 220, what was the cost if the rate of profit was 10% of the cost?",
+      "options": {
+        "A": "Rs. 196",
+        "B": "Rs. 198",
+        "C": "Rs. 200",
+        "D": "Rs. 210"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the average of 5/6, 4/3, 3/4?",
+      "options": {
+        "A": "1",
+        "B": "35/36",
+        "C": "38/37",
+        "D": "6/5"
+      },
+      "correct": "B"
+    }
+  ]
+}

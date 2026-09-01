@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2024 of General Knowledge",
+  "mcqs": [
+    {
+      "question": "How many countries are declared nuclear powers?",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "8",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Pakistan first played hockey match in Olympic?",
+      "options": {
+        "A": "1947",
+        "B": "1948",
+        "C": "1949",
+        "D": "1950"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The second largest Continent (by area) of the world is ______?",
+      "options": {
+        "A": "North America",
+        "B": "Asia",
+        "C": "Africa",
+        "D": "Antarctica"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest/biggest ocean of the world is ______?",
+      "options": {
+        "A": "Atlantic",
+        "B": "Pacific",
+        "C": "Indian",
+        "D": "Arctic"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The ideal model of bureaucracy is based on?",
+      "options": {
+        "A": "Charismatic authority",
+        "B": "Traditional authority",
+        "C": "Legal-rational authority",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Big Ben clock is located in which city?",
+      "options": {
+        "A": "London",
+        "B": "Paris",
+        "C": "Ottawa",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the founder of Google?",
+      "options": {
+        "A": "Sergen Brin",
+        "B": "Larry Page",
+        "C": "Steve Jobs",
+        "D": "Both A & B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Hayat e javeed is written by?",
+      "options": {
+        "A": "Mirza ghalib",
+        "B": "Sir syed",
+        "C": "Altaf Hussain Hali",
+        "D": "Iqbal"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "After the United States, which country has successfully landed a robot on the surface of Mars on 15 May 2021?",
+      "options": {
+        "A": "Russia",
+        "B": "Germany",
+        "C": "China",
+        "D": "UK"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The world's first fully integrated AI-powered \"Smart Satellite\" platform was launched into space by which country?",
+      "options": {
+        "A": "Russia",
+        "B": "United States",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "C"
+    }
+  ]
+}

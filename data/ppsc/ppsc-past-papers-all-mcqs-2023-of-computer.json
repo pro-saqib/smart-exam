@@ -1,0 +1,2835 @@
+{
+  "name": "PPSC Past Papers all MCQs 2023 of Computer",
+  "mcqs": [
+    {
+      "question": "What is an other name for Junk Email?",
+      "options": {
+        "A": "Spoof",
+        "B": "Spill",
+        "C": "Spam",
+        "D": "Spat"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In MS Word, Ctrl + I shortcut key used for?",
+      "options": {
+        "A": "Underline",
+        "B": "Italic",
+        "C": "Bold",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The intersection of columns and rows in called a?",
+      "options": {
+        "A": "Schema",
+        "B": "Cell",
+        "C": "Table",
+        "D": "Data"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the default page orientation in MS-Word?",
+      "options": {
+        "A": "Long sides",
+        "B": "Portrait",
+        "C": "Landscape",
+        "D": "Double Long side"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is a graphical representation of data?",
+      "options": {
+        "A": "Chart",
+        "B": "Spreadsheet",
+        "C": "Database",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following shortcut keys is used to change the case in MS Word?",
+      "options": {
+        "A": "Ctrl+ F3",
+        "B": "Shift + F3",
+        "C": "Ctrl + F1",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A collection of system programs that controls and co-ordinates the overall operations of a computer system is called _______ ?",
+      "options": {
+        "A": "System software",
+        "B": "Operating system",
+        "C": "Utility program",
+        "D": "Device driver"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A computer program that translates one program instructions at a time into machine language is called?",
+      "options": {
+        "A": "Interpreter",
+        "B": "Compiler",
+        "C": "CPU",
+        "D": "Interpreter"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In MS Excel formula and function start with ____?",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "=",
+        "D": "["
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the shortcut key for a manual line break in MS Word?",
+      "options": {
+        "A": "Shift + Enter",
+        "B": "Space + Enter",
+        "C": "Ctrl + Enter",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one is an example of spreadsheet software?",
+      "options": {
+        "A": "MS Word",
+        "B": "MS Excel",
+        "C": "MS PowerPoint",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Office a feature that saves the document automatically after certain intervals is called?",
+      "options": {
+        "A": "Save",
+        "B": "Save As",
+        "C": "Auto Save",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "To delete the selected text in MS Word, which key is used?",
+      "options": {
+        "A": "Delete",
+        "B": "Ctrl",
+        "C": "Alt",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To start a slide show in PowerPoint we press _____?",
+      "options": {
+        "A": "F6",
+        "B": "F4",
+        "C": "F5",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the maximum Zoom Percentage in MS Word?",
+      "options": {
+        "A": "400%",
+        "B": "500%",
+        "C": "10%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A single page of PowerPoint presentation is called _____?",
+      "options": {
+        "A": "Sheet",
+        "B": "Page",
+        "C": "Slide",
+        "D": "Document"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the shortcut key for undo/reverse the last action?",
+      "options": {
+        "A": "Ctrl + Z",
+        "B": "Ctrl + C",
+        "C": "Ctrl + V",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ctrl + B Shortcut key is used in MS Word to?",
+      "options": {
+        "A": "Search the selected text",
+        "B": "Paste the selected text",
+        "C": "Bold the selected text",
+        "D": "Open the specified file"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How can you insert a page break in Microsoft Word?",
+      "options": {
+        "A": "Ctrl + Tab",
+        "B": "Ctrl + Enter",
+        "C": "Ctrl + Alt",
+        "D": "Ctrl + Shift"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following languages is used for webpage development?",
+      "options": {
+        "A": "HTML",
+        "B": "FORTRAN",
+        "C": "C or C++",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A software that can harm your computer is called?",
+      "options": {
+        "A": "Virus",
+        "B": "Server",
+        "C": "Extension",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ICT stands for _____?",
+      "options": {
+        "A": "Information and Communication Technology",
+        "B": "International Computer Technology",
+        "C": "Internal Communication Tool",
+        "D": "International Communication Technology"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "AND, OR, XOR, NOT, NAND, NOR are which type of gate?",
+      "options": {
+        "A": "Automatic gate",
+        "B": "Logic gate",
+        "C": "Program gate",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Email is used to send _____?",
+      "options": {
+        "A": "Video",
+        "B": "File",
+        "C": "Audio",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Name the type of mouse which uses laser technology to detect the motion of the ball?",
+      "options": {
+        "A": "Mechanical mouse",
+        "B": "Opto Mechanical mouse",
+        "C": "Optical mouse",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which device is used to connect the nearest device?",
+      "options": {
+        "A": "NFC",
+        "B": "Wi-Fi",
+        "C": "Bluetooth",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "B2:B6 in MS Excel represents the ______?",
+      "options": {
+        "A": "Range of cell",
+        "B": "Cell column",
+        "C": "Cell Row",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is meant by a dedicated computer?",
+      "options": {
+        "A": "Which is assigned one and only one task",
+        "B": "Which is used by one person only",
+        "C": "Which is meant for application software",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "EBCDIC stands for _______?",
+      "options": {
+        "A": "Extended Binary Coded Decimal Interchange Code",
+        "B": "Extended Bit Code Decimal Interchange Code",
+        "C": "Extended Bit Case Decimal Interchange Code",
+        "D": "Extended Binary Case Decimal Interchange Code"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is DMA stand for?",
+      "options": {
+        "A": "Direct Memory Access",
+        "B": "Direct Module Access",
+        "C": "Direct Memory Allocation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used to delete a character to the left side of the cursor in MS Word?",
+      "options": {
+        "A": "Delete",
+        "B": "Backspace",
+        "C": "End",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which shortcut key is used to moves the cursor one page down?",
+      "options": {
+        "A": "Alt + PageDown",
+        "B": "Shift + PageDown",
+        "C": "Ctrl + PageDown",
+        "D": "PageDown"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of following software is used to prepare/create multimedia presentation?",
+      "options": {
+        "A": "PowerPoint",
+        "B": "MS Word",
+        "C": "Spreadsheet",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is internet?",
+      "options": {
+        "A": "Interconnection of wide area networks",
+        "B": "A single network",
+        "C": "A collection of unrelated computers",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "RAM stands for ____?",
+      "options": {
+        "A": "Random Access Memory",
+        "B": "Random Access Money",
+        "C": "Random Accurate Memory",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is a single-user system? DOS, Windows, Linux, None of these",
+      "options": {
+        "A": "DOS",
+        "B": "Windows",
+        "C": "Linux",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used to align the text to center?",
+      "options": {
+        "A": "Ctrl+ B",
+        "B": "Ctrl + C",
+        "C": "Ctrl + D",
+        "D": "Ctrl + E"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "BIOS stands for ______?",
+      "options": {
+        "A": "Board Input Output System",
+        "B": "Back Input Output System",
+        "C": "Basic Input Output System",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The keyboard Shortcut key to decrease font size by one point is _____?",
+      "options": {
+        "A": "Ctrl+Shift+<",
+        "B": "Ctrl+Shift+v",
+        "C": "Ctrl+Alt+>",
+        "D": "CTRL+["
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which key is used to select the whole document?",
+      "options": {
+        "A": "Ctrl + S",
+        "B": "Ctrl + C",
+        "C": "Ctrl + P",
+        "D": "Ctrl + A"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which shortcut key is used to open an existing file in MS Word?",
+      "options": {
+        "A": "Ctrl+O",
+        "B": "Ctrl+N",
+        "C": "Ctrl+R",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which shortcut key inserts a new slide in current presentation?",
+      "options": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "None of above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Dot matrix is a type of ____?",
+      "options": {
+        "A": "Bus",
+        "B": "Disk",
+        "C": "Printer",
+        "D": "Tape"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "To apply center alignment to a paragraph in MS-Word, we can press?",
+      "options": {
+        "A": "Ctrl + E",
+        "B": "Ctrl + S",
+        "C": "Ctrl + C + A",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is NOT an Input device? Microphone and Mouse, Keyboard, Monitor and Speaker, Scanner and Joystick",
+      "options": {
+        "A": "Microphone and Mouse",
+        "B": "Keyboard",
+        "C": "Monitor and Speaker",
+        "D": "Scanner and Joystick"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The first network that initiated internet was _____?",
+      "options": {
+        "A": "Inet",
+        "B": "Vnet",
+        "C": "ARPANET",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "SQL stands for _____?",
+      "options": {
+        "A": "Structured Query Language",
+        "B": "Sequence Query Language",
+        "C": "Structured Query Logo",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An operating system is a/an _____?",
+      "options": {
+        "A": "Personal software",
+        "B": "System software",
+        "C": "Application software",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is called the Father of Internet?",
+      "options": {
+        "A": "Vint Cerf",
+        "B": "Charles Babbage",
+        "C": "Tim Berners Lee",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Crimes committed using computers and the internet are called?",
+      "options": {
+        "A": "Cybercrime",
+        "B": "Crime against person",
+        "C": "Violent crime",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
+      "options": {
+        "A": ".pp",
+        "B": ".xls",
+        "C": ".pptx",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "Cache",
+        "D": "Both A and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which key is used to rename a file or folder?",
+      "options": {
+        "A": "F1",
+        "B": "F2",
+        "C": "F3",
+        "D": "F4"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "BCC stands for _____?",
+      "options": {
+        "A": "Basic Carbon Copy",
+        "B": "Blind Carbon Copy",
+        "C": "Business Carbon Copy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not an application software? WinWord XP, Page Maker, Windows NT, None of these",
+      "options": {
+        "A": "WinWord XP",
+        "B": "Page Maker",
+        "C": "Windows NT",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the shortcut key for grammar and spelling to check in document?",
+      "options": {
+        "A": "F1",
+        "B": "F2",
+        "C": "F5",
+        "D": "F7"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In MS Word, which shortcut is used for print preview?",
+      "options": {
+        "A": "Alt + O",
+        "B": "Ctrl + F2",
+        "C": "Shift + P",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the first/old Capital of Pakistan?",
+      "options": {
+        "A": "Karachi",
+        "B": "Rawalpindi",
+        "C": "Lahore",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "LAN stands for _____?",
+      "options": {
+        "A": "Limited Area Network",
+        "B": "Logical Area Network",
+        "C": "Local Area Network",
+        "D": "Large Area Network"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Shortcut key of Ctrl + A use for ____?",
+      "options": {
+        "A": "To select all text",
+        "B": "To copy",
+        "C": "To paste",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "WWW stands for ____?",
+      "options": {
+        "A": "World Whole Web",
+        "B": "Wide World Web",
+        "C": "Web World Wild",
+        "D": "World Wide Web"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "URL has an abbreviation of?",
+      "options": {
+        "A": "Uniform Resource Locator",
+        "B": "Universal Resource Link",
+        "C": "Uniform Reference Link",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is a type of non-volatile storage device that is used to store data permanently, even when the power is turned off?",
+      "options": {
+        "A": "ROM",
+        "B": "RAM",
+        "C": "CPU",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which type of bus provides a path to transfer data between CPU and memory?",
+      "options": {
+        "A": "Data Bus",
+        "B": "Control Bus",
+        "C": "Address Bus",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does HTTP stands for in the context of WWW?",
+      "options": {
+        "A": "Hypertext Transfer Protocol",
+        "B": "Hypertext Transfer Protection",
+        "C": "Hyper Transfer Protocol",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Handout Master consists of placeholders for all of these except the? Header, Footer, Slide number, Title",
+      "options": {
+        "A": "Header",
+        "B": "Footer",
+        "C": "Slide number",
+        "D": "Title"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is gutter margin in MS Word?",
+      "options": {
+        "A": "Margin that is added to the Left margin when printing",
+        "B": "Margin that is added to the binding side of page when printing",
+        "C": "Margin that is added to the right margin when printing",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the smallest and largest font size available in Font Size tool on formatting toolbar?",
+      "options": {
+        "A": "Smallest 8 & largest 70",
+        "B": "Smallest 8 & largest 71",
+        "C": "Smallest 8 & largest 72",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which shortcut key is used to print a document?",
+      "options": {
+        "A": "Ctrl+M",
+        "B": "Ctrl+N",
+        "C": "Ctrl+L",
+        "D": "Ctrl+P"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In Excel, to perform addition, the function used is _____?",
+      "options": {
+        "A": "=ADD()",
+        "B": "=SUM()",
+        "C": "=TOTAL()",
+        "D": "=PLUS()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is used to open a new tab?",
+      "options": {
+        "A": "Alt + T",
+        "B": "Ctrl + T",
+        "C": "Ctrl + B",
+        "D": "Ctrl + A"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which file format can be added to a PowerPoint show?",
+      "options": {
+        "A": ".jpg",
+        "B": ".gif",
+        "C": ".wav",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Another name for a pre-programmed formula in Excel is _____?",
+      "options": {
+        "A": "Cell",
+        "B": "Graph",
+        "C": "Function",
+        "D": "Range"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How do you display current date and time in MS Excel?",
+      "options": {
+        "A": "DATE()",
+        "B": "TODAY()",
+        "C": "YEAR()",
+        "D": "NOW()"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is used to build microcomputers?",
+      "options": {
+        "A": "Vacuum tube",
+        "B": "Transistors",
+        "C": "Processors",
+        "D": "GPU s"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is not a type of page margin in MS Word 2016? Top, Center, Left, Right",
+      "options": {
+        "A": "Top",
+        "B": "Center",
+        "C": "Left",
+        "D": "Right"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In Microsoft Word the Superscript, subscript, shadow, outline, emboss, and engrave are known as _____?",
+      "options": {
+        "A": "Font effects",
+        "B": "Text effects",
+        "C": "Font styles",
+        "D": "Word art"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of these keys are used to apply outline border to the selected cells in MS Excel?",
+      "options": {
+        "A": "[CTRL] + [SHIFT] + [$]",
+        "B": "[CTRL] + [SHIFT] + [%]",
+        "C": "[CTRL] + [SHIFT] + [&]",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is not essential component to perform a Mail Merge operation? Word fields, Main document, Data source, Merge fields",
+      "options": {
+        "A": "Word fields",
+        "B": "Main document",
+        "C": "Data source",
+        "D": "Merge fields"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An excel workbook is a collection of __________?",
+      "options": {
+        "A": "Worksheets and Charts",
+        "B": "Charts",
+        "C": "Worksheets",
+        "D": "Workbooks"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "First, ever computer virus was created from -------?",
+      "options": {
+        "A": "China",
+        "B": "Pakistan",
+        "C": "USA",
+        "D": "Israel"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Errors from computer hardware and software cab be identifying and removed by which process?",
+      "options": {
+        "A": "Debugging",
+        "B": "Formating",
+        "C": "Flip flop",
+        "D": "All of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is an example of a spreadsheet application? Notepad, Microsoft Word, Microsoft Excel, Adobe Photoshop",
+      "options": {
+        "A": "Notepad",
+        "B": "Microsoft Word",
+        "C": "Microsoft Excel",
+        "D": "Adobe Photoshop"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "One (1) KB (Kilobytes) = ______?",
+      "options": {
+        "A": "1024 kilobytes",
+        "B": "1024 bytes",
+        "C": "1024 megabytes",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Eight (8) Bits make up a _____?",
+      "options": {
+        "A": "Byte",
+        "B": "Mega byte",
+        "C": "Kilo byte",
+        "D": "Nano byte"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used to enter the current date in Excel?",
+      "options": {
+        "A": "Ctrl+:",
+        "B": "Ctrl + Shift + ;",
+        "C": "Ctrl+;",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the largest hardware company in the world?",
+      "options": {
+        "A": "Apple",
+        "B": "Dell",
+        "C": "Microsoft",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Minimum and maximum font size in MS Word is _____?",
+      "options": {
+        "A": "8-72",
+        "B": "6-60",
+        "C": "12-50",
+        "D": "8-96"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The process of removing unwanted part of an image is called?",
+      "options": {
+        "A": "Hiding",
+        "B": "Bordering",
+        "C": "Cropping",
+        "D": "Cutting"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Borders can be applied to ___.",
+      "options": {
+        "A": "cell text paragraph",
+        "B": "cell text index",
+        "C": "paragraphs",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which view headers and footers are visible?",
+      "options": {
+        "A": "Normal View",
+        "B": "Page Layout View",
+        "C": "Print Layout View",
+        "D": "Both B and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In MS Word and Excel, to combine two or more cells into one is called?",
+      "options": {
+        "A": "Joining",
+        "B": "Merging",
+        "C": "Split",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which protocol provides E-mail facility among different hosts?",
+      "options": {
+        "A": "FTP",
+        "B": "SNMP",
+        "C": "TELNET",
+        "D": "SMTP"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is not an output device of a computer?",
+      "options": {
+        "A": "Keyboard",
+        "B": "Mouse",
+        "C": "Scanner",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of following is not a valid data type in MS Excel?",
+      "options": {
+        "A": "Number",
+        "B": "Character",
+        "C": "Babel",
+        "D": "Date/Time"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is a way to access secondary memory?",
+      "options": {
+        "A": "Density method",
+        "B": "Transfer method",
+        "C": "Action method",
+        "D": "Random access memory"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ctrl + W Shortcut is used in Microsoft Word to _____?",
+      "options": {
+        "A": "Save and Print the Document",
+        "B": "Save and Close Word Application",
+        "C": "Save and Close document",
+        "D": "Close Document"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "which key is used for help in MS excel------?",
+      "options": {
+        "A": "F1",
+        "B": "F2",
+        "C": "F3",
+        "D": "NONE OF THESE"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "1 byte is equal to _____?",
+      "options": {
+        "A": "4 bits",
+        "B": "8 bits",
+        "C": "12 bits",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Firstly The data goes into which memory ?",
+      "options": {
+        "A": "Cache Memory",
+        "B": "Main Memory",
+        "C": "Virtual Memory",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ctrl,Shift and Alt are called --- keys",
+      "options": {
+        "A": "Modifier",
+        "B": "Function",
+        "C": "Alphanumeric",
+        "D": "Adjustment"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "MICR stands for ______?",
+      "options": {
+        "A": "Magnetic Ink Code Reader",
+        "B": "Magnetic Ink Cases Reader",
+        "C": "Magnetic ink character recognition",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "PIN stands for _____?",
+      "options": {
+        "A": "Personal identification number",
+        "B": "Payment identification number",
+        "C": "Personal identification numeric",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ctrl+x in Ms word used for :",
+      "options": {
+        "A": "Cut",
+        "B": "Paste",
+        "C": "Space",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In MS Excel you can use a function to combine text from two cells into one cell. But you can use an operator to do the same thing. Which operator is that?",
+      "options": {
+        "A": "Name",
+        "B": "Space",
+        "C": "Ampersand",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Format painter in power point relates to :",
+      "options": {
+        "A": "To copy formatting from one object or piece of text and then applied it else where",
+        "B": "To paint pretty pictures on your slides",
+        "C": "To change the background colors of your slides",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "MS PowerPoint is example of _____?",
+      "options": {
+        "A": "Multimedia software",
+        "B": "Application software",
+        "C": "Entertainment software",
+        "D": "All above mentioned"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CAD stands for _______?",
+      "options": {
+        "A": "Computer aided design",
+        "B": "Computer algorithm for design",
+        "C": "Computer application in dosing",
+        "D": "Computer analogue design"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The capacity of Floppy disk is _____?",
+      "options": {
+        "A": "1.44 MB",
+        "B": "1.33 MB",
+        "C": "1.22 MB",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ctrl + D in MS Excel is used for?",
+      "options": {
+        "A": "Fill down in the selection",
+        "B": "Open the font dialog box",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "WAN stands for__________",
+      "options": {
+        "A": "World area network",
+        "B": "Wide average network",
+        "C": "Wide area network",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The output shown on the computer monitor is called?",
+      "options": {
+        "A": "VDC",
+        "B": "Hard copy",
+        "C": "Screen Copy",
+        "D": "Soft copy"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Internet access by transmitting digital data over the wires of a local telephone network is provided by _____?",
+      "options": {
+        "A": "Digital Subscriber Line",
+        "B": "Digital Signal Line",
+        "C": "Digital Leased Line",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "MS Excel is based on :",
+      "options": {
+        "A": "UNIX",
+        "B": "DOS",
+        "C": "WINDOWS",
+        "D": "OS/2"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Default document size in MS Word :",
+      "options": {
+        "A": "Letter",
+        "B": "Portrait",
+        "C": "Landscape",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which symbol is used to execute formulas in MS Excel?",
+      "options": {
+        "A": ":",
+        "B": "=",
+        "C": "#",
+        "D": "~"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Select the correct shortcut key which is used to underline a written paragraph?",
+      "options": {
+        "A": "CTRL + T",
+        "B": "CTRL + U",
+        "C": "CTRL + Z",
+        "D": "CTRL + B"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ctrl + N Shortcut key is used in MS Word to _______?",
+      "options": {
+        "A": "Save Document",
+        "B": "Open Document",
+        "C": "Create a new Document",
+        "D": "Close Document"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Another term for Main Memory is ______?",
+      "options": {
+        "A": "ROM",
+        "B": "RAM",
+        "C": "Hard Disk",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is/are NOT a characteristic of a computer?",
+      "options": {
+        "A": "Diligence and Speed",
+        "B": "Accuracy and Automation",
+        "C": "Versatility",
+        "D": "IQ and Intelligence"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which option is used to copy formatting from one place and apply it to another?",
+      "options": {
+        "A": "Copy",
+        "B": "Copy formatter",
+        "C": "Format painter",
+        "D": "Formatting"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Primary storage is _____ as compared to secondary storage.",
+      "options": {
+        "A": "Fast and expensive",
+        "B": "Slow and inexpensive",
+        "C": "Fast and inexpensive",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Excel is a program that is used to prepare a ______?",
+      "options": {
+        "A": "Spreadsheet",
+        "B": "Database",
+        "C": "Workbook",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The process of starting an operating system when the user turns on a computer is known as?",
+      "options": {
+        "A": "Starting",
+        "B": "Loading",
+        "C": "Booting",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The main window in a computer spreadsheet is called?",
+      "options": {
+        "A": "workbook",
+        "B": "work",
+        "C": "account book",
+        "D": "worksheet"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Page up key is used to move ______?",
+      "options": {
+        "A": "One line up",
+        "B": "One page down",
+        "C": "One screen up",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which one can be used for creating a document?",
+      "options": {
+        "A": "MS Excel",
+        "B": "MS Word",
+        "C": "MS Access",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "MS Word standard page size which is used in offices is ______?",
+      "options": {
+        "A": "Legal",
+        "B": "B4",
+        "C": "A4",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "RAM (Random Access Memory) is also called?",
+      "options": {
+        "A": "Read memory",
+        "B": "Write memory",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In Excel, which is used to perform what if analysis?",
+      "options": {
+        "A": "Goal seek",
+        "B": "Solver",
+        "C": "Scenario Manager",
+        "D": "All of above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which function key is used for refreshing Windows?",
+      "options": {
+        "A": "F1",
+        "B": "F2",
+        "C": "F5",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is not Antivirus software?",
+      "options": {
+        "A": "Oracle",
+        "B": "Avira",
+        "C": "Avast",
+        "D": "All of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What type of operating system MS-DOS is?",
+      "options": {
+        "A": "Command Line Interface",
+        "B": "Graphical Line Interface",
+        "C": "Multitasking",
+        "D": "Menu Drawn Interface"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A light sensitive device that converts drawing, printed text or other images into digital form is called?",
+      "options": {
+        "A": "Keyboard",
+        "B": "Scanner",
+        "C": "OMR",
+        "D": "None of the above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "1 Kilo Bytes (KB) = ___ bytes.",
+      "options": {
+        "A": "1000",
+        "B": "1024",
+        "C": "1032",
+        "D": "1036"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How are data organized in a spreadsheet?",
+      "options": {
+        "A": "Lines and spaces",
+        "B": "Layers and planes",
+        "C": "Rows and columns",
+        "D": "Height and width"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which file starts MS Word?",
+      "options": {
+        "A": "Word.exe.",
+        "B": "Msword.exe.",
+        "C": "Winword.exe",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In MS PowerPoint, on mouse click option can be used by?",
+      "options": {
+        "A": "Transition & on mouse click",
+        "B": "Format & on mouse click",
+        "C": "Insert & on mouse click",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Layout of handout defines _____?",
+      "options": {
+        "A": "Handout slave",
+        "B": "Handout master",
+        "C": "Handout slave",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A wireless technology built in electronic gadgets used for exchanging data over short/decimal distances is _____?",
+      "options": {
+        "A": "Modem",
+        "B": "Bluetooth",
+        "C": "Wi-Fi",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The common name for the crime of stealing passwords is ______?",
+      "options": {
+        "A": "Spoofing",
+        "B": "Spooling",
+        "C": "Hacking",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the displayed system time and date is wrong, you can reset it using _____?",
+      "options": {
+        "A": "Control Panel",
+        "B": "Calendar",
+        "C": "Write",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which menu bar selection would you access to open a file?",
+      "options": {
+        "A": "File",
+        "B": "Option",
+        "C": "Help",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following pane is NOT available in Task Pane?",
+      "options": {
+        "A": "Master Slide",
+        "B": "Slide Design",
+        "C": "Slide Transition",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A user interface that is easy to use is considered to be _____?",
+      "options": {
+        "A": "User happy",
+        "B": "User simple",
+        "C": "User friendly",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When creating a computer program, the ______ designs the structure of the program.",
+      "options": {
+        "A": "System Analyst",
+        "B": "Programmer",
+        "C": "End User",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "________ are used to identify a user who returns to a Website.",
+      "options": {
+        "A": "Cookies",
+        "B": "Plug-ins",
+        "C": "Scripts",
+        "D": "ASPs"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A computer cannot do anything without _______?",
+      "options": {
+        "A": "Memory",
+        "B": "Keyboard",
+        "C": "Program",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "From which of these menus can we access a text box Picture Chart Etc?",
+      "options": {
+        "A": "View",
+        "B": "Insert",
+        "C": "File",
+        "D": "Picture"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The basic unit of a computer worksheet in which you enter text and numbers is known as _____?",
+      "options": {
+        "A": "Workbook",
+        "B": "Cell",
+        "C": "Row",
+        "D": "Column"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Binary coded numbers are in the form of _____?",
+      "options": {
+        "A": "1, 2",
+        "B": "1, 1",
+        "C": "0, 1",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which one of the following converts printed documents into digital images?",
+      "options": {
+        "A": "Scanner",
+        "B": "Mouse",
+        "C": "Keyboard",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the company wants to check the customer preferences, then it will use the ______ option.",
+      "options": {
+        "A": "Experience",
+        "B": "Revenue Component",
+        "C": "Data Sorting",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which one is not a Function in MS Excel?",
+      "options": {
+        "A": "SUMB",
+        "B": "AVG",
+        "C": "MAX",
+        "D": "MIN"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which program is run by BIOS to check if hardware components are working properly while the computer is turned ON?",
+      "options": {
+        "A": "POST",
+        "B": "DMOS",
+        "C": "CMOS",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To send audio, video, and text we use _____?",
+      "options": {
+        "A": "YouTube",
+        "B": "Email",
+        "C": "MS Word",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The ______ button is used to reload a page in the Internet browser.",
+      "options": {
+        "A": "Refresh",
+        "B": "Reload",
+        "C": "Research",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Procedural language is used in which generation of computer?",
+      "options": {
+        "A": "Third",
+        "B": "Second",
+        "C": "First",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The ability to read or write each piece of information in a storage device in approximately the same length of time regardless of its location is _____?",
+      "options": {
+        "A": "Random Access",
+        "B": "Sequential Access",
+        "C": "Raster Scan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A(n) ________ is dynamic mathematical calculation that displays a single value for a specific field.",
+      "options": {
+        "A": "Aggregate function",
+        "B": "Format row",
+        "C": "Criteria row",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Authentication refers to ______?",
+      "options": {
+        "A": "Password",
+        "B": "Username",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "MS Word is ________ software?",
+      "options": {
+        "A": "Application",
+        "B": "C++",
+        "C": "Compiler",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "_______ displays the content of active cell?",
+      "options": {
+        "A": "Row headings",
+        "B": "Name box",
+        "C": "Formula bar",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A worksheet in Excel is divided into _____?",
+      "options": {
+        "A": "Height & Width",
+        "B": "Layers & Planes",
+        "C": "Columns & Rows",
+        "D": "Lines & Spaces"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "By default on which page the header or the footer is printed in MS Word Document?",
+      "options": {
+        "A": "On first page",
+        "B": "On alternate page",
+        "C": "On every page",
+        "D": "None of above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The keyboard Shortcut key to increase font size by one point is?",
+      "options": {
+        "A": "CTRL+[",
+        "B": "Ctrl+Alt+>",
+        "C": "Ctrl+Shift+v",
+        "D": "Ctrl + ]"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What type of connection would be used to connect a printer directly to a network?",
+      "options": {
+        "A": "Ethernet cable",
+        "B": "USB",
+        "C": "Serial",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Move to the next cell in the row in MS Excel _____?",
+      "options": {
+        "A": "Tab",
+        "B": "Shift",
+        "C": "Space",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Instructions and memory addresses are represented by _____?",
+      "options": {
+        "A": "Binary codes",
+        "B": "Character codes",
+        "C": "Parity bit",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A common use of a computer in office is for ______?",
+      "options": {
+        "A": "Word Processing",
+        "B": "Distributed",
+        "C": "Data",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The list of coded instructions is called?",
+      "options": {
+        "A": "Computer program",
+        "B": "Algorithm",
+        "C": "Flowchart",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one of the following is the most powerful computer?",
+      "options": {
+        "A": "Personal Computer",
+        "B": "Super Computer",
+        "C": "Mobile Computer",
+        "D": "Power Computer"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not a Windows version?",
+      "options": {
+        "A": "Windows 9",
+        "B": "Windows 7",
+        "C": "Windows 10",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following shortcut key is used to close a tab on a browser?",
+      "options": {
+        "A": "Ctrl+W",
+        "B": "Ctrl+X",
+        "C": "Alt+F4",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To store data in the form of circles is called ____?",
+      "options": {
+        "A": "Subscript",
+        "B": "Sector",
+        "C": "Disc",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is called the physical part of computer?",
+      "options": {
+        "A": "Software",
+        "B": "Hardware",
+        "C": "Both of these",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What appears at the bottom of the MS Word Page?",
+      "options": {
+        "A": "Header",
+        "B": "Footer",
+        "C": "Footnote",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In CPU, all devices are attached with _____?",
+      "options": {
+        "A": "Monitor",
+        "B": "Hard disk",
+        "C": "Motherboard",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Borders can be applied to _______?",
+      "options": {
+        "A": "Paragraph",
+        "B": "Text",
+        "C": "Cells",
+        "D": "All of above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The circular device used for storage is _____?",
+      "options": {
+        "A": "Disk",
+        "B": "RAM",
+        "C": "ROM",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following can be used to open your account?",
+      "options": {
+        "A": "Sing in",
+        "B": "Log in",
+        "C": "Sing out",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The valid data type in MS Excel is _____?",
+      "options": {
+        "A": "Boolean",
+        "B": "Tupal",
+        "C": "Dictionary",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In PowerPoint, the dotted areas in an empty slide are called?",
+      "options": {
+        "A": "Template",
+        "B": "Placeholders",
+        "C": "Theme",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is an example of a formula?",
+      "options": {
+        "A": "Add(A1:A2)",
+        "B": "SUM(A1:A2)",
+        "C": "=A1 +A2",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the shortcut key create subscript in MS-Word?",
+      "options": {
+        "A": "Alt+Shift+delete",
+        "B": "Ctrl+ =",
+        "C": "Ctrl+S",
+        "D": "Alt+="
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tab of MS-Word contains the shapes option",
+      "options": {
+        "A": "Home",
+        "B": "Review",
+        "C": "Insert",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Single spacing in MS-Word document causes ____ point line spacing?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is not an input device?",
+      "options": {
+        "A": "Plotter",
+        "B": "Mouse",
+        "C": "Keyboard",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "By selecting a paragraph we can apply _____?",
+      "options": {
+        "A": "Indent",
+        "B": "Line spacing",
+        "C": "Both A & B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which key deletes the character to the right of the cursor in MS Word?",
+      "options": {
+        "A": "Delete",
+        "B": "Backspace",
+        "C": "End",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How can you apply exactly the same formatting you did to another text?",
+      "options": {
+        "A": "Select the text then click on Format Painter and select the new text",
+        "B": "Copy the text and paste in new location. Then type the new text again",
+        "C": "Copy the text and click on Paste Special tool on new place",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A character that is raised and smaller above the baseline is known as ____?",
+      "options": {
+        "A": "Raised",
+        "B": "Superscript",
+        "C": "Outlined",
+        "D": "Subscript"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "You can use the format painter multiple times before you turn it off by ____?",
+      "options": {
+        "A": "You can use the format painter button on ly one time when you click it",
+        "B": "Double clicking the format painter button",
+        "C": "Pressing the Ctrl key and clicking the format painter button",
+        "D": "Pressing the Alt key and clicking the format painter button"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the largest hardware company of computers?",
+      "options": {
+        "A": "Dell",
+        "B": "HP",
+        "C": "IBM",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not a MS Powerpoint View?",
+      "options": {
+        "A": "Slide View",
+        "B": "Slide Show View",
+        "C": "Orientation View",
+        "D": "Presentation View"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "To create table of columns and rows for statistical or mathematical calculation using spreadsheet, which software is used?",
+      "options": {
+        "A": "Excel",
+        "B": "Word Pad",
+        "C": "Word Pertect",
+        "D": "Corel Draw"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which shortcut key is used to create chart in MS Excel?",
+      "options": {
+        "A": "F10",
+        "B": "F12",
+        "C": "F11",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Excel is a ______ program developed by Microsoft.",
+      "options": {
+        "A": "Spreadsheet",
+        "B": "Document",
+        "C": "Data management",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An application program that allows a user to set page number and spell check of a document is known as ______?",
+      "options": {
+        "A": "Notepad",
+        "B": "Wordpad",
+        "C": "Word processor",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "MS Excel displays the current (active) cell address in the ______?",
+      "options": {
+        "A": "Name box",
+        "B": "Cell tip",
+        "C": "Both",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cursor is a ______?",
+      "options": {
+        "A": "Thin Blinking Line",
+        "B": "Pixel",
+        "C": "Pointing Device",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the default page set up orientation of slide in MS PowerPoint ?",
+      "options": {
+        "A": "Horizontal",
+        "B": "Portrait",
+        "C": "Landscape",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a windows PC, the shortcut key for redoing the last action in Microsoft Office is?",
+      "options": {
+        "A": "CTRL+R",
+        "B": "CTRL+Z",
+        "C": "CTRL+Y",
+        "D": "CTRL+ O"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "___________ is used to close and save documents.",
+      "options": {
+        "A": "Crtl + B",
+        "B": "Crtl + W",
+        "C": "Crtl + O",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where a computer mouse moves over the table surface, the trackball is?",
+      "options": {
+        "A": "Stationary",
+        "B": "Difficult to move",
+        "C": "Dragged",
+        "D": "Moved in small step"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The process of connecting to the internet account is _____?",
+      "options": {
+        "A": "Sign in",
+        "B": "Log out",
+        "C": "Log in",
+        "D": "Sign out"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The date and time displays on _______?",
+      "options": {
+        "A": "Task bar",
+        "B": "Status bar",
+        "C": "System tray",
+        "D": "Launch pad"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "__________ is available to change between lowercase, UPPERCASE, and Capitalize Each Word in Word, PowerPoint and Outlook.",
+      "options": {
+        "A": "SHIFT + F4",
+        "B": "CTRL + F3",
+        "C": "SHIFT + F3",
+        "D": "CTRL + F4"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which bar is not available in Microsoft Word?",
+      "options": {
+        "A": "Title bar",
+        "B": "Menu bar",
+        "C": "Status bar",
+        "D": "Browser bar"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The line between two cells is :",
+      "options": {
+        "A": "Margin",
+        "B": "Cell",
+        "C": "Tab",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first page of document is",
+      "options": {
+        "A": "First page",
+        "B": "Document",
+        "C": "Cover Page",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Letters in Excel denote :",
+      "options": {
+        "A": "Columns",
+        "B": "rows",
+        "C": "numbers",
+        "D": "reference"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is a group of cells called in Excel?",
+      "options": {
+        "A": "Cell Range",
+        "B": "Workbook",
+        "C": "Margin",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the use of a horizontal Scroll Bar in MS Excel?",
+      "options": {
+        "A": "to view the data from left to the right",
+        "B": "to view the data in Excel from up and down",
+        "C": "to view the data from right to the left",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The grater than sign is an operation of __ example.",
+      "options": {
+        "A": "Athemitical",
+        "B": "Logical",
+        "C": "Conditional",
+        "D": "Greater"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Circular division of a disk to store and retrieve data are known as :",
+      "options": {
+        "A": "Tracks",
+        "B": "Sectors",
+        "C": "Cycles",
+        "D": "Rings"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which bar is used for the current cell and its constraint?",
+      "options": {
+        "A": "Name box",
+        "B": "Row headings",
+        "C": "Formula bar",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Circular division of disks to store and retrieve data is known as _______?",
+      "options": {
+        "A": "Sectors",
+        "B": "Tracks",
+        "C": "Cylinder",
+        "D": "Block"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is called cyber warfare?",
+      "options": {
+        "A": "Cyber attacks against an enemy state",
+        "B": "Cyber attacks against a friendly state",
+        "C": "Both",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name the great Muslim scientist who was considered as one of the founders of computers.",
+      "options": {
+        "A": "Al Khawarizmi",
+        "B": "Zakriya",
+        "C": "Abu Yosaf",
+        "D": "Ibn e Rushed"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An essential part of an email is to access sites in the network.",
+      "options": {
+        "A": "&",
+        "B": "@",
+        "C": ".",
+        "D": "all of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Number of default worksheets in MS Excel?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Switching between portrait and landscape modes done by?",
+      "options": {
+        "A": "Print",
+        "B": "print layout view",
+        "C": "Page setup dialog box",
+        "D": "none of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which key is used to create chart from selected data in excel?",
+      "options": {
+        "A": "F10",
+        "B": "F1",
+        "C": "F11",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is a note or annotation that an author or review adds to a document?",
+      "options": {
+        "A": "Footer",
+        "B": "Header",
+        "C": "Comment",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of following is not a nomenclature of MS Excel ?",
+      "options": {
+        "A": "Range",
+        "B": "Work book",
+        "C": "Document",
+        "D": "Cell"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Idea of Indian National Congress was put forward by:",
+      "options": {
+        "A": "A.O Hume",
+        "B": "Lord Minto",
+        "C": "Lord Morley",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following types of table constraints will prevent the entry of duplicate rows:",
+      "options": {
+        "A": "Primary key",
+        "B": "Unique",
+        "C": "Null",
+        "D": "Foreign key"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Audio,Video PDF can sent through",
+      "options": {
+        "A": "yahoo",
+        "B": "gmail",
+        "C": "whats app",
+        "D": "all"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "By default, footers are printed on ___",
+      "options": {
+        "A": "First Page",
+        "B": "Last Page",
+        "C": "All Pages",
+        "D": "Even Pages"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Name the application under MS Office software bundle, that we use to create audio visual presentation .",
+      "options": {
+        "A": "MS Word",
+        "B": "MS Excel",
+        "C": "MS PowerPoint",
+        "D": "MS Access"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Enable drawing text in an MS Word document?",
+      "options": {
+        "A": "Word art",
+        "B": "Macros",
+        "C": "Templates",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Vacuum tubes have been replaced by _________?",
+      "options": {
+        "A": "Conductors",
+        "B": "Diodes",
+        "C": "Transistors",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ellipse motion is a predefined ___",
+      "options": {
+        "A": "Design template",
+        "B": "Animation scheme",
+        "C": "color scheme",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "\"Ctrl + End\" is used to",
+      "options": {
+        "A": "Move the cursor to the end of Line",
+        "B": "Move the cursor to the end of windows",
+        "C": "Move the cursor to the end of Document",
+        "D": "Move the cursor to the end of Paragraph"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In MS Excel ready-made templates are available under ______ tab in new option.",
+      "options": {
+        "A": "File",
+        "B": "Count",
+        "C": "Table",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is a Change Case in MS-Word ?",
+      "options": {
+        "A": "Sentence Case",
+        "B": "Lowercase",
+        "C": "Toggle Case",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Control unit of a digital computer is often called the ?",
+      "options": {
+        "A": "clock",
+        "B": "nerve center",
+        "C": "main memory",
+        "D": "all of them"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Key for removing one character from right side of cursor",
+      "options": {
+        "A": "Delete key",
+        "B": "Backspace",
+        "C": "Home Key",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where does the file name appear on the MS Word window ?",
+      "options": {
+        "A": "Home Bar",
+        "B": "Status Bar",
+        "C": "Title Bar",
+        "D": "Ribbon"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following cannot change fonts?",
+      "options": {
+        "A": "toggle case",
+        "B": "upper case",
+        "C": "lower case",
+        "D": "indent case"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "All peripheral devices connect with------?",
+      "options": {
+        "A": "Motherboard",
+        "B": "CPU",
+        "C": "Keyboard",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How to use drop cap in MS word?",
+      "options": {
+        "A": "Go to the Ribbon > Insert tab",
+        "B": "Go to the Bar > Insert tab",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Drop Cap option found in which menu?",
+      "options": {
+        "A": "Format",
+        "B": "Insert",
+        "C": "Edit",
+        "D": "Tool"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "MS Word is related to?",
+      "options": {
+        "A": "Microsoft",
+        "B": "Hard ware",
+        "C": "Internet",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hard disk Invented First by?",
+      "options": {
+        "A": "IBM",
+        "B": "Jone",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In PowerPoint, a new presentation can be created from _____?",
+      "options": {
+        "A": "Blank presentation",
+        "B": "From existing presentation",
+        "C": "From design template",
+        "D": "All of above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Hardware is best described as:",
+      "options": {
+        "A": "Physical parts",
+        "B": "Program",
+        "C": "Printed parts",
+        "D": "Logical parts"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following tab is used to add the document citation ?",
+      "options": {
+        "A": "Home",
+        "B": "Insert",
+        "C": "Page layout",
+        "D": "References"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In MS Word, the shortcut for paste command is :",
+      "options": {
+        "A": "Ctrl+V",
+        "B": "Ctrl+X",
+        "C": "Alt+X",
+        "D": "Shift+Alt+X"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Go to command in Ms Excel is located in :",
+      "options": {
+        "A": "Menu",
+        "B": "find",
+        "C": "search",
+        "D": "help"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To select a group of worksheet we press and hold ____ key and select the sheet we want to add :",
+      "options": {
+        "A": "ctrl",
+        "B": "shift",
+        "C": "alt",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which among following wildcard characters are recognized by excel ?",
+      "options": {
+        "A": "+and -",
+        "B": "; and ^",
+        "C": "* and ?",
+        "D": "<and >"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Suppose there is a text in a document that is bold, Red in color with green background. We want to apply all of these formatting to another paragraph in one go, Which option will we use ?",
+      "options": {
+        "A": "Format Button",
+        "B": "Format Menu",
+        "C": "Format Painter",
+        "D": "All"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Microsoft Excel functions arguments are always written in __ ?",
+      "options": {
+        "A": "Rows",
+        "B": "Cells",
+        "C": "Columns",
+        "D": "Parentheses"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If you press ___, the cell accepts your typing as its contents?",
+      "options": {
+        "A": "Enter",
+        "B": "Ctrl+Enter",
+        "C": "Tab",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The default page size for word documents is also used in offices",
+      "options": {
+        "A": "A4",
+        "B": "Legal",
+        "C": "Letter",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "____ includes superscript, subscript, outline , emboss , engrave",
+      "options": {
+        "A": "Word art",
+        "B": "Text effects",
+        "C": "font effects",
+        "D": "none"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which feature is used to wrap extra-long text into multiple lines in MS Excel ?",
+      "options": {
+        "A": "wrap text",
+        "B": "text wrap",
+        "C": "letter warp",
+        "D": "word wrap"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The predefined slide formats in PowerPoint are called?",
+      "options": {
+        "A": "Slide Layout",
+        "B": "Speaker Notes",
+        "C": "Outline",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To move the cursor to the end of the document which shortcut key is used ?",
+      "options": {
+        "A": "Ctrl + End",
+        "B": "Ctrl + Home",
+        "C": "Ctrl +F",
+        "D": "Ctrl +D"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What type of chart is good for single series of data ? Column Chart Line Chart",
+      "options": {
+        "A": "Pie Chart",
+        "B": "Line Chart",
+        "C": "Column Chart",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Shortcut key to Remove paragraph formatting is",
+      "options": {
+        "A": "Ctrl + S",
+        "B": "Ctrl + Q",
+        "C": "Ctrl + E",
+        "D": "Ctrl + L"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "________ are graphic presentations of data from a worksheet:",
+      "options": {
+        "A": "Charts",
+        "B": "Tables",
+        "C": "Formula Bars",
+        "D": "Formula"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A worksheet is an electronic spreadsheet that lets users to :",
+      "options": {
+        "A": "Calculate data",
+        "B": "Enter data",
+        "C": "Analyze data",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Microsoft office spreadsheet program is ?",
+      "options": {
+        "A": "Microsoft word",
+        "B": "Microsoft excel",
+        "C": "Microsoft powerpoint",
+        "D": "none of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ctrl +U is used for ____",
+      "options": {
+        "A": "underline",
+        "B": "italic",
+        "C": "bold",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If you need to change the typeface of a document, which menu will you choose?",
+      "options": {
+        "A": "format",
+        "B": "tools",
+        "C": "view",
+        "D": "edit"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "_____ is not a valid data type in excel",
+      "options": {
+        "A": "Number",
+        "B": "Label",
+        "C": "Character",
+        "D": "none"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How to select All in PowerPoint ?",
+      "options": {
+        "A": "Ctrl + A",
+        "B": "Ctrl + N",
+        "C": "Ctrl + M",
+        "D": "Ctrl + S"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The .xls extension is used for ________ files",
+      "options": {
+        "A": "Windows",
+        "B": "Excel",
+        "C": "Power Point",
+        "D": "Access"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "From the following _________ view is not one of PowerPoint view",
+      "options": {
+        "A": "Slide",
+        "B": "presentation",
+        "C": "outline",
+        "D": "none"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How can you show or hide the grid-lines in Excel worksheet ?",
+      "options": {
+        "A": "Click Gridline tool on Forms toolbar",
+        "B": "Go to Tools > Options > View tab and mark or remove the check box named Gridline",
+        "C": "both",
+        "D": "none"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Shortcut for document views toolbar is situated in ___ bar.",
+      "options": {
+        "A": "task bar",
+        "B": "Status bar",
+        "C": "tool bar",
+        "D": "Micro"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Soft copy refers to :",
+      "options": {
+        "A": "Input",
+        "B": "output",
+        "C": "Screen output",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which memory, all materiel are stored so that we can retrieve it later on",
+      "options": {
+        "A": "Short term memory",
+        "B": "long term memory",
+        "C": "sensory memory",
+        "D": "none"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To auto fit the width of column _",
+      "options": {
+        "A": "Double click the column header",
+        "B": "Double click the left border of column",
+        "C": "Double click the right border of column",
+        "D": "All"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "You cannot close MS word application by ___",
+      "options": {
+        "A": "Choosing close submenu from file Menu",
+        "B": "Clicking X button on title bar",
+        "C": "Choosing file menu first then exit sub menu",
+        "D": "Alt+ F4"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which menu in MSWord can be used to change character size and typeface ?",
+      "options": {
+        "A": "Format",
+        "B": "Tools",
+        "C": "View",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used for Help in PowerPoint?",
+      "options": {
+        "A": "F1",
+        "B": "F2",
+        "C": "F3",
+        "D": "F4"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which shortcut key is for auto sum ?",
+      "options": {
+        "A": "Alt + =",
+        "B": "Ctrl + Shift",
+        "C": "Alt + F1",
+        "D": "Ctrl + ="
+      },
+      "correct": "A"
+    },
+    {
+      "question": "“Ctrl + Down Arrow” Shortcut key is used in Ms Word to ____?",
+      "options": {
+        "A": "Moves the cursor one paragraph down",
+        "B": "Moves the cursor one line down",
+        "C": "Moves the cursor one page down",
+        "D": "Moves the cursor one screen down"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the default slide name in MS Word ?",
+      "options": {
+        "A": "presentation1",
+        "B": "Book1",
+        "C": "document1",
+        "D": "none of the above"
+      },
+      "correct": "C"
+    }
+  ]
+}

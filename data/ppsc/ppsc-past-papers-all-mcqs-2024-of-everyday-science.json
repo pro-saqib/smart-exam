@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2024 of Everyday Science",
+  "mcqs": [
+    {
+      "question": "Dinosaurs belong to which group of animals?",
+      "options": {
+        "A": "Mammals",
+        "B": "Amphibians",
+        "C": "Reptiles",
+        "D": "Birds"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The study of rock is called?",
+      "options": {
+        "A": "Petrology",
+        "B": "Edaphology",
+        "C": "Petrogenesis",
+        "D": "Pedology"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Gravity was discovered by ______?",
+      "options": {
+        "A": "Galileo Galilei",
+        "B": "Isaac Newton",
+        "C": "Albert Einstein",
+        "D": "Johannes Kepler"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A plant that cannot prepare its own food is called?",
+      "options": {
+        "A": "Autotroph",
+        "B": "Heterotroph",
+        "C": "Saprophyte",
+        "D": "Photosynthetic"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Why is the spleen called the graveyard of RBCs?",
+      "options": {
+        "A": "It produces new RBCs",
+        "B": "It stores excess RBCs",
+        "C": "It breaks down old and damaged RBCs",
+        "D": "It converts RBCs into white blood cells"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Radioactivity measured by which device?",
+      "options": {
+        "A": "Radioactivity meter",
+        "B": "Geiger counter",
+        "C": "Roll counter",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A unit of length equal to the average distance between the earth and sun is called?",
+      "options": {
+        "A": "Light year",
+        "B": "Parallax",
+        "C": "Astronomical unit",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The age of Universe is ____?",
+      "options": {
+        "A": "100 million years",
+        "B": "1 million year",
+        "C": "13.8 billion years",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The SI unit of electric current is _____?",
+      "options": {
+        "A": "Ampere",
+        "B": "Volt",
+        "C": "Coloumb",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the largest gland in the human body?",
+      "options": {
+        "A": "Thyroid",
+        "B": "Liver",
+        "C": "Pancreas",
+        "D": "None of these"
+      },
+      "correct": "B"
+    }
+  ]
+}

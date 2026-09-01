@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2024 of Current Affairs",
+  "mcqs": [
+    {
+      "question": "Who is the Current Governor of the State Bank of Pakistan (SBP)?",
+      "options": {
+        "A": "Dr Reza Baqir",
+        "B": "Tariq Bajwa",
+        "C": "Jameel Ahmed",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Chief Minister of Sindh?",
+      "options": {
+        "A": "Qaim Ali Shah",
+        "B": "Jam Mir Kamal Khan",
+        "C": "Syed Murad Ali Shah",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the current Prime Minister of the United Kingdom (UK)?",
+      "options": {
+        "A": "Andy Burnham",
+        "B": "Keir Starmer",
+        "C": "Boris Johnson",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Dr Yousaf",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Foreign Minister of Russia?",
+      "options": {
+        "A": "Igor Ivanov",
+        "B": "Yevgeny Primakov",
+        "C": "Sergey Lavrov",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the current Vice President of USA?",
+      "options": {
+        "A": "Donald Trump",
+        "B": "Kamala Harris",
+        "C": "JD Vance",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the world’s most polluted city, as per the US Air Quality Index?",
+      "options": {
+        "A": "Karachi",
+        "B": "Delhi",
+        "C": "Lahore",
+        "D": "New York"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current President of United States of America (USA)?",
+      "options": {
+        "A": "Donald Trump",
+        "B": "Joe Biden",
+        "C": "Bill Clinton",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "According to Population, Pakistan is ________ largest country in the world?",
+      "options": {
+        "A": "4th",
+        "B": "5th",
+        "C": "6th",
+        "D": "7th"
+      },
+      "correct": "B"
+    }
+  ]
+}

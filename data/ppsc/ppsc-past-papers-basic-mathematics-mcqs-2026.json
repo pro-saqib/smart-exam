@@ -1,0 +1,1215 @@
+{
+  "name": "PPSC Past Papers Basic Mathematics MCQs 2026",
+  "mcqs": [
+    {
+      "question": "If a coin is tossed 4 times in succession, what is the probability that at least one head appears?",
+      "options": {
+        "A": "1/16",
+        "B": "4/16",
+        "C": "15/16",
+        "D": "16/16"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The length of a line measured with a 20 m chain was found to be 250 m. Calculate the true length of the line if the chain was 10 cm longer.",
+      "options": {
+        "A": "248.75 m",
+        "B": "249.00 m",
+        "C": "251.25 m",
+        "D": "252.50 m"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is a formula of perimeter of rectangle?",
+      "options": {
+        "A": "2 (length + width)",
+        "B": "2 (length × width)",
+        "C": "Length + width",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "47⁴³ + 43⁴³ is divisible by?",
+      "options": {
+        "A": "45",
+        "B": "60",
+        "C": "90",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the value of (√2 - 1/√2)²?",
+      "options": {
+        "A": "1/2",
+        "B": "2",
+        "C": "3/2",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the value of 0.01 × 0.6?",
+      "options": {
+        "A": "0.006",
+        "B": "0.06",
+        "C": "0.0006",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many two-digit numbers are divisible by 9?",
+      "options": {
+        "A": "11",
+        "B": "10",
+        "C": "9",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If a dishwasher cleans 1350 dishes in 1 hour, how many dishes will it wash in 16 minutes?",
+      "options": {
+        "A": "360",
+        "B": "3600",
+        "C": "3600",
+        "D": "540"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the production cost is Rs. 50,000 and the sales tax rate is 0%, what will be the sales tax amount?",
+      "options": {
+        "A": "Rs. 500",
+        "B": "Rs. 5,000",
+        "C": "Rs. 0",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A college has 200 girls and 160 boys. If 1/5 of the girls and 1/8 of the boys participate in games, how many students participated?",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "70",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The length of a rectangle is 58.7 and the width is 23.2. What is its perimeter?",
+      "options": {
+        "A": "81.9",
+        "B": "163.8",
+        "C": "153.8",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 30 workers make 3000 units in 20 days, working 8 hours a day, then 32 workers, working 10 hours a day, will produce 2000 units in how many days?",
+      "options": {
+        "A": "10 Days",
+        "B": "14 Days",
+        "C": "12 Days",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A high-speed train travels at a speed of 200 km/hr. If the train sets off from Station A at 12:24 and reaches Station B at 2:12 PM, what is the distance between the two stations?",
+      "options": {
+        "A": "320 km",
+        "B": "340 km",
+        "C": "360 km",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If y = 2x and z = 5y, then x + 3y + z = ?",
+      "options": {
+        "A": "15x",
+        "B": "17x",
+        "C": "16x",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If the point is (a,−a), then it lies on which line?",
+      "options": {
+        "A": "y=x",
+        "B": "y=−x",
+        "C": "y=a",
+        "D": "x=a"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "There are 54 coins in total. Some are 20-cent coins and some are 50-cent coins. Their total value is $20.70. How many 20-cent coins are there",
+      "options": {
+        "A": "21",
+        "B": "23",
+        "C": "27",
+        "D": "31"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A wheel makes 500 revolutions and covers 22 km. Find the diameter of the wheel?",
+      "options": {
+        "A": "7 m",
+        "B": "10 m",
+        "C": "14 m",
+        "D": "22 m"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the sum: 2×1^2 +4×2^2 +6×3^ +⋯+20×10^2",
+      "options": {
+        "A": "76,440",
+        "B": "77,000",
+        "C": "77,440",
+        "D": "6050"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In a class of 20 students, the average height is 150 cm. One student with a height of 155 cm joins the class. What is the new average height?",
+      "options": {
+        "A": "150 cm",
+        "B": "150.24 cm",
+        "C": "150.50 cm",
+        "D": "151 cm"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If x+y=16 and x−y=3, then x^2 −^ 2 =?",
+      "options": {
+        "A": "19",
+        "B": "48",
+        "C": "256",
+        "D": "13"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The value of the sum of the first 4 multiples of 5 is?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "50",
+        "D": "60"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "HCF of 48 and 80 = 48P − 80 First, find HCF of 48 and 80:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following can be the sides of a right triangle? 15 cm, 20 cm, 25 cm 15 cm, 20 cm, 24 cm 12 cm, 15 cm, 20 cm None of these",
+      "options": {
+        "A": "15 cm, 20 cm, 25 cm",
+        "B": "15 cm, 20 cm, 24 cm",
+        "C": "12 cm, 15 cm, 20 cm",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The population of trees in a forest has been decreased by 6% every year. The population at the beginning of 2015 was estimated to be 1400. If P represents the population of trees t years after 2015, which equation gives the population of trees over time?",
+      "options": {
+        "A": "P = 1400(1.06)ᵗ",
+        "B": "P = 1400(0.94)ᵗ",
+        "C": "P = 1400 − 6t",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If a class has 14 boys and 18 girls, what is the ratio of girls to boys?",
+      "options": {
+        "A": "7 : 9",
+        "B": "9 : 7",
+        "C": "14 : 18",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A ladder is placed 3 m away from a wall, and the wall is 4 m high. What is the length of the ladder?",
+      "options": {
+        "A": "5 m",
+        "B": "6 m",
+        "C": "7 m",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If y is directly proportional to x and x = 2, y = 5, then find y when x = 7?",
+      "options": {
+        "A": "15",
+        "B": "35/2",
+        "C": "25/2",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "0.002 × 0.03 = _____?",
+      "options": {
+        "A": "0.0006",
+        "B": "0.00006",
+        "C": "0.006",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 5x/4 = 8y/3, then x : y =?",
+      "options": {
+        "A": "32 : 15",
+        "B": "15 : 32",
+        "C": "20 : 12",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one is not a rational number? √9, √2, 8, 9",
+      "options": {
+        "A": "√9",
+        "B": "√2",
+        "C": "8",
+        "D": "9"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The volume of a cube is 275. The length of one side of the cube is?",
+      "options": {
+        "A": "∛275",
+        "B": "275²",
+        "C": "275 ÷ 3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "2x + 15 = 3 − 4x. The value of x is?",
+      "options": {
+        "A": "−2",
+        "B": "2",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The degree of the polynomial 2kx² − x + 1 is?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the 10th term of the series? 2×1^^^2 +4×2 2 +6×3 2 +⋯",
+      "options": {
+        "A": "1000",
+        "B": "1500",
+        "C": "2000",
+        "D": "2500"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The distance of the point (2, 1) from the origin is?",
+      "options": {
+        "A": "√3",
+        "B": "√5",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "(2³)² = ____?",
+      "options": {
+        "A": "2⁶",
+        "B": "2⁵",
+        "C": "2⁴",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The volume of a cubic room is 2744 m³. Find the length of the room?",
+      "options": {
+        "A": "14 m",
+        "B": "18 m",
+        "C": "16 m",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The arithmetic mean of the first 10 prime numbers is ________?",
+      "options": {
+        "A": "12.7",
+        "B": "12.8",
+        "C": "12.9",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The average of five numbers 2, 7, 9, 10, x is 5. Find the value of x.",
+      "options": {
+        "A": "-5",
+        "B": "-3",
+        "C": "2",
+        "D": "5"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If √4x-3=4, find the value of x.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "19/4",
+        "D": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "0.003 × 0.02 = ?",
+      "options": {
+        "A": "0.06",
+        "B": "0.006",
+        "C": "0.0006",
+        "D": "0.00006"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The distance between two trains is 300 km. One train travels at 60 km/h and the other at 90 km/h toward each other. After how much time will they meet?",
+      "options": {
+        "A": "1 hour",
+        "B": "2 hours",
+        "C": "3 hours",
+        "D": "4 hours"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is 25% of 120,000?",
+      "options": {
+        "A": "20,000",
+        "B": "25,000",
+        "C": "30,000",
+        "D": "35,000"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A ladder makes an angle of 45 degree with the ground when placed against a wall. If the foot of the ladder is 5m away from the wall, then the height of wall is?",
+      "options": {
+        "A": "5m",
+        "B": "10m",
+        "C": "15m",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Simplify the expression: 3x² - 4√x + xy + √25x + 7x²?",
+      "options": {
+        "A": "12x² + xy + √x",
+        "B": "14x² + xy + √x",
+        "C": "10x² + xy + √x",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the perimeter of a rectangle where height is 6 more than the width?",
+      "options": {
+        "A": "2w + 6",
+        "B": "2w + 12",
+        "C": "4w + 12",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If x = 5 and y = 2, then x + y is equal to?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A number divided by 4 and 9 leaves a remainder of 3. If the number is 39, what is the calculation?",
+      "options": {
+        "A": "39 ÷ 4 = 9 R3, 39 ÷ 9 = 3 R6",
+        "B": "39 ÷ 4 = 9 R3, 39 ÷ 9 = 4 R3",
+        "C": "39 ÷ 4 = 8 R7, 39 ÷ 9 = 4 R3",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "(-1)³⁰⁰ ?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the sequence: 2, 6, 18, ____, 486. Find the 4th term from the last?",
+      "options": {
+        "A": "18",
+        "B": "9",
+        "C": "27",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Simplify: (m¹⁄₃ n⁻²)³⁄₅?",
+      "options": {
+        "A": "m¹⁄₅ n⁻⁶⁄₅",
+        "B": "m²⁄₅ n⁻⁶⁄₅",
+        "C": "m³⁄₈ n⁻²⁄₅",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If a rectangle’s length is 6 cm greater than its width and its perimeter is 48 cm, find its width?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the sum of roots of a quadratic equation is -2 and the product is 3, find the equation?",
+      "options": {
+        "A": "x² + 2x + 3 = 0",
+        "B": "x² - 2x + 3 = 0",
+        "C": "x² + 2x - 3 = 0",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If y is inversely proportional to x. y is 10 when x is 2. Find y when x is 5?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If a sphere has a diameter of 12 cm, then the surface area of the sphere is?",
+      "options": {
+        "A": "144π cm²",
+        "B": "288π cm²",
+        "C": "72π cm²",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A 3-digit number is reversed, and the new number is 297 greater than the original. The sum of the first and third digits is 7. What is the product of the first and third digits?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "201 × 199 = ____?",
+      "options": {
+        "A": "40000",
+        "B": "39999",
+        "C": "39801",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve the equation: 2x² + 5x − 12 = 0. Find the value of x?",
+      "options": {
+        "A": "x = 2, x = −3",
+        "B": "x = −2, x = 3",
+        "C": "x = 3/2, x = −4",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The value of (100)¹·⁵ is?",
+      "options": {
+        "A": "1000",
+        "B": "100",
+        "C": "10000",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A cylinder has base diameter = 8 cm and height = half of radius. Find its volume?",
+      "options": {
+        "A": "32π cm³",
+        "B": "64π cm³",
+        "C": "128π cm³",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If F(x) + F(−x) = 6, then the function is?",
+      "options": {
+        "A": "Odd function",
+        "B": "Even function",
+        "C": "Constant symmetric form",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "To solve a polynomial equation by putting a given value of x, we are actually?",
+      "options": {
+        "A": "Factoring the polynomial",
+        "B": "Finding the derivative",
+        "C": "Substituting the value of x",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The difference between the greatest two-digit number and the first natural number is?",
+      "options": {
+        "A": "97",
+        "B": "98",
+        "C": "99",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "There are 12 numbers between A and B. All these numbers are multiples of 6. The first number after A is 18. Find the value of B?",
+      "options": {
+        "A": "90",
+        "B": "95",
+        "C": "100",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A square of area 64 m² is made of wire. The wire is then bent to form a circle. Find the area of the circle?",
+      "options": {
+        "A": "81.5 m²",
+        "B": "128 m²",
+        "C": "201 m²",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Total population is 80,000. If 75% attended, how many did not attend?",
+      "options": {
+        "A": "20,000",
+        "B": "10,000",
+        "C": "2,000",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 2x² − 3x − 2 = 0, then x = ?",
+      "options": {
+        "A": "x = 2, −1/2",
+        "B": "x = 1, −2",
+        "C": "x = 3, −1",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the LCM of 18 and 144?",
+      "options": {
+        "A": "36",
+        "B": "72",
+        "C": "144",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If a car covers 19 km at a speed of 57 km/h, how much distance will it cover at a speed of 110 km/h (in the same time)?",
+      "options": {
+        "A": "30 km",
+        "B": "35 km",
+        "C": "36.67 km",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a class of 60 students, 18 are girls. What is the percentage of girls?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If tan x = 3/5, then cos x = ?",
+      "options": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "5/√34",
+        "D": "5/√34"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If sin x = 15/17, then cos x = ?",
+      "options": {
+        "A": "8/17",
+        "B": "15/17",
+        "C": "17/8",
+        "D": "1/17"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a class of 40 students, 8% are boys. How many boys are there in the class?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "1024 kilobytes is equal to ____?",
+      "options": {
+        "A": "1 terabyte",
+        "B": "1 gigabyte",
+        "C": "1 megabyte",
+        "D": "Both A and B"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The average of four consecutive odd numbers is 24. The largest number is:",
+      "options": {
+        "A": "25",
+        "B": "26",
+        "C": "27",
+        "D": "29"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "(x + 3)(x − 2) = ?",
+      "options": {
+        "A": "x² + 5x − 6",
+        "B": "x² + x − 6",
+        "C": "x² − x − 6",
+        "D": "x² + x + 6"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If y = √(64 / (3x + 1)), find x when y = 4",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the next term in the sequence: 2, 1, 3, 4, 7, 11?",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "20",
+        "D": "22"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A train covers 150 km in 3 hours. How much distance in 8 hours?",
+      "options": {
+        "A": "350 km",
+        "B": "300 km",
+        "C": "400 km",
+        "D": "450 km"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The product of first four consecutive natural numbers plus one is?",
+      "options": {
+        "A": "Always a prime number",
+        "B": "Always a perfect square",
+        "C": "Always even",
+        "D": "Always divisible by 3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If f(x)=−1, what is f(f(−1))?",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "Undefined"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Circumference of a circle whose radius is 8 cm?",
+      "options": {
+        "A": "25.12 cm",
+        "B": "50.24 cm",
+        "C": "16 cm",
+        "D": "100.48 cm"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A man make basket in 2/3 hours. How many basket he can make in 7.5 hours?",
+      "options": {
+        "A": "15 baskets",
+        "B": "7.5 baskets",
+        "C": "45 /4 baskets",
+        "D": "30 baskets"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the distance of the point (−6,8) from the origin?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A shop has 6224 soaps. If the shop sells 20% of the soaps, how many soaps are left?",
+      "options": {
+        "A": "1245",
+        "B": "4979",
+        "C": "5000",
+        "D": "4800"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A can complete a work alone in 10 days. A & B together complete it in 8 days. How many days can B alone complete the same work?",
+      "options": {
+        "A": "30 days",
+        "B": "40 days",
+        "C": "20 days",
+        "D": "25 days"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is 20% of 6440?",
+      "options": {
+        "A": "1220",
+        "B": "1288",
+        "C": "1300",
+        "D": "1240"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The sum of adjacent angles on a straight line is?",
+      "options": {
+        "A": "90°",
+        "B": "270°",
+        "C": "180°",
+        "D": "360°"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Two angles that have common vertex, a common arm and no. point and in their interiors known as _____?",
+      "options": {
+        "A": "Right angles",
+        "B": "Obtuse angels",
+        "C": "Adjacent angles",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "3x + 3y + x² - y²/x + y =?",
+      "options": {
+        "A": "x+y+3",
+        "B": "x−y+3",
+        "C": "x+y−3",
+        "D": "x−y−3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "12 : 68 :: 30 : ?",
+      "options": {
+        "A": "180",
+        "B": "170",
+        "C": "154",
+        "D": "192"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find 3√216​?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "12",
+        "D": "8"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many cubic centimeters (cm³) are there in 1 liter (L)?",
+      "options": {
+        "A": "10 cm³",
+        "B": "100 cm³",
+        "C": "500 cm³",
+        "D": "1000 cm³"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If x=7-4[3]^1/2 then find the value of x-1/x?",
+      "options": {
+        "A": "1",
+        "B": "-8 (3 ​)^1/2",
+        "C": "8 (3 ​)^1/2",
+        "D": "-1"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the value of 𝑎 if 11^𝑎 = 1331",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Convert 80000 cm³ into liters?",
+      "options": {
+        "A": "800 liters",
+        "B": "80 liters",
+        "C": "8 liters",
+        "D": "0.8 liters"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If A’s income is 40% less than B’s income, then how much percent is B’s income more than A’s income?",
+      "options": {
+        "A": "68.66%",
+        "B": "69.66%",
+        "C": "66.66%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If A can complete a work in 18 days, B in 20 days, and C in 30 days, B and C work together for 2 days and then leave. How many days will A take to complete the remaining work?",
+      "options": {
+        "A": "13 days",
+        "B": "14 days",
+        "C": "15 days",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "10 people complete a work in 14 days. 4 persons will complete this work in how many days?",
+      "options": {
+        "A": "28 days",
+        "B": "30 days",
+        "C": "35 days",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A truck covers 47 km in 10 hours, and a car covers the same distance in 8 hours. What is the ratio of the speed of the car to the truck?",
+      "options": {
+        "A": "5:4",
+        "B": "4:5",
+        "C": "6:7",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Spacing between parallel lines till the end is _____?",
+      "options": {
+        "A": "Increasing",
+        "B": "Decreasing",
+        "C": "Same",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the perimeter of a square if its area is 256 cm²?",
+      "options": {
+        "A": "32 cm",
+        "B": "64 cm",
+        "C": "48 cm",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Simplify: 3/4 + 2/3?",
+      "options": {
+        "A": "5/7",
+        "B": "1/2",
+        "C": "17/12",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the 15th term of the sequence: 12, 9, 6, ______?",
+      "options": {
+        "A": "-30",
+        "B": "-31",
+        "C": "-32",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 45% of boys participated in artwork and the number of participating boys was 135, what is the total number of boys?",
+      "options": {
+        "A": "300",
+        "B": "250",
+        "C": "200",
+        "D": "400"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If a rope is 72 cm long and after stretching it reaches 90 cm, what is the percentage increase in length?",
+      "options": {
+        "A": "30%",
+        "B": "25%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 𝜆 (decay constant) corresponds to 𝑡 1 / 2 ​ (half-life), then λ=?",
+      "options": {
+        "A": "t1/2​×log2",
+        "B": "log2​ x t1/2",
+        "C": "2 x t 1/2",
+        "D": "1 / t 1/2"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If A and B are mutually exclusive events, then?",
+      "options": {
+        "A": "A∩B=∅",
+        "B": "A∪B=∅",
+        "C": "A=B",
+        "D": "A⊂B"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the volume of a cube is 64 cm³, what is its painted (total surface) area?",
+      "options": {
+        "A": "64 cm²",
+        "B": "96 cm²",
+        "C": "128 cm²",
+        "D": "256 cm²"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the value of 10 ! /7 !​ ?",
+      "options": {
+        "A": "210",
+        "B": "504",
+        "C": "720",
+        "D": "840"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 1:x=5:11, what is the value of x?",
+      "options": {
+        "A": "2.2",
+        "B": "5",
+        "C": "11",
+        "D": "1"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is square root 9801 ?",
+      "options": {
+        "A": "98",
+        "B": "99",
+        "C": "100",
+        "D": "101"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "After duty import, car price increased $9:8$. The original price of car is $800,000$. Tell the increased price?",
+      "options": {
+        "A": "$850,000",
+        "B": "$900,000",
+        "C": "$950,000",
+        "D": "$950,000"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "X:y=3:4 , y:z= 5:8 then find 2y/ 3x-y+2z?",
+      "options": {
+        "A": "45/49",
+        "B": "40/89",
+        "C": "50/89",
+        "D": "36/89"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the standard form of a quadratic equation?",
+      "options": {
+        "A": "ax^2 + bx + c = 0",
+        "B": "ax^2 + b = c",
+        "C": "a(x - h)^2 + k = 0",
+        "D": "a(x - p)(x - q) = 0"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The average of four consecutive odd numbers is 24. The largest number is?",
+      "options": {
+        "A": "20",
+        "B": "27",
+        "C": "36",
+        "D": "45"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Median of the following numbers is: 17, 13, 18, 17, 14, 18, 19, 17, 13, 16, 18, 20?",
+      "options": {
+        "A": "18",
+        "B": "17",
+        "C": "16",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "One zero of the polynomial p(x) = x² - 4x + 3 is?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Does the parabola y = 2x^2 - 13x + 5 have a tangent whose slope is -1. If so, then it will be?",
+      "options": {
+        "A": "y= -x-13",
+        "B": "y= 2x+2",
+        "C": "y= x^2-1",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Two numbers whose sum is 67 and difference is 3, the numbers are?",
+      "options": {
+        "A": "34 and 56",
+        "B": "6 and 15",
+        "C": "33 and 34",
+        "D": "32 and 35"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Ali's mental age is 12, whereas his chronological age is 10. What would be his intelligence quotient IQ?",
+      "options": {
+        "A": "100",
+        "B": "110",
+        "C": "120",
+        "D": "130"
+      },
+      "correct": "C"
+    }
+  ]
+}

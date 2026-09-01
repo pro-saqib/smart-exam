@@ -1,0 +1,795 @@
+{
+  "name": "PPSC Past Papers all MCQs 2023 of Everyday Science",
+  "mcqs": [
+    {
+      "question": "Ophthalmology is the study of ____?",
+      "options": {
+        "A": "Nerves",
+        "B": "Blood",
+        "C": "Eyes",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Radioactivity measured by which device?",
+      "options": {
+        "A": "Radioactivity meter",
+        "B": "Geiger counter",
+        "C": "Roll counter",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discovered the circulation of blood?",
+      "options": {
+        "A": "Parker",
+        "B": "William Harvey",
+        "C": "Mendel",
+        "D": "Newton"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The light from the Sun reaches to earth is about?",
+      "options": {
+        "A": "5 min 20 sec",
+        "B": "6 min 20 sec",
+        "C": "7 min 20 sec",
+        "D": "8 min 20 sec"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The atmospheric pressure (air pressure) at any place is measured by _____?",
+      "options": {
+        "A": "Altimeter",
+        "B": "Pressure Meter",
+        "C": "Barometer",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who invented Telephone?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Nikola Tesla",
+        "C": "Alexander Graham Bell",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who discover Penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Edward Jenner",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Solar plate consist of which type of cell?",
+      "options": {
+        "A": "Fuel cell",
+        "B": "Photo voltaic cell",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Lead pencil is made up of?",
+      "options": {
+        "A": "Aluminum",
+        "B": "Silver",
+        "C": "Graphite",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A chronometer meter measures _______?",
+      "options": {
+        "A": "Water waves",
+        "B": "Color contrast",
+        "C": "Time",
+        "D": "Sound waves"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Normal blood pressure of healthy adult person is _____?",
+      "options": {
+        "A": "120/80 mm Hg",
+        "B": "150/50 mm Hg",
+        "C": "140/80 mm Hg",
+        "D": "140/100 mm Hg"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The average heartbeat per minute in a normal man is _____?",
+      "options": {
+        "A": "70",
+        "B": "60",
+        "C": "50",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the number of planets in the solar system?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "9",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Earth rotates its axis from _____?",
+      "options": {
+        "A": "East to West",
+        "B": "West to East",
+        "C": "North to South",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the gravity of moon as compared to the Earth?",
+      "options": {
+        "A": "1/6th of Earth",
+        "B": "1/5th of Earth",
+        "C": "1/4th of Earth",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The SI unit of “Pressure” is ______?",
+      "options": {
+        "A": "Henry",
+        "B": "Pascal",
+        "C": "Joule",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sound Waves travel faster in a medium ____?",
+      "options": {
+        "A": "Denser",
+        "B": "Rigid",
+        "C": "Solid",
+        "D": "Soft"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The study of tissues is called _____?",
+      "options": {
+        "A": "Geology",
+        "B": "Histology",
+        "C": "Radiology",
+        "D": "Toxicology"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discover the Vaccine?",
+      "options": {
+        "A": "Edward Jenner",
+        "B": "Alexander Fleming",
+        "C": "J. J. Thomson",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Colour of the plants is green due to the presence of _______?",
+      "options": {
+        "A": "Carbon dioxide",
+        "B": "Chlorophyll",
+        "C": "Urea",
+        "D": "Oxygen"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is a neutral particle?",
+      "options": {
+        "A": "Alpha particle",
+        "B": "Neutron",
+        "C": "Electron",
+        "D": "Proton"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Soap and detergents remove the dirt from cloths due to ______?",
+      "options": {
+        "A": "Capillary action",
+        "B": "Osmosis",
+        "C": "Diffusion",
+        "D": "Lowering of inter-facial tension"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Polio vaccine was invented in ______?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "Germany",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Cooking oil can be converted into vegetable ghee by the process of ____?",
+      "options": {
+        "A": "Hydrogenation",
+        "B": "Oxidation",
+        "C": "Distillation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the factor effect of boiling water?",
+      "options": {
+        "A": "Air pressure",
+        "B": "Temperature",
+        "C": "Pressure",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cell theory was given by _____?",
+      "options": {
+        "A": "Matthias Schleiden",
+        "B": "Theodor Schwann",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who discovered the law of attraction and repulsion in electric charges?",
+      "options": {
+        "A": "Einstein",
+        "B": "Coulumb",
+        "C": "Gullelio",
+        "D": "Newton"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "At the highest point what will be the acceleration of an object?",
+      "options": {
+        "A": "9.0 M/S downward",
+        "B": "9.6 M/S downward",
+        "C": "9.8 M/S downward",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The speed of light in vacuum is about",
+      "options": {
+        "A": "300 Million meters per second",
+        "B": "300 Million meters per hour",
+        "C": "300,000 kilometers per second",
+        "D": "300 Million kilometers per hour"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The element used in glass preparation due to the transparent nature of its compounds is _____?",
+      "options": {
+        "A": "Selenium",
+        "B": "Iodine",
+        "C": "Silicon",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The fourth state of matter is ____?",
+      "options": {
+        "A": "Plasma",
+        "B": "Steam",
+        "C": "Gas",
+        "D": "Matteroid"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is not a vector quantity?Work, Mass, Distance, All of these",
+      "options": {
+        "A": "Work",
+        "B": "Mass",
+        "C": "Distance",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The most abundant element found in human body by weight is _____?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Nitrogen",
+        "C": "Oxygen",
+        "D": "Carbon"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What Is the Chemical Formula of Sugar?",
+      "options": {
+        "A": "C12H22O11",
+        "B": "C12H21O10",
+        "C": "C6H12O11",
+        "D": "C12H12O6"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Lifespan of Red Blood Cells (RBCs) ____ days.",
+      "options": {
+        "A": "120",
+        "B": "130",
+        "C": "112",
+        "D": "110"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The term Aqua means ______?",
+      "options": {
+        "A": "Water",
+        "B": "Marsh",
+        "C": "Alloy",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "COVID-19 is caused by?",
+      "options": {
+        "A": "Injection",
+        "B": "Virus",
+        "C": "Bacteria",
+        "D": "Mosquito"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which part of the donor's eye is utilized in eye donation?",
+      "options": {
+        "A": "Lens",
+        "B": "Cornea",
+        "C": "Retina",
+        "D": "All of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Entomology is the science that studies?",
+      "options": {
+        "A": "Behavior of human beings",
+        "B": "Insects",
+        "C": "Scientific terms",
+        "D": "The formation of rocks"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Friction can be reduced by changing over from _____?",
+      "options": {
+        "A": "Sliding to rolling",
+        "B": "Rolling to sliding",
+        "C": "Potential energy to kinetic energy",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The exoskeleton of a marine snail is composed of _____?",
+      "options": {
+        "A": "Calcium Carbonate",
+        "B": "Calcium Sulphate",
+        "C": "Sulphur Dioxide",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Humidify of the atmosphere is measured by an instrument called?",
+      "options": {
+        "A": "Barometer",
+        "B": "Hygrometer",
+        "C": "Carbohydrates",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Venus indicated the direction of ____?",
+      "options": {
+        "A": "West",
+        "B": "South",
+        "C": "North",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Some celestial bodies which do not have their own heat and light are known as?",
+      "options": {
+        "A": "Planets",
+        "B": "Stars",
+        "C": "Sun",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is non-biodegradable?",
+      "options": {
+        "A": "Nylon",
+        "B": "Tea leaves",
+        "C": "Remains of animals",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Organic compound poured directly into the blood and transported to targeted tissue are _____?",
+      "options": {
+        "A": "Hormones",
+        "B": "Protiens",
+        "C": "Glocouse",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The size of animal and plant is increase by _____?",
+      "options": {
+        "A": "Mitosis",
+        "B": "Meiosis",
+        "C": "Budding",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the escape of water molecules from surface called?",
+      "options": {
+        "A": "Evaporation",
+        "B": "Condensation",
+        "C": "Crystallization",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Kidney stones was formed by which element?",
+      "options": {
+        "A": "Calcium",
+        "B": "Calcium oxalate",
+        "C": "Potassium",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The interdisciplinary study of human population is called?",
+      "options": {
+        "A": "Demography",
+        "B": "Cartography",
+        "C": "Geography",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The study of life is called?",
+      "options": {
+        "A": "Geology",
+        "B": "Chemistry",
+        "C": "Biology",
+        "D": "Physics"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Duodenum Jejunum is a part of _____?",
+      "options": {
+        "A": "Liver",
+        "B": "Kidney",
+        "C": "Large intestine",
+        "D": "Small intestine"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who said microbes are animalcule?",
+      "options": {
+        "A": "Darwin",
+        "B": "Mendel",
+        "C": "Leeuwenhoek",
+        "D": "Lois Pasteur"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Phases of the moon occur because _____?",
+      "options": {
+        "A": "We can see only that part of moon which reflects light towards us",
+        "B": "Our distance from the moon keeps changing",
+        "C": "The shadow of earth covers only a part of moon surface",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many times a normal man respires per minute?",
+      "options": {
+        "A": "14-18 times",
+        "B": "10-15 times",
+        "C": "20-25 times",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What are Cyclones?",
+      "options": {
+        "A": "Sudden Heavy floods",
+        "B": "No rain for a long time",
+        "C": "Heavy showers",
+        "D": "Winds and rains"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The number of bones in a newborn baby is ____?",
+      "options": {
+        "A": "206",
+        "B": "250",
+        "C": "300",
+        "D": "360"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The pH of milk is _____?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "6.7",
+        "D": "7.5"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of following gas is combustible?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Nitrogen",
+        "C": "Oxygen",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which thing the brain demands the most?",
+      "options": {
+        "A": "Glucose",
+        "B": "Lactose",
+        "C": "Proteins",
+        "D": "Vitamins"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Horticulture is a study of _____?",
+      "options": {
+        "A": "Planting",
+        "B": "Gardening",
+        "C": "Cultivation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A branch of medicine dealing with eyes and related diseases is called ____?",
+      "options": {
+        "A": "Ophthalmology",
+        "B": "Obstetrics",
+        "C": "Physiology",
+        "D": "Hematology"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which gas is 80 times potent than CO2 in Greenhouse Effect ?",
+      "options": {
+        "A": "Methane",
+        "B": "Oxygen",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "AIDS virus discovered in?",
+      "options": {
+        "A": "1981",
+        "B": "1982",
+        "C": "1983",
+        "D": "1984"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The study of life of one's individual is called?",
+      "options": {
+        "A": "Psychology",
+        "B": "Biology",
+        "C": "Biography",
+        "D": "Chemistry"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is a vector quantity____?",
+      "options": {
+        "A": "Volume",
+        "B": "Power",
+        "C": "Electric Current",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the temperature of liquid nitrogen?",
+      "options": {
+        "A": "-196 degree C",
+        "B": "-156 degree C",
+        "C": "-150 degree C",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the cause of 90% of lung cancer cases?",
+      "options": {
+        "A": "tobacco smoking",
+        "B": "Coal Drinks",
+        "C": "Water pollution",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following processes is used in water purification?",
+      "options": {
+        "A": "Reverse Osmosis",
+        "B": "Osmosis",
+        "C": "Cytolysis",
+        "D": "Turgor Pressure"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The PH of milk is _______?",
+      "options": {
+        "A": "6.0",
+        "B": "6.5",
+        "C": "7.0",
+        "D": "7.5"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which are the two planets which rotate from east to west?",
+      "options": {
+        "A": "Venus",
+        "B": "Uranus",
+        "C": "Both",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is used an electrode in dry cell ?",
+      "options": {
+        "A": "Lead",
+        "B": "Graphite",
+        "C": "Molybdenum",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Package of enzymes bounded by a membrane called a?",
+      "options": {
+        "A": "Ribosomes",
+        "B": "Golgi apparatus",
+        "C": "Endoplasmic reticulum",
+        "D": "Cytoplasm"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of following nutrients has the highest calorific values ?",
+      "options": {
+        "A": "Carbohyderates",
+        "B": "Fats",
+        "C": "Vitamins",
+        "D": "Proteins"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The sunlight can reach a depth of___________meters in the ocean",
+      "options": {
+        "A": "200",
+        "B": "300",
+        "C": "400",
+        "D": "450"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The speed of sound is fastest in",
+      "options": {
+        "A": "Liquids",
+        "B": "Solids",
+        "C": "Gases",
+        "D": "Vacuum"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A metal that is liquid at room temperature?",
+      "options": {
+        "A": "Mercury",
+        "B": "iron",
+        "C": "metal",
+        "D": "silver"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Malaria and Dengue are the diseases spread by what?",
+      "options": {
+        "A": "Bees",
+        "B": "Dragonflies",
+        "C": "Mosquitoes",
+        "D": "Moth files"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Deficiency of vitamin A causes? Loss of appetite, Night blindness ,Thought infection ,Both A and B",
+      "options": {
+        "A": "Loss of appetite",
+        "B": "Night blindness",
+        "C": "Thought infection",
+        "D": "Both A and B"
+      },
+      "correct": "D"
+    }
+  ]
+}

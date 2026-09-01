@@ -1,0 +1,555 @@
+{
+  "name": "PPSC Past Papers all MCQs 2022 of Geography",
+  "mcqs": [
+    {
+      "question": "Which Continent has no desert?",
+      "options": {
+        "A": "Europe",
+        "B": "Australia",
+        "C": "N.America",
+        "D": "S.America"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan is located in _______?",
+      "options": {
+        "A": "South Asia",
+        "B": "West Asia",
+        "C": "North Asia",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Warsak dam is constructed on which river?",
+      "options": {
+        "A": "Kabul",
+        "B": "Jhlem",
+        "C": "Chenab",
+        "D": "Indus"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Volga is the main river of _____?",
+      "options": {
+        "A": "Brazil",
+        "B": "Russia",
+        "C": "Spain",
+        "D": "UK"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Indus River originates from _____?",
+      "options": {
+        "A": "Ladakh",
+        "B": "Tibet",
+        "C": "Jammu",
+        "D": "Kashmir"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the highest/tallest mountain peak of the world?",
+      "options": {
+        "A": "Broad Peak",
+        "B": "Nanga Parbat",
+        "C": "Mount Everest",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Gold and Copper deposits of Pakistan are found mostly in _____?",
+      "options": {
+        "A": "Kala bagh",
+        "B": "Chaghi",
+        "C": "Thar",
+        "D": "Khewra"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the highest peak of Koh-e-Suleiman range?",
+      "options": {
+        "A": "Kirther",
+        "B": "Makran",
+        "C": "Takht-e-Suleiman",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the highest peak of Himalayas range in Pakistan?",
+      "options": {
+        "A": "K-2",
+        "B": "Nanga Parbat",
+        "C": "Sakasar",
+        "D": "Tirichmir"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is largest (longest) and important river of Pakistan?",
+      "options": {
+        "A": "Indus",
+        "B": "Ravi",
+        "C": "Jehlum",
+        "D": "Chenab"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the world famous monument Colosseum located?",
+      "options": {
+        "A": "England",
+        "B": "Germany",
+        "C": "Sweden",
+        "D": "Rome"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Thal desert is located in _____?",
+      "options": {
+        "A": "Balochistan",
+        "B": "Gilgit",
+        "C": "Sindh",
+        "D": "Punjab"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Greenwich mean Time was established in which year?",
+      "options": {
+        "A": "1864",
+        "B": "1880",
+        "C": "1884",
+        "D": "1892"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which province Tanda Dam is located?",
+      "options": {
+        "A": "KPK",
+        "B": "Balochistan",
+        "C": "Punjab",
+        "D": "Sindh"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is Bathsheba Beach?",
+      "options": {
+        "A": "Barbados",
+        "B": "Greece",
+        "C": "Australia",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country is located west of Pakistan?",
+      "options": {
+        "A": "Oman",
+        "B": "China",
+        "C": "India",
+        "D": "Iran"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Sudirman range is located in which country?",
+      "options": {
+        "A": "China",
+        "B": "Nepal",
+        "C": "Indonesia",
+        "D": "Turkmenistan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Stonehenge is among the Seven Wounder of the World situated in?",
+      "options": {
+        "A": "England",
+        "B": "France",
+        "C": "Italy",
+        "D": "Germany"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan is located in which continent?",
+      "options": {
+        "A": "Africa",
+        "B": "Europe",
+        "C": "Asia",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Industrial revolution started from which country?",
+      "options": {
+        "A": "England",
+        "B": "USA",
+        "C": "Canada",
+        "D": "UAE"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Bolan Pass is located in which mountain range?",
+      "options": {
+        "A": "Kirthar range",
+        "B": "Salt range",
+        "C": "Karakorum range",
+        "D": "Toba Kakar range"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Pakistan lies of the tropic zone of _____?",
+      "options": {
+        "A": "Tropic of Cancer",
+        "B": "Temperature Zone",
+        "C": "Tropic of Capricorn",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which city National School of Public Policy located?",
+      "options": {
+        "A": "Lahore",
+        "B": "Islamabad",
+        "C": "Peshawar",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In North America which is not the state of USA?",
+      "options": {
+        "A": "California",
+        "B": "Alaska",
+        "C": "Paraguay",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Siam Center is in ______?",
+      "options": {
+        "A": "Bangkok",
+        "B": "Istanbul",
+        "C": "Rome",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "______ Necropolis in Pakistan inscribed as a UNESCO World Heritage.",
+      "options": {
+        "A": "Miani Sahib",
+        "B": "Makli",
+        "C": "Mawa Sahib",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pakistan Seabed territory grows by 50000 square km in ______?",
+      "options": {
+        "A": "2009",
+        "B": "2015",
+        "C": "2019",
+        "D": "2022"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Gulab Devi hospital was established in 1934 by _____?",
+      "options": {
+        "A": "Mangal Pandy",
+        "B": "Lala Lajpat Rai",
+        "C": "Subhash Chandra",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Great Sphinx of Giza is located in which country?",
+      "options": {
+        "A": "Egypt",
+        "B": "Japan",
+        "C": "Syria",
+        "D": "Turkey"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Navagio beach is in _____?",
+      "options": {
+        "A": "Malysia",
+        "B": "Greece",
+        "C": "Thailand",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which river flows in Europe?",
+      "options": {
+        "A": "Volga",
+        "B": "Thames",
+        "C": "Danube",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The residential imperial twin tower located in which country?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "France",
+        "D": "India"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Ormara port is in which province?",
+      "options": {
+        "A": "Baluchistan",
+        "B": "KPK",
+        "C": "Sindh",
+        "D": "Punjab"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mojave Desert is located in which country?",
+      "options": {
+        "A": "Chili",
+        "B": "USA",
+        "C": "China",
+        "D": "India"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Orange river is located in ______?",
+      "options": {
+        "A": "Egypt",
+        "B": "South Africa",
+        "C": "Mexico",
+        "D": "Indonesia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sun Yat Sen park and casa garden is in which city of China?",
+      "options": {
+        "A": "Washington",
+        "B": "Macau",
+        "C": "Shanghai",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Kunar river is also called ___ river in Pakistan.",
+      "options": {
+        "A": "Chitral",
+        "B": "Swat",
+        "C": "Kunhar",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is tower bridge located?",
+      "options": {
+        "A": "London",
+        "B": "Peris",
+        "C": "Glasgow",
+        "D": "Liverpool"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Karakoram highway is denoted by",
+      "options": {
+        "A": "N-25",
+        "B": "N-35",
+        "C": "N-55",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The length between Pakistan and Afghanistan border is:",
+      "options": {
+        "A": "430 KM",
+        "B": "1430 KM",
+        "C": "2430 KM",
+        "D": "2611 KM"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Burzil Pass is located in?",
+      "options": {
+        "A": "Himalaya",
+        "B": "Karakuram",
+        "C": "Hindukush",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which river is not flowing from Jammu And Kahmir",
+      "options": {
+        "A": "Indus",
+        "B": "Beas",
+        "C": "Ravi",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Khandhkot gas field is located in :",
+      "options": {
+        "A": "Punjab",
+        "B": "Sindh",
+        "C": "KPK",
+        "D": "Baluchistan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Rakaposhi is a mountain in the Gilgat Baltistan region of Pakistan .Rakaposhi means ?",
+      "options": {
+        "A": "Black stone",
+        "B": "Golden stone",
+        "C": "Snow covered",
+        "D": "Green covered"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Hazara University is located in",
+      "options": {
+        "A": "Chitral",
+        "B": "Mansehra",
+        "C": "Malakand",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who signed the Pak-Sino Boundary treaty 1963 from Pakistan?",
+      "options": {
+        "A": "Manzoor Qadir",
+        "B": "Sir Zafarullah",
+        "C": "Zulfiqar Ali Bhutto",
+        "D": "Gen Ayub Khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Himalaya range is based in",
+      "options": {
+        "A": "Asia",
+        "B": "Europe",
+        "C": "Australia",
+        "D": "Africa"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Jerusalem is a sacred place for",
+      "options": {
+        "A": "Christians",
+        "B": "Jews",
+        "C": "Muslims",
+        "D": "All of them"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What type of animal was the first living creature in space",
+      "options": {
+        "A": "Fish",
+        "B": "Lizard",
+        "C": "Dog",
+        "D": "Crocodile"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When upper leeward stop the angle of pile of sand dunes is",
+      "options": {
+        "A": "30-32 degree",
+        "B": "32-34 degree",
+        "C": "33-34 degree",
+        "D": "46-40 degree"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The European country united after the demise of Berlin Wall in 1989 is:",
+      "options": {
+        "A": "Poland",
+        "B": "Germany",
+        "C": "France",
+        "D": "None of the above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "ILO headquarters is established in:",
+      "options": {
+        "A": "Washington",
+        "B": "Paris",
+        "C": "London",
+        "D": "Geneva"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Recently Turkey changed which Church into mosque",
+      "options": {
+        "A": "Anthony",
+        "B": "Luke",
+        "C": "Hagia Sophia",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "South Beach is in",
+      "options": {
+        "A": "California",
+        "B": "Florida",
+        "C": "Utah",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which mountain peak is also known as K-4 ?",
+      "options": {
+        "A": "Broad peak",
+        "B": "Gasherbrum II",
+        "C": "Gasherbrum IV",
+        "D": "None of these"
+      },
+      "correct": "B"
+    }
+  ]
+}

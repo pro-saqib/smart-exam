@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2025 of General Knowledge",
+  "mcqs": [
+    {
+      "question": "Which country won the first-ever FIFA World Cup?",
+      "options": {
+        "A": "Canada",
+        "B": "Uruguay",
+        "C": "France",
+        "D": "Brazil"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one of the following is the capital of Brazil?",
+      "options": {
+        "A": "Harare",
+        "B": "Ottowa",
+        "C": "Tokyo",
+        "D": "Brasilia"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When did the Euro currency come into existence?",
+      "options": {
+        "A": "1 January 1999",
+        "B": "1 January 2000",
+        "C": "1 January 2001",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Vasco Da Gama belonged to which country?",
+      "options": {
+        "A": "Germany",
+        "B": "Italy",
+        "C": "France",
+        "D": "Portugal"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which Continent has no desert?",
+      "options": {
+        "A": "Europe",
+        "B": "Australia",
+        "C": "N.America",
+        "D": "S.America"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Capital of Australia is _____?",
+      "options": {
+        "A": "Sydeny",
+        "B": "Canberra",
+        "C": "Perth",
+        "D": "Melbron"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest/biggest ocean of the world is ______?",
+      "options": {
+        "A": "Atlantic",
+        "B": "Pacific",
+        "C": "Indian",
+        "D": "Arctic"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the capital of Japan?",
+      "options": {
+        "A": "Jakarta",
+        "B": "Beijing",
+        "C": "Washington",
+        "D": "Tokyo"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the first person/man in Space?",
+      "options": {
+        "A": "Yuri Gagarin",
+        "B": "Neil Armstrong",
+        "C": "Alexei Leonov",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Suez Canal is connects / between / links ______?",
+      "options": {
+        "A": "Arabian Sea and Red Sea",
+        "B": "Red Sea and North Sea",
+        "C": "Mediterranean Sea and North Sea",
+        "D": "Mediterranean Sea and Red Sea"
+      },
+      "correct": "D"
+    }
+  ]
+}

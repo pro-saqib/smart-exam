@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { MCQ, Subject } from "@/lib/types";
 import { useApp } from "@/store/app-store";
+import type { SavedQuiz } from "@/store/app-store";
 import { Bookmark, BookmarkCheck, ArrowRight, RotateCcw, CheckCircle2, XCircle, AlertCircle, Play, Shuffle, SkipForward, Timer as TimerIcon } from "lucide-react";
 import { toast } from "sonner";
 
@@ -10,14 +11,22 @@ export function QuizRunner({
   emptyText,
   subtopics = [],
   mcqsBySubtopic = {},
+  onStart,
+  onReset,
+  subjectId,
+  savedState,
 }: {
   items: MCQ[];
   title: string;
   emptyText: string;
   subtopics?: Subject[];
   mcqsBySubtopic?: Record<string, MCQ[]>;
+  onStart?: () => void;
+  onReset?: () => void;
+  subjectId?: string;
+  savedState?: SavedQuiz | null;
 }) {
-  const { recordAttempt, toggleSolveLater } = useApp();
+  const { recordAttempt, toggleSolveLater, saveQuiz, clearSavedQuiz, subjects } = useApp();
   const [started, setStarted] = useState(false);
   const [selectedSubtopic, setSelectedSubtopic] = useState<string>("__all__");
   const [shuffleQuestions, setShuffleQuestions] = useState(true);
@@ -31,20 +40,77 @@ export function QuizRunner({
   const [elapsed, setElapsed] = useState(0);
   const [startTs, setStartTs] = useState<number | null>(null);
   const [timeUp, setTimeUp] = useState(false);
+  const [restored, setRestored] = useState(false);
+  const [restoredItems, setRestoredItems] = useState<MCQ[] | null>(null);
 
   const activeItems = useMemo(() => {
+    if (restoredItems) return restoredItems;
     if (selectedSubtopic === "__all__") return items;
     return mcqsBySubtopic[selectedSubtopic] ?? items;
-  }, [items, selectedSubtopic, mcqsBySubtopic]);
+  }, [items, selectedSubtopic, mcqsBySubtopic, restoredItems]);
+
+  // Save quiz state on unmount if quiz is in progress
+  useEffect(() => {
+    return () => {
+      if (started && !timeUp && order.length > 0 && idx < order.length) {
+        const subjectName = subjects.find((s) => s.id === subjectId)?.name || "Unknown";
+        saveQuiz({
+          mode: title,
+          subjectId: subjectId || "",
+          subjectName,
+          currentIndex: idx,
+          order,
+          items: activeItems.map((m) => m.id),
+          score,
+          retryQueue,
+          elapsed,
+          startTs: startTs || 0,
+          timeLimitMin,
+          shuffleOptions,
+          shuffleQuestions,
+        });
+      }
+    };
+  }, [started, timeUp, order, idx, score, retryQueue, elapsed, startTs, timeLimitMin, shuffleOptions, shuffleQuestions, subjectId, title, subjects, activeItems]);
+
+  // Restore from saved state
+  useEffect(() => {
+    if (savedState && !restored && !started) {
+      console.log("Restoring quiz:", savedState);
+      // Reconstruct items from saved IDs using current mcqs store
+      const allMcqs = useApp.getState().mcqs;
+      if (savedState.items && savedState.items.length > 0) {
+        const restoredMcs = savedState.items.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
+        if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
+      } else if (savedState.order && savedState.order.length > 0) {
+        // Fallback: reconstruct from order IDs
+        const restoredMcs = savedState.order.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
+        if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
+      }
+      setOrder(savedState.order);
+      setIdx(savedState.currentIndex);
+      setScore(savedState.score);
+      setRetryQueue(savedState.retryQueue);
+      setElapsed(savedState.elapsed);
+      setStartTs(Date.now() - savedState.elapsed * 1000);
+      setTimeLimitMin(savedState.timeLimitMin as 0 | 15 | 30);
+      setShuffleOptions(savedState.shuffleOptions);
+      setShuffleQuestions(savedState.shuffleQuestions);
+      setStarted(true);
+      setRestored(true);
+      if (onStart) onStart();
+      clearSavedQuiz();
+    }
+  }, [savedState, restored, started]);
 
   const current = useMemo(() => activeItems.find((m) => m.id === order[idx]), [activeItems, order, idx]);
 
   // Timer tick
   useEffect(() => {
-    if (!started || startTs === null || timeUp) return;
+    if (!started || startTs === null || timeUp || idx >= items.length) return;
     const id = setInterval(() => setElapsed(Math.floor((Date.now() - startTs) / 1000)), 500);
     return () => clearInterval(id);
-  }, [started, startTs, timeUp]);
+  }, [started, startTs, timeUp, idx, items.length]);
 
   // Time limit enforcement
   useEffect(() => {
@@ -112,6 +178,13 @@ export function QuizRunner({
     setTimeUp(false);
     setStartTs(Date.now());
     setStarted(true);
+    if (onStart) onStart();
+  };
+
+  const close = () => {
+    setStarted(false);
+    clearSavedQuiz();
+    if (onReset) onReset();
   };
 
   if (!started) {
@@ -228,7 +301,7 @@ export function QuizRunner({
             <Play className="size-4" /> Restart
           </button>
           <button
-            onClick={() => setStarted(false)}
+            onClick={() => close()}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:bg-accent border border-border"
           >
             Close

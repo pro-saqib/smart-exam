@@ -1,0 +1,105 @@
+{
+  "name": "PPSC Past Papers all MCQs 2024 of Islamic Study",
+  "mcqs": [
+    {
+      "question": "How many Prophets mentioned in Holy Quran?",
+      "options": {
+        "A": "25",
+        "B": "26",
+        "C": "27",
+        "D": "28"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What was the real name of Hazrat Abu Bakr (R.A)?",
+      "options": {
+        "A": "Abdullah ibn Usman",
+        "B": "Abu Turab",
+        "C": "Sadiq e Akber",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hajar-e-Aswad’s direction is toward _____?",
+      "options": {
+        "A": "Eastern",
+        "B": "Southern",
+        "C": "Northern",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which was the first battle of Islam?",
+      "options": {
+        "A": "Battle of Badr",
+        "B": "Battle of Uhad",
+        "C": "Battle of Khyber",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The battle of Badr was fought in the month of?",
+      "options": {
+        "A": "Muharram",
+        "B": "Ramazan",
+        "C": "Shawal",
+        "D": "Zil-Hajj"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Zaboor was revealed on which Prophet?",
+      "options": {
+        "A": "Hazrat Mossa (a.s)",
+        "B": "Hazrat Issa (a.s)",
+        "C": "Hazrat Dawood (a.s)",
+        "D": "Hazrat Muhammad (a.s)"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Name the uncle of Prophet Muhammad (PBUH) who was also his foster brother?",
+      "options": {
+        "A": "Hazrat Hamza (RA)",
+        "B": "Hazrat Ali (RA)",
+        "C": "Hazrat Saad bin Muadh (RA)",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Maseeh ul Islam is the title of _____?",
+      "options": {
+        "A": "Hazrat Abu Zar Ghaffari R.A",
+        "B": "Hazrat Abu Talha R.A",
+        "C": "Hazrat Ali R.A",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year battle of Qadsia was fought?",
+      "options": {
+        "A": "15 Hijri",
+        "B": "12 Hijri",
+        "C": "14 Hijri",
+        "D": "16 Hijri"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Imam Al Nasai was born in _____?",
+      "options": {
+        "A": "214 Hijri",
+        "B": "216 Hijri",
+        "C": "212 Hijri",
+        "D": "None of these"
+      },
+      "correct": "A"
+    }
+  ]
+}

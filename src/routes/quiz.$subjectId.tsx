@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo } from "react";
 import { useApp } from "@/store/app-store";
 import { QuizRunner } from "@/components/QuizRunner";
+import { SavedQuizBanner } from "@/components/SavedQuizBanner";
 import { ArrowLeft } from "lucide-react";
 
 export const Route = createFileRoute("/quiz/$subjectId")({
@@ -12,6 +13,7 @@ function QuizPage() {
   const { subjectId } = Route.useParams();
   const subjects = useApp((s) => s.subjects);
   const mcqs = useApp((s) => s.mcqs);
+  const savedQuiz = useApp((s) => s.savedQuiz);
   const subject = useMemo(() => subjects.find((x) => x.id === subjectId), [subjects, subjectId]);
   const items = useMemo(() => mcqs.filter((m) => m.subjectId === subjectId), [mcqs, subjectId]);
 
@@ -38,10 +40,12 @@ function QuizPage() {
       </div>
       <QuizRunner
         items={items}
-        title={subject?.name ?? ""}
-        emptyText="No MCQs yet — upload a PDF on the Subjects page."
+        title="Quiz"
+        emptyText="No MCQs yet — import from the MCQ Extractor."
         subtopics={subtopics}
         mcqsBySubtopic={mcqsBySubtopic}
+        subjectId={subjectId}
+        savedState={savedQuiz?.subjectId === subjectId ? savedQuiz : null}
       />
     </div>
   );

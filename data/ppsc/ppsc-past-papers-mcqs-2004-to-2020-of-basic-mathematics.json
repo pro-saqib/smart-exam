@@ -1,0 +1,3304 @@
+{
+  "name": "PPSC Past Papers MCQs 2004 to 2020 of Basic Mathematics",
+  "mcqs": [
+    {
+      "question": "What will be the next term in the pattern? 2, 4, 8, 16, ______?",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "32",
+        "D": "64"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which number will come next? 3, 5, 7, 10, 12, 14, 24, 26, ____?",
+      "options": {
+        "A": "52",
+        "B": "30",
+        "C": "28",
+        "D": "48"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Dr. Abdul Salam won the Nobel Prize for physics in the year _____?",
+      "options": {
+        "A": "1996",
+        "B": "1979",
+        "C": "1964",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is 11 in binary?",
+      "options": {
+        "A": "10000",
+        "B": "10110",
+        "C": "1011",
+        "D": "10101"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 15: 7 :: x: 560 then x = ?",
+      "options": {
+        "A": "100",
+        "B": "1000",
+        "C": "1100",
+        "D": "1200"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "C in Roman Language stands for",
+      "options": {
+        "A": "50",
+        "B": "100",
+        "C": "150",
+        "D": "200"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Simplify (60)² = ? × 72",
+      "options": {
+        "A": "3600",
+        "B": "3528",
+        "C": "0.02",
+        "D": "50"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "39 men complete a task in 29 days. How long you will take 29 men to do the task?",
+      "options": {
+        "A": "29 days",
+        "B": "39 days",
+        "C": "39 days",
+        "D": "59 days"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mark the coprimer number ?2, 4 3, 6 4, 110 2, 9",
+      "options": {
+        "A": "2, 4",
+        "B": "3, 6",
+        "C": "4, 110",
+        "D": "2,9"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Akram thought of a number, added 7, multiplied by 3, took away 5,divided by 4 to give an answer of 7. what was the starting number?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the number series: 4, 6, 12, 14, 28, 30, ____?",
+      "options": {
+        "A": "62",
+        "B": "60",
+        "C": "64",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the sum of all angles in a triangle?",
+      "options": {
+        "A": "10°",
+        "B": "20°",
+        "C": "180°",
+        "D": "220°"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the missing number: 1, 3, 7, 15, 31, 63, ______?",
+      "options": {
+        "A": "123",
+        "B": "125",
+        "C": "127",
+        "D": "129"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A number is increased by 20% and then decreased by 20%. Find the net increase or decrease percent?",
+      "options": {
+        "A": "Does not changes",
+        "B": "Decreased by 4%",
+        "C": "Increased by 4%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A toy is sold for Rs. 220, what was the cost if the rate of profit was 10% of the cost?",
+      "options": {
+        "A": "Rs. 196",
+        "B": "Rs. 198",
+        "C": "Rs. 200",
+        "D": "Rs. 210"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the average of 5/6, 4/3, 3/4?",
+      "options": {
+        "A": "1",
+        "B": "35/36",
+        "C": "38/37",
+        "D": "6/5"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find the next term: 5, 10, 20, 40, ?",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "80",
+        "D": "90"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the name of a triangle with two sides of equal length?",
+      "options": {
+        "A": "Isosceles",
+        "B": "Equilateral",
+        "C": "Scalene",
+        "D": "Right triangle"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A figure whose all four sides are equal is called ____?",
+      "options": {
+        "A": "Rectangle",
+        "B": "Square",
+        "C": "Circle",
+        "D": "Rhombus"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the series: 6, 3, 12, 6, 24, ______?",
+      "options": {
+        "A": "18",
+        "B": "16",
+        "C": "12",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A train running at the speed of 60 km | hr crosses a pole in 9 seconds. What is the length of the train?",
+      "options": {
+        "A": "120 metres",
+        "B": "180 metres",
+        "C": "320 metres",
+        "D": "150 metres"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If the day before yesterday was Saturday, then what will be the day after tomorrow?",
+      "options": {
+        "A": "Wednesday",
+        "B": "Friday",
+        "C": "Thursday",
+        "D": "Tuesday"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a group of 550 students, 42% go on a tour. How many students go on tour?",
+      "options": {
+        "A": "213",
+        "B": "177",
+        "C": "210",
+        "D": "231"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the series: 1, 1, 8, 4, 27, 9 _____?",
+      "options": {
+        "A": "64",
+        "B": "20",
+        "C": "60",
+        "D": "16"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One Billion is equal to _____?",
+      "options": {
+        "A": "100 Lacs",
+        "B": "100 Millions",
+        "C": "100 Crores",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "5/6 ÷ 5/9 = ____?",
+      "options": {
+        "A": "2/3",
+        "B": "3/2",
+        "C": "25/24",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "5/6 × 2/5 = ____?",
+      "options": {
+        "A": "7/11",
+        "B": "1/3",
+        "C": "1",
+        "D": "3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following ratios is the largest? 7:15, 15:23, 21:29, None of these",
+      "options": {
+        "A": "7:15",
+        "B": "15:23",
+        "C": "21:29",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 10 people complete work in 20 days, in how many days can 8 people complete the same work?",
+      "options": {
+        "A": "10 days",
+        "B": "20 days",
+        "C": "25 days",
+        "D": "30 days"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "0.26 ÷ 100 = _____?",
+      "options": {
+        "A": "0.00026",
+        "B": "0.0026",
+        "C": "0.026",
+        "D": "26"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which number will complete the number series? 2, 5, 12, 23, 38, 57, ____?",
+      "options": {
+        "A": "80",
+        "B": "70",
+        "C": "76",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which number divisible by both 4 and 9?",
+      "options": {
+        "A": "2178",
+        "B": "5256",
+        "C": "131",
+        "D": "8519"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Simplify the equation 5 ÷ 2 × 6 ÷ 3(2)?",
+      "options": {
+        "A": "10",
+        "B": "13",
+        "C": "7",
+        "D": "5/2"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Income of A is 25% less than B. How much percent B’s income would be more than that of A?",
+      "options": {
+        "A": "48%",
+        "B": "35%",
+        "C": "30%",
+        "D": "33%"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Find the cube root of 64?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "16",
+        "D": "4"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A bag contains 9 KG of sugar which is separated into packages containing 450 grams each. How many such packages can be made?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "24",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If A and B together can complete a piece of work in 15 days and B alone in 20 days, then in how many days can A alone complete the work?",
+      "options": {
+        "A": "30 days",
+        "B": "60 days",
+        "C": "20 days",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A hockey team won 6 games and lost 8, the ratios of wins to number of games is _____?",
+      "options": {
+        "A": "5:8",
+        "B": "4:6",
+        "C": "3:7",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the mean proportion between 5 and 45?",
+      "options": {
+        "A": "9",
+        "B": "15",
+        "C": "25",
+        "D": "50"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The width of a rectangle is 3 feet less than its length. The perimeter of the rectangle is 110 feet, the length of rectangle in feet is ______?",
+      "options": {
+        "A": "26",
+        "B": "27",
+        "C": "28",
+        "D": "29"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A fruit seller purchases oranges at the rate of 3 for Rs. 5 and sells them at 2 for Rs. 4. His profit in the transaction is _____?",
+      "options": {
+        "A": "10%",
+        "B": "25%",
+        "C": "20%",
+        "D": "15%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "15 men were hired to plough a piece if land in 10 days. To complete the same job in three days more number of men is required _____?",
+      "options": {
+        "A": "35",
+        "B": "40",
+        "C": "50",
+        "D": "30"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The graph of 2x - 4y + 8 = 0 crosses the x-axis at?",
+      "options": {
+        "A": "-8",
+        "B": "+4",
+        "C": "+8",
+        "D": "-4"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If a bicycle is purchased for Rs. 8000 and sold at 25% gain, the selling price would be?",
+      "options": {
+        "A": "Rs 6000",
+        "B": "Rs 7000",
+        "C": "Rs 9000",
+        "D": "Rs 10000"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If {3x + y = 10, {x - 4y = -1 then y = _____?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The average age of 5 members of a family is 21. If the age of grandfather is included, the average age is increased by 9 years. What is the age of grandfather?",
+      "options": {
+        "A": "84",
+        "B": "65",
+        "C": "75",
+        "D": "60"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A husband and wife had six married sons and each of them had five children. How many members were there in the family?",
+      "options": {
+        "A": "40",
+        "B": "42",
+        "C": "44",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the series. 2, 6, 12, 20, 30, 42, _____?",
+      "options": {
+        "A": "50",
+        "B": "54",
+        "C": "56",
+        "D": "62"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Given sequence: 4, 11, 7, 14, 10, 17, ______, 20.",
+      "options": {
+        "A": "19",
+        "B": "13",
+        "C": "14",
+        "D": "22"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If A’s income is 40% less than B’s income, then how much percent is B’s income more than A’s income?",
+      "options": {
+        "A": "68.66%",
+        "B": "69.66%",
+        "C": "66.66%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Average age of A and B is 30 years, that of B and C is 32 years and the average age of C and A is 34 years. The age of C is?",
+      "options": {
+        "A": "33 years",
+        "B": "34 years",
+        "C": "35 years",
+        "D": "36 years"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many zeros are there in one trillion?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of all the exterior angles in a polygon is equal to ___?",
+      "options": {
+        "A": "360°",
+        "B": "380°",
+        "C": "180°",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Square root of √169 is?",
+      "options": {
+        "A": "13",
+        "B": "17",
+        "C": "19",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a one Kilometre race A beats B by 28 Meters in 7 seconds. Find out the time taken by A to finish the race?",
+      "options": {
+        "A": "4 mins 20 secs",
+        "B": "4 mins 0 secs",
+        "C": "4 mins 3 secs",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 25 toys 500 what would be the cost of 75 toys?",
+      "options": {
+        "A": "2000",
+        "B": "1500",
+        "C": "1200",
+        "D": "1700"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "One fourth (1/4) of 15 is _____?",
+      "options": {
+        "A": "3.75",
+        "B": "3.72",
+        "C": "3.73",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The transfer of data from one place to another is called?",
+      "options": {
+        "A": "Data processing",
+        "B": "Data distribution",
+        "C": "Data communication",
+        "D": "Data encryption"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "1/2 of 1/4 of 1/5 of 200?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the value of x in 3x - 15 - 6 = 0?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "9",
+        "D": "-9"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "2 2/3 × 5/14 = _____?",
+      "options": {
+        "A": "20/21",
+        "B": "7/10",
+        "C": "21/20",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "4 x 1/2 x 10 x 1/8 =?",
+      "options": {
+        "A": "4/9",
+        "B": "4/4",
+        "C": "2/9",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the missing number in the sequence 4, 6, 10, 18, …… , 66?",
+      "options": {
+        "A": "22",
+        "B": "33",
+        "C": "34",
+        "D": "45"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The decimal number 33 can be expressed in binary as?",
+      "options": {
+        "A": "100001",
+        "B": "1001",
+        "C": "101",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In an election a candidate who received 30 percent of the total votes cast was defeated by 15000 votes. Find the number of votes obtained by the winning candidate?",
+      "options": {
+        "A": "11250",
+        "B": "15000",
+        "C": "26250",
+        "D": "37500"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "3900 ÷ 500 = _____?",
+      "options": {
+        "A": "7.9",
+        "B": "8.1",
+        "C": "6.9",
+        "D": "7.8"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "2 × 25 ÷ 5 + 10 - 2 = _____?",
+      "options": {
+        "A": "10",
+        "B": "18",
+        "C": "15",
+        "D": "20"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve for √729 - √441= √? + 1",
+      "options": {
+        "A": "49",
+        "B": "36",
+        "C": "25",
+        "D": "16"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A bag contains 50 paisa, 1 rupee and 2 rupee coins in the ratio 2:5:8. If the total amount is Rs. 352, find the total number of coins in the bag?",
+      "options": {
+        "A": "240",
+        "B": "160",
+        "C": "200",
+        "D": "250"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One Kilometer is equal to ______ metres.",
+      "options": {
+        "A": "100 metres",
+        "B": "1000 metres",
+        "C": "10000 metres",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A TV is purchased at Rs. 5000 and sold at Rs. 4000, find the lost percent?",
+      "options": {
+        "A": "100%",
+        "B": "20%",
+        "C": "10%",
+        "D": "50%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Complete the series: 1, 2, 4, 7, 11, 16, ______?",
+      "options": {
+        "A": "22",
+        "B": "24",
+        "C": "26",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What comes next in the following series 64, 48, 40, 36, 34, ______?",
+      "options": {
+        "A": "31",
+        "B": "33",
+        "C": "32",
+        "D": "30"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "1 square feet is equal to :",
+      "options": {
+        "A": "24 square inches",
+        "B": "48 square inches",
+        "C": "72 square inches",
+        "D": "144 square inches"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "3/1000 written as a fraction is?",
+      "options": {
+        "A": "3",
+        "B": "0.3",
+        "C": "0.003",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 25 students took the exam and 4 of them fails. What percent of them passed?",
+      "options": {
+        "A": "54%",
+        "B": "74%",
+        "C": "84%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "An Urdu class has 12 boys and 18 girls. Boys are what fraction of the class?",
+      "options": {
+        "A": "3/5",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "2/5"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete series 6,9,13,16,20,23____",
+      "options": {
+        "A": "26 30",
+        "B": "26 31",
+        "C": "27 30",
+        "D": "27 31"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If you write down all number from 1 to 100 how many times would you write 3",
+      "options": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ali ran around a 1/4 kilometer jogging track 17 times. How many kilometers did he run?",
+      "options": {
+        "A": "4 1/2 km",
+        "B": "4 1/4 km",
+        "C": "4 3/4km",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A man buys a toy for Rs. 70 after getting a discount of 20%. What was the marked price of the toy?",
+      "options": {
+        "A": "Rs: 84",
+        "B": "Rs: 56",
+        "C": "Rs: 87.50",
+        "D": "Rs: 90"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the series; 3, 4, 7, 8, 11, 12, ______?",
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "18",
+        "D": "16"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which number can replace both the questions marks in 2/? = ?/50",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "25",
+        "D": "100"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Decimal form of 5.3% is ______?",
+      "options": {
+        "A": "0.053",
+        "B": "0.53",
+        "C": "53.00",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 2 : 7 :: x : 49 is then what is the value of “x”?",
+      "options": {
+        "A": "28",
+        "B": "52",
+        "C": "14",
+        "D": "40"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "MS Excel is a ______?",
+      "options": {
+        "A": "Spreadsheet program",
+        "B": "Multimedia software",
+        "C": "Entertainment software",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The average of 5 quantities is 6. The average of 3 of them is 4. What is the average of remaining 2 numbers?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "6",
+        "D": "9"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If the average of 5,6,7 and X is 10. What is the value of 'X' ?",
+      "options": {
+        "A": "12",
+        "B": "22",
+        "C": "32",
+        "D": "42"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The arithmetic mean between 4 and 6 is?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If x% of 60 = 48, then x = ?",
+      "options": {
+        "A": "40",
+        "B": "60",
+        "C": "70",
+        "D": "80"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A man standing up side down with his face towards south, where will his left hand point?",
+      "options": {
+        "A": "East",
+        "B": "West",
+        "C": "North",
+        "D": "South"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A bus with 32 data line can transport how many bits at a time?",
+      "options": {
+        "A": "8 bits",
+        "B": "16 bits",
+        "C": "32 bits",
+        "D": "1024 bits"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A square region has an area of 2304 m. Find its perimeter?",
+      "options": {
+        "A": "24 m",
+        "B": "96 m",
+        "C": "144 m",
+        "D": "192 m"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Solve: 840+14+40=?",
+      "options": {
+        "A": "40",
+        "B": "60",
+        "C": "894",
+        "D": "120"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A Batsman makes a score of 87 runs in the 17th inning and thus increases his average by 1. Find his average after 17th inning?",
+      "options": {
+        "A": "33",
+        "B": "35",
+        "C": "37",
+        "D": "39"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When you divide 0.7 by 10 you will get?",
+      "options": {
+        "A": "7",
+        "B": "0.07",
+        "C": "70",
+        "D": "0.7"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The ratio of cost price and selling price is 4 : 5. The profit percent is?",
+      "options": {
+        "A": "10 percent",
+        "B": "20 percent",
+        "C": "25 percent",
+        "D": "30 percent"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The number of boys in a class is three times the number of girls. Which one of the following numbers cannot represent the total number of children in the class?",
+      "options": {
+        "A": "50",
+        "B": "48",
+        "C": "42",
+        "D": "40"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "By converting 142.5% into decimal, answer will be?",
+      "options": {
+        "A": "1.425",
+        "B": "0.1425",
+        "C": "142.5",
+        "D": "14.25"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Solve 8 ÷ 0.2 = ?",
+      "options": {
+        "A": "6",
+        "B": "40",
+        "C": "16",
+        "D": "4"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Largest perfect square between 4 and 50 is?",
+      "options": {
+        "A": "10",
+        "B": "30",
+        "C": "49",
+        "D": "50"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "3 boxes have some average weight .when one box which weight 89kg is replaced by another box ,the average weight increases by 5kg .how much the new box weight​?",
+      "options": {
+        "A": "109 kg",
+        "B": "94 kg",
+        "C": "104 kg",
+        "D": "84 kg"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A man buys an article for Rs. 27 50 and sells it for Rs. 28.60. Find his gain percent?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the percentage is 12 of 36?",
+      "options": {
+        "A": "35%",
+        "B": "33.33%",
+        "C": "40%",
+        "D": "30%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve 7500+(1250/50)",
+      "options": {
+        "A": "7500",
+        "B": "7525",
+        "C": "7550",
+        "D": "8000"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Six tenths is the same as?",
+      "options": {
+        "A": "60",
+        "B": "0.6",
+        "C": "6.0",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not a major reason for an email bounce?",
+      "options": {
+        "A": "Domain server is down",
+        "B": "Stale file handle",
+        "C": "bad domain name",
+        "D": "Bad user account name"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Sam bought a 12 pack of soda for $5.40. How much did he pay per can of soda?",
+      "options": {
+        "A": "$0.45",
+        "B": "$0.54",
+        "C": "$0.40",
+        "D": "$0.22"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Length and width of a field are is the ratio 5:3. if the width of the field is 42 m, then its length is?",
+      "options": {
+        "A": "100m",
+        "B": "80 m",
+        "C": "50 m",
+        "D": "70 m"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the series: 2, 6,18, 54, _____?",
+      "options": {
+        "A": "108",
+        "B": "162",
+        "C": "148",
+        "D": "218"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Aslia has three types of balls red green and blue. If their ratio is 2:3:5 what percent of balls are green?",
+      "options": {
+        "A": "20%",
+        "B": "50%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The value of 1/3 of 24 is?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A is twice as good as workman as B and together they finish a piece of work i 18 days. In how may days will B alone finish the work?",
+      "options": {
+        "A": "27 days",
+        "B": "54 days",
+        "C": "56 days",
+        "D": "68 days"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "9 is 1/3% of what number?",
+      "options": {
+        "A": "2700",
+        "B": "27",
+        "C": "300",
+        "D": "30"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A solution of water and sugar contains 10% sugar the solution weight is 8kg when 2kg of water is added to this solution the percentage of sugar becomes?",
+      "options": {
+        "A": "8%",
+        "B": "10%",
+        "C": "12%",
+        "D": "18%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Solve: √(13⁴)",
+      "options": {
+        "A": "520",
+        "B": "169",
+        "C": "28561",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is the smallest fraction ? 11/13, 9/11, 3/4, 5/7",
+      "options": {
+        "A": "11/13",
+        "B": "9/11",
+        "C": "3/4",
+        "D": "5/7"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the series: 4, 9,16, 25, _____?",
+      "options": {
+        "A": "36",
+        "B": "34",
+        "C": "32",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the series 2, 4, 6, 10, 28, ______?",
+      "options": {
+        "A": "88",
+        "B": "82",
+        "C": "78",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A man is 24 years older than his son. In two years, his age will be twice the age of his son. The percentage age of his son is?",
+      "options": {
+        "A": "14 years",
+        "B": "22 years",
+        "C": "28 years",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve √1.44",
+      "options": {
+        "A": "1.9",
+        "B": "3.2",
+        "C": "1.9",
+        "D": "1.2"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A patient requires a 30% decrease in the dosage of his medication .His current dosage is 340mg .What will his dosage be after the decrease?",
+      "options": {
+        "A": "238",
+        "B": "70",
+        "C": "340",
+        "D": "270"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Solve 6.334 * 10^4",
+      "options": {
+        "A": "0.0006334",
+        "B": "0.06334",
+        "C": "6334",
+        "D": "63340"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The length and breadth of rectangle are in the ratio 3:1. If the breadth in 7 cm , then the length of rectangle is?",
+      "options": {
+        "A": "14",
+        "B": "18",
+        "C": "21",
+        "D": "18"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the average of 8,13,25,43 and 11",
+      "options": {
+        "A": "20",
+        "B": "33",
+        "C": "27",
+        "D": "22"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If marry traveled 116 miles on day 1130 miles onday 2140 milles on day 3 . How mny miles per day did she average",
+      "options": {
+        "A": "122",
+        "B": "120",
+        "C": "116",
+        "D": "115"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one number will complete the series : 8,13,10,15, 12, 17, 14.",
+      "options": {
+        "A": "20",
+        "B": "19",
+        "C": "16",
+        "D": "22"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "(25*10)/(5(6-4)2)=?",
+      "options": {
+        "A": "200",
+        "B": "25/2",
+        "C": "50",
+        "D": "25"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "1/10 =?",
+      "options": {
+        "A": "0.01",
+        "B": "0.1",
+        "C": "1.0",
+        "D": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many millimeters are there is one centimeter?",
+      "options": {
+        "A": "100",
+        "B": "50",
+        "C": "10",
+        "D": "20"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "10, 20, 40, 80, _____?",
+      "options": {
+        "A": "160",
+        "B": "120",
+        "C": "180",
+        "D": "140"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pointing to Anwar's photograph, Abdul said, \"He is the son of the only daughter of the father of my brother.\" What relationship does Abdul have with Anwar?",
+      "options": {
+        "A": "Maternal Uncle",
+        "B": "Cousin",
+        "C": "Brother",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Find the odd one out: 10, 25, 45, 54, 60, 75, 80.",
+      "options": {
+        "A": "10",
+        "B": "54",
+        "C": "75",
+        "D": "45"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "10% of 20% of 30% is equal to _____?",
+      "options": {
+        "A": "0.6%",
+        "B": "0.8%",
+        "C": "0.7%",
+        "D": "0.9%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A is father of C and D is son of B.E is brother of A. If C is sister of D, how is B related to E?",
+      "options": {
+        "A": "Sister In Law",
+        "B": "Brother",
+        "C": "Father",
+        "D": "Mother"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the series: AZ, BY, CX, ______?",
+      "options": {
+        "A": "DW",
+        "B": "DX",
+        "C": "EY",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the ratio of the circumference of a circle to its radius?",
+      "options": {
+        "A": "2π",
+        "B": "π/2",
+        "C": "π",
+        "D": "none of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Divide 1/4 + 1/4 =?",
+      "options": {
+        "A": "1/2",
+        "B": "1/8",
+        "C": "1/32",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If A is to the south B and C is to the east of B. In which direction is A with respect to C?",
+      "options": {
+        "A": "South-West",
+        "B": "North-West",
+        "C": "South-East",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many times in a day are the hands of clock in straight line but opposite in direction?",
+      "options": {
+        "A": "22 times",
+        "B": "12 times",
+        "C": "60 times",
+        "D": "11 times"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The total sum of all sides of a closed surface is called?",
+      "options": {
+        "A": "Triangle",
+        "B": "Perimeter",
+        "C": "Rhombus",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Simplify 1/4+ ? = 3/4",
+      "options": {
+        "A": "1/2",
+        "B": "2",
+        "C": "3/4",
+        "D": "8/5"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "PEACH is to HCAEP the 26541 should be _____?",
+      "options": {
+        "A": "14562",
+        "B": "62541",
+        "C": "56241",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The average of four consecutive odd numbers is 24. The largest number is?",
+      "options": {
+        "A": "20",
+        "B": "27",
+        "C": "36",
+        "D": "45"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pair of words: OUNCE: WEIGHT",
+      "options": {
+        "A": "Acre: Area",
+        "B": "Scale: Mass",
+        "C": "Inch: Yard",
+        "D": "Menu: Choice"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "There are 100 boys and 900 girls in a school. 50% boys and 40% are present. The total number of students present are?",
+      "options": {
+        "A": "41%",
+        "B": "44%",
+        "C": "42%",
+        "D": "43%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one of the following is not a prime number?",
+      "options": {
+        "A": "91",
+        "B": "71",
+        "C": "61",
+        "D": "31"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The length of Tennis Court is ____?",
+      "options": {
+        "A": "24.77 meters",
+        "B": "23.77 meters",
+        "C": "25.77 meters",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The ratio of two number a and b is 3:5. If 2 is added to both the numbers, the ratio becomes 2:3. Find b?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "15",
+        "D": "8"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had _____?",
+      "options": {
+        "A": "600",
+        "B": "700",
+        "C": "588",
+        "D": "672"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Hexagon has six sides and _____ angles.",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "2",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Sum of the interior angles of a polygon = _____?",
+      "options": {
+        "A": "270 (n - 2)",
+        "B": "180 (n - 2)",
+        "C": "360 (n - 2)",
+        "D": "90 (n - 2)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A bag contains 6 black and 8 white balls. 1 ball is drawn at random. What is the more probability that the ball drawn is white?",
+      "options": {
+        "A": "3/7",
+        "B": "1/8",
+        "C": "4/7",
+        "D": "3/4"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a dairy farm, 40 cows eat 40 bags of husk in 40 days, in how many days one cow will eat one bag of husk?",
+      "options": {
+        "A": "10 days",
+        "B": "20 days",
+        "C": "30 days",
+        "D": "40 days"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "60 man can do a work in 40 days. How long will it take 40 men to complete the same work?",
+      "options": {
+        "A": "60 days",
+        "B": "30 days",
+        "C": "29 days",
+        "D": "23 days"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A number whose 7 percent is 42 is?",
+      "options": {
+        "A": "600",
+        "B": "400",
+        "C": "500",
+        "D": "300"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Calculate the perimeter of a rhombus with each side equal to 6 cm?",
+      "options": {
+        "A": "18 cm",
+        "B": "24 cm",
+        "C": "36 cm",
+        "D": "48 cm"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 15 men can be manufactured 27 basket in an hour how many baskets would 45 men manufactured in 40 minutes?",
+      "options": {
+        "A": "27",
+        "B": "35",
+        "C": "40",
+        "D": "54"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "120 men are used to build huge building for 30 days. How long will it take 80 men to do the same work?",
+      "options": {
+        "A": "50 days",
+        "B": "35 days",
+        "C": "40 days",
+        "D": "45 days"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "0.05 is equal to which of the following fractions?",
+      "options": {
+        "A": "1/15",
+        "B": "1/20",
+        "C": "1/10",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 15 toys Rs. 234, what to 35 toys cost?",
+      "options": {
+        "A": "Rs. 526",
+        "B": "Rs. 556",
+        "C": "Rs. 536",
+        "D": "Rs. 546"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the series: 1, 9, 25, 49, ______, 121.",
+      "options": {
+        "A": "92",
+        "B": "61",
+        "C": "71",
+        "D": "81"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Akbar, sold his old gun Rs. 900, which he was bought for Rs. 2500. What is his % loss?",
+      "options": {
+        "A": "64%",
+        "B": "62%",
+        "C": "66%",
+        "D": "60%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "148 is divisible by _____?",
+      "options": {
+        "A": "37",
+        "B": "21",
+        "C": "17",
+        "D": "43"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "3.29 × 1000 is equal to ____?",
+      "options": {
+        "A": "32.9",
+        "B": "3290",
+        "C": "329",
+        "D": "0.329"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A father is now three times as old as his son fiver year back he was four times as old as his son the age os son (in year) is _____?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "18"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The mean proportional of 4 and 16 is ______?",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "9",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If the old Man's son is my son's uncle then what relation has the old man to me?",
+      "options": {
+        "A": "Father",
+        "B": "Sister",
+        "C": "Brother",
+        "D": "Grandfather"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A police officer walk from his house at 4 km per hour and reached his office 5 min late if his speed is 5 km per hour he will reach his office 10 min early. how far is his office from the house ?",
+      "options": {
+        "A": "5 km",
+        "B": "5/12 km",
+        "C": "2.5 km",
+        "D": "10 km"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A certain Sum oF money is distributed among two Friends in the ration of 5:11 . if one of them got Rs. 1200 more than the other. the total amount distributed at.",
+      "options": {
+        "A": "2000",
+        "B": "2200",
+        "C": "3200",
+        "D": "3600"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If a runs less fast than b and b run fast but not faster than c then as compared to A, C runs",
+      "options": {
+        "A": "Same speed as A",
+        "B": "Faster than A",
+        "C": "Slower than A",
+        "D": "Cannot be determined"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What Is The Value Of √1 x9/16 = ___?",
+      "options": {
+        "A": "1 3/4",
+        "B": "1 1/4",
+        "C": "1 5/4",
+        "D": "3/4"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Reeya obtained 65, 67, 78, 82 and 85 out of 100 in different subjects, what will be the average:",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "85",
+        "D": "75"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If 1 day work = 1/20 then time required to finish the job (in depth)",
+      "options": {
+        "A": "20",
+        "B": "10",
+        "C": "25",
+        "D": "30"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "30 % of 100 is equal to 3% of ____?",
+      "options": {
+        "A": "300",
+        "B": "500",
+        "C": "750",
+        "D": "1000"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the arithmetic mean (average) of 2, 4, 6, 8, 10, and 12?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 100 Kg of meat is divided into packages of 4/7 kg each, the total number of packages will be ____?",
+      "options": {
+        "A": "125",
+        "B": "100",
+        "C": "175",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If Zˣ =32, What is X²?",
+      "options": {
+        "A": "25",
+        "B": "10",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Saeed receives a commission of Rs. 25 for every Rs. 250 worth of merchandise he sells; therefore, the percentage (%) of his commission is?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "25%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "1 square foot is equal to ______?",
+      "options": {
+        "A": "144 square inches",
+        "B": "24 square inches",
+        "C": "48 square inches",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The square of 35 is ____?",
+      "options": {
+        "A": "1125",
+        "B": "175",
+        "C": "1225",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "5448 rounded off to the nearest 1000 is _______?",
+      "options": {
+        "A": "5000",
+        "B": "6000",
+        "C": "5400",
+        "D": "4500"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "18 is 75 percent of what number?",
+      "options": {
+        "A": "26",
+        "B": "24",
+        "C": "28",
+        "D": "22"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is divisible by 12?",
+      "options": {
+        "A": "4404",
+        "B": "4653",
+        "C": "4818",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Zoo had some lions and some parrots. The supervisor counted 15 heads and 50 legs. How many lions are there?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "30",
+        "D": "40"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the value of the product? 5/5 x 5/10 x 5/15 x 5/20 x 5/25 = ?",
+      "options": {
+        "A": "1/60",
+        "B": "1/30",
+        "C": "5/30",
+        "D": "1/120"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A cyclist covers a distance of 750 meters in 2 minutes and 30 seconds. What is his speed in km/hr?",
+      "options": {
+        "A": "18 km/hr",
+        "B": "16 km/hr",
+        "C": "17 km/hr",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the average of all prime numbers between 30 to 50?",
+      "options": {
+        "A": "37",
+        "B": "39.8",
+        "C": "37.8",
+        "D": "39"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Look at this series: V, VIII, XI, XIV, _____ XX. What number should fill the blank?",
+      "options": {
+        "A": "IX",
+        "B": "XXIII",
+        "C": "XV",
+        "D": "XVII"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the series: 3, 4, 6, 9, 13, ______?",
+      "options": {
+        "A": "18",
+        "B": "16",
+        "C": "15",
+        "D": "17"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The arithmetic mean between 4 and 6 is:",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a flight of 600 kms, an aircraft was slowed down due to bad weather and the average speed was reduced by 200 km/hour, and the time of flight increased by 30 minutes. What is the total duration of flight?",
+      "options": {
+        "A": "1 hour",
+        "B": "2 hours",
+        "C": "3 hours",
+        "D": "4 hours"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the number series: 1, 8, 4, 27, 9, ______?",
+      "options": {
+        "A": "64",
+        "B": "8",
+        "C": "9",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the number series: 20, 32, 45, 59, 74, ___",
+      "options": {
+        "A": "95",
+        "B": "90",
+        "C": "85",
+        "D": "79"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If the sum of two numbers is 30 and their difference is 8, what is their product?",
+      "options": {
+        "A": "201",
+        "B": "208",
+        "C": "202",
+        "D": "209"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Square root of 729 is?",
+      "options": {
+        "A": "27",
+        "B": "33",
+        "C": "37",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A is 2 years older than B who is twice as old as C.If the total of the age of A ,B and C 27, than how old is B?",
+      "options": {
+        "A": "12",
+        "B": "11",
+        "C": "17",
+        "D": "10"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "For ordered pair (2, 4) _____?",
+      "options": {
+        "A": "2 is ordinate and 4 is abscissa",
+        "B": "2 is abscissa and 4 is ordinate",
+        "C": "2 and 4 both are abscissa",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "423 a divisible by _____?",
+      "options": {
+        "A": "47",
+        "B": "21",
+        "C": "17",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The total distance from school to house is 39 km. Abid covered a distance of 13 km. What percentage of the whole distance has he covered?",
+      "options": {
+        "A": "33.33%",
+        "B": "31%",
+        "C": "29%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the series: 8, 27, 64, 100, 125, 216, 343, _____?",
+      "options": {
+        "A": "27",
+        "B": "100",
+        "C": "125",
+        "D": "343"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If all the members of a team are junior or seniors, and if the ratio of Juniors to senior on the team is 3:5. What percent of team members are seniors?",
+      "options": {
+        "A": "37.5%",
+        "B": "62.5%",
+        "C": "60%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "5/14 × 7/10 =?",
+      "options": {
+        "A": "1/5",
+        "B": "1/6",
+        "C": "1/4",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "1 metric ton is equal to ___?",
+      "options": {
+        "A": "100 Kilograms",
+        "B": "500 Kilograms",
+        "C": "1000 Kilograms",
+        "D": "10000 Kilograms"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The degrees in a complete circle are ______?",
+      "options": {
+        "A": "180°",
+        "B": "360°",
+        "C": "260°",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A rectangle has a length of 16 cm and breadth of 3 cm. What is its area?",
+      "options": {
+        "A": "48 m",
+        "B": "48 cm",
+        "C": "48 cm²",
+        "D": "9 cm²"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "30 + 39.98 = ____?",
+      "options": {
+        "A": "41.28",
+        "B": "42.98",
+        "C": "69.98",
+        "D": "40.23"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "3 × 4 × 5 ÷ 5 = ?",
+      "options": {
+        "A": "12",
+        "B": "60",
+        "C": "13",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One mile is equal to how many kilometers?",
+      "options": {
+        "A": "1.609",
+        "B": "1.608",
+        "C": "1.607",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "12 × 0.012 = ?",
+      "options": {
+        "A": "0.0114",
+        "B": "0.144",
+        "C": "0.0140",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 500 kg of meat feeds 20 lions at a zoo for a week, for how many days will 200 kg of meat feed 14 lions?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "At 3:00 AM, the temperature was 13°C below zero, but by noon it had risen to 32°C. Therefore, the average hourly increase in temperature was ______?",
+      "options": {
+        "A": "7.5°C",
+        "B": "4.5°C",
+        "C": "5°C",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If (7^a) (7^b) = (7^c) (7^d), what is d in terms of a, b and c?",
+      "options": {
+        "A": "c - ab",
+        "B": "c/ab",
+        "C": "a + b - c",
+        "D": "c - a - b"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If x - 4 = 11 , then the value of x - 8 is?",
+      "options": {
+        "A": "-15",
+        "B": "7",
+        "C": "-7",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In 7 years, Hyder will be twice as old as he was 8 years ago. How old is he now?",
+      "options": {
+        "A": "23",
+        "B": "12",
+        "C": "21",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If x + y = 6 , y + z = 7 , and z + x = 9 the average (arithmetic mean) of x , y and z is?",
+      "options": {
+        "A": "11",
+        "B": "11/3",
+        "C": "11/2",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If x² - y²= 28 and x - y = 8 , then the average of x and y is?",
+      "options": {
+        "A": "1.75",
+        "B": "3.5",
+        "C": "7",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 3/4 of the Police employees are not graduates, the ratio of graduates to non-graduate employees in the police department is?",
+      "options": {
+        "A": "3:7",
+        "B": "3:4",
+        "C": "1:3",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "List the fractions 2/3 5/8 and 13/20 in ascending order?",
+      "options": {
+        "A": "2/3, 5/8, 13/20",
+        "B": "5/8, 13/20, 2/3",
+        "C": "5/8, 2/3, 13/20",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Asian's weight increased by 25% from year 2005 to 2009. If his weight was k kilograms in 2009, what was it in 2004?",
+      "options": {
+        "A": "0.80k",
+        "B": "1.75k",
+        "C": "1.25k",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "0.03 × 10 = ?",
+      "options": {
+        "A": "0.3",
+        "B": "0.003",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "3 (72/100) written as a fraction is?",
+      "options": {
+        "A": "37.20",
+        "B": "3.72",
+        "C": "0.372",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "18 1/6 ÷ 2 1/3 = ?",
+      "options": {
+        "A": "4 1/2",
+        "B": "11 7/4",
+        "C": "7 11/14",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Solve the equation: (1/4+5/8) + (1/2+3/4)=?",
+      "options": {
+        "A": "35/32",
+        "B": "10/7",
+        "C": "5/12",
+        "D": "17/8"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Zohaib and Ali depart from point X. Zohaib goes North and covers 3 km then turns right and covers 4 km. All goes West and covers 5 km, then turns right and cover 3 km. How far is Zohaib from Ali?",
+      "options": {
+        "A": "8 km",
+        "B": "7 km",
+        "C": "6 km",
+        "D": "9 km"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "At the end of a conference, the 10 people present all shake hands with each other once. How many handshakes will there be altogether?",
+      "options": {
+        "A": "45",
+        "B": "55",
+        "C": "35",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A car salesman sells 42 red cars and 14 green cars. What is the ratio of red cars to green cars sold?",
+      "options": {
+        "A": "3:1",
+        "B": "3:4",
+        "C": "1:1",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the series: 7, 13, 21, ______, 43.",
+      "options": {
+        "A": "31",
+        "B": "29",
+        "C": "34",
+        "D": "33"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One Gram of Gold is equal to how many milligrams?",
+      "options": {
+        "A": "100 mg",
+        "B": "700 mg",
+        "C": "500 mg",
+        "D": "300 mg"
+      }
+    },
+    {
+      "question": "'A' is twice as old as 'B'. Three year ago 'A' was three times as old as 'B' How old is 'A' now?",
+      "options": {
+        "A": "10 years",
+        "B": "14 years",
+        "C": "12 years",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the series: 6, 9, 18, 45, 126, ______?",
+      "options": {
+        "A": "369",
+        "B": "359",
+        "C": "329",
+        "D": "317"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "10 + 6 ÷ 3 x 4 = ?",
+      "options": {
+        "A": "20",
+        "B": "18",
+        "C": "16",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If the average of five nymber is 6.92. then the sum of number is",
+      "options": {
+        "A": "34",
+        "B": "34.6",
+        "C": "34.4",
+        "D": "34.8"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Complete the number series: 1, 2, 3, 6, 9, 18, ____, 54.",
+      "options": {
+        "A": "27",
+        "B": "22",
+        "C": "36",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the series 11, 15, 17 24, ___, 65, 101",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "48",
+        "D": "50"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a 100 m race A covers the distance in 36 seconds and B in 45 seconds in this A beats B by? 20 m , 24 m , 28 m , 30 m",
+      "options": {
+        "A": "20 m",
+        "B": "24 m",
+        "C": "28 m",
+        "D": "30 m"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One kilometer is equal to how many miles?",
+      "options": {
+        "A": "0.62",
+        "B": "0.85",
+        "C": "0.5",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the alphabet series: A, B, D, G, ____?",
+      "options": {
+        "A": "I",
+        "B": "J",
+        "C": "K",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "(2²)³ =?",
+      "options": {
+        "A": "64",
+        "B": "16",
+        "C": "18",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many bricks each measuring 25cm length, 11.25cm breadth, and 6cm height, will be needed to build a wall of 8m length, 6m height, and 22.5cm wide?",
+      "options": {
+        "A": "6400",
+        "B": "5600",
+        "C": "6000",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Two number are in the ratio : 9 if the sum of the number is 112 then the larger number is?",
+      "options": {
+        "A": "49",
+        "B": "72",
+        "C": "63",
+        "D": "42"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Solve 12 / 20 =?",
+      "options": {
+        "A": "6",
+        "B": "2.4",
+        "C": "0.6",
+        "D": "24"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the fractional value of 12.5%",
+      "options": {
+        "A": "1/4",
+        "B": "2/9",
+        "C": "1/5",
+        "D": "1/8"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "5/0.5 =?",
+      "options": {
+        "A": "2.5",
+        "B": "25",
+        "C": "10",
+        "D": "1"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Three number are in the ratio 4: 5 : 6 and their average is 30 . The largest number is",
+      "options": {
+        "A": "28",
+        "B": "32",
+        "C": "36",
+        "D": "42"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "For qualifications 2/5 of the marks were given for corsework. The rest of the marks were given for a written paper of which 3/8 were given for a mental test Total marks were out of 120. How many marks were given for the mental test.",
+      "options": {
+        "A": "30",
+        "B": "55",
+        "C": "27",
+        "D": "45"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Oscar pushed a new hat that was on sale for $5.06. The original price was $9.20. what percentage discount was the sal price?",
+      "options": {
+        "A": "4.5%",
+        "B": "41.4%",
+        "C": "45%",
+        "D": "55%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If a : b = 2 : 3 and b : c = 4 : 3 then find a : b : c",
+      "options": {
+        "A": "8: 12: 9",
+        "B": "2:3:8",
+        "C": "2:3:9",
+        "D": "2:3:12"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Asghar can do a job in 60 days And both Asghar and Babar can do in the same job in 20 days working together Babar alongs can do the same job in",
+      "options": {
+        "A": "30 days",
+        "B": "60 days",
+        "C": "28 days",
+        "D": "45 days"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Minutes buy an old scooters for rs 4700 and spend rs 500 on its repairs. if he sells the scooters for rs 5800 his gain percentage is",
+      "options": {
+        "A": "4.5%",
+        "B": "5.45%",
+        "C": "10%",
+        "D": "12%"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "for the series which is next term 4, 6, 9 , 13",
+      "options": {
+        "A": "15",
+        "B": "12",
+        "C": "18",
+        "D": "17"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find out the average of A and B if the given value is 16A and 16 B = 48",
+      "options": {
+        "A": "1.5",
+        "B": "2",
+        "C": "5.3",
+        "D": ".4"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If Kayla left a $10.47 tip on a breakfast that cost $87.25, what percentage was the tip",
+      "options": {
+        "A": "8.3%",
+        "B": "12%",
+        "C": "13%",
+        "D": "14%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Alia can complete an assignemnt in 5 days and Babar can complete the same assignment is 20 days. The time taken by both Alia and Babar to complete the assignment working together is:",
+      "options": {
+        "A": "3 days",
+        "B": "5 days",
+        "C": "4 days",
+        "D": "2 days"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "BY converting 75% into fraction the answer will be?",
+      "options": {
+        "A": "3/4",
+        "B": "2/3",
+        "C": "1/3",
+        "D": "1/4"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Average of ten number is x if each Number is increased by 10% than x ?",
+      "options": {
+        "A": "Remained unchanged",
+        "B": "May decreased",
+        "C": "May increased",
+        "D": "Is increased by 10%"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Three hundredths is the same as",
+      "options": {
+        "A": "0.3",
+        "B": "300.0",
+        "C": "300",
+        "D": "0.03"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Given that 543 x 21 = 11403, find the value of 1140 ; 5.43",
+      "options": {
+        "A": "210",
+        "B": "150",
+        "C": "120",
+        "D": "200"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Given that 543 x 21 = 11403, find the value of 1140 ; 5.43",
+      "options": {
+        "A": "210",
+        "B": "150",
+        "C": "120",
+        "D": "200"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To convert the decimal number into binary number we use the method of repeated",
+      "options": {
+        "A": "Multiplication",
+        "B": "Division",
+        "C": "Addition",
+        "D": "Subtraction"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find the average of all the number between 6 and 34 which are divisible by 5",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve 30% of 3300",
+      "options": {
+        "A": "330",
+        "B": "990",
+        "C": "700",
+        "D": "1100"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A college organised a function in which 1/3rd of boys and 1/2 of girls are present. Total number of students present is:",
+      "options": {
+        "A": "90",
+        "B": "110",
+        "C": "25",
+        "D": "Data inadequate"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "2/9 x 4/9 = ?",
+      "options": {
+        "A": "8/81",
+        "B": "4/9",
+        "C": "1/2",
+        "D": "8/9"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "2x+ 7 = 19 then x =?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "6",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of following is wrong? 22/7=3.14, 22/11=2, 22/7=3.2, None of these",
+      "options": {
+        "A": "22/7=3.14",
+        "B": "22/11=2",
+        "C": "22/7=3.2",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "294 is multiplied to which positive to give a complete square?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "7",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 1 inch = 60 then 2.5 inches is equal to?",
+      "options": {
+        "A": "180 1",
+        "B": "40",
+        "C": "150",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "(-3)^3 means minus three cube =?",
+      "options": {
+        "A": "26",
+        "B": "27",
+        "C": "-27",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A milkman adds 10 litre water in 10 litre milk. His son takes 15 litre of the milk and adds 5 litre water in it. Find out the amount of water in litres in this milk?",
+      "options": {
+        "A": "12.5",
+        "B": "11",
+        "C": "11.5",
+        "D": "12"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Simplify: (-20) + (-8) ÷ (-2) x 3?",
+      "options": {
+        "A": "-8",
+        "B": "8",
+        "C": "6",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A motorcyclist travels 200 km in 1 hour. How many minutes it would take him to travel 120 km?",
+      "options": {
+        "A": "72 minutes",
+        "B": "36 minutes",
+        "C": "50 minutes",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find interest on Rs. 40,000 at the rate of 3% annually for 4 years investment?",
+      "options": {
+        "A": "Rs. 4800",
+        "B": "Rs. 5000",
+        "C": "Rs. 4700",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "3 + 3 * 3 – 3 + 3 = ?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "8",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "X^2 > y^2 then possible solution is?",
+      "options": {
+        "A": "Y is greater than X",
+        "B": "X and Y are equal",
+        "C": "X is greater than Y",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 3 is a solution of 3x^2 + (k -1) x + 9 = 0, then k =?",
+      "options": {
+        "A": "13",
+        "B": "-11",
+        "C": "11",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In a school having roll strength 286, the ratio of boys and girls is 8:5. If 22 more girls get admitted into the school, the ratio of boys and girls becomes?",
+      "options": {
+        "A": "4:3",
+        "B": "12:7",
+        "C": "10:7",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a Zoo, there are rabbits and pigeons. If heads are counted there are 200 in all and if legs are counted there are 580 in all. How many pigeons are there in the Zoo?",
+      "options": {
+        "A": "110",
+        "B": "120",
+        "C": "130",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To evaluate: √6048 =?",
+      "options": {
+        "A": "66",
+        "B": "78",
+        "C": "72",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find out the wrong number in the given sequence of numbers: 5, 16, 6, 16, 7, 16, 9, _____?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "8",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve: 2⁵ x ‎2³ =?",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "64",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 35 laborers dig 805 cubic meters of earth in 5 hours, how much earth will 30 laborers dig in 6 hours?",
+      "options": {
+        "A": "828m³",
+        "B": "726m³",
+        "C": "869m³",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If a cube has a width, length, and height of 3 inches, what would be the volume (in cubic inches) of the cube?",
+      "options": {
+        "A": "27 cubic inches",
+        "B": "9 cubic inches",
+        "C": "15 cubic inches",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is?",
+      "options": {
+        "A": "280",
+        "B": "290",
+        "C": "285",
+        "D": "300"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A and B can together finish a work in 30 days. They worked together for 20 days and then B left after 20 days. A finished the worked. In how many days A alone can finish the work?",
+      "options": {
+        "A": "58",
+        "B": "61",
+        "C": "59",
+        "D": "60"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A man has Rs. 10,000 to invest. He invests Rs. 4000 at 5% and Rs. 3500 at 4%. In order to have a yearly income of Rs. 500, he must invest the remaining Rs. 2500 at what rate of interest?",
+      "options": {
+        "A": "6.2%",
+        "B": "6.3%",
+        "C": "6.4%",
+        "D": "6%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A student gets 60, 50 and 90 marks out of 100 in English, Physics and Economics respectively. He needs 72% to get a scholarship How many marks does he need to get in his final paper Math's to obtain overall 72% marks?",
+      "options": {
+        "A": "84",
+        "B": "82",
+        "C": "88",
+        "D": "86"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If x = 2 then x^2 = ____?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "2",
+        "D": "4"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Maria bought a laptop at 20% discount on its original price. She sold it with a 40% increase on the price she bought. Her percentage of profit on the original price is?",
+      "options": {
+        "A": "20%",
+        "B": "28%",
+        "C": "12%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Simplify: 37 - [5 + {28 - (19 - 7)}]",
+      "options": {
+        "A": "27",
+        "B": "14",
+        "C": "16",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If the sum of ages of A and B is 12 years more than the sum of ages of B and C then by how many years is A older than C?",
+      "options": {
+        "A": "16 years",
+        "B": "12 years",
+        "C": "14 years",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A shopkeeper raises the price of a cycle by 5% above the market price and charges 12% saves sales tax on the market price. As a result, a customer has to pay Rs. 4680 for the cycle. What is the market price of the cycle?",
+      "options": {
+        "A": "4200",
+        "B": "3950",
+        "C": "4000",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "On selling 17 balls at Rs. 720, there is a loss equal to the cost price of 5 balls. The cost price of a ball is _____?",
+      "options": {
+        "A": "60",
+        "B": "45",
+        "C": "50",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the number series: 4, 9, 13, 22, 35, _____?",
+      "options": {
+        "A": "57",
+        "B": "70",
+        "C": "63",
+        "D": "75"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 6+5x = 30-x then x = ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If b = 1 then b^3/B^2 = ___?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A bookseller sold a book for Rs. 40.00 to make a profit of 15% percent. In order to earn a profit of 20%, he should have sold it for?",
+      "options": {
+        "A": "40.60",
+        "B": "41.74",
+        "C": "43.75",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Three-fourth of the number of girls in a school is equal to half of the number of boys. If the school has 1420 pupils, how many of them are boys?",
+      "options": {
+        "A": "720",
+        "B": "852",
+        "C": "568",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "(9 + 43 - 4) ÷ 24 - 2 =?",
+      "options": {
+        "A": "2.181",
+        "B": "0",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A car washer can wash 8 cars in 18 minutes. At this rate, how many cars can be washed In 3 hrs?",
+      "options": {
+        "A": "40",
+        "B": "80",
+        "C": "60",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is half way between 103 and 301?",
+      "options": {
+        "A": "202",
+        "B": "199",
+        "C": "201",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A rectangular field is to be fenced on 3 sides leaving a side of 20 feet unfenced. If the area of the field is 680 Sq. feet how many feet of fencing will be required?",
+      "options": {
+        "A": "86 feet",
+        "B": "88 feet",
+        "C": "84 feet",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In a shop, the profit on articles is 320 percent of the cost price. If the cost price increases by 25 percent but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+      "options": {
+        "A": "90%",
+        "B": "80%",
+        "C": "70%",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A fruit seller sells mangoes at the rate of Rs. 9 per Kg and thereby loses 20 percent. At what makes the price per Kg. He should have sold them to make a profit of 5 percent?",
+      "options": {
+        "A": "10.81",
+        "B": "12.81",
+        "C": "11.81",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If the cost price is 25% of the selling price, then find the profit percent.",
+      "options": {
+        "A": "150",
+        "B": "200",
+        "C": "250",
+        "D": "300"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many pieces of 0.85 meters can be cut from a rod 42.5 meters long?",
+      "options": {
+        "A": "30",
+        "B": "50",
+        "C": "40",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A candidate attempted 12 questions and secured full marks in all of them. If he secured 60 percent marks in the test and all questions carried equal marks, then what is the number of questions in the test?",
+      "options": {
+        "A": "36",
+        "B": "30",
+        "C": "20",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In the number series insert the missing number: 5, 10, 13, 26, 29, 58, 61 _____?",
+      "options": {
+        "A": "122",
+        "B": "64",
+        "C": "120",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If A can run 1 km in 3 minutes and 10 seconds and B can cover the same distance in 3 minutes and 20 seconds, by what distance can A beat B?",
+      "options": {
+        "A": "40 meters",
+        "B": "50 meters",
+        "C": "45 meters",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 36 men can do a piece off work in 25 hours, in how many hours will 15 do the same work?",
+      "options": {
+        "A": "60",
+        "B": "62",
+        "C": "64",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A number is as much greater than 36 as is less than 86. Find the number?",
+      "options": {
+        "A": "55",
+        "B": "62",
+        "C": "61",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If your rearrange the letters “RAPIS”, you would have the name of a well-known _____?",
+      "options": {
+        "A": "Ocean",
+        "B": "State",
+        "C": "Animal",
+        "D": "City"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which one of the five is least like the other four?? BOTTLE; CUP; TUB; FUNNEL; BOWL",
+      "options": {
+        "A": "BOTTLE",
+        "B": "CUP",
+        "C": "TUB",
+        "D": "FUNNEL"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Right angle prism has how many sides?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A table listed at Rs. 160 is marked 20% off. What is the sale price?",
+      "options": {
+        "A": "Rs. 125",
+        "B": "Rs. 130",
+        "C": "Rs. 128",
+        "D": "Rs. 120"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the next number in the sequence: 36, 34, 30, 28, 24, _____?",
+      "options": {
+        "A": "20",
+        "B": "18",
+        "C": "16",
+        "D": "22"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many times do the hands of a clock coincide in a day?",
+      "options": {
+        "A": "11",
+        "B": "32",
+        "C": "22",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Evaluate 48.95 - 32.006 = _____?",
+      "options": {
+        "A": "16.944",
+        "B": "14.750",
+        "C": "16.350",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A woman paid Rs. 15000 as down payment on a house if this amount was 20% of the price. What did the house cost?",
+      "options": {
+        "A": "Rs. 65000",
+        "B": "Rs. 75000",
+        "C": "Rs. 85000",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "36 men can complete a piece of work in 18 days. In how many days will 27 men complete the same work?",
+      "options": {
+        "A": "22",
+        "B": "24",
+        "C": "26",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Roni and Willy had a 100m race. Roni covered the distance in 45 sees and Willy covered the distance in 36 secs. Willy beats Roni by how much distance?",
+      "options": {
+        "A": "20m",
+        "B": "22.5m",
+        "C": "25m",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The measure of external angle of regular hexagon is _____?",
+      "options": {
+        "A": "60°",
+        "B": "30°",
+        "C": "80°",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The most frequent or curing value in a data set is called _____?",
+      "options": {
+        "A": "Median",
+        "B": "Mean",
+        "C": "Mode",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If two circles touch each other internally then the distance between their centres is equal to _____?",
+      "options": {
+        "A": "Difference of their radius",
+        "B": "Sum of their radius",
+        "C": "Product of their radius",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The cube root of 0.000126 is?",
+      "options": {
+        "A": "0.06",
+        "B": "0.6.",
+        "C": "0.006",
+        "D": "0.0006"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Find the quadratic equations whose roots are the reciprocals of the roots of 2x^2 + 5x + 3 = 0?",
+      "options": {
+        "A": "3x^2 + 5x + 2 = 0",
+        "B": "3x^2 - 5x + 2 = 0",
+        "C": "3x^2 - 5x - 2 = 0",
+        "D": "3x^2 + 5x - 2 = 0"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One and only one line can pass through _____ points.",
+      "options": {
+        "A": "Three",
+        "B": "One",
+        "C": "Two",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The median of numbers: 12, 22, 32, _____ (2n + 1) is given by?",
+      "options": {
+        "A": "(n+1)2",
+        "B": "(n+1)",
+        "C": "(2n+1)",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The zero is a _____ number?",
+      "options": {
+        "A": "Whole number",
+        "B": "Natural number",
+        "C": "Odd number",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Logarithm of any number to itself as base is ______?",
+      "options": {
+        "A": "10",
+        "B": "1",
+        "C": "-1",
+        "D": "None of these"
+      },
+      "correct": "B"
+    }
+  ]
+}

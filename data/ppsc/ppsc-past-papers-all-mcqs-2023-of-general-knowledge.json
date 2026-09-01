@@ -1,0 +1,715 @@
+{
+  "name": "PPSC Past Papers all MCQs 2023 of General Knowledge",
+  "mcqs": [
+    {
+      "question": "Which Continent has no desert?",
+      "options": {
+        "A": "Europe",
+        "B": "Australia",
+        "C": "N.America",
+        "D": "S.America"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Big Ben clock is located in which city?",
+      "options": {
+        "A": "London",
+        "B": "Paris",
+        "C": "Ottawa",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ICT stands for _____?",
+      "options": {
+        "A": "Information and Communication Technology",
+        "B": "International Computer Technology",
+        "C": "Internal Communication Tool",
+        "D": "International Communication Technology"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Fidel Castro was the President of which country?",
+      "options": {
+        "A": "Cuba",
+        "B": "Spain",
+        "C": "France",
+        "D": "Canada"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pulitzer prize is awarded for outstanding work in the field of _____?",
+      "options": {
+        "A": "Scuba",
+        "B": "Science & Tech",
+        "C": "Journalism",
+        "D": "Film Industry"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Alexandria is the seaport of ____?",
+      "options": {
+        "A": "UAE",
+        "B": "UK",
+        "C": "Egypt",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Khushal Khan Khattak was a famous poet of which language?",
+      "options": {
+        "A": "Siraiki",
+        "B": "Punjabi",
+        "C": "Balochi",
+        "D": "Pashto"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "EBCDIC stands for _______?",
+      "options": {
+        "A": "Extended Binary Coded Decimal Interchange Code",
+        "B": "Extended Bit Code Decimal Interchange Code",
+        "C": "Extended Bit Case Decimal Interchange Code",
+        "D": "Extended Binary Case Decimal Interchange Code"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is DMA stand for?",
+      "options": {
+        "A": "Direct Memory Access",
+        "B": "Direct Module Access",
+        "C": "Direct Memory Allocation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "BIOS stands for ______?",
+      "options": {
+        "A": "Board Input Output System",
+        "B": "Back Input Output System",
+        "C": "Basic Input Output System",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Strait of Malacca separates ______?",
+      "options": {
+        "A": "Malaysia and China",
+        "B": "Malaysia and Indonesia",
+        "C": "Malaysia and Sri Lanka",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where is the headquarters of International Monetary Fund (IMF) located?",
+      "options": {
+        "A": "New York, USA",
+        "B": "Geneva, Switzerland",
+        "C": "Washington, D.C., USA",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The 'Statue of Liberty' was a gift to the United States on the occasion of its independence. Which country gifted it?",
+      "options": {
+        "A": "Germany",
+        "B": "UK",
+        "C": "France",
+        "D": "Japan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Where is the headquarters of Food and Agriculture Organization (FAO) located?",
+      "options": {
+        "A": "Kathmandu – Nepal",
+        "B": "Rome – Italy",
+        "C": "Berlin – Germany",
+        "D": "Jeddah – Saudi Arabia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who presented Poor Man's Budget in 1946?",
+      "options": {
+        "A": "Ch. Muhammad Ali",
+        "B": "Liaquat Ali Khan",
+        "C": "Sir Agha Khan",
+        "D": "Ch. Rehmat Ali."
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where is the Eiffel Tower located?",
+      "options": {
+        "A": "London, United Kingdom",
+        "B": "Paris, France",
+        "C": "Rome, Italy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "World Trade Organization (WTO) was established in ______?",
+      "options": {
+        "A": "1992",
+        "B": "1993",
+        "C": "1994",
+        "D": "1995"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is known as the father of computer?",
+      "options": {
+        "A": "Barbara Liskov",
+        "B": "Tim Berners-Lee",
+        "C": "Charles Babbage",
+        "D": "John von Neumann"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "BCC stands for _____?",
+      "options": {
+        "A": "Basic Carbon Copy",
+        "B": "Blind Carbon Copy",
+        "C": "Business Carbon Copy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When was the Arab League established?",
+      "options": {
+        "A": "21 December 1945",
+        "B": "22 March 1945",
+        "C": "23July 1945",
+        "D": "29 April 1946"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discover Penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Edward Jenner",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Magna Carta signed by King John of England?",
+      "options": {
+        "A": "1212",
+        "B": "1215",
+        "C": "1216",
+        "D": "1218"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The world's deepest trench the Mariana Trench is located in?",
+      "options": {
+        "A": "Indian Ocean",
+        "B": "Atlantic Ocean",
+        "C": "Pacific Ocean",
+        "D": "Arctic Ocean"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country parliament has the largest membership?",
+      "options": {
+        "A": "Canada",
+        "B": "Russia",
+        "C": "China",
+        "D": "India"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "RCD (Regional Cooperation for Development) was established on _____?",
+      "options": {
+        "A": "21 July, 1964",
+        "B": "21 May, 1964",
+        "C": "21 August, 1964",
+        "D": "21 June, 1964"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Human Rights Day is observed on which date?",
+      "options": {
+        "A": "10 December",
+        "B": "20 December",
+        "C": "15 December",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year was OIC founded?",
+      "options": {
+        "A": "December 7, 1985",
+        "B": "4 April 1949",
+        "C": "September 25, 1969",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "During the Cold War in 1979, which country invaded Afghanistan?",
+      "options": {
+        "A": "Russia",
+        "B": "USSR",
+        "C": "USA",
+        "D": "All of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Warsaw pact was signed in which year?",
+      "options": {
+        "A": "1950",
+        "B": "1955",
+        "C": "1960",
+        "D": "1965"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does HTTP stands for in the context of WWW?",
+      "options": {
+        "A": "Hypertext Transfer Protocol",
+        "B": "Hypertext Transfer Protection",
+        "C": "Hyper Transfer Protocol",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The book 'A Brief History of Time' is written by ____?",
+      "options": {
+        "A": "Stephen Hawking",
+        "B": "Aristotle",
+        "C": "Oswald Spengler",
+        "D": "Karl Marx"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CNN stands for ____?",
+      "options": {
+        "A": "Cable News Network",
+        "B": "Commercial News Network",
+        "C": "Common News Network",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was the second round table conference held?",
+      "options": {
+        "A": "1931",
+        "B": "1941",
+        "C": "1920",
+        "D": "1922"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "NCOC stands for ______?",
+      "options": {
+        "A": "National Control and Operation Centre",
+        "B": "National Command and Operation Centre",
+        "C": "National Coordination and Operation Centre",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What CENTO stands for?",
+      "options": {
+        "A": "Central Territory Organisation",
+        "B": "Central Eastern National Treaty Organisation",
+        "C": "Central Territory Organisation",
+        "D": "Command Territory Organisation"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The most Populous continent is _____?",
+      "options": {
+        "A": "Asia",
+        "B": "Africa",
+        "C": "Europe",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which sport is also called as 'Ping pong'?",
+      "options": {
+        "A": "Cricket",
+        "B": "Football",
+        "C": "Volleyball",
+        "D": "Table tennis"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which is the currency of Sri Lanka?",
+      "options": {
+        "A": "Dollar",
+        "B": "Rupee",
+        "C": "Dinar",
+        "D": "Yen"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "World Wildlife Day is celebrated on which date?",
+      "options": {
+        "A": "March 8",
+        "B": "March 3",
+        "C": "March 5",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Great Barrier Reef is located in the country?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "Canada",
+        "D": "Australia"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which is the largest country in Africa by land area?",
+      "options": {
+        "A": "Sudan",
+        "B": "Nigeria",
+        "C": "Algeria",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What was code-named of first Indian Nuclear test at Pokhran in 1974?",
+      "options": {
+        "A": "Shining Shiv",
+        "B": "Smiling Budha",
+        "C": "Bang of Brahama",
+        "D": "Pokhran Visphot"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Economic Cooperation Organization (ECO) established in _____?",
+      "options": {
+        "A": "1985",
+        "B": "1987",
+        "C": "1988",
+        "D": "1999"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Dr. Ahmad Sukarno was the President of ______?",
+      "options": {
+        "A": "Malaysia",
+        "B": "Indonesia",
+        "C": "Maldives",
+        "D": "None of them"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The electron was first identified by?",
+      "options": {
+        "A": "J. J. Thompson",
+        "B": "D. Rutherford",
+        "C": "J. Kepler",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who discover the Vaccine?",
+      "options": {
+        "A": "Edward Jenner",
+        "B": "Alexander Fleming",
+        "C": "J. J. Thomson",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "World Ozone Day is observed on _______?",
+      "options": {
+        "A": "April 4",
+        "B": "June 5",
+        "C": "September 16",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was NATO founded?",
+      "options": {
+        "A": "1948",
+        "B": "1951",
+        "C": "1946",
+        "D": "1949"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Amnesty International is an organization for ____?",
+      "options": {
+        "A": "Solving issues between two states",
+        "B": "Prevention of crimes",
+        "C": "Providing loans to countries",
+        "D": "Protection of Human Rights"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "India detonated its nuclear device in which year?",
+      "options": {
+        "A": "1973",
+        "B": "1974",
+        "C": "1975",
+        "D": "1978"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who won Nobel Prize in Literature 2021?",
+      "options": {
+        "A": "Louise Gluck",
+        "B": "Annie Ernaux",
+        "C": "Abdulrazak Gurnah",
+        "D": "Peter Handke"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Book 'The Sole Spokesman' is authored by _____?",
+      "options": {
+        "A": "Mubarak Ali",
+        "B": "Stanley Wolpert",
+        "C": "Anatol Lieven",
+        "D": "Ayesha Jalal"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Famous social website Facebook was founded by ____?",
+      "options": {
+        "A": "Elon Musk",
+        "B": "Steve Jobs",
+        "C": "Bill Gates",
+        "D": "Mark Zekerburg"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country is not a member of ASEAN? Brunei, Indonesia, Philippines, Bangladesh",
+      "options": {
+        "A": "Brunei",
+        "B": "Indonesia",
+        "C": "Philippines",
+        "D": "Bangladesh"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is not a member of SAARC? Afghanistan, Bangladesh, Bhutan, Myanmar (Burma)",
+      "options": {
+        "A": "Afghanistan",
+        "B": "Bangladesh",
+        "C": "Bhutan",
+        "D": "Myanmar (Burma)"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country won the third cricket world cup in 1983?",
+      "options": {
+        "A": "West Indies",
+        "B": "Australia",
+        "C": "India",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The man who built the first Mechanical Calculator was ______?",
+      "options": {
+        "A": "Blaise Pascal",
+        "B": "Harward Aliken",
+        "C": "John Mauchly",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"The Wealth of Nation\" was written by?",
+      "options": {
+        "A": "Adam Smith",
+        "B": "William Robins",
+        "C": "Ravid Recardo",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"Aab e Hayat \" was written by?",
+      "options": {
+        "A": "Khwaja Mir Dard",
+        "B": "Momin Khan Momin",
+        "C": "Saghar Siddiqui",
+        "D": "Muhammad Hussain Azad"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Napoleon Bonaparte was the King of ______?",
+      "options": {
+        "A": "France",
+        "B": "Italy",
+        "C": "Greece",
+        "D": "Russia"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "IOC stands for ______?",
+      "options": {
+        "A": "Iraq Olympic Committee",
+        "B": "India Olympic Committee",
+        "C": "Iran Olympic Committee",
+        "D": "International Olympic Committee"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The famous book 'The Republic' was written by?",
+      "options": {
+        "A": "Socrates",
+        "B": "Plato",
+        "C": "Aristotle",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Thalassemia is a hereditary disease affecting which of the following?",
+      "options": {
+        "A": "Lung",
+        "B": "Blood",
+        "C": "Kidney",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the first owner of the Microsoft Company?",
+      "options": {
+        "A": "Steve",
+        "B": "Henry",
+        "C": "Bill gates",
+        "D": "Charlie"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is currency of Iran?",
+      "options": {
+        "A": "Iranian rial",
+        "B": "Lira",
+        "C": "Taka",
+        "D": "Rupee"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is name of Iran’s new currency?",
+      "options": {
+        "A": "France",
+        "B": "Italy",
+        "C": "Greece",
+        "D": "Russia"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following Muslim Scientists discovered the radius of the earth?",
+      "options": {
+        "A": "Abu Rayhan A-Biruni",
+        "B": "Ibn-ul-Haitham",
+        "C": "Jabir Bin Halyan",
+        "D": "Muhammad Bin Zakariya"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Atacama Desert is located in _____?",
+      "options": {
+        "A": "Asia",
+        "B": "Africa",
+        "C": "South America",
+        "D": "Australia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "NAFTA stands for _____?",
+      "options": {
+        "A": "North American Free Trade Agencies",
+        "B": "North Alliance Free Trade Agreement",
+        "C": "North American Free Trade Agreement",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The peace treaty of the Council of Westphalia was signed in ______?",
+      "options": {
+        "A": "1647",
+        "B": "1648",
+        "C": "1650",
+        "D": "None of these"
+      },
+      "correct": "B"
+    }
+  ]
+}

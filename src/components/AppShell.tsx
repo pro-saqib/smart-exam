@@ -8,12 +8,10 @@ const NAV = [
   { to: "/subjects", label: "Subjects", icon: BookOpen },
   { to: "/extractor", label: "MCQ Extractor", icon: ScanSearch },
   { to: "/practice", label: "Practice", icon: Brain },
-  { to: "/solve-later", label: "Solve Later", icon: Bookmark },
 ];
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const loc = useLocation();
-  const solveCount = useApp((s) => s.mcqs.filter((m) => m.solveLater).length);
   const [hidden, setHidden] = useState<boolean>(() => {
     try {
       return localStorage.getItem("sidebar_hidden") === "1";
@@ -57,11 +55,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               >
                 <Icon className={`size-4 ${active ? "text-primary-glow" : ""}`} />
                 <span className="flex-1">{item.label}</span>
-                {item.to === "/solve-later" && solveCount > 0 && (
-                  <span className="text-[11px] px-1.5 py-0.5 rounded-full bg-primary/20 text-primary-glow">
-                    {solveCount}
-                  </span>
-                )}
               </Link>
             );
           })}

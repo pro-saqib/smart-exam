@@ -2,10 +2,27 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { MCQ, Subject, AttemptLog } from "@/lib/types";
 
+export interface SavedQuiz {
+  mode: string;
+  subjectId: string;
+  subjectName: string;
+  currentIndex: number;
+  order: string[];
+  items: string[];
+  score: { correct: number; wrong: number };
+  retryQueue: string[];
+  elapsed: number;
+  startTs: number;
+  timeLimitMin: number;
+  shuffleOptions: boolean;
+  shuffleQuestions: boolean;
+}
+
 interface State {
   subjects: Subject[];
   mcqs: MCQ[];
   attempts: AttemptLog[];
+  savedQuiz: SavedQuiz | null;
   addSubject: (name: string, parentId?: string) => Subject;
   renameSubject: (id: string, name: string) => void;
   deleteSubject: (id: string) => void;
@@ -14,6 +31,9 @@ interface State {
   recordAttempt: (mcqId: string, selected: "A" | "B" | "C" | "D" | "E") => boolean;
   deleteMCQ: (id: string) => void;
   clearAttempts: () => void;
+  deleteAllSubtopics: () => void;
+  saveQuiz: (quiz: SavedQuiz) => void;
+  clearSavedQuiz: () => void;
 }
 
 const uid = () => Math.random().toString(36).slice(2, 11);
@@ -33,6 +53,7 @@ export const useApp = create<State>()(
       subjects: INITIAL_SUBJECTS,
       mcqs: [],
       attempts: [],
+      savedQuiz: null,
       addSubject: (name, parentId) => {
         const s: Subject = { id: uid(), name: name.trim(), parentId, createdAt: Date.now() };
         set((st) => ({ subjects: [...st.subjects, s] }));
@@ -92,6 +113,19 @@ export const useApp = create<State>()(
       deleteMCQ: (id) =>
         set((st) => ({ mcqs: st.mcqs.filter((m) => m.id !== id), attempts: st.attempts.filter((a) => a.mcqId !== id) })),
       clearAttempts: () => set({ attempts: [] }),
+      deleteAllSubtopics: () =>
+        set((st) => {
+          const mainSubjectIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
+          const subtopicIds = st.subjects.filter((s) => !mainSubjectIds.has(s.id)).map((s) => s.id);
+          const subtopicSet = new Set(subtopicIds);
+          return {
+            subjects: st.subjects.filter((s) => mainSubjectIds.has(s.id)),
+            mcqs: st.mcqs.filter((m) => !subtopicSet.has(m.subjectId)),
+            attempts: st.attempts.filter((a) => !subtopicSet.has(a.subjectId)),
+          };
+        }),
+      saveQuiz: (quiz) => set({ savedQuiz: quiz }),
+      clearSavedQuiz: () => set({ savedQuiz: null }),
     }),
     {
       name: "mcq-prep-v1",

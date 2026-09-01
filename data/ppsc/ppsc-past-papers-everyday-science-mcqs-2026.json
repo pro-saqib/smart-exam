@@ -1,0 +1,2895 @@
+{
+  "name": "PPSC Past Papers Everyday Science MCQs 2026",
+  "mcqs": [
+    {
+      "question": "A series of steps of a stair is called?",
+      "options": {
+        "A": "Landing",
+        "B": "Tread",
+        "C": "Flight",
+        "D": "Riser"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The cast iron pipe for a water supply system is used for:",
+      "options": {
+        "A": "Temporary water connections",
+        "B": "Underground and permanent water-supply lines",
+        "C": "High-temperature steam lines",
+        "D": "Drainage of rainwater only"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The detention period required for a particle settling in a water-treatment tank is approximately:",
+      "options": {
+        "A": "10–20 minutes",
+        "B": "30–60 minutes",
+        "C": "2–4 hours",
+        "D": "12–24 hours"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following types of falls use parabolic glacis for energy dissipation ?",
+      "options": {
+        "A": "Vertical drop fall",
+        "B": "Glacis fall",
+        "C": "Montague type fall",
+        "D": "Inglis fall"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The flow in which the velocity vector is identical in magnitude and direction at every point, for any given instant, is known as________________?",
+      "options": {
+        "A": "One dimensional flow",
+        "B": "Uniform flow",
+        "C": "Steady flow",
+        "D": "turbulent flow"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Walking sticks are made up of?",
+      "options": {
+        "A": "Wood",
+        "B": "Glass",
+        "C": "Paper",
+        "D": "Rubber"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who invented Radio?",
+      "options": {
+        "A": "Graham Bell",
+        "B": "Thomas Edison",
+        "C": "Marconi",
+        "D": "Wright Brothers"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Oxygen reacts with most elements to produce binary compounds called?",
+      "options": {
+        "A": "Bases",
+        "B": "Oxides",
+        "C": "Acids",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Water and CO₂ molecules combine to form ______?",
+      "options": {
+        "A": "Nitric acid",
+        "B": "Carbonic acid",
+        "C": "Sulfuric acid",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The pitch of a sound wave is related to/depends on its ______?",
+      "options": {
+        "A": "Beats",
+        "B": "Frequency",
+        "C": "Amplitude",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who postulated the law of universal gravitation?",
+      "options": {
+        "A": "Newton",
+        "B": "Dalton",
+        "C": "Einstein",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mumps and Measles are prevented by?",
+      "options": {
+        "A": "Painkillers",
+        "B": "Antibiotics",
+        "C": "Vaccination",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Cholera disease is caused due to?",
+      "options": {
+        "A": "Air",
+        "B": "Water",
+        "C": "Soil",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ozone is present in which layer of atmosphere?",
+      "options": {
+        "A": "Biosphere",
+        "B": "Thermosphere",
+        "C": "Troposphere",
+        "D": "Stratosphere"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Chromatography is used for _____?",
+      "options": {
+        "A": "Examining whether there is poison in the blood of a deceased person",
+        "B": "Testing whether a person has a disease",
+        "C": "Identifying poisons",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A unit of pressure is equal to 1 newton per square meter (N/m²) is known as?",
+      "options": {
+        "A": "Newton",
+        "B": "Joule",
+        "C": "Pascal",
+        "D": "Kelvin"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ophthalmology is the study of ____?",
+      "options": {
+        "A": "Nerves",
+        "B": "Blood",
+        "C": "Eyes",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Carbon monoxide attaches with?",
+      "options": {
+        "A": "Magnalium",
+        "B": "Hemoglobin",
+        "C": "Iron",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Urine is produced in ____?",
+      "options": {
+        "A": "Kidney",
+        "B": "Pancreas",
+        "C": "Spleen",
+        "D": "Gallbladder"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The outer most layer of earth is called ______?",
+      "options": {
+        "A": "Core",
+        "B": "Crust",
+        "C": "Mental",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discovered the circulation of blood?",
+      "options": {
+        "A": "Parker",
+        "B": "William Harvey",
+        "C": "Mendel",
+        "D": "Newton"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which isotope of hydrogen is radioactive?",
+      "options": {
+        "A": "Tritium",
+        "B": "Protium",
+        "C": "Deuterium",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In fluvial processes, small and shallow channels are called'",
+      "options": {
+        "A": "Gullies",
+        "B": "Valleys",
+        "C": "Deltas",
+        "D": "Levees"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Electromagnetic spectrum visible for human eye in wavelength range?",
+      "options": {
+        "A": "100–200 nm",
+        "B": "200–300 nm",
+        "C": "380–750 nm",
+        "D": "1000–1500 nm"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Slate is formed by the metamorphosis of",
+      "options": {
+        "A": "Granite",
+        "B": "Limestone",
+        "C": "Shale",
+        "D": "Sandstone"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "SI stands for the?",
+      "options": {
+        "A": "Standard International",
+        "B": "International System of Units",
+        "C": "Scientific International",
+        "D": "System of Instruments"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When two parallel tectonic plates meet and slide past each other, they form?",
+      "options": {
+        "A": "Fault lines",
+        "B": "Volcanoes",
+        "C": "Mountains",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A ______ is an uplifted block of the Earth's crust that forms between two parallel normal faults.",
+      "options": {
+        "A": "Rift Valley",
+        "B": "Horst",
+        "C": "Graben",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The equation E = mc² indicates that energy _____?",
+      "options": {
+        "A": "Is fundamentally different than mass",
+        "B": "And mass are closely related",
+        "C": "Equals mass moving at the speed of the light square",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one of the following is herbivore? Cow, Deer, Lion, Both A and B",
+      "options": {
+        "A": "Cow",
+        "B": "Deer",
+        "C": "Lion",
+        "D": "Both A and B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which contain two nuclei? Paramecium, Plasmodium, Monocytes, None of these",
+      "options": {
+        "A": "Paramecium",
+        "B": "Plasmodium",
+        "C": "Monocytes",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The main reason for smog in Lahore is?",
+      "options": {
+        "A": "Earthquakes",
+        "B": "Volcanic eruptions",
+        "C": "Photochemical reactions from vehicle emissions",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Imam Ja'far al-Sadiq (RA) was an expert in?",
+      "options": {
+        "A": "Chemistry",
+        "B": "Mathematics",
+        "C": "Astronomy",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one naturally does not have crystals? Diamond, Plastic, Sucrose, None of these",
+      "options": {
+        "A": "Diamond",
+        "B": "Plastic",
+        "C": "Sucrose",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which medicine is called the collective treatment of all diseases?",
+      "options": {
+        "A": "Panacea",
+        "B": "Vaccine",
+        "C": "Antibiotic",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ginger is a _____?",
+      "options": {
+        "A": "Leaf",
+        "B": "Stem (Rhizome)",
+        "C": "Root",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Material deposited by flowing water is called?",
+      "options": {
+        "A": "Albedo",
+        "B": "Alluvium",
+        "C": "Alluvial fans",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following does not make its own food?",
+      "options": {
+        "A": "Mushroom (Fungi)",
+        "B": "Grass",
+        "C": "Mango Tree",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Viruses are ______?",
+      "options": {
+        "A": "Cellular",
+        "B": "Non-Cellular",
+        "C": "Parasites",
+        "D": "Both B and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Geostationary satellites appear to be stationary when viewed from the Earth. Geostationary satellites are located directly above the ______?",
+      "options": {
+        "A": "Tropic of Cancer",
+        "B": "Prime Meridian",
+        "C": "Equator",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "X-rays have been discovered by ______?",
+      "options": {
+        "A": "Charles Babbage",
+        "B": "Wilhelm Conrad Roentgen",
+        "C": "Ernest Rutherford",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Atomic number of hydrogen is:",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A person who does not like to eat animal products is called?",
+      "options": {
+        "A": "Vegetarian",
+        "B": "Vegan",
+        "C": "Carnivore",
+        "D": "Omnivore"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pycnocline means?",
+      "options": {
+        "A": "A layer of rapid change in water density",
+        "B": "A layer of rapid change in temperature",
+        "C": "A layer of rapid change in salinity",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The light from the Sun reaches to earth is about?",
+      "options": {
+        "A": "5 min 20 sec",
+        "B": "6 min 20 sec",
+        "C": "7 min 20 sec",
+        "D": "8 min 20 sec"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Rainbow is produced due to _______ of lights.",
+      "options": {
+        "A": "Dispersion",
+        "B": "Diffraction",
+        "C": "Reflection",
+        "D": "Refraction"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which subject is known as the \"Mother of All Sciences\"?",
+      "options": {
+        "A": "Physics",
+        "B": "Chemistry",
+        "C": "Mathematics",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which factors affect blood pressure?",
+      "options": {
+        "A": "Cardiac return",
+        "B": "Systolic pressure",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The unit of measurement of intensity of sound is in?",
+      "options": {
+        "A": "Decibel (dB)",
+        "B": "Watt per square meter (W/m²)",
+        "C": "Hertz (Hz)",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Amino acids are building blocks of ______?",
+      "options": {
+        "A": "Nucleic acids",
+        "B": "Protein",
+        "C": "Vitamins",
+        "D": "Lipid"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the hottest planet in our solar system?",
+      "options": {
+        "A": "Venus",
+        "B": "Neptune",
+        "C": "Mars",
+        "D": "Jupiter"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the farthest planet in our solar system?",
+      "options": {
+        "A": "Uranus",
+        "B": "Mercury",
+        "C": "Mars",
+        "D": "Neptune"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which year did William Harvey discover blood circulation?",
+      "options": {
+        "A": "1590",
+        "B": "1600",
+        "C": "1628",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A body weighs 51 N on the surface of the Earth. What is its weight on Earth?",
+      "options": {
+        "A": "5.1 N",
+        "B": "51 N",
+        "C": "510 N",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HLA stands for?",
+      "options": {
+        "A": "Human Leukocyte Antigen",
+        "B": "Human Liver Antibody",
+        "C": "Hemoglobin Level Analysis",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One horse power is equal to?",
+      "options": {
+        "A": "746 watt",
+        "B": "735 watt",
+        "C": "725 watt",
+        "D": "700 watt"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the working capacity/efficiency of a diesel engine?",
+      "options": {
+        "A": "20–30%",
+        "B": "30–40%",
+        "C": "40–50%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who prepared the first cholera vaccine?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "Robert Koch",
+        "C": "Waldemar Haffkine",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the purpose of pre-natal ultrasound?",
+      "options": {
+        "A": "To monitor the development and health of the fetus",
+        "B": "To determine the father of the baby",
+        "C": "To predict the baby’s future behavior",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Solar plate consist of which type of cell?",
+      "options": {
+        "A": "Fuel cell",
+        "B": "Photo voltaic cell",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The only elemental metal that is liquid at room temperature is?",
+      "options": {
+        "A": "Lead",
+        "B": "Zinc",
+        "C": "Mercury",
+        "D": "Aluminum"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In our body, the percentage of water is?",
+      "options": {
+        "A": "30 percent",
+        "B": "90 percent",
+        "C": "60 percent",
+        "D": "50 percent"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Rectified spirit contains alcohol about?",
+      "options": {
+        "A": "95%",
+        "B": "90%",
+        "C": "85%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Characteristic of hydrophytes is?",
+      "options": {
+        "A": "Stem with sclerenchyma",
+        "B": "Poorly developed roots",
+        "C": "Well developed roots",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The audible range of normal human ear is ____?",
+      "options": {
+        "A": "16 Hz to 20kHz",
+        "B": "10 Hz to 31kHz",
+        "C": "67 Hz to 45kHz",
+        "D": "20 Hz to 20kHz"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following Planet has the smallest diameter?",
+      "options": {
+        "A": "Venus",
+        "B": "Earth",
+        "C": "Mercury",
+        "D": "Mars"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Due to smoking, damage to alveoli results in?",
+      "options": {
+        "A": "Increased oxygen absorption",
+        "B": "Reduced gas exchange efficiency",
+        "C": "Faster breathing rate always improves lungs",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the mass of one proton?",
+      "options": {
+        "A": "Equal to 1836 electron",
+        "B": "Equal to proton",
+        "C": "Equal to 1836 neutron",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Neon gas was discovered by?",
+      "options": {
+        "A": "Henry Cavendish",
+        "B": "William Ramsay and Morris Travers",
+        "C": "Marie Curie",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who proposed the Theory of Evolution?",
+      "options": {
+        "A": "Charles Darwin",
+        "B": "Herbert Spencer",
+        "C": "Mendel",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The density of gases increases when its?",
+      "options": {
+        "A": "Pressure increased",
+        "B": "Temperature increased",
+        "C": "Volume increased",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which part of human brain is involved in maintaining the posture and balance of the body?",
+      "options": {
+        "A": "Cerebrum",
+        "B": "Hypothalamus",
+        "C": "Cerebellum",
+        "D": "Medulla oblongata"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Lead pencil is made up of?",
+      "options": {
+        "A": "Aluminum",
+        "B": "Silver",
+        "C": "Graphite",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Diamond is allotropic form of?",
+      "options": {
+        "A": "Carbon",
+        "B": "Hydrogen",
+        "C": "Oxygen",
+        "D": "Aluminum"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which can be dissolved in water? Alcohol, Benzene, Ether, None of these",
+      "options": {
+        "A": "Alcohol",
+        "B": "Benzene",
+        "C": "Ether",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cosmic rays were discovered by?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Victor Hess",
+        "C": "Marie Curie",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which metal is the best conductor of electricity?",
+      "options": {
+        "A": "Silver",
+        "B": "Copper",
+        "C": "Brass",
+        "D": "None of them"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Theory of relativity was given by ______?",
+      "options": {
+        "A": "Newton",
+        "B": "Chadwick",
+        "C": "Einstein",
+        "D": "Becquerel"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Night blindness is caused due to the deficiency of vitamin ______?",
+      "options": {
+        "A": "B",
+        "B": "C",
+        "C": "A",
+        "D": "D"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Cardiorespiratory Fitness primarily improves?",
+      "options": {
+        "A": "Strength",
+        "B": "Flexibility",
+        "C": "Efficiency & Endurance",
+        "D": "Speed"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which sub-atomic particle has the least mass?",
+      "options": {
+        "A": "Proton",
+        "B": "Neutron",
+        "C": "Electron",
+        "D": "Nucleus"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Anthropocene epoch is regarded as?",
+      "options": {
+        "A": "Age of Dinosaurs",
+        "B": "Ice Age",
+        "C": "Geological epoch dominated by human influence on Earth's ecosystems and climate",
+        "D": "Age of Mammal"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Andromeda Galaxy is about to collide with which galaxy?",
+      "options": {
+        "A": "Triangulum Galaxy",
+        "B": "Milky Way",
+        "C": "Whirlpool Galaxy",
+        "D": "Sombrero Galaxy"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Cell most commonly attacked by HIV ______?",
+      "options": {
+        "A": "B cell",
+        "B": "Helper T cell",
+        "C": "Cytotoxic T cell",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Greenhouse walls are usually made of?",
+      "options": {
+        "A": "Glass",
+        "B": "Green clothes",
+        "C": "Aluminum",
+        "D": "Wood"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Elbow joint is an example of?",
+      "options": {
+        "A": "Ball and socket joint",
+        "B": "Hinge joint",
+        "C": "Pivot joint",
+        "D": "Gliding joint"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the main cause of Type 2 diabetes?",
+      "options": {
+        "A": "Autoimmune destruction of insulin-producing cells",
+        "B": "Insulin resistance",
+        "C": "Lack of physical activity only",
+        "D": "Excess insulin production"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the unit of speed?",
+      "options": {
+        "A": "Meter (m)",
+        "B": "Second (s)",
+        "C": "Meter per second (m/s)",
+        "D": "Kilogram (kg)"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a cloudburst, rainfall specifically exceeds?",
+      "options": {
+        "A": "50 mm",
+        "B": "75 mm",
+        "C": "100 mm",
+        "D": "150 mm"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Shoulder and elbow joints are called?",
+      "options": {
+        "A": "Hinge joints",
+        "B": "Synovial joints,",
+        "C": "Pivot joints",
+        "D": "Fixed joints"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Silicon dioxide is commonly known as?",
+      "options": {
+        "A": "Silane",
+        "B": "Sand",
+        "C": "Silicon carbide",
+        "D": "Silicone"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Anion is a __________ charge?",
+      "options": {
+        "A": "Positive",
+        "B": "Neutral",
+        "C": "Negative",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the name of layer which protect the earth from the sun?",
+      "options": {
+        "A": "Plak",
+        "B": "Ozone",
+        "C": "Debora",
+        "D": "Trizon"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Animals that eat only animals are called _____?",
+      "options": {
+        "A": "Insectivores",
+        "B": "Carnivores",
+        "C": "Omnivores",
+        "D": "Herbivores"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the SI unit of angular acceleration?",
+      "options": {
+        "A": "m s⁻²",
+        "B": "rad s²",
+        "C": "rad s⁻¹",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The most evolutionarily advanced type of nephridium in annelids is?",
+      "options": {
+        "A": "Protonephridium",
+        "B": "Metanephridium",
+        "C": "Malpighian tubule",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The primary pacemaker of the vertebrate heart is the?",
+      "options": {
+        "A": "AV node",
+        "B": "SA node",
+        "C": "Bundle of His",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Countercurrent exchange mechanism in fish gills ensures:",
+      "options": {
+        "A": "Blood meets water with higher O₂ content continuously",
+        "B": "Blood and water flow in same direction",
+        "C": "Minimal diffusion",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The evolutionary transition from unicellularity to multicellularity is best supported by which protozoan feature?",
+      "options": {
+        "A": "Contractile vacuole",
+        "B": "Encystment",
+        "C": "Binary fission",
+        "D": "None of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which contributes most to global warming on a per-molecule basis?",
+      "options": {
+        "A": "CO₂",
+        "B": "N₂O",
+        "C": "Methane",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In mammals, the corpus callosum links the?",
+      "options": {
+        "A": "Two cerebellar hemispheres",
+        "B": "Brainstem to cerebrum",
+        "C": "Two cerebral hemispheres",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "According to the SHAN-SEHMI-Scott and Ward Acids and Bases concept, a hard acid prefers to react with a?",
+      "options": {
+        "A": "Soft base",
+        "B": "Neutral base",
+        "C": "Hard base",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The solubility product Ksp increase when?",
+      "options": {
+        "A": "Common ion added into solution",
+        "B": "Temperature always increase",
+        "C": "Solid is removed from solution",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one of the following is the smallest autosome in humans?",
+      "options": {
+        "A": "Chromosome 1",
+        "B": "Chromosome 21",
+        "C": "Chromosome 23",
+        "D": "Chromosome 7"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If an element with –3 oxidation state changes to 0, it means?",
+      "options": {
+        "A": "Gain of electrons and being reduced",
+        "B": "Loss of electrons and being oxidized",
+        "C": "No change",
+        "D": "Formation of a compound"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Nitrogen is fixed in plants in the presence of?",
+      "options": {
+        "A": "Glycolipids",
+        "B": "Glycoprotein",
+        "C": "Glycerol",
+        "D": "Phospholipids"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one is not a sublime substance?",
+      "options": {
+        "A": "Benzoic acid",
+        "B": "Potash alum",
+        "C": "Iodine",
+        "D": "Naphthalene"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many genotypes are possible for ABO blood group?",
+      "options": {
+        "A": "6",
+        "B": "16",
+        "C": "4",
+        "D": "8"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cu shows +1 oxidation state when it forms a compound with?",
+      "options": {
+        "A": "CuO",
+        "B": "CuBr",
+        "C": "CuCl₂",
+        "D": "CuSO₄"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Amaranthaceae don’t have?",
+      "options": {
+        "A": "Sepals",
+        "B": "Petals",
+        "C": "Leaves",
+        "D": "Stem"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sodium ions are actively transported through?",
+      "options": {
+        "A": "Thin loop of Henle",
+        "B": "Thick loop of Henle",
+        "C": "Proximal tubule",
+        "D": "Collecting duct"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In the process of rusting of iron, the cathodic reaction is?",
+      "options": {
+        "A": "Fe → Fe²⁺ + 2e⁻",
+        "B": "O₂ + 4e⁻ + 2H₂O → 4OH⁻",
+        "C": "Fe²⁺ → Fe³⁺ + e⁻",
+        "D": "H₂ → 2H⁺ + 2e⁻"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In anaerobic respiration, the RQ (Respiratory Quotient) value is?",
+      "options": {
+        "A": "Infinity",
+        "B": "Zero",
+        "C": "Less than 1",
+        "D": "More than 1"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Artificial system of classification is given by?",
+      "options": {
+        "A": "Carolus Linnaeus",
+        "B": "Bruner",
+        "C": "Bentham and Hooker",
+        "D": "Darwin"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which increases the flexibility and stability of the cell membrane?",
+      "options": {
+        "A": "Lipids",
+        "B": "Cholesterol",
+        "C": "Glycolipids",
+        "D": "Proteins"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Musk is obtained from deer and?",
+      "options": {
+        "A": "Goat",
+        "B": "African civet",
+        "C": "Sheep",
+        "D": "Rabit"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A compound with two chiral centers and one plane of symmetry is called:",
+      "options": {
+        "A": "Enantiomer",
+        "B": "Racemic mixture",
+        "C": "Meso compound",
+        "D": "Diastereomer"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is an irreversible reaction?",
+      "options": {
+        "A": "Formation of NH₃",
+        "B": "PCl₅ dissociation",
+        "C": "N₂O₄ formation",
+        "D": "Formation of H₂O"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In a food web, when one organism is eaten by another, energy decreases by?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "90%",
+        "D": "100%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The molecule used for termination of DNA sequencing is?",
+      "options": {
+        "A": "Deoxyribonucleotide (dNTP)",
+        "B": "Dideoxynucleotide (ddNTP)",
+        "C": "RNA primer",
+        "D": "DNA polymerase"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "T₃ and T₄ are made from?",
+      "options": {
+        "A": "Dopamine",
+        "B": "GABA",
+        "C": "Iodotyrosine",
+        "D": "Thyroxine"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which substance maintains the fluidity and rigidity of the cell membrane?",
+      "options": {
+        "A": "Glycolipids",
+        "B": "Cholesterol",
+        "C": "Proteins",
+        "D": "Phospholipids"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which species is endangered or critically endangered?",
+      "options": {
+        "A": "Tiger",
+        "B": "Indus dolphin",
+        "C": "House sparrow",
+        "D": "Both a and b"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Protozoan which eat others called?",
+      "options": {
+        "A": "Parasite",
+        "B": "Holozoic",
+        "C": "Mutualist",
+        "D": "Saprophytic"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Relationship of Li, Mg, Al, Br is?",
+      "options": {
+        "A": "Groups",
+        "B": "Periods",
+        "C": "Diagonal",
+        "D": "Triangle"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The method when an animal adapts the behaviour of another animal is called?",
+      "options": {
+        "A": "Mimicry",
+        "B": "Cryptic colouration",
+        "C": "Camouflage",
+        "D": "Migration"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Valency of copper is 2 in?",
+      "options": {
+        "A": "CuO",
+        "B": "CuSO₄",
+        "C": "Cu₂O",
+        "D": "Both CuO and CuSO₄"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which Acid is not synthesized in body?",
+      "options": {
+        "A": "Linoleic acid",
+        "B": "Oleic acid",
+        "C": "Palmitic acid",
+        "D": "Stearic acid"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Curd is an example of?",
+      "options": {
+        "A": "Solution",
+        "B": "Suspension",
+        "C": "Gel",
+        "D": "Emulsion"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Function of ether is?",
+      "options": {
+        "A": "R-O-R",
+        "B": "R-CO-R",
+        "C": "R-OH",
+        "D": "R-CHO"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where does active transport occur in nephron?",
+      "options": {
+        "A": "Distal tubule only",
+        "B": "Proximal tubule and thick ascending of loop of Henle",
+        "C": "Collecting duct only",
+        "D": "Bowman’s capsule"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sweat gland can be modified into?",
+      "options": {
+        "A": "Sebaceous gland",
+        "B": "Mammary gland",
+        "C": "Salivary gland",
+        "D": "Thyroid gland"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sodium is greatly absorbed in which part of kidney?",
+      "options": {
+        "A": "Proximal tubule",
+        "B": "Distal tubule",
+        "C": "Collecting duct",
+        "D": "Loop of Henle"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Function of lateral line system in fishes?",
+      "options": {
+        "A": "Sensory reception",
+        "B": "Respiration",
+        "C": "Digestion",
+        "D": "Excretion"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Long cold winter with persistent snow cover and conifers present is called?",
+      "options": {
+        "A": "Tundra",
+        "B": "Taiga forest",
+        "C": "Temperate deciduous forest",
+        "D": "Grassland"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How does the amount of salt in water affect the number of plants in water? What is the dependent variable?",
+      "options": {
+        "A": "Water",
+        "B": "Number of plants",
+        "C": "Amount of salt",
+        "D": "Temperature of water"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The taxonomy of intraspecific and interspecific species is called?",
+      "options": {
+        "A": "Systematics",
+        "B": "Alpha taxonomy",
+        "C": "Beta taxonomy",
+        "D": "Nomenclature"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How much more acidic is pH 2 than pH 5?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "1000",
+        "D": "10000"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Single-lens microscopes observed yeast cell introduced in which year?",
+      "options": {
+        "A": "1665",
+        "B": "1676",
+        "C": "1683",
+        "D": "1680"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the purpose / meaning of “Origin of Life” by Darwin?",
+      "options": {
+        "A": "Adaptation to life",
+        "B": "Origin of life",
+        "C": "New species origin",
+        "D": "Natural selection"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The minimal area is the area in which species?",
+      "options": {
+        "A": "Representative",
+        "B": "Constant",
+        "C": "Decline",
+        "D": "Increase dense"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The lightest gas that provides a larger elevation for balloons and is the lightest of all gases is _____?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Nitrogen",
+        "C": "Oxygen",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "National mammal of Pakistan is?",
+      "options": {
+        "A": "Markhor",
+        "B": "Snow Leopard",
+        "C": "Indus Dolphin",
+        "D": "Chinkara"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hummingbird temporary inactivity to save energy is called?",
+      "options": {
+        "A": "Hibernation",
+        "B": "Torpor",
+        "C": "Aestivation",
+        "D": "Migration"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Primary lymphoid organ in fishes is?",
+      "options": {
+        "A": "Spleen and liver",
+        "B": "Kidney and thymus",
+        "C": "Gills and heart",
+        "D": "Pancreas and intestine"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Fern prothallus is?",
+      "options": {
+        "A": "Diploid sporophyte",
+        "B": "Haploid gametophyte",
+        "C": "Embryo stage",
+        "D": "Spore case"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Photosynthesis in light is mainly performed by?",
+      "options": {
+        "A": "C4 plants",
+        "B": "CAM plants",
+        "C": "C3 plants",
+        "D": "Algae"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Angiosperms evolved in which period?",
+      "options": {
+        "A": "Jurassic period",
+        "B": "Triassic period",
+        "C": "Cretaceous period",
+        "D": "Permian period"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Naturally occurring auxin is found in which form?",
+      "options": {
+        "A": "Indole-3-acetic acid",
+        "B": "Gibberellic acid",
+        "C": "Cytokinin",
+        "D": "Ethylene"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Guttation occurs through which pores?",
+      "options": {
+        "A": "Stomata",
+        "B": "Lenticels",
+        "C": "Hydathodes",
+        "D": "Root hairs"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Turmeric is an underground stem called?",
+      "options": {
+        "A": "Bulb",
+        "B": "Corm",
+        "C": "Rhizome",
+        "D": "Tuber"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Starberry belongs to which plant family?",
+      "options": {
+        "A": "Fabaceae",
+        "B": "Rosaceae",
+        "C": "Solanaceae",
+        "D": "Poaceae"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Reproductive part in angiosperms is?",
+      "options": {
+        "A": "Leaf",
+        "B": "Root",
+        "C": "Flower",
+        "D": "Stem"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Plants growing on canopy (on other plants) are called?",
+      "options": {
+        "A": "Parasites",
+        "B": "Epiphytes",
+        "C": "Saprophytes",
+        "D": "Xerophytes"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which animal became extinct in the Cenozoic Era?",
+      "options": {
+        "A": "Dinosaurs",
+        "B": "Trilobites",
+        "C": "Woolly Mammoth",
+        "D": "Ammonites"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which group of organisms dominated the Earth during the Jurassic period?",
+      "options": {
+        "A": "Mammals",
+        "B": "Reptiles (Dinosaurs)",
+        "C": "Birds",
+        "D": "Amphibians"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Phenomenon in which animals hide by blending into their environment is called ?",
+      "options": {
+        "A": "Mimicry",
+        "B": "Camouflage",
+        "C": "Hibernation",
+        "D": "Aposematism"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Bacterial DNA region is called?",
+      "options": {
+        "A": "Nucleus",
+        "B": "Nucleolus",
+        "C": "Nucleoid",
+        "D": "Capsule"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The cell wall of bacteria is primarily composed of which material?",
+      "options": {
+        "A": "Cellulose",
+        "B": "Chitin",
+        "C": "Peptidoglycan",
+        "D": "Glycogen"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Plants growing under the canopy of trees (less light)?",
+      "options": {
+        "A": "Hydrophytes",
+        "B": "Sciophytes / Shade plants",
+        "C": "Xerophytes",
+        "D": "Mesophytes"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The feeding pattern in humans for grinding food resembles which organ of earthworm?",
+      "options": {
+        "A": "Crop",
+        "B": "Intestine",
+        "C": "Gizzard",
+        "D": "Pharynx"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The order of reaction of CCl₄ with chloroform is usually?",
+      "options": {
+        "A": "First order",
+        "B": "Second order",
+        "C": "Zero order",
+        "D": "Third order"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The reaction quotient at equilibrium of a reaction is called?",
+      "options": {
+        "A": "A) Rate constant",
+        "B": "Reaction quotient",
+        "C": "Equilibrium constant (K)",
+        "D": "Activation energy"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "On hydrolysis, acetoacetic ester gives?",
+      "options": {
+        "A": "Acetic acid",
+        "B": "Acetoacetic acid",
+        "C": "Ethyl alcohol",
+        "D": "Malonic acid"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In Van’t Hoff Factor what is 'i' represents?",
+      "options": {
+        "A": "Number of particles in solution",
+        "B": "Ionization constant",
+        "C": "Osmotic pressure",
+        "D": "Molarity"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who gave classification of organisms?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Charles Darwin",
+        "C": "Carolus Linnaeus",
+        "D": "Gregor Mendel"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who proposed the concept of triads in chemistry?",
+      "options": {
+        "A": "Dmitri Mendeleev",
+        "B": "Johann Dobereiner",
+        "C": "Antoine Lavoisier",
+        "D": "John Dalton"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which portion of cell ribosome are manufactured:",
+      "options": {
+        "A": "Golgi apparatus",
+        "B": "Lysosomes",
+        "C": "Nucleolus",
+        "D": "Pores"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the primary characteristic of local populations in the same area?",
+      "options": {
+        "A": "A population is a group of organisms of the same species living in a particular area",
+        "B": "A group of organisms living in different areas",
+        "C": "Organisms of different species living together",
+        "D": "A single organism living in isolation"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the chemical formula of picric acid?",
+      "options": {
+        "A": "C₆H₃(NO₂)₃OH",
+        "B": "C₆H₅NO₃",
+        "C": "C₇H₅N₃O₆",
+        "D": "C₆H₄(NO₂)₂OH"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which fatty acid is not produced in the human body?",
+      "options": {
+        "A": "Palmitic acid",
+        "B": "Oleic acid",
+        "C": "Omega-3 fatty acid",
+        "D": "Stearic acid"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Gymnosperms and Angiosperms are correlated with respect to which characteristic?",
+      "options": {
+        "A": "Root system",
+        "B": "Seed production",
+        "C": "Photosynthesis",
+        "D": "Cell wall composition"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the pH value of Human Blood?",
+      "options": {
+        "A": "4.12 to 4.24",
+        "B": "3.20 to 4.20",
+        "C": "7.35 to 7.45",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ichthyology is the study of _____?",
+      "options": {
+        "A": "Birds",
+        "B": "Insects",
+        "C": "Human nature",
+        "D": "Fish"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Attenuation in fiber optics refers to?",
+      "options": {
+        "A": "Increase in signal strength",
+        "B": "Loss of signal strength during transmission",
+        "C": "Reflection of light inside fiber",
+        "D": "Conversion of light into electricity"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Multiple repeaters in a communication satellite are called?",
+      "options": {
+        "A": "Transponders",
+        "B": "Antennas",
+        "C": "Amplifiers",
+        "D": "Waveguides"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In a complete graph?",
+      "options": {
+        "A": "All nodes are isolated",
+        "B": "Every node is connected to exactly one other node",
+        "C": "Every node is connected to every other node",
+        "D": "Nodes are connected in a linear sequence"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Study of fruit is called ______?",
+      "options": {
+        "A": "Sericulture",
+        "B": "Pomology",
+        "C": "Apiculture",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sound Waves travel faster in a medium ____?",
+      "options": {
+        "A": "Denser",
+        "B": "Rigid",
+        "C": "Solid",
+        "D": "Soft"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The family of citrus plants is _____?",
+      "options": {
+        "A": "Solanaceae",
+        "B": "Rutaceae",
+        "C": "Fabaceae",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Hydrogen bonding is found in ______?",
+      "options": {
+        "A": "Water (H₂O)",
+        "B": "Ammonia (NH₃)",
+        "C": "Hydrogen fluoride (HF)",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Lichens are an example of _____?",
+      "options": {
+        "A": "Parasitism",
+        "B": "Commensalism",
+        "C": "Symbiotic association",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Enzyme activity is influenced by _____?",
+      "options": {
+        "A": "Temperature",
+        "B": "pH",
+        "C": "Substrate concentration",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The water available for plant roots is called _____?",
+      "options": {
+        "A": "Capillary water",
+        "B": "Gravitational water",
+        "C": "Hygroscopic water",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Grapes cultivation is called _____?",
+      "options": {
+        "A": "Pomology",
+        "B": "Viticulture",
+        "C": "Olericulture",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is necessary for biological nitrogen fixation?",
+      "options": {
+        "A": "Calcium",
+        "B": "Molybdenum",
+        "C": "Zinc",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Young ones of holometabolous insects are called ______?",
+      "options": {
+        "A": "Pupae",
+        "B": "Nymphs",
+        "C": "Larvae",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Salt-loving plants are called _____?",
+      "options": {
+        "A": "Xerophytes",
+        "B": "Hydrophytes",
+        "C": "Halophytes",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Taq polymerase is extracted from _____?",
+      "options": {
+        "A": "Thermus aquaticus",
+        "B": "Escherichia coli",
+        "C": "Bacillus subtilis",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Recombinant DNA has DNA from sources _____?",
+      "options": {
+        "A": "1 Source",
+        "B": "2 Different Sources",
+        "C": "3 Different Sources",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following gases is commonly used as a refrigerant in domestic refrigerators for cooling?",
+      "options": {
+        "A": "Freon/ammonia",
+        "B": "Neon",
+        "C": "Spirit",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Scapula bone is located in _____?",
+      "options": {
+        "A": "Lower limbs",
+        "B": "Upper limbs",
+        "C": "Skull",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Food digestion through tract — which option is NOT involved in digestion? Mouth, Esophagus, Small intestine, Large intestine",
+      "options": {
+        "A": "Mouth",
+        "B": "Esophagus",
+        "C": "Small intestine",
+        "D": "Large intestine"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where is maltose converted into glucose?",
+      "options": {
+        "A": "Mouth",
+        "B": "Stomach",
+        "C": "Small intestine",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The most rapidly replacing cells in humans are _____?",
+      "options": {
+        "A": "Skin cell",
+        "B": "Gut cell",
+        "C": "Red blood cell",
+        "D": "All of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ozone is a gas made up of _______ atoms of oxygen.",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "One",
+        "D": "Five"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Citrus fruits are considered rich in ______?",
+      "options": {
+        "A": "Vitamin B",
+        "B": "Vitamin C",
+        "C": "Vitamin D",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Living organisms which derive their food from dead and decaying organic materials called?",
+      "options": {
+        "A": "Saprotrophs",
+        "B": "Parasites",
+        "C": "Predators",
+        "D": "Producers"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The macronutrient which regulate opening and closing of stomata and reduce water loss from the leaves?",
+      "options": {
+        "A": "Potassium",
+        "B": "Phosphorus",
+        "C": "Sulphur",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which plant hormone stimulates the ripening of fruit and inhabits plant growth?",
+      "options": {
+        "A": "Abscisic acid",
+        "B": "Ethylene",
+        "C": "Auxin",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The part of the stem below the cotyledon is called ______?",
+      "options": {
+        "A": "Epicotyl",
+        "B": "Hypocotyl",
+        "C": "Plumule",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "During germination of maize seed, first part arises from the seed is?",
+      "options": {
+        "A": "Radical Root",
+        "B": "Cotyledon",
+        "C": "Hypocotyl",
+        "D": "Plumule"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Brassica juncea is the scientific name of ______?",
+      "options": {
+        "A": "Mustard",
+        "B": "Sunflower",
+        "C": "Roya",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Plants that demand more water are called _____?",
+      "options": {
+        "A": "Xerophytes",
+        "B": "Mesophytes",
+        "C": "Hydrophytes",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which instrument is used to measure the wind direction?",
+      "options": {
+        "A": "Hygrometer",
+        "B": "Anemometer",
+        "C": "Galvanometer",
+        "D": "Wind Vane"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Family of cotton is ______?",
+      "options": {
+        "A": "Malvaceae",
+        "B": "Poaceae",
+        "C": "Fabaceae",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Family of wheat is _____?",
+      "options": {
+        "A": "Malvaceae",
+        "B": "Poaceae",
+        "C": "Fabaceae",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The swelling of structure due to absorption of water is called _____?",
+      "options": {
+        "A": "Imbibition",
+        "B": "Guttation",
+        "C": "Plasmolysis",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Study of cultivating fruits, vegetables, flowers and ornamental plants is called?",
+      "options": {
+        "A": "Anatomy",
+        "B": "Horticulture",
+        "C": "Physiology",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Hydrometer is used to determine _____?",
+      "options": {
+        "A": "Specific gravity of gases",
+        "B": "Specific gravity of liquids",
+        "C": "Specific gravity of solids",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Urea fertilizer contains ______% nitrogen.",
+      "options": {
+        "A": "46%",
+        "B": "36%",
+        "C": "26%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Rearing of honeybees is?",
+      "options": {
+        "A": "Mori culture",
+        "B": "Sericulture",
+        "C": "Apiculture",
+        "D": "Silviculture"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The study of tissues is called _____?",
+      "options": {
+        "A": "Geology",
+        "B": "Histology",
+        "C": "Radiology",
+        "D": "Toxicology"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Germ theory of disease is given by ____?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "Ronald Ross",
+        "C": "John Snow",
+        "D": "Robert Cock"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When AlCl₃ is heated, it converts into Al₂Cl₆. What type of bonding is present in Al₂Cl₆?",
+      "options": {
+        "A": "Covalent coordinate bond",
+        "B": "Ionic bond",
+        "C": "Metallic bond",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The normal ranges of respirations in an adult are:",
+      "options": {
+        "A": "12-30 Breaths Per Minute",
+        "B": "20-35 Breaths Per Minute",
+        "C": "12-20 Breaths Per Minute",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many states of matters are there?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A species that no longer lives anywhere on the earth is called _____?",
+      "options": {
+        "A": "Extinct species",
+        "B": "Endangered species",
+        "C": "Threatened",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Fruits are ripened by which element?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon dioxide",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the purest form of coal?",
+      "options": {
+        "A": "Anthracite",
+        "B": "Bituminous",
+        "C": "Lignite",
+        "D": "Peat"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is sugar attached with CO₂ in the chloroplast?",
+      "options": {
+        "A": "Thylakoid",
+        "B": "Stroma",
+        "C": "Granum",
+        "D": "Matrix"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which percent of Earth’s area is required to maintain environmental stability?",
+      "options": {
+        "A": "33%",
+        "B": "25%",
+        "C": "50%",
+        "D": "20%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Enzymes that scan DNA for specific 4–8 base pair recognition sites are called?",
+      "options": {
+        "A": "Restriction",
+        "B": "Ligase",
+        "C": "Polymerase",
+        "D": "Helicase"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "S-waves (secondary waves) can pass through which medium?",
+      "options": {
+        "A": "Solids",
+        "B": "Liquids",
+        "C": "Both",
+        "D": "Gases"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "After arrival in the dairy industry, milk is poured into what?",
+      "options": {
+        "A": "Tanks",
+        "B": "Bottles",
+        "C": "Jars",
+        "D": "Silco"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Sedimentation is the primary process of?",
+      "options": {
+        "A": "Water",
+        "B": "Air",
+        "C": "Soil",
+        "D": "Rocks"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Droughts can lead to wildfires due to?",
+      "options": {
+        "A": "Reduced rainfall",
+        "B": "Dry vegetation",
+        "C": "High temperatures",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Droughts can lead to wildfires due to?",
+      "options": {
+        "A": "Reduced rainfall",
+        "B": "Dry vegetation",
+        "C": "High temperatures",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The factory of ribosomes is?",
+      "options": {
+        "A": "Nucleolus",
+        "B": "Nucleus",
+        "C": "Mitochondria",
+        "D": "Endoplasmic Reticulum"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Steel cans of drinks are coated with?",
+      "options": {
+        "A": "Tin",
+        "B": "Aluminum",
+        "C": "Zinc",
+        "D": "Chromium"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Steel cans of drinks are coated with?",
+      "options": {
+        "A": "Tin",
+        "B": "Aluminum",
+        "C": "Zinc",
+        "D": "Chromium"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The arrangement of proteins in DNA begins with which codon?",
+      "options": {
+        "A": "AUG",
+        "B": "UAA",
+        "C": "UAG",
+        "D": "GGG"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The chemical name of quartz is:",
+      "options": {
+        "A": "Silicon dioxide",
+        "B": "Stannous oxide",
+        "C": "Aluminum oxide",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Olive, nuts, and avocado are rich in _____?",
+      "options": {
+        "A": "Proteins",
+        "B": "Vitamins",
+        "C": "Fats / Oils",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Loss of internal water of plant in the form of vapours from aerial parts of plants is called?",
+      "options": {
+        "A": "Evaporation",
+        "B": "Respiration",
+        "C": "Transpiration",
+        "D": "Photosynthesis"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Plants that bear flowers and produce seeds are called _____?",
+      "options": {
+        "A": "Bryophytes",
+        "B": "Pteridophytes",
+        "C": "Spermatophytes",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is not a part of Pakistani smog?",
+      "options": {
+        "A": "Sulphur dioxide",
+        "B": "Nitrogen oxides",
+        "C": "Carbon monoxide",
+        "D": "Oxygen"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What property describes the tensile strength of bone?",
+      "options": {
+        "A": "Resistance to stretching",
+        "B": "Resistance to compression",
+        "C": "Flexibility",
+        "D": "Elasticity"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which scientist is credited with defining the wave theory of light?",
+      "options": {
+        "A": "Christiaan Huygens",
+        "B": "Isaac Newton",
+        "C": "Albert Einstein",
+        "D": "James Clerk Maxwell"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What type of chemical bond shares electrons and is strong?",
+      "options": {
+        "A": "Ionic bond",
+        "B": "Hydrogen bond",
+        "C": "Covalent bond",
+        "D": "Van der Waals bond"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Bees must collect nectar from approximately how many flowers to make 1 pound of Honeycomb.",
+      "options": {
+        "A": "20 million",
+        "B": "1 million",
+        "C": "5 million",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which filament gives stability to bones?",
+      "options": {
+        "A": "Elastin",
+        "B": "Collagen",
+        "C": "Keratin",
+        "D": "Actin"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Water moving into the soil is called?",
+      "options": {
+        "A": "Percolation",
+        "B": "Evaporation",
+        "C": "Transpiration",
+        "D": "Infiltration"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The final stage in an ecosystem is called?",
+      "options": {
+        "A": "Climax community",
+        "B": "Pioneer community",
+        "C": "Secondary succession",
+        "D": "Seral stage"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The main purpose of cellular respiration is ________?",
+      "options": {
+        "A": "To remove waste",
+        "B": "To convert glucose into usable energy",
+        "C": "To determine traits",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Poison produced by a plant is called _____?",
+      "options": {
+        "A": "Toxin",
+        "B": "Toxicant",
+        "C": "Venom",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which bond provides energy for cellular activity?",
+      "options": {
+        "A": "Hydrogen bond",
+        "B": "Ionic bond",
+        "C": "Peptide bond",
+        "D": "Phosphate bond"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is a metabolic disease characterized by high blood sugar levels?",
+      "options": {
+        "A": "Hypertension",
+        "B": "Diabetes mellitus",
+        "C": "Tuberculosis",
+        "D": "Asthma"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Noble gases have which type of bonding between them?",
+      "options": {
+        "A": "No chemical bonding",
+        "B": "Covalent",
+        "C": "Ionic",
+        "D": "Metallic"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which particle is emitted during beta decay?",
+      "options": {
+        "A": "Electron",
+        "B": "Proton",
+        "C": "Neutron",
+        "D": "Alpha particle"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Fossil fuels are rich in which elements?",
+      "options": {
+        "A": "Carbon",
+        "B": "Hydrogen",
+        "C": "Both A and b",
+        "D": "Oxygen"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "LPG (Liquefied Petroleum Gas) mainly consists of which compounds?",
+      "options": {
+        "A": "Propane",
+        "B": "Butane",
+        "C": "Methane",
+        "D": "Both A and B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Air mass moves from which pressure region?",
+      "options": {
+        "A": "High pressure to low pressure",
+        "B": "Low pressure to high pressure",
+        "C": "Equal pressure",
+        "D": "Variable pressure"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where does a comet reach its maximum speed?",
+      "options": {
+        "A": "Near the Sun",
+        "B": "Near Earth",
+        "C": "Near Jupiter",
+        "D": "At aphelion"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Solar energy is produced by which process?",
+      "options": {
+        "A": "Fusion",
+        "B": "Fission",
+        "C": "Combustion",
+        "D": "Respiration"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Submandible is located near:",
+      "options": {
+        "A": "Eye",
+        "B": "Ear",
+        "C": "Nose",
+        "D": "Neck"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The bacteria which convert nitrite (NO₂⁻) to nitrate (NO₃⁻) is _____?",
+      "options": {
+        "A": "Rhizobium",
+        "B": "Azotobacter",
+        "C": "Nitrobacter",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A comet moves with maximum speed at?",
+      "options": {
+        "A": "Aphelion",
+        "B": "Perihelion",
+        "C": "Orbit center",
+        "D": "Lagrange point"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The fundamental unit of plant and animal tissue is?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Phosphorus",
+        "C": "Oxygen",
+        "D": "Cell"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The outer layer of the seed coat is called _____?",
+      "options": {
+        "A": "Plumule",
+        "B": "Radicle",
+        "C": "Testa",
+        "D": "Teginen"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Sedimentary rocks are _______?",
+      "options": {
+        "A": "Porous",
+        "B": "Hard",
+        "C": "Rough",
+        "D": "Brittle"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following animal is called the “ship of the desert”?",
+      "options": {
+        "A": "Lion",
+        "B": "Camel",
+        "C": "Horse",
+        "D": "Elephant"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The shortest distance between two points is called?",
+      "options": {
+        "A": "Distance",
+        "B": "Speed",
+        "C": "Displacement",
+        "D": "Velocity"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The unit of frequency is _____?",
+      "options": {
+        "A": "Hertz",
+        "B": "Metre",
+        "C": "Meter Per Second",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the primary/main component of natural gas?",
+      "options": {
+        "A": "Methane",
+        "B": "Propane",
+        "C": "Butane",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Glycolysis is ……..",
+      "options": {
+        "A": "Produced no ATP",
+        "B": "Takes place in Cytoplasm",
+        "C": "Is the same as fermentation",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Glucose is ______?",
+      "options": {
+        "A": "Vitamin",
+        "B": "Protein",
+        "C": "Carbohydrate",
+        "D": "Lipid"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Acid rain contains high levels of _____?",
+      "options": {
+        "A": "Sulphuric Acid",
+        "B": "Nitric Acid",
+        "C": "Oxalic Acid",
+        "D": "Both A and B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following planet has rings around its surface?",
+      "options": {
+        "A": "Earth",
+        "B": "Saturn",
+        "C": "Jupiter",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The additional circular small piece of DNA in bacterial cell is called ____?",
+      "options": {
+        "A": "Plasmids",
+        "B": "Replica",
+        "C": "Template",
+        "D": "Clone"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The state of inactivity in animals during summer or dry season is called _____?",
+      "options": {
+        "A": "Aestivation",
+        "B": "Hibernation",
+        "C": "Pollination",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Double fertilization take place in ______?",
+      "options": {
+        "A": "Bryophytes",
+        "B": "Brassica",
+        "C": "Pineal Body",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "He takes ___ his father.",
+      "options": {
+        "A": "After",
+        "B": "Off",
+        "C": "Up",
+        "D": "Out"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Synonym of the word \"Construe\" is?",
+      "options": {
+        "A": "Close",
+        "B": "Interpret",
+        "C": "Convoluted",
+        "D": "Forgetfulness"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Primary succession starts on dry soil is known as?",
+      "options": {
+        "A": "Xerosere",
+        "B": "Hydrosere",
+        "C": "Derosere",
+        "D": "Sammoser"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Increased concentration of is responsible for causing Global Warming?",
+      "options": {
+        "A": "CH4",
+        "B": "O3",
+        "C": "CO2",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which statement is correct about the glycolysis process?",
+      "options": {
+        "A": "1 ATP is produced and 2 ATP are consumed",
+        "B": "2 ATP are produced and 1 ATP is consumed",
+        "C": "2 ATP are produced and 2 ATP are consumed",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The main constituent of Biogas is ______?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Oxygen",
+        "C": "Methane",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A ball is thrown vertically upwards. The acceleration due to gravity _____?",
+      "options": {
+        "A": "0.7 m/s^2 Vertical",
+        "B": "9.8 m/s^2 Downward",
+        "C": "9.8 m/s^2 Upward",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Members of different species living in specific habitat are called?",
+      "options": {
+        "A": "Community",
+        "B": "Population",
+        "C": "Ecosystem",
+        "D": "Biomes"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which type of bond is formed between H₂O molecules?",
+      "options": {
+        "A": "Hydrogen bond",
+        "B": "Ionic bond",
+        "C": "Covalent bond",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following gas diffuses fastest?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Chlorine",
+        "C": "Fluorine",
+        "D": "Helium"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Fundamental molecule produced during photosynthesis is ______?",
+      "options": {
+        "A": "Glucose",
+        "B": "Amino acid",
+        "C": "Fatty acid",
+        "D": "Nucleotide"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which gas is produced when trees and fossil fuels are burnt?",
+      "options": {
+        "A": "Carbon monoxide",
+        "B": "Carbon dioxide",
+        "C": "Nitrogen oxide",
+        "D": "Oxygen"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the correct order of the levels in a food chain?",
+      "options": {
+        "A": "Producer → Consumer → Decomposer",
+        "B": "Consumer → Producer → Decomposer",
+        "C": "Decomposer → Producer → Consumer",
+        "D": "Consumer → Decomposer → Producer"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which planet in the Solar system has the highest density?",
+      "options": {
+        "A": "Saturn",
+        "B": "Earth",
+        "C": "Jupiter",
+        "D": "Naptune"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What do we mean by the greenhouse effect?",
+      "options": {
+        "A": "Ability of atmosphere to retain water vapor",
+        "B": "Ability of atmospheric gases to trap heat",
+        "C": "Ability to keep the planet relatively warm",
+        "D": "Ability of cloud to scatter electromagnetic radiation"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Greenhouse effect causes",
+      "options": {
+        "A": "Global warming",
+        "B": "Cooling",
+        "C": "Planets to grow better",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The current stage of the star sun is?",
+      "options": {
+        "A": "White dwarf.",
+        "B": "Red giant.",
+        "C": "A yellow dwarf.",
+        "D": "Orange dwarf"
+      },
+      "correct": "C"
+    }
+  ]
+}

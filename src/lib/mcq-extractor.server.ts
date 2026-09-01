@@ -5,6 +5,21 @@ const OPTION_LABELS: MCQOptionLabel[] = ["A", "B", "C", "D", "E"];
 
 const TESTPOINT_MAIN_URL = "https://testpointpk.com/past-papers-mcqs/ppsc-5-years-past-papers-subject-wise-(solved-with-details)";
 
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Referer": "https://testpointpk.com/",
+  "Connection": "keep-alive",
+  "Upgrade-Insecure-Requests": "1",
+  "Sec-Fetch-Dest": "document",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-Site": "same-origin",
+  "Sec-Fetch-User": "?1",
+  "Cache-Control": "max-age=0",
+};
+
 export interface TestpointSubject {
   name: string;
   url: string;
@@ -17,7 +32,7 @@ export interface TestpointYearGroup {
 
 export async function getTestpointSubjects(): Promise<TestpointYearGroup[]> {
   const response = await fetch(TESTPOINT_MAIN_URL, {
-    headers: { "user-agent": "PrepMind MCQ Extractor/1.0" }
+    headers: BROWSER_HEADERS
   });
   if (!response.ok) throw new Error("Failed to fetch Testpoint subjects page");
 
@@ -63,7 +78,7 @@ export async function getTestpointSubjects(): Promise<TestpointYearGroup[]> {
 
 export async function getTestpointPageLimit(url: string): Promise<number> {
   const response = await fetch(url, {
-    headers: { "user-agent": "PrepMind MCQ Extractor/1.0" }
+    headers: BROWSER_HEADERS
   });
   if (!response.ok) return 1;
 
@@ -130,7 +145,7 @@ export async function extractMcqsFromSource(request: MCQExtractionRequest): Prom
   const items: ExtractedMCQ[] = [];
   const urls = buildSourceUrls(baseSourceUrl, request.startPage, request.endPage);
   for (const { url, page } of urls) {
-    const response = await fetch(url, { headers: { "user-agent": "PrepMind MCQ Extractor/1.0" } });
+    const response = await fetch(url, { headers: BROWSER_HEADERS });
     if (!response.ok) {
       throw new Error(`Failed to fetch the source URL (${response.status}).`);
     }

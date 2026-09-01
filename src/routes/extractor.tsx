@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Plus, X } from "lucide-react";
 import { toast } from "sonner";
-import { MCQExtractorForm, TestpointExtractorForm } from "@/components/mcq-extractor/mcq-extractor-form";
+import { TestpointExtractorForm } from "@/components/mcq-extractor/mcq-extractor-form";
 import { MCQResultCard } from "@/components/mcq-extractor/mcq-result-card";
 import { buildTxtExport, extractMCQsFromSource, fetchTestpointSubjects, fetchTestpointPageLimit } from "@/lib/mcq-extractor-service";
-import type { MCQExtractionResult, MCQExtractorFormValues, TestpointExtractorFormValues, TestpointYearGroup } from "@/lib/mcq-extractor-types";
+import type { MCQExtractionResult, TestpointExtractorFormValues, TestpointYearGroup } from "@/lib/mcq-extractor-types";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useApp } from "@/store/app-store";
 
@@ -25,12 +25,6 @@ type ExtractState =
   | { status: "success"; result: MCQExtractionResult; error: null }
   | { status: "error"; result: null; error: string };
 
-const INITIAL_FORM: MCQExtractorFormValues = {
-  sourceUrl: "",
-  startPage: "1",
-  endPage: "3",
-};
-
 const INITIAL_TESTPOINT_FORM: TestpointExtractorFormValues = {
   selectedYear: "",
   selectedSubject: "",
@@ -41,7 +35,6 @@ const INITIAL_TESTPOINT_FORM: TestpointExtractorFormValues = {
 
 function MCQExtractorPage() {
   const { subjects, addSubject, addMCQs } = useApp();
-  const [form, setForm] = useState(INITIAL_FORM);
   const [tpForm, setTpForm] = useState(INITIAL_TESTPOINT_FORM);
   const [yearGroups, setYearGroups] = useState<TestpointYearGroup[]>([]);
   const [state, setState] = useState<ExtractState>({ status: "idle", result: null, error: null });
@@ -104,13 +97,20 @@ function MCQExtractorPage() {
   const handleAddToSubject = () => {
     if (state.status !== "success" || !state.result.items.length || savingSubject) return;
 
+    const extractedName = summary?.name ?? formatSubjectName(new URL(state.result.sourceUrl).host);
+    const parent = subjects.find(s => !s.parentId && normalizeSubjectName(extractedName).includes(normalizeSubjectName(s.name)));
+
+    if (!parent) {
+      toast.error(`No matching subject found for "${extractedName}". Please create it first.`);
+      return;
+    }
+
+    const subtopic = addSubject(extractedName, parent.id);
+
     setSavingSubject(true);
     try {
-      const subjectName = summary?.name ?? formatSubjectName(new URL(state.result.sourceUrl).host);
-      const existing = subjects.find((subject) => normalizeSubjectName(subject.name) === normalizeSubjectName(subjectName));
-      const subject = existing ?? addSubject(subjectName);
       const added = addMCQs(
-        subject.id,
+        subtopic.id,
         state.result.items.map((item) => ({
           question: item.question,
           options: {
@@ -124,7 +124,7 @@ function MCQExtractorPage() {
         })),
       );
 
-      toast.success(added > 0 ? `${added} MCQs added to ${subject.name}` : `No new MCQs were added to ${subject.name}`);
+      toast.success(added > 0 ? `${added} MCQs added to ${subtopic.name}` : `No new MCQs were added to ${subtopic.name}`);
       setResultsOpen(false);
     } finally {
       setSavingSubject(false);
@@ -163,10 +163,6 @@ function MCQExtractorPage() {
     handleExtract(tpForm.selectedSubject, tpForm.startPage, tpForm.endPage);
   };
 
-  const handleManualExtract = () => {
-    handleExtract(form.sourceUrl, Number(form.startPage), Number(form.endPage));
-  };
-
   const handleDownload = () => {
     if (!canDownload) return;
     const blob = new Blob([buildTxtExport(state.result)], { type: "text/plain;charset=utf-8" });
@@ -193,17 +189,6 @@ function MCQExtractorPage() {
         onSubjectChange={handleSubjectChange}
       />
 
-      <div className="relative">
-        <div className="absolute inset-0 flex items-center">
-          <span className="w-full border-t border-border" />
-        </div>
-        <div className="relative flex justify-center text-xs uppercase">
-          <span className="bg-background px-2 text-muted-foreground">Or use manual URL</span>
-        </div>
-      </div>
-
-      <MCQExtractorForm values={form} loading={state.status === "loading"} onChange={setForm} onSubmit={handleManualExtract} />
-
       {state.status === "loading" && <LoadingState />}
 
       {state.status === "error" && (
@@ -215,7 +200,7 @@ function MCQExtractorPage() {
           tone="neutral"
           icon={<FileText className="size-5" />}
           title="No extraction yet"
-          description="Select a year and subject from Testpoint, or enter a manual URL, then click Extract MCQs to preview the results."
+          description="Select a year and subject from Testpoint, then click Extract MCQs to preview the results."
         />
       )}
 
@@ -240,9 +225,6 @@ function MCQExtractorPage() {
                   ) : null}
                 </div>
               </div>
-              <button onClick={() => setResultsOpen(false)} className="p-2 rounded-md hover:bg-accent text-muted-foreground" aria-label="Close">
-                <X className="size-4" />
-              </button>
             </header>
 
             <div className="overflow-y-auto p-5 space-y-4">
@@ -265,9 +247,6 @@ function MCQExtractorPage() {
             </div>
 
             <footer className="p-4 border-t border-border flex items-center justify-end gap-2">
-              <button onClick={() => setResultsOpen(false)} className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm hover:bg-accent">
-                Close
-              </button>
               <button
                 onClick={handleAddToSubject}
                 disabled={!canDownload || savingSubject}

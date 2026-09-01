@@ -1,11 +1,5 @@
 export type MCQOptionLabel = "A" | "B" | "C" | "D" | "E";
 
-export interface MCQExtractorFormValues {
-  sourceUrl: string;
-  startPage: string;
-  endPage: string;
-}
-
 export interface MCQExtractorRequest {
   sourceUrl: string;
   startPage: number;
