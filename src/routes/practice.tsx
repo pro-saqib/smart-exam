@@ -1,11 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { QuizRunner } from "@/components/QuizRunner";
 import { SavedQuizBanner } from "@/components/SavedQuizBanner";
-import { Shuffle, AlertTriangle, RotateCcw, Bookmark } from "lucide-react";
+import { Shuffle, AlertTriangle, RotateCcw, Bookmark, BookOpen, Hash } from "lucide-react";
 
 export const Route = createFileRoute("/practice")({
+  validateSearch: (search: Record<string, unknown>) => ({
+    resume: !!search.resume,
+  }),
   head: () => ({
     meta: [
       { title: "Practice — PrepMind" },
@@ -26,7 +29,8 @@ function PracticePage() {
   const [subtopicId, setSubtopicId] = useState<string>("all");
   const [questionCount, setQuestionCount] = useState<number>(50);
 
-  const [quizStarted, setQuizStarted] = useState(false);
+  const { resume } = Route.useSearch();
+  const [quizStarted, setQuizStarted] = useState(resume === true);
 
   // Main subjects (no parentId)
   const mainSubjects = useMemo(() => subjects.filter((s) => !s.parentId), [subjects]);
@@ -88,21 +92,26 @@ function PracticePage() {
         <p className="text-muted-foreground mt-1">Mix it up — sharpen weak areas or replay wrong answers.</p>
       </div>
 
-      <div className="flex flex-wrap gap-2">
-        <ModeBtn icon={<Shuffle className="size-4" />} active={mode === "random"} disabled={quizStarted} onClick={() => handleModeChange("random")}>Random</ModeBtn>
-        <ModeBtn icon={<AlertTriangle className="size-4" />} active={mode === "weak"} disabled={quizStarted} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
-        <ModeBtn icon={<RotateCcw className="size-4" />} active={mode === "wrong"} disabled={quizStarted} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
-        <ModeBtn icon={<Bookmark className="size-4" />} active={mode === "solve_later"} disabled={quizStarted} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
+      <div className="max-w-xl">
+        {!quizStarted && <SavedQuizBanner />}
       </div>
-
-      {!quizStarted && <SavedQuizBanner />}
 
       {!quizStarted && (
         <div className="rounded-2xl bg-card border border-border p-6 shadow-card max-w-xl">
-          <div className="grid gap-4 md:grid-cols-2">
+          <div className="flex flex-wrap gap-2 mb-4">
+            <ModeBtn icon={<Shuffle className="size-4" />} active={mode === "random"} disabled={quizStarted} onClick={() => handleModeChange("random")}>Random</ModeBtn>
+            <ModeBtn icon={<AlertTriangle className="size-4" />} active={mode === "weak"} disabled={quizStarted} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
+            <ModeBtn icon={<RotateCcw className="size-4" />} active={mode === "wrong"} disabled={quizStarted} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
+            <ModeBtn icon={<Bookmark className="size-4" />} active={mode === "solve_later"} disabled={quizStarted} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
+          </div>
+
+          <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
             {/* Main Subject Selection */}
-            <div className="col-span-2 space-y-1.5 md:col-span-1">
-              <label className="text-sm font-medium text-muted-foreground">Subject</label>
+            <label className="flex flex-col gap-2 p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+              <div className="flex items-center gap-3">
+                <BookOpen className="size-4 text-primary-glow" />
+                <div className="text-sm font-medium">Subject</div>
+              </div>
               <select
                 value={mainSubjectId}
                 onChange={(e) => handleSubjectChange(e.target.value)}
@@ -113,12 +122,15 @@ function PracticePage() {
                   <option key={s.id} value={s.id}>{s.name}</option>
                 ))}
               </select>
-            </div>
+            </label>
 
             {/* Subtopic Selection (only for weak/wrong modes) */}
             {(mode === "weak" || mode === "wrong") && (
-              <div className="col-span-2 space-y-1.5 md:col-span-1">
-                <label className="text-sm font-medium text-muted-foreground">Subtopic (optional)</label>
+              <label className="flex flex-col gap-2 p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+                <div className="flex items-center gap-3">
+                  <BookOpen className="size-4 text-primary-glow" />
+                  <div className="text-sm font-medium">Subtopic</div>
+                </div>
                 <select
                   value={subtopicId}
                   onChange={(e) => setSubtopicId(e.target.value)}
@@ -133,13 +145,16 @@ function PracticePage() {
                     );
                   })}
                 </select>
-              </div>
+              </label>
             )}
 
             {/* Question Count Selection (only for random mode) */}
             {mode === "random" && (
-              <div className="col-span-2 space-y-1.5 md:col-span-1">
-                <label className="text-sm font-medium text-muted-foreground">Questions</label>
+              <div className="p-4 rounded-xl border border-border bg-secondary/40">
+                <div className="flex items-center gap-3 mb-3">
+                  <Hash className="size-4 text-primary-glow" />
+                  <div className="text-sm font-medium">Questions</div>
+                </div>
                 <div className="flex gap-2">
                   {[50, 100].map((count) => (
                     <button
@@ -178,7 +193,7 @@ function PracticePage() {
         onStart={() => setQuizStarted(true)}
         onReset={() => setQuizStarted(false)}
         subjectId={mainSubjectId}
-        savedState={savedQuiz?.subjectId === mainSubjectId ? savedQuiz : null}
+        savedState={resume === true && savedQuiz?.subjectId === mainSubjectId ? savedQuiz : null}
       />
     </div>
   );
@@ -189,8 +204,8 @@ function ModeBtn({ icon, active, disabled, onClick, children }: { icon: React.Re
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`inline-flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium border transition-all ${
-        active ? "gradient-primary text-primary-foreground border-transparent shadow-glow" : "bg-card border-border text-muted-foreground hover:text-foreground"
+      className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium border transition-all ${
+        active ? "gradient-primary text-primary-foreground border-transparent shadow-glow" : "bg-secondary/40 border-border text-muted-foreground hover:text-foreground hover:bg-secondary/60"
       } ${disabled ? "opacity-40 pointer-events-none" : ""}`}
     >
       {icon} {children}

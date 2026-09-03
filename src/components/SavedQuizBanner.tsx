@@ -22,10 +22,11 @@ export function SavedQuizBanner() {
     : null;
 
   const handleResume = () => {
+    // Navigate to the correct route based on the saved quiz
     if (savedQuiz.subjectId && savedQuiz.subjectId !== "all") {
       navigate({ to: "/quiz/$subjectId", params: { subjectId: savedQuiz.subjectId } });
     } else {
-      navigate({ to: "/practice" });
+      navigate({ to: "/practice", search: { resume: true } });
     }
   };
 

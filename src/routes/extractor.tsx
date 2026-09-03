@@ -178,31 +178,35 @@ function MCQExtractorPage() {
 
   return (
     <div className="space-y-6 md:space-y-8">
-      <TestpointExtractorForm
-        values={tpForm}
-        yearGroups={yearGroups}
-        loading={state.status === "loading"}
-        loadingPages={loadingPages}
-        onChange={setTpForm}
-        onSubmit={handleTestpointExtract}
-        onYearChange={handleYearChange}
-        onSubjectChange={handleSubjectChange}
-      />
-
-      {state.status === "loading" && <LoadingState />}
-
-      {state.status === "error" && (
-        <StatePanel tone="error" icon={<AlertTriangle className="size-5" />} title="Extraction failed" description={state.error} />
-      )}
-
-      {state.status === "idle" && (
-        <StatePanel
-          tone="neutral"
-          icon={<FileText className="size-5" />}
-          title="No extraction yet"
-          description="Select a year and subject from Testpoint, then click Extract MCQs to preview the results."
+      <div className="max-w-xl">
+        <TestpointExtractorForm
+          values={tpForm}
+          yearGroups={yearGroups}
+          loading={state.status === "loading"}
+          loadingPages={loadingPages}
+          onChange={setTpForm}
+          onSubmit={handleTestpointExtract}
+          onYearChange={handleYearChange}
+          onSubjectChange={handleSubjectChange}
         />
-      )}
+      </div>
+
+      <div className="max-w-xl">
+        {state.status === "loading" && <LoadingState />}
+
+        {state.status === "error" && (
+          <StatePanel tone="error" icon={<AlertTriangle className="size-5" />} title="Extraction failed" description={state.error} />
+        )}
+
+        {state.status === "idle" && (
+          <StatePanel
+            tone="neutral"
+            icon={<FileText className="size-5" />}
+            title="No extraction yet"
+            description="Select a year and subject from Testpoint, then click Extract MCQs to preview the results."
+          />
+        )}
+      </div>
 
       <Dialog open={resultsOpen && state.status === "success"} onOpenChange={setResultsOpen}>
         {state.status === "success" && (

@@ -161,7 +161,7 @@ export function QuizRunner({
 
   if (!items.length) {
     return (
-      <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
+      <div className="rounded-2xl border border-dashed border-border p-6 md:p-8 text-muted-foreground max-w-xl">
         {emptyText}
       </div>
     );
@@ -190,11 +190,7 @@ export function QuizRunner({
   if (!started) {
     return (
       <div className="rounded-2xl bg-card border border-border p-6 md:p-8 shadow-card max-w-xl">
-        <div className="text-xs text-primary-glow uppercase tracking-wider">{title}</div>
-        <h2 className="mt-1 text-2xl">Ready to practice?</h2>
-        <p className="text-muted-foreground mt-1 text-sm">{activeItems.length} question{activeItems.length === 1 ? "" : "s"} in this set.</p>
-
-        <div className="mt-6 space-y-3">
+        <div className="space-y-3">
           {subtopics.length > 0 && (
             <div className="space-y-1.5">
               <label className="text-sm font-medium text-muted-foreground">Subtopic</label>
@@ -252,7 +248,7 @@ export function QuizRunner({
 
         <button
           onClick={() => begin()}
-          className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
+          className="w-full mt-6 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
         >
           <Play className="size-4" /> Start
         </button>
