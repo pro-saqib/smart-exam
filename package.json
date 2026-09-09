@@ -8,6 +8,8 @@
     "dev": "vite dev",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:worker": "vite build && esbuild dist/server/server.js --bundle --format=esm --platform=node --target=es2022 --outfile=dist/server/worker-bundled.js --alias:react-dom/server=./node_modules/react-dom/server.browser.js --alias:react-dom/server.node=./node_modules/react-dom/server.browser.js --alias:zod=./zod-polyfill.js --alias:node:tty=./empty-mock.js --alias:tty=./empty-mock.js --alias:node:v8=./empty-mock.js --alias:v8=./empty-mock.js --external:cloudflare:*",
+    "deploy:worker": "npm run build:worker && wrangler deploy dist/server/worker-bundled.js --no-bundle --assets=dist/client --name=prepmind --env=\"\"",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
@@ -71,7 +73,7 @@
     "tw-animate-css": "^1.3.4",
     "vaul": "^1.1.2",
     "vite-tsconfig-paths": "^6.0.2",
-    "zod": "^3.24.2",
+    "zod": "^3.25.76",
     "zustand": "^5.0.13"
   },
   "devDependencies": {

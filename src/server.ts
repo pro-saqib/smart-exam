@@ -87,8 +87,11 @@ export default {
       const response = await handler.fetch(request, resolvedEnv, ctx);
       return await normalizeCatastrophicSsrResponse(response);
     } catch (error) {
-      console.error(error);
-      return brandedErrorResponse();
+      console.error("Server fetch error:", error);
+      return new Response(
+        `Server Error: ${error instanceof Error ? error.stack || error.message : String(error)}`,
+        { status: 500, headers: { "content-type": "text/plain" } }
+      );
     }
   },
 };

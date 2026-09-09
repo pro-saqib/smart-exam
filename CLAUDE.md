@@ -105,9 +105,13 @@ bun run dev
 # Run production build
 bun run build
 
+# Deploy to Cloudflare Workers
+npm run deploy:worker
+
 # Generate Drizzle migrations
 bun x drizzle-kit generate
 
-# Run database migrations against local D1
-bun x wrangler d1 migrations apply DB --local
+# Run database migrations against local / remote D1
+bun x wrangler d1 migrations apply prepmind-db --local
+bun x wrangler d1 migrations apply prepmind-db --remote
 ```
