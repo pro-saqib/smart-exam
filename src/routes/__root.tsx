@@ -6,10 +6,29 @@ import {
   useRouter,
   HeadContent,
   Scripts,
+  redirect,
 } from "@tanstack/react-router";
+import { createServerFn } from "@tanstack/react-start";
 import appCss from "../styles.css?url";
 import { AppShell } from "@/components/AppShell";
 import { Toaster } from "@/components/ui/sonner";
+import { getSession } from "@/lib/session";
+import { useApp } from "@/store/app-store";
+import { useEffect } from "react";
+
+const fetchSession = createServerFn({ method: "GET" }).handler(async () => {
+  return await getSession();
+});
+
+type SessionUser = {
+  id: string;
+  name: string;
+  email: string;
+  image?: string | null;
+};
+
+// Routes that don't require auth
+const PUBLIC_ROUTES = ["/login"];
 
 function NotFoundComponent() {
   return (
@@ -71,6 +90,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "stylesheet", href: appCss },
     ],
   }),
+  beforeLoad: async ({ location }) => {
+    const isPublic = PUBLIC_ROUTES.includes(location.pathname);
+    const session = await fetchSession();
+    const user = session?.user as SessionUser | undefined;
+
+    if (!isPublic && !user) {
+      throw redirect({ to: "/login" });
+    }
+
+    return { user: user ?? null };
+  },
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
@@ -90,10 +120,16 @@ function RootShell({ children }: { children: React.ReactNode }) {
 }
 
 function RootComponent() {
-  const { queryClient } = Route.useRouteContext();
+  const { queryClient, user } = Route.useRouteContext();
+  const hydrateFromDb = useApp((s) => s.hydrateFromDb);
+
+  useEffect(() => {
+    if (user) hydrateFromDb();
+  }, [user?.id]);
+
   return (
     <QueryClientProvider client={queryClient}>
-      <AppShell>
+      <AppShell user={user}>
         <Outlet />
       </AppShell>
       <Toaster />

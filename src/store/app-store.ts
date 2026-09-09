@@ -1,6 +1,18 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { MCQ, Subject, AttemptLog } from "@/lib/types";
+import {
+  dbAddSubject,
+  dbRenameSubject,
+  dbDeleteSubject,
+  dbAddMCQs,
+  dbToggleSolveLater,
+  dbDeleteMCQ,
+  dbRecordAttempt,
+  dbClearAttempts,
+  loadUserData,
+  bootstrapUser,
+} from "@/lib/db-actions";
 
 export interface SavedQuiz {
   mode: string;
@@ -23,15 +35,15 @@ interface State {
   mcqs: MCQ[];
   attempts: AttemptLog[];
   savedQuiz: SavedQuiz | null;
-  addSubject: (name: string, parentId?: string) => Subject;
-  renameSubject: (id: string, name: string) => void;
-  deleteSubject: (id: string) => void;
-  addMCQs: (subjectId: string, items: Omit<MCQ, "id" | "subjectId" | "attemptCount" | "wrongCount" | "solveLater" | "createdAt">[]) => number;
-  toggleSolveLater: (id: string) => void;
-  recordAttempt: (mcqId: string, selected: "A" | "B" | "C" | "D" | "E") => boolean;
-  deleteMCQ: (id: string) => void;
-  clearAttempts: () => void;
-  deleteAllSubtopics: () => void;
+  hydrateFromDb: () => Promise<void>;
+  addSubject: (name: string, parentId?: string) => Promise<Subject>;
+  renameSubject: (id: string, name: string) => Promise<void>;
+  deleteSubject: (id: string) => Promise<void>;
+  addMCQs: (subjectId: string, items: Omit<MCQ, "id" | "subjectId" | "attemptCount" | "wrongCount" | "solveLater" | "createdAt">[]) => Promise<number>;
+  toggleSolveLater: (id: string) => Promise<void>;
+  recordAttempt: (mcqId: string, selected: "A" | "B" | "C" | "D" | "E") => Promise<boolean>;
+  deleteMCQ: (id: string) => Promise<void>;
+  clearAttempts: () => Promise<void>;
   saveQuiz: (quiz: SavedQuiz) => void;
   clearSavedQuiz: () => void;
 }
@@ -54,25 +66,67 @@ export const useApp = create<State>()(
       mcqs: [],
       attempts: [],
       savedQuiz: null,
-      addSubject: (name, parentId) => {
+
+      hydrateFromDb: async () => {
+        try {
+          await bootstrapUser();
+          const data = await loadUserData();
+          const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
+          const dbSubjects = data.subjects.filter((s) => !initialIds.has(s.id));
+          set({
+            subjects: [...INITIAL_SUBJECTS, ...dbSubjects],
+            mcqs: data.mcqs,
+            attempts: data.attempts,
+          });
+        } catch (err) {
+          console.error("Failed to hydrate from DB:", err);
+        }
+      },
+
+      addSubject: async (name, parentId) => {
         const s: Subject = { id: uid(), name: name.trim(), parentId, createdAt: Date.now() };
         set((st) => ({ subjects: [...st.subjects, s] }));
+        try {
+          await dbAddSubject({ data: { id: s.id, name: s.name, parentId } });
+        } catch (err) {
+          set((st) => ({ subjects: st.subjects.filter((x) => x.id !== s.id) }));
+          throw err;
+        }
         return s;
       },
-      renameSubject: (id, name) =>
-        set((st) => ({ subjects: st.subjects.map((s) => (s.id === id ? { ...s, name: name.trim() } : s)) })),
-      deleteSubject: (id) =>
-        set((st) => {
-          const childrenIds = st.subjects.filter((s) => s.parentId === id).map((s) => s.id);
-          const idsToDelete = new Set([id, ...childrenIds]);
-          return {
-            subjects: st.subjects.filter((s) => !idsToDelete.has(s.id)),
-            mcqs: st.mcqs.filter((m) => !idsToDelete.has(m.subjectId)),
-            attempts: st.attempts.filter((a) => !idsToDelete.has(a.subjectId)),
-          };
-        }),
-      addMCQs: (subjectId, items) => {
-        const existing = new Set(get().mcqs.filter((m) => m.subjectId === subjectId).map((m) => normalize(m.question)));
+
+      renameSubject: async (id, name) => {
+        const prev = get().subjects;
+        set((st) => ({ subjects: st.subjects.map((s) => (s.id === id ? { ...s, name: name.trim() } : s)) }));
+        try {
+          await dbRenameSubject({ data: { id, name } });
+        } catch (err) {
+          set({ subjects: prev });
+          throw err;
+        }
+      },
+
+      deleteSubject: async (id) => {
+        const prev = { subjects: get().subjects, mcqs: get().mcqs, attempts: get().attempts };
+        const childrenIds = get().subjects.filter((s) => s.parentId === id).map((s) => s.id);
+        const idsToDelete = new Set([id, ...childrenIds]);
+        set((st) => ({
+          subjects: st.subjects.filter((s) => !idsToDelete.has(s.id)),
+          mcqs: st.mcqs.filter((m) => !idsToDelete.has(m.subjectId)),
+          attempts: st.attempts.filter((a) => !idsToDelete.has(a.subjectId)),
+        }));
+        try {
+          await dbDeleteSubject({ data: { id } });
+        } catch (err) {
+          set(prev);
+          throw err;
+        }
+      },
+
+      addMCQs: async (subjectId, items) => {
+        const existing = new Set(
+          get().mcqs.filter((m) => m.subjectId === subjectId).map((m) => normalize(m.question))
+        );
         const fresh: MCQ[] = [];
         for (const it of items) {
           const key = normalize(it.question);
@@ -88,69 +142,122 @@ export const useApp = create<State>()(
             ...it,
           });
         }
-        if (fresh.length) set((st) => ({ mcqs: [...st.mcqs, ...fresh] }));
+        if (!fresh.length) return 0;
+
+        set((st) => ({ mcqs: [...st.mcqs, ...fresh] }));
+        try {
+          await dbAddMCQs({
+            data: {
+              subjectId,
+              items: fresh.map((m) => ({
+                id: m.id,
+                question: m.question,
+                options: m.options,
+                correct: m.correct,
+                explanation: m.explanation,
+              })),
+            },
+          });
+        } catch (err) {
+          const freshIds = new Set(fresh.map((m) => m.id));
+          set((st) => ({ mcqs: st.mcqs.filter((m) => !freshIds.has(m.id)) }));
+          throw err;
+        }
         return fresh.length;
       },
-      toggleSolveLater: (id) =>
-        set((st) => ({ mcqs: st.mcqs.map((m) => (m.id === id ? { ...m, solveLater: !m.solveLater } : m)) })),
-      recordAttempt: (mcqId, selected) => {
+
+      toggleSolveLater: async (id) => {
+        const prev = get().mcqs;
+        const m = prev.find((x) => x.id === id);
+        if (!m) return;
+        const newVal = !m.solveLater;
+        set((st) => ({ mcqs: st.mcqs.map((x) => (x.id === id ? { ...x, solveLater: newVal } : x)) }));
+        try {
+          await dbToggleSolveLater({ data: { id, value: newVal } });
+        } catch (err) {
+          set({ mcqs: prev });
+          throw err;
+        }
+      },
+
+      recordAttempt: async (mcqId, selected) => {
         const m = get().mcqs.find((x) => x.id === mcqId);
         if (!m) return false;
         const correct = m.correct === selected;
+        const newAttemptCount = m.attemptCount + 1;
+        const newWrongCount = m.wrongCount + (correct ? 0 : 1);
+        const log: AttemptLog = {
+          id: uid(),
+          mcqId,
+          subjectId: m.subjectId,
+          selected,
+          correct,
+          at: Date.now(),
+        };
         set((st) => ({
           mcqs: st.mcqs.map((x) =>
             x.id === mcqId
-              ? { ...x, attemptCount: x.attemptCount + 1, wrongCount: x.wrongCount + (correct ? 0 : 1), lastAttemptCorrect: correct }
+              ? { ...x, attemptCount: newAttemptCount, wrongCount: newWrongCount, lastAttemptCorrect: correct }
               : x,
           ),
-          attempts: [
-            ...st.attempts,
-            { id: uid(), mcqId, subjectId: m.subjectId, selected, correct, at: Date.now() },
-          ],
+          attempts: [...st.attempts, log],
         }));
+        try {
+          await dbRecordAttempt({
+            data: {
+              id: log.id,
+              mcqId,
+              subjectId: m.subjectId,
+              selected,
+              correct,
+              at: log.at,
+              attemptCount: newAttemptCount,
+              wrongCount: newWrongCount,
+              lastAttemptCorrect: correct,
+            },
+          });
+        } catch (err) {
+          console.error("Failed to persist attempt:", err);
+          // Don't rollback — quiz UX would be jarring
+        }
         return correct;
       },
-      deleteMCQ: (id) =>
-        set((st) => ({ mcqs: st.mcqs.filter((m) => m.id !== id), attempts: st.attempts.filter((a) => a.mcqId !== id) })),
-      clearAttempts: () => set({ attempts: [] }),
-      deleteAllSubtopics: () =>
-        set((st) => {
-          const mainSubjectIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
-          const subtopicIds = st.subjects.filter((s) => !mainSubjectIds.has(s.id)).map((s) => s.id);
-          const subtopicSet = new Set(subtopicIds);
-          return {
-            subjects: st.subjects.filter((s) => mainSubjectIds.has(s.id)),
-            mcqs: st.mcqs.filter((m) => !subtopicSet.has(m.subjectId)),
-            attempts: st.attempts.filter((a) => !subtopicSet.has(a.subjectId)),
-          };
-        }),
+
+      deleteMCQ: async (id) => {
+        const prev = { mcqs: get().mcqs, attempts: get().attempts };
+        set((st) => ({
+          mcqs: st.mcqs.filter((m) => m.id !== id),
+          attempts: st.attempts.filter((a) => a.mcqId !== id),
+        }));
+        try {
+          await dbDeleteMCQ({ data: { id } });
+        } catch (err) {
+          set(prev);
+          throw err;
+        }
+      },
+
+      clearAttempts: async () => {
+        const prev = { mcqs: get().mcqs, attempts: get().attempts };
+        set((st) => ({
+          attempts: [],
+          mcqs: st.mcqs.map((m) => ({ ...m, attemptCount: 0, wrongCount: 0, lastAttemptCorrect: undefined })),
+        }));
+        try {
+          await dbClearAttempts();
+        } catch (err) {
+          set(prev);
+          throw err;
+        }
+      },
+
       saveQuiz: (quiz) => set({ savedQuiz: quiz }),
       clearSavedQuiz: () => set({ savedQuiz: null }),
     }),
     {
       name: "mcq-prep-v1",
-      merge: (persistedState: any, currentState: State) => {
-        const persistedSubjects = (persistedState?.subjects as Subject[]) || [];
-
-        // 1. Start with the initial subjects
-        const subjects = [...INITIAL_SUBJECTS];
-
-        // 2. Add non-initial persisted subjects
-        persistedSubjects.forEach(ps => {
-          if (!INITIAL_SUBJECTS.some(is => is.id === ps.id)) {
-            // Check if already in our array to avoid duplicates if persisting was weird
-            if (!subjects.some(s => s.id === ps.id)) {
-              subjects.push(ps);
-            }
-          }
-        });
-
-        return {
-          ...currentState,
-          ...persistedState,
-          subjects
-        };
-      }
+      // Only persist savedQuiz locally — everything else comes from D1
+      partialize: (state) => ({ savedQuiz: state.savedQuiz }),
     },
   ),
 );

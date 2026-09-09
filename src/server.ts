@@ -2,6 +2,8 @@ import "./lib/error-capture";
 
 import { consumeLastCapturedError } from "./lib/error-capture";
 import { renderErrorPage } from "./lib/error-page";
+import { createAuth } from "./lib/auth";
+import { getEnv, setCachedEnv } from "./lib/env";
 
 type ServerEntry = {
   fetch: (request: Request, env: unknown, ctx: unknown) => Promise<Response> | Response;
@@ -69,8 +71,20 @@ async function normalizeCatastrophicSsrResponse(response: Response): Promise<Res
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
     try {
+      const resolvedEnv = await getEnv(env);
+      if (env) {
+        setCachedEnv(resolvedEnv);
+      }
+
+      // Intercept all better-auth routes before TanStack Start handles them
+      const url = new URL(request.url);
+      if (url.pathname.startsWith("/api/auth")) {
+        const auth = createAuth(resolvedEnv);
+        return auth.handler(request);
+      }
+
       const handler = await getServerEntry();
-      const response = await handler.fetch(request, env, ctx);
+      const response = await handler.fetch(request, resolvedEnv, ctx);
       return await normalizeCatastrophicSsrResponse(response);
     } catch (error) {
       console.error(error);

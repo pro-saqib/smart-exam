@@ -307,11 +307,11 @@ export function QuizRunner({
     );
   }
 
-  const submit = (letter: "A" | "B" | "C" | "D" | "E") => {
+  const submit = async (letter: "A" | "B" | "C" | "D" | "E") => {
     if (picked) return;
     setPicked(letter);
     if (current.correct) {
-      const ok = recordAttempt(current.id, letter);
+      const ok = await recordAttempt(current.id, letter);
       setScore((s) => ({ correct: s.correct + (ok ? 1 : 0), wrong: s.wrong + (ok ? 0 : 1) }));
       if (!ok) setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
     }
@@ -362,7 +362,7 @@ export function QuizRunner({
           <span className="text-success">✓ {score.correct}</span>
           <span className="text-destructive">✗ {score.wrong}</span>
           <button
-            onClick={() => { toggleSolveLater(current.id); toast.success(current.solveLater ? "Removed bookmark" : "Saved for later"); }}
+            onClick={async () => { await toggleSolveLater(current.id); toast.success(current.solveLater ? "Removed bookmark" : "Saved for later"); }}
             className="p-2 rounded-lg hover:bg-accent"
           >
             {current.solveLater ? <BookmarkCheck className="size-5 text-primary-glow" /> : <Bookmark className="size-5" />}

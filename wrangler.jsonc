@@ -1,7 +1,30 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "tanstack-start-app",
+  "name": "prepmind",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
   "main": "src/server.ts",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "prepmind-db",
+      "database_id": "9bbc209b-ca30-4ff4-82c4-1d619eec3df2"
+    }
+  ],
+  "vars": {
+    "BETTER_AUTH_URL": "http://localhost:8080",
+    "BETTER_AUTH_SECRET": "",
+    "GOOGLE_CLIENT_ID": "",
+    "GOOGLE_CLIENT_SECRET": ""
+  },
+  "env": {
+    "production": {
+      "vars": {
+        "BETTER_AUTH_URL": "https://your-production-domain.com",
+        "BETTER_AUTH_SECRET": "{{PRODUCTION_BETTER_AUTH_SECRET}}",
+        "GOOGLE_CLIENT_ID": "{{PRODUCTION_GOOGLE_CLIENT_ID}}",
+        "GOOGLE_CLIENT_SECRET": "{{PRODUCTION_GOOGLE_CLIENT_SECRET}}"
+      }
+    }
+  }
 }

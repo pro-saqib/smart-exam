@@ -1,9 +1,7 @@
-import { createFileRoute, Link, Outlet, useMatchRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Outlet, useMatchRoute, useNavigate } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
-import { useMemo, useRef, useState } from "react";
-import {  Loader2, Check, X, AlertTriangle, CheckCircle2, FileWarning, Download, Trash2 } from "lucide-react";
+import { useMemo } from "react";
 import { toast } from "sonner";
-import { fetchAllPapers } from "@/lib/mcq-extractor-service";
 
 export const Route = createFileRoute("/subjects")({
   head: () => ({
@@ -27,79 +25,9 @@ function SubjectsPage() {
 }
 
 function SubjectsList() {
-  const { subjects, mcqs, attempts, addSubject, addMCQs, deleteAllSubtopics } = useApp();
+  const { subjects, mcqs, attempts } = useApp();
 
   const navigate = useNavigate();
-  const [busyId, setBusyId] = useState<string | null>(null);
-  const [importing, setImporting] = useState(false);
-  const fileRefs = useRef<Record<string, HTMLInputElement | null>>({});
-  // Commented out TXT preview logic as it's currently disabled in this file
-  // const [preview, setPreview] = useState<{
-  //   subjectId: string;
-  //   fileName: string;
-  //   result: any;
-  // } | null>(null);
-
-  const handleImportLocalMCQs = async () => {
-    if (importing) return;
-    if (confirm("This will delete all existing subtopics and re-import from local files. Are you sure?")) {
-      setImporting(true);
-      toast.info("Clearing subtopics and re-importing...");
-
-      try {
-        deleteAllSubtopics();
-        const localPapers = await fetchAllPapers();
-        let totalImported = 0;
-        const { subjects: currentSubjects } = useApp.getState();
-
-        const subjectKeywords: { [key: string]: string } = {
-          "english": "English", "urdu": "Urdu", "islamic": "Islamic Studies",
-          "pakistan": "Pakistan Studies", "current affairs": "Current Affairs",
-          "everyday science": "Everyday Science", "basic mathematics": "Basic Mathematics",
-          "computer": "Computer Science", "geography": "Geography", "general knowledge": "General Knowledge",
-        };
-
-        for (const paper of localPapers) {
-          let mainSubjectName = "General Knowledge";
-          const lowerName = paper.name.toLowerCase();
-          for (const keyword in subjectKeywords) {
-            if (lowerName.includes(keyword)) {
-              mainSubjectName = subjectKeywords[keyword];
-              break;
-            }
-          }
-
-          const yearMatch = paper.name.match(/\b(20\d{2})\b/);
-          const year = yearMatch ? yearMatch[1] : "Unknown";
-
-          const parent = currentSubjects.find(s => s.name === mainSubjectName && !s.parentId);
-          if (!parent) continue;
-
-          for (let i = 0; i < paper.mcqs.length; i += 100) {
-            const batch = paper.mcqs.slice(i, i + 100);
-            const batchNum = Math.floor(i / 100) + 1;
-            const subtopicName = `${mainSubjectName} ${year} (Part ${batchNum})`;
-
-            const subtopic = addSubject(subtopicName, parent.id);
-            const added = addMCQs(subtopic.id, batch.map(m => ({
-              question: m.question,
-              options: m.options,
-              correct: m.correct as "A" | "B" | "C" | "D" | "E"
-            })));
-
-            totalImported += added;
-          }
-        }
-
-        toast.success(`Imported ${totalImported} MCQs successfully!`);
-      } catch (error) {
-        console.error("Import failed:", error);
-        toast.error("Failed to re-import MCQs");
-      } finally {
-        setImporting(false);
-      }
-    }
-  };
 
   const parents = useMemo(() => subjects.filter((s) => !s.parentId), [subjects]);
   const childrenByParent = useMemo(() => {
@@ -210,20 +138,9 @@ function SubjectsList() {
 
   return (
     <div className="space-y-8">
-      <header className="flex items-center justify-between">
-        <div>
-          <h1 className="text-3xl">Subjects</h1>
-          <p className="text-muted-foreground mt-1">Core subjects dashboard.</p>
-        </div>
-        <button
-          onClick={handleImportLocalMCQs}
-          disabled={importing}
-          data-testid="import-local-mcqs"
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 disabled:opacity-50"
-        >
-          {importing ? <Loader2 className="size-4 animate-spin" /> : <Download className="size-4" />}
-          Import Local MCQs
-        </button>
+      <header>
+        <h1 className="text-3xl">Subjects</h1>
+        <p className="text-muted-foreground mt-1">Core subjects dashboard.</p>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">

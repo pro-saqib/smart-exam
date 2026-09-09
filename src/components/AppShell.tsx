@@ -1,7 +1,9 @@
-import { Link, useLocation } from "@tanstack/react-router";
-import { LayoutDashboard, BookOpen, Bookmark, Brain, Sparkles, PanelLeft, ScanSearch } from "lucide-react";
+import { Link, useLocation, useRouter } from "@tanstack/react-router";
+import { LayoutDashboard, BookOpen, Bookmark, Brain, Sparkles, PanelLeft, ScanSearch, LogOut } from "lucide-react";
 import { useApp } from "@/store/app-store";
 import { useEffect, useState } from "react";
+import { signOut } from "@/lib/auth-client";
+import { toast } from "sonner";
 
 const NAV = [
   { to: "/", label: "Dashboard", icon: LayoutDashboard },
@@ -10,8 +12,11 @@ const NAV = [
   { to: "/practice", label: "Practice", icon: Brain },
 ];
 
-export function AppShell({ children }: { children: React.ReactNode }) {
+type User = { id: string; name: string; email: string; image?: string | null };
+
+export function AppShell({ children, user }: { children: React.ReactNode; user: User | null }) {
   const loc = useLocation();
+  const router = useRouter();
   const [hidden, setHidden] = useState<boolean>(() => {
     try {
       return localStorage.getItem("sidebar_hidden") === "1";
@@ -19,12 +24,28 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       return false;
     }
   });
+  const [signingOut, setSigningOut] = useState(false);
 
   useEffect(() => {
     try {
       localStorage.setItem("sidebar_hidden", hidden ? "1" : "0");
     } catch {}
   }, [hidden]);
+
+  const handleSignOut = async () => {
+    setSigningOut(true);
+    try {
+      await signOut();
+      router.navigate({ to: "/login" });
+    } catch {
+      toast.error("Sign out failed");
+      setSigningOut(false);
+    }
+  };
+
+  if (loc.pathname === "/login") {
+    return <>{children}</>;
+  }
 
   return (
     <div className="min-h-screen flex">
@@ -59,12 +80,34 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             );
           })}
         </nav>
-        <div className="p-4">
-          <div className="rounded-xl glass p-4">
-            <div className="text-xs text-muted-foreground">Local-first</div>
-            <div className="text-sm mt-1">Your data stays on this device.</div>
+
+        {/* User section */}
+        {user && (
+          <div className="px-4 py-3 border-t border-sidebar-border">
+            <div className="flex items-center gap-3">
+              {user.image ? (
+                <img src={user.image} alt={user.name} className="size-8 rounded-full object-cover" />
+              ) : (
+                <div className="size-8 rounded-full gradient-primary grid place-items-center text-xs font-semibold text-primary-foreground">
+                  {user.name.charAt(0).toUpperCase()}
+                </div>
+              )}
+              <div className="flex-1 min-w-0">
+                <div className="text-sm font-medium truncate">{user.name}</div>
+                <div className="text-xs text-muted-foreground truncate">{user.email}</div>
+              </div>
+              <button
+                onClick={handleSignOut}
+                disabled={signingOut}
+                title="Sign out"
+                className="p-1.5 rounded-md text-muted-foreground hover:text-foreground hover:bg-sidebar-accent/50 transition-colors disabled:opacity-50"
+              >
+                <LogOut className="size-4" />
+              </button>
+            </div>
           </div>
-        </div>
+        )}
+
         <div className="px-4 py-3">
           <button
             onClick={() => setHidden(true)}
@@ -94,7 +137,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <div className="size-8 rounded-lg gradient-primary grid place-items-center">
           <Sparkles className="size-4 text-primary-foreground" />
         </div>
-        <div className="font-display font-semibold">PrepMind</div>
+        <div className="font-display font-semibold flex-1">PrepMind</div>
+        {user && (
+          <button onClick={handleSignOut} disabled={signingOut} className="p-1.5 rounded-md text-muted-foreground hover:text-foreground disabled:opacity-50">
+            <LogOut className="size-4" />
+          </button>
+        )}
       </div>
 
       <main className="flex-1 min-w-0 pt-14 md:pt-0 pb-24 md:pb-0">

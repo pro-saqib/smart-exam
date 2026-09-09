@@ -59,11 +59,11 @@ function SubjectDetailPage() {
     }
   };
 
-  const deleteSelected = () => {
+  const deleteSelected = async () => {
     const count = selectedIds.size;
     if (count === 0) return;
     const ids = Array.from(selectedIds);
-    for (const id of ids) deleteSubject(id);
+    for (const id of ids) await deleteSubject(id);
     setSelectedIds(new Set());
     toast.success(`${count} subtopic(s) deleted`);
   };
@@ -159,15 +159,15 @@ function SubjectDetailPage() {
                     <input
                       value={editName}
                       onChange={(e) => setEditName(e.target.value)}
-                      onKeyDown={(e) => {
-                        if (e.key === "Enter") { renameSubject(child.id, editName); setEditingId(null); toast.success("Renamed"); }
+                      onKeyDown={async (e) => {
+                        if (e.key === "Enter") { await renameSubject(child.id, editName); setEditingId(null); toast.success("Renamed"); }
                         if (e.key === "Escape") setEditingId(null);
                       }}
                       className="flex-1 rounded-md bg-input/60 border border-border px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                       autoFocus
                     />
                     <button
-                      onClick={() => { renameSubject(child.id, editName); setEditingId(null); toast.success("Renamed"); }}
+                      onClick={async () => { await renameSubject(child.id, editName); setEditingId(null); toast.success("Renamed"); }}
                       className="p-1.5 rounded-md bg-success/20 text-success hover:bg-success/30"
                     ><Check className="size-4" /></button>
                     <button onClick={() => setEditingId(null)} className="p-1.5 rounded-md bg-muted hover:bg-accent">
@@ -209,8 +209,8 @@ function SubjectDetailPage() {
                           title="Rename"
                         ><Pencil className="size-4" /></button>
                         <button
-                          onClick={() => {
-                            deleteSubject(child.id);
+                          onClick={async () => {
+                            await deleteSubject(child.id);
                             toast.success("Deleted");
                           }}
                           className="p-2 rounded-lg text-destructive hover:bg-destructive/10"

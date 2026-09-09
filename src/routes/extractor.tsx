@@ -94,7 +94,7 @@ function MCQExtractorPage() {
     };
   }, [state]);
 
-  const handleAddToSubject = () => {
+  const handleAddToSubject = async () => {
     if (state.status !== "success" || !state.result.items.length || savingSubject) return;
 
     const extractedName = summary?.name ?? formatSubjectName(new URL(state.result.sourceUrl).host);
@@ -105,26 +105,43 @@ function MCQExtractorPage() {
       return;
     }
 
-    const subtopic = addSubject(extractedName, parent.id);
+    const allItems = state.result.items.map((item) => ({
+      question: item.question,
+      options: {
+        A: item.options.find((option) => option.label === "A")?.text ?? "",
+        B: item.options.find((option) => option.label === "B")?.text ?? "",
+        C: item.options.find((option) => option.label === "C")?.text ?? "",
+        D: item.options.find((option) => option.label === "D")?.text ?? "",
+        E: item.options.find((option) => option.label === "E")?.text,
+      },
+      correct: item.correctLabel,
+    }));
 
     setSavingSubject(true);
     try {
-      const added = addMCQs(
-        subtopic.id,
-        state.result.items.map((item) => ({
-          question: item.question,
-          options: {
-            A: item.options.find((option) => option.label === "A")?.text ?? "",
-            B: item.options.find((option) => option.label === "B")?.text ?? "",
-            C: item.options.find((option) => option.label === "C")?.text ?? "",
-            D: item.options.find((option) => option.label === "D")?.text ?? "",
-            E: item.options.find((option) => option.label === "E")?.text,
-          },
-          correct: item.correctLabel,
-        })),
-      );
+      const BATCH = 100;
+      const needsBatching = allItems.length > BATCH;
+      let totalAdded = 0;
 
-      toast.success(added > 0 ? `${added} MCQs added to ${subtopic.name}` : `No new MCQs were added to ${subtopic.name}`);
+      if (needsBatching) {
+        for (let i = 0; i < allItems.length; i += BATCH) {
+          const batch = allItems.slice(i, i + BATCH);
+          const partNum = Math.floor(i / BATCH) + 1;
+          const subtopic = await addSubject(`${extractedName} (Part ${partNum})`, parent.id);
+          totalAdded += await addMCQs(subtopic.id, batch);
+        }
+        const parts = Math.ceil(allItems.length / BATCH);
+        toast.success(totalAdded > 0
+          ? `${totalAdded} MCQs added across ${parts} subtopics`
+          : `No new MCQs were added`);
+      } else {
+        const subtopic = await addSubject(extractedName, parent.id);
+        totalAdded = await addMCQs(subtopic.id, allItems);
+        toast.success(totalAdded > 0
+          ? `${totalAdded} MCQs added to ${subtopic.name}`
+          : `No new MCQs were added to ${subtopic.name}`);
+      }
+
       setResultsOpen(false);
     } finally {
       setSavingSubject(false);

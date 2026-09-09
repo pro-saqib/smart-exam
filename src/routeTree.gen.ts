@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as SubjectsRouteImport } from './routes/subjects'
 import { Route as SolveLaterRouteImport } from './routes/solve-later'
 import { Route as PracticeRouteImport } from './routes/practice'
+import { Route as LoginRouteImport } from './routes/login'
 import { Route as ExtractorRouteImport } from './routes/extractor'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SubjectsSubjectIdRouteImport } from './routes/subjects.$subjectId'
@@ -30,6 +31,11 @@ const SolveLaterRoute = SolveLaterRouteImport.update({
 const PracticeRoute = PracticeRouteImport.update({
   id: '/practice',
   path: '/practice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LoginRoute = LoginRouteImport.update({
+  id: '/login',
+  path: '/login',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ExtractorRoute = ExtractorRouteImport.update({
@@ -56,6 +62,7 @@ const QuizSubjectIdRoute = QuizSubjectIdRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/extractor': typeof ExtractorRoute
+  '/login': typeof LoginRoute
   '/practice': typeof PracticeRoute
   '/solve-later': typeof SolveLaterRoute
   '/subjects': typeof SubjectsRouteWithChildren
@@ -65,6 +72,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/extractor': typeof ExtractorRoute
+  '/login': typeof LoginRoute
   '/practice': typeof PracticeRoute
   '/solve-later': typeof SolveLaterRoute
   '/subjects': typeof SubjectsRouteWithChildren
@@ -75,6 +83,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/extractor': typeof ExtractorRoute
+  '/login': typeof LoginRoute
   '/practice': typeof PracticeRoute
   '/solve-later': typeof SolveLaterRoute
   '/subjects': typeof SubjectsRouteWithChildren
@@ -86,6 +95,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/extractor'
+    | '/login'
     | '/practice'
     | '/solve-later'
     | '/subjects'
@@ -95,6 +105,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/extractor'
+    | '/login'
     | '/practice'
     | '/solve-later'
     | '/subjects'
@@ -104,6 +115,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/extractor'
+    | '/login'
     | '/practice'
     | '/solve-later'
     | '/subjects'
@@ -114,6 +126,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ExtractorRoute: typeof ExtractorRoute
+  LoginRoute: typeof LoginRoute
   PracticeRoute: typeof PracticeRoute
   SolveLaterRoute: typeof SolveLaterRoute
   SubjectsRoute: typeof SubjectsRouteWithChildren
@@ -141,6 +154,13 @@ declare module '@tanstack/react-router' {
       path: '/practice'
       fullPath: '/practice'
       preLoaderRoute: typeof PracticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/extractor': {
@@ -189,6 +209,7 @@ const SubjectsRouteWithChildren = SubjectsRoute._addFileChildren(
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ExtractorRoute: ExtractorRoute,
+  LoginRoute: LoginRoute,
   PracticeRoute: PracticeRoute,
   SolveLaterRoute: SolveLaterRoute,
   SubjectsRoute: SubjectsRouteWithChildren,
