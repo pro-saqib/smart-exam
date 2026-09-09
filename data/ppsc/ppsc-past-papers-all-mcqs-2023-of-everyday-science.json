@@ -2,6 +2,26 @@
   "name": "PPSC Past Papers all MCQs 2023 of Everyday Science",
   "mcqs": [
     {
+      "question": "Who discover Penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Edward Jenner",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who invented Telephone?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Nikola Tesla",
+        "C": "Alexander Graham Bell",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
       "question": "Ophthalmology is the study of ____?",
       "options": {
         "A": "Nerves",
@@ -50,26 +70,6 @@
         "D": "None of the above"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who invented Telephone?",
-      "options": {
-        "A": "Thomas Edison",
-        "B": "Nikola Tesla",
-        "C": "Alexander Graham Bell",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who discover Penicillin?",
-      "options": {
-        "A": "Alexander Fleming",
-        "B": "Louis Pasteur",
-        "C": "Edward Jenner",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "Solar plate consist of which type of cell?",
@@ -788,6 +788,156 @@
         "B": "Night blindness",
         "C": "Thought infection",
         "D": "Both A and B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Study of Bacteria in Biology is called",
+      "options": {
+        "A": "Micro Biology",
+        "B": "Dermatology",
+        "C": "Hematology",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Multi-meter is an instrument that can be used to measure:",
+      "options": {
+        "A": "potenrial difference",
+        "B": "current",
+        "C": "resistant",
+        "D": "all"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A matter can exist in which of the following forms _____-",
+      "options": {
+        "A": "liquid",
+        "B": "solid",
+        "C": "gas",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Cyclones in Australia are known as:",
+      "options": {
+        "A": "Typhoon",
+        "B": "Hurricane",
+        "C": "Willi Willies",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following in the eye is similar to film in camera?",
+      "options": {
+        "A": "Lens",
+        "B": "Retina",
+        "C": "Iris",
+        "D": "Choroid"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When an organism is eradicated from the earth it is known as a?",
+      "options": {
+        "A": "Extinct",
+        "B": "Eradication",
+        "C": "Vulnerable",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The muscles, tissues, and blood all are made up of____________?",
+      "options": {
+        "A": "Proteins",
+        "B": "Carbohydrate",
+        "C": "Vitamins",
+        "D": "Fats"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is used for making electrodes in Dry battery----?",
+      "options": {
+        "A": "Graphite",
+        "B": "zinc",
+        "C": "both",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Photosynthesis takes place in presence of the following light?",
+      "options": {
+        "A": "Only in green light from sun",
+        "B": "Only in sunlight from the sun",
+        "C": "Only in high intensity of light from the sun",
+        "D": "In visible light obtained from any source"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Kidney stones is caused due to",
+      "options": {
+        "A": "sulpher dioxide",
+        "B": "Calcium dioxide",
+        "C": "Aluminum dioxide",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Non flowering plants are also called plant_________?",
+      "options": {
+        "A": "Green",
+        "B": "Abortic",
+        "C": "gymnosperms",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The appendix is situated in the :",
+      "options": {
+        "A": "Left Lower Quadrant",
+        "B": "Right Upper Quadrant",
+        "C": "Right lower Quadrant",
+        "D": "Left Upper Quadrant"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "As compared to plant cell animal cell is characterized the presence of :",
+      "options": {
+        "A": "Many small vacuoles",
+        "B": "A large vacuoles",
+        "C": "Penheral nucleus",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Dengue virus belongs to ____?",
+      "options": {
+        "A": "Flavi virus",
+        "B": "Togaviridae",
+        "C": "Reoviridae",
+        "D": "Rhabdoviridae"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When cream is separated from the milk from due to its?",
+      "options": {
+        "A": "The density of milk remains white",
+        "B": "the density of milk remains unchanged",
+        "C": "The density of milk decreases",
+        "D": "The density of milk increases"
       },
       "correct": "D"
     }

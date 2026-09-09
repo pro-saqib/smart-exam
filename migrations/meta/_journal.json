@@ -8,6 +8,13 @@
       "when": 1788938108823,
       "tag": "0000_reflective_vanisher",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788950019327,
+      "tag": "0001_striped_nighthawk",
+      "breakpoints": true
     }
   ]
 }

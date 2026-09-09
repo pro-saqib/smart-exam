@@ -2,6 +2,86 @@
   "name": "PPSC Past Papers all MCQs 2024 of Geography",
   "mcqs": [
     {
+      "question": "Which kind of system of government was introduced in 1962 constitution?",
+      "options": {
+        "A": "Presidential",
+        "B": "Autonomous",
+        "C": "Confederate",
+        "D": "Bicameral"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Tashkent declaration between Pakistan and India was signed on?",
+      "options": {
+        "A": "10 January 1966",
+        "B": "1 January 1965",
+        "C": "15 January 1964",
+        "D": "1 February 1966"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who introduced the Basic Democracy?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Ayoub Khan",
+        "C": "Muhammad Ali Bogra",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Islamabad was officially made the capital of Pakistan in _____?",
+      "options": {
+        "A": "July 14, 1967",
+        "B": "August 14, 1967",
+        "C": "June 14, 1967",
+        "D": "September 14, 1967"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest/biggest ocean of the world is ______?",
+      "options": {
+        "A": "Atlantic",
+        "B": "Pacific",
+        "C": "Indian",
+        "D": "Arctic"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Ismail Ould Cheikh Ahmed",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who invented Telephone?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Nikola Tesla",
+        "C": "Alexander Graham Bell",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest Island of the world is _____?",
+      "options": {
+        "A": "Iceland",
+        "B": "Cyprus",
+        "C": "Greenland",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
       "question": "When Pakistan first played hockey match in Olympic?",
       "options": {
         "A": "1947",
@@ -30,16 +110,6 @@
         "D": "Antarctica"
       },
       "correct": "C"
-    },
-    {
-      "question": "The largest/biggest ocean of the world is ______?",
-      "options": {
-        "A": "Atlantic",
-        "B": "Pacific",
-        "C": "Indian",
-        "D": "Arctic"
-      },
-      "correct": "B"
     },
     {
       "question": "Pakistan is located in _______?",
@@ -82,16 +152,6 @@
       "correct": "A"
     },
     {
-      "question": "The largest Island of the world is _____?",
-      "options": {
-        "A": "Iceland",
-        "B": "Cyprus",
-        "C": "Greenland",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Who was the ruler of Sindh then to whom Muhammad-bin-Qasim was defeated and became the first Muslim ruler to invade Indian territories?",
       "options": {
         "A": "Bijai Raj",
@@ -100,6 +160,2814 @@
         "D": "Anand Pal"
       },
       "correct": "C"
+    },
+    {
+      "question": "The Nehru Report was published in _____?",
+      "options": {
+        "A": "August 1928",
+        "B": "September 1928",
+        "C": "October 1928",
+        "D": "November 1928"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the Statue of Liberty located?",
+      "options": {
+        "A": "Washington, D.C.",
+        "B": "Liberty Island, New York City, USA",
+        "C": "Los Angeles, California",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country has the longest coastline in the world?",
+      "options": {
+        "A": "Newzeland",
+        "B": "Canada",
+        "C": "Indonesia",
+        "D": "Russia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the Capital of Greece?",
+      "options": {
+        "A": "Budapest",
+        "B": "Dublin",
+        "C": "Athens",
+        "D": "Tarawa Atoll"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was FATA merged into Khyber Pakhtunkhwa (KPK)?",
+      "options": {
+        "A": "24th May 2018",
+        "B": "25th May 2018",
+        "C": "26th May 2018",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first nuclear power plant in Pakistan was established at ____?",
+      "options": {
+        "A": "Karachi",
+        "B": "Lahore",
+        "C": "Islamabad",
+        "D": "Fasilabad"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the headquarters of Association of Southeast Asian Nations (ASEAN) located?",
+      "options": {
+        "A": "Jakarta, Indonesia",
+        "B": "Kuala Lumpur, Malaysia",
+        "C": "Bangkok, Thailand",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the Eiffel Tower located?",
+      "options": {
+        "A": "London, United Kingdom",
+        "B": "Paris, France",
+        "C": "Rome, Italy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Light year is a unit of _____?",
+      "options": {
+        "A": "Light",
+        "B": "Distance",
+        "C": "Time",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the height of K2 (Godwin Austin), second highest mountain of world?",
+      "options": {
+        "A": "8,511 meters (27,923 feet)",
+        "B": "8,611 meters (28,251 feet)",
+        "C": "8,848 meters (29,029 feet)",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who introduced Two Nations Theory in the subcontinent?",
+      "options": {
+        "A": "Muhammad Ali Jinnah",
+        "B": "Sir Syed Ahmad Khan",
+        "C": "Allama Muhammad Iqbal",
+        "D": "Zafar Ali khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the capital of Austria?",
+      "options": {
+        "A": "Sydney",
+        "B": "Canberra",
+        "C": "Vienna",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Magna Carta signed by King John of England?",
+      "options": {
+        "A": "1212",
+        "B": "1215",
+        "C": "1216",
+        "D": "1218"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which canal connects Atlantic and Pacific ocean?",
+      "options": {
+        "A": "Suez",
+        "B": "Kiel",
+        "C": "Panama",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "IMF funds are primarily provided for which of the following?",
+      "options": {
+        "A": "Reduction in inflation",
+        "B": "Infrastructure development",
+        "C": "Economic stabilization and reform",
+        "D": "Military assistance"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Tashkent Declaration with Pakistan was signed by Indian Prime Minister?",
+      "options": {
+        "A": "Jawahar Lal Nehru",
+        "B": "Indira Gandi",
+        "C": "Lal Buhadur Shastari",
+        "D": "Atal Bahari Vajpai"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Kargil incident happened in which year?",
+      "options": {
+        "A": "1997",
+        "B": "1998",
+        "C": "1999",
+        "D": "2000"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "World Environment Day is observed every year on _____?",
+      "options": {
+        "A": "1 June",
+        "B": "3 June",
+        "C": "5 June",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which year was OIC founded?",
+      "options": {
+        "A": "December 7, 1985",
+        "B": "4 April 1949",
+        "C": "September 25, 1969",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "All India Muslim League observed the “Direct Action Day” on which date?",
+      "options": {
+        "A": "August 6, 1946",
+        "B": "3rd February, 1928",
+        "C": "August 16, 1946",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which city of Pakistan is called Manchester of Pakistan?",
+      "options": {
+        "A": "Islamabad",
+        "B": "Lahore",
+        "C": "Faisalabad",
+        "D": "Gujranwala"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Pamphlet ‘Now or Never’ was written in 1933 by ______?",
+      "options": {
+        "A": "Chaudhary Rehmat Ali",
+        "B": "Sir Agha Khan",
+        "C": "Muhammad Ali Johar",
+        "D": "Sir Syed Ahmed Khan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The book 'A Brief History of Time' is written by ____?",
+      "options": {
+        "A": "Stephen Hawking",
+        "B": "Aristotle",
+        "C": "Oswald Spengler",
+        "D": "Karl Marx"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the First Chief of Staff of Pakistan Army?",
+      "options": {
+        "A": "General Zia-ul-Haq",
+        "B": "General Tikka Khan",
+        "C": "General Ayub Khan",
+        "D": "General Pervez Musharraf"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which years Pakistan's first Five-Year Plan for education implemented?",
+      "options": {
+        "A": "1947 - 1952",
+        "B": "1950 - 1955",
+        "C": "1955 - 1960",
+        "D": "1960 - 1965"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Biafo Glacier is located on which of the following range?",
+      "options": {
+        "A": "Pir Panjal",
+        "B": "Karakorum",
+        "C": "Himalaya",
+        "D": "Hindukush"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the highest mountain peak of Pakistan?",
+      "options": {
+        "A": "Tirich Mir",
+        "B": "Nanga Parbat",
+        "C": "K2",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many barrages are stated to have been constructed on the Indus River from Kalabagh down to its delta?",
+      "options": {
+        "A": "14",
+        "B": "10",
+        "C": "9",
+        "D": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the founder of Daily English Newspaper Dawn?",
+      "options": {
+        "A": "Quaid-e-Azam",
+        "B": "Sikandar Mirza",
+        "C": "Liaquat Ali Khan",
+        "D": "Allama Iqbal"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The River Thames is located in ____?",
+      "options": {
+        "A": "London",
+        "B": "Spain",
+        "C": "Scotland",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Movement for the Restoration of Democracy (MRD), was a political alliance in Pakistan founded by the political parties opposing the military government of _______?",
+      "options": {
+        "A": "General Yahya Khan",
+        "B": "General Ayub Khan",
+        "C": "Zia-ul-Haq",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Lalusar Lake is situated in ____?",
+      "options": {
+        "A": "Kaghan Valley",
+        "B": "Swat Valley",
+        "C": "Neelam Valley",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the name of the ocean that lies between Europe and the United States?",
+      "options": {
+        "A": "Atlantic ocean",
+        "B": "Pacific ocean",
+        "C": "Arctic ocean",
+        "D": "Mediterranean Sea"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Battle of Plassey was fought in ______?",
+      "options": {
+        "A": "1674",
+        "B": "1666",
+        "C": "1757",
+        "D": "1707"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which continent is known as the Land of Penguins?",
+      "options": {
+        "A": "Asia",
+        "B": "Europe",
+        "C": "Australia",
+        "D": "Antartica"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Quaid-e-Azam presented his Delhi proposal in ____?",
+      "options": {
+        "A": "1916",
+        "B": "1926",
+        "C": "1927",
+        "D": "1928"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Golden Gate Bridge is located in _____?",
+      "options": {
+        "A": "San Francisco",
+        "B": "Washington",
+        "C": "New York",
+        "D": "None of the"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan purchased Gwadar port from which country?",
+      "options": {
+        "A": "Oman",
+        "B": "Saudi Arabia",
+        "C": "Qatar",
+        "D": "UAE"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the leaning tower of Pisa?",
+      "options": {
+        "A": "Italy",
+        "B": "Canada",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one is the largest (area wise) country in Central Asia?",
+      "options": {
+        "A": "Tajikistan",
+        "B": "Kazakhstan",
+        "C": "Uzbekistan",
+        "D": "Turkmenistan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The biggest/largest district of Pakistan by area?",
+      "options": {
+        "A": "Mastung",
+        "B": "Chaghi",
+        "C": "Kalat",
+        "D": "Noski"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Motorway M2 is between which two of the following cities?",
+      "options": {
+        "A": "Lahore to Islamabad",
+        "B": "Multan to Sukkur",
+        "C": "Lahore to Karachi",
+        "D": "Lahore Peshawar"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first rocket launched by Pakistan was ______?",
+      "options": {
+        "A": "Rehbar",
+        "B": "Badar",
+        "C": "Sputnic",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The mount Godwin Austen is the name of ______?",
+      "options": {
+        "A": "Mount Everest",
+        "B": "K2",
+        "C": "Nanga Parbat",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which year Urdu Hindi controversy?",
+      "options": {
+        "A": "1867",
+        "B": "1868",
+        "C": "1866",
+        "D": "1860"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country is the biggest producer of Uranium in the world?",
+      "options": {
+        "A": "South Africa",
+        "B": "France",
+        "C": "Canada",
+        "D": "Kazakhstan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The United Nations was founded in:",
+      "options": {
+        "A": "San Francisco",
+        "B": "New York",
+        "C": "Los Angeles",
+        "D": "Chicago"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the minimum length of runway of Javelin throw?",
+      "options": {
+        "A": "30m",
+        "B": "35m",
+        "C": "32m",
+        "D": "40m"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "After the death of Zia ul Haq on 7th August 1988, who was made the President of Pakistan?",
+      "options": {
+        "A": "Muhammad khan Junejo",
+        "B": "Ghulam Ishaq Khan",
+        "C": "Farooq Ahmad Leghari",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Rakaposhi is located in which mountain range?",
+      "options": {
+        "A": "Himalayas",
+        "B": "Karakoram",
+        "C": "Hindu Kush",
+        "D": "Andes"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first person in Pakistan who received Nishan-i-Haider?",
+      "options": {
+        "A": "Major Shabbir Sharif Shaheed",
+        "B": "Major Muhammad Akram Shaheed",
+        "C": "Major Aziz Bhatti Shaheed",
+        "D": "Captain Sarwar Shaheed"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Per Capita water availability in Pakistan is _____?",
+      "options": {
+        "A": "Constant",
+        "B": "Decreasing",
+        "C": "Increasing",
+        "D": "Fluctuating"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Headquarters of the Arab League is located in the city of?",
+      "options": {
+        "A": "Vienna",
+        "B": "Riyadh",
+        "C": "Cairo",
+        "D": "Islamabad"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which year, the China attacked on India?",
+      "options": {
+        "A": "1955",
+        "B": "1962",
+        "C": "1973",
+        "D": "1960"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Famous social website Facebook was founded by ____?",
+      "options": {
+        "A": "Elon Musk",
+        "B": "Steve Jobs",
+        "C": "Bill Gates",
+        "D": "Mark Zekerburg"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country won the FIFA World Cup in 2010?",
+      "options": {
+        "A": "Brazil",
+        "B": "Germany",
+        "C": "Spain",
+        "D": "Argentina"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Silicon valley is in ______?",
+      "options": {
+        "A": "New York",
+        "B": "Los Angeles",
+        "C": "Chicago",
+        "D": "California"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Silicon Valley is famous for ______?",
+      "options": {
+        "A": "Film Industry",
+        "B": "Rare birds",
+        "C": "Cars",
+        "D": "Computers"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The largest Coal Producing Country in the World is ______?",
+      "options": {
+        "A": "China",
+        "B": "Australia",
+        "C": "Canda",
+        "D": "America"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Pakistani Scientist was awarded Nobel Prize for physics in 1979?",
+      "options": {
+        "A": "Dr.Abdul Qadeer Khan",
+        "B": "Dr Muneer Ahmad",
+        "C": "Dr Samar Mubarak",
+        "D": "Dr Abdus Salam"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Cycles of monsoons are well developed in _____?",
+      "options": {
+        "A": "North Australia",
+        "B": "East United States",
+        "C": "South and South East Asia",
+        "D": "Africa"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Annulment of partition of Bangal was made in _____?",
+      "options": {
+        "A": "1911",
+        "B": "1905",
+        "C": "1909",
+        "D": "1910"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "NPT was signed on _____?",
+      "options": {
+        "A": "1 June 1906",
+        "B": "1 July 1966",
+        "C": "1 July 1968",
+        "D": "1 July 1970"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The First Muslim ruler to introduce the System of Price Control in the sub-continent was ______?",
+      "options": {
+        "A": "Jalal uddin Akbar",
+        "B": "Allau ud din Khilji",
+        "C": "Muhammad bin Tughluk",
+        "D": "Shah Jehan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Reuters is the news agency of _______?",
+      "options": {
+        "A": "United States",
+        "B": "United Kingdom",
+        "C": "France",
+        "D": "Germany"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The most important Cash Crop of Pakistan after Wheat is:",
+      "options": {
+        "A": "Maize",
+        "B": "Rice",
+        "C": "Millet",
+        "D": "Sugarcane"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where the city 'Samarkand' is located___?",
+      "options": {
+        "A": "Uzbekistan",
+        "B": "Kazakhstan",
+        "C": "Kyrgyzstan",
+        "D": "Iraq"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "India revoked the special status granted under Indian constitution of Jammu Kashmir on?",
+      "options": {
+        "A": "3 August 2019",
+        "B": "5 August 2019",
+        "C": "4 August 2019",
+        "D": "6 August 2019"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Murree was constructed in 1853 at",
+      "options": {
+        "A": "Sunny bank",
+        "B": "Nathia gali",
+        "C": "Sher Bangala",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first Chief Minister of West Punjab?",
+      "options": {
+        "A": "Iftikhar Hussain Khan Mamdoot",
+        "B": "Mian Mumtaz Ahmad Daultana",
+        "C": "Malik Feroz Khan Noon",
+        "D": "Abdul Hameed Khan Dasti"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is Warsak Dam situated in which province?",
+      "options": {
+        "A": "Punjab",
+        "B": "Khyber Pakhtunkhwa",
+        "C": "Balochistan",
+        "D": "Sindh"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Gwadar port is in the province of ______?",
+      "options": {
+        "A": "Sindh",
+        "B": "Balochistan",
+        "C": "KPK",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Karakoram Highway starts from ______?",
+      "options": {
+        "A": "Haripur",
+        "B": "Hasan Abdal",
+        "C": "Wah",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Kalabagh Dam is planned to be built on the River ____.",
+      "options": {
+        "A": "Indus",
+        "B": "River",
+        "C": "India",
+        "D": "All"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country did Hitler first attack during World War II?",
+      "options": {
+        "A": "France",
+        "B": "Poland",
+        "C": "Austria",
+        "D": "Czechoslovakia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When did Rashid Minhas got Nishan-e-Haider?",
+      "options": {
+        "A": "1982",
+        "B": "1971",
+        "C": "1978",
+        "D": "1969"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Muslim League was founded in which year?",
+      "options": {
+        "A": "1905",
+        "B": "1906",
+        "C": "1913",
+        "D": "1947"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Arya Samaj was founded in _______?",
+      "options": {
+        "A": "1873",
+        "B": "1875",
+        "C": "1874",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest lake of salt water in the world is?",
+      "options": {
+        "A": "Baykal",
+        "B": "Chad",
+        "C": "Kariba",
+        "D": "Caspian sea"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Simla Deputation (October 1906) comprised how many Muslim leaders?",
+      "options": {
+        "A": "18",
+        "B": "35",
+        "C": "40",
+        "D": "50"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Chandragup mud volcano is located in ______?",
+      "options": {
+        "A": "Pakistan",
+        "B": "India",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Muhammad Ali Jinnah gave 14 points?",
+      "options": {
+        "A": "1929",
+        "B": "1930",
+        "C": "1931",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Benazir Bhutto was assassinated on _____?",
+      "options": {
+        "A": "December 27, 2007",
+        "B": "December 26, 2007",
+        "C": "December 26, 2007",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The largest Glacier of Pakistan is _____?",
+      "options": {
+        "A": "Baltoro",
+        "B": "Siachian",
+        "C": "Baifo",
+        "D": "Batura"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Kerry lugar bill was passed for the period",
+      "options": {
+        "A": "2010-2014",
+        "B": "2012-2014",
+        "C": "2010-2015",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was Quaid-e-Azam first appointed as Third Presidency Magistrate in Bombay?",
+      "options": {
+        "A": "1899",
+        "B": "1900",
+        "C": "1947",
+        "D": "1930"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When President Mamnoon Hussain signed the FATA merger bill?",
+      "options": {
+        "A": "31 March 2018",
+        "B": "31 January 2018",
+        "C": "31 May 2018",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The resolution was written in English language. Who translated the Pakistan resolution in Urdu?",
+      "options": {
+        "A": "Maulvi A.K Fazal Ul Haq",
+        "B": "Maulana Zafar Khan",
+        "C": "Zafarullah Khan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Makli Necropolis was inscribed as a UNESCO World Heritage Site in ______?",
+      "options": {
+        "A": "1976",
+        "B": "1979",
+        "C": "1981",
+        "D": "1985"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What was the amount of the IMF loan provided to Pakistan in June 2023?",
+      "options": {
+        "A": "$1 billion",
+        "B": "$2 billion",
+        "C": "$3 billion",
+        "D": "$4 billion"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following opposed the Pakistan membership in United Nation?",
+      "options": {
+        "A": "Iran",
+        "B": "Egypt",
+        "C": "Afghanistan",
+        "D": "Malaysia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is known as the founder of Tahrik-e-Raishmi Romal (The Silk Letter Movement)?",
+      "options": {
+        "A": "Maulana Mahmood ul Hassan",
+        "B": "Maulana Qasim Nanotvi",
+        "C": "Allama Iqbal",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was Liaquat Nehru Pact between Pakistan and India?",
+      "options": {
+        "A": "1948",
+        "B": "1949",
+        "C": "1950",
+        "D": "1951"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The percentage of Muslims in Jammu and Kashmir is _____?",
+      "options": {
+        "A": "90",
+        "B": "40",
+        "C": "60",
+        "D": "80"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What country is located to the east of Afghanistan?",
+      "options": {
+        "A": "Iran",
+        "B": "Pakistan",
+        "C": "India",
+        "D": "Turkmenistan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Pakistan won the World Hockey Cup last time?",
+      "options": {
+        "A": "1998",
+        "B": "1990",
+        "C": "1994",
+        "D": "2002"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The term 'UNO' was coined by?",
+      "options": {
+        "A": "Winston Churchill",
+        "B": "Vladimar Lenin",
+        "C": "Frankind D.Roosevelt",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When did Lord Mountbatten arrive in Delhi as new Viceroy of India?",
+      "options": {
+        "A": "Mar 22, 1945",
+        "B": "Mar 22, 1948",
+        "C": "Mar 22, 1947",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "M-2 Islamabad to Lahore motorway was inaugurated to which year?",
+      "options": {
+        "A": "1988",
+        "B": "1997",
+        "C": "1965",
+        "D": "None of the above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discovered the sea route to India?",
+      "options": {
+        "A": "Christopher Columbus",
+        "B": "Ferdinand Magellan",
+        "C": "Vasco da Gama",
+        "D": "Marco Polo"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which planet has no moon?",
+      "options": {
+        "A": "Venus",
+        "B": "Neptune",
+        "C": "Mars",
+        "D": "All of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which fort in Pakistan is listed as a UNESCO World Heritage Site?",
+      "options": {
+        "A": "Rohtas Fort",
+        "B": "Lahore Fort",
+        "C": "Derawar Fort",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which desert is the Derawar fort is located?",
+      "options": {
+        "A": "Thal",
+        "B": "Cholistan",
+        "C": "Thar",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Muhammad Ali Johar is buried in _____?",
+      "options": {
+        "A": "Jerusalem",
+        "B": "Lahore",
+        "C": "London",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Great Pyramids of Giza, the oldest of the seven wonders of the world, located in _____?",
+      "options": {
+        "A": "Egypt",
+        "B": "Jordan",
+        "C": "Saudi Arabia",
+        "D": "Iraq"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of these is the largest forest of Pakistan?",
+      "options": {
+        "A": "Cholistan",
+        "B": "Thar",
+        "C": "Changa Manga",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the second chief of staff of Pakistan army?",
+      "options": {
+        "A": "Gen. Aslam Baig Mirza",
+        "B": "Gen. Jehangir Karamat",
+        "C": "Gen. Tikka Khan",
+        "D": "Gen. Zia Ul Haq"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Monsoon season in Pakistan starts in July and ends in ____?",
+      "options": {
+        "A": "August",
+        "B": "November",
+        "C": "December",
+        "D": "September"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Bali is an island of _____?",
+      "options": {
+        "A": "US",
+        "B": "Canada",
+        "C": "Australia",
+        "D": "Indonesia"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The World smallest Islamic state/country (area wise) is _____?",
+      "options": {
+        "A": "Brunei",
+        "B": "Morocco",
+        "C": "Syria",
+        "D": "Maldives"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Central National Muhammadan Association in 1877 was founded by _____?",
+      "options": {
+        "A": "Sir Syed Ahmed Khan",
+        "B": "Chaudhry Rehmat Ali",
+        "C": "Waqar ul Mulk",
+        "D": "Allama Iqbal"
+      }
+    },
+    {
+      "question": "Wall street is, located in ____?",
+      "options": {
+        "A": "London",
+        "B": "China",
+        "C": "Canada",
+        "D": "New York"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How much players are in basketball on the court at one time?",
+      "options": {
+        "A": "9 Players",
+        "B": "7 Players",
+        "C": "5 Players",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following countries does not yield veto power?",
+      "options": {
+        "A": "United State",
+        "B": "United Kingdom",
+        "C": "Canada",
+        "D": "France"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "JAMSHED MARKER distinguished himself in the field of ______?",
+      "options": {
+        "A": "Teaching",
+        "B": "Diplomacy",
+        "C": "Fiction writing",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who invented the the first Digital Computer?",
+      "options": {
+        "A": "John Vincent Atanasoff",
+        "B": "Daglus Elbert",
+        "C": "Charles Babbage",
+        "D": "Isaac Newton"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the New York Stock Exchange (NYSE) located?",
+      "options": {
+        "A": "Times Square",
+        "B": "Wall Street",
+        "C": "Fifth Avenue",
+        "D": "Central Park"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Liaquat Ali Khan was assassinated in which city?",
+      "options": {
+        "A": "Lahore",
+        "B": "Rawalpindi",
+        "C": "Islamabad",
+        "D": "Karachi"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Boundary agreement was signed between Pakistan and China in?",
+      "options": {
+        "A": "2 March 1963",
+        "B": "2 March 1962",
+        "C": "2 March 1969",
+        "D": "2 March 1947"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The ongoing Israel-Palestine crisis resulted from which 1947 decision?",
+      "options": {
+        "A": "Oslo Accords",
+        "B": "Camp David Accords",
+        "C": "UN Partition Plan",
+        "D": "Balfour Declaration"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the meaning of the term Apartheid?",
+      "options": {
+        "A": "Unity",
+        "B": "Segregation",
+        "C": "Freedom",
+        "D": "Independence"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Libya, Algeria, and Tunisia belong to which continent?",
+      "options": {
+        "A": "Asia",
+        "B": "Europe",
+        "C": "Africa",
+        "D": "South America"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "For what achievement did James Chadwick receive the Nobel Prize in 1935?",
+      "options": {
+        "A": "Discovery of the proton",
+        "B": "Discovery of the neutron",
+        "C": "Development of the atomic bomb",
+        "D": "Discovery of radioactivity"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In the early 1970s, Pakistan played a role in rapprochement between which two countries?",
+      "options": {
+        "A": "US and USSR",
+        "B": "US and China",
+        "C": "China and India",
+        "D": "USSR and India"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Thal Nova is a project of which sector?",
+      "options": {
+        "A": "Agriculture",
+        "B": "Energy",
+        "C": "Education",
+        "D": "Healthcare"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The UN Charter was finalized at which conference?",
+      "options": {
+        "A": "Paris Peace Conference",
+        "B": "Yalta Conference",
+        "C": "San Francisco Conference",
+        "D": "Potsdam Conference"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country is located north of the Gulf of Aden?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Oman",
+        "C": "Yemen",
+        "D": "United Arab Emirates"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country is referred to as the Boot of Europe?",
+      "options": {
+        "A": "Spain",
+        "B": "Italy",
+        "C": "Greece",
+        "D": "Portugal"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Christian-turned-Muslim writer of the biography Muhammad: His Life Based on the Earliest Sources?",
+      "options": {
+        "A": "Karen Armstrong",
+        "B": "Muhammad Asad",
+        "C": "Martin Lings",
+        "D": "Marmaduke Pickthall"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which ancient civilization developed between the Tigris and Euphrates rivers?",
+      "options": {
+        "A": "Indus Valley Civilization",
+        "B": "Mesopotamia",
+        "C": "Ancient Egypt",
+        "D": "Minoan Civilization"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the climate fund required by 2030 as per the NCFS (National Climate Finance Strategy)?",
+      "options": {
+        "A": "$100 billion",
+        "B": "$200 billion",
+        "C": "$348 billion",
+        "D": "$300 billion"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which year was the first Pakistan and European Union summit held, and where?",
+      "options": {
+        "A": "2005, London",
+        "B": "2007, Islamabad",
+        "C": "2009, Brussels",
+        "D": "2011, Paris"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Houthi uprising is taking place in which country?",
+      "options": {
+        "A": "Syria",
+        "B": "Yemen",
+        "C": "Iraq",
+        "D": "Libya"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which river is known as mother of rivers",
+      "options": {
+        "A": "The Mekong river",
+        "B": "River Thames",
+        "C": "Amazon river",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is Diego Garcia situated?",
+      "options": {
+        "A": "Near bay of Bangal",
+        "B": "Caspian sea",
+        "C": "In Indian Ocean",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The search for suitable words of National Anthem with the music set by A.G. Chagla finally ended with the approval on 13th August?",
+      "options": {
+        "A": "1953",
+        "B": "1954",
+        "C": "1955",
+        "D": "1956"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Govt. of Pakistan constituted a Committee under the chairmanship of Sardar Abdur Rab Nishtar for selecting National anthem in December?",
+      "options": {
+        "A": "1947",
+        "B": "1950",
+        "C": "1949",
+        "D": "1948"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which barrage is not on the Indus River?",
+      "options": {
+        "A": "Sukkur Barrage",
+        "B": "Guddu Barrage",
+        "C": "Chashma Barrage",
+        "D": "Rasul Barrage"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The main demand of simla Muslim Deputation accepted in Minto Morley Reforms of 1906 was about?",
+      "options": {
+        "A": "Separate electorates",
+        "B": "Separate muslim state",
+        "C": "Separation of Sindh from Bombay",
+        "D": "Separate Muslim Eduction"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which mosque is located inside Lahore Fort?",
+      "options": {
+        "A": "Badshahi Mosque",
+        "B": "Moti Masjid",
+        "C": "Shah Jahan Mosque",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What did Marie Curie invent?",
+      "options": {
+        "A": "X-rays",
+        "B": "Radium and Polonium",
+        "C": "Penicillin",
+        "D": "Insulin"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the inventor of Linux?",
+      "options": {
+        "A": "Steve Jobs",
+        "B": "Bill Gates",
+        "C": "Linus Torvalds",
+        "D": "Mark Zuckerberg"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which female teacher received the Nobel Prize?",
+      "options": {
+        "A": "Malala Yousafzai",
+        "B": "Marie Curie",
+        "C": "Mother Teresa",
+        "D": "Rita Levi-Montalcini"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Rasul Barrage is located on which river?",
+      "options": {
+        "A": "Indus River",
+        "B": "Ravi River",
+        "C": "Chenab River",
+        "D": "Jhelum River"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What was the age of Malala Yousafzai when she was awarded the Nobel Peace Prize?",
+      "options": {
+        "A": "15",
+        "B": "17",
+        "C": "19",
+        "D": "21"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When was the Olympic flag with five rings first introduced?",
+      "options": {
+        "A": "1900",
+        "B": "1913",
+        "C": "1920",
+        "D": "1936"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the major supporter of the Two-Nation Theory?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Muhammad Ali Jinnah",
+        "C": "Syed Ahmad Khan",
+        "D": "Maulana Azad"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "میں برطانیہ نے ہندوستان سے متعلق کون سا دستاویز پیش کیا؟ 1933",
+      "options": {
+        "A": "منٹومورلی اصلاحات",
+        "B": "وائٹ پیپر",
+        "C": "گول میز کانفرنس",
+        "D": "انڈین انڈیپینڈنس ایکٹ"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the tenure of Pakistan's National Security Policy(NSP)?",
+      "options": {
+        "A": "3 years",
+        "B": "5 years",
+        "C": "7 years",
+        "D": "10 years"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "China invited whom to join the Belt and Road Initiative (BRI)?",
+      "options": {
+        "A": "EU",
+        "B": "SAARC",
+        "C": "BRICS",
+        "D": "none of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What was the year of the last Mysore War?",
+      "options": {
+        "A": "1799",
+        "B": "1801",
+        "C": "1795",
+        "D": "1784"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Chabahar is located on which ocean?",
+      "options": {
+        "A": "Pacific Ocean",
+        "B": "Atlantic Ocean",
+        "C": "Indian Ocean",
+        "D": "Arctic Ocean"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Pak purchased nuclear program from France?",
+      "options": {
+        "A": "March 1976",
+        "B": "April 1978",
+        "C": "June 1974",
+        "D": "January 1980"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which community is facing target killing in Baluchistan?",
+      "options": {
+        "A": "Hazara",
+        "B": "Turkmens",
+        "C": "Brahuis",
+        "D": "Uzbeks"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name the youngest elected president of USA?",
+      "options": {
+        "A": "Henry Truman",
+        "B": "John F Kennedy",
+        "C": "Jackson",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which motorway connects Abdul Hakeem to Lahore?",
+      "options": {
+        "A": "M1",
+        "B": "M2",
+        "C": "M3",
+        "D": "M4"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many soldiers were awarded the Nishan-e-Haider in the Kargil War?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Khanki Headworks is situated on River Chenab in District?",
+      "options": {
+        "A": "Lahore",
+        "B": "Gujranwala",
+        "C": "Mianwali",
+        "D": "Norwal"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "USSR disintegrated in how many states in 1991?",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "15",
+        "D": "17"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Saudi Arabia founded which city on the sea of red shores?",
+      "options": {
+        "A": "Neom",
+        "B": "Tabuk",
+        "C": "Asir",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Article of Constitution which gives Supreme Court Suo moto power?",
+      "options": {
+        "A": "Article 144 (3)",
+        "B": "Article 164 (3)",
+        "C": "Article 184 (3)",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The modern name of Shahjahanabad is _____?",
+      "options": {
+        "A": "Fatahpur sikri",
+        "B": "Agra",
+        "C": "Purani Delhi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the leader of Muslim league delegation in first Round Table Conference?",
+      "options": {
+        "A": "Sir Agha Khan",
+        "B": "Allama Iqbal",
+        "C": "Quaid e Azam",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who founded Jamat-e-Islami?",
+      "options": {
+        "A": "Syed Abul ala maududi",
+        "B": "Iqbal",
+        "C": "Ahsan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Orange Revolution, a series of protests and political events, took place in which of the country?",
+      "options": {
+        "A": "North Korea",
+        "B": "Ukraine",
+        "C": "India",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which modern country erstwhile Sassanid Empire?",
+      "options": {
+        "A": "Iran",
+        "B": "Persian",
+        "C": "Greece",
+        "D": "Rome"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which dynasty reign first?",
+      "options": {
+        "A": "Khilji Dynasty",
+        "B": "Lodhi Dynasty",
+        "C": "Mamluk Dynasty",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mussolini is from which country?",
+      "options": {
+        "A": "Italy",
+        "B": "France",
+        "C": "Russia",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Salgotarjan is a city located in?",
+      "options": {
+        "A": "Maldives",
+        "B": "Algeria",
+        "C": "Hungary",
+        "D": "Finland"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many states were demanded in 1940 Resolution:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Alhaurin el Grande is town located in:",
+      "options": {
+        "A": "Italy",
+        "B": "Poland",
+        "C": "Spain",
+        "D": "Germany"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "As per the 'Indus Water Treaty 1960' between India and Pakistan, on which rivers water does Pakistan have an absolute claim?",
+      "options": {
+        "A": "Indus, Jhelum and Chenab",
+        "B": "Ravi, Sutlej and Beas",
+        "C": "Chenab, Beas and Jhelum",
+        "D": "Jehlum, Sutlej and Chenab"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In the 1968 Olympics held in Mexico, a new technique 'Fosbury Flop in the introduced. was?",
+      "options": {
+        "A": "High jump",
+        "B": "Long jump",
+        "C": "Triple jump",
+        "D": "Straddle"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "First women university established by in which year?",
+      "options": {
+        "A": "1947",
+        "B": "1973",
+        "C": "1998",
+        "D": "2008"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "People in England died in 1952 due to _____?",
+      "options": {
+        "A": "The Great Flood",
+        "B": "The Great Smog",
+        "C": "The Great Fire",
+        "D": "The Great Earthquake"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Cyprus was conquered?",
+      "options": {
+        "A": "25 Hijri",
+        "B": "29 Hijr",
+        "C": "28 Hijri",
+        "D": "30 Hijri"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the founder of 'Din-i-llahi'?",
+      "options": {
+        "A": "Muhammad Ghaznavi",
+        "B": "Humayoun",
+        "C": "Akbar",
+        "D": "Sher Shah Suri"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Nandana Fort is situated in _______?",
+      "options": {
+        "A": "Jhelum",
+        "B": "Lahore",
+        "C": "Rawalpindi",
+        "D": "Multan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The most widely known Indus Valley sites in Punjab and Sindh are:",
+      "options": {
+        "A": "Mohenjo-daro and Harappa",
+        "B": "Dholavira and Banawali",
+        "C": "Lothal and Chanhudaru",
+        "D": "Rangpur and Surkotda"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Cuban Missile Crisis of October 1962 was a direct and dangerous confrontation between during the Cold War and was the moment when the two superpowers came closest to nuclear conflict.",
+      "options": {
+        "A": "United States, Soviet Union and Cuba",
+        "B": "Canada, Russia and Cuba",
+        "C": "United States, Canada and Cuba",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who gave six points formula in 1966:",
+      "options": {
+        "A": "Lal Bahadur Shastri",
+        "B": "Sheikh Mujeeb Ur Rehman",
+        "C": "Jawaharlal Nehru",
+        "D": "Indiri Gandhi"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The world's first nuclear explosion occurred on July 16, 1945, when a plutonium implosion device was tested at a site located at:",
+      "options": {
+        "A": "Hiroshima",
+        "B": "Nagasaki",
+        "C": "New Mexico",
+        "D": "Rajasthan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In 1927 Delhi Proposal of Jinnah, he withdrew from _____?",
+      "options": {
+        "A": "Separate Electorate",
+        "B": "1/3 Representation in Central Legislature",
+        "C": "Equal Representation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Tochi Pass connects ________?",
+      "options": {
+        "A": "Dir with Bannu",
+        "B": "Peshawar with Bannu",
+        "C": "Ghazni with Bannu",
+        "D": "Ghazni with Kohat"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Tipu Sultan had requested ________for help in driving the British away from India.",
+      "options": {
+        "A": "Rani of Jhansi",
+        "B": "Jai Singh",
+        "C": "Napoleon",
+        "D": "Hitler"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Why US left Afghanistan in 2021:",
+      "options": {
+        "A": "Because US had No reason to stay",
+        "B": "Because they achieved all their objectives",
+        "C": "Due to increasing International pressure",
+        "D": "As part of a planned military strategy"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Anjuman-e-Punjab was founded in which city:",
+      "options": {
+        "A": "Karachi",
+        "B": "Delhi",
+        "C": "Lahore",
+        "D": "Kolkata"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which treaty ended the war among Dutch, Spain and Germany:",
+      "options": {
+        "A": "Treaty of Westphalia",
+        "B": "Treaty of Paris",
+        "C": "Treaty of Versailles",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Prince Harry and Meghan separated them from member ship of Royal family?",
+      "options": {
+        "A": "January 2020",
+        "B": "January 2021",
+        "C": "July 2021",
+        "D": "February 2022"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many five years plan of Pakistan announced till 2000:",
+      "options": {
+        "A": "Six",
+        "B": "Eight",
+        "C": "Seven",
+        "D": "Nine"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Robert Clive defeated whom in the 1757 war?",
+      "options": {
+        "A": "Siraj ud Daulah",
+        "B": "Babar",
+        "C": "Sher Shah Suri",
+        "D": "Aurangzeb"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hasan Akhund is the of ______ Afghanistan?",
+      "options": {
+        "A": "President",
+        "B": "Prime Minister",
+        "C": "Foreign Minister",
+        "D": "Defense Minister"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the last king of Afghanistan?",
+      "options": {
+        "A": "Zahir shah",
+        "B": "Amman ullah",
+        "C": "Nadir shah",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "اخوان الصفاء کسی قسم کی تنظیم تھی ؟",
+      "options": {
+        "A": "خفیہ",
+        "B": "اسلامی",
+        "C": "سیاسی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Human Rights Council is the main intergovernmental body within the?",
+      "options": {
+        "A": "United Nations General Assembly",
+        "B": "Economic and Social Council",
+        "C": "United Nations Security Council",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Made in India famous movement was named as:",
+      "options": {
+        "A": "Swadeshi movement",
+        "B": "Silent Valley Movement",
+        "C": "Gadar Party Movement",
+        "D": "Ahmedabad Mill Strike"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Subtropical temperatures in Pakistan ______ in summer?",
+      "options": {
+        "A": "Decrease",
+        "B": "Rise",
+        "C": "Stay constant",
+        "D": "Fall dramatically"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The boundary dispute between Pakistan and China was settled during the government of:",
+      "options": {
+        "A": "Liaqat Ali Khan",
+        "B": "Ayoub Khan",
+        "C": "Feroz Khan Noon",
+        "D": "Zulfiqar Ali Bhutto"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Nippon is the stock exchange market of _____?",
+      "options": {
+        "A": "Tokyo",
+        "B": "London",
+        "C": "New York",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "At the time of partition Qalat was a?",
+      "options": {
+        "A": "State",
+        "B": "Division",
+        "C": "District",
+        "D": "Province"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "International Atomic Energy Agency was recognized by the United Nation?",
+      "options": {
+        "A": "1954",
+        "B": "1955",
+        "C": "1956",
+        "D": "1957"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which dispute resolve between Pakistan and China in 1963?",
+      "options": {
+        "A": "Boundary issue",
+        "B": "Water issue",
+        "C": "War issue",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "USSR was dissolved in?",
+      "options": {
+        "A": "1988",
+        "B": "1989",
+        "C": "1990",
+        "D": "1991"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Cathay Pacific is an airline of?",
+      "options": {
+        "A": "Hong Kong",
+        "B": "Taiwan",
+        "C": "Japan",
+        "D": "China"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cape Drastic Beach is in which country?",
+      "options": {
+        "A": "Greece",
+        "B": "Italy",
+        "C": "Spain",
+        "D": "Portugal"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which among the following is a left bank tributary of the Indus river?",
+      "options": {
+        "A": "Zanskar",
+        "B": "Shyok",
+        "C": "Gilgit",
+        "D": "Kabul"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Gateway of Pakistan is located in _____?",
+      "options": {
+        "A": "Sindh",
+        "B": "Punjab",
+        "C": "Khyber Pakhtunkhwa",
+        "D": "Balochistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Sharm al-Sheikh is located in ______?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Jordan",
+        "C": "Egypt",
+        "D": "Lebanon"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mehrgarh is located in _____?",
+      "options": {
+        "A": "Khyber Pass",
+        "B": "Bolan Pass",
+        "C": "Khunjerab Pass",
+        "D": "Tochi Pass"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which pass connects Pakistan with Iran?",
+      "options": {
+        "A": "Bolan pass",
+        "B": "Tochi Pass",
+        "C": "Karakar Pass",
+        "D": "Babusar Pass"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Francois Bernier belongs to which country:",
+      "options": {
+        "A": "China",
+        "B": "Italy",
+        "C": "France",
+        "D": "Russia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "One of the country where alcohol has been very successfully used as motor fuel is:",
+      "options": {
+        "A": "US",
+        "B": "Brazil",
+        "C": "Japan",
+        "D": "Germany"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which city is located in both Asia and Europe?",
+      "options": {
+        "A": "Istanbul",
+        "B": "Venice",
+        "C": "Paris",
+        "D": "London"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The border line area between Pakistan and India at Sir Creek, a disputed area of Sindh, is called:",
+      "options": {
+        "A": "Green Line",
+        "B": "Blue Line",
+        "C": "Red Line",
+        "D": "Yellow Line"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was appointed Prime Minister after the imposition of Martial Law in 1958?",
+      "options": {
+        "A": "General Azam Khan",
+        "B": "Hussain Shaheed Suharwandi",
+        "C": "Ayub Khan",
+        "D": "Malik Feroz Khan Noon"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Before Damascus which city was the capital of Muslim Empire?",
+      "options": {
+        "A": "Baghdad",
+        "B": "Kufa",
+        "C": "Makkah",
+        "D": "Madina"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In June 2014, King Juan Carlos I abdicated in Favour of his son Felipe VI. To which country did king Juan Carlos belong?",
+      "options": {
+        "A": "Spain",
+        "B": "Belgium",
+        "C": "The Netherlands",
+        "D": "Monaco"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "After becoming Governor-General, Quaid-e-Azam visited which country first?",
+      "options": {
+        "A": "India",
+        "B": "United Kingdom",
+        "C": "United States",
+        "D": "China"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Samarkand is the capital of which country?",
+      "options": {
+        "A": "Uzbekistan",
+        "B": "Kazakhstan",
+        "C": "Turkmenistan",
+        "D": "Tajikistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Agulhas Current a significant surface ocean current form with the Mozambique current and ?",
+      "options": {
+        "A": "Madagascar current",
+        "B": "Benguela current",
+        "C": "Canaeet Current",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Big history refers to _____?",
+      "options": {
+        "A": "Ancient Civilizations to Modern Times",
+        "B": "Big Bang to Present",
+        "C": "World Wars to Current Events",
+        "D": "Prehistoric Era to the Industrial Revolution"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sikaram is the highest peak of _____?",
+      "options": {
+        "A": "Hindu Kush",
+        "B": "Karakoram",
+        "C": "Himalayas",
+        "D": "Koh Safed"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country is set to register Himalayan pink salt as Geographical Indications (GI)?",
+      "options": {
+        "A": "India",
+        "B": "Pakistan",
+        "C": "America",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What tower is famous for its lean?",
+      "options": {
+        "A": "Capital Gala Tower",
+        "B": "Blackpool tower",
+        "C": "Tower of Pisa",
+        "D": "Kyiv Tv tower"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "China has the longest border with which of the following country?",
+      "options": {
+        "A": "Mongolia",
+        "B": "Russia",
+        "C": "India",
+        "D": "Myanmar"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Farooq Laghari dissolved the Benazir Bhutto government on which date?",
+      "options": {
+        "A": "November 5, 1996",
+        "B": "November 7, 1996",
+        "C": "November 12, 1996",
+        "D": "November 15, 1996"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mount Damavand is located in which country?",
+      "options": {
+        "A": "Turkey",
+        "B": "Iran",
+        "C": "Pakistan",
+        "D": "Afghanistan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Mohsin ul Mulk started which organization for Urdu?",
+      "options": {
+        "A": "Anjuman-e-Taraqqi-e-Urdu",
+        "B": "Urdu Defence Association",
+        "C": "All India Urdu Conference",
+        "D": "Urdu Language Society"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Quaid-e-Azam Trophy is related to which sport?",
+      "options": {
+        "A": "Football",
+        "B": "Cricket",
+        "C": "Hockey",
+        "D": "Tennis"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many African countries are included in BRI?",
+      "options": {
+        "A": "30",
+        "B": "44",
+        "C": "53",
+        "D": "66"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Sandspit Beach is a beach located in which southern region?",
+      "options": {
+        "A": "Mumbai, Maharashtra",
+        "B": "Karachi, Sindh",
+        "C": "Colombo, Sri Lanka",
+        "D": "Durban, South Africa"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which UN agency deals with Hunger?",
+      "options": {
+        "A": "The Food and Agricultural Organization (FAO)",
+        "B": "United Nations Educational Scientific and Cultural Organization (UNESCO)",
+        "C": "World Health Organization (WHO)",
+        "D": "United Nations Development Programme (UNDP)"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "'US led QUAD' is a group of how many countries:",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "10"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When did Queen Victoria become the Empress of India?",
+      "options": {
+        "A": "1857",
+        "B": "1876",
+        "C": "1877",
+        "D": "1880"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who became the first female ambassador of Saudi Arabia to the United States?",
+      "options": {
+        "A": "Haifa bint Faisal",
+        "B": "Shima bint Bandar",
+        "C": "Princess Reema bint Bandar Al Saud",
+        "D": "Sarah bint Faisal"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the Shaista Ikramullah?",
+      "options": {
+        "A": "Politician",
+        "B": "Lawyer",
+        "C": "Doctor",
+        "D": "Athlete"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the First black US Secretary of State?",
+      "options": {
+        "A": "Colin Powell",
+        "B": "Condoleezza Rice",
+        "C": "Barack Obama",
+        "D": "Eric Holder"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year, Burma separate from India?",
+      "options": {
+        "A": "1935",
+        "B": "1937",
+        "C": "1936",
+        "D": "1934"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Northern Rhodesia is the new name of:",
+      "options": {
+        "A": "Nigeria",
+        "B": "Taiwan",
+        "C": "Zambia",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Buckingham palace is located in :",
+      "options": {
+        "A": "UK",
+        "B": "Berlin",
+        "C": "Moscow",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The gandhara civilization followed the religion:",
+      "options": {
+        "A": "Brahmanism",
+        "B": "Fire worship",
+        "C": "Budhism",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Atlantic Charter is associated with which two countries?",
+      "options": {
+        "A": "USA & Australia",
+        "B": "USA & France",
+        "C": "USA & Canada",
+        "D": "USA & UK"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who introduced the Shariat Bill?",
+      "options": {
+        "A": "Benazir",
+        "B": "Zia",
+        "C": "Nawaz Sharif",
+        "D": "Mulana Fazal Rehman"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Non-cooperation Movement started in ________.",
+      "options": {
+        "A": "1870",
+        "B": "1942",
+        "C": "1920",
+        "D": "1921"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "ECO was founded in?",
+      "options": {
+        "A": "1985",
+        "B": "1986",
+        "C": "1966",
+        "D": "1988"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Rafi Peer theatre workshop named after ___ founded by two brothers",
+      "options": {
+        "A": "Rafi peer",
+        "B": "Usman Peer",
+        "C": "Fizan peer",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The ozone layer prevents _________ radiation from entering the atmosphere.",
+      "options": {
+        "A": "Infra-red",
+        "B": "Ultraviolet",
+        "C": "X-rays",
+        "D": "Gamma rays"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Delhi captured by British in how many days",
+      "options": {
+        "A": "3 days",
+        "B": "5 days",
+        "C": "7 days",
+        "D": "9 days"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following glaciers are present in Himalayas range?",
+      "options": {
+        "A": "Gangotri and Yamunotri glaciers",
+        "B": "Khumbu glaciers",
+        "C": "Langtang glacier",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many countries does the Rhine river pass through",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When did Taiwan separates from China?",
+      "options": {
+        "A": "1947",
+        "B": "1949",
+        "C": "1963",
+        "D": "1977"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the percentage of Balochistan area in Pakistan?",
+      "options": {
+        "A": "42%",
+        "B": "52%",
+        "C": "46%",
+        "D": "32%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mirani Dam is located on which river?",
+      "options": {
+        "A": "Bolan",
+        "B": "Jhelum",
+        "C": "Dashat",
+        "D": "Hub"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kalat Range is situated in which province of Pakistan ?",
+      "options": {
+        "A": "Sindh",
+        "B": "KPK",
+        "C": "GB",
+        "D": "Balochistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who signed the Pak-Sino Boundary treaty 1963 from Pakistan?",
+      "options": {
+        "A": "Manzoor Qadir",
+        "B": "Sir Zafarullah",
+        "C": "Zulfiqar Ali Bhutto",
+        "D": "Gen Ayub Khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "At the time of the partition of India, Kashmiris were derived into?",
+      "options": {
+        "A": "Allied Conference and Axis Conference",
+        "B": "Muslim Conference and National Conference",
+        "C": "Muslim League and Congress",
+        "D": "Muslim Conference and Allied Conference"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Indian spy Kalbhushah Yadav was arrested From:",
+      "options": {
+        "A": "Sindh",
+        "B": "KPK",
+        "C": "Balochistan",
+        "D": "GB"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The state of Bahawalpur acceded to Pakistan",
+      "options": {
+        "A": "1948",
+        "B": "1947",
+        "C": "150",
+        "D": "NOne"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Makran coastal highway is called:",
+      "options": {
+        "A": "M-2",
+        "B": "N-9",
+        "C": "N-12",
+        "D": "N-11"
+      }
+    },
+    {
+      "question": "When did India enforce Domicile Act in Kashmir?",
+      "options": {
+        "A": "4 April 2020",
+        "B": "1 April 2020",
+        "C": "6 April 2020",
+        "D": "30 April 2020"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Johannesburg is a city of ------",
+      "options": {
+        "A": "china",
+        "B": "South Africa",
+        "C": "Libya",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Golan Heights are disputed between _________?",
+      "options": {
+        "A": "Syria & USA",
+        "B": "Israel & Iraq",
+        "C": "Israel & Taiwan",
+        "D": "Syria & Israel"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Pakistan’s Aleem Dar broke ______ record of most test matches as an umpire?",
+      "options": {
+        "A": "David Shepherd",
+        "B": "Steve Bucknor",
+        "C": "Billy Bowden",
+        "D": "Rudi Koertzen"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country joins NATO on 4 April 2023?",
+      "options": {
+        "A": "North Macedonia",
+        "B": "Sweden",
+        "C": "Finland",
+        "D": "Croatia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The 9/11 incident, when two plans crashed into two towers of World Trade Center complex in New York city, took place in the year?",
+      "options": {
+        "A": "2000",
+        "B": "2002",
+        "C": "2001",
+        "D": "2003"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Notri dame is in which city",
+      "options": {
+        "A": "Rome",
+        "B": "Paris",
+        "C": "London",
+        "D": "Bern"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "I _____ New Zealand next year.",
+      "options": {
+        "A": "go",
+        "B": "will go",
+        "C": "am going",
+        "D": "am going to"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Little Boy type of bomb, which was dropped on the Japanese city of Hiroshima on",
+      "options": {
+        "A": "6 August 1946",
+        "B": "6 August 1944",
+        "C": "6 August 1941",
+        "D": "6 August 1945"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "International Court of Justice (ICJ) deals cases between :",
+      "options": {
+        "A": "Individuals",
+        "B": "countries",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is credited for discovery of Planetry motion___?",
+      "options": {
+        "A": "Nicolaus Copernicus",
+        "B": "Kepler",
+        "C": "Darwan",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "European Union (EU) founded in the year:",
+      "options": {
+        "A": "1948",
+        "B": "1999",
+        "C": "1993",
+        "D": "1997"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The QUAD in the Indo Pacific is composed of how many countries?",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "4",
+        "D": "3"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "2024 Olympics will be held in which country?",
+      "options": {
+        "A": "London – UK",
+        "B": "Beijing – China",
+        "C": "Paris – France",
+        "D": "Rio_ Brazil"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In 1848 the lord of India was:",
+      "options": {
+        "A": "Charles Canning",
+        "B": "Lord Dalhousie",
+        "C": "Warren Hasting",
+        "D": "Lord Harding"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many seaports are there in Pakistan?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where is the Potala Palace situated?",
+      "options": {
+        "A": "Myanmar",
+        "B": "Thailand",
+        "C": "Russia",
+        "D": "China"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "‘Mariupol’ is the city of which country_______?",
+      "options": {
+        "A": "Russia",
+        "B": "Ukraine",
+        "C": "England",
+        "D": "China"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How much of Earth surface is covered by water----?",
+      "options": {
+        "A": "23%",
+        "B": "83%",
+        "C": "94%",
+        "D": "71%"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The war between Saudi led Rebels and Yemeni govt. started in which year?",
+      "options": {
+        "A": "2020",
+        "B": "2019",
+        "C": "2011",
+        "D": "2000"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "At the time of 1971 War the C-in-C of Pak Army was ?",
+      "options": {
+        "A": "Lt. General Gul Hassan",
+        "B": "General Ayyub Khan",
+        "C": "General Yahya Khan",
+        "D": "General Tikka Khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "____ has decided to register Himalayan pink salt as Geographical Indications (GI) to prevent its unauthorized used by other countries?",
+      "options": {
+        "A": "Nepal",
+        "B": "China",
+        "C": "India",
+        "D": "Pakistan"
+      },
+      "correct": "D"
     }
   ]
 }

@@ -2,6 +2,146 @@
   "name": "PPSC Past Papers all MCQs 2023 of Computer",
   "mcqs": [
     {
+      "question": "Which key is used to create chart from selected data in excel?",
+      "options": {
+        "A": "F10",
+        "B": "F1",
+        "C": "F11",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "RAM stands for ____?",
+      "options": {
+        "A": "Random Access Memory",
+        "B": "Random Access Money",
+        "C": "Random Accurate Memory",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An operating system is a/an _____?",
+      "options": {
+        "A": "Personal software",
+        "B": "System software",
+        "C": "Application software",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Shortcut key of Ctrl + A use for ____?",
+      "options": {
+        "A": "To select all text",
+        "B": "To copy",
+        "C": "To paste",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is called the physical part of computer?",
+      "options": {
+        "A": "Software",
+        "B": "Hardware",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
+      "options": {
+        "A": ".pp",
+        "B": ".xls",
+        "C": ".pptx",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "WAN stands for?",
+      "options": {
+        "A": "Wide Area Network",
+        "B": "Wireless Area Network",
+        "C": "Web Area Network",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "LAN stands for _____?",
+      "options": {
+        "A": "Limited Area Network",
+        "B": "Logical Area Network",
+        "C": "Local Area Network",
+        "D": "Large Area Network"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "BCC stands for _____?",
+      "options": {
+        "A": "Basic Carbon Copy",
+        "B": "Blind Carbon Copy",
+        "C": "Business Carbon Copy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "Cache",
+        "D": "Both A and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "URL has an abbreviation of?",
+      "options": {
+        "A": "Uniform Resource Locator",
+        "B": "Universal Resource Link",
+        "C": "Uniform Reference Link",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which shortcut key inserts a new slide in current presentation?",
+      "options": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "None of above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Excel formula and function start with ____?",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "=",
+        "D": "["
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does HTTP stands for in the context of WWW?",
+      "options": {
+        "A": "Hypertext Transfer Protocol",
+        "B": "Hypertext Transfer Protection",
+        "C": "Hyper Transfer Protocol",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "What is an other name for Junk Email?",
       "options": {
         "A": "Spoof",
@@ -80,16 +220,6 @@
         "D": "Interpreter"
       },
       "correct": "A"
-    },
-    {
-      "question": "In MS Excel formula and function start with ____?",
-      "options": {
-        "A": "+",
-        "B": "-",
-        "C": "=",
-        "D": "["
-      },
-      "correct": "C"
     },
     {
       "question": "What is the shortcut key for a manual line break in MS Word?",
@@ -342,16 +472,6 @@
       "correct": "A"
     },
     {
-      "question": "RAM stands for ____?",
-      "options": {
-        "A": "Random Access Memory",
-        "B": "Random Access Money",
-        "C": "Random Accurate Memory",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which of the following is a single-user system? DOS, Windows, Linux, None of these",
       "options": {
         "A": "DOS",
@@ -412,16 +532,6 @@
       "correct": "A"
     },
     {
-      "question": "Which shortcut key inserts a new slide in current presentation?",
-      "options": {
-        "A": "Ctrl+N",
-        "B": "Ctrl+M",
-        "C": "Ctrl+S",
-        "D": "None of above"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Dot matrix is a type of ____?",
       "options": {
         "A": "Bus",
@@ -472,16 +582,6 @@
       "correct": "A"
     },
     {
-      "question": "An operating system is a/an _____?",
-      "options": {
-        "A": "Personal software",
-        "B": "System software",
-        "C": "Application software",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Who is called the Father of Internet?",
       "options": {
         "A": "Vint Cerf",
@@ -502,42 +602,12 @@
       "correct": "A"
     },
     {
-      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
-      "options": {
-        "A": ".pp",
-        "B": ".xls",
-        "C": ".pptx",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
-      "options": {
-        "A": "RAM",
-        "B": "ROM",
-        "C": "Cache",
-        "D": "Both A and C"
-      },
-      "correct": "D"
-    },
-    {
       "question": "Which key is used to rename a file or folder?",
       "options": {
         "A": "F1",
         "B": "F2",
         "C": "F3",
         "D": "F4"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "BCC stands for _____?",
-      "options": {
-        "A": "Basic Carbon Copy",
-        "B": "Blind Carbon Copy",
-        "C": "Business Carbon Copy",
-        "D": "None of these"
       },
       "correct": "B"
     },
@@ -582,26 +652,6 @@
       "correct": "A"
     },
     {
-      "question": "LAN stands for _____?",
-      "options": {
-        "A": "Limited Area Network",
-        "B": "Logical Area Network",
-        "C": "Local Area Network",
-        "D": "Large Area Network"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Shortcut key of Ctrl + A use for ____?",
-      "options": {
-        "A": "To select all text",
-        "B": "To copy",
-        "C": "To paste",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "WWW stands for ____?",
       "options": {
         "A": "World Whole Web",
@@ -610,16 +660,6 @@
         "D": "World Wide Web"
       },
       "correct": "D"
-    },
-    {
-      "question": "URL has an abbreviation of?",
-      "options": {
-        "A": "Uniform Resource Locator",
-        "B": "Universal Resource Link",
-        "C": "Uniform Reference Link",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "Which of the following is a type of non-volatile storage device that is used to store data permanently, even when the power is turned off?",
@@ -637,16 +677,6 @@
         "A": "Data Bus",
         "B": "Control Bus",
         "C": "Address Bus",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "What does HTTP stands for in the context of WWW?",
-      "options": {
-        "A": "Hypertext Transfer Protocol",
-        "B": "Hypertext Transfer Protection",
-        "C": "Hyper Transfer Protocol",
         "D": "None of these"
       },
       "correct": "A"
@@ -1100,16 +1130,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "WAN stands for__________",
-      "options": {
-        "A": "World area network",
-        "B": "Wide average network",
-        "C": "Wide area network",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "The output shown on the computer monitor is called?",
@@ -1752,16 +1772,6 @@
       "correct": "B"
     },
     {
-      "question": "Which is called the physical part of computer?",
-      "options": {
-        "A": "Software",
-        "B": "Hardware",
-        "C": "Both of these",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "What appears at the bottom of the MS Word Page?",
       "options": {
         "A": "Header",
@@ -2228,16 +2238,6 @@
         "B": "print layout view",
         "C": "Page setup dialog box",
         "D": "none of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Which key is used to create chart from selected data in excel?",
-      "options": {
-        "A": "F10",
-        "B": "F1",
-        "C": "F11",
-        "D": "None of these"
       },
       "correct": "C"
     },

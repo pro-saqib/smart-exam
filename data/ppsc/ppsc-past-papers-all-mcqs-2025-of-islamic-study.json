@@ -2,6 +2,86 @@
   "name": "PPSC Past Papers all MCQs 2025 of Islamic Study",
   "mcqs": [
     {
+      "question": "Which Prophet has been mentioned the most in Holy Quran?",
+      "options": {
+        "A": "Prophet Ibrahim (AS)",
+        "B": "Prophet Musa (AS)",
+        "C": "Prophet Nuh (AS)",
+        "D": "Prophet Essa (AS)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Name the person whose house become the center of preaching of Islam?",
+      "options": {
+        "A": "Hazrat Abu Bakar",
+        "B": "Hazrat Arqam",
+        "C": "Hazrat Usman",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Bait ul Muqadas conquered in the reign of _____?",
+      "options": {
+        "A": "Hazrat Abu Bakar R.A",
+        "B": "Hazrat Umar R.A",
+        "C": "Hazrat Usman R.A",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which was the first battle of Islam?",
+      "options": {
+        "A": "Battle of Badr",
+        "B": "Battle of Uhad",
+        "C": "Battle of Khyber",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which country Mount Judi (Cudi) also known as Mount Qardū exits?",
+      "options": {
+        "A": "Turkey",
+        "B": "Iraq",
+        "C": "Egypt",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where did Prophet Muhammad (PBUH) delivered his last sermon?",
+      "options": {
+        "A": "Arafat",
+        "B": "Mecca",
+        "C": "Madina",
+        "D": "Mina"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name the mother of Hazrat Yousaf (AS)?",
+      "options": {
+        "A": "Nafeesa",
+        "B": "Raheel",
+        "C": "Sara",
+        "D": "Zainab"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was appointed as the first Ameer-e-Hajj in 9 AH (the first Hajj under Islamic rule)?",
+      "options": {
+        "A": "Umar ibn Al-Khattab (RA)",
+        "B": "Abu Bakr As-Siddiq (RA)",
+        "C": "Ali ibn Abi Talib (RA)",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "How many Prophets mentioned in Holy Quran?",
       "options": {
         "A": "25",
@@ -32,16 +112,6 @@
       "correct": "A"
     },
     {
-      "question": "Which was the first battle of Islam?",
-      "options": {
-        "A": "Battle of Badr",
-        "B": "Battle of Uhad",
-        "C": "Battle of Khyber",
-        "D": "None of the above"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which surah is the Preface of the Holy Quran?",
       "options": {
         "A": "Surah Al-Baqarah",
@@ -57,26 +127,6 @@
         "A": "Cave Toor",
         "B": "Cave Hira",
         "C": "Madina Cave",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Which Prophet has been mentioned the most in Holy Quran?",
-      "options": {
-        "A": "Prophet Ibrahim (AS)",
-        "B": "Prophet Musa (AS)",
-        "C": "Prophet Nuh (AS)",
-        "D": "Prophet Essa (AS)"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Who was appointed as the first Ameer-e-Hajj in 9 AH (the first Hajj under Islamic rule)?",
-      "options": {
-        "A": "Umar ibn Al-Khattab (RA)",
-        "B": "Abu Bakr As-Siddiq (RA)",
-        "C": "Ali ibn Abi Talib (RA)",
         "D": "None of these"
       },
       "correct": "B"
@@ -212,16 +262,6 @@
       "correct": "C"
     },
     {
-      "question": "Name the mother of Hazrat Yousaf (AS)?",
-      "options": {
-        "A": "Nafeesa",
-        "B": "Raheel",
-        "C": "Sara",
-        "D": "Zainab"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Who holds the key to Kabba?",
       "options": {
         "A": "Hazrat Usman bin Affan (RA)",
@@ -290,16 +330,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "Where did Prophet Muhammad (PBUH) delivered his last sermon?",
-      "options": {
-        "A": "Arafat",
-        "B": "Mecca",
-        "C": "Madina",
-        "D": "Mina"
-      },
-      "correct": "A"
     },
     {
       "question": "Who was the foster sister of Hazrat Muhammad (PBUH)?",
@@ -442,16 +472,6 @@
       "correct": "C"
     },
     {
-      "question": "Name the person whose house become the center of preaching of Islam?",
-      "options": {
-        "A": "Hazrat Abu Bakar",
-        "B": "Hazrat Arqam",
-        "C": "Hazrat Usman",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Which Sahabi killed his father in a battle of Badr?",
       "options": {
         "A": "Ali ibn Abi Talib",
@@ -500,16 +520,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "In which country Mount Judi (Cudi) also known as Mount Qardū exits?",
-      "options": {
-        "A": "Turkey",
-        "B": "Iraq",
-        "C": "Egypt",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "Who was the first Caliph of Islam?",
@@ -594,9 +604,9 @@
     {
       "question": "Current Hijri Year is ______?",
       "options": {
-        "A": "Turkey",
-        "B": "Iraq",
-        "C": "Egypt",
+        "A": "Hazrat Yousuf (AS)",
+        "B": "Hazrat Adam (A.S)",
+        "C": "Hazrat Musa (A.S)",
         "D": "None of these"
       },
       "correct": "A"
@@ -1470,16 +1480,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Bait ul Muqadas conquered in the reign of _____?",
-      "options": {
-        "A": "Hazrat Abu Bakar R.A",
-        "B": "Hazrat Umar R.A",
-        "C": "Hazrat Usman R.A",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Which companion of Holy Prophet (ﷺ) includes in the scribe of revelation?",

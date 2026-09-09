@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers MCQs 2004 to 2020 of Current Affairs",
   "mcqs": [
     {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "Who is the Current Governor of the State Bank of Pakistan (SBP)?",
       "options": {
         "A": "Dr Reza Baqir",
@@ -70,16 +80,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Who is the current Deputy Speaker of provincial assembly of Punjab?",
@@ -608,6 +608,436 @@
         "B": "AUDI",
         "C": "Ford",
         "D": "Volkswagen"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is Current Secretary General of South Asian Association for Regional Cooperation (SAARC)?",
+      "options": {
+        "A": "Esala Weerakoon",
+        "B": "Golam Sarwar",
+        "C": "Amjad Hussain Sial",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Gomal university is in _____?",
+      "options": {
+        "A": "Dera Ismail Khan",
+        "B": "Peshawar",
+        "C": "Quetta",
+        "D": "Lahore"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Bashar Al Asad is the President of which country?",
+      "options": {
+        "A": "Bhutan",
+        "B": "Palestine",
+        "C": "Syria",
+        "D": "Yemen"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Ambassador of Pakistan to India?",
+      "options": {
+        "A": "Jalil Abbas Jilani",
+        "B": "Muneer Akram",
+        "C": "Saad Ahmad Warraich",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Secretary General of Commonwealth?",
+      "options": {
+        "A": "Patricia scotland",
+        "B": "Margret",
+        "C": "Threasa may",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Recep Tayyip Erdogan is the Prime Minister of ______?",
+      "options": {
+        "A": "Turkey",
+        "B": "Indonesia",
+        "C": "Egypt",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The highest GDP per capita in South Asia is of _____?",
+      "options": {
+        "A": "Maldives",
+        "B": "Sri Lanka",
+        "C": "Pakistan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Prime Minister of Turkey?",
+      "options": {
+        "A": "Ahmet Davutoglu",
+        "B": "Binali",
+        "C": "Tayyip Erdogan",
+        "D": "None of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "India and Pakistan are making a bid for membership of NSG. What does NSG stand for?",
+      "options": {
+        "A": "Nuclear Suppliers Group",
+        "B": "Nuclear Support Group",
+        "C": "Nuclear Strategic Group",
+        "D": "Non-Nuclear Suppliers Group"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "International Day against Nuclear Tests (Anti-Nuclear Day) is observed on which date?",
+      "options": {
+        "A": "August 28",
+        "B": "August 29",
+        "C": "August 30",
+        "D": "August 31"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Federal Tax Ombudsman (FTO) of Pakistan?",
+      "options": {
+        "A": "Justice (R) Allah Nawaz",
+        "B": "Dr Asif Mahmood Jah",
+        "C": "Justice (R) Saleem Akhtar",
+        "D": "Muhammad Zafar-ul-Haq Hijazi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is the chief executive of Islamic Republic of Afghanistan?",
+      "options": {
+        "A": "Ashraf Ghani",
+        "B": "Abudllah Abdullah",
+        "C": "Salahuddin Rubbani",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Chief Justice of Lahore High Court?",
+      "options": {
+        "A": "Justice Tahira Safdar",
+        "B": "Justice Ayesha Malik",
+        "C": "Justice Aalia Neelum",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "حفیظ جالندھری کے شاہنامہ کی کتنی جلدیں ہیں؟",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Chief justice of the Supreme Court of Pakistan?",
+      "options": {
+        "A": "Justice Anwar Zaheer Jamali",
+        "B": "Justice Asif Saeed Khosa",
+        "C": "Yahya Afridi",
+        "D": "Justice Asif Saeed Khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the designation of António Guterres in UN?",
+      "options": {
+        "A": "Head of UN",
+        "B": "President of UN",
+        "C": "Secretary General of UN",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country has recently regained the right to vote in the United Nations general assembly?",
+      "options": {
+        "A": "Montenegro",
+        "B": "South Sudan",
+        "C": "Switzerland",
+        "D": "East Timor"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which Province in Pakistan has largest death rate due to COVID-19?",
+      "options": {
+        "A": "KPK",
+        "B": "Balochistan",
+        "C": "Sindh",
+        "D": "Punjab"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The 18th Non-Aligned Movement summit Conference was held in 25 and 26 October, 2019 in ____?",
+      "options": {
+        "A": "Egypt",
+        "B": "Brazil",
+        "C": "Indonesia",
+        "D": "Azerbaijan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is the head of Pakistan Atomic Energy Commission?",
+      "options": {
+        "A": "Muhammad Naeem",
+        "B": "Dr. Anwar Shah",
+        "C": "Raja Ali Raza Anwar",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "About 25 million child marriages have been prevented in the past decade, reported in March, 2018 by ____?",
+      "options": {
+        "A": "UNESCO",
+        "B": "UNFP",
+        "C": "UNICEF",
+        "D": "UNFCR"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the GDP of Pakistan in US Dollars?",
+      "options": {
+        "A": "$338.2 billion",
+        "B": "$339.2 billion",
+        "C": "$340.2 billion",
+        "D": "$341.2 billion"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Russian President Putin has been elected for the period of ____?",
+      "options": {
+        "A": "6 years",
+        "B": "5 years",
+        "C": "4 years",
+        "D": "3 years"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Blind Cricket World Cup 2018 was hosted by which country?",
+      "options": {
+        "A": "UAE",
+        "B": "Pakistan",
+        "C": "Both A and B",
+        "D": "India"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Special Assistant to the Prime Minister on Human Rights?",
+      "options": {
+        "A": "Mushaal Hussein Mullick",
+        "B": "Shireen Mazari",
+        "C": "Dr. Shazia Marri",
+        "D": "Fawad Chaudhry"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Coach of the Pakistan Hockey Team?",
+      "options": {
+        "A": "Shahnaz Shaikh",
+        "B": "Hassan Sardar",
+        "C": "Muhammad Saqlain",
+        "D": "Tahir Zaman"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Five Star Movement was the leading political party in the general election 2018 held in _____?",
+      "options": {
+        "A": "France",
+        "B": "German",
+        "C": "Italy",
+        "D": "Britain"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "According to the GFP, India currently spends $51 billion on the military, which is more than what Pakistan does more by _____?",
+      "options": {
+        "A": "8 time",
+        "B": "7 time",
+        "C": "6 time",
+        "D": "5 time"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Brexit Referendum official took place?",
+      "options": {
+        "A": "January 31,2020",
+        "B": "February 12,2021",
+        "C": "January 13, 2020",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "After the death of Mullah Akhtar Muhammad Mansur who has been chosen as their Leader by the Taliban?",
+      "options": {
+        "A": "Mullah Fazlullah",
+        "B": "Maulvi Haibatullah Akhundzada",
+        "C": "Sirajuddin Haqqani",
+        "D": "Zabihullah Mujahid"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Recently Panama Papers have been in the news Please name the firm from whose database millions of files were leaked to the media?",
+      "options": {
+        "A": "Mossack Fonseca",
+        "B": "Leblano and Williams",
+        "C": "Goldman Sachs",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan has been elected non permanent member of UN Security Council for the 8th times from___?",
+      "options": {
+        "A": "2024-25",
+        "B": "2026-27",
+        "C": "2025-26",
+        "D": "2027-28"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "On 1st January, 2024, Nagorno-Karabakh region will become the part of which country?",
+      "options": {
+        "A": "Armenia",
+        "B": "Azerbaijan",
+        "C": "Turkey",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Kosovo got independence from which country?",
+      "options": {
+        "A": "Norway",
+        "B": "France",
+        "C": "Serbia",
+        "D": "Denmark"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the current chairman of the Pakistan Cricket Board (PCB)?",
+      "options": {
+        "A": "Ramiz Raja",
+        "B": "Ehsan Mani",
+        "C": "Najam Sethi",
+        "D": "Syed Mohsin Naqvi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "labour When did Saudi Arabia celebrate its first Flag Day?",
+      "options": {
+        "A": "10 March 2023",
+        "B": "10 March 2023",
+        "C": "13 March 2023",
+        "D": "11 March 2023"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The summit of BRICS in 2016 was hosted by the country:",
+      "options": {
+        "A": "China",
+        "B": "Brazil",
+        "C": "India",
+        "D": "Pakistan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Memogate controversy is also called?",
+      "options": {
+        "A": "Mullen memo controversy",
+        "B": "Pakistan memo controversy",
+        "C": "Dawn memo controversy",
+        "D": "Haqani memo controversy"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "PM Imran Khan announced zero tax for IT freelancers on:",
+      "options": {
+        "A": "February 21, 2019",
+        "B": "February 21, 2020",
+        "C": "February 21, 2021",
+        "D": "February 21, 2022"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "____________, 22-Year-Old Who Made History as Youngest Inaugural Poet in US?",
+      "options": {
+        "A": "Jill Biden",
+        "B": "Kamala Harris",
+        "C": "Amanda Gorman",
+        "D": "Ariana Grande"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "U.S House presents bill to terminate ___________ designation as Major non-NATO Ally?",
+      "options": {
+        "A": "Pakistan",
+        "B": "Afghistan",
+        "C": "Brazil",
+        "D": "Iraq"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Keith Rowley has recently become the prime minister of which country?",
+      "options": {
+        "A": "Laos",
+        "B": "Argentina",
+        "C": "Denmark",
+        "D": "Trinidad and Tobago"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In March 2024, five Chinese among six people killed in suicide attack in which district of KPK?",
+      "options": {
+        "A": "Attock",
+        "B": "Swat",
+        "C": "Mansehra",
+        "D": "Shangla"
       },
       "correct": "D"
     }

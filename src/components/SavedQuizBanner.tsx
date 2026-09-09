@@ -22,12 +22,46 @@ export function SavedQuizBanner() {
     : null;
 
   const handleResume = () => {
-    // Navigate to the correct route based on the saved quiz
+    // 1. If explicit route metadata is saved, use it
+    if (savedQuiz.routePath === "/practice") {
+      navigate({
+        to: "/practice",
+        search: { resume: true, ...(savedQuiz.routeSearch || {}) },
+      });
+      return;
+    }
+
+    if (savedQuiz.routePath === "/quiz/$subjectId" && savedQuiz.routeParams?.subjectId) {
+      navigate({
+        to: "/quiz/$subjectId",
+        params: { subjectId: savedQuiz.routeParams.subjectId },
+        search: (savedQuiz.routeSearch || {}) as any,
+      });
+      return;
+    }
+
+    // 2. Fallback parsing for legacy saved states
+    if (savedQuiz.subjectId.startsWith("practice_") || savedQuiz.mode?.toLowerCase().includes("practice")) {
+      navigate({ to: "/practice", search: { resume: true } });
+      return;
+    }
+
+    if (savedQuiz.subjectId.includes("_paper_")) {
+      const [subjId, paperStr] = savedQuiz.subjectId.split("_paper_");
+      navigate({
+        to: "/quiz/$subjectId",
+        params: { subjectId: subjId },
+        search: { paper: Number(paperStr) } as any,
+      });
+      return;
+    }
+
     if (savedQuiz.subjectId && savedQuiz.subjectId !== "all") {
       navigate({ to: "/quiz/$subjectId", params: { subjectId: savedQuiz.subjectId } });
-    } else {
-      navigate({ to: "/practice", search: { resume: true } });
+      return;
     }
+
+    navigate({ to: "/practice", search: { resume: true } });
   };
 
   const modeLabel = savedQuiz.mode && savedQuiz.mode !== savedQuiz.subjectName ? savedQuiz.mode : "Quiz";
@@ -44,7 +78,7 @@ export function SavedQuizBanner() {
             <span className="font-medium">{modeLabel}</span>
             <span className="text-muted-foreground">&middot;</span>
             <span className="flex items-center gap-1.5 text-muted-foreground">
-              <BookOpen className="size-3.5" /> {savedQuiz.subjectName}
+              <BookOpen className="size-3.5" /> {savedQuiz.subjectName || "Subject"}
             </span>
             {remaining !== null && (
               <>
@@ -52,6 +86,10 @@ export function SavedQuizBanner() {
                 <span className="text-muted-foreground">{fmtTime(remaining)} left</span>
               </>
             )}
+            <span className="text-muted-foreground">&middot;</span>
+            <span className="text-xs text-muted-foreground">
+              {answered} of {totalQuestions} answered
+            </span>
           </div>
           <div className="mt-2 h-1.5 rounded-full bg-muted overflow-hidden max-w-xs">
             <div

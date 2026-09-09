@@ -2,6 +2,46 @@
   "name": "PPSC Past Papers all MCQs 2022 of Islamic Study",
   "mcqs": [
     {
+      "question": "The shortest Surah of the Holy Quran is _____?",
+      "options": {
+        "A": "Kausar",
+        "B": "Asr",
+        "C": "Ikhlas",
+        "D": "Falaq"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When did the Holy Prophet (SAW) performed Hajjatul-Wada (Farewell (Last) Sermon)?",
+      "options": {
+        "A": "10 AH (632 AD)",
+        "B": "9 AH (631 AD)",
+        "C": "8 AH (630 AD)",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Bait ul Muqadas conquered in the reign of _____?",
+      "options": {
+        "A": "Hazrat Abu Bakar R.A",
+        "B": "Hazrat Umar R.A",
+        "C": "Hazrat Usman R.A",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What was the relation between Prophet Ismail (A.S) and Prophet Ishaq (A.S)?",
+      "options": {
+        "A": "Brothers",
+        "B": "Cousins",
+        "C": "Prophet Ishaq (A.S) was father of Prophet Ismail (A.S)",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Battle in which Holy Prophet ﷺ not participated is known as ______?",
       "options": {
         "A": "Jaziya",
@@ -82,16 +122,6 @@
       "correct": "A"
     },
     {
-      "question": "When did the Holy Prophet (SAW) performed Hajjatul-Wada (Farewell (Last) Sermon)?",
-      "options": {
-        "A": "10 AH (632 AD)",
-        "B": "9 AH (631 AD)",
-        "C": "8 AH (630 AD)",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which surah is known as the Heart of Holy Quran?",
       "options": {
         "A": "Surah Yaseen",
@@ -140,16 +170,6 @@
         "D": "None of the above"
       },
       "correct": "B"
-    },
-    {
-      "question": "What was the relation between Prophet Ismail (A.S) and Prophet Ishaq (A.S)?",
-      "options": {
-        "A": "Brothers",
-        "B": "Cousins",
-        "C": "Prophet Ishaq (A.S) was father of Prophet Ismail (A.S)",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "How many Heads/Masarifs of Zakat?",
@@ -224,12 +244,12 @@
     {
       "question": "Current Hijri Year is ______(Click)?",
       "options": {
-        "A": "701 A.D",
-        "B": "711 A.D",
-        "C": "717 A.D",
-        "D": "727 A.D"
+        "A": "7.5 tola",
+        "B": "8 tola",
+        "C": "5 tola",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "\"Al-Risalah\" on Usul-ul-Fiqh was written by?",
@@ -310,6 +330,1006 @@
         "D": "Quraish"
       },
       "correct": "D"
+    },
+    {
+      "question": "When was Zakat made compulsory?",
+      "options": {
+        "A": "5 AH",
+        "B": "3 AH",
+        "C": "2 AH",
+        "D": "4AH"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Zakat become obligatory?",
+      "options": {
+        "A": "2 AH",
+        "B": "4 AH",
+        "C": "5 AH",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hijri calendar was started in :",
+      "options": {
+        "A": "623AD",
+        "B": "622AD",
+        "C": "628AD",
+        "D": "630AD"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Current Hijri Year is ______?",
+      "options": {
+        "A": "Hazrat Ayesha",
+        "B": "Umm e Habiba",
+        "C": "Hazrat Maria",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pious-Caliphate lasted for about:__________ Years?",
+      "options": {
+        "A": "30 years",
+        "B": "40 years",
+        "C": "50 years",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which surah is known to as Uroos ul Quran?",
+      "options": {
+        "A": "Surah Yaseen",
+        "B": "Surah Fatiha",
+        "C": "Surah Rehman",
+        "D": "Surah Mulk"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which wife of the Holy Prophet (SAW) was a scholar?",
+      "options": {
+        "A": "Hazrat Khadija (R.A)",
+        "B": "Hazrat Ayesha (R.A)",
+        "C": "Hazrat Hafsa (R.A)",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is Sahihain:",
+      "options": {
+        "A": "Bukhari and Muslim",
+        "B": "Bukhari",
+        "C": "Mishkat",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which book compiled by Ahmad Bin Shoaib?",
+      "options": {
+        "A": "Al Nisai",
+        "B": "Al Bukhari",
+        "C": "Ibn e Maja",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was Baitul Muqaddas conquered during Rashidun Caliphate?",
+      "options": {
+        "A": "635 AD (13th Hijir)",
+        "B": "636 AD (14th Hijri)",
+        "C": "637 AD (15th Hijri)",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Al Aqsa Mosque located in _______?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Turkey",
+        "C": "Spain",
+        "D": "Jerusalem"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who accompanied the Holy Prophet (PBUH) in the Cave of Saur?",
+      "options": {
+        "A": "Hazrat Ali (RA)",
+        "B": "Hazrat Umar (RA)",
+        "C": "Hazrat Abu Bakr (RA)",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many days Hazrat Muhammad (SAW) stayed at Ghar-e-Saur?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which two books are called Sahihain?",
+      "options": {
+        "A": "Bukhari & Muslim",
+        "B": "Muta & Muslim",
+        "C": "Ibn Maja & Muslim",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hazrat Umar (RA) tenure of Khilafat was _____?",
+      "options": {
+        "A": "4 years 5 month",
+        "B": "7 years 5 month",
+        "C": "10 years 5 month",
+        "D": "12 years 5 month"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many Angels participated in the Battle of Badr?",
+      "options": {
+        "A": "1000",
+        "B": "32",
+        "C": "13",
+        "D": "20"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which companion narrated the most number of Hadith?",
+      "options": {
+        "A": "Hazrat Umar (R.A)",
+        "B": "Hazrat Abu Bakr (R.A)",
+        "C": "Hazrat Anas Bin Malik (R.A)",
+        "D": "Hazrat Abu Hurairah (R.A)"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Hazrat Ayesha (R. A) has narrated about how many Ahadith of the Holy Prophet ﷺ?",
+      "options": {
+        "A": "2400",
+        "B": "2210",
+        "C": "2200",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In surah Kahf, which animal is mentioned along with the Ashaab-e-Kahf?",
+      "options": {
+        "A": "Horse",
+        "B": "Cat",
+        "C": "Dog",
+        "D": "Woodpecker"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The minimum amount of Zakat is _____?",
+      "options": {
+        "A": "52.5 Silver",
+        "B": "7.5 Gold",
+        "C": "Equal to nisab",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Rashidun Caliphate lasted for ______?",
+      "options": {
+        "A": "30 years",
+        "B": "40 years",
+        "C": "50 years",
+        "D": "10 years"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hadith-e-Taqriri means hadith which?",
+      "options": {
+        "A": "Include some statement or acts of some of the companions of Prophet Muhammad SAW",
+        "B": "It is not attributed to Prophet SAW directly",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The tax collected from prisoner is called _____?",
+      "options": {
+        "A": "Jizya",
+        "B": "Fidya",
+        "C": "Ashar",
+        "D": "None of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Name the woman, after Hazrat Khadija (RA) who embraced Islam?",
+      "options": {
+        "A": "Hazrat Labala bint Haris",
+        "B": "Hazrat Ayesha",
+        "C": "Umm e Habiba",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Qazaf is ______?",
+      "options": {
+        "A": "Clause in Islam",
+        "B": "Constitutional law",
+        "C": "Shariat Law",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which event marks the beginning of Islamic Hijri calendar?",
+      "options": {
+        "A": "At the conquest of Makkah",
+        "B": "Prophet Muhammad Hijrat to Madina",
+        "C": "The birth of Prophet Muhammad",
+        "D": "At the time of Sulah Hudaibia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Hazrat Abu Bakr (R.A) was elected as caliph at which place?",
+      "options": {
+        "A": "Saqifah Bani Saedah",
+        "B": "Masjid Al-Haram",
+        "C": "Masjid Al-Nabvi",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name the sister of Hazrat Umar (R.A.) who first accepted Islam?",
+      "options": {
+        "A": "Khadija",
+        "B": "Fatima",
+        "C": "Ayesha",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What was the title of Al-Farabi?",
+      "options": {
+        "A": "The Second Teacher",
+        "B": "The Philosopher",
+        "C": "The First Arab Philosopher",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Imam Muhammad bin Ismail al-Bukhari wrote which book of hadith?",
+      "options": {
+        "A": "Abu dawood",
+        "B": "Tirmizi",
+        "C": "Sahih Bukhari",
+        "D": "Sahih Muslim"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "حضرت موسی نے کس بادشاہ کے گھر پر پرورش پائی؟",
+      "options": {
+        "A": "نمرود",
+        "B": "کاران",
+        "C": "فرعون",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "کون سی قوم حضرت جبرائیل علیہ السلام کی سب سے بڑی مخالف ہے؟",
+      "options": {
+        "A": "یہودی",
+        "B": "ہندو",
+        "C": "عیسائی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "بنو قنیقاع اور بنو قریظہ کس کے قبیلے تھے ؟",
+      "options": {
+        "A": "عیسائیوں کے",
+        "B": "یہودیوں کے",
+        "C": "ہندووں کے",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which gift by Allah to Holy Prophet (PBUH) during Miraj?",
+      "options": {
+        "A": "Roza",
+        "B": "Namaz",
+        "C": "Hajj",
+        "D": "Zakat"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who wrote Ar-Resala?",
+      "options": {
+        "A": "Imam Abu Hanifa",
+        "B": "Imam Malik",
+        "C": "Imam Shafi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ziarat-e-Tawaf is _____?",
+      "options": {
+        "A": "Faraz",
+        "B": "Wajib",
+        "C": "Nafli",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When a Sahabi did something and Holy Prophet (SAW) did not say anything upon it, this Hadith Sharif is called _____?",
+      "options": {
+        "A": "Hadees-e-Marfu",
+        "B": "Hadees-e-Qudsi",
+        "C": "Hadees-e-Taqriri",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the meaning of Shahadat?",
+      "options": {
+        "A": "Penitence",
+        "B": "Glorification",
+        "C": "Testimony",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who compiled Hazrat Abu Hurairah (R.A) fatawa?",
+      "options": {
+        "A": "Taqi al-Din al-Subki",
+        "B": "Imam Bukhari",
+        "C": "Imam Abu Hanifa",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Imam Ghazali died?",
+      "options": {
+        "A": "503 Hijri",
+        "B": "500 Hijri",
+        "C": "505 Hijri",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which Surah of the Quran has the name “Allah” in every single verse?",
+      "options": {
+        "A": "Surah Al-Ikhlas [112]",
+        "B": "Surah Al-Mujadila [58]",
+        "C": "Surah Muhammad [47]",
+        "D": "Surah Al-Fatihah [1]"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does the word Dandy mean?",
+      "options": {
+        "A": "A messy person",
+        "B": "A fashionable man",
+        "C": "A lazy worker",
+        "D": "A strong fighter"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Last decade of Ramzan is known as?",
+      "options": {
+        "A": "Freedom from hell",
+        "B": "Kindness",
+        "C": "Forgiveness",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "کونسی سورت کا اختتام دعا پر ہوتا ہے؟",
+      "options": {
+        "A": "سورت البقرہ",
+        "B": "النصر",
+        "C": "المعائدہ",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ذکر کے لغوی معنی کیا ہیں؟",
+      "options": {
+        "A": "یاد کرنا",
+        "B": "پکارنا",
+        "C": "تسبیح پڑھنا",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "غزوہ تبوک پر جاتے ھوئے آپ ﷺ نیابت کس کو دے گے؟",
+      "options": {
+        "A": "حضرت عمر",
+        "B": "حضرت سعد بن ابی وقاص",
+        "C": "حضرت علی",
+        "D": "ان میں کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "امام ابو حنیفہ کہاں دفن ہیں؟",
+      "options": {
+        "A": "مکہ مکرمہ",
+        "B": "مدینہ",
+        "C": "عراق",
+        "D": "بغداد"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "حضرت ام حبیبہ کس صحابی کی بہن تھی؟",
+      "options": {
+        "A": "حضرت امیر معاویہ",
+        "B": "حضرت عکرمہ",
+        "C": "حضرت زبیر",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "حضرت ابو بکر کی نماز جنازہ کس نے پڑھائی؟",
+      "options": {
+        "A": "حضرت عمر",
+        "B": "حضرت علی",
+        "C": "حضرت عثمان",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "حضرت حفصہ کس صحابی کی بیٹی تھی؟",
+      "options": {
+        "A": "حضرت عمر",
+        "B": "حضرت علی",
+        "C": "حضرت ابوبکر",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "حضرت صالح کی قوم کا کیا نام ہے؟",
+      "options": {
+        "A": "ثمود",
+        "B": "تالمود",
+        "C": "دونوں",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which companion of Holy Prophet (ﷺ) includes in the scribe of revelation?",
+      "options": {
+        "A": "Hazrat Usman RA",
+        "B": "Hazrat Zaid Ibn Sabit RA",
+        "C": "Hazrat Abdullah Bin Masood RA",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When Hazrat Umar R.A captured Jerusalem for the first time?",
+      "options": {
+        "A": "640 CE",
+        "B": "638 CE",
+        "C": "642 CE",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which book written by The book attributed to Hazrat Ali R.A?",
+      "options": {
+        "A": "Nehjul Balagha",
+        "B": "Siah Bukhari",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who admired Muslim efforts for save Ahadith?",
+      "options": {
+        "A": "AJ Springer",
+        "B": "Haiti",
+        "C": "W. Montgomery Watt",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Before Islam Friday was called _____?",
+      "options": {
+        "A": "یومالفرقان",
+        "B": "یوم العروبہ",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which animal was residing with the As'hab e Kahaf?",
+      "options": {
+        "A": "Camel",
+        "B": "Donkey",
+        "C": "Dog",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who has narrated the most Hadith in females?",
+      "options": {
+        "A": "Hazrat Ayesha R.A",
+        "B": "Hazrat Zainab R.A",
+        "C": "Hazrat Qulsoom R.A",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the name of wife of Abu Jahal?",
+      "options": {
+        "A": "Umm Jamil",
+        "B": "Maabad Bint Zirara",
+        "C": "Umm Hakam",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Words of Allah said by Muhammad PBUH is known as Hadith _____?",
+      "options": {
+        "A": "Quali",
+        "B": "By act",
+        "C": "Qudasi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Whose birth year is 150 AH, when Imam Abu Hanifa died?",
+      "options": {
+        "A": "Imam Malik",
+        "B": "Imam Humbal",
+        "C": "Imam Shafi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "According to the Holy Quran, there are ______ recipients of “Zakat”.",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The last fight against Persian in Hazrat Umar (R.A) _______?",
+      "options": {
+        "A": "Bewaib",
+        "B": "Yermouk",
+        "C": "Nihawand",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Al-Fozul Kabir is written by ____?",
+      "options": {
+        "A": "Qutubuddin Ahmad Siddiqui",
+        "B": "Shah Wali Ullah",
+        "C": "Qutubuddin Ahmad Faruqi",
+        "D": "Qutubuddin Fareed"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which book wrote by Imam Ghazali?",
+      "options": {
+        "A": "Hujjat-ul-Baligha",
+        "B": "Al-Fouz-ul-Kabeer",
+        "C": "Ahya Al-Uloom",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The word uttered before Namaz is called ____?",
+      "options": {
+        "A": "Tashhad",
+        "B": "Takbeer-e-Tahreema",
+        "C": "Azan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which battle was Abdullah Bin Abi Bakr R.A with his soldiers martyred?",
+      "options": {
+        "A": "Ghazwa e Badr",
+        "B": "Ghazwa e Uhad",
+        "C": "Ghazwa e Hunain",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Hazrat Ume Kalsoom RA died?",
+      "options": {
+        "A": "628",
+        "B": "630",
+        "C": "631",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Muslim thinker's category economy as ______?",
+      "options": {
+        "A": "Islamic economy",
+        "B": "Political economy",
+        "C": "Household economy",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "According to the teachings of Quran how many witnesses are required for the financial affairs of transaction?",
+      "options": {
+        "A": "Two Men",
+        "B": "Two Men and Two Women",
+        "C": "One Female and One Male",
+        "D": "4 Men"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "During Which prayer, the change of Qibla happened?",
+      "options": {
+        "A": "Asar",
+        "B": "Zuhr",
+        "C": "Fajar",
+        "D": "Magrib"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which Surah of the Holy Quran, the regulations for prisoners of war mentioned?",
+      "options": {
+        "A": "Surah Nisa",
+        "B": "Surah Al- Imran",
+        "C": "Surah Baqara",
+        "D": "Surah Insan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first writer of “Wahi” in Quraish?",
+      "options": {
+        "A": "Harat Abdul Rahman bin Auf (RA)",
+        "B": "Hazrat Zaid bin Sabit (RA)",
+        "C": "Hazrat Abdulla bin Zubair (RA)",
+        "D": "Hazrat Ibn Masuod (RA)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "First time In which language Quran was translated",
+      "options": {
+        "A": "Persian",
+        "B": "Greek Latin",
+        "C": "Latin",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who ruled Ottoman Turkey in the 16th century?",
+      "options": {
+        "A": "Mehmat",
+        "B": "Selim",
+        "C": "Usman",
+        "D": "Suleiman"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Name the first non-Arab Muslim who accepted Islam first?",
+      "options": {
+        "A": "Hazrat Usamah Bin Zaid RA",
+        "B": "Hazrat Farwah Bin Umro Al Jazami RA",
+        "C": "Hazrat Awais Qarni RA",
+        "D": "Hazrat Bilal Habshi RA"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Battle of Badr was ___ battle of Islam ?",
+      "options": {
+        "A": "second",
+        "B": "first",
+        "C": "third",
+        "D": "none of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Banu Abbas Khilafat ended in which hijri ?",
+      "options": {
+        "A": "656 hijri",
+        "B": "658 hijri",
+        "C": "660 Hijri",
+        "D": "666 hijri"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Tawaf Al-Qudum is_____?",
+      "options": {
+        "A": "Wajib",
+        "B": "Farz",
+        "C": "Nafil",
+        "D": "Sunnat"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Muhammad bin Ismail Bukhari is the author of:",
+      "options": {
+        "A": "Ibn e Maja",
+        "B": "Sahih Muslim",
+        "C": "Abu Dawood",
+        "D": "Sahih Bukhari"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the second name of battle of Badr?",
+      "options": {
+        "A": "Azab",
+        "B": "Furqan",
+        "C": "Uhad",
+        "D": "Quran"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which Surah of Holy Quran is about Orphans?",
+      "options": {
+        "A": "Surah al Nisa",
+        "B": "Surah Al Naml",
+        "C": "Surah Al Naas",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which companion of Holy Prophet (SAAW) recite verse of Holy Quran at the presence of Najjashi?",
+      "options": {
+        "A": "Hazrat Ali",
+        "B": "Hazrat Umar",
+        "C": "Hazrat Jaffar Tyar",
+        "D": "Hazrat Zaid bin Haris"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Six Books of Hadith are known as ___________?",
+      "options": {
+        "A": "Kutub e Arbaa",
+        "B": "Arbaʽeen",
+        "C": "Usul e Sitta",
+        "D": "Siha e Sitta"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A book on collection of Ahadis of Sahih Bukhari is",
+      "options": {
+        "A": "Imam bukhari",
+        "B": "Imam malik",
+        "C": "Imam Abu Hanifa",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the leader of kufar in Ghazwa Uhad?",
+      "options": {
+        "A": "Abu jhal",
+        "B": "Abu lhab",
+        "C": "Abu Sufyan",
+        "D": "All"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which prophet is famous in the name of Sahibul hooth?",
+      "options": {
+        "A": "Hazrat Nooh",
+        "B": "Hazrat Younus",
+        "C": "Hazrat Dawood",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "سو اونٹ کی دیت کس سے روایت ھے جسے نبی ﷺنے برقرار رکھا؟",
+      "options": {
+        "A": "عبدالمطلب",
+        "B": "ہاشم بن مناف",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "حضرت زید بن حارث کا نام کس سورہ میں آیا ہے؟",
+      "options": {
+        "A": "سورۃ المائدہ",
+        "B": "سورۃ النساء.",
+        "C": "سورۃ الحجرات.",
+        "D": "سورۃ الاحزاب"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "زکر کے لغوی معنی کیا ھیں",
+      "options": {
+        "A": "اللہ اللہ کرنا",
+        "B": "اللہ کو بہت زیادہ یاد کرنا",
+        "C": "یاد کرنا",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "ابو جعفر طوسی کی کونسی تالیف ھے.....",
+      "options": {
+        "A": "سنن ابن ماجہ",
+        "B": "الابتصار",
+        "C": "فقیہ السلام",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Share of daughter’(s) if both son’s & daughters exist, then",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "2:1",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Hazrat Abu Hurairah R.A wrote narrations of _____ Ahadis?",
+      "options": {
+        "A": "5478",
+        "B": "5374",
+        "C": "4282",
+        "D": "7354"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who raised the flag in Ghazwa for the first time?",
+      "options": {
+        "A": "Hazrat Umar (رضہ)",
+        "B": "Hazrat abu Salman (رضہ)",
+        "C": "Hazrat Hamza (رضہ)",
+        "D": "Hazrat Saad bin Maaz (رضہ)"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which Islamic country has became the first Arab country to launch mission on Mars?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Iran",
+        "C": "United Arab Emirates",
+        "D": "Iraq"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "منہ بولے بیٹے کا زکر کس سورت میں آیا ھے",
+      "options": {
+        "A": "سورت البقرہ",
+        "B": "سورت الاحزاب",
+        "C": "سورت القریش",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many times Name Ahmed repeated in Quran?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Treaty of hudybiyyah for how many years?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first Charter of Human Rights is?",
+      "options": {
+        "A": "U.N. Charter",
+        "B": "International Charter",
+        "C": "French Constitution",
+        "D": "Khutba-Hajjat-ul-Vida"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "To stay in which ground is the major part of Hajj?",
+      "options": {
+        "A": "Arafaat",
+        "B": "Mina",
+        "C": "Muzdalfa",
+        "D": "None"
+      },
+      "correct": "A"
     }
   ]
 }

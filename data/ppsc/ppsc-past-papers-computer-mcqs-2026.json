@@ -2,6 +2,146 @@
   "name": "PPSC Past Papers Computer MCQs 2026",
   "mcqs": [
     {
+      "question": "RAM stands for ____?",
+      "options": {
+        "A": "Random Access Memory",
+        "B": "Random Access Money",
+        "C": "Random Accurate Memory",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The shortcut key Ctrl + C in MS Word is used for?",
+      "options": {
+        "A": "Copy command",
+        "B": "Cut command",
+        "C": "Paste command",
+        "D": "Bold command"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In MS Word default alignment for a paragraph is _____?",
+      "options": {
+        "A": "Left alignment",
+        "B": "Right alignment",
+        "C": "Centered alignment",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ROM stands for _____?",
+      "options": {
+        "A": "Random Only Memory",
+        "B": "Read Only Memory",
+        "C": "Read Only Meaning",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
+      "options": {
+        "A": ".pp",
+        "B": ".xls",
+        "C": ".pptx",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A collection of related data is called ____?",
+      "options": {
+        "A": "Database",
+        "B": "Software",
+        "C": "Hardware",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Email is used for?",
+      "options": {
+        "A": "Sending electronic messages",
+        "B": "Browsing websites",
+        "C": "Editing images",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "Cache",
+        "D": "Both A and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
+      "options": {
+        "A": "Tom Burne",
+        "B": "Tim Burner Lee",
+        "C": "Fred Zuckerberg",
+        "D": "Both a and b"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CTRL + S is the shortcut key for?",
+      "options": {
+        "A": "New",
+        "B": "Bold",
+        "C": "Save",
+        "D": "Copy"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Email stands for?",
+      "options": {
+        "A": "Easy mail",
+        "B": "Electronic mail",
+        "C": "Electric mail",
+        "D": "Eye mail"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How long is an IPv4?",
+      "options": {
+        "A": "64 bits",
+        "B": "48 bits",
+        "C": "32 bits",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which shortcut key inserts a new slide in current presentation?",
+      "options": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "None of above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Excel formula and function start with ____?",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "=",
+        "D": "["
+      },
+      "correct": "C"
+    },
+    {
       "question": "In MS PowerPoint we press _____ key to start slideshow from current slide.",
       "options": {
         "A": "F5",
@@ -230,16 +370,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "The shortcut key Ctrl + C in MS Word is used for?",
-      "options": {
-        "A": "Copy command",
-        "B": "Cut command",
-        "C": "Paste command",
-        "D": "Bold command"
-      },
-      "correct": "A"
     },
     {
       "question": "By default we can save the file in ______?",
@@ -620,16 +750,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "In MS Excel formula and function start with ____?",
-      "options": {
-        "A": "+",
-        "B": "-",
-        "C": "=",
-        "D": "["
-      },
-      "correct": "C"
     },
     {
       "question": "What is the shortcut key for a manual line break in MS Word?",
@@ -1102,16 +1222,6 @@
       "correct": "B"
     },
     {
-      "question": "CTRL + S is the shortcut key for?",
-      "options": {
-        "A": "New",
-        "B": "Bold",
-        "C": "Save",
-        "D": "Copy"
-      },
-      "correct": "C"
-    },
-    {
       "question": "CMS in web development stands for?",
       "options": {
         "A": "Computer Management System",
@@ -1130,16 +1240,6 @@
         "D": "Outline view"
       },
       "correct": "C"
-    },
-    {
-      "question": "A collection of related data is called ____?",
-      "options": {
-        "A": "Database",
-        "B": "Software",
-        "C": "Hardware",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "How can you insert a page break in Microsoft Word?",
@@ -1170,16 +1270,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "ROM stands for _____?",
-      "options": {
-        "A": "Random Only Memory",
-        "B": "Read Only Memory",
-        "C": "Read Only Meaning",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "ICT stands for _____?",
@@ -1362,16 +1452,6 @@
       "correct": "A"
     },
     {
-      "question": "RAM stands for ____?",
-      "options": {
-        "A": "Random Access Memory",
-        "B": "Random Access Money",
-        "C": "Random Accurate Memory",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which of the following is a single-user system? DOS, Windows, Linux, None of these",
       "options": {
         "A": "DOS",
@@ -1440,16 +1520,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Which shortcut key inserts a new slide in current presentation?",
-      "options": {
-        "A": "Ctrl+N",
-        "B": "Ctrl+M",
-        "C": "Ctrl+S",
-        "D": "None of above"
-      },
-      "correct": "B"
     },
     {
       "question": "Why do binary digits need more space?",
@@ -1782,32 +1852,12 @@
       "correct": "A"
     },
     {
-      "question": "Email is used for?",
-      "options": {
-        "A": "Sending electronic messages",
-        "B": "Browsing websites",
-        "C": "Editing images",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which view is used to sort and rearrange slides in Microsoft PowerPoint?",
       "options": {
         "A": "Reading View",
         "B": "Slide Sorter View",
         "C": "Slide Show View",
         "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Email stands for?",
-      "options": {
-        "A": "Easy mail",
-        "B": "Electronic mail",
-        "C": "Electric mail",
-        "D": "Eye mail"
       },
       "correct": "B"
     },
@@ -1942,16 +1992,6 @@
       "correct": "B"
     },
     {
-      "question": "How long is an IPv4?",
-      "options": {
-        "A": "64 bits",
-        "B": "48 bits",
-        "C": "32 bits",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Which formula is used to find the number of numerical cells in a range of cells in Excel?",
       "options": {
         "A": "COUNTIF",
@@ -1970,16 +2010,6 @@
         "D": "Linux"
       },
       "correct": "D"
-    },
-    {
-      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
-      "options": {
-        "A": ".pp",
-        "B": ".xls",
-        "C": ".pptx",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "The SQL command used to retrieve data from a database table is?",
@@ -2020,16 +2050,6 @@
         "D": "Ctrl + M"
       },
       "correct": "B"
-    },
-    {
-      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
-      "options": {
-        "A": "RAM",
-        "B": "ROM",
-        "C": "Cache",
-        "D": "Both A and C"
-      },
-      "correct": "D"
     },
     {
       "question": "What is a macro?",
@@ -2238,16 +2258,6 @@
         "B": "Bot traffic",
         "C": "Malware",
         "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
-      "options": {
-        "A": "Tom Burne",
-        "B": "Tim Burner Lee",
-        "C": "Fred Zuckerberg",
-        "D": "Both a and b"
       },
       "correct": "B"
     },
@@ -3100,6 +3110,666 @@
         "D": "None of these"
       },
       "correct": "A"
+    },
+    {
+      "question": "Distributed Ledger Technology (DLT) is?",
+      "options": {
+        "A": "A type of database controlled by a single authority",
+        "B": "Only used for traditional banking",
+        "C": "A cloud storage service",
+        "D": "A network where data is duplicated, shared, and synchronized across multiple locations"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complex Number Sum in Excel using?",
+      "options": {
+        "A": "SUM()",
+        "B": "IMSUM()",
+        "C": "COMPLEX()",
+        "D": "CONCAT()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "VLOOKUP in Excel is?",
+      "options": {
+        "A": "Horizontal Lookup",
+        "B": "Vertical Lookup",
+        "C": "Sum Function",
+        "D": "Average Function"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Reasons to use Macro in Microsoft Office ?",
+      "options": {
+        "A": "Automate Frequently used tasks",
+        "B": "Home page",
+        "C": "Both a and b",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To start Microsoft PowerPoint application _____?",
+      "options": {
+        "A": "Click on Start >> Programs >> All Programs >> Microsoft PowerPoint",
+        "B": "Hit Ctrl + R then type ppoint.exe and Enter",
+        "C": "Click Start >> Run then type powerpnt then press Enter",
+        "D": "All of above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which menu can you find features like Slide Design, Slide Layout, etc.?",
+      "options": {
+        "A": "Insert Menu",
+        "B": "Format Menu",
+        "C": "Tools Menu",
+        "D": "Slide Show Menu"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "IF function used in Excel for _____?",
+      "options": {
+        "A": "Performing logical comparisons",
+        "B": "Formatting text",
+        "C": "Creating charts",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In Agile SDLC, what does \"Sprint\" define?",
+      "options": {
+        "A": "The final testing stage",
+        "B": "A phase of software development",
+        "C": "A time-boxed iteration of development",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The agile software development model is built based on:",
+      "options": {
+        "A": "Incremental Development",
+        "B": "Linear Development",
+        "C": "Iterative Development",
+        "D": "Both incremental & Iterative development"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Linear Sequential Model is also known as?",
+      "options": {
+        "A": "Spiral Model",
+        "B": "Agile Model",
+        "C": "Waterfall Model",
+        "D": "Prototype Model"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "First, ever computer virus was created from -------?",
+      "options": {
+        "A": "China",
+        "B": "Pakistan",
+        "C": "USA",
+        "D": "Israel"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Errors from computer hardware and software cab be identifying and removed by which process?",
+      "options": {
+        "A": "Debugging",
+        "B": "Formating",
+        "C": "Flip flop",
+        "D": "All of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "PV6 is in which format?",
+      "options": {
+        "A": "Hexadecimal form",
+        "B": "Octal form",
+        "C": "Numerical form",
+        "D": "Alphanumeric form"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The speed of CPU is measured in ______?",
+      "options": {
+        "A": "MHz",
+        "B": "Mbps",
+        "C": "Mbytes",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ASCII stands for:",
+      "options": {
+        "A": "American Standard Conduct for Information Interchange",
+        "B": "Armenia Standard Code for Information Interchange",
+        "C": "American Standard Code for Information Interchange",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is the data compression utility? Scan Disk, WinZip, Chrome",
+      "options": {
+        "A": "Scan Disk",
+        "B": "WinZip",
+        "C": "Chrome",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the primary function of a Gateway in networking?",
+      "options": {
+        "A": "To assign IP addresses to devices on a LAN",
+        "B": "To filter traffic based on MAC addresses",
+        "C": "To connect two different networks with different protocols",
+        "D": "To amplify the signal over long distances"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Eight (8) Bits make up a _____?",
+      "options": {
+        "A": "Byte",
+        "B": "Mega byte",
+        "C": "Kilo byte",
+        "D": "Nano byte"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first step in planning an extension program is _____?",
+      "options": {
+        "A": "Situation analysis",
+        "B": "Goal setting",
+        "C": "Resource allocation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is not a computer server protocol? JPEG, HTTP, DHCP, DNS",
+      "options": {
+        "A": "JPEG",
+        "B": "HTTP",
+        "C": "DHCP",
+        "D": "DNS"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which can be send via email as attachment?",
+      "options": {
+        "A": "Word document",
+        "B": "Audio",
+        "C": "Video",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Microsoft Word displays hyperlinks as a _______?",
+      "options": {
+        "A": "Red underlined text",
+        "B": "Blue underlined text",
+        "C": "White underlined text",
+        "D": "All of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What parameter is used to specify data transfer speed?",
+      "options": {
+        "A": "MHz",
+        "B": "Bps",
+        "C": "Ghz",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which technology is used in touchscreen to allow multiple simultaneous touches?",
+      "options": {
+        "A": "Resistive Touch",
+        "B": "Capacitive Touch",
+        "C": "Infrared Touch",
+        "D": "Optical Touch"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The software used to open PDF files and surf websites is called?",
+      "options": {
+        "A": "Browser",
+        "B": "VPN",
+        "C": "Mediaplayer",
+        "D": "Notepad"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is a fundamental data structure in computer science that stores a collection of elements, typically of the same data type, in contiguous memory locations",
+      "options": {
+        "A": "Linked List",
+        "B": "Stack",
+        "C": "Data Array",
+        "D": "Queue"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is a software patch ?",
+      "options": {
+        "A": "Required or Critical Fix",
+        "B": "Emergency Fix",
+        "C": "Daily or routine Fix",
+        "D": "None of the mentioned"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The________is firmware that contain a computer's startup instruction.",
+      "options": {
+        "A": "POST",
+        "B": "BIOS",
+        "C": "CMOS",
+        "D": "DIOS"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "ARP stands for what?",
+      "options": {
+        "A": "Address Resolution Protocol",
+        "B": "Automatic Routing Process",
+        "C": "Advanced Resolution Program",
+        "D": "Access Remote Protocol"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The effectiveness of cyber systems largely depends on _____?",
+      "options": {
+        "A": "Hardware",
+        "B": "Software",
+        "C": "Connectivity",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "3D printing technology is based on which foundational technique?",
+      "options": {
+        "A": "Subtractive manufacturing",
+        "B": "Injection molding",
+        "C": "Casting",
+        "D": "Additive manufacturing"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following operating systems is produced by IBM?OS-2., Windows., DOS. , UNIX",
+      "options": {
+        "A": "OS-2.",
+        "B": "Windows.",
+        "C": "DOS.",
+        "D": "UNIX"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the fonder of Facebook?",
+      "options": {
+        "A": "Elon Musk",
+        "B": "M.zeekerburg",
+        "C": "Bill gates",
+        "D": "Steve jobs"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The process of communication through a channel is called?",
+      "options": {
+        "A": "Transmission",
+        "B": "Diffusion",
+        "C": "Feedback",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used to enter the current date in Excel?",
+      "options": {
+        "A": "Ctrl+:",
+        "B": "Ctrl + Shift + ;",
+        "C": "Ctrl+;",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is necessary condition for deadlock?",
+      "options": {
+        "A": "Circular Wait",
+        "B": "Mutual Exclusion",
+        "C": "Hold and Wait",
+        "D": "All of them"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which view headers and footers are visible?",
+      "options": {
+        "A": "Normal View",
+        "B": "Page Layout View",
+        "C": "Print Layout View",
+        "D": "Both B and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "ALU and CPU are component of?",
+      "options": {
+        "A": "ROM",
+        "B": "CPU",
+        "C": "RAM",
+        "D": "CAD"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the default fount size in a new word document based on normal template in word 2003?",
+      "options": {
+        "A": "12 pt",
+        "B": "11 pt",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the process of data copying from a server to a personal computer called?",
+      "options": {
+        "A": "Uploading",
+        "B": "Sharing",
+        "C": "Copying",
+        "D": "Downloading"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "MAC stands for_______.",
+      "options": {
+        "A": "Main Access Control",
+        "B": "Media Access Control",
+        "C": "Multiple Access Channel",
+        "D": "Machine Access Code"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Word 2007, which shortcut key is used to replace text or specific formatting?",
+      "options": {
+        "A": "CTRL + T",
+        "B": "CTRL + I",
+        "C": "CTRL + H",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is a correct email format of Email address?",
+      "options": {
+        "A": "Name.website.com",
+        "B": "Www.nameofebsite.com",
+        "C": "Name@website.com",
+        "D": "Name@website@info"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is the oldest search engine? Google, Yahoo, MSN Search, Alta Vista",
+      "options": {
+        "A": "Yahoo",
+        "B": "Google",
+        "C": "MSN Search",
+        "D": "Alta Vista"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The ______ function in Excel returns the highest value in a set of data that you specify.",
+      "options": {
+        "A": "LRG",
+        "B": "AVG",
+        "C": "MAX",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ctrl + N Shortcut key is used in MS Word to _______?",
+      "options": {
+        "A": "Save Document",
+        "B": "Open Document",
+        "C": "Create a new Document",
+        "D": "Close Document"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which language does MS-Word use to create Macros?",
+      "options": {
+        "A": "Visual C++",
+        "B": "Visual Java",
+        "C": "Visual Basic",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In POWERPOINT, multimedia presentations consist of _____?",
+      "options": {
+        "A": "Slideshadow",
+        "B": "Slides",
+        "C": "Animation",
+        "D": "All of the above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "E-construction app is used for _____?",
+      "options": {
+        "A": "Road maintenance",
+        "B": "Building permit",
+        "C": "Traffic control",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is a Compiler?",
+      "options": {
+        "A": "A compiler is a special program that processes statements written in a particular programming language and turns them into machine language",
+        "B": "A compiler is a language providing very efficient execution",
+        "C": "A compiler does a conversion line by line as the program is run",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the full form of URL?",
+      "options": {
+        "A": "Uniform routing locator",
+        "B": "Universal resource locator",
+        "C": "Uniform resource locator",
+        "D": "Uniform router locator"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In MS PowerPoint, on mouse click option can be used by?",
+      "options": {
+        "A": "Transition & on mouse click",
+        "B": "Format & on mouse click",
+        "C": "Insert & on mouse click",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A table in Microsoft Word consists of ______?",
+      "options": {
+        "A": "Rows and columns",
+        "B": "Text and images",
+        "C": "Charts and graphs",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Due to which characteristics of computer, a business person prefers to use computer:",
+      "options": {
+        "A": "Speed",
+        "B": "Accuracy",
+        "C": "Efficiency",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the primary purpose of a \"Proxy Server\" in a network?",
+      "options": {
+        "A": "To manage TCP/IP connections",
+        "B": "To block unauthorized access to the network",
+        "C": "To cache frequently accessed web pages",
+        "D": "To route TCP/IP requests from clients to servers"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which menu is used to insert table in Ms Word?",
+      "options": {
+        "A": "File Menu",
+        "B": "Tool Menu",
+        "C": "Insert Menu",
+        "D": "Format Menu"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "ROM function?",
+      "options": {
+        "A": "Stores permanent data and instructions for the computer",
+        "B": "Temporarily stores data for processing",
+        "C": "Performs calculations and processing",
+        "D": "Transfers data over the network"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Enable drawing text in an MS Word document?",
+      "options": {
+        "A": "Word art",
+        "B": "Macros",
+        "C": "Templates",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The menu used to change the font and style is?",
+      "options": {
+        "A": "Edit",
+        "B": "Home tab",
+        "C": "File",
+        "D": "Tools"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which term is not used by intranet",
+      "options": {
+        "A": "IP",
+        "B": "HTTP",
+        "C": "TCP",
+        "D": "BSNL"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What was the initial name of Microsoft word when it was released ?",
+      "options": {
+        "A": "Multi-technique word",
+        "B": "Multi-transition word",
+        "C": "Multi -type word",
+        "D": "Multi- tool word"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Arithmetic Operations performed by?",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "ALU",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is telnet?",
+      "options": {
+        "A": "Search engine",
+        "B": "Browser",
+        "C": "Protocol",
+        "D": "Gate way"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "________ stores data in a text, image, sound or video:",
+      "options": {
+        "A": "External database",
+        "B": "End user database",
+        "C": "image and Multimedia Database",
+        "D": "Text database"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "XML stands for:",
+      "options": {
+        "A": "Example Markup Language",
+        "B": "Extensible Markup Language",
+        "C": "Easy Markup Language",
+        "D": "Extensible Media Language"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "First Commonwealth games were held in the country?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "Canada",
+        "D": "Australia"
+      },
+      "correct": "C"
     }
   ]
 }

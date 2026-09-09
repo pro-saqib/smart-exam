@@ -2,6 +2,136 @@
   "name": "PPSC Past Papers all MCQs 2025 of Geography",
   "mcqs": [
     {
+      "question": "Who was the first Prime Minister of Pakistan?",
+      "options": {
+        "A": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "B": "Liaquat Ali Khan",
+        "C": "Ayoub Khan",
+        "D": "Yahya Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who chose the name of Pakistan?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Quaid-e-Azam",
+        "C": "Chaudry Rehmat Ali",
+        "D": "Hafiz Jalandhri"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Where is the headquarters of International Court of Justice (ICJ) located?",
+      "options": {
+        "A": "New York",
+        "B": "Washington",
+        "C": "Geneva",
+        "D": "Hague"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which country Mount Judi (Cudi) also known as Mount Qardū exits?",
+      "options": {
+        "A": "Turkey",
+        "B": "Iraq",
+        "C": "Egypt",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which agreement the ceasefire line in Kashmir was named Line of Control?",
+      "options": {
+        "A": "Simla Agreement",
+        "B": "Ceasefire Agreement",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country is in the north west of Pakistan?",
+      "options": {
+        "A": "China",
+        "B": "India",
+        "C": "Iran",
+        "D": "Afghanistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country is situated in the east of Pakistan?",
+      "options": {
+        "A": "India",
+        "B": "China",
+        "C": "Iran",
+        "D": "Afghanistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Strait of Hormuz is located between?",
+      "options": {
+        "A": "Black Sea and the Sea of Marmara",
+        "B": "Atlantic Ocean and the Mediterranean Sea",
+        "C": "Persian Gulf and Gulf of Oman",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which reforms Muslims demand of separate electorate was incorporated/introduced?",
+      "options": {
+        "A": "Minto-Hastings Reforms",
+        "B": "Minto-Morley Reforms",
+        "C": "Minto-Warren Reforms",
+        "D": "Minto-Cornwallis Reforms"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the length of border between Pakistan and China?",
+      "options": {
+        "A": "595 km",
+        "B": "900 km",
+        "C": "599 km (596)",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest Island of the world is _____?",
+      "options": {
+        "A": "Iceland",
+        "B": "Cyprus",
+        "C": "Greenland",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was SAARC founded?",
+      "options": {
+        "A": "8 December 1985",
+        "B": "10 December 1985",
+        "C": "12 December 1985",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Kharan desert is located in which province?",
+      "options": {
+        "A": "Sindh",
+        "B": "Punjab",
+        "C": "Balochistan",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
       "question": "The Largest Desert of Pakistan is?",
       "options": {
         "A": "Thall Desert",
@@ -82,16 +212,6 @@
       "correct": "C"
     },
     {
-      "question": "The largest Island of the world is _____?",
-      "options": {
-        "A": "Iceland",
-        "B": "Cyprus",
-        "C": "Greenland",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "The first census in Pakistan was held in?",
       "options": {
         "A": "1948",
@@ -100,16 +220,6 @@
         "D": "1957"
       },
       "correct": "B"
-    },
-    {
-      "question": "Where is the headquarters of International Court of Justice (ICJ) located?",
-      "options": {
-        "A": "New York",
-        "B": "Washington",
-        "C": "Geneva",
-        "D": "Hague"
-      },
-      "correct": "D"
     },
     {
       "question": "Which country is the largest shareholder of Asian Development Bank (ADB)?",
@@ -202,16 +312,6 @@
       "correct": "A"
     },
     {
-      "question": "When was SAARC founded?",
-      "options": {
-        "A": "8 December 1985",
-        "B": "10 December 1985",
-        "C": "12 December 1985",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "First Islamic Summit of OIC was held in which country?",
       "options": {
         "A": "Rabat",
@@ -220,16 +320,6 @@
         "D": "All of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Which country is in the north west of Pakistan?",
-      "options": {
-        "A": "China",
-        "B": "India",
-        "C": "Iran",
-        "D": "Afghanistan"
-      },
-      "correct": "D"
     },
     {
       "question": "Iskander Mirza abrogated the 1956 Constitution and dissolved assemblies on?",
@@ -380,16 +470,6 @@
         "D": "Makkah"
       },
       "correct": "A"
-    },
-    {
-      "question": "Strait of Hormuz is located between?",
-      "options": {
-        "A": "Black Sea and the Sea of Marmara",
-        "B": "Atlantic Ocean and the Mediterranean Sea",
-        "C": "Persian Gulf and Gulf of Oman",
-        "D": "None of the above"
-      },
-      "correct": "C"
     },
     {
       "question": "Adam’s Peak is located in ___?",
@@ -602,16 +682,6 @@
       "correct": "D"
     },
     {
-      "question": "What is the length of border between Pakistan and China?",
-      "options": {
-        "A": "595 km",
-        "B": "900 km",
-        "C": "599 km (596)",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "When was the Kashmir issue taken to the United Nations by India?",
       "options": {
         "A": "26 January 1949",
@@ -668,16 +738,6 @@
         "B": "28 June 1919",
         "C": "29 July 1919",
         "D": "30 August 1919"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Who was the first Prime Minister of Pakistan?",
-      "options": {
-        "A": "Quaid-e-Azam Muhammad Ali Jinnah",
-        "B": "Liaquat Ali Khan",
-        "C": "Ayoub Khan",
-        "D": "Yahya Khan"
       },
       "correct": "B"
     },
@@ -782,16 +842,6 @@
       "correct": "C"
     },
     {
-      "question": "In which reforms Muslims demand of separate electorate was incorporated/introduced?",
-      "options": {
-        "A": "Minto-Hastings Reforms",
-        "B": "Minto-Morley Reforms",
-        "C": "Minto-Warren Reforms",
-        "D": "Minto-Cornwallis Reforms"
-      },
-      "correct": "B"
-    },
-    {
       "question": "The tenure of Judge of International Court of Justice (ICJ) is?",
       "options": {
         "A": "9 years",
@@ -820,16 +870,6 @@
         "D": "Mongolia"
       },
       "correct": "C"
-    },
-    {
-      "question": "In which country Mount Judi (Cudi) also known as Mount Qardū exits?",
-      "options": {
-        "A": "Turkey",
-        "B": "Iraq",
-        "C": "Egypt",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "The Bering Strait is situated between ________?",
@@ -1078,16 +1118,6 @@
         "B": "49",
         "C": "50",
         "D": "30"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who chose the name of Pakistan?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "Quaid-e-Azam",
-        "C": "Chaudry Rehmat Ali",
-        "D": "Hafiz Jalandhri"
       },
       "correct": "C"
     },
@@ -2152,32 +2182,12 @@
       "correct": "B"
     },
     {
-      "question": "In which agreement the ceasefire line in Kashmir was named Line of Control?",
-      "options": {
-        "A": "Simla Agreement",
-        "B": "Ceasefire agreement",
-        "C": "2003 agreement",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "What is the capital of Argentina?",
       "options": {
         "A": "Harare",
         "B": "Kuala Lumpur",
         "C": "Buenos Aires",
         "D": "Brazilia"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Kharan desert is located in which province?",
-      "options": {
-        "A": "Sindh",
-        "B": "Punjab",
-        "C": "Balochistan",
-        "D": "None of the above"
       },
       "correct": "C"
     },
@@ -2860,16 +2870,6 @@
         "D": "80 Seconds"
       },
       "correct": "D"
-    },
-    {
-      "question": "Which country is situated in the east of Pakistan?",
-      "options": {
-        "A": "India",
-        "B": "China",
-        "C": "Iran",
-        "D": "Afghanistan"
-      },
-      "correct": "A"
     },
     {
       "question": "Where is Moulin Rouge located?",

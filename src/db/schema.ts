@@ -8,6 +8,7 @@ export const user = sqliteTable("user", {
   email: text("email").notNull().unique(),
   emailVerified: integer("email_verified", { mode: "boolean" }).notNull().default(false),
   image: text("image"),
+  role: text("role").notNull().default("user"),
   createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
   updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
 });
@@ -106,4 +107,18 @@ export const attempt = sqliteTable("attempt", {
 }, (t) => [
   index("attempt_user_idx").on(t.userId),
   index("attempt_mcq_idx").on(t.mcqId),
+]);
+
+export const solveLater = sqliteTable("solve_later", {
+  id: text("id").primaryKey(),
+  userId: text("user_id")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  mcqId: text("mcq_id")
+    .notNull()
+    .references(() => mcq.id, { onDelete: "cascade" }),
+  createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
+}, (t) => [
+  index("solve_later_user_idx").on(t.userId),
+  index("solve_later_mcq_idx").on(t.mcqId),
 ]);

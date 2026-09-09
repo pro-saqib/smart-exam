@@ -2,6 +2,66 @@
   "name": "PPSC Past Papers General Knowledge MCQs 2026",
   "mcqs": [
     {
+      "question": "The Capital of Canada is _____?",
+      "options": {
+        "A": "Ottawa",
+        "B": "Tokyo",
+        "C": "New Delhi",
+        "D": "London"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When did Pakistan officially join / become a member of the United Nations (UNO)?",
+      "options": {
+        "A": "30 September 1947",
+        "B": "3 September 1947",
+        "C": "10 September 1947",
+        "D": "20 September 1947"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many days are there in a Leap year?",
+      "options": {
+        "A": "356",
+        "B": "365",
+        "C": "364",
+        "D": "366"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country was hosted the Summer Olympics in 2024?",
+      "options": {
+        "A": "France",
+        "B": "Japan",
+        "C": "United States",
+        "D": "Australia"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The largest Island of the world is _____?",
+      "options": {
+        "A": "Iceland",
+        "B": "Cyprus",
+        "C": "Greenland",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was SAARC founded?",
+      "options": {
+        "A": "8 December 1985",
+        "B": "10 December 1985",
+        "C": "12 December 1985",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "In project management, PERT stands for",
       "options": {
         "A": "Program Evaluation and Review Technique",
@@ -270,16 +330,6 @@
         "D": "Thimphu"
       },
       "correct": "B"
-    },
-    {
-      "question": "The largest Island of the world is _____?",
-      "options": {
-        "A": "Iceland",
-        "B": "Cyprus",
-        "C": "Greenland",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "Which country does not use the Euro as its currency? Finland, France, Germany, United Kingdom (UK)",
@@ -612,16 +662,6 @@
       "correct": "D"
     },
     {
-      "question": "Which country was hosted the Summer Olympics in 2024?",
-      "options": {
-        "A": "France",
-        "B": "Japan",
-        "C": "United States",
-        "D": "Australia"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which of the following countries has no border with Afghanistan?",
       "options": {
         "A": "Kazakhstan",
@@ -742,26 +782,6 @@
       "correct": "A"
     },
     {
-      "question": "When did Pakistan officially join / become a member of the United Nations (UNO)?",
-      "options": {
-        "A": "30 September 1947",
-        "B": "3 September 1947",
-        "C": "10 September 1947",
-        "D": "20 September 1947"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "When was SAARC founded?",
-      "options": {
-        "A": "8 December 1985",
-        "B": "10 December 1985",
-        "C": "12 December 1985",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Who from the following discovered America (Father of USA) in 1492?",
       "options": {
         "A": "Captain Cook",
@@ -770,16 +790,6 @@
         "D": "Gulliver"
       },
       "correct": "B"
-    },
-    {
-      "question": "The Capital of Canada is _____?",
-      "options": {
-        "A": "Ottawa",
-        "B": "Tokyo",
-        "C": "New Delhi",
-        "D": "London"
-      },
-      "correct": "A"
     },
     {
       "question": "Who is known as the father of computer?",
@@ -1820,16 +1830,6 @@
         "D": "Desond Titu"
       },
       "correct": "C"
-    },
-    {
-      "question": "How many days are there in a Leap year?",
-      "options": {
-        "A": "356",
-        "B": "365",
-        "C": "364",
-        "D": "366"
-      },
-      "correct": "D"
     },
     {
       "question": "Greenland is an autonomous territory owned by which country?",

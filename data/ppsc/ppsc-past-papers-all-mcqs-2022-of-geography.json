@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2022 of Geography",
   "mcqs": [
     {
+      "question": "Which country is located west of Pakistan?",
+      "options": {
+        "A": "Oman",
+        "B": "China",
+        "C": "India",
+        "D": "Iran"
+      },
+      "correct": "D"
+    },
+    {
       "question": "Which Continent has no desert?",
       "options": {
         "A": "Europe",
@@ -150,16 +160,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Which country is located west of Pakistan?",
-      "options": {
-        "A": "Oman",
-        "B": "China",
-        "C": "India",
-        "D": "Iran"
-      },
-      "correct": "D"
     },
     {
       "question": "Sudirman range is located in which country?",

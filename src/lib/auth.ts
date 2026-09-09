@@ -3,6 +3,8 @@ import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { createDb } from "@/db";
 import * as schema from "@/db/schema";
 
+export const ADMIN_EMAILS = ["saqib.logic@gmail.com"];
+
 export function createAuth(env: CloudflareEnv) {
   const db = createDb(env.DB);
 
@@ -16,6 +18,16 @@ export function createAuth(env: CloudflareEnv) {
         verification: schema.verification,
       },
     }),
+    user: {
+      additionalFields: {
+        role: {
+          type: "string",
+          required: false,
+          defaultValue: "user",
+          input: false,
+        },
+      },
+    },
     baseURL: env.BETTER_AUTH_URL,
     secret: env.BETTER_AUTH_SECRET,
     socialProviders: {

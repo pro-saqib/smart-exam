@@ -1,13 +1,27 @@
-import { createFileRoute, Outlet, useMatchRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, Outlet, useMatchRoute } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
 import { useMemo } from "react";
-import { toast } from "sonner";
+import { buildSubjectGroups } from "@/lib/model-papers";
+import {
+  ChevronRight,
+  BookOpen,
+  Calculator,
+  Laptop,
+  Globe2,
+  Microscope,
+  Compass,
+  Moon,
+  Landmark,
+  Languages,
+  Newspaper,
+  GraduationCap,
+} from "lucide-react";
 
 export const Route = createFileRoute("/subjects")({
   head: () => ({
     meta: [
       { title: "Subjects — PrepMind" },
-      { name: "description", content: "Create and manage subjects, upload MCQ PDFs and grow your question bank." },
+      { name: "description", content: "Browse and practice past papers by subject." },
     ],
   }),
   component: SubjectsPage,
@@ -24,270 +38,114 @@ function SubjectsPage() {
   return <SubjectsList />;
 }
 
+function getSubjectIcon(key: string) {
+  switch (key) {
+    case "basic-mathematics":
+      return <Calculator className="size-5 text-primary" />;
+    case "computer":
+      return <Laptop className="size-5 text-primary" />;
+    case "current-affairs":
+      return <Newspaper className="size-5 text-primary" />;
+    case "everyday-science":
+      return <Microscope className="size-5 text-primary" />;
+    case "general-knowledge":
+      return <Globe2 className="size-5 text-primary" />;
+    case "geography":
+      return <Compass className="size-5 text-primary" />;
+    case "islamic-study":
+      return <Moon className="size-5 text-primary" />;
+    case "pakistan-study":
+      return <Landmark className="size-5 text-primary" />;
+    case "english":
+      return <Languages className="size-5 text-primary" />;
+    case "urdu":
+      return <GraduationCap className="size-5 text-primary" />;
+    default:
+      return <BookOpen className="size-5 text-primary" />;
+  }
+}
+
 function SubjectsList() {
   const { subjects, mcqs, attempts } = useApp();
 
-  const navigate = useNavigate();
+  // All subtopics (have a parentId)
+  const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
 
-  const parents = useMemo(() => subjects.filter((s) => !s.parentId), [subjects]);
-  const childrenByParent = useMemo(() => {
-    const map: Record<string, typeof subjects> = {};
-    for (const s of subjects) {
-      if (s.parentId) {
-        if (!map[s.parentId]) map[s.parentId] = [];
-        map[s.parentId].push(s);
-      }
-    }
-    return map;
-  }, [subjects]);
+  // Group subtopics by canonical subject name
+  const groups = useMemo(() => buildSubjectGroups(subtopics, mcqs), [subtopics, mcqs]);
 
-  const statsByParent = useMemo(() => {
-    const map: Record<string, { totalAttempts: number; correctAttempts: number }> = {};
-    for (const p of parents) {
-      const childIds = childrenByParent[p.id]?.map((c) => c.id) || [];
-      const relevantAttempts = attempts.filter((a) => a.subjectId === p.id || childIds.includes(a.subjectId));
-      map[p.id] = {
-        totalAttempts: relevantAttempts.length,
-        correctAttempts: relevantAttempts.filter((a) => a.correct).length,
-      };
-    }
-    return map;
-  }, [parents, childrenByParent, attempts]);
-
-  /*
-  const handleFiles = async (subjectId: string, files: FileList | null) => {
-    if (!files || !files.length) return;
-    setBusyId(subjectId);
-    let total = 0;
-    let txtToPreview: { file: File; result: TxtParseResult } | null = null;
-    try {
-      for (const file of Array.from(files)) {
-        const name = file.name.toLowerCase();
-        const isPdf = name.endsWith(".pdf") || file.type === "application/pdf";
-        if (isPdf) {
-          const text = await extractTextFromPdf(file);
-          const parsed = parseMCQs(text);
-          if (parsed.length > 100) {
-            const base = subjects.find((x) => x.id === subjectId)?.name || "Subject";
-            const addedMain = addMCQs(subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
-            total += addedMain;
-            if (addedMain) toast.success(`${file.name}: imported ${addedMain} MCQs into ${base}`);
-            for (let i = 0; i < parsed.length; i += 100) {
-              const chunk = parsed.slice(i, i + 100);
-              const start = i + 1;
-              const end = i + chunk.length;
-              const newSub = addSubject(`${base} ${start}-${end}`, subjectId);
-              const added = addMCQs(newSub.id, chunk.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
-              total += added;
-              toast.success(`${file.name}: created ${newSub.name} with ${added} MCQs`);
-            }
-          } else {
-            const added = addMCQs(subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
-            total += added;
-            toast.success(`${file.name}: imported ${added} MCQs`);
-          }
-        } else {
-          const text = await file.text();
-          const result = validateTxtMCQs(text);
-          if (!txtToPreview) txtToPreview = { file, result };
-          else toast.message(`${file.name} skipped — review one .txt file at a time.`);
-        }
-      }
-      if (txtToPreview) {
-        setPreview({ subjectId, fileName: txtToPreview.file.name, result: txtToPreview.result });
-      } else if (total === 0) {
-        toast.message("No MCQs detected — ensure questions follow a numbered A/B/C/D format.");
-      }
-    } catch (e) {
-      console.error(e);
-      toast.error("Failed to parse file");
-    } finally {
-      setBusyId(null);
-      const el = fileRefs.current[subjectId];
-      if (el) el.value = "";
-    }
-  };
-  */
-
-  // const confirmTxtImport = () => {
-  //   if (!preview) return;
-  //   const parsed = preview.result.valid;
-  //   if (parsed.length > 100) {
-  //     const base = subjects.find((x) => x.id === preview.subjectId)?.name || "Subject";
-  //     const addedMain = addMCQs(preview.subjectId, parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
-  //     let totalAdded = addedMain;
-  //     if (addedMain) toast.success(`${preview.fileName}: imported ${addedMain} MCQs into ${base}`);
-  //     for (let i = 0; i < parsed.length; i += 100) {
-  //       const chunk = parsed.slice(i, i + 100);
-  //       const start = i + 1;
-  //       const end = i + chunk.length;
-  //       const newSub = addSubject(`${base} ${start}-${end}`, preview.subjectId);
-  //       const added = addMCQs(newSub.id, chunk.map((p) => ({ question: p.question, options: p.options, correct: p.correct })));
-  //       totalAdded += added;
-  //     }
-  //     toast.success(`${preview.fileName}: imported ${totalAdded} MCQs into ${Math.ceil(parsed.length / 100)} batch subjects`);
-  //   } else {
-  //     const added = addMCQs(
-  //       preview.subjectId,
-  //       parsed.map((p) => ({ question: p.question, options: p.options, correct: p.correct })),
-  //     );
-  //     toast.success(`${preview.fileName}: imported ${added} MCQs`);
-  //   }
-  //   setPreview(null);
-  // };
+  // Total MCQs across all groups
+  const totalMcqCount = useMemo(
+    () => groups.reduce((acc, g) => acc + g.totalMcqs, 0),
+    [groups],
+  );
 
   return (
     <div className="space-y-8">
       <header>
-        <h1 className="text-3xl">Subjects</h1>
-        <p className="text-muted-foreground mt-1">Core subjects dashboard.</p>
+        <h1 className="text-3xl font-display">Subjects</h1>
+        <p className="text-muted-foreground mt-1">
+          {groups.length} subjects · {totalMcqCount.toLocaleString()} total MCQs
+        </p>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {parents.map((parent) => {
-          const totalMcqs = mcqs.filter((m) => m.subjectId === parent.id || childrenByParent[parent.id]?.some((c) => c.id === m.subjectId)).length;
-          const stats = statsByParent[parent.id] || { totalAttempts: 0, correctAttempts: 0 };
-          const accuracy = stats.totalAttempts > 0 ? Math.round((stats.correctAttempts / stats.totalAttempts) * 100) : 0;
+      {groups.length === 0 ? (
+        <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
+          <BookOpen className="size-8 mx-auto mb-2 text-muted-foreground/50" />
+          No subjects loaded yet.
+        </div>
+      ) : (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {groups.map((group) => {
+            const groupAttempts = attempts.filter((a) => group.subtopicIds.includes(a.subjectId));
+            const attemptedCount = new Set(groupAttempts.map((a) => a.mcqId)).size;
+            const accuracy = groupAttempts.length > 0
+              ? Math.round((groupAttempts.filter((a) => a.correct).length / groupAttempts.length) * 100)
+              : 0;
+            const modelPaperCount = Math.ceil(group.totalMcqs / 100);
 
-          return (
-            <div
-              key={parent.id}
-              className="group rounded-2xl p-5 bg-card border border-border hover:border-primary/60 transition-all shadow-card hover:shadow-glow flex flex-col gap-4 cursor-pointer"
-              onClick={() => navigate({ to: "/subjects/$subjectId", params: { subjectId: parent.id } })}
-            >
-              <div className="flex items-start justify-between">
-                <h3 className="font-medium text-lg">{parent.name}</h3>
-              </div>
+            return (
+              <Link
+                key={group.key}
+                to="/subjects/$subjectId"
+                params={{ subjectId: group.key }}
+                className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-5 shadow-card transition-all duration-200 flex flex-col justify-between gap-5"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="size-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
+                      {getSubjectIcon(group.key)}
+                    </div>
+                    <div className="size-7 rounded-lg bg-secondary text-muted-foreground group-hover:text-foreground group-hover:bg-accent grid place-items-center transition-colors">
+                      <ChevronRight className="size-4" />
+                    </div>
+                  </div>
 
-              <span className="text-xs text-muted-foreground -mt-2">{totalMcqs} MCQs</span>
-
-              <div className="mt-auto pt-2 space-y-2">
-                <div className="h-2 rounded-full bg-muted overflow-hidden">
-                  <div
-                    className="h-full gradient-primary transition-all"
-                    style={{ width: `${Math.min(100, accuracy)}%` }}
-                  />
+                  <h2 className="font-semibold text-base group-hover:text-primary transition-colors">
+                    {group.label}
+                  </h2>
+                  <p className="text-xs text-muted-foreground mt-1">
+                    {modelPaperCount} Model {modelPaperCount === 1 ? "Paper" : "Papers"} · {group.totalMcqs.toLocaleString()} MCQs
+                  </p>
                 </div>
-                <div className="text-xs text-muted-foreground">
-                  <span>{accuracy}% accuracy</span>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
 
-      {/* {preview && (
-        <TxtPreviewDialog
-          fileName={preview.fileName}
-          result={preview.result}
-          onCancel={() => setPreview(null)}
-          onConfirm={confirmTxtImport}
-        />
-      )} */}
+                <div className="pt-3 border-t border-border/50 space-y-1.5">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="text-muted-foreground">{attemptedCount} solved</span>
+                    <span className="font-medium text-foreground">{accuracy}% accuracy</span>
+                  </div>
+                  <div className="h-1.5 rounded-full bg-muted overflow-hidden">
+                    <div
+                      className="h-full gradient-primary transition-all duration-300"
+                      style={{ width: `${Math.min(100, accuracy)}%` }}
+                    />
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
-
-// function TxtPreviewDialog({
-//   fileName,
-//   result,
-//   onCancel,
-//   onConfirm,
-// }: {
-//   fileName: string;
-//   result: any;
-//   onCancel: () => void;
-//   onConfirm: () => void;
-// }) {
-//   const validCount = result.valid.length;
-//   const issueCount = result.issues.length;
-
-//   return (
-//     <div className="fixed inset-0 z-50 grid place-items-center bg-background/80 backdrop-blur-sm p-4" onClick={onCancel}>
-//       <div
-//         className="w-full max-w-2xl max-h-[85vh] rounded-2xl bg-card border border-border shadow-card flex flex-col"
-//         onClick={(e) => e.stopPropagation()}
-//       >
-//         <header className="p-5 border-b border-border flex items-start justify-between gap-3">
-//           <div>
-//             <div className="text-xs text-primary-glow uppercase tracking-wider">Preview import</div>
-//             <h2 className="text-lg font-medium mt-0.5">{fileName}</h2>
-//             <div className="mt-2 flex flex-wrap gap-2 text-xs">
-//               <span className="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-success/15 text-success">
-//                 <CheckCircle2 className="size-3.5" /> {validCount} valid
-//               </span>
-//               {issueCount > 0 && (
-//                 <span className="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-destructive/15 text-destructive">
-//                   <FileWarning className="size-3.5" /> {issueCount} with errors
-//                 </span>
-//               )}
-//             </div>
-//           </div>
-//           <button onClick={onCancel} className="p-2 rounded-md hover:bg-accent text-muted-foreground" aria-label="Close">
-//             <X className="size-4" />
-//           </button>
-//         </header>
-
-//         <div className="overflow-y-auto p-5 space-y-4">
-//           {issueCount > 0 && (
-//             <section>
-//               <h3 className="text-sm font-medium text-destructive flex items-center gap-2 mb-2">
-//                 <AlertTriangle className="size-4" /> Questions with errors (skipped)
-//               </h3>
-//               <ul className="space-y-2">
-//                 {result.issues.map((iss, i) => (
-//                   <li key={i} className="rounded-lg border border-destructive/30 bg-destructive/5 p-3">
-//                     <div className="text-xs font-medium text-destructive">{iss.qNumber}</div>
-//                     <div className="text-sm mt-0.5 line-clamp-2">{iss.preview}</div>
-//                     <ul className="mt-1.5 text-xs text-destructive/90 list-disc list-inside space-y-0.5">
-//                       {iss.errors.map((e, j) => <li key={j}>{e}</li>)}
-//                     </ul>
-//                   </li>
-//                 ))}
-//               </ul>
-//             </section>
-//           )}
-
-//           {validCount > 0 && (
-//             <section>
-//               <ul className="space-y-3">
-//                 {result.valid.map((q, i) => (
-//                   <li key={i} className="rounded-lg border border-border bg-secondary/30 p-3">
-//                     <div className="text-sm mt-0.5 font-medium">{q.question}</div>
-//                     <ul className="mt-2 grid sm:grid-cols-2 gap-1 text-xs">
-//                       {(["A", "B", "C", "D", "E"] as const).map((L) => (
-//                         <li
-//                           key={L}
-//                           className={`px-2 py-1 rounded ${q.correct === L ? "bg-success/15 text-success font-medium" : "text-muted-foreground"}`}
-//                         >
-//                           <span className="font-mono">{L}.</span> {q.options[L]}
-//                         </li>
-//                       ))}
-//                     </ul>
-//                     {!q.correct && (
-//                       <div className="mt-1.5 text-[11px] text-warning">No answer key detected for this question.</div>
-//                     )}
-//                   </li>
-//                 ))}
-//               </ul>
-//             </section>
-//           )}
-//         </div>
-
-//         <footer className="p-4 border-t border-border flex items-center justify-end gap-2">
-//           <button onClick={onCancel} className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm hover:bg-accent">
-//             Cancel
-//           </button>
-//           <button
-//             onClick={onConfirm}
-//             disabled={validCount === 0}
-//             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow disabled:opacity-50 disabled:cursor-not-allowed"
-//           >
-//             <Check className="size-4" /> Add to subject
-//           </button>
-//         </footer>
-//       </div>
-//     </div>
-//   );
-// }

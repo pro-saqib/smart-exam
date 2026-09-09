@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers all MCQs 2021 of Everyday Science",
   "mcqs": [
     {
+      "question": "How many bones in human body (skeleton)?",
+      "options": {
+        "A": "200",
+        "B": "206",
+        "C": "270",
+        "D": "300"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Myopia is a disease related to _____?",
+      "options": {
+        "A": "Stomach",
+        "B": "Liver",
+        "C": "Eye",
+        "D": "Neck"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The light Bulb was invented by?",
+      "options": {
+        "A": "Newton",
+        "B": "Archimedes",
+        "C": "Thomas Edison",
+        "D": "Einstein"
+      },
+      "correct": "C"
+    },
+    {
       "question": "Which contain two nuclei? Paramecium, Plasmodium, Monocytes, None of these",
       "options": {
         "A": "Paramecium",
@@ -82,16 +112,6 @@
       "correct": "B"
     },
     {
-      "question": "How many bones in human body (skeleton)?",
-      "options": {
-        "A": "200",
-        "B": "206",
-        "C": "270",
-        "D": "300"
-      },
-      "correct": "B"
-    },
-    {
       "question": "The Sun is a _______?",
       "options": {
         "A": "Planet",
@@ -162,16 +182,6 @@
       "correct": "A"
     },
     {
-      "question": "Myopia is a disease related to _____?",
-      "options": {
-        "A": "Stomach",
-        "B": "Liver",
-        "C": "Eye",
-        "D": "Neck"
-      },
-      "correct": "C"
-    },
-    {
       "question": "The time light takes from Sun to reach Earth is _____?",
       "options": {
         "A": "8 minutes",
@@ -188,16 +198,6 @@
         "B": "Rutherford",
         "C": "Bacquerel",
         "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "The light Bulb was invented by?",
-      "options": {
-        "A": "Newton",
-        "B": "Archimedes",
-        "C": "Thomas Edison",
-        "D": "Einstein"
       },
       "correct": "C"
     },

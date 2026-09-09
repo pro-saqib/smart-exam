@@ -7,18 +7,19 @@ import {
   XAxis, YAxis, CartesianGrid,
   Tooltip, Legend, ResponsiveContainer,
   PieChart, Pie,
-  ScatterChart, Scatter, ZAxis,
 } from "recharts";
 import { format, subDays, parseISO } from "date-fns";
-import { TrendingUp, BarChart3, PieChart as PieIcon, GitMerge } from "lucide-react";
+import { TrendingUp, BarChart3, PieChart as PieIcon } from "lucide-react";
 import { useNavigate } from "@tanstack/react-router";
+import { buildSubjectGroups } from "@/lib/model-papers";
 
 export function DashboardCharts() {
   const { subjects, mcqs, attempts } = useApp();
   const navigate = useNavigate();
 
   const { trend, mastery, dist, recentSubjects } = useMemo(() => {
-    const parents = subjects.filter((s) => !s.parentId);
+    const subtopics = subjects.filter((s) => !!s.parentId);
+    const groups = buildSubjectGroups(subtopics, mcqs);
 
     // --- 1. Accuracy Trends (Line Chart over last 7 days) ---
     const days = Array.from({ length: 7 }, (_, i) => subDays(new Date(), i)).reverse();
@@ -49,48 +50,48 @@ export function DashboardCharts() {
     // Helper to get short name
     const getShortName = (name: string) => {
       const shortMap: Record<string, string> = {
+        "Pakistan Study": "P.St",
         "Pakistan Studies": "P.St",
-        "Basic Mathematics": "M",
+        "Basic Mathematics": "Math",
         "General Knowledge": "G.K",
+        "Islamic Study": "I.S",
         "Islamic Studies": "I.S",
         "Current Affairs": "C.A",
-        "Everyday Science": "E.S",
-        "Computer Science": "C.S",
+        "Everyday Science": "E.Sci",
+        "Computer": "Comp",
+        "Computer Science": "Comp",
         "English": "Eng",
-        "Urdu": "Urd",
+        "Urdu": "Urdu",
         "Geography": "Geo",
       };
-      return shortMap[name] || name.split(' ').map(word => word[0].toUpperCase()).join('.');
+      return shortMap[name] || name;
     };
 
     // --- 2. Subject Mastery (Horizontal Bar Chart) ---
-    const mastery = parents.map((s) => {
-      const childIds = subjects.filter((c) => c.parentId === s.id).map((c) => c.id);
-      const ms = mcqs.filter((m) => m.subjectId === s.id || childIds.includes(m.subjectId));
-      const at = attempts.filter((a) => a.subjectId === s.id || childIds.includes(a.subjectId));
-      const acc = at.length ? Math.round((at.filter((x) => x.correct).length / at.length) * 100) : 0;
-      return { subject: getShortName(s.name), accuracy: acc, count: ms.length };
+    const mastery = groups.map((g) => {
+      const groupAttempts = attempts.filter((a) => g.subtopicIds.includes(a.subjectId));
+      const acc = groupAttempts.length
+        ? Math.round((groupAttempts.filter((x) => x.correct).length / groupAttempts.length) * 100)
+        : 0;
+      return { subject: getShortName(g.label), accuracy: acc, count: g.totalMcqs, key: g.key };
     });
 
     // --- 3. Topic Distribution (Donut) ---
-    const dist = parents.map((s) => {
-      const childIds = subjects.filter((c) => c.parentId === s.id).map((c) => c.id);
-      const count = mcqs.filter((m) => m.subjectId === s.id || childIds.includes(m.subjectId)).length;
-      const colorMap = ["#4A94FF", "#22C55E", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899", "#14B8A8", "#F97316"];
-      return { subject: getShortName(s.name), count, fill: colorMap[parents.indexOf(s) % colorMap.length] };
-    }).filter((d) => d.count > 0);
+    const colorMap = ["#4A94FF", "#22C55E", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899", "#14B8A8", "#F97316", "#06B6D4", "#84CC16"];
+    const dist = groups.map((g, idx) => ({
+      subject: getShortName(g.label),
+      count: g.totalMcqs,
+      fill: colorMap[idx % colorMap.length],
+    })).filter((d) => d.count > 0);
 
-    // --- 4. Recent Subjects (Top 5 by createdAt) ---
-    const recentSubjects = subjects
-      .filter((s) => !s.parentId)
-      .sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0))
-      .slice(0, 5)
-      .map((s) => {
-        const childIds = subjects.filter((c) => c.parentId === s.id).map((c) => c.id);
-        const ms = mcqs.filter((m) => m.subjectId === s.id || childIds.includes(m.subjectId));
-        const at = attempts.filter((a) => a.subjectId === s.id || childIds.includes(a.subjectId));
-        const acc = at.length ? Math.round((at.filter((x) => x.correct).length / at.length) * 100) : 0;
-        return { id: s.id, name: s.name, count: ms.length, accuracy: acc };
+    // --- 4. Recent Subjects ---
+    const recentSubjects = groups
+      .map((g) => {
+        const groupAttempts = attempts.filter((a) => g.subtopicIds.includes(a.subjectId));
+        const acc = groupAttempts.length
+          ? Math.round((groupAttempts.filter((x) => x.correct).length / groupAttempts.length) * 100)
+          : 0;
+        return { id: g.key, name: g.label, count: g.totalMcqs, accuracy: acc };
       });
 
     return { trend, mastery, dist, recentSubjects };
@@ -135,24 +136,24 @@ export function DashboardCharts() {
             <BarChart data={mastery} layout="vertical" margin={{ left: 0, right: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
               <XAxis type="number" domain={[0, 100]} tick={{ fontSize: 11, fill: "#9CA3AF" }} />
-              <YAxis dataKey="subject" type="category" tick={{ fontSize: 11, fill: "#D1D5DB" }} width={100} />
+              <YAxis dataKey="subject" type="category" tick={{ fontSize: 11, fill: "#D1D5DB" }} width={80} />
               <Tooltip
                 contentStyle={{ backgroundColor: "#1F2937", borderColor: "#374151" }}
                 itemStyle={{ color: "#F3F4F6" }}
                 formatter={(val: number) => [`${val}%`, "Accuracy"]}
               />
-              <Bar dataKey="accuracy" barSize={18} radius={[0, 4, 4, 0]}>
+              <Bar dataKey="accuracy" barSize={14} radius={[0, 4, 4, 0]}>
                 {mastery.map((entry, i) => {
                   const c = entry.accuracy < 40 ? "#EF4444" : entry.accuracy < 70 ? "#F59E0B" : "#22C55E";
                   return <Cell key={`cell-${i}`} fill={c} />;
                 })}
               </Bar>
-          </BarChart>
+            </BarChart>
           </ResponsiveContainer>
         )}
       </div>
 
-      {/* Topic Distribution (50% width) */}
+      {/* Topic Distribution */}
       <div className="flex flex-col rounded-2xl bg-card border border-border p-6 shadow-card">
         <div className="flex items-center gap-2 mb-4">
           <PieIcon className="size-4 text-primary-glow" />
@@ -190,11 +191,11 @@ export function DashboardCharts() {
         </div>
       </div>
 
-      {/* Recent Subjects (50% width, scrollable) */}
+      {/* Recent Subjects */}
       <div className="flex flex-col rounded-2xl bg-card border border-border p-6 shadow-card">
         <div className="flex items-center gap-2 mb-4">
           <BarChart3 className="size-4 text-primary-glow" />
-          <h3 className="font-semibold">Recent Subjects</h3>
+          <h3 className="font-semibold">Subjects Overview</h3>
         </div>
         <div className="flex-1 min-h-0 max-h-[260px] overflow-y-auto pr-1 space-y-2">
           {recentSubjects.map((s) => (
@@ -205,7 +206,7 @@ export function DashboardCharts() {
             >
               <div className="flex-1 min-w-0">
                 <div className="text-sm font-medium truncate">{s.name}</div>
-                <div className="text-xs text-muted-foreground">{s.count} MCQs</div>
+                <div className="text-xs text-muted-foreground">{s.count.toLocaleString()} MCQs</div>
               </div>
               <div className="ml-4 text-right">
                 <div className="text-sm font-medium">{s.accuracy}%</div>

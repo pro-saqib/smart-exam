@@ -2,6 +2,106 @@
   "name": "PPSC Past Papers all MCQs 2022 of Pakistan Study",
   "mcqs": [
     {
+      "question": "Defence day is celebrated in Pakistan on which date?",
+      "options": {
+        "A": "6th September",
+        "B": "23rd March",
+        "C": "11th September",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the National Tree of Pakistan?",
+      "options": {
+        "A": "Deodar",
+        "B": "Neem",
+        "C": "Peepul",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "FATA was merged with KPK under which constitutional amendment?",
+      "options": {
+        "A": "22nd",
+        "B": "23rd",
+        "C": "24th",
+        "D": "25th"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
+      "options": {
+        "A": "Indus, Jhelum and Chenab",
+        "B": "Ravi and Indus",
+        "C": "Indus and Jhelum",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who chose the name of Pakistan?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Quaid-e-Azam",
+        "C": "Chaudry Rehmat Ali",
+        "D": "Hafiz Jalandhri"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which agreement the ceasefire line in Kashmir was named Line of Control?",
+      "options": {
+        "A": "Simla Agreement",
+        "B": "Ceasefire Agreement",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country is situated in the east of Pakistan?",
+      "options": {
+        "A": "India",
+        "B": "China",
+        "C": "Iran",
+        "D": "Afghanistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Tashkent declaration between Pakistan and India was signed on?",
+      "options": {
+        "A": "10 January 1966",
+        "B": "1 January 1965",
+        "C": "15 January 1964",
+        "D": "1 February 1966"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the length of the border between Pakistan and Afghanistan?",
+      "options": {
+        "A": "2611 km",
+        "B": "2350 km",
+        "C": "2282 km",
+        "D": "2430 km"
+      },
+      "correct": "A"
+    },
+    {
       "question": "What is total area of the Pakistan?",
       "options": {
         "A": "899,913 km²",
@@ -222,16 +322,6 @@
       "correct": "A"
     },
     {
-      "question": "The Tashkent declaration between Pakistan and India was signed on?",
-      "options": {
-        "A": "10 January 1966",
-        "B": "1 January 1965",
-        "C": "15 January 1964",
-        "D": "1 February 1966"
-      },
-      "correct": "A"
-    },
-    {
       "question": "The partition of Bengal was made in 1905, it was annulled in?",
       "options": {
         "A": "1909",
@@ -282,16 +372,6 @@
       "correct": "A"
     },
     {
-      "question": "Which is the National Tree of Pakistan?",
-      "options": {
-        "A": "Deodar",
-        "B": "Neem",
-        "C": "Peepul",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Balochistan Became Province in _______?",
       "options": {
         "A": "14th August 1973",
@@ -320,16 +400,6 @@
         "D": "Swabi"
       },
       "correct": "D"
-    },
-    {
-      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "A.K Fazlul-Haq",
-        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
-        "D": "Liaquat Ali Khan"
-      },
-      "correct": "B"
     },
     {
       "question": "Which animal is the national animal of Pakistan?",
@@ -410,16 +480,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "FATA was merged with KPK under which constitutional amendment?",
-      "options": {
-        "A": "22nd",
-        "B": "23rd",
-        "C": "24th",
-        "D": "25th"
-      },
-      "correct": "D"
     },
     {
       "question": "Quaid-e-Azam gave his Fourteen (14) Points in response to ____?",
@@ -600,16 +660,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
-      "options": {
-        "A": "Indus, Jhelum and Chenab",
-        "B": "Ravi and Indus",
-        "C": "Indus and Jhelum",
-        "D": "None of the above"
-      },
-      "correct": "A"
     },
     {
       "question": "Who led the Simla Deputation?",
@@ -892,16 +942,6 @@
       "correct": "A"
     },
     {
-      "question": "Who chose the name of Pakistan?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "Quaid-e-Azam",
-        "C": "Chaudry Rehmat Ali",
-        "D": "Hafiz Jalandhri"
-      },
-      "correct": "C"
-    },
-    {
       "question": "The mount Godwin Austen is the name of ______?",
       "options": {
         "A": "Mount Everest",
@@ -1057,16 +1097,6 @@
         "A": "Sindh-India",
         "B": "KPK-India",
         "C": "Punjab-India",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "In which agreement the ceasefire line in Kashmir was named Line of Control?",
-      "options": {
-        "A": "Simla Agreement",
-        "B": "Ceasefire agreement",
-        "C": "2003 agreement",
         "D": "None of these"
       },
       "correct": "A"
@@ -1392,16 +1422,6 @@
       "correct": "A"
     },
     {
-      "question": "Defence day is celebrated in Pakistan on _______?",
-      "options": {
-        "A": "6th September",
-        "B": "23rd March",
-        "C": "11th September",
-        "D": "28th May"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Tenure of National and Provincial Assemblies is?",
       "options": {
         "A": "04 years",
@@ -1518,16 +1538,6 @@
         "B": "Mechmohan line",
         "C": "Line of control",
         "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "Which country is situated in the east of Pakistan?",
-      "options": {
-        "A": "India",
-        "B": "China",
-        "C": "Iran",
-        "D": "Afghanistan"
       },
       "correct": "A"
     },
@@ -1888,16 +1898,6 @@
         "B": "Border",
         "C": "Refuges",
         "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "What is the length of the border between Pakistan and Afghanistan?",
-      "options": {
-        "A": "2611 km",
-        "B": "2350 km",
-        "C": "2282 km",
-        "D": "2430 km"
       },
       "correct": "A"
     },

@@ -2,6 +2,46 @@
   "name": "PPSC Past Papers Islamic Studies MCQs 2026",
   "mcqs": [
     {
+      "question": "Who was the first mu'azzin (prayer caller) of Islam?",
+      "options": {
+        "A": "Hazrat Bilal",
+        "B": "Hazrat Umer",
+        "C": "Hazrat Usman",
+        "D": "Hazrat Abubakar"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Prophet has been mentioned the most in Holy Quran?",
+      "options": {
+        "A": "Prophet Ibrahim (AS)",
+        "B": "Prophet Musa (AS)",
+        "C": "Prophet Nuh (AS)",
+        "D": "Prophet Essa (AS)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
+      "options": {
+        "A": "Indus, Jhelum and Chenab",
+        "B": "Ravi and Indus",
+        "C": "Indus and Jhelum",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was appointed as the first Ameer-e-Hajj in 9 AH (the first Hajj under Islamic rule)?",
+      "options": {
+        "A": "Umar ibn Al-Khattab (RA)",
+        "B": "Abu Bakr As-Siddiq (RA)",
+        "C": "Ali ibn Abi Talib (RA)",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "The first revelation on the holy prophet (PBUH) happened at which place?",
       "options": {
         "A": "Cave Toor",
@@ -162,16 +202,6 @@
       "correct": "B"
     },
     {
-      "question": "Which Prophet has been mentioned the most in Holy Quran?",
-      "options": {
-        "A": "Prophet Ibrahim (AS)",
-        "B": "Prophet Musa (AS)",
-        "C": "Prophet Nuh (AS)",
-        "D": "Prophet Essa (AS)"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Who established Dar al-Nadwa?",
       "options": {
         "A": "Abd al-Muttalib",
@@ -290,16 +320,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who was appointed as the first Ameer-e-Hajj in 9 AH (the first Hajj under Islamic rule)?",
-      "options": {
-        "A": "Umar ibn Al-Khattab (RA)",
-        "B": "Abu Bakr As-Siddiq (RA)",
-        "C": "Ali ibn Abi Talib (RA)",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "What branch of Islam was supported by the Fatimid Caliphate?",
@@ -540,16 +560,6 @@
         "D": "52 ½ Tolas"
       },
       "correct": "D"
-    },
-    {
-      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
-      "options": {
-        "A": "Indus, Jhelum and Chenab",
-        "B": "Ravi and Indus",
-        "C": "Indus and Jhelum",
-        "D": "None of the above"
-      },
-      "correct": "A"
     },
     {
       "question": "Which prophet of Allah is called Abu Al-Bashar?",
@@ -850,16 +860,6 @@
         "D": "Hifz-ul-Quran"
       },
       "correct": "B"
-    },
-    {
-      "question": "Who was the first mu'azzin (prayer caller) of Islam?",
-      "options": {
-        "A": "Hazrat Bilal",
-        "B": "Hazrat Umer",
-        "C": "Hazrat Usman",
-        "D": "Hazrat Abubakar"
-      },
-      "correct": "A"
     },
     {
       "question": "Prophet Muhammad ﷺ belonged to __________ family.",

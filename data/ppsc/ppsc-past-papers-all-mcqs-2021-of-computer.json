@@ -2,6 +2,66 @@
   "name": "PPSC Past Papers all MCQs 2021 of Computer",
   "mcqs": [
     {
+      "question": "LCD stands for _____?",
+      "options": {
+        "A": "Liquid Crystal Disk",
+        "B": "Liquefied Crystal Display",
+        "C": "Liquid Crystal Display",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Shortcut key of Ctrl + A use for ____?",
+      "options": {
+        "A": "To select all text",
+        "B": "To copy",
+        "C": "To paste",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In MS Word default alignment for a paragraph is _____?",
+      "options": {
+        "A": "Left alignment",
+        "B": "Right alignment",
+        "C": "Centered alignment",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the Extension of MS Word documents 2007 and later?",
+      "options": {
+        "A": ".docs",
+        "B": ".dos",
+        "C": ".docx",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
+      "options": {
+        "A": ".pp",
+        "B": ".xls",
+        "C": ".pptx",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "BCC stands for _____?",
+      "options": {
+        "A": "Basic Carbon Copy",
+        "B": "Blind Carbon Copy",
+        "C": "Business Carbon Copy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "What is the shortcut key for double underline ?",
       "options": {
         "A": "Ctrl + Shift + D",
@@ -252,16 +312,6 @@
       "correct": "B"
     },
     {
-      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
-      "options": {
-        "A": ".pp",
-        "B": ".xls",
-        "C": ".pptx",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Shortcut key to insert a new worksheet in Excel is _______?",
       "options": {
         "A": "Alt + Shift + F1",
@@ -280,16 +330,6 @@
         "D": "Carbon Copy"
       },
       "correct": "D"
-    },
-    {
-      "question": "BCC stands for _____?",
-      "options": {
-        "A": "Basic Carbon Copy",
-        "B": "Blind Carbon Copy",
-        "C": "Business Carbon Copy",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Which of the following is not an application software? WinWord XP, Page Maker, Windows NT, None of these",
@@ -342,16 +382,6 @@
       "correct": "B"
     },
     {
-      "question": "Shortcut key of Ctrl + A use for ____?",
-      "options": {
-        "A": "To select all text",
-        "B": "To copy",
-        "C": "To paste",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "_______ is a type of electronic spam where unsolicited messages are sent by e-mail.",
       "options": {
         "A": "Trash mail",
@@ -360,16 +390,6 @@
         "D": "Spam mail"
       },
       "correct": "D"
-    },
-    {
-      "question": "What is the Extension of MS Word documents?",
-      "options": {
-        "A": ".docs",
-        "B": ".dos",
-        "C": ".docx",
-        "D": "None of the above"
-      },
-      "correct": "C"
     },
     {
       "question": "DNS stands for _____?",
@@ -437,16 +457,6 @@
         "A": "John Von Neumann",
         "B": "Blaise Pascal",
         "C": "Babbage",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "In MS Word default alignment for a paragraph is _____?",
-      "options": {
-        "A": "Left alignment",
-        "B": "Right alignment",
-        "C": "Centered alignment",
         "D": "None of these"
       },
       "correct": "A"
@@ -568,16 +578,6 @@
         "B": "Intelligent Chip",
         "C": "Integrated Circuit",
         "D": "Internal Component"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "LCD stands for _____?",
-      "options": {
-        "A": "Liquid crystal disk",
-        "B": "Liquefied crystal display",
-        "C": "Liquid crystal display",
-        "D": "None of these"
       },
       "correct": "C"
     },

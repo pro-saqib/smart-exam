@@ -2,6 +2,106 @@
   "name": "PPSC Past Papers all MCQs 2022 of Computer",
   "mcqs": [
     {
+      "question": "RAM stands for ____?",
+      "options": {
+        "A": "Random Access Memory",
+        "B": "Random Access Money",
+        "C": "Random Accurate Memory",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In MS Word default alignment for a paragraph is _____?",
+      "options": {
+        "A": "Left alignment",
+        "B": "Right alignment",
+        "C": "Centered alignment",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ROM stands for _____?",
+      "options": {
+        "A": "Random Only Memory",
+        "B": "Read Only Memory",
+        "C": "Read Only Meaning",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is called the physical part of computer?",
+      "options": {
+        "A": "Software",
+        "B": "Hardware",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
+      "options": {
+        "A": ".pp",
+        "B": ".xls",
+        "C": ".pptx",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
+      "options": {
+        "A": "Tom Burne",
+        "B": "Tim Burner Lee",
+        "C": "Fred Zuckerberg",
+        "D": "Both a and b"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CTRL + S is the shortcut key for?",
+      "options": {
+        "A": "New",
+        "B": "Bold",
+        "C": "Save",
+        "D": "Copy"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which shortcut key inserts a new slide in current presentation?",
+      "options": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "None of above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Excel formula and function start with ____?",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "=",
+        "D": "["
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does HTTP stands for in the context of WWW?",
+      "options": {
+        "A": "Hypertext Transfer Protocol",
+        "B": "Hypertext Transfer Protection",
+        "C": "Hyper Transfer Protocol",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Which of the following is NOT an element of spreadsheet interface? Pencil work, Active cell, Menu bar, Workbook",
       "options": {
         "A": "Pencil work",
@@ -92,16 +192,6 @@
       "correct": "A"
     },
     {
-      "question": "In MS Excel formula and function start with ____?",
-      "options": {
-        "A": "+",
-        "B": "-",
-        "C": "=",
-        "D": "["
-      },
-      "correct": "C"
-    },
-    {
       "question": "What the the first page of a website is called?",
       "options": {
         "A": "First Page",
@@ -142,41 +232,11 @@
       "correct": "B"
     },
     {
-      "question": "CTRL + S is the shortcut key for?",
-      "options": {
-        "A": "New",
-        "B": "Bold",
-        "C": "Save",
-        "D": "Copy"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "ROM stands for _____?",
-      "options": {
-        "A": "Random Only Memory",
-        "B": "Read Only Memory",
-        "C": "Read Only Meaning",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Which of following software is used to prepare/create multimedia presentation?",
       "options": {
         "A": "PowerPoint",
         "B": "MS Word",
         "C": "Spreadsheet",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "RAM stands for ____?",
-      "options": {
-        "A": "Random Access Memory",
-        "B": "Random Access Money",
-        "C": "Random Accurate Memory",
         "D": "None of these"
       },
       "correct": "A"
@@ -200,16 +260,6 @@
         "D": "CTRL+["
       },
       "correct": "D"
-    },
-    {
-      "question": "Which shortcut key inserts a new slide in current presentation?",
-      "options": {
-        "A": "Ctrl+N",
-        "B": "Ctrl+M",
-        "C": "Ctrl+S",
-        "D": "None of above"
-      },
-      "correct": "B"
     },
     {
       "question": "What is the main difference between a mainframe and a super computer?",
@@ -240,16 +290,6 @@
         "D": "Clicking the formula bar"
       },
       "correct": "B"
-    },
-    {
-      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
-      "options": {
-        "A": ".pp",
-        "B": ".xls",
-        "C": ".pptx",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "To insert a hyperlink which shortkey is used?",
@@ -322,16 +362,6 @@
       "correct": "B"
     },
     {
-      "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
-      "options": {
-        "A": "Tom Burne",
-        "B": "Tim Burner Lee",
-        "C": "Fred Zuckerberg",
-        "D": "Both a and b"
-      },
-      "correct": "B"
-    },
-    {
       "question": "What is the purpose of inserting header and footer in the document?",
       "options": {
         "A": "To mark the starting of a page",
@@ -340,16 +370,6 @@
         "D": "To make large document more readable"
       },
       "correct": "C"
-    },
-    {
-      "question": "What does HTTP stands for in the context of WWW?",
-      "options": {
-        "A": "Hypertext Transfer Protocol",
-        "B": "Hypertext Transfer Protection",
-        "C": "Hyper Transfer Protocol",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "Which of these refers to the PowerPoint view used for displaying only the text (title and bullets)?",
@@ -450,16 +470,6 @@
         "D": "None of above"
       },
       "correct": "B"
-    },
-    {
-      "question": "In MS Word default alignment for a paragraph is _____?",
-      "options": {
-        "A": "Left alignment",
-        "B": "Right alignment",
-        "C": "Centered alignment",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "Reasons to use Macro in Microsoft Office ?",
@@ -950,16 +960,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Which is called the physical part of computer?",
-      "options": {
-        "A": "Software",
-        "B": "Hardware",
-        "C": "Both of these",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "In MS Excel which bar is used for formula and data writing?",

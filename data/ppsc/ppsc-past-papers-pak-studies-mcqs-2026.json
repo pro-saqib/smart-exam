@@ -2,6 +2,106 @@
   "name": "PPSC Past Papers Pak Studies MCQs 2026",
   "mcqs": [
     {
+      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
+      "options": {
+        "A": "Indus, Jhelum and Chenab",
+        "B": "Ravi and Indus",
+        "C": "Indus and Jhelum",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which kind of system of government was introduced in 1962 constitution?",
+      "options": {
+        "A": "Presidential",
+        "B": "Autonomous",
+        "C": "Confederate",
+        "D": "Bicameral"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who presented the Objective Resolution in the constituent Assembly?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Quaid-e-Azam",
+        "C": "Abdul Ghuffar Khan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "K2 (Godwin Austin), the second-highest mountain in the world, is located in which mountain range?",
+      "options": {
+        "A": "Himalayas",
+        "B": "Hindu Kush",
+        "C": "Karakoram Range",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Tashkent declaration between Pakistan and India was signed on?",
+      "options": {
+        "A": "10 January 1966",
+        "B": "1 January 1965",
+        "C": "15 January 1964",
+        "D": "1 February 1966"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was the Lahore Resolution (Pakistan Resolution) passed?",
+      "options": {
+        "A": "14 March 1945",
+        "B": "23 March 1940",
+        "C": "12 March 1948",
+        "D": "28 March 1947"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the border between Pakistan and Afghanistan called?",
+      "options": {
+        "A": "Durand Line",
+        "B": "Line of control",
+        "C": "Free Line",
+        "D": "Dukhtar Line"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "APTMA stands for ______?",
+      "options": {
+        "A": "All Pakistan Textile Manufacturing Agency",
+        "B": "All Pakistan Textile Merchants Association",
+        "C": "All Pakistan Textile Mills Association",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "NHA is the abbreviation of _____?",
+      "options": {
+        "A": "Natural Highway Authority",
+        "B": "National Highway Authority",
+        "C": "New Highway Authority",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "Forests are only _____ of the total area of Pakistan.",
       "options": {
         "A": "6.3%",
@@ -68,16 +168,6 @@
         "B": "881,913 km²",
         "C": "899,92222 km²",
         "D": "799,92222 km²"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "When was the Lahore Resolution (Pakistan Resolution) passed?",
-      "options": {
-        "A": "14 March 1945",
-        "B": "23 March 1940",
-        "C": "12 March 1948",
-        "D": "28 March 1947"
       },
       "correct": "B"
     },
@@ -672,16 +762,6 @@
       "correct": "C"
     },
     {
-      "question": "NHA is the abbreviation of _______.",
-      "options": {
-        "A": "Natural Highway Authority",
-        "B": "National Highway Authority",
-        "C": "New Highway Authority",
-        "D": "National Highway Agency"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Which pass connects Quetta with Kandahar?",
       "options": {
         "A": "Khojak Pass",
@@ -912,16 +992,6 @@
       "correct": "C"
     },
     {
-      "question": "Who presented the Objective Resolution in the constituent Assembly?",
-      "options": {
-        "A": "Liaquat Ali Khan",
-        "B": "Quaid-e-Azam",
-        "C": "Abdul Ghuffar Khan",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "On which river Diamer Bhasha dam is being constructed?",
       "options": {
         "A": "River Neelam",
@@ -1122,16 +1192,6 @@
       "correct": "A"
     },
     {
-      "question": "The Tashkent declaration between Pakistan and India was signed on?",
-      "options": {
-        "A": "10 January 1966",
-        "B": "1 January 1965",
-        "C": "15 January 1964",
-        "D": "1 February 1966"
-      },
-      "correct": "A"
-    },
-    {
       "question": "The National Anthem of Pakistan is written by?",
       "options": {
         "A": "Allama Iqbal",
@@ -1190,16 +1250,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "A.K Fazlul-Haq",
-        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
-        "D": "Liaquat Ali Khan"
-      },
-      "correct": "B"
     },
     {
       "question": "Which animal is the national animal of Pakistan?",
@@ -1282,16 +1332,6 @@
       "correct": "A"
     },
     {
-      "question": "What is the border between Pakistan and Afghanistan called?",
-      "options": {
-        "A": "Durand Line",
-        "B": "Line of control",
-        "C": "Free Line",
-        "D": "Dukhtar Line"
-      },
-      "correct": "A"
-    },
-    {
       "question": "When Tashkent Declaration was signed, who was the President of Pakistan?",
       "options": {
         "A": "Ayub Khan",
@@ -1360,16 +1400,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Which kind of system of government was introduced in 1962 constitution?",
-      "options": {
-        "A": "Presidential",
-        "B": "Autonomous",
-        "C": "Confederate",
-        "D": "Bicameral"
-      },
-      "correct": "A"
     },
     {
       "question": "Makran coastal area touches which sea?",
@@ -1830,16 +1860,6 @@
         "D": "32%"
       },
       "correct": "C"
-    },
-    {
-      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
-      "options": {
-        "A": "Indus, Jhelum and Chenab",
-        "B": "Ravi and Indus",
-        "C": "Indus and Jhelum",
-        "D": "None of the above"
-      },
-      "correct": "A"
     },
     {
       "question": "Nanga Parbat is located in which range?",
@@ -2932,16 +2952,6 @@
       "correct": "B"
     },
     {
-      "question": "APTMA stands for ______?",
-      "options": {
-        "A": "All Pakistan Textile Manufacturing Agency",
-        "B": "All Pakistan Textile Merchants Association",
-        "C": "All Pakistan Textile Mills Association",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "“In the Line of Fire” is the autobiography of ____?",
       "options": {
         "A": "Pervez Musharraf",
@@ -3000,16 +3010,6 @@
         "D": "January 1, 2020"
       },
       "correct": "B"
-    },
-    {
-      "question": "K-2 is present in which mountains range?",
-      "options": {
-        "A": "Hindu kush",
-        "B": "Pamir",
-        "C": "Himalayas",
-        "D": "Karakoram"
-      },
-      "correct": "D"
     },
     {
       "question": "Arya Samaj was founded in _______?",

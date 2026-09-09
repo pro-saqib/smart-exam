@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers Everyday Science MCQs 2026",
   "mcqs": [
     {
+      "question": "The only elemental metal that is liquid at room temperature is?",
+      "options": {
+        "A": "Lead",
+        "B": "Zinc",
+        "C": "Mercury",
+        "D": "Aluminum"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A unit of pressure is equal to 1 newton per square meter (N/m²) is known as?",
+      "options": {
+        "A": "Newton",
+        "B": "Joule",
+        "C": "Pascal",
+        "D": "Kelvin"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who invented Radio?",
+      "options": {
+        "A": "Graham Bell",
+        "B": "Thomas Edison",
+        "C": "Marconi",
+        "D": "Wright Brothers"
+      },
+      "correct": "C"
+    },
+    {
       "question": "A series of steps of a stair is called?",
       "options": {
         "A": "Landing",
@@ -60,16 +90,6 @@
         "D": "Rubber"
       },
       "correct": "A"
-    },
-    {
-      "question": "Who invented Radio?",
-      "options": {
-        "A": "Graham Bell",
-        "B": "Thomas Edison",
-        "C": "Marconi",
-        "D": "Wright Brothers"
-      },
-      "correct": "C"
     },
     {
       "question": "Oxygen reacts with most elements to produce binary compounds called?",
@@ -148,16 +168,6 @@
         "B": "Testing whether a person has a disease",
         "C": "Identifying poisons",
         "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "A unit of pressure is equal to 1 newton per square meter (N/m²) is known as?",
-      "options": {
-        "A": "Newton",
-        "B": "Joule",
-        "C": "Pascal",
-        "D": "Kelvin"
       },
       "correct": "C"
     },
@@ -600,16 +610,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "The only elemental metal that is liquid at room temperature is?",
-      "options": {
-        "A": "Lead",
-        "B": "Zinc",
-        "C": "Mercury",
-        "D": "Aluminum"
-      },
-      "correct": "C"
     },
     {
       "question": "In our body, the percentage of water is?",

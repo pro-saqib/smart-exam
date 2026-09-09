@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers all MCQs 2022 of Current Affairs",
   "mcqs": [
     {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Prime Minister of Japan?",
+      "options": {
+        "A": "Fumio Kishida",
+        "B": "Sanae Takaichi",
+        "C": "Shigeru Ishiba",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When was Kamala Harris and Joe Biden assume office?",
+      "options": {
+        "A": "20 January 2021",
+        "B": "01 January 2021",
+        "C": "01 February 2021",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Who is the Current Prime Minister of Azad Jammu and Kashmir (AJK)?",
       "options": {
         "A": "Syed Iftikhar Ali Gillani",
@@ -42,16 +72,6 @@
       "correct": "A"
     },
     {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "The incumbent Foreign Minister of Afghanistan is ______?",
       "options": {
         "A": "Amir Khan Muttaqi",
@@ -80,16 +100,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Who is the Current Prime Minister of Japan?",
-      "options": {
-        "A": "Fumio Kishida",
-        "B": "Sanae Takaichi",
-        "C": "Shigeru Ishiba",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Who is the Current President of India?",
@@ -440,16 +450,6 @@
         "D": "$95.04 million"
       },
       "correct": "C"
-    },
-    {
-      "question": "When did Kamala Harris and Joe Biden assume office?",
-      "options": {
-        "A": "20 January 2021",
-        "B": "01 January 2021",
-        "C": "01 February 2021",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "China and ______ signed a 25-year “strategic cooperation pact” on 27-March-2021.",

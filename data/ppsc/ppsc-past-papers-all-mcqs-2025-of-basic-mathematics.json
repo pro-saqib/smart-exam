@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2025 of Basic Mathematics",
   "mcqs": [
     {
+      "question": "A number is increased by 20% and then decreased by 20%. Find the net increase or decrease percent?",
+      "options": {
+        "A": "Does not changes",
+        "B": "Decreased by 4%",
+        "C": "Increased by 4%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "A completes a work in 12 days whereas B completes the same work in 24 days. If both A and B work together, the work will be completed in ____?",
       "options": {
         "A": "6",
@@ -50,16 +60,6 @@
         "D": "220°"
       },
       "correct": "C"
-    },
-    {
-      "question": "A number is increased by 20% and then decreased by 20%. Find the net increase or decrease percent?",
-      "options": {
-        "A": "Does not changes",
-        "B": "Decreased by 4%",
-        "C": "Increased by 4%",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Find the average of 5/6, 4/3, 3/4?",

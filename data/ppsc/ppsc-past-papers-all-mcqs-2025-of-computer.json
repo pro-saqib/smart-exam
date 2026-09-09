@@ -2,6 +2,176 @@
   "name": "PPSC Past Papers all MCQs 2025 of Computer",
   "mcqs": [
     {
+      "question": "Time required for a computer to locate and transfer data is called?",
+      "options": {
+        "A": "Basic Time",
+        "B": "Starting Point",
+        "C": "Access Time",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is an example of Database Management System?",
+      "options": {
+        "A": "MS Word",
+        "B": "ORACLE",
+        "C": "Adobe Photoshop",
+        "D": "US Power Point"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "RAM stands for ____?",
+      "options": {
+        "A": "Random Access Memory",
+        "B": "Random Access Money",
+        "C": "Random Accurate Memory",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The shortcut key Ctrl + C in MS Word is used for?",
+      "options": {
+        "A": "Copy command",
+        "B": "Cut command",
+        "C": "Paste command",
+        "D": "Bold command"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "USB stands for ______?",
+      "options": {
+        "A": "Universal serial Bussiness",
+        "B": "Universal Serial Bus",
+        "C": "Universal Secondary Bus",
+        "D": "Unary Serial Bus"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the Extension of MS Word documents 2007 and later?",
+      "options": {
+        "A": ".docs",
+        "B": ".dos",
+        "C": ".docx",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is called the physical part of computer?",
+      "options": {
+        "A": "Software",
+        "B": "Hardware",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
+      "options": {
+        "A": ".pp",
+        "B": ".xls",
+        "C": ".pptx",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is a solid-state drive (SSD) advantage over a hard disk drive (HDD)?",
+      "options": {
+        "A": "SSDs are faster and more durable than HDDs",
+        "B": "SSDs are slower than HDDs",
+        "C": "SSDs cannot store data permanently",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "BCC stands for _____?",
+      "options": {
+        "A": "Basic Carbon Copy",
+        "B": "Blind Carbon Copy",
+        "C": "Business Carbon Copy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "Cache",
+        "D": "Both A and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "CTRL + S is the shortcut key for?",
+      "options": {
+        "A": "New",
+        "B": "Bold",
+        "C": "Save",
+        "D": "Copy"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In Microsoft Excel, what is the purpose of conditional formatting?",
+      "options": {
+        "A": "To apply formatting based on specified criteria or rules.",
+        "B": "To create custom functions for complex calculations.",
+        "C": "To sort data in alphabetical or numerical order.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "URL has an abbreviation of?",
+      "options": {
+        "A": "Uniform Resource Locator",
+        "B": "Universal Resource Link",
+        "C": "Uniform Reference Link",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which shortcut key inserts a new slide in current presentation?",
+      "options": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "None of above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Excel formula and function start with ____?",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "=",
+        "D": "["
+      },
+      "correct": "C"
+    },
+    {
       "question": "In MS PowerPoint we press _____ key to start slideshow from current slide.",
       "options": {
         "A": "F5",
@@ -112,16 +282,6 @@
       "correct": "A"
     },
     {
-      "question": "The shortcut key Ctrl + C in MS Word is used for?",
-      "options": {
-        "A": "Copy command",
-        "B": "Cut command",
-        "C": "Paste command",
-        "D": "Bold command"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which of following shortcut keys is used to change the case in MS Word?",
       "options": {
         "A": "Ctrl+ F3",
@@ -138,16 +298,6 @@
         "B": "To insert a table in a document",
         "C": "To insert clip art in a document",
         "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "In MS Excel formula and function start with ____?",
-      "options": {
-        "A": "+",
-        "B": "-",
-        "C": "=",
-        "D": "["
       },
       "correct": "C"
     },
@@ -222,16 +372,6 @@
       "correct": "B"
     },
     {
-      "question": "CTRL + S is the shortcut key for?",
-      "options": {
-        "A": "New",
-        "B": "Bold",
-        "C": "Save",
-        "D": "Copy"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Which of the following languages is used for webpage development?",
       "options": {
         "A": "HTML",
@@ -262,16 +402,6 @@
       "correct": "B"
     },
     {
-      "question": "RAM stands for ____?",
-      "options": {
-        "A": "Random Access Memory",
-        "B": "Random Access Money",
-        "C": "Random Accurate Memory",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which key is used to align the text to center?",
       "options": {
         "A": "Ctrl+ B",
@@ -300,16 +430,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Which shortcut key inserts a new slide in current presentation?",
-      "options": {
-        "A": "Ctrl+N",
-        "B": "Ctrl+M",
-        "C": "Ctrl+S",
-        "D": "None of above"
-      },
-      "correct": "B"
     },
     {
       "question": "Shortcut keys to switch to the next windows?",
@@ -382,16 +502,6 @@
       "correct": "D"
     },
     {
-      "question": "What is extension of MS PowerPoint presentation of file in 2007 and later?",
-      "options": {
-        "A": ".pp",
-        "B": ".xls",
-        "C": ".pptx",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Which one is an example of database designing software?",
       "options": {
         "A": "MS Word",
@@ -458,36 +568,6 @@
         "B": "Ctrl + N",
         "C": "Ctrl + W",
         "D": "Ctrl + M"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "A.K Fazlul-Haq",
-        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
-        "D": "Liaquat Ali Khan"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Which of the following is a volatile memory? RAM, ROM, Cache, Both A and C",
-      "options": {
-        "A": "RAM",
-        "B": "ROM",
-        "C": "Cache",
-        "D": "Both A and C"
-      },
-      "correct": "D"
-    },
-    {
-      "question": "BCC stands for _____?",
-      "options": {
-        "A": "Basic Carbon Copy",
-        "B": "Blind Carbon Copy",
-        "C": "Business Carbon Copy",
-        "D": "None of these"
       },
       "correct": "B"
     },
@@ -572,16 +652,6 @@
       "correct": "D"
     },
     {
-      "question": "URL has an abbreviation of?",
-      "options": {
-        "A": "Uniform Resource Locator",
-        "B": "Universal Resource Link",
-        "C": "Uniform Reference Link",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which type of memory is commonly used for storing firmware in embedded systems?",
       "options": {
         "A": "RAM",
@@ -600,16 +670,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "What is the Extension of MS Word documents?",
-      "options": {
-        "A": ".docs",
-        "B": ".dos",
-        "C": ".docx",
-        "D": "None of the above"
-      },
-      "correct": "C"
     },
     {
       "question": "Bit is the most famous basic unit in computing which stands for?",
@@ -1000,6 +1060,2016 @@
         "D": "None of these"
       },
       "correct": "A"
+    },
+    {
+      "question": "There are two different ways to insert content from one application into another i.e. embedding and_____?",
+      "options": {
+        "A": "Linking",
+        "B": "Clicking",
+        "C": "Churching",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The man who built the first Mechanical Calculator was ______?",
+      "options": {
+        "A": "Blaise Pascal",
+        "B": "Harward Aliken",
+        "C": "John Mauchly",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who gave the ideas to combine the internet with the hypertext concepts?",
+      "options": {
+        "A": "Tim Berners Lee",
+        "B": "Blaise Pascal",
+        "C": "Alexander Hamilton",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Blank DVDs on which data can be erased and rewritten are identified as _____?",
+      "options": {
+        "A": "DVD+RW",
+        "B": "DVD",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An extremely small piece of silicon on which integrated circuits are implicated is called?",
+      "options": {
+        "A": "Feed",
+        "B": "Hollerith Code",
+        "C": "Chip",
+        "D": "Card reader"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A device which encodes characters by the depression of keys is known as _____?",
+      "options": {
+        "A": "Hard Drive",
+        "B": "Mouse",
+        "C": "Keyboard",
+        "D": "Printer"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In CT Scan, CT stands for _____?",
+      "options": {
+        "A": "Computer Test",
+        "B": "Central Technology",
+        "C": "Computed Tomography",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Where is the Print option located in MS Word?",
+      "options": {
+        "A": "Edit > Print",
+        "B": "Insert > Print",
+        "C": "File > Print",
+        "D": "View > Print"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which device both sends data to and receives data from a computer?",
+      "options": {
+        "A": "Input device",
+        "B": "Output device",
+        "C": "Input/Output device",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "To prevent invalid data computer shows _____?",
+      "options": {
+        "A": "Red triangle",
+        "B": "Blue triangle",
+        "C": "Yellow triangle",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A Red wavy line in MS Word indicates that _____?",
+      "options": {
+        "A": "Misspelled word/Spelling Error",
+        "B": "Character mistakes",
+        "C": "Grammatical mistakes",
+        "D": "Spacing mistakes"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which protocol automatically assigns an IP address to a computer on a network?",
+      "options": {
+        "A": "CPU",
+        "B": "Hard Disk",
+        "C": "DHCP",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "MS Access is program for ______?",
+      "options": {
+        "A": "Presentation",
+        "B": "Documentation",
+        "C": "Calculation",
+        "D": "Database"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The graphical representation of a program is called ______?",
+      "options": {
+        "A": "Flowchart",
+        "B": "Source code",
+        "C": "Pseudo code",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Borders can be applied to ___.",
+      "options": {
+        "A": "cell text paragraph",
+        "B": "cell text index",
+        "C": "paragraphs",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following is page margin?",
+      "options": {
+        "A": "Narrow",
+        "B": "Tabloid",
+        "C": "Letter",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where URL is not stored in computer operations?",
+      "options": {
+        "A": "CPU",
+        "B": "Unix",
+        "C": "SO/2",
+        "D": "Browser"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which was the official language declared in 1956 constitution?",
+      "options": {
+        "A": "Urdu",
+        "B": "Bengali",
+        "C": "Punjabi",
+        "D": "Both A & B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is Webcom?",
+      "options": {
+        "A": "Input",
+        "B": "Output",
+        "C": "Storing",
+        "D": "Processing"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What type of computer is used in laboratory?",
+      "options": {
+        "A": "Microcomputer",
+        "B": "Minicomputer",
+        "C": "Supercomputer",
+        "D": "Mainframe"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who discovered the microscope?",
+      "options": {
+        "A": "Galileo Galilei",
+        "B": "Antonie van Leeuwenhoek",
+        "C": "Robert Hooke",
+        "D": "Zacharias Janssen"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The name of the PowerPoint file can be seen on _____?",
+      "options": {
+        "A": "Menu bar",
+        "B": "Title bar",
+        "C": "Scroll bar",
+        "D": "Status bar"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is not included in a Font Style in MS-Word?",
+      "options": {
+        "A": "Bold",
+        "B": "Italic",
+        "C": "Regular",
+        "D": "Superscript"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "USB is used for ______?",
+      "options": {
+        "A": "Memory storage",
+        "B": "Writing",
+        "C": "Cleaning",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which option is used for Zoom in?",
+      "options": {
+        "A": "+",
+        "B": "-",
+        "C": "X",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "DVD stands for what?",
+      "options": {
+        "A": "Digital Video Disk",
+        "B": "Digital Value Disk",
+        "C": "Digital Versatile Disk",
+        "D": "Data Video Disk"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which menu should we used, if we want to add Clip Art?",
+      "options": {
+        "A": "File",
+        "B": "View",
+        "C": "Insert",
+        "D": "Help"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which option is used to open a recent file?",
+      "options": {
+        "A": "Ctrl + R",
+        "B": "Ctrl + O",
+        "C": "Ctrl + M",
+        "D": "Ctrl + F"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which button do you click to add up a series of numbers?",
+      "options": {
+        "A": "The auto sum button",
+        "B": "The formula button",
+        "C": "The total button",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Slide Transition done on _____?",
+      "options": {
+        "A": "New Slide",
+        "B": "Current Slide",
+        "C": "Previous Slide",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which view headers and footers are visible?",
+      "options": {
+        "A": "Normal View",
+        "B": "Page Layout View",
+        "C": "Print Layout View",
+        "D": "Both B and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which protocol is used to delete the email from the server?",
+      "options": {
+        "A": "SMTP",
+        "B": "IMAP",
+        "C": "POP3",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Concatenate in Excel is used for ______?",
+      "options": {
+        "A": "To join different cells",
+        "B": "To split cells",
+        "C": "To delete cells",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Window's settings are recorded in _____?",
+      "options": {
+        "A": "SYSTEM.INI",
+        "B": "WINDOWS.INI",
+        "C": "WIN.INI",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In MS Word and Excel, to combine two or more cells into one is called?",
+      "options": {
+        "A": "Joining",
+        "B": "Merging",
+        "C": "Split",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which protocol provides E-mail facility among different hosts?",
+      "options": {
+        "A": "FTP",
+        "B": "SNMP",
+        "C": "TELNET",
+        "D": "SMTP"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Spooling is required for devices such as _____?",
+      "options": {
+        "A": "Disks",
+        "B": "Network adapter",
+        "C": "Printers",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Hard time real operating system is _____ jitter than soft one.",
+      "options": {
+        "A": "More",
+        "B": "Less",
+        "C": "Same",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Docx is the extension of which of the following?",
+      "options": {
+        "A": "MS Excel",
+        "B": "MS Word",
+        "C": "MS PowerPoint",
+        "D": "MS Outlook"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Software required to run the hardware is known as _____?",
+      "options": {
+        "A": "Task Bar",
+        "B": "Device Driver",
+        "C": "Task Manager",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which type of software is an antivirus?",
+      "options": {
+        "A": "System Software",
+        "B": "Utility Software",
+        "C": "Application Software",
+        "D": "Development Software"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which chart is by default in MS Excel?",
+      "options": {
+        "A": "Pie Chart",
+        "B": "Line Chart",
+        "C": "Column Chart",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which feature in MS Word allows you to track changes made to a document?",
+      "options": {
+        "A": "Spelling and Grammar",
+        "B": "Track Changes",
+        "C": "Word Count",
+        "D": "AutoCorrect"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A combination of 16 bits is called _____?",
+      "options": {
+        "A": "Memory",
+        "B": "Nibble",
+        "C": "Bit",
+        "D": "Word or Two Bytes"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "SSD stands for ______?",
+      "options": {
+        "A": "Super Storage Device",
+        "B": "Solid System Drive",
+        "C": "Solid State Drive",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Animation schemes can be applied to ___ in the presentattion.",
+      "options": {
+        "A": "All slides",
+        "B": "Select Slides",
+        "C": "Current slides",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "IoT stands for _____?",
+      "options": {
+        "A": "Internet of Tools",
+        "B": "Information of Technology",
+        "C": "Internet of Things",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which Short cut key for opening the font dialog box in Microsoft Word?",
+      "options": {
+        "A": "CTRL+B",
+        "B": "CTRL+D",
+        "C": "CTRL+C",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ctrl + F Shortcut key is used in MS Word to _____?",
+      "options": {
+        "A": "Open Find and Replace Dialog box with activating Find Tab",
+        "B": "Open Page Setup Dialog box with activating Layout Tab",
+        "C": "Open Font Dialog Box with activating Font tab",
+        "D": "Open File Save as Dialog box"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which formula is used to find the average of cells B1 to B10 in Excel?",
+      "options": {
+        "A": "=MEAN(B1:B10)",
+        "B": "=AVERAGE(B1:B10)",
+        "C": "=SUM(B1:B10)",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not an output device of a computer?",
+      "options": {
+        "A": "Keyboard",
+        "B": "Mouse",
+        "C": "Scanner",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of following is not a valid data type in MS Excel?",
+      "options": {
+        "A": "Number",
+        "B": "Character",
+        "C": "Babel",
+        "D": "Date/Time"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the secondary storage device? ROM, CD-ROM, Hard Disk, Both B and C",
+      "options": {
+        "A": "ROM",
+        "B": "CD-ROM",
+        "C": "Hard Disk",
+        "D": "Both B and C"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Slideshow in Microsoft PowerPoint is launched by _______?",
+      "options": {
+        "A": "F5",
+        "B": "F4",
+        "C": "F2",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is a way to access secondary memory?",
+      "options": {
+        "A": "Density method",
+        "B": "Transfer method",
+        "C": "Action method",
+        "D": "Random access memory"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The software which contains rows and columns is called in MS Excel is called?",
+      "options": {
+        "A": "Database",
+        "B": "Spreadsheet",
+        "C": "Word processing",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In a computer spreadsheet rows are labeled _____?",
+      "options": {
+        "A": "By letters",
+        "B": "By numbers",
+        "C": "By cell references",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which game is known as the “Mother of all games”?",
+      "options": {
+        "A": "Football",
+        "B": "Hockey",
+        "C": "Cricket",
+        "D": "Gymnastics"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What does the VLOOKUP function do in Excel?",
+      "options": {
+        "A": "Count the number of cells",
+        "B": "Searches for a value in a column and returns a value in the same row",
+        "C": "Calculate the average of values",
+        "D": "Sorts data in ascending order"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The process of transferring files from a computer on the Internet to your computer is called?",
+      "options": {
+        "A": "Forwarding",
+        "B": "Downloading",
+        "C": "Uploading",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How can you sum up a range of cells in Excel?",
+      "options": {
+        "A": "Use the SUM function",
+        "B": "Use the AVERAGE function",
+        "C": "Use the COUNT function",
+        "D": "Use the MAX function"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Transistors were developed at _____?",
+      "options": {
+        "A": "IBM",
+        "B": "Intel",
+        "C": "Bell Laboratories",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the process of data copying from a server to a personal computer called?",
+      "options": {
+        "A": "Uploading",
+        "B": "Sharing",
+        "C": "Copying",
+        "D": "Downloading"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which control is used to select or deselect multiple options in a form?",
+      "options": {
+        "A": "Radio Button",
+        "B": "Drop-down Menu",
+        "C": "Text Box",
+        "D": "Check Box"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which memory type is known for having the longest access time among early non-volatile memories?",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "Flash Memory",
+        "D": "Magnetic Bubble Memory"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Flip, rotate, bounce, and fly are associated with ____?",
+      "options": {
+        "A": "Animations",
+        "B": "Transitions",
+        "C": "Shapes",
+        "D": "Charts"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Natural language, artificial intelligence and bio chips introduced in which generation of computers?",
+      "options": {
+        "A": "3rd",
+        "B": "4th",
+        "C": "5th",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which component gives power supply to a computer? CPU, Power Supply Unit (PSU), RAM, None of these",
+      "options": {
+        "A": "CPU",
+        "B": "Power Supply Unit (PSU)",
+        "C": "RAM",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which among the following refers to the machine part of a computer? Software, Hardware, Application, None of these",
+      "options": {
+        "A": "Software",
+        "B": "Hardware",
+        "C": "Application",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is used as a VDU (Visual Display Unit)? A) Mouse B) Keyboard C) Printer D) Monitor",
+      "options": {
+        "A": "Mouse",
+        "B": "Keyboard",
+        "C": "Printer",
+        "D": "Monitor"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is long-term memory in a computer? RAM , Cache , Hard Disk , Register",
+      "options": {
+        "A": "RAM",
+        "B": "Cache",
+        "C": "Hard Disk",
+        "D": "Register"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following does not change in a computer URL? Domain name, Protocol (http/https), Path, Query parameters",
+      "options": {
+        "A": "Domain name",
+        "B": "Protocol (http/https)",
+        "C": "Path",
+        "D": "Query parameters"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which would you choose to move selected text from one place to another?",
+      "options": {
+        "A": "copy and paste",
+        "B": "delete and paste",
+        "C": "move and paste",
+        "D": "cut and paste"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is the first owner of the Microsoft Company?",
+      "options": {
+        "A": "Steve",
+        "B": "Henry",
+        "C": "Bill gates",
+        "D": "Charlie"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "UNIVAC is a _________?",
+      "options": {
+        "A": "Universal Automatic Computer",
+        "B": "First-generation computing device",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Wi-Fi stands for ______?",
+      "options": {
+        "A": "Wireless fidelity",
+        "B": "Wire fidelity",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ctrl+x in Ms word used for :",
+      "options": {
+        "A": "Cut",
+        "B": "Paste",
+        "C": "Space",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the main function of the Drafts folder in Gmail?",
+      "options": {
+        "A": "To store emails that have been sent successfully.",
+        "B": "To store incoming emails from other people.",
+        "C": "To store emails that are written but not yet sent.",
+        "D": "To store deleted emails temporarily."
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does SSL stand for?",
+      "options": {
+        "A": "Safe Security Login",
+        "B": "Secure System Link",
+        "C": "Secure Socket Layer",
+        "D": "Simple Socket Link"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How do you select a chart in MS PowerPoint?",
+      "options": {
+        "A": "Double click",
+        "B": "Single click",
+        "C": "Right-click",
+        "D": "Ctrl + C"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Word 2007, which shortcut key is used to switch to Outline view?",
+      "options": {
+        "A": "ALT+CTRL+O",
+        "B": "ALT+CTRL+P",
+        "C": "ALT+SHIFT+O",
+        "D": "ALT+SHIFT+P"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In MS Excel you can use a function to combine text from two cells into one cell. But you can use an operator to do the same thing. Which operator is that?",
+      "options": {
+        "A": "Name",
+        "B": "Space",
+        "C": "Ampersand",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Bookmarks work with ______?",
+      "options": {
+        "A": "Hyperlinks",
+        "B": "Shapes",
+        "C": "Charts",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "“Email Forward” means?",
+      "options": {
+        "A": "To delete an email",
+        "B": "To reply to an email",
+        "C": "To send an email to someone else",
+        "D": "To save an email for later"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The freezing row and column in Excel is in which pane?",
+      "options": {
+        "A": "Freezing row",
+        "B": "Freezing column",
+        "C": "Freezing pane",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following protocols helps to send emails?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "ICMP"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To send email, we use?",
+      "options": {
+        "A": "MS Excel",
+        "B": "Outlook Explorer",
+        "C": "HTML",
+        "D": "Netscape Navigator"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Format painter in power point relates to :",
+      "options": {
+        "A": "To copy formatting from one object or piece of text and then applied it else where",
+        "B": "To paint pretty pictures on your slides",
+        "C": "To change the background colors of your slides",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The shortcut key for the Past.",
+      "options": {
+        "A": "CTRL + V",
+        "B": "CTRL + C",
+        "C": "CTRL + P",
+        "D": "CTRL + D"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "DMS stands for?",
+      "options": {
+        "A": "Data Management System",
+        "B": "Document Management System",
+        "C": "Digital Monitoring System",
+        "D": "Database Management Software"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does VIRUS stand for?",
+      "options": {
+        "A": "Vital Information Resources Under Siege",
+        "B": "Verified Information and Research Using Systems",
+        "C": "Virtual Internet Resource User System",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following correctly differentiates between an Inkjet printer and a Laser printer? Inkjet printers use liquid ink sprayed through nozzles; Laser printers use toner powder fused with heat., Inkjet printers are generally faster than Laser printers., Laser printers are less expensive per page than Inkjet printers., None of these",
+      "options": {
+        "A": "Inkjet printers use liquid ink sprayed through nozzles; Laser printers use toner powder fused with heat.",
+        "B": "Inkjet printers are generally faster than Laser printers.",
+        "C": "Laser printers are less expensive per page than Inkjet printers.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following device can store large amount of data",
+      "options": {
+        "A": "Floppy Disk",
+        "B": "Hard Disk",
+        "C": "CDROM",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is a correct email format of Email address?",
+      "options": {
+        "A": "Name.website.com",
+        "B": "Www.nameofebsite.com",
+        "C": "Name@website.com",
+        "D": "Name@website@info"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "MS PowerPoint is example of _____?",
+      "options": {
+        "A": "Multimedia software",
+        "B": "Application software",
+        "C": "Entertainment software",
+        "D": "All above mentioned"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The shortcut key Ctrl + K is used for ____?",
+      "options": {
+        "A": "Insert link",
+        "B": "Insert hyperlink",
+        "C": "Formate latters",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is the oldest search engine? Google, Yahoo, MSN Search, Alta Vista",
+      "options": {
+        "A": "Yahoo",
+        "B": "Google",
+        "C": "MSN Search",
+        "D": "Alta Vista"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The output shown on the computer monitor is called?",
+      "options": {
+        "A": "VDC",
+        "B": "Hard copy",
+        "C": "Screen Copy",
+        "D": "Soft copy"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is used in a computer to protect a networked server from damage by those who log in to it?",
+      "options": {
+        "A": "Gateway",
+        "B": "Flow Control",
+        "C": "Antivirus",
+        "D": "Firewall"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Tool used for graphics designing or drawing is ______?",
+      "options": {
+        "A": "Word",
+        "B": "Excel",
+        "C": "Paint",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Messages received from another person are usually stored in ______?",
+      "options": {
+        "A": "Inbox",
+        "B": "Drafts",
+        "C": "Sent Items",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which internet protocol is considered the best for HTTP/IP?",
+      "options": {
+        "A": "HTTPS",
+        "B": "HTTP",
+        "C": "FTP",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used for left alignment in MS Word?",
+      "options": {
+        "A": "CTRL+R",
+        "B": "CTRL+M",
+        "C": "CTRL+L",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the meaning of Wahi?",
+      "options": {
+        "A": "Expression",
+        "B": "Excitation",
+        "C": "Revelation",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The purpose of Metadata is ______?",
+      "options": {
+        "A": "Data about users",
+        "B": "Data about files",
+        "C": "Data about data",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A spreadsheet is created using _____?",
+      "options": {
+        "A": "MS Word",
+        "B": "MS Excel",
+        "C": "MS PowerPoint",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Super Computer invented by ______?",
+      "options": {
+        "A": "Pascal",
+        "B": "Van Tessel",
+        "C": "Seymour Cray",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which format is used for Database Management?",
+      "options": {
+        "A": "Image",
+        "B": "Audio",
+        "C": "Text",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "MS Access arranges the data in ______?",
+      "options": {
+        "A": "Rows",
+        "B": "Tables",
+        "C": "Word",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Identify the device through which data and instructions are entered into a computer?",
+      "options": {
+        "A": "Memory",
+        "B": "Output Device",
+        "C": "Software",
+        "D": "Input device"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "First part of an Email address is called as ______?",
+      "options": {
+        "A": "Domain name",
+        "B": "Username",
+        "C": "Password",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Computer Monitor is also called?",
+      "options": {
+        "A": "DVD",
+        "B": "VDU",
+        "C": "CCTV",
+        "D": "DVU"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tool is used to convert documents into PDF format?",
+      "options": {
+        "A": "Adobe Reader",
+        "B": "Photoshop",
+        "C": "Adobe Writer",
+        "D": "Adobe Acrobat"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which is not included in MS Word? Ribbon ,Start Menu bar, Status bar ,None of these",
+      "options": {
+        "A": "Ribbon",
+        "B": "Start menu bar",
+        "C": "Status bar",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which key combination is used to change the case (uppercase/lowercase) in MS Word?",
+      "options": {
+        "A": "Ctrl + F3",
+        "B": "Shift + F3",
+        "C": "Alt + F3",
+        "D": "Ctrl + Shift + F3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the shortcut key to adding a new slide in the PowerPoint?",
+      "options": {
+        "A": "Ctrl + N",
+        "B": "Ctrl + T",
+        "C": "Ctrl + Shift + N",
+        "D": "Ctrl + M"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The file extension .txt is used for?",
+      "options": {
+        "A": "Image files",
+        "B": "Video files",
+        "C": "Text files",
+        "D": "Audio files"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which symbol is used to execute formulas in MS Excel?",
+      "options": {
+        "A": ":",
+        "B": "=",
+        "C": "#",
+        "D": "~"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
+      "options": {
+        "A": "Animation Scheme",
+        "B": "Slide Transition",
+        "C": "Slide Design",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ctrl + N Shortcut key is used in MS Word to _______?",
+      "options": {
+        "A": "Save Document",
+        "B": "Open Document",
+        "C": "Create a new Document",
+        "D": "Close Document"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Vector graphics is composed of_____________?",
+      "options": {
+        "A": "Paths",
+        "B": "Pixels",
+        "C": "Palette",
+        "D": "None of above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which connection type is commonly used for an internet cable?",
+      "options": {
+        "A": "Ethernet",
+        "B": "HDMI",
+        "C": "USB",
+        "D": "VGA"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following is not a valid zoom percentage in Excel?",
+      "options": {
+        "A": "10",
+        "B": "100",
+        "C": "300",
+        "D": "500"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following statements is correct about adding/deleting columns and rows in a database or spreadsheet?",
+      "options": {
+        "A": "You cannot add new columns or rows",
+        "B": "You can add and delete columns/rows as needed",
+        "C": "You can add columns/rows but cannot delete them",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following formulas is NOT correctly entered in Excel? A) =C1+15 B) =SUM(A1:A5) C) =A1*B1 D) C1+15",
+      "options": {
+        "A": "=C1+15",
+        "B": "=SUM(A1:A5)",
+        "C": "=A1*B1",
+        "D": "C1+15"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many sheets (worksheets) are there in the Excel workbook by default?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following are examples of digital marketing? Social media marketing , Email marketing , Search engine optimization (SEO)",
+      "options": {
+        "A": "Social media marketing",
+        "B": "Email marketing",
+        "C": "Search engine optimization (SEO)",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following leads users from multiple sources to a single link or destination?",
+      "options": {
+        "A": "Home page",
+        "B": "Blog page",
+        "C": "Landing page",
+        "D": "Contact page"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is photogrammetry in the context of surveying?",
+      "options": {
+        "A": "A technique that uses satellites to measure land elevations",
+        "B": "A technique that uses photographs to make measurements and create maps and 3D models",
+        "C": "A process of manually drawing topographic maps",
+        "D": "A GPS-based method for calculating distances"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following leads to a single link between the host and the destination in a network?",
+      "options": {
+        "A": "Point-to-point connection",
+        "B": "Broadcast connection",
+        "C": "Multicast connection",
+        "D": "Anycast connection"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is IT ?",
+      "options": {
+        "A": "Artificial intelligence",
+        "B": "Cloud computing",
+        "C": "Zero knowledge",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "To print and view a document, which option is used?",
+      "options": {
+        "A": "Save",
+        "B": "Preview",
+        "C": "Close",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Word, we can create another copy of documents by _____?",
+      "options": {
+        "A": "Save as",
+        "B": "Save",
+        "C": "Print",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which key is used to minimize Excel Worksheet?",
+      "options": {
+        "A": "CTRL+F9",
+        "B": "CTRL+F5",
+        "C": "CTRL+F11",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An Art of writing code words is called ?",
+      "options": {
+        "A": "Cryptography",
+        "B": "Epigrapgy",
+        "C": "Criminology",
+        "D": "Chromography"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the key is used to close the active window?",
+      "options": {
+        "A": "Ctrl+F4",
+        "B": "Ctrl+F5",
+        "C": "Alt+F6",
+        "D": "Alt+F4"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How to create a new presentation in PowerPoint?",
+      "options": {
+        "A": "Ctrl+ M",
+        "B": "Ctrl+ U",
+        "C": "Ctrl+ S",
+        "D": "Ctrl+ N"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Name the Desktop database application that is part of MS Office suit.",
+      "options": {
+        "A": "MS Access",
+        "B": "MS PowerPoint",
+        "C": "MS Excel",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In Word, the default alignment for paragraphs is_________?",
+      "options": {
+        "A": "left-aligned, or flush margins at the left edge and uneven edges at the right edge",
+        "B": "justified, or flush margins at both the left and right edges",
+        "C": "centered, or equidistant from both the left edge and the right edge",
+        "D": "right-aligned, or flush margins at the right edge and uneven edges at the left edge"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who invented Integrated Circuit (IC)?",
+      "options": {
+        "A": "Jack Kilby",
+        "B": "Bill Gates",
+        "C": "Semen Korsakov",
+        "D": "Herman Hollerith"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of following is the maximum file size That can be attached to an email message In gmail?",
+      "options": {
+        "A": "25 MB",
+        "B": "100 MB",
+        "C": "20 MB",
+        "D": "40 MB"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following computer generation uses concept of artificial intelligence?",
+      "options": {
+        "A": "First generation",
+        "B": "Second generation",
+        "C": "Third generation",
+        "D": "Fifth generation"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What Power point feature will you use to apply motion effects to different objects of a slide ?",
+      "options": {
+        "A": "Slide Transtion",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "For which purpose do we convert a Word document to PDF format?",
+      "options": {
+        "A": "To make it editable",
+        "B": "To make a read-only copy",
+        "C": "To reduce file size",
+        "D": "To improve print quality"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is true about a master document?",
+      "options": {
+        "A": "It includes data from all documents",
+        "B": "It is a single document with no links to other files",
+        "C": "It cannot contain formatting",
+        "D": "It is a type of image file"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is used to organize files and documents in a computer, often referred to as a \"container\" for files, and can have nested levels for organization?",
+      "options": {
+        "A": "File",
+        "B": "Folder",
+        "C": "Document",
+        "D": "Storage"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In MS Word, which tab is used for citation and bibliography?",
+      "options": {
+        "A": "Home",
+        "B": "Insert",
+        "C": "Review",
+        "D": "References"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which Excel function is used to add the current system date?",
+      "options": {
+        "A": "DATE()",
+        "B": "NOW()",
+        "C": "TODAY()",
+        "D": "CURRENT_DATE()"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is Google Drive mainly used for?",
+      "options": {
+        "A": "Watching movies",
+        "B": "Playing games",
+        "C": "Storing and sharing files",
+        "D": "Editing photos"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mount Blanc Mountain is present in ______?",
+      "options": {
+        "A": "France",
+        "B": "Italy",
+        "C": "Both A and B",
+        "D": "India"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "ChatGPT is built on which model?",
+      "options": {
+        "A": "Transformer architecture",
+        "B": "Recurrent Neural Network (RNN)",
+        "C": "Convolutional Neural Network (CNN)",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the role of META AI in business?",
+      "options": {
+        "A": "Improving ad targeting",
+        "B": "Enhancing customer engagement",
+        "C": "Automating data analysis",
+        "D": "All of the above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "E-construction app is used for _____?",
+      "options": {
+        "A": "Road maintenance",
+        "B": "Building permit",
+        "C": "Traffic control",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "NLP in ChatGPT works for _____?",
+      "options": {
+        "A": "Text-based response",
+        "B": "Image processing",
+        "C": "Video editing",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the primary use of the Dastak app?",
+      "options": {
+        "A": "Home delivery of essential services",
+        "B": "Online shopping",
+        "C": "Ride-hailing service",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which service is mostly used for money transfer?",
+      "options": {
+        "A": "Easypaisa",
+        "B": "JazzCash",
+        "C": "PayPal",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the primary use of the Railway app?",
+      "options": {
+        "A": "Tracking train schedules",
+        "B": "Ticket booking",
+        "C": "Checking seat availability",
+        "D": "All of the above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the use of the ePay app?",
+      "options": {
+        "A": "To pay utility bills and taxes",
+        "B": "To apply for a domicile certificate",
+        "C": "To track vehicle registration",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which app is used for applying for a domicile certificate in Pakistan?",
+      "options": {
+        "A": "Pak Identity",
+        "B": "NADRA",
+        "C": "Pak Domicile",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In Excel, which is used to perform what if analysis?",
+      "options": {
+        "A": "Goal seek",
+        "B": "Solver",
+        "C": "Scenario Manager",
+        "D": "All of above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Themes in presentations are inserted from?",
+      "options": {
+        "A": "Insert Tab",
+        "B": "Home Tab",
+        "C": "Design Tab",
+        "D": "View Tab"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Comments can be added to cells using _______?",
+      "options": {
+        "A": "Data > Comments",
+        "B": "Home > Comments",
+        "C": "Insert > Comment",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Space between binding side and Paragraph?",
+      "options": {
+        "A": "Gutter Margin",
+        "B": "Parenthesis",
+        "C": "Margin Only",
+        "D": "Any of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A Type of non- impact printers, who print head has many tinny nozzles that spray ink on the paper is called:?",
+      "options": {
+        "A": "3D printers",
+        "B": "Inkjet printers",
+        "C": "Laser printers",
+        "D": "Thermal printers"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Selecting Zoom command ______?",
+      "options": {
+        "A": "Changes the size of the displayed document",
+        "B": "Enlarges the view of the selected document",
+        "C": "Prints a copy of the opened document",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How can you apply exactly the same formatting you did to another text?",
+      "options": {
+        "A": "Select the text then click on Format Painter and select the new text",
+        "B": "Copy the text and paste in new location. Then type the new text again",
+        "C": "Copy the text and click on Paste Special tool on new place",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Modern computer compared to earlier computer are?",
+      "options": {
+        "A": "Faster and larger",
+        "B": "larger and stronger",
+        "C": "Slower but more reliable",
+        "D": "Faster and smaller"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Sachal Sarmast was a famous poet of which language?",
+      "options": {
+        "A": "Sindhi",
+        "B": "Baluchi",
+        "C": "Punjabi",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Two are more computers connected to each other for sharing information from a _____?",
+      "options": {
+        "A": "Pipeline",
+        "B": "Router",
+        "C": "Server",
+        "D": "Network"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How much free storage does Google Drive offer?",
+      "options": {
+        "A": "10 GB",
+        "B": "15 GB",
+        "C": "20 GB",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Twitter is a ______?",
+      "options": {
+        "A": "Search engine",
+        "B": "E-mail service",
+        "C": "Social network service",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How can you insert a hyperlink in a document?",
+      "options": {
+        "A": "By pressing the Delete key",
+        "B": "Using the Insert Hyperlink option",
+        "C": "By clicking Save As",
+        "D": "Using the Page Layout option"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Tahzeeb-ul-Akhlaq magazine published in ______?",
+      "options": {
+        "A": "1870",
+        "B": "1880",
+        "C": "1865",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "HTML is used for creating _____?",
+      "options": {
+        "A": "Web Server",
+        "B": "Webpages",
+        "C": "Websites",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In C and C++ programming languages, which symbol is used to access the value stored at a memory address:",
+      "options": {
+        "A": "@",
+        "B": "#",
+        "C": "%",
+        "D": "*"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Integrated Circuits (ICs) belonged to which generation of computers?",
+      "options": {
+        "A": "Second",
+        "B": "Fourth",
+        "C": "First",
+        "D": "Third"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A _________ identifies a location or a selection of text that you name and identify for future reference.",
+      "options": {
+        "A": "Bookmark",
+        "B": "Header",
+        "C": "Page number",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "PowerPoint presentations are widely used as _____?",
+      "options": {
+        "A": "Communication of Planning",
+        "B": "Project Presentations by Students",
+        "C": "Note Outline for Teachers",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "F1 to F12 keys are called ____ ?",
+      "options": {
+        "A": "Fun Keys",
+        "B": "Numeric keys",
+        "C": "Function keys",
+        "D": "Alphabetic keys"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "You will need to open a ______ to access a website.",
+      "options": {
+        "A": "Word Processor",
+        "B": "Spreadsheet",
+        "C": "Browser",
+        "D": "Presentation Tool"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The space left between the margin and the start of a paragraph is called _____?",
+      "options": {
+        "A": "Indentation",
+        "B": "Spacing",
+        "C": "Gutter",
+        "D": "Alignment"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "MS Word's default spacing line is?",
+      "options": {
+        "A": "1.5",
+        "B": "1.15",
+        "C": "1.115",
+        "D": "none"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What term is used to define the Size and Style of text in MS Word?",
+      "options": {
+        "A": "Typeface",
+        "B": "Document",
+        "C": "Font",
+        "D": "Paragraph"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which software is widely used for photo editing and manipulation?",
+      "options": {
+        "A": "Microsoft Word",
+        "B": "Adobe Photoshop",
+        "C": "Google Chrome",
+        "D": "Excel"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To add a header or footer to your handout, you can use _____?",
+      "options": {
+        "A": "The title master",
+        "B": "The slide master",
+        "C": "The handout master",
+        "D": "All of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is font size measured by?",
+      "options": {
+        "A": "Pixels",
+        "B": "Points",
+        "C": "Inches",
+        "D": "Centimeters"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is an example of a search engine? Mozilla Firefox, Google ,Microsoft Word ,Windows",
+      "options": {
+        "A": "Mozilla Firefox",
+        "B": "Google",
+        "C": "Microsoft Word",
+        "D": "Windows"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many times Nawaz Sharif became the Prime Minister of Pakistan?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Objects on slide that holds text are called",
+      "options": {
+        "A": "Place holders",
+        "B": "Cell tip",
+        "C": "Both",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A repository for data usually usually covering specific topic is",
+      "options": {
+        "A": "Data base",
+        "B": "Data requisition",
+        "C": "Data Bank",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the Purpose of the Presenter View in PowerPoint?",
+      "options": {
+        "A": "To display the same slide show on both the presenter’s screen and the audience’s screen.",
+        "B": "To allow the presenter to view speaker notes",
+        "C": "upcoming slides",
+        "D": "and presentation tools while the audience only sees the current slide."
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Through the mediation of _______ Tashkent Agreement held between India and Pakistan in 1966.",
+      "options": {
+        "A": "Soviet Union",
+        "B": "USA",
+        "C": "Uzbekistan",
+        "D": "China"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "For conducting online video meetings useful solutions are",
+      "options": {
+        "A": "Google Drive, Google",
+        "B": "Amazon and Microsoft cloud solution like S3 and Azure",
+        "C": "Google meet, Zoom, Microsoft teams",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is a conventional designation of pre-released software?",
+      "options": {
+        "A": "Alpha",
+        "B": "Beta",
+        "C": "Both A and B",
+        "D": "Raw"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The area inside a computer frame and auxiliary storage where date and instructions are stored is called:",
+      "options": {
+        "A": "Recorder",
+        "B": "Hopper",
+        "C": "Memory",
+        "D": "Interpreter"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In MS Word, AutoCorrect was originally designed to replace _________ words as you type.",
+      "options": {
+        "A": "Grammar mistake",
+        "B": "avoid repetition",
+        "C": "Misspelled",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the default font size in MS PowerPoint?",
+      "options": {
+        "A": "10",
+        "B": "18",
+        "C": "20",
+        "D": "21"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is Mozilla Firefox?",
+      "options": {
+        "A": "Antivirus software",
+        "B": "Web browser",
+        "C": "URL",
+        "D": "Code"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Electronic - Banking is synonymous with?",
+      "options": {
+        "A": "Table Banking",
+        "B": "Internet Banking",
+        "C": "Fore Banking",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Several computers linked to server to share programs and storage space ___",
+      "options": {
+        "A": "Network",
+        "B": "Library",
+        "C": "Grouping",
+        "D": "Integrated system"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Madagascar the largest island of Africa is located in:",
+      "options": {
+        "A": "North Pacific Ocean",
+        "B": "North Atlantic Ocean",
+        "C": "South Atlantic Ocean.",
+        "D": "Indian Ocean"
+      },
+      "correct": "D"
     }
   ]
 }

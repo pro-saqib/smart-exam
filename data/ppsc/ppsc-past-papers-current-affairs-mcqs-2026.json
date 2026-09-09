@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers Current Affairs MCQs 2026",
   "mcqs": [
     {
+      "question": "Who is the Current Chief Justice of Pakistan (CJP)?",
+      "options": {
+        "A": "Justice Umar Ata Bandial",
+        "B": "Justice Qazi Faez Isa",
+        "C": "Justice Yahya Afridi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country will host the G7 Summit 2026?",
+      "options": {
+        "A": "Canada",
+        "B": "France",
+        "C": "Italy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "Who is the Current Prime Minister of Azad Jammu and Kashmir (AJK)?",
       "options": {
         "A": "Syed Iftikhar Ali Gillani",
@@ -98,6 +128,836 @@
         "B": "Riffat Mukhtar Raja",
         "C": "Abdul Khaliq Shaikh",
         "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The second MILGEM warship PNS Khaibar was launched during a ceremony attended by which leader?",
+      "options": {
+        "A": "Prime Minister Shehbaz Sharif",
+        "B": "President Asif Ali Zardari",
+        "C": "Turkish President Recep Tayyip Erdoğan",
+        "D": "Chief of Army Staff General Asim Munir"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The next UK local mayoral elections will be held in?",
+      "options": {
+        "A": "2026",
+        "B": "2027",
+        "C": "2028",
+        "D": "2029"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which company recently developed the F-47 fighter jet prototype?",
+      "options": {
+        "A": "Lockheed Martin",
+        "B": "Boeing",
+        "C": "Northrop Grumman",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The initial release of Epstein files in February 2025 contained approximately?",
+      "options": {
+        "A": "125 pages",
+        "B": "200 pages",
+        "C": "1000 pages",
+        "D": "3.5 million pages"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the Current U.S. tariff imposed on Pakistan?",
+      "options": {
+        "A": "5%",
+        "B": "19%",
+        "C": "15%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Governor of Balochistan?",
+      "options": {
+        "A": "Abdul Wali Kakar",
+        "B": "Mir Jan Mohammad Jamali",
+        "C": "Jaffar Khan Mandokhail",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Chief Minister of Balochistan?",
+      "options": {
+        "A": "Mir Abdul Quddus Bizenjo",
+        "B": "Ali Mardan Domki",
+        "C": "Sarfraz Bugti",
+        "D": "Jam Kamal Khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The current Governor of Sindh is the ____ Governor of Sindh.",
+      "options": {
+        "A": "33rd",
+        "B": "34th",
+        "C": "35th",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The 9th OIC Women Ministers' Conference (12–13 July 2025) was held in?",
+      "options": {
+        "A": "Riyadh",
+        "B": "Jeddah",
+        "C": "Islamabad",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The incumbent Foreign Minister of Afghanistan is ______?",
+      "options": {
+        "A": "Amir Khan Muttaqi",
+        "B": "Muhammad Hanif Atmar",
+        "C": "Mustafa Mastoor",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name the Venezuelan President whom US president Donald Trump claimed was captured by American soldiers?",
+      "options": {
+        "A": "Delcy Rodriguez",
+        "B": "Nicolas Maduro",
+        "C": "Hugo Chavez",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the current head (CEO) of the National Highway Authority (NHA)?",
+      "options": {
+        "A": "Capt. (Retd.) Asadullah Khan",
+        "B": "Arshad Majeed Mohmand",
+        "C": "Sherheryar Sultan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the World Population in 2026?",
+      "options": {
+        "A": "6.5 billion",
+        "B": "7.0 billion",
+        "C": "8.3 billion",
+        "D": "8.8 billion"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Robert Francis Prevost became the ________ of the Roman Catholic Church in 2025.",
+      "options": {
+        "A": "Pope Leo XIV",
+        "B": "Archbishop of Canterbury",
+        "C": "Cardinal Secretary of State",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Secretary General of United Nation (UNO)?",
+      "options": {
+        "A": "Kofi Annan",
+        "B": "Ban Ki-moon",
+        "C": "António Guterres",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Education expenditure as a percentage of GDP in Pakistan was approximately?",
+      "options": {
+        "A": "0.5%",
+        "B": "0.8%",
+        "C": "1.5%",
+        "D": "2.5%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pakistan's Intended Nationally Determined Contributions (INDCs) under the Paris Agreement aimed to reduce emissions by how much by 2030?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "50%",
+        "D": "70%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the current SBP interest rate in Pakistan?",
+      "options": {
+        "A": "11.5 percent",
+        "B": "12.5 percent",
+        "C": "13.5 percent",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who has been awarded the Nobel Prize 2025 in literature?",
+      "options": {
+        "A": "Laszlo Krasznahorkai",
+        "B": "Han Kang",
+        "C": "Jon Fosse",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current President of Ukraine?",
+      "options": {
+        "A": "Leonid Kravchuk",
+        "B": "Petro Poroshenko",
+        "C": "Volodymyr Zelensky",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The World Health Organization (WHO) declared the COVID-19 outbreak a global pandemic on ?",
+      "options": {
+        "A": "March 10, 2021",
+        "B": "March 11, 2020",
+        "C": "March 12, 2021",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When did Barrister Sultan Mehmood Chaudhry, President of Azad Jammu & Kashmir, passed away at the age of 71?",
+      "options": {
+        "A": "February 2026",
+        "B": "January 2026",
+        "C": "March 2026",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the current Chief Justice of Balochistan High Court?",
+      "options": {
+        "A": "Justice Hashim Khan Kakar",
+        "B": "Justice Jamal Khan Mando­khail",
+        "C": "Justice Rozi khan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Prime Minister of Bangladesh?",
+      "options": {
+        "A": "Muhammad Yunus",
+        "B": "Shiekh Hasina",
+        "C": "Tarique Rahman",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Deputy Chairman of Senate of Pakistan?",
+      "options": {
+        "A": "Yousaf Raza Gilani",
+        "B": "Sardar Ayaz Sadiq",
+        "C": "Syedal Khan Nasir",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country will host the G7 Summit 2027?",
+      "options": {
+        "A": "United States",
+        "B": "France",
+        "C": "Germany",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "PM Narendra Modi marked his _______ participation in the G7 Summit.",
+      "options": {
+        "A": "7th",
+        "B": "9th",
+        "C": "13th",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "World Environment Day is observed every year on _____?",
+      "options": {
+        "A": "1 June",
+        "B": "3 June",
+        "C": "5 June",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who stopped the war between USA and Iran?",
+      "options": {
+        "A": "Russia",
+        "B": "China",
+        "C": "Pakistan",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Recently outsourced PIA, 34.5% share was acquired by which group?",
+      "options": {
+        "A": "Arif Habib Corporation",
+        "B": "Dawood Group",
+        "C": "Habib Bank Group",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the World Bank President who recently visited Pakistan?",
+      "options": {
+        "A": "David Malpass",
+        "B": "Kristalina Georgieva",
+        "C": "Ajay Banga",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Naveed Akram, one of the suspects in the Bondi Beach attack, was originally from which country?",
+      "options": {
+        "A": "India",
+        "B": "Pakistan",
+        "C": "Australia",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "United States of America attacked which country in 2026 and abudcted its president Nicolas Maduro?",
+      "options": {
+        "A": "Colombia",
+        "B": "Guyana",
+        "C": "Venezuela",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country hosted the Climate Change Conference COP30 summit in 2025?",
+      "options": {
+        "A": "Brazil",
+        "B": "Egypt",
+        "C": "Germany",
+        "D": "France"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who becomes the first female Judge of the Supreme Court of Pakistan?",
+      "options": {
+        "A": "Justice Ayesha Malik",
+        "B": "Justice Syeda Tahira Safdar",
+        "C": "Justice Ashraf Jahan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the Growth Rate of Pakistan in Federal Budget for the fiscal year 2025-26?",
+      "options": {
+        "A": "4.8 percent",
+        "B": "3.7 percent",
+        "C": "4.2 percent",
+        "D": "None of These"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kim Jong-Un belongs to which country?",
+      "options": {
+        "A": "North Korea",
+        "B": "South Korea",
+        "C": "Venezuela",
+        "D": "Belarus"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the current Vice President of USA?",
+      "options": {
+        "A": "Donald Trump",
+        "B": "Kamala Harris",
+        "C": "JD Vance",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kabir Sidhu is the chairman of which organization?",
+      "options": {
+        "A": "SBP",
+        "B": "SECP",
+        "C": "FBR",
+        "D": "NEPRA"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The F-16 jet crash reported in 2025 occurred at which place?",
+      "options": {
+        "A": "Lahore",
+        "B": "Karachi",
+        "C": "Poland",
+        "D": "Ankara"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who became the first Muslim mayor of New York and took the oath on the Quran?",
+      "options": {
+        "A": "Zohran Mamdani",
+        "B": "Michael Bloomberg",
+        "C": "Bill de Blasio",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Sardar Ayaz Sadiq was recently re-elected as Speaker of the National Assembly. Who was the other candidate in the election?",
+      "options": {
+        "A": "Syed Khurshid Shah",
+        "B": "Shah Mahmood Qureshi",
+        "C": "Shafqat Mahmood",
+        "D": "Amir Dogar"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the theme of 2026 World Wetlands Day?",
+      "options": {
+        "A": "Wetlands and Traditional Knowledge",
+        "B": "Wetlands and Climate Action",
+        "C": "Wetlands for Biodiversity",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country held its first-ever elections in 2021?",
+      "options": {
+        "A": "Kuwait",
+        "B": "Qatar",
+        "C": "Oman",
+        "D": "Bahrain"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sharif Osman Hadi was killed in Bangladesh. Who was he?",
+      "options": {
+        "A": "Journalist",
+        "B": "Political worker",
+        "C": "Student",
+        "D": "Social activist"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Lt General Mohammad Ali Ahmed al-Haddad died in a plane crash in December 2025 near Ankara. Who was he?",
+      "options": {
+        "A": "Syrian Army Chief",
+        "B": "Iraqi Defence Minister",
+        "C": "Libyan Field Marshal",
+        "D": "Yemeni Military Commander"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "After 11 years Pakistan men reached the hockey team qualified for final in which tournament?",
+      "options": {
+        "A": "Asian Games",
+        "B": "Olympics",
+        "C": "Commonwealth Games",
+        "D": "FIH"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What was the Nobel Prize amount in 2025?",
+      "options": {
+        "A": "11 million Sweden krone",
+        "B": "10 million Sweden krone",
+        "C": "12 million Sweden krone",
+        "D": "15 million Sweden krone"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan and Bangladesh face almost every year which natural disaster?",
+      "options": {
+        "A": "Floods",
+        "B": "Earthquakes",
+        "C": "Volcanic eruptions",
+        "D": "Tsunamis"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The UK government removed Pakistan from its Air Safety List on ?",
+      "options": {
+        "A": "May 6, 2025",
+        "B": "July 16, 2025",
+        "C": "November 14 ,2024",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which Pakistani female cricketer was inducted into the Hall of Fame in 2025.?",
+      "options": {
+        "A": "Sana Mir",
+        "B": "Bismah Maroof",
+        "C": "Nida Dar",
+        "D": "Javeria Khan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the current Tax to GDP ratio of Pakistan?",
+      "options": {
+        "A": "11%",
+        "B": "8%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "PIA was purchased by whom?",
+      "options": {
+        "A": "Arif Habib Consortium",
+        "B": "Hashoo Group",
+        "C": "Fauji Foundation",
+        "D": "Bestway Group"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "General elections are scheduled to be held in Bangladesh on which date?",
+      "options": {
+        "A": "12 February 2026",
+        "B": "10 January 2026",
+        "C": "25 March 2026",
+        "D": "5 December 2025"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In 2025, Pakistan Under-19s won by 191 runs against India. Who scored 172 runs in that match?",
+      "options": {
+        "A": "Sameer Minhas",
+        "B": "Abdullah Shafique",
+        "C": "Mohammad Rizwan",
+        "D": "Shaheen Afridi"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The summit of Shanghai Cooperation Organization (SCO) Heads of Government held in Oct 2024 under the presidency of which country?",
+      "options": {
+        "A": "Tajikistan",
+        "B": "India",
+        "C": "Pakistan",
+        "D": "Russia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the current President of Indonesia?",
+      "options": {
+        "A": "Joko Widodo",
+        "B": "Prabowo Subianto",
+        "C": "Susilo Bambang Yudhoyono",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What caused the Pakistan-India tension in 2025?",
+      "options": {
+        "A": "Pahalgam attack",
+        "B": "Kashmir floods",
+        "C": "Trade dispute",
+        "D": "Water sharing issue"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who won the KC Lightweight Championship in 2025?",
+      "options": {
+        "A": "Shahzaib Rind",
+        "B": "Luis Rocha",
+        "C": "Edgars Skrivers",
+        "D": "Natan Levy"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The World Bank gave Pakistan how much for macroeconomic stability?",
+      "options": {
+        "A": "700 billion",
+        "B": "500 billion",
+        "C": "1 trillion",
+        "D": "300 billion"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan agreed to export carbon under which agreement?",
+      "options": {
+        "A": "APIR Agreement",
+        "B": "Paris Agreement",
+        "C": "Kyoto Protocol",
+        "D": "Montreal Protocol"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sohail Mehmood became the Secretary General of which organization?",
+      "options": {
+        "A": "D8",
+        "B": "OIC",
+        "C": "SAARC",
+        "D": "UN"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The UN has declared 2026 as the year of?",
+      "options": {
+        "A": "Rangelands and Pastoralists",
+        "B": "Climate Action",
+        "C": "Biodiversity",
+        "D": "Water Conservation"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which was showcased at PIMEC Expo 2025?",
+      "options": {
+        "A": "Maritime and defense innovations",
+        "B": "Space exploration",
+        "C": "Agricultural machinery",
+        "D": "Pharmaceutical products"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Antonio Guterres became 9th Secretary General of UNO. He belongs to which country?",
+      "options": {
+        "A": "Portugal",
+        "B": "Spain",
+        "C": "France",
+        "D": "England"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where was the 24th meeting of the council of Heads of State of the Shanghai Cooperation Organization (SCO) held?",
+      "options": {
+        "A": "Islamabad, Pakistan",
+        "B": "Beijing, China",
+        "C": "Astana, Kazakhstan",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The recent IMF package to Pakistan includes which program?",
+      "options": {
+        "A": "Extended Fund Facility (EFF)",
+        "B": "Standby Arrangement (SBA)",
+        "C": "Poverty Reduction and Growth Trust (PRGT)",
+        "D": "Rapid Financing Instrument (RFI)"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country's President visited Pakistan on 26 December 2025?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Qatar",
+        "C": "United Arab Emirates",
+        "D": "Oman"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Nobel Prize in Physiology or Medicine 2025 was awarded for discoveries concerning?",
+      "options": {
+        "A": "Peripheral immune tolerance",
+        "B": "Central nervous system",
+        "C": "Quantum mechanics",
+        "D": "Climate change"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Brackish water is usually found in which of the following?",
+      "options": {
+        "A": "Oceans",
+        "B": "Rivers",
+        "C": "Lakes",
+        "D": "Estuaries"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Dul Hasti Stage II by India is built on which river?",
+      "options": {
+        "A": "Chenab River",
+        "B": "Jhelum River",
+        "C": "Indus River",
+        "D": "Ravi River"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "P waves have what speed compared to S waves during an earthquake?",
+      "options": {
+        "A": "Greater and Faster",
+        "B": "Equal",
+        "C": "Slower",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is a non-carbon source for glucose synthesis?",
+      "options": {
+        "A": "Water (H₂O)",
+        "B": "Carbon dioxide (CO₂)",
+        "C": "Glucose",
+        "D": "Starch"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A neutron is converted into a proton with the emission of which particles?",
+      "options": {
+        "A": "Antineutrino",
+        "B": "Positron",
+        "C": "Photon",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who became the Prime Minister of Pakistan in December 2025?",
+      "options": {
+        "A": "Shehbaz Sharif",
+        "B": "Imran Khan",
+        "C": "Anwaar-ul-Haq Kakar",
+        "D": "Raja Pervaiz Ashraf"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The name given to CPEC for the period around 2026 is?",
+      "options": {
+        "A": "CPEC Phase-I",
+        "B": "CPEC Vision 2030",
+        "C": "CPEC Phase-II (CPEC 2.0)",
+        "D": "Silk Road Project"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Where is the SCO Summit 2025 held?",
+      "options": {
+        "A": "Astana, Kazakhstan",
+        "B": "Bishkek, Kyrgyzstan",
+        "C": "Tianjin, China",
+        "D": "Islamabad, Pakistan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which operation was launched by Israel against Iran in June 2025?",
+      "options": {
+        "A": "Operation True Promise 3",
+        "B": "Operation Rising Lion",
+        "C": "Operation Sindoor",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current IG of National Highways and Motorway Police (NHMP)?",
+      "options": {
+        "A": "Khalid Mahmood",
+        "B": "Aamir Zulfiqar Khan",
+        "C": "Allah Dino Khawaja",
+        "D": "Mr. Sultan Ahmad Chaudhry"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which countries have signed a 10 year contract to operate the Chabahar port?",
+      "options": {
+        "A": "Iran & Pakistan",
+        "B": "India & China",
+        "C": "Iran & India",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan has recently purchased J-10C fighter jets from which country?",
+      "options": {
+        "A": "USA",
+        "B": "Argentina",
+        "C": "Spain",
+        "D": "China"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Ukrainian president Volodymyr Zelensky was awarded Sir Winston Churchill Leader Award 2022 by?",
+      "options": {
+        "A": "Emmanuel Macron",
+        "B": "Vladimir Putin",
+        "C": "Boris Johnson",
+        "D": "Joe Biden"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country topped Foreign Direct Investment (FDI) for the year 2026?",
+      "options": {
+        "A": "China",
+        "B": "UK",
+        "C": "USA",
+        "D": "Germany"
       },
       "correct": "A"
     }

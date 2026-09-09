@@ -2,6 +2,106 @@
   "name": "PPSC Past Papers MCQs 2004 to 2020 of Geography",
   "mcqs": [
     {
+      "question": "The River Thames is located in ____?",
+      "options": {
+        "A": "London",
+        "B": "Spain",
+        "C": "Scotland",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
+      "options": {
+        "A": "Indus, Jhelum and Chenab",
+        "B": "Ravi and Indus",
+        "C": "Indus and Jhelum",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the headquarters of International Court of Justice (ICJ) located?",
+      "options": {
+        "A": "New York",
+        "B": "Washington",
+        "C": "Geneva",
+        "D": "Hague"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the number of permanent members of UN Security Council are holding the right to exercise veto power?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "2",
+        "D": "20"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country uses \"Yen\" as their currency?",
+      "options": {
+        "A": "Germany",
+        "B": "Japan",
+        "C": "USA",
+        "D": "England"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who introduced the Basic Democracy?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Ayoub Khan",
+        "C": "Muhammad Ali Bogra",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
+      "options": {
+        "A": "Tom Burne",
+        "B": "Tim Burner Lee",
+        "C": "Fred Zuckerberg",
+        "D": "Both a and b"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest Island of the world is _____?",
+      "options": {
+        "A": "Iceland",
+        "B": "Cyprus",
+        "C": "Greenland",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the most widely spoken language in Pakistan?",
+      "options": {
+        "A": "Urdu",
+        "B": "Sindhi",
+        "C": "Pashto",
+        "D": "Punjabi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Durand line is between which countries?",
+      "options": {
+        "A": "Pak-Afganistan",
+        "B": "Pak-China",
+        "C": "Pak-India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "The second largest Continent (by area) of the world is ______?",
       "options": {
         "A": "North America",
@@ -42,26 +142,6 @@
       "correct": "A"
     },
     {
-      "question": "Durand line is between which countries?",
-      "options": {
-        "A": "Pak-Afganistan",
-        "B": "Pak-China",
-        "C": "Pak-India",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "The largest Island of the world is _____?",
-      "options": {
-        "A": "Iceland",
-        "B": "Cyprus",
-        "C": "Greenland",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "The first census in Pakistan was held in?",
       "options": {
         "A": "1948",
@@ -80,16 +160,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "Where is the headquarters of International Court of Justice (ICJ) located?",
-      "options": {
-        "A": "New York",
-        "B": "Washington",
-        "C": "Geneva",
-        "D": "Hague"
-      },
-      "correct": "D"
     },
     {
       "question": "State of Kashmir was the biggest state in the sub-continent situated in the northern part of Indo Pak continent having boundaries with",
@@ -382,16 +452,6 @@
       "correct": "B"
     },
     {
-      "question": "What is the number of permanent members of UN Security Council are holding the right to exercise veto power?",
-      "options": {
-        "A": "10",
-        "B": "5",
-        "C": "2",
-        "D": "20"
-      },
-      "correct": "B"
-    },
-    {
       "question": "The largest earth filled dam of the world is _____?",
       "options": {
         "A": "Mangla dam",
@@ -572,16 +632,6 @@
       "correct": "C"
     },
     {
-      "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
-      "options": {
-        "A": "Tom Burne",
-        "B": "Tim Burner Lee",
-        "C": "Fred Zuckerberg",
-        "D": "Both a and b"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Who was the first honorable Chief Justice of Pakistan?",
       "options": {
         "A": "Justice Abdul Rashid",
@@ -722,16 +772,6 @@
       "correct": "A"
     },
     {
-      "question": "Under Indus Water Treaty which of the following rivers were given to Pakistan?",
-      "options": {
-        "A": "Indus, Jhelum and Chenab",
-        "B": "Ravi and Indus",
-        "C": "Indus and Jhelum",
-        "D": "None of the above"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Which of the following river passes the Equator twice?",
       "options": {
         "A": "Congo",
@@ -780,16 +820,6 @@
         "D": "Canada"
       },
       "correct": "B"
-    },
-    {
-      "question": "The River Thames is located in ____?",
-      "options": {
-        "A": "London",
-        "B": "Spain",
-        "C": "Scotland",
-        "D": "None of the above"
-      },
-      "correct": "A"
     },
     {
       "question": "Kallar Kahar lake is located in _____?",
@@ -938,16 +968,6 @@
         "B": "653",
         "C": "753",
         "D": "853"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Who introduced the Basic Democracy?",
-      "options": {
-        "A": "Liaquat Ali Khan",
-        "B": "Ayoub Khan",
-        "C": "Muhammad Ali Bogra",
-        "D": "None of these"
       },
       "correct": "B"
     },
@@ -1482,16 +1502,6 @@
       "correct": "C"
     },
     {
-      "question": "Which is the most widely spoken language in Pakistan?",
-      "options": {
-        "A": "Urdu",
-        "B": "Sindhi",
-        "C": "Pashto",
-        "D": "Punjabi"
-      },
-      "correct": "D"
-    },
-    {
       "question": "The first session of the first Constituent Assembly of Pakistan was held on ________?",
       "options": {
         "A": "12th August 1947",
@@ -1720,16 +1730,6 @@
         "D": "Shanghai"
       },
       "correct": "C"
-    },
-    {
-      "question": "Which country uses \"Yen\" as their currency?",
-      "options": {
-        "A": "Germany",
-        "B": "Japan",
-        "C": "USA",
-        "D": "England"
-      },
-      "correct": "B"
     },
     {
       "question": "River Nile is primary source of water for which country?",

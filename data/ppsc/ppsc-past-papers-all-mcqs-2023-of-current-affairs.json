@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2023 of Current Affairs",
   "mcqs": [
     {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "The Pakistan Super League (PSL) 2019 won by ______?",
       "options": {
         "A": "Peshawar Zalmi",
@@ -20,16 +30,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Who is the Current Secretary General of United Nation (UNO)?",

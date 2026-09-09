@@ -2,6 +2,126 @@
   "name": "PPSC Past Papers all MCQs 2024 of Pakistan Study",
   "mcqs": [
     {
+      "question": "Defence day is celebrated in Pakistan on which date?",
+      "options": {
+        "A": "6th September",
+        "B": "23rd March",
+        "C": "11th September",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Quaid-e-Azam was sworn in as the first Governor General of Pakistan on?",
+      "options": {
+        "A": "14 August 1947",
+        "B": "15 August 1947",
+        "C": "16 August 1947",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which pass connects Pakistan and Afghanistan?",
+      "options": {
+        "A": "Babusar Pass",
+        "B": "Bashkaro Pass",
+        "C": "Tochi Pass",
+        "D": "Khyber Pass"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which kind of system of government was introduced in 1962 constitution?",
+      "options": {
+        "A": "Presidential",
+        "B": "Autonomous",
+        "C": "Confederate",
+        "D": "Bicameral"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who introduced the Basic Democracy?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Ayoub Khan",
+        "C": "Muhammad Ali Bogra",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pak-Afghan border 'Durand Line' was drawn in ______?",
+      "options": {
+        "A": "1892",
+        "B": "1890",
+        "C": "1893",
+        "D": "1957"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the most widely spoken language in Pakistan?",
+      "options": {
+        "A": "Urdu",
+        "B": "Sindhi",
+        "C": "Pashto",
+        "D": "Punjabi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the founder of Khaksar Tehreek (Khaksar Movement)?",
+      "options": {
+        "A": "Syed Abu-ala-Maududi",
+        "B": "Allama Inayatullah Mashraqi",
+        "C": "Maulana Abu-al-Kalam Azad",
+        "D": "Syed Atta-Ullah Shah Bukhari"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many times Pakistan won the hockey World Cup?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Durand line is between which countries?",
+      "options": {
+        "A": "Pak-Afganistan",
+        "B": "Pak-China",
+        "C": "Pak-India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Forests are only _____ of the total area of Pakistan.",
+      "options": {
+        "A": "6.3%",
+        "B": "8.4%",
+        "C": "3.6%",
+        "D": "4.8%"
+      },
+      "correct": "D"
+    },
+    {
       "question": "Borithe Lake is located in ____?",
       "options": {
         "A": "KPK",
@@ -98,6 +218,5286 @@
         "B": "Rangoon, Burma",
         "C": "Agra, India",
         "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When did Pakistan join SEATO?",
+      "options": {
+        "A": "1966",
+        "B": "1955",
+        "C": "1954",
+        "D": "1999"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Khilafat movement was started/founded by _____?",
+      "options": {
+        "A": "Muhammad Ali Jinnah",
+        "B": "Dr. Zakir Hussain",
+        "C": "Fakruddin Ali Ahmed",
+        "D": "Ali Brothers"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the founder of the Unionist Party?",
+      "options": {
+        "A": "Liaqat Ali Khan",
+        "B": "Sir Fazal Hussain",
+        "C": "Molana Fazal ul Haq",
+        "D": "Syed Amir Hassan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Hayat e javeed is written by?",
+      "options": {
+        "A": "Mirza ghalib",
+        "B": "Sir syed",
+        "C": "Altaf Hussain Hali",
+        "D": "Iqbal"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "1st Martial Law imposed by Iskandar Mirza?",
+      "options": {
+        "A": "1956",
+        "B": "1957",
+        "C": "1958",
+        "D": "1960"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which book of Hafiz is the national anthem of Pakistan written?",
+      "options": {
+        "A": "Diwan-e-Hafiz",
+        "B": "Rubaiyat",
+        "C": "Chiragh Sahar",
+        "D": "Tazkira"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who abrogated 1956 constitution?",
+      "options": {
+        "A": "Ayub Khan",
+        "B": "Yahya khan",
+        "C": "Iskander Mirza",
+        "D": "Tikka khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is elect the first Sikh senator of Pakistan?",
+      "options": {
+        "A": "Ranjeet Singh",
+        "B": "Gurdeep Singh",
+        "C": "Maneet Singh",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Chief Minister of Sindh?",
+      "options": {
+        "A": "Qaim Ali Shah",
+        "B": "Jam Mir Kamal Khan",
+        "C": "Syed Murad Ali Shah",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "General Elections are held in Pakistan after every ______ years.",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "5"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Pakistan Super League (PSL) 2019 won by ______?",
+      "options": {
+        "A": "Peshawar Zalmi",
+        "B": "Multan Sultans",
+        "C": "Quetta Gladiators",
+        "D": "Islamabad United"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The first Martial Law was imposed on Pakistan under leadership of?",
+      "options": {
+        "A": "General Yahya Khan",
+        "B": "General Ayub Khan",
+        "C": "General Pervez Musharraf",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which area of Pakistan has the biggest deposits of iron ore?",
+      "options": {
+        "A": "Kalabagh",
+        "B": "Nangarparkar",
+        "C": "Mithi",
+        "D": "Chachro"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first census in Pakistan was held in?",
+      "options": {
+        "A": "1948",
+        "B": "1951",
+        "C": "1953",
+        "D": "1957"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Nehru Report was published in _____?",
+      "options": {
+        "A": "August 1928",
+        "B": "September 1928",
+        "C": "October 1928",
+        "D": "November 1928"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan purchased Gwadar from Muscat (Oman) in which year?",
+      "options": {
+        "A": "1956",
+        "B": "1957",
+        "C": "1958",
+        "D": "1959"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was the CPEC project officially launched after the agreement between China and Pakistan was signed?",
+      "options": {
+        "A": "20 June 2015",
+        "B": "20 June 2014",
+        "C": "20 April 2014",
+        "D": "20 April 2015"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Lucknow Pact of 1916 was made between?",
+      "options": {
+        "A": "The british and india",
+        "B": "The Congress and the Muslim League",
+        "C": "The Hindus and the Muslims",
+        "D": "The moderates and extremists"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The road/highway connecting Pakistan and China is called?",
+      "options": {
+        "A": "Karakoram Highway",
+        "B": "Indus Highway",
+        "C": "Express Highway",
+        "D": "Hamaliya Highway"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first and only Vice President of Pakistan?",
+      "options": {
+        "A": "Iskander Ali Mirza",
+        "B": "Ghulam Muhammad",
+        "C": "Nur-ul-Amin",
+        "D": "Lord Mayo"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was Indus Water Treaty signed?",
+      "options": {
+        "A": "September 19, 1950",
+        "B": "September 19, 1960",
+        "C": "September 19, 1965",
+        "D": "September 19, 1973"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest district of the Punjab by area is ____?",
+      "options": {
+        "A": "Bahawalpur",
+        "B": "Rahim Yar Khan",
+        "C": "Rajanpur",
+        "D": "Dera Ghazi Khan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Rohtas Fort near Jehlum built by _______?",
+      "options": {
+        "A": "Akbar",
+        "B": "Sher Shah Suri",
+        "C": "Shah Jahan",
+        "D": "Baber"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The longest (largest) river in Pakistan is ____?",
+      "options": {
+        "A": "Ravi",
+        "B": "Indus",
+        "C": "Chenab",
+        "D": "Jhelum"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Dr. Abdul Salam won the Nobel Prize for physics in the year _____?",
+      "options": {
+        "A": "1996",
+        "B": "1979",
+        "C": "1964",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first Punjabi poet?",
+      "options": {
+        "A": "Shah Hussain",
+        "B": "Waris Shah",
+        "C": "Bulle Shah",
+        "D": "Baba Fareed"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Silk route Karakoram Highway connects Pakistan with?",
+      "options": {
+        "A": "India",
+        "B": "Iran",
+        "C": "China",
+        "D": "Afghanistan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Siachen Glacier is situated in which mountain range?",
+      "options": {
+        "A": "Himalaya",
+        "B": "Karakorum",
+        "C": "Hindu Kush",
+        "D": "Kirthar"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The National Anthem of Pakistan is written by?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Quaid-e-Azam",
+        "C": "Chaudry Rehmat Ali",
+        "D": "Hafiz Jalandhri"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The partition of Bengal was made in 1905, it was annulled in?",
+      "options": {
+        "A": "1909",
+        "B": "1911",
+        "C": "1908",
+        "D": "1910"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The first nuclear power plant in Pakistan was established at ____?",
+      "options": {
+        "A": "Karachi",
+        "B": "Lahore",
+        "C": "Islamabad",
+        "D": "Fasilabad"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which session of the Indian National Congress was held in Lahore?",
+      "options": {
+        "A": "1920",
+        "B": "1929",
+        "C": "1940",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Mangla Dam was constructed/situated on the which river?",
+      "options": {
+        "A": "Indus",
+        "B": "Sutlej",
+        "C": "Jhelum",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Bicameral Legislature system was introduced for the first time in Pakistan in which Constitution?",
+      "options": {
+        "A": "Constitution of 1973",
+        "B": "Constitution of 1956",
+        "C": "Constitution of 1962",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Lady Finger Peak is located in which country?",
+      "options": {
+        "A": "China",
+        "B": "Nepal",
+        "C": "India",
+        "D": "Pakistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which book out of the following has been written by Mr. Zulifqar Ali Bhutto?",
+      "options": {
+        "A": "What was once East Pakistan",
+        "B": "The Great Tragedy",
+        "C": "Betrayal of East Pakistan",
+        "D": "Witness to Surrender"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who presented Poor Man's Budget in 1946?",
+      "options": {
+        "A": "Ch. Muhammad Ali",
+        "B": "Liaquat Ali Khan",
+        "C": "Sir Agha Khan",
+        "D": "Ch. Rehmat Ali."
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which District of Punjab Kallar Kahar Lake is situated?",
+      "options": {
+        "A": "Mianwali",
+        "B": "Sargodha",
+        "C": "Chakwal",
+        "D": "Jhelum"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which flower is the National flower of Pakistan?",
+      "options": {
+        "A": "Rose",
+        "B": "Sunflower",
+        "C": "Lilly",
+        "D": "Jasmine"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "On what date did the All-India Muslim League observe the “Day of Deliverance” after the resignation of Congress ministries?",
+      "options": {
+        "A": "22 October 1938",
+        "B": "22 October 1939",
+        "C": "22 December 1939",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Tarbela Dam is build on which river?",
+      "options": {
+        "A": "Indus",
+        "B": "Ravi",
+        "C": "Satluj",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the primary purpose of the CPEC road?",
+      "options": {
+        "A": "To facilitate trade and connectivity",
+        "B": "To promote tourism",
+        "C": "To enhance military logistics",
+        "D": "To provide energy resources"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Badshahi mosque at Lahore in 1673 was made by?",
+      "options": {
+        "A": "Shah Jahan",
+        "B": "Aurangzeb",
+        "C": "Akbar",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first Foreign Minister of Pakistan?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Quaid-e-Azam",
+        "C": "Muhammad Ali",
+        "D": "Zafarullah Khan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many districts are there in Punjab?",
+      "options": {
+        "A": "40",
+        "B": "45",
+        "C": "42",
+        "D": "41"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When was the Indian National Congress (INC) formed?",
+      "options": {
+        "A": "December 28, 1888",
+        "B": "December 28, 1885",
+        "C": "December 28, 1886",
+        "D": "December 28, 1880"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which article of the Constitution of Pakistan 1973 deals with the National Economic Council?",
+      "options": {
+        "A": "Article 155",
+        "B": "Article 157",
+        "C": "Article 156",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is known as the Poet of East?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Hali",
+        "C": "Ghalib",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "East Pakistan (Bangladesh) was separated from West Pakistan on _______?",
+      "options": {
+        "A": "27 December 1971",
+        "B": "16 December 1971",
+        "C": "14 December 1971",
+        "D": "25 December 1971"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Agartala Conspiracy Case was between State and?",
+      "options": {
+        "A": "Zulfikar Ali Bhutto",
+        "B": "Sheikh Mujibur Rahman",
+        "C": "Ayub Khan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Following leaders led the Muslim League's delegation for Simla Conference?",
+      "options": {
+        "A": "Jinnah and Nizamuddin",
+        "B": "Jinnah and Liaquat",
+        "C": "Jinnah, Liaquat and Nizamuddin",
+        "D": "Liaquat and Nizamuddin"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was the 18th Amendment Bill of the Constitution passed by the National Assembly?",
+      "options": {
+        "A": "April 8, 2010",
+        "B": "April 15, 2010",
+        "C": "April 19, 2010",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Quaid-e-Azam gave his Fourteen (14) Points in response to ____?",
+      "options": {
+        "A": "Simon Commission",
+        "B": "Nehru report",
+        "C": "British people",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the Prime Minister of Pakistan during the enforcement of first constitution in 1956?",
+      "options": {
+        "A": "Khwaja Nazim Uddin",
+        "B": "Mohammad Ali Bogra",
+        "C": "Ibrahim Ismail Chundrigar",
+        "D": "Choudhry Mohammad Ali"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which kind of system of Government was introduced in 1973 constitution?",
+      "options": {
+        "A": "Presidential",
+        "B": "Parliamentary (Bicameral)",
+        "C": "Autonomous",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When National Assembly and Senate are referred together, they are termed as ______?",
+      "options": {
+        "A": "Majilis-e-Shoora",
+        "B": "Parliament",
+        "C": "Majlis-e-Shoora (Parliament)",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the viceroy of India at the time of architect of partition of Bengal?",
+      "options": {
+        "A": "Lord Curzon",
+        "B": "Lord Minto",
+        "C": "Lord Algan",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the minimum age of voter required according to the 1973 constitution?",
+      "options": {
+        "A": "16 years",
+        "B": "18 years",
+        "C": "11 years",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first honorable Chief Justice of Pakistan?",
+      "options": {
+        "A": "Justice Abdul Rashid",
+        "B": "Justice Muhammad Munir",
+        "C": "Justice Muhammad Shahabuddin",
+        "D": "Justice A.R. Cornelius"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan joined Non-Aligned Movement (NAM) in which year?",
+      "options": {
+        "A": "1980",
+        "B": "1989",
+        "C": "1979",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What was the Real Name of Nawab Mohsin-ul-Mulk?",
+      "options": {
+        "A": "Nawab Hizar Hayat",
+        "B": "Syed Mehdi Ali",
+        "C": "Nawab Mushtaq Hussain",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Pervez Musharraf resigned as the President of Pakistan?",
+      "options": {
+        "A": "14 July 2008",
+        "B": "18 August 2008",
+        "C": "12 September 2008",
+        "D": "7 October 2005"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The first general elections in Pakistan were held on?",
+      "options": {
+        "A": "December 7, 1970",
+        "B": "December 6, 1970",
+        "C": "December 5, 1970",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Daughter of East was written by?",
+      "options": {
+        "A": "Fatima Jinnah",
+        "B": "Benazir Bhutto",
+        "C": "Ghanwa Bhutto",
+        "D": "Begum Raina Liaqat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "\"Jinnah of Pakistan\" written by?",
+      "options": {
+        "A": "Stanly Wolpert",
+        "B": "Hector Bolitho",
+        "C": "Philip Hitti",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first Finance Minister of Pakistan?",
+      "options": {
+        "A": "I.I Chandigarh",
+        "B": "Malik Ghulam Muhammad",
+        "C": "Liaquat Ali Khan",
+        "D": "Muhammad Ali"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Through which pas, Karakorum highway (Shahrah-e-Resham) connects Pakistan with China?",
+      "options": {
+        "A": "Khunjerab Pass",
+        "B": "Khyber Pass",
+        "C": "Tochi Pass",
+        "D": "Gomal Pass"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who mediated/brokered the Indus Water Treaty in 1960?",
+      "options": {
+        "A": "Soviet Union",
+        "B": "China",
+        "C": "World Bank",
+        "D": "UNO"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was the Lucknow Pact made between the Muslim League and Congress?",
+      "options": {
+        "A": "November 1915",
+        "B": "December 1917",
+        "C": "November 1914",
+        "D": "December 1916"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "For how much rupees Ranjit Singh sold the Kashmir?",
+      "options": {
+        "A": "5 million",
+        "B": "7.5 million",
+        "C": "10 million",
+        "D": "12.5 million"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Mohenjo-Daro is located in which district of Sindh?",
+      "options": {
+        "A": "Dadu District",
+        "B": "Larkana District",
+        "C": "Hyderabad District",
+        "D": "None of the above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sui gas (Natural gas) was discovered in Balochistan in which year?",
+      "options": {
+        "A": "1956",
+        "B": "1952",
+        "C": "1955",
+        "D": "1977"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first President of Pakistan?",
+      "options": {
+        "A": "Muhammad Ali Jinnah",
+        "B": "Malik Ghulam Muhammad",
+        "C": "Sir Khawaja Nazimuddin",
+        "D": "Iskander Mirza"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which city of Pakistan is called Manchester of Pakistan?",
+      "options": {
+        "A": "Islamabad",
+        "B": "Lahore",
+        "C": "Faisalabad",
+        "D": "Gujranwala"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Pamphlet ‘Now or Never’ was written in 1933 by ______?",
+      "options": {
+        "A": "Chaudhary Rehmat Ali",
+        "B": "Sir Agha Khan",
+        "C": "Muhammad Ali Johar",
+        "D": "Sir Syed Ahmed Khan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When National Anthem was officially adopted/approved by the government?",
+      "options": {
+        "A": "11 August 1949",
+        "B": "12 August 1950",
+        "C": "14 August 1952",
+        "D": "16 August 1954"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Gwadar is mainly for _____?",
+      "options": {
+        "A": "Agriculture + industries",
+        "B": "Tourism + real estate",
+        "C": "Trade + fishing / Trade and energy routes",
+        "D": "Mining + education"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the Smallest province of Pakistan by area?",
+      "options": {
+        "A": "KPK",
+        "B": "Punjab",
+        "C": "Baluchistan",
+        "D": "Sindh"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hayat-e-Javed is written by Altaf Hussain Hali about _____?",
+      "options": {
+        "A": "Agha Khan",
+        "B": "Muhammad Ali Jinnah",
+        "C": "Allama Iqbal",
+        "D": "Sir Sayyid Ahmad Khan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is the author of the book/novel 'Nineteen Eighty Four'?",
+      "options": {
+        "A": "George Orwell",
+        "B": "Emile Zola",
+        "C": "Thomas Hardy",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the First Chief of Staff of Pakistan Army?",
+      "options": {
+        "A": "General Zia-ul-Haq",
+        "B": "General Tikka Khan",
+        "C": "General Ayub Khan",
+        "D": "General Pervez Musharraf"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one is the highest peak (mountain) of the Hindu Kush range in Pakistan?",
+      "options": {
+        "A": "Tirich Mir",
+        "B": "Nanga Parbat",
+        "C": "K-2",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Indo-Pak war of 1965 lasted for how many days?",
+      "options": {
+        "A": "27 days",
+        "B": "17 days",
+        "C": "47 days",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Minto Morley reforms enforced?",
+      "options": {
+        "A": "13 Mrach 1909",
+        "B": "12 March 1909",
+        "C": "14 March 1909",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which year the first constitution of Pakistan was enforced?",
+      "options": {
+        "A": "1951",
+        "B": "1956",
+        "C": "1962",
+        "D": "1973"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CPEC connected Gwadar to city of China ______?",
+      "options": {
+        "A": "Beijing",
+        "B": "Wakhan",
+        "C": "Kashgar",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which year was the National Action Plan revised?",
+      "options": {
+        "A": "2021",
+        "B": "2022",
+        "C": "2023",
+        "D": "2024"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Separate electorate demand by Muslim League was put forward in ____?",
+      "options": {
+        "A": "1909",
+        "B": "1906",
+        "C": "1911",
+        "D": "1918"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who inaugurated Aligarh College?",
+      "options": {
+        "A": "Lord Lytton",
+        "B": "Lord Leighton",
+        "C": "Lord Minto",
+        "D": "Professor Arnold"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Constitution of Pakistan 1956 introduced a which legislature/system?",
+      "options": {
+        "A": "Bicameral",
+        "B": "Unicameral",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Indian Councils Act (Minto-Morley Reforms) was enacted into law in ____?",
+      "options": {
+        "A": "1900",
+        "B": "1905",
+        "C": "1909",
+        "D": "1911"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Gwadar was built with the help of which country?",
+      "options": {
+        "A": "China",
+        "B": "Russia",
+        "C": "Japan",
+        "D": "India"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Lord Linlithgow put forward the proposal of August Offer in _____?",
+      "options": {
+        "A": "1943",
+        "B": "1940",
+        "C": "1942",
+        "D": "1941"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Radcliffe Award was announced?",
+      "options": {
+        "A": "17th August 1947",
+        "B": "14th August 1947",
+        "C": "13th August 1947",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The book named \"The spirit of Islam\" is written by?",
+      "options": {
+        "A": "Syed Ameer Ali",
+        "B": "Nawab Mohsin",
+        "C": "Sir Syed Ahmad Khan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The reconcile of Hindus and Muslims a new religion Din-i-Illahi was introduced by?",
+      "options": {
+        "A": "Babur",
+        "B": "Humayun",
+        "C": "Jahangir",
+        "D": "Akbar"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "National Flag of Pakistan was designed/made by _____?",
+      "options": {
+        "A": "Hafeez Jalandhri",
+        "B": "Ahmed Ghulam Ali Chaghla",
+        "C": "Amir Uddin Kidwai",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Quaid-e-Azam presented his Delhi proposal in ____?",
+      "options": {
+        "A": "1916",
+        "B": "1926",
+        "C": "1927",
+        "D": "1928"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kitab-ul-Hind was written by _____?",
+      "options": {
+        "A": "Al Biruni",
+        "B": "Al Farabi",
+        "C": "Sir Syed Ahamd",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is Quaid-e-Azam solar park located?",
+      "options": {
+        "A": "Lahore",
+        "B": "Karachi",
+        "C": "Multan",
+        "D": "Bahalwalpur"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When the Partition of Bengal took place?",
+      "options": {
+        "A": "1905",
+        "B": "1906",
+        "C": "1907",
+        "D": "1908"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When did Khilafat Movement come to an end?",
+      "options": {
+        "A": "1923",
+        "B": "1921",
+        "C": "1924",
+        "D": "1922"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Babusar Pass connects _____?",
+      "options": {
+        "A": "Quetta with Chaman",
+        "B": "Abbotabad with Gilgit",
+        "C": "Peshawar with Afghanistan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pakistan purchased Gwadar port from which country?",
+      "options": {
+        "A": "Oman",
+        "B": "Saudi Arabia",
+        "C": "Qatar",
+        "D": "UAE"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Allama Muhammad Iqbal Died?",
+      "options": {
+        "A": "April 21, 1939",
+        "B": "April 21, 1938",
+        "C": "April 21, 1937",
+        "D": "April 21, 1947"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the national bird of Pakistan?",
+      "options": {
+        "A": "Parrot",
+        "B": "Chakor",
+        "C": "Pigeon",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which city of Pakistan receives highest annual rainfall?",
+      "options": {
+        "A": "Quetta",
+        "B": "Murree",
+        "C": "Sialkot",
+        "D": "Multan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the largest lake in Pakistan?",
+      "options": {
+        "A": "Karambar Lake",
+        "B": "Attabad Lake",
+        "C": "Manchar Lake",
+        "D": "Rama Lake"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The official/old name of Sukkur barrage is?",
+      "options": {
+        "A": "Kotri Barrage",
+        "B": "Ghulam Muhammad Barrage",
+        "C": "Lloyd Barrage",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Dark green field in the flag of Pakistan represents _______?",
+      "options": {
+        "A": "Muslim Majority",
+        "B": "Minority",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year Pakistan won the Cricket World Cup?",
+      "options": {
+        "A": "1990",
+        "B": "1980",
+        "C": "1970",
+        "D": "1992"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Currently, the estimated population of Pakistan is about?",
+      "options": {
+        "A": "214.8 million",
+        "B": "~259.3 million",
+        "C": "234.8 million",
+        "D": "244.8 million"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Worldwide Nanga Parbat is _______ highest mountain.",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "9",
+        "D": "11"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The title “Ambassador of Hindu-Muslim-Unity” was given to Mr Jinnah by ____?",
+      "options": {
+        "A": "Mustafa-Kamal",
+        "B": "Allama-Iqbal",
+        "C": "Sarojini-Naidu",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which year Urdu Hindi controversy?",
+      "options": {
+        "A": "1867",
+        "B": "1868",
+        "C": "1866",
+        "D": "1860"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many volumes are there in Mirza Ghalib's Diwan?",
+      "options": {
+        "A": "1",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "After the death of Zia ul Haq on 7th August 1988, who was made the President of Pakistan?",
+      "options": {
+        "A": "Muhammad khan Junejo",
+        "B": "Ghulam Ishaq Khan",
+        "C": "Farooq Ahmad Leghari",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Indian forces occupied Kashmir in the year ______?",
+      "options": {
+        "A": "1947",
+        "B": "1950",
+        "C": "1948",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Baba Fareed Ganj Shakar belongs to _____?",
+      "options": {
+        "A": "Chishti",
+        "B": "Suharwardi",
+        "C": "Naqshbandi",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first person in Pakistan who received Nishan-i-Haider?",
+      "options": {
+        "A": "Major Shabbir Sharif Shaheed",
+        "B": "Major Muhammad Akram Shaheed",
+        "C": "Major Aziz Bhatti Shaheed",
+        "D": "Captain Sarwar Shaheed"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Per Capita water availability in Pakistan is _____?",
+      "options": {
+        "A": "Constant",
+        "B": "Decreasing",
+        "C": "Increasing",
+        "D": "Fluctuating"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Cholistan desert is also called _____?",
+      "options": {
+        "A": "Fertile Desert",
+        "B": "Rohi Desert",
+        "C": "Sandy Desert",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Farooq Ahmad Khan Leghari became President of Pakistan?",
+      "options": {
+        "A": "14 Nov 1993",
+        "B": "14 Nov 1995",
+        "C": "14 Nov 1996",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "“In the Line of Fire” is the autobiography of ____?",
+      "options": {
+        "A": "Pervez Musharraf",
+        "B": "Benazir Bhutto",
+        "C": "Zia-Ul-Haq",
+        "D": "Asif Zardari"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Chenab meets Jhelum at which place?",
+      "options": {
+        "A": "Panjnand",
+        "B": "Trimmu",
+        "C": "Attock",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Allama Shibli Naumani was died?",
+      "options": {
+        "A": "November 18, 1914",
+        "B": "November 18, 1915",
+        "C": "November 18, 1916",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "____ was the first state which joined Pakistan on 1947?",
+      "options": {
+        "A": "Azad Kashmir",
+        "B": "Hyderabad",
+        "C": "Bahawalpur",
+        "D": "Makran"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Book 'The Sole Spokesman' is authored by _____?",
+      "options": {
+        "A": "Mubarak Ali",
+        "B": "Stanley Wolpert",
+        "C": "Anatol Lieven",
+        "D": "Ayesha Jalal"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "\"Aab e Hayat \" was written by?",
+      "options": {
+        "A": "Khwaja Mir Dard",
+        "B": "Momin Khan Momin",
+        "C": "Saghar Siddiqui",
+        "D": "Muhammad Hussain Azad"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the first viceroy of India?",
+      "options": {
+        "A": "Lord Canning",
+        "B": "Lord Hardinge",
+        "C": "Lord Elgin",
+        "D": "Warren Hastings"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the last Governor General of Pakistan?",
+      "options": {
+        "A": "Iskander Mirza",
+        "B": "Liaqiat Ali khan",
+        "C": "Khawaja nizam u din",
+        "D": "Muhammad ali"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the area of KPK?",
+      "options": {
+        "A": "401,741 sq.km,",
+        "B": "301,741 sq.km,",
+        "C": "201,741 sq.km,",
+        "D": "101,741 sq.km,"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Pakistan launched an operation in Kashmir in 1965 which was called operation?",
+      "options": {
+        "A": "Barbarossa",
+        "B": "Azad",
+        "C": "Gibraltar",
+        "D": "Kashmir"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who presented the six points formula?",
+      "options": {
+        "A": "A.K. Fazal ul Haq",
+        "B": "Khawaja Nazim uddin",
+        "C": "Quaid e Azam",
+        "D": "Shaikh Mujeeb ur Rehman"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Establishment of Delhi Sultanate begin with the invasion of _____?",
+      "options": {
+        "A": "Muhammad Ghouri",
+        "B": "Muhammad Tuglaq",
+        "C": "Allahuddin Khilji",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first and the last Chief Executive in the history of Pakistan?",
+      "options": {
+        "A": "General Parvaiz Musharraf",
+        "B": "General Takka Khan",
+        "C": "General Yahya Khan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the First Speaker of National Assembly of Pakistan?",
+      "options": {
+        "A": "Quaid-i-Azam Muhammad Ali Jinnah",
+        "B": "Moulvi Tamizuddin Khan",
+        "C": "Abdul Wahab Khan",
+        "D": "Sardar Ayaz Sadiq"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Jahangir Khan is a famous player in which game?",
+      "options": {
+        "A": "Squash",
+        "B": "Hockey",
+        "C": "Cricket",
+        "D": "Boxing"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following first President of the Constituent Assembly of Pakistan?",
+      "options": {
+        "A": "Quaid-e-Azam",
+        "B": "Moulvi Tameez-ud-Din",
+        "C": "Liaquat Ali Khan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Head of the State of Pakistan?",
+      "options": {
+        "A": "Prime Minister",
+        "B": "Chief Justice",
+        "C": "President",
+        "D": "Army Chief"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The First Muslim ruler to introduce the System of Price Control in the sub-continent was ______?",
+      "options": {
+        "A": "Jalal uddin Akbar",
+        "B": "Allau ud din Khilji",
+        "C": "Muhammad bin Tughluk",
+        "D": "Shah Jehan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When State Bank of Pakistan (SBP) was inaugurated?",
+      "options": {
+        "A": "1st July 1947",
+        "B": "1st August 1947",
+        "C": "1st July 1948",
+        "D": "1st August 1948"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The famous Hiran Minar is located at _____?",
+      "options": {
+        "A": "Ziarat",
+        "B": "Bannu",
+        "C": "Sheikhupura",
+        "D": "Thatta"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Masjid Wazir Khan was made in which century?",
+      "options": {
+        "A": "16th",
+        "B": "19th",
+        "C": "17th",
+        "D": "20th"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Article 25 of the 1973 Constitution of Pakistan deals with?",
+      "options": {
+        "A": "Rule of Law",
+        "B": "Equality of citizens",
+        "C": "Equal protection of law",
+        "D": "All of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Taj Mahal was built by ______?",
+      "options": {
+        "A": "Shah Jahan",
+        "B": "Babar",
+        "C": "Akbar",
+        "D": "Jahangir"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When did Simon commission arrive in India?",
+      "options": {
+        "A": "3rd January 1928",
+        "B": "3rd February 1928",
+        "C": "3rd March 1928",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Makli Hill Graveyard is located in which city?",
+      "options": {
+        "A": "Karachi",
+        "B": "Hyderabad",
+        "C": "Makli",
+        "D": "Thatta"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The next senior rank to Sub Inspector in Police is SHO/Inspector. What does SHO stand for?",
+      "options": {
+        "A": "Station House Office",
+        "B": "Regional Police Officer",
+        "C": "Station House Officer",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is the function of State Bank of Pakistan?",
+      "options": {
+        "A": "Prepare annual budget",
+        "B": "Regulate Monetary Policy",
+        "C": "Open account of General public",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The most important Cash Crop of Pakistan after Wheat is:",
+      "options": {
+        "A": "Maize",
+        "B": "Rice",
+        "C": "Millet",
+        "D": "Sugarcane"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Among the following, which is the oldest English language newspaper of Pakistan?",
+      "options": {
+        "A": "Dawn",
+        "B": "The News",
+        "C": "Pakistan Time",
+        "D": "Frontier Times"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Pakistani Urdu poet was given \"Lenin Award' by the ex-USSR Government?",
+      "options": {
+        "A": "Ahmed Faraz",
+        "B": "Muneer Niazi",
+        "C": "Habib Jalib",
+        "D": "Faiz Ahmad Faiz"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the total length of Pakistan India boundary line?",
+      "options": {
+        "A": "1610 km",
+        "B": "1900 km",
+        "C": "2700 km",
+        "D": "2100 km"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Chashma Barrage has been built on the which river?",
+      "options": {
+        "A": "Jhelum",
+        "B": "Chenab",
+        "C": "Indus",
+        "D": "Ravi"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the total area of Balochistan Province?",
+      "options": {
+        "A": "40,914 Sq Km",
+        "B": "74,521 Sq Km",
+        "C": "205,344 Sq Km",
+        "D": "347,190 Sq Km"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The 1973 Constitution of Pakistan came into force on?",
+      "options": {
+        "A": "14th August 1973",
+        "B": "23rd March 1973",
+        "C": "27th October 1973",
+        "D": "8th June 1973"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The government of Benazir Bhutto was dismissed for the second time on November 1996 by _____?",
+      "options": {
+        "A": "President of Pakistan Farooq Leghari",
+        "B": "Chief Justice of Pakistan Sajjad Ali Shah",
+        "C": "National Speaker of Pakistan Gohar Ayub Khan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A Long Walk to Freedom is an autobiography of whom?",
+      "options": {
+        "A": "Shakespeare",
+        "B": "Martin Luther King",
+        "C": "Nelson Mandela",
+        "D": "Desond Titu"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Under which article of the Constitution; it's abrogation, subversion or suspension have been declared a \"high treason\"?",
+      "options": {
+        "A": "9",
+        "B": "6",
+        "C": "3",
+        "D": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "GT Road was constructed by _____?",
+      "options": {
+        "A": "Feroz Tughluk",
+        "B": "Tipu Sultan",
+        "C": "Sher Shah Suri",
+        "D": "Ameer Kror"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the first Chief Minister of West Punjab?",
+      "options": {
+        "A": "Iftikhar Hussain Khan Mamdoot",
+        "B": "Mian Mumtaz Ahmad Daultana",
+        "C": "Malik Feroz Khan Noon",
+        "D": "Abdul Hameed Khan Dasti"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan's Constitution provides protection against retrospective punishment _____?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Not mentioned",
+        "D": "Is vague"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Chairman of Council of Common Interest is the _____?",
+      "options": {
+        "A": "President",
+        "B": "Chief Justice of Pakistan",
+        "C": "Prime Minister",
+        "D": "Attorney General"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Quaid-e-Azam Mausoleum is located in which city?",
+      "options": {
+        "A": "Karachi",
+        "B": "Ziarat",
+        "C": "Lahore",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan won its first Hockey World Cup in 1971 by defeating which of the following in the final?",
+      "options": {
+        "A": "Uruguay",
+        "B": "West Indies",
+        "C": "India",
+        "D": "Spain"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Choose the correct option of the idiom: Cheek by jowl?",
+      "options": {
+        "A": "Very close together",
+        "B": "One after another",
+        "C": "Side by side",
+        "D": "Proportionately"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the founder of Scientific Society?",
+      "options": {
+        "A": "Wilton Oldham",
+        "B": "Sir Syed Ahmed",
+        "C": "Lord Cornwallis",
+        "D": "Quaid e Azam"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the length of Durand line?",
+      "options": {
+        "A": "2100 Km",
+        "B": "2352 Km",
+        "C": "2611 Km",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who composed the lyrics of the National Anthem of Pakistan?",
+      "options": {
+        "A": "Hafeez Jalandhari",
+        "B": "Liaqat Ali Khan",
+        "C": "Ahmed G. Chagla",
+        "D": "Allama Iqbal"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was the province of NWFP set up?",
+      "options": {
+        "A": "1897",
+        "B": "1899",
+        "C": "1901",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Supreme Commander of Pakistan Armed Forces is?",
+      "options": {
+        "A": "Army Chief",
+        "B": "Governor",
+        "C": "President",
+        "D": "Prime Minister"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the percentage of Punjabi-speaking people in Pakistan?",
+      "options": {
+        "A": "25%",
+        "B": "35%",
+        "C": "39%",
+        "D": "45%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When did the first census held in the Subcontinent?",
+      "options": {
+        "A": "1888",
+        "B": "1884",
+        "C": "1881",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When NWFP become KPK?",
+      "options": {
+        "A": "19 April 2010",
+        "B": "20 April 2010",
+        "C": "18 April 2010",
+        "D": "15 April 2010"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Partition of India Plan was announced on?",
+      "options": {
+        "A": "3 June 1944",
+        "B": "3 June 1949",
+        "C": "3 June 1948",
+        "D": "3 June 1947"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Mother of the nation of Pakistan?",
+      "options": {
+        "A": "Fatima Jinnah",
+        "B": "Benazir Bhutto",
+        "C": "Begum Liaquat Ali Khan",
+        "D": "Nusrat Bhutto"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following was the last dynasty of the Delhi Sultanate?",
+      "options": {
+        "A": "Lodhi Dynasty",
+        "B": "Tughluq Dynasty",
+        "C": "Mamluk Dynasty",
+        "D": "Khilji Dynasty"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Islamabad is part of which province?",
+      "options": {
+        "A": "Punjab",
+        "B": "Sindh",
+        "C": "KPK",
+        "D": "It is not a part of any province; it's a separate territory"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the first Captain of Pakistan Cricket Team?",
+      "options": {
+        "A": "Wazir Ali",
+        "B": "Abdul Hafeez Kardar",
+        "C": "Hanif Muhammad",
+        "D": "Fazl Mehmood"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The atomic bomb was dropped on the city of Hiroshima on?",
+      "options": {
+        "A": "03 August 1945",
+        "B": "06 August 1945",
+        "C": "09 August 1945",
+        "D": "12 August 1945"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The archaeological site of \"Kot Diji\" is located near the city of _____?",
+      "options": {
+        "A": "Swat",
+        "B": "Khairpur",
+        "C": "Thatta",
+        "D": "Larkana"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Headquarters of Air Force is located in?",
+      "options": {
+        "A": "Islamabad",
+        "B": "Peshawar",
+        "C": "Karachi",
+        "D": "Rawalpindi"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Muhammad Ali Jinnah gave 14 points?",
+      "options": {
+        "A": "1929",
+        "B": "1930",
+        "C": "1931",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Benazir Bhutto was assassinated on _____?",
+      "options": {
+        "A": "December 27, 2007",
+        "B": "December 26, 2007",
+        "C": "December 26, 2007",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "According to the Pakistan Bureau of Statistics (PBS), the growth rate of population of Pakistan in 2023 is?",
+      "options": {
+        "A": "3.55 percent",
+        "B": "2.55 percent",
+        "C": "4.55 percent",
+        "D": "1.55 percent"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Madr-e-Millat is the title of _____?",
+      "options": {
+        "A": "Fatima Jinnah",
+        "B": "Benazir Bhutto",
+        "C": "Sheikh Hasina",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country won Cricket Champions Trophy 2017?",
+      "options": {
+        "A": "Iran",
+        "B": "UAE",
+        "C": "Malaysia",
+        "D": "Pakistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "One unit was dissolved on?",
+      "options": {
+        "A": "1st July 1970",
+        "B": "1st July 1971",
+        "C": "1st July 1972",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Kerry lugar bill was passed for the period",
+      "options": {
+        "A": "2010-2014",
+        "B": "2012-2014",
+        "C": "2010-2015",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who delivered the Presidential address at Allahabad in 1930?",
+      "options": {
+        "A": "Liaqat Ali Khan",
+        "B": "Quaid-e-Azam",
+        "C": "Moulvi Fazal-ul-haq",
+        "D": "Allama Iqbal"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which City (District) Manchhar Lake is situated?",
+      "options": {
+        "A": "Dadu",
+        "B": "Larkana",
+        "C": "Jamshoro",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The youngest Nobel Prize laureate, Malala Yousafzai won Nobel Peace Prize for the year?",
+      "options": {
+        "A": "2013",
+        "B": "2014",
+        "C": "2015",
+        "D": "2016"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In Punjab, how many jails are located which were constructed during 19th century?",
+      "options": {
+        "A": "3",
+        "B": "9",
+        "C": "5",
+        "D": "7"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "General Pervez Musharraf was elected as President through referendum on?",
+      "options": {
+        "A": "20 June 2001",
+        "B": "20 April 2002",
+        "C": "20 April 2004",
+        "D": "20 April 2003"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The British Crown assumed direct control over India in which year?",
+      "options": {
+        "A": "1859",
+        "B": "1857",
+        "C": "1856",
+        "D": "1858"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Sovereignty belongs to which one of the following?",
+      "options": {
+        "A": "Prophet",
+        "B": "Allah",
+        "C": "President",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "16th August, 1946 was declared as direct action day by?",
+      "options": {
+        "A": "Congress",
+        "B": "Muslim League",
+        "C": "British Government",
+        "D": "Hindus of subcontinent"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Harappa ruins are in which province of Pakistan?",
+      "options": {
+        "A": "Baluchistan",
+        "B": "Sindh",
+        "C": "Punjab",
+        "D": "KPK"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "According to 1941 Census ______ of the population of Kashmir state was Muslim.",
+      "options": {
+        "A": "75%",
+        "B": "77%",
+        "C": "88%",
+        "D": "93%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is known as the founder of Tahrik-e-Raishmi Romal (The Silk Letter Movement)?",
+      "options": {
+        "A": "Maulana Mahmood ul Hassan",
+        "B": "Maulana Qasim Nanotvi",
+        "C": "Allama Iqbal",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was Liaquat Nehru Pact between Pakistan and India?",
+      "options": {
+        "A": "1948",
+        "B": "1949",
+        "C": "1950",
+        "D": "1951"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Islamia College Peshawar was founded in ______?",
+      "options": {
+        "A": "1913",
+        "B": "1909",
+        "C": "1905",
+        "D": "1901"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "وہ خاص نام جو کسی خوبی یا وصف کی وجہ سے مشہور ہو جائے اسے کیا کہتے ہیں؟",
+      "options": {
+        "A": "خطاب",
+        "B": "کنیت",
+        "C": "لقب",
+        "D": "عرف"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Allama Iqbal joined the Punjab legislative council?",
+      "options": {
+        "A": "1890",
+        "B": "1927",
+        "C": "1928",
+        "D": "1910"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "According to Labour Force Survey 2020-21, total labour force in Pakistan is ____?",
+      "options": {
+        "A": "67.25 million",
+        "B": "84.69 million",
+        "C": "71.76 million",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the first federal law minister of Pakistan?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Zafarullah Khan",
+        "C": "Ghulam Muhammad",
+        "D": "Jogendra Nath Mandal"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "_________ belt of Afghanistan separate Tajikistan from Pakistan?",
+      "options": {
+        "A": "Durand line",
+        "B": "Wakhan",
+        "C": "Control line",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Pakistan won the World Hockey Cup last time?",
+      "options": {
+        "A": "1998",
+        "B": "1990",
+        "C": "1994",
+        "D": "2002"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the highest peak of salt range?",
+      "options": {
+        "A": "Nanga parbat",
+        "B": "K-2",
+        "C": "Soan Sakaser",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The boundary commission appointed at the time of Independence was headed by?",
+      "options": {
+        "A": "Lord Wavell",
+        "B": "Lord Mountbatten",
+        "C": "Lord Radcliffe",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Qutbuddin Aibak is buried in _____?",
+      "options": {
+        "A": "Islamabad",
+        "B": "Karachi",
+        "C": "Peshawar",
+        "D": "Lahore"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In the presidential election of 1988, who was the supported by PPP and IJI?",
+      "options": {
+        "A": "General Zia Ul Haq",
+        "B": "Muhammad Khan Junejo",
+        "C": "Ghulam Ishaq Khan",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Rachna doab is between _______?",
+      "options": {
+        "A": "Chenab and Jhelum",
+        "B": "Indus and chenab",
+        "C": "Sutlj and ravi",
+        "D": "Ravi and Chenab"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "According to 1973 constitution, who elects the Prime Minister of Pakistan?",
+      "options": {
+        "A": "National Assembly",
+        "B": "Provincial Assemblies",
+        "C": "Senate",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The old name of Taxila was _____?",
+      "options": {
+        "A": "Takhshasila",
+        "B": "Nandana",
+        "C": "Gandhara",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many members of the National Assembly of Pakistan?",
+      "options": {
+        "A": "342",
+        "B": "336",
+        "C": "360",
+        "D": "320"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Gomal university is in _____?",
+      "options": {
+        "A": "Dera Ismail Khan",
+        "B": "Peshawar",
+        "C": "Quetta",
+        "D": "Lahore"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of these is the largest forest of Pakistan?",
+      "options": {
+        "A": "Cholistan",
+        "B": "Thar",
+        "C": "Changa Manga",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Where is the Pakistan National Defence University (NDU) located?",
+      "options": {
+        "A": "Quetta",
+        "B": "Rawalpindi",
+        "C": "Multan",
+        "D": "Islamabad"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Gwadar remained under Oman's rule for ______ years.",
+      "options": {
+        "A": "174",
+        "B": "66",
+        "C": "75",
+        "D": "55"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Balochistan acquired the status of province in the which year?",
+      "options": {
+        "A": "1969",
+        "B": "1970",
+        "C": "1972",
+        "D": "1974"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Abdul Sattar Edhi was passed away on _____?",
+      "options": {
+        "A": "8th July 2017",
+        "B": "8th July 2016",
+        "C": "8th July 2015",
+        "D": "8th July 2014"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To whom Lord Mountbatten succeeded as Governor General of India?",
+      "options": {
+        "A": "Lord Wavell",
+        "B": "Lord Curzon",
+        "C": "Lord Cornwallis",
+        "D": "Lord Mayo"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who presented the Nehru Report?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Subhas Chandra Bose",
+        "C": "Motilal Nehru",
+        "D": "Muhammad Ali Jinnah"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Gwadar is located in the _____?",
+      "options": {
+        "A": "Punjab",
+        "B": "Sindh",
+        "C": "Kyber Paktunkhawa",
+        "D": "Balochistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who founded the school of Dars-e-Nizamia in Indo-pak?",
+      "options": {
+        "A": "Mulla Umer",
+        "B": "Mulla Nizam-ud-din",
+        "C": "Fareed-ud-din Atar",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who dismissed Benazir Bhutto’s Government for the second time?",
+      "options": {
+        "A": "Rafiq Tarar",
+        "B": "Farooq Ahmed Khan Leghari",
+        "C": "Shaukat Aziz",
+        "D": "Yahya Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "According to the Government of India Act of 1935, elections in the subcontinent were conducted in which year?",
+      "options": {
+        "A": "1935",
+        "B": "1936",
+        "C": "1937",
+        "D": "1938"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following Princely States was the first to formally accede to Pakistan?",
+      "options": {
+        "A": "Swat",
+        "B": "Chitral",
+        "C": "Bahawalpur",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan left CENTO in which year?",
+      "options": {
+        "A": "1969",
+        "B": "1979",
+        "C": "1989",
+        "D": "1999"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Ojhri Camp incident occurred in which year?",
+      "options": {
+        "A": "1985",
+        "B": "1986",
+        "C": "1987",
+        "D": "1988"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Rawalpindi Conspiracy Case was unearthed in which year?",
+      "options": {
+        "A": "1958",
+        "B": "1951",
+        "C": "1949",
+        "D": "1955"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Bradlaugh Hall has been the venue of some of the most important events in the history of Pakistan and India. In which city is it located?",
+      "options": {
+        "A": "Lahore",
+        "B": "Dhaka",
+        "C": "Shimla",
+        "D": "Delhi"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Unionist Party (Punjab) was formed in ________?",
+      "options": {
+        "A": "1922",
+        "B": "1923",
+        "C": "1933",
+        "D": "1940"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Satpara lake is located in which region of Pakistan?",
+      "options": {
+        "A": "Chitral",
+        "B": "Skardu",
+        "C": "Hunza",
+        "D": "Sawat"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When did Musharraf take the oath of President of Pakistan?",
+      "options": {
+        "A": "Before the Agra Summit",
+        "B": "Before the Kargil Conflict",
+        "C": "Before the 2002 General Elections",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Malik Ishaq was the founder of ______?",
+      "options": {
+        "A": "Lashkar-e-Jhangvi",
+        "B": "Sipah-e-Sahaba",
+        "C": "Tehrik-e-Taliban Pakistan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Greater Thal Canal (GTC) draws water from the _____?",
+      "options": {
+        "A": "Chashma-Jhelum",
+        "B": "Indus River",
+        "C": "Chenab River",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "القانون فی الطب کے مصنف ہیں؟",
+      "options": {
+        "A": "ابن رشد",
+        "B": "ابن سینا",
+        "C": "الرازی",
+        "D": "الفرابی"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which neighbor country of Pakistan is landlocked?",
+      "options": {
+        "A": "Afghanistan",
+        "B": "Iraq",
+        "C": "Iran",
+        "D": "India"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Molasses is by product of ______?",
+      "options": {
+        "A": "Sugar",
+        "B": "Salt",
+        "C": "Protein",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The main demand of simla Muslim Deputation accepted in Minto Morley Reforms of 1906 was about?",
+      "options": {
+        "A": "Separate electorates",
+        "B": "Separate muslim state",
+        "C": "Separation of Sindh from Bombay",
+        "D": "Separate Muslim Eduction"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Nawab Jahangir Yar was from which princely state?",
+      "options": {
+        "A": "Hyderabad",
+        "B": "Bhopal",
+        "C": "Junagarh",
+        "D": "Rampur"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Al-Farodoisi was a poet of which language?",
+      "options": {
+        "A": "Persian",
+        "B": "Arabic",
+        "C": "both",
+        "D": "Urdu"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan’s Coronavirus vaccine campaign started from _____?",
+      "options": {
+        "A": "5 February 2021",
+        "B": "1 February 2021",
+        "C": "2 February 2021",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The book Khutbat-e-Ahmadiya is written by______?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "Sir Syed Ahmad Khan",
+        "C": "Altaf Hussain Hali",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the only Hindu Courtier of Akbar who accepted Din-i-Ilahi?",
+      "options": {
+        "A": "Birbal",
+        "B": "Todermal",
+        "C": "Tansen",
+        "D": "Man Singh"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "1962 constitution of Pakistan lasted for how many years?",
+      "options": {
+        "A": "5 years",
+        "B": "7 years",
+        "C": "9 years",
+        "D": "11 years"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which book of Allama Iqbal was published in 1923?",
+      "options": {
+        "A": "Baal e Jibrael",
+        "B": "Bang e Dara",
+        "C": "Payam e Mashriq",
+        "D": "Zaboor e Ajam"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Field Marshal Ayub Khan was died?",
+      "options": {
+        "A": "1968",
+        "B": "1974",
+        "C": "1981",
+        "D": "1991"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pakistan Seabed territory grows by 50000 square km in ______?",
+      "options": {
+        "A": "2009",
+        "B": "2015",
+        "C": "2019",
+        "D": "2022"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Politics and the state in Pakistan book written by _____?",
+      "options": {
+        "A": "Hassan Askari",
+        "B": "Khalid saed",
+        "C": "Muhammad Waseem",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How much potential of Pakistan hydropower for generating electricity?",
+      "options": {
+        "A": "80000 MW",
+        "B": "60000 MW",
+        "C": "35000 MW",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many soldiers were awarded the Nishan-e-Haider in the Kargil War?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the Army Chief of Pakistan from 1951 to 1958?",
+      "options": {
+        "A": "General Ayub Khan",
+        "B": "General Yahya Khan",
+        "C": "General Pervez Musharraf",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Rehman Baba was a Sufi poet of ________ era.",
+      "options": {
+        "A": "British",
+        "B": "Salateen",
+        "C": "Mughal",
+        "D": "Muhammad Bin Qasim"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan Ministry of Foreign Affairs is located in _____?",
+      "options": {
+        "A": "Lahore",
+        "B": "Karachi",
+        "C": "Islamabad",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the Finance Minister during Zulfikar Ali Bhutto's tenure?",
+      "options": {
+        "A": "Ghulam Ishaq Khan",
+        "B": "Abdul Hafeez Pirzada",
+        "C": "Dr. Mubashir Hassan",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the first woman president of the Indian National Congress?",
+      "options": {
+        "A": "Sarojini Naidu",
+        "B": "Annie Besant",
+        "C": "Indira Gandhi",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When did Mahatma Gandhi leave politics?",
+      "options": {
+        "A": "1934",
+        "B": "1920",
+        "C": "1942",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Sialkot-Lahore Motorway is called?",
+      "options": {
+        "A": "M11",
+        "B": "M5",
+        "C": "M3",
+        "D": "M12"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the author of the novel Maut Ki Kitaab?",
+      "options": {
+        "A": "Faiz Ahmed Faiz",
+        "B": "Khaled Javed",
+        "C": "Quratul Ain Haider",
+        "D": "Ahmed Faraz"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who wrote Tota Kahani?",
+      "options": {
+        "A": "Munshi Premchand",
+        "B": "Ashfaq Ahmed",
+        "C": "Saadat Hasan Manto",
+        "D": "Mirza Ghalib"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The power generation capacity of proposed Kalabagh dam is _____?",
+      "options": {
+        "A": "3600",
+        "B": "3400",
+        "C": "2200",
+        "D": "1100"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The residential imperial twin tower located in which country?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "France",
+        "D": "India"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When did an avalanche hit a Pakistan Army base in which 140 soldiers and civilian contractors martyred?",
+      "options": {
+        "A": "8th April 2012",
+        "B": "6th April 2012",
+        "C": "7th April 2012",
+        "D": "5th April 2012"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kunar river is also called ___ river in Pakistan.",
+      "options": {
+        "A": "Chitral",
+        "B": "Swat",
+        "C": "Kunhar",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In Pakistan term Changa Manga Politics is used for _____?",
+      "options": {
+        "A": "Kich back",
+        "B": "Bribary",
+        "C": "Horse-trading",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was the Communist Party banned in Pakistan?",
+      "options": {
+        "A": "1999",
+        "B": "1950",
+        "C": "1954",
+        "D": "1966"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was Vernacular Press Act given?",
+      "options": {
+        "A": "1870",
+        "B": "1874",
+        "C": "1878",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country has become the First country in the World to introduce WHO approved Typhoid vaccine?",
+      "options": {
+        "A": "Pakistan",
+        "B": "China",
+        "C": "India",
+        "D": "Japan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Chapter 1 of the 1973 constitution deals with _____?",
+      "options": {
+        "A": "Fundamental Rights",
+        "B": "Principle of Policy",
+        "C": "President's powers",
+        "D": "Power Minister's Power"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Tarbela Dam completed in which year?",
+      "options": {
+        "A": "1976",
+        "B": "1987",
+        "C": "1999",
+        "D": "1988"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was the Punjab Food Authority established?",
+      "options": {
+        "A": "2011",
+        "B": "2010",
+        "C": "2005",
+        "D": "2015"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Chief Justice of Pakistan was unconstitutionally dismissed:",
+      "options": {
+        "A": "Justice. Sajjad Ali Shah",
+        "B": "Justice. Ifthikhar Muhammad Ch.",
+        "C": "Justice. Iqbal Hameed",
+        "D": "Justice. Mamoon Qazi"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The word 'Monsoon' has originated from which language?",
+      "options": {
+        "A": "English language",
+        "B": "Persian Language",
+        "C": "Arabic Language",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which year was the Women Protection Authority established?",
+      "options": {
+        "A": "2017",
+        "B": "2018",
+        "C": "2019",
+        "D": "2020"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ناول کا فن کس کی کتاب ہے۔",
+      "options": {
+        "A": "ائی۔ ایم - فارسٹر",
+        "B": "اے ہے اور میل",
+        "C": ".جے کے رولنگ",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What theme is Shah Hatim poetry generally based on:",
+      "options": {
+        "A": "Romantic love and nature",
+        "B": "Human emotions, ethics and societal issues",
+        "C": "Political ideologies and revolutions",
+        "D": "Religious rituals and ceremonies"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who suggested to translate Holy Quran in local languages in subcontinent firstly:",
+      "options": {
+        "A": "Shah Wali Ullah",
+        "B": "Shah Abdul Qadir",
+        "C": "Shah Rafiudeen",
+        "D": "Shah Abdul Rahim"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "غزل اس نے چھیڑی مجھے ساز دینا کس شاعر کی غزل ہے ؟",
+      "options": {
+        "A": "امیر مینائی",
+        "B": "صفی لکھنوی",
+        "C": "تابش دہلوی",
+        "D": "بیگم اختر"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "نادار لوگ کس کا ناول ہے ؟",
+      "options": {
+        "A": "اختر",
+        "B": "عبد الله حسین",
+        "C": "ڈپٹی نذیر احمد",
+        "D": "پریم چند"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Blackbuck reintroduction project was started in which desert?",
+      "options": {
+        "A": "Cholistan",
+        "B": "Thal",
+        "C": "Thar",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "محمد ابو زہرہ ایک عظیم مسلم سکالر ہیں ان کا تعلق کس ملک سے ہے؟",
+      "options": {
+        "A": "شمام",
+        "B": "ایران",
+        "C": "مصر",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "اظہار الحق کس کی تصنیف ہے ؟",
+      "options": {
+        "A": "رحمت اللہ کیرانوی",
+        "B": "ڈاکٹر احمد شلبی",
+        "C": "قاضی عبد الحق",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "مسلم فلسفہ اور تاریخ کس شخصیت کی دلچسپی کا میدان ہے ؟",
+      "options": {
+        "A": "ابن خلدون",
+        "B": "قاضی عبد الحق",
+        "C": "ڈاکٹر احمد شلبی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "الجبر والمقابلہ کے مصنف کون ہیں؟",
+      "options": {
+        "A": "بو علی سینا",
+        "B": "الخوارزمی",
+        "C": "البيروني",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "المجموع فی الفقہ کس کی کتاب ہے ؟",
+      "options": {
+        "A": "زید بن علی",
+        "B": "خطیب بغدادی",
+        "C": "شاہ ولی اللہ",
+        "D": "امام مالک"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "مدونة الکبری کسی فقہی مکتب کی کتاب ہے ؟",
+      "options": {
+        "A": "حفی",
+        "B": "خلیلی",
+        "C": "مالکی",
+        "D": "شافعی"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "فقہی صوفیانہ ہے ؟",
+      "options": {
+        "A": "سائنسی",
+        "B": "ادبی",
+        "C": "تصوف",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "رساله اثبات نبوت کے مصنف کون ہیں؟",
+      "options": {
+        "A": "حضرت مجدد الف ثانی",
+        "B": "سید ابوالاعلیٰ مودودی",
+        "C": "شبلی نعمانی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "اصول دعوت کس کی کتاب ہے؟",
+      "options": {
+        "A": "ڈاکٹر احمد حسن",
+        "B": "ڈاکٹر عبدالکریم زیدان",
+        "C": "ابو القاسم زہراوی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "کسی مصنف کی کتاب مندرجہ ذیل نہیں ہے",
+      "options": {
+        "A": "طبرانی",
+        "B": "ابن ماجہ",
+        "C": "بخاری",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "المعجم المفهرس لالفاظ الحدیث النبوی کس کی کتاب ہے ؟",
+      "options": {
+        "A": "ڈاکٹر محمد حمید اللہ",
+        "B": "اے جے وینسک",
+        "C": "خطیب بغدادی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "فصوص الحکم کے مصنف ہیں؟",
+      "options": {
+        "A": "ابن عربی",
+        "B": "امام مالک",
+        "C": "مولانا قادر شاه",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "مدارج النبوتہ کے مصنف کون ہیں؟",
+      "options": {
+        "A": "شیخ نور احمد قادری",
+        "B": "شیخ عبد الغفار محدث",
+        "C": "شیخ عبد الحق محدث دہلوی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Made in India famous movement was named as:",
+      "options": {
+        "A": "Swadeshi movement",
+        "B": "Silent Valley Movement",
+        "C": "Gadar Party Movement",
+        "D": "Ahmedabad Mill Strike"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "مقارنة الادیان کے مولف ہیں ؟",
+      "options": {
+        "A": "شیخ نور احمد قادری",
+        "B": "مولانا حمید الدین فراہی",
+        "C": "شیخ عبد الغفار محدث",
+        "D": "ڈاکٹر احمد شلبی"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the headworks on the Sutlej River?",
+      "options": {
+        "A": "Mangla Dam",
+        "B": "Sulemanki Headworks",
+        "C": "Kotri Barrage",
+        "D": "Tarbela Dam"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which Pakistani cricketer player awarded Sitara-e-Imtiaz after his death?",
+      "options": {
+        "A": "Khalid Wazir",
+        "B": "Akhtar Sarfraz",
+        "C": "Abdul Qadir",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country becomes the largest exporter of Camel meat worldwide in 2020 according to the Global Export survey 2020?",
+      "options": {
+        "A": "Pakistan",
+        "B": "India",
+        "C": "Saudi Arabia",
+        "D": "Sudan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What was the purpose of the 1947 constituent assembly?",
+      "options": {
+        "A": "Advisory",
+        "B": "Legislative and Constituent",
+        "C": "Judicial",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Quetta was devastated by an earthquake?",
+      "options": {
+        "A": "1933",
+        "B": "1935",
+        "C": "1937",
+        "D": "1939"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Mian Sir Fazl-i-Hussain belonged to which caste?",
+      "options": {
+        "A": "Rajput",
+        "B": "Jat",
+        "C": "Mughal",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In the year 1613, where was the English East India Company given permission to set up a factory (trading post)?",
+      "options": {
+        "A": "Madras",
+        "B": "Bangalore",
+        "C": "Surat",
+        "D": "Masulipattam"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan faced sanctions under the Pressler Amendment in 1990 by which country?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "Canada",
+        "D": "Australia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the only Civil Martial Law Administrator?",
+      "options": {
+        "A": "Zulfiqar Ali Bhutto",
+        "B": "Ayub Khan",
+        "C": "Skindar Mirza",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The chief characteristics of Govt of India Act 1935 was _____?",
+      "options": {
+        "A": "Provincial Government at the center",
+        "B": "Federal Government at the center",
+        "C": "Interim Government at the center",
+        "D": "Provincial autonomy"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is Balochistan's share in the NFC Award?",
+      "options": {
+        "A": "7.50%",
+        "B": "9.09%",
+        "C": "10.50%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which province of China is touching Pakistan border?",
+      "options": {
+        "A": "Xinjiang",
+        "B": "Yunnan",
+        "C": "Guangdong",
+        "D": "Sichuan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year did Moinuddin Chishti migrate from Persia?",
+      "options": {
+        "A": "1191",
+        "B": "1193",
+        "C": "1194",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is known as the \"Breaker of Idols\"?",
+      "options": {
+        "A": "Babur",
+        "B": "Mahmud of Ghazni",
+        "C": "Aurangzeb",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which amendment relates with Shariah Bill?",
+      "options": {
+        "A": "11",
+        "B": "8",
+        "C": "6",
+        "D": "9"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Sheikh Mujib was arrested during which era?",
+      "options": {
+        "A": "Ayub Khan's era",
+        "B": "Zulfikar Ali Bhutto's era",
+        "C": "Yahya Khan's era",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is Baba Farid's contribution in the Guru Granth Sahib called?",
+      "options": {
+        "A": "Bani",
+        "B": "Ashlok",
+        "C": "Shabad",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which city Indus Water Treaty signed by the Prime Minister of India and President of Pakistan?",
+      "options": {
+        "A": "Lahore",
+        "B": "Karachi",
+        "C": "Kolkata",
+        "D": "Multan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the common language of Chitral and Ghizer district?",
+      "options": {
+        "A": "Wakhi",
+        "B": "Khowar",
+        "C": "Burushaski",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which mountain range are the maximum summits in Pakistan located?",
+      "options": {
+        "A": "Himalayas",
+        "B": "Karakoram Range",
+        "C": "Hindu Kush",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Muhammad Zia ul Haq became the _______ President of Pakistan.",
+      "options": {
+        "A": "Fourth",
+        "B": "Fifth",
+        "C": "Sixth",
+        "D": "Seventh"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which two Muslims contributed to writing the Nehru Report?",
+      "options": {
+        "A": "Shoaib Qureshi and Syed Ali Imam",
+        "B": "Muhammad Ali Jinnah and Aga Khan",
+        "C": "Maulana Abul Kalam Azad and Shaukat Ali",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who wrote The Emergence of Pakistan?",
+      "options": {
+        "A": "Ahmed Saeed",
+        "B": "Allama Iqbal",
+        "C": "Choudhry Muhammad Ali",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the fourth Prime Minister of Pakistan?",
+      "options": {
+        "A": "Khawaja Nazim uddin",
+        "B": "Muhammad Ali Bogra",
+        "C": "Hussain Shaheed Soharwardi",
+        "D": "Choudhry Muhammad Ali"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In 1920, which of the following changed its name to All India Home Rule League?",
+      "options": {
+        "A": "Swarajya Sabha",
+        "B": "Indian National Congress",
+        "C": "Hindu Mahasabha",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year the Rashtriya Swayamsewak Sangh (RSS) was founded by Hedgewar?",
+      "options": {
+        "A": "1925",
+        "B": "1927",
+        "C": "1929",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Government of India Act 1858 was passed on _____?",
+      "options": {
+        "A": "18th July 1858",
+        "B": "2nd August 1858",
+        "C": "3rd June 1858",
+        "D": "24th October 1858"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many Senators represent Islamabad?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Where is Mian Muhammad Bux buried?",
+      "options": {
+        "A": "Khari Sharif",
+        "B": "Jhang",
+        "C": "Multan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Sir Sikandar Hayat was the CM of which Province of Pakistan?",
+      "options": {
+        "A": "Sindh",
+        "B": "Punjab",
+        "C": "KPK",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first Speaker of the Sindh Assembly in 1937?",
+      "options": {
+        "A": "G.M. Syed",
+        "B": "Sir Shahnawaz Bhutto",
+        "C": "Dewan Bahadur Hiranand Khemchand",
+        "D": "Muhammad Ayub Khuhro"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "غالب کی سب سے لمبی مثنوی کا نام کیا ہے؟",
+      "options": {
+        "A": "بادل اور برق",
+        "B": "چراغِ دیر",
+        "C": "قاطعِ برہان",
+        "D": "آبِ حیات"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Risala Roohi Sharif written by?",
+      "options": {
+        "A": "Sir Syed Ahmad Khan",
+        "B": "Akbar Allahabadi",
+        "C": "Allama Iqbal",
+        "D": "None of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Hazrat Sultan Bahu was the Sufi Poet in _______ era.",
+      "options": {
+        "A": "Salateen",
+        "B": "Mughal",
+        "C": "Salah Uddin Ayoubi",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of following dynesty \"Razia Sultana\". The ruler of Indian subcontinent belonged to _____?",
+      "options": {
+        "A": "The Slave Dynasty",
+        "B": "The Gohri Dynasty",
+        "C": "The Tughlaq Dynasty",
+        "D": "The Monghul Dynasty"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistan People's Party (PPP) was established in which year?",
+      "options": {
+        "A": "1964",
+        "B": "1967",
+        "C": "1960",
+        "D": "1966"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Iskander Mirza became president on which date?",
+      "options": {
+        "A": "23 March 1958",
+        "B": "23 March 1954",
+        "C": "23 March 1956",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Founder of Lodi Dynasty was _____?",
+      "options": {
+        "A": "Malik Sultan",
+        "B": "Darya Khan",
+        "C": "Bahlul Khan Lodi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who abolished kalma depiction on coins?",
+      "options": {
+        "A": "Babar",
+        "B": "Akbar",
+        "C": "Aurangzeb",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was elected as the 10th Prime Minister of Pakistan Non-Party based election in 1985?",
+      "options": {
+        "A": "Muhammad Khan Junejo",
+        "B": "Ayub khan",
+        "C": "Quaid e Azam",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many members were increased after the Minto-Morley Reforms?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A glacier ______?",
+      "options": {
+        "A": "Is a river of ice sliding down a mountain carrying along material",
+        "B": "Is a vast sheet of ice",
+        "C": "Both",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which province of Pakistan has the most canals?",
+      "options": {
+        "A": "Sindh",
+        "B": "Punjab",
+        "C": "Khyber Pakhtunkhwa",
+        "D": "Balochistan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Dogra dynasty bought Kashmir from the British in the year?",
+      "options": {
+        "A": "1844",
+        "B": "1845",
+        "C": "1848",
+        "D": "1846"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "مثنوی \"مرغ نامہ\" کا مصنف کون ہے؟",
+      "options": {
+        "A": "مولانا روم",
+        "B": "عبدالرحمٰن خان مجبور",
+        "C": "میر تقی میر",
+        "D": "غالب"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which province of Pakistan has the most divisions?",
+      "options": {
+        "A": "Sindh",
+        "B": "Khyber Pakhtunkhwa",
+        "C": "Punjab",
+        "D": "Balochistan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which province of Pakistan is the Big Canal System primarily located?",
+      "options": {
+        "A": "Sindh",
+        "B": "Balochistan",
+        "C": "Khyber Pakhtunkhwa",
+        "D": "Punjab"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is the author of \"Maddo Jazar-e-Islaam\"?",
+      "options": {
+        "A": "Sir Syed Ahmad Khan",
+        "B": "Allama Muhammad Iqbal",
+        "C": "Maulana Altaf Hussain Hali",
+        "D": "Muhammad Ali Jinnah"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The book \"Dasht-e-Qais Laila\" was written by:",
+      "options": {
+        "A": "Kishwar Naweed",
+        "B": "Qais",
+        "C": "Saadi Shirazi",
+        "D": "Mirza Ghalib"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where was Imam Malik born?",
+      "options": {
+        "A": "Medina",
+        "B": "Mecca",
+        "C": "Baghdad",
+        "D": "Damascus"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the Bengali leader who served as the Prime Minister of Pakistan?",
+      "options": {
+        "A": "Sheikh Mujibur Rahman",
+        "B": "Khawaja Nazimuddin",
+        "C": "Huseyn Shaheed Suhrawardy",
+        "D": "Muhammad Ali Bogra"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Edhi Foundation has the world's largest ____?",
+      "options": {
+        "A": "Volunteers Community",
+        "B": "Mediacal Facility",
+        "C": "Food Kitchen",
+        "D": "Ambulance Service"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who started the Hindu Mahasabha in 1921?",
+      "options": {
+        "A": "Bal Gangadhar Tilal",
+        "B": "Lala Lajpat Rai",
+        "C": "Vinayak Damodar Savarkar",
+        "D": "Madan Mohan Malaviya"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Abdur Rehman Chugtai was a prominent name in the field of _____?",
+      "options": {
+        "A": "Painting",
+        "B": "Architecture",
+        "C": "Health Care",
+        "D": "Civil Engineering"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which doctor was recognized by the US Academy of Medicine?",
+      "options": {
+        "A": "Dr. Abdul Qadeer Khan",
+        "B": "Dr. Sania Nishtar",
+        "C": "Dr. Pervez Hoodbhoy",
+        "D": "Dr. Anita Zaidi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "North Korea, East Germany, and Cambodia were recognized during the reign of _____?",
+      "options": {
+        "A": "Ayub Khan",
+        "B": "Zulfikar Ali Bhutto",
+        "C": "Yahya Khan",
+        "D": "Pervez Musharraf"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "JF-17 Thunder was inducted in which year?",
+      "options": {
+        "A": "2008",
+        "B": "2009",
+        "C": "2010",
+        "D": "2012"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who wrote A Leadership Odyssey?",
+      "options": {
+        "A": "Sikander Hayat",
+        "B": "Stephen Covey",
+        "C": "Nelson Mandela",
+        "D": "Manfred Kets de Vries"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Lahore Resolution was supported by Qazi Muhammad Isa from the provice of ___?",
+      "options": {
+        "A": "Punjab",
+        "B": "Sindh",
+        "C": "Balochistan",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the first Muslim Commander-in-Chief of Pakistan Air Force?",
+      "options": {
+        "A": "Air Marshall Asghar Khan",
+        "B": "Air Marshall Abdul Rahim Khan",
+        "C": "Air Marshall Noor Khan",
+        "D": "Air Marshall Zafar Chaudhry"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the Governor of Bengal from 1760 to 1764?",
+      "options": {
+        "A": "Robert Clive",
+        "B": "Henry Vansittart",
+        "C": "Warren Hastings",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who said that the decline of the Mughal Empire was due to separation from Islam?",
+      "options": {
+        "A": "Shah Waliullah",
+        "B": "Sir Syed Ahmed Khan",
+        "C": "Allama Iqbal",
+        "D": "Abul Kalam Azad"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The foundation stone of Quaid-e-Azam Mohammed Ali Jinnah’s Mausoleum was laid by Field Marshal Mohammed Ayub Khan on ______?",
+      "options": {
+        "A": "31 August 1965",
+        "B": "30 March 1960",
+        "C": "31 July 1960",
+        "D": "25 Feb 1958"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "‘Chain of Justice’ was introduced by ______?",
+      "options": {
+        "A": "Jhangeer",
+        "B": "Akbar the Great",
+        "C": "Aurangzeb",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which book of Allama Iqbal consists of both Urdu and Persian?",
+      "options": {
+        "A": "Armughan-e-Hijaz",
+        "B": "Bang-e-Dra",
+        "C": "Zarb-e-Kalim",
+        "D": "Asrar-e-Khudi"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was Imam Ghazali born?",
+      "options": {
+        "A": "1058",
+        "B": "1060",
+        "C": "1065",
+        "D": "1070"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Golan Heights belongs to?",
+      "options": {
+        "A": "Jordan",
+        "B": "Gambia",
+        "C": "Syria",
+        "D": "Israel"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Pakistan won the World Hockey Cup for the Second (2nd) time?",
+      "options": {
+        "A": "1971",
+        "B": "1978",
+        "C": "1982",
+        "D": "1994"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who drafted “Wardha Scheme” under the guidance of Gandhi?",
+      "options": {
+        "A": "Dr. Zakir hussain",
+        "B": "Nahru",
+        "C": "Abul Kalam Azad",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many coalition governments have been formed in Pakistan?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "8",
+        "D": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "M-2 Islamabad to Lahore motorway was inaugurated by ?",
+      "options": {
+        "A": "Nawaz Shareef",
+        "B": "Banzir Bhutto",
+        "C": "Yousaf Raza Gilani",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Fall of Constantinople leads to which history?",
+      "options": {
+        "A": "Modern history",
+        "B": "Diplomatic history",
+        "C": "Culture history",
+        "D": "Political history"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which US President visited Pakistan in 1969?",
+      "options": {
+        "A": "Dwight",
+        "B": "Eisenhower George",
+        "C": "Richard M. Nixon",
+        "D": "None of above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which personality associated with Kartarpur:",
+      "options": {
+        "A": "Baba Guru Nanak",
+        "B": "Dalbir Singh",
+        "C": "Amar Singh",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Delhi Agreement was agreement signed between a trilateral ______?",
+      "options": {
+        "A": "India, Pakistan and Afghanistan",
+        "B": "India, Pakistan and Bangladesh",
+        "C": "India, Pakistan and China",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To whom General Pervaiz Musharraf replaced?",
+      "options": {
+        "A": "General Raheel Sharif",
+        "B": "General Khalid Maqbool",
+        "C": "General Jahangir Karamat",
+        "D": "Mirza Asim Baig"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Agreement of CPEC was signed during Chinese President's visit to Pakistan in ______?",
+      "options": {
+        "A": "October 2015",
+        "B": "April 2015",
+        "C": "June 2015",
+        "D": "December 2015"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The vale of Peshawar is drained by _____ river.",
+      "options": {
+        "A": "Kabul",
+        "B": "Jhelum",
+        "C": "Chenab",
+        "D": "Indus"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"Pakistan: The Heart of Asia\" was written by _____?",
+      "options": {
+        "A": "Zulfikar Ali Bhutto",
+        "B": "Fatima Chaudhry",
+        "C": "Shireen Amir Begum",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The main responsibilities of Security and Exchange Commission of Pakistan are ______?",
+      "options": {
+        "A": "To supervise capital market",
+        "B": "Supervision of non-banking finance companies",
+        "C": "To regulate corporate sector",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Strong emphasis on justice was laid down by _____?",
+      "options": {
+        "A": "Stoics",
+        "B": "Aristotle",
+        "C": "Herodotus",
+        "D": "Socrates"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Pakistan shifted capital from Karachi to Islamabad?",
+      "options": {
+        "A": "1960",
+        "B": "1965",
+        "C": "1967",
+        "D": "1970"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is Nishat Group known for?",
+      "options": {
+        "A": "IT and Software",
+        "B": "Textile and Energy",
+        "C": "Automotive",
+        "D": "Pharmaceuticals"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Tilla Jogian is located in which geographical region?",
+      "options": {
+        "A": "Karakoram Range",
+        "B": "Pothohar Plateau",
+        "C": "Hindu Kush",
+        "D": "Himalayas"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In 1907, Mohsin-ul-Mulk served as the secretary of which organization?",
+      "options": {
+        "A": "Indian National Congress",
+        "B": "All India Muslim League",
+        "C": "Khilafat Movement",
+        "D": "Aligarh Movement"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The first Urdu newspaper was issued from which city?",
+      "options": {
+        "A": "Lahore",
+        "B": "Delhi",
+        "C": "Calcutta",
+        "D": "Lucknow"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "چند ہم عصر خانوں پر مبنی معروف کتاب ہے۔ اس کے مصنف کون ہے",
+      "options": {
+        "A": "مولوی عبدالحق",
+        "B": "ابن انشا",
+        "C": "پروین شاکر",
+        "D": "احمد فراز"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The border line area between Pakistan and India at Sir Creek, a disputed area of Sindh, is called:",
+      "options": {
+        "A": "Green Line",
+        "B": "Blue Line",
+        "C": "Red Line",
+        "D": "Yellow Line"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Application for registration of a trade union is to be submitted before _____?",
+      "options": {
+        "A": "DCO of the district",
+        "B": "Registrar of Trade Unions",
+        "C": "IG Police",
+        "D": "Secretary Labour"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Article 17 of the Pakistan's Constitution ____?",
+      "options": {
+        "A": "Allows every citizen to form associations or unions",
+        "B": "Declares that all citizens are equal before law",
+        "C": "Guarantees well-being of citizens without discrimination",
+        "D": "All of them"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Article of the Constitution of the Islamic Republic of Pakistan prohibits all forms of forced labour?",
+      "options": {
+        "A": "11",
+        "B": "07",
+        "C": "73",
+        "D": "21"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Pakistani Labour Laws define a 'Child' as anyone under the age of _____?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "16"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In result of Supreme Court's decision in 1988, the Bonded Labour Abolition Act was passed in ______?",
+      "options": {
+        "A": "1989",
+        "B": "1994",
+        "C": "1992",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Under Article 160 of the Constitution the distribution of Revenues between the Federation and the Province is made by ______?",
+      "options": {
+        "A": "Cabinet Committee on Finance",
+        "B": "Chief Justice of Pakistan",
+        "C": "President as per recommendation of Finance Secretary",
+        "D": "National Finance Commission"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A provincial govt. can construct power houses and grid stations and lay transmission lines for use within the province?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Not mentioned",
+        "D": "Vaguely mentioned"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Only that person can be appointed as Attorney General of Pakistan who is eligible for appointment is ______?",
+      "options": {
+        "A": "Judge of the High Court",
+        "B": "Judge of the Supreme Court",
+        "C": "Ombudsman",
+        "D": "Chairman of Islamic Ideology Council"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A person shall be disqualified from being elected or chosen as, and from being a member of the parliament if _____?",
+      "options": {
+        "A": "He is an undischarged insolvent",
+        "B": "He holds an office of profits in the service of Pakistan",
+        "C": "He has been convicted for any offence involving moral turpitude",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A Prime Minister against whom a motion of no Confidence has been tabled can advise the President to dissolve the National Assembly?",
+      "options": {
+        "A": "No",
+        "B": "Yes",
+        "C": "Not mentioned",
+        "D": "Not clear in the Constitution"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "According to the present form of Constitution the govt. can hold a referendum on any of national importance _____?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Vague",
+        "D": "Not mentioned"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The President of Pakistan can hold office for _____?",
+      "options": {
+        "A": "Only one term of five years",
+        "B": "Two consecutive terms",
+        "C": "An unlimited period",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Constitution of Pakistan guarantees _____?",
+      "options": {
+        "A": "Preservation of language, script and culture",
+        "B": "Equality of citizens",
+        "C": "Protection of property rights",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Constitution of Pakistan is comprised of how many parts?",
+      "options": {
+        "A": "X",
+        "B": "V",
+        "C": "XII",
+        "D": "XX"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "As of 2021, how many amendments have been made to the constitution of Pakistan?",
+      "options": {
+        "A": "28",
+        "B": "27",
+        "C": "26",
+        "D": "25"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Out of following early problems of Pakistan; which one had no connection with India?",
+      "options": {
+        "A": "Division of financial and military assets",
+        "B": "Kashmir issue",
+        "C": "Language problem",
+        "D": "Canal water dispute"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The song Mera Imaan Pakistan was sung by?",
+      "options": {
+        "A": "Nusrat Fateh Ali Khan",
+        "B": "Atif Aslam",
+        "C": "Rahat Fateh Ali Khan",
+        "D": "Alamgir"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"Hindu Mahasaba\" was _______?",
+      "options": {
+        "A": "A committee to hold accountability of Hindu leadership",
+        "B": "An extremist Hindu organization",
+        "C": "A religious council to revive original form of Hinduism",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The concept of 'Istihsan' in Islamic jurisprudence is attributed to:",
+      "options": {
+        "A": "Imam Malik",
+        "B": "Imam Shafi'i",
+        "C": "Imam Hanbal",
+        "D": "Imam Abu Hanifa"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The book Chand Ham Asar was written by:",
+      "options": {
+        "A": "Sir Syed Ahmed Khan",
+        "B": "Moulvi Abul Haq",
+        "C": "Altaf Hussain Hali",
+        "D": "Shibli Nomani"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pakistan Resolution of 1940 was seconded by _____?",
+      "options": {
+        "A": "Chaudhry Khaliq-uz-Zaman",
+        "B": "Maulvi Fazal-ul-Haq",
+        "C": "Muhammad Ali Jinnah",
+        "D": "Liaqat Ali Khan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where did the incident of Jalian Wala Bagh tragedy take place?",
+      "options": {
+        "A": "Lucknow",
+        "B": "Malabar",
+        "C": "Madras",
+        "D": "Amritsar"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In 1905 which important event of Indian history took place?",
+      "options": {
+        "A": "Formation of All-India Muslim League",
+        "B": "Partition of Bengal",
+        "C": "Minto-Morley Reforms",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A Colonel of Pakistan army is equal to which rank of Navy?",
+      "options": {
+        "A": "Captain",
+        "B": "Commander",
+        "C": "Lieutenant",
+        "D": "Commodore"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following served as a Caretaker Prime Minister of Pakistan?",
+      "options": {
+        "A": "Liaquat Ali Khan",
+        "B": "Ch. Shujaat Hussain",
+        "C": "Ghulam Mustafa Jatoi",
+        "D": "Zafarullah Jamali"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the second Chief Minister of Punjab?",
+      "options": {
+        "A": "Mian Mumtaz Daultana",
+        "B": "Abdul Hamid Khan Dasti",
+        "C": "Feroz Khan Noon",
+        "D": "Iftikhar Hussain Khan Mamdoot"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the highest Forex earner For Pakistan out of the following commodities?",
+      "options": {
+        "A": "Sugar",
+        "B": "Wheat",
+        "C": "Cotton",
+        "D": "Rice"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "\"My Life: A Fragment\" is a book written by _____?",
+      "options": {
+        "A": "Syed Ameer Ali",
+        "B": "Abu-al-Kalam Azad",
+        "C": "Jawahar Lal Nehru",
+        "D": "Maulana Muhammad Ali Jauhar"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Islamia College Lahore was established in which year?",
+      "options": {
+        "A": "1886",
+        "B": "1925",
+        "C": "1950",
+        "D": "1965"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Usman Marwandi is the real name of which historical figure?",
+      "options": {
+        "A": "Sultan Bahoo",
+        "B": "Shah Abdul Latif Bhittai",
+        "C": "Bulleh Shah",
+        "D": "Lal Shahbaz Qalandar"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In which war did Pakistan use Stinger missiles?",
+      "options": {
+        "A": "Indo-Pakistani War of 1965",
+        "B": "Indo-Pakistani War of 1971",
+        "C": "Soviet-Afghan War",
+        "D": "Kargil Conflict"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ustad Daman was a poet of which language?",
+      "options": {
+        "A": "Urdu",
+        "B": "Punjabi",
+        "C": "Sindhi",
+        "D": "Pashto"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Pakistan's Constitution provides that children and women are not employed in vocations unsuited to their age or sex?",
+      "options": {
+        "A": "Correct",
+        "B": "Incorrect",
+        "C": "Partially correct",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If a strike or lock-out is commenced without giving notice of conciliation to the other party of the dispute; it will be considered ______?",
+      "options": {
+        "A": "Immoral",
+        "B": "Legal",
+        "C": "Illegal",
+        "D": "Unethical"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A Collection Bargaining Agent (CBA) is a _______?",
+      "options": {
+        "A": "A pressure group formed by workers to get their pays enhanced",
+        "B": "An NGO striving for workers welfare",
+        "C": "A registered trade union elected by secret ballot",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In a province, a Worker's Trade Union is registered with the _____?",
+      "options": {
+        "A": "Registrar Trade Unions",
+        "B": "National Industrial Relations Commission",
+        "C": "Workers Welfare Board",
+        "D": "Commissioner Social Security"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Industrial Relations Ordinance, 2002 emphasis participation of workers in management of an establishment through ______?",
+      "options": {
+        "A": "Workers Council",
+        "B": "Management Committee",
+        "C": "Joint Management Board",
+        "D": "All of them"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which Article of the Constitution provides the freedom of association and the right to form unions?",
+      "options": {
+        "A": "91",
+        "B": "05",
+        "C": "73",
+        "D": "17"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Under the Factories Act, 1934 no worker can be required to work in any establishment in excess of _____?",
+      "options": {
+        "A": "9 hours a day",
+        "B": "10 hours a day",
+        "C": "8 hours a day",
+        "D": "7 hours a day"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Under the Constitution, Labour is a ______?",
+      "options": {
+        "A": "Federal subject",
+        "B": "Provincial subject",
+        "C": "Concurrent subject",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Article 11 of the Pakistan's Constitution prohibits all forms of _____?",
+      "options": {
+        "A": "Slavery",
+        "B": "Forced Labour",
+        "C": "Child Labour",
+        "D": "All of them"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The 1st Muslim conquest in India took place in _____?",
+      "options": {
+        "A": "1526 AD",
+        "B": "712 AD",
+        "C": "997 AD",
+        "D": "1210 AD"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In Men's Hockey Champions Trophy 2014, Pakistan secured which position?",
+      "options": {
+        "A": "3rd position",
+        "B": "2nd position",
+        "C": "1st position",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "At the time of Independence (1947) was the biggest city of Pakistan (Population Wise)?",
+      "options": {
+        "A": "Dacca",
+        "B": "Karachi",
+        "C": "Lahore",
+        "D": "Rawalpindi"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the Captain of Pakistan Cricket team during World Cup 2015?",
+      "options": {
+        "A": "Misbah-ul-Haq",
+        "B": "Shahid Afridi",
+        "C": "Shoaib Malik",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was appointed Prime Minister after the imposition of Martial Law in 1958?",
+      "options": {
+        "A": "General Azam Khan",
+        "B": "Hussain Shaheed Suharwandi",
+        "C": "Ayub Khan",
+        "D": "Malik Feroz Khan Noon"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the Foreign Minister in the Interim Government of British India formed before the partition?",
+      "options": {
+        "A": "Jugandar Bath Mundal",
+        "B": "Jawaharlal Nehru",
+        "C": "Raja Gopal Acharia",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The founder of ‘Zamindar’ (newspaper) was ______?",
+      "options": {
+        "A": "Maulana Zafar Ali Khan",
+        "B": "Allama Iqbal",
+        "C": "Muhammad Ali Johar",
+        "D": "Sir syed Ahmed"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mr. Jinnah presented his 14-Points in March 1929, In Muslim League’s session held at _____?",
+      "options": {
+        "A": "Lucknow",
+        "B": "Bombay",
+        "C": "Lahore",
+        "D": "Dehli"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In 1954, Pakistan joined ____?",
+      "options": {
+        "A": "SEATO",
+        "B": "CENTO",
+        "C": "OIC",
+        "D": "Commonwealth"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The constitution reform introduced in British India in the year 1909 is generally referred as _____?",
+      "options": {
+        "A": "Minto-Morley Reforms",
+        "B": "Montagu-Chelmsford Reforms",
+        "C": "the Communal Award",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the prime minister at the time of first Martial Law in Pakistan?",
+      "options": {
+        "A": "Feroz Khan Nuun",
+        "B": "Liaqat Ali Khan",
+        "C": "Muhammad Ali Bogra",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the Warren Hastings?",
+      "options": {
+        "A": "English King during 1st World War",
+        "B": "Second President of the USA",
+        "C": "Governor General of India",
+        "D": "Prime Minister of the USSR at the time of it's break-up"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The time during which the workers employed are at the disposal of employer excluding any interval allowed for rest and meals is called _____?",
+      "options": {
+        "A": "Productive hours",
+        "B": "Hours of work",
+        "C": "Duty hours",
+        "D": "Work hours"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A learner who is paid an allowance during the period of training is termed as _____?",
+      "options": {
+        "A": "Student",
+        "B": "Apprentice",
+        "C": "Trainee",
+        "D": "Probationer"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "To which officer the application for establishing a union is submitted as per law?",
+      "options": {
+        "A": "DCO",
+        "B": "Registrar",
+        "C": "Secretary Labour",
+        "D": "Commissioner"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Minimum, how many workers of an establishment are required to form a Union under the law?",
+      "options": {
+        "A": "50",
+        "B": "10",
+        "C": "80",
+        "D": "100"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A strike declared, commenced or continued other than is accordance with the provisions of the Punjab Industrial Relations Act, 2010 is an _____?",
+      "options": {
+        "A": "Unauthorized strike",
+        "B": "Illegal strike",
+        "C": "Unfair strike",
+        "D": "Informal strike"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Punjab Industrial Relations Act; 2010 extends to the ______?",
+      "options": {
+        "A": "Whole of the Punjab",
+        "B": "Notified industrial areas",
+        "C": "Registered industrial units",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In extra-ordinary circumstances, an employee is bound to inform his employer regarding his absence (to obtain casual leave) within ____?",
+      "options": {
+        "A": "A week",
+        "B": "A month",
+        "C": "3 days",
+        "D": "5 days"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In Punjab, two Labour Appellate Tribunals are established at _____?",
+      "options": {
+        "A": "Lahore and Faisalabad",
+        "B": "Lahore and Rawalpindi",
+        "C": "Faisalabad and Sialkot",
+        "D": "Lahore and Multan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Pakistan's share in global exports is _____?",
+      "options": {
+        "A": "0.13%",
+        "B": "12%",
+        "C": "0.18%",
+        "D": "11%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Out of the following, who has not been Foreign Minister of Pakistan?",
+      "options": {
+        "A": "Mian Arshad Hussain",
+        "B": "Muhammad Ali Bogra",
+        "C": "Chaudhry Muhammad Ali",
+        "D": "Aziz Ahmed"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "First Pakistani writer who represented Pakistan in UNO?",
+      "options": {
+        "A": "Deputy Nazir Anmed",
+        "B": "Moulana Hali",
+        "C": "Moulana Zafar Ali Khan",
+        "D": "Ahmed Shah Bukhari Patras"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "\"Rabi Crops\" are sown in _____?",
+      "options": {
+        "A": "March/April",
+        "B": "July/August",
+        "C": "October/November",
+        "D": "April/May"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "احسان دانش کی آپ بیتی کا نام کیا ہے؟",
+      "options": {
+        "A": "جلا وطن",
+        "B": "جہانِ دیگر",
+        "C": "جہانِ دانش",
+        "D": "تعمیر و ترقی"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ms. Yasmin Lari, a recipient of Sitara-e-Imtiaz, is known for her contributions to which field?",
+      "options": {
+        "A": "Architecture",
+        "B": "Medicine",
+        "C": "Literature",
+        "D": "Physics"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the current chief selector of Pakistan cricket team?",
+      "options": {
+        "A": "Tauseef Ahmed",
+        "B": "Inzamam-ul-Haq",
+        "C": "Mohammad Wasim",
+        "D": "Wahab Riaz"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many times Pakistan won the \"Blind Cricket World Cup\"?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When the first General Elections under the 1973 constitution were held?",
+      "options": {
+        "A": "1977",
+        "B": "1976",
+        "C": "1979",
+        "D": "1978"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Act was adopted as Pakistan's first constitution in 1947?",
+      "options": {
+        "A": "Government of India Act 1919",
+        "B": "Government of India Act 1935",
+        "C": "Government of India Act 1892",
+        "D": "Indian Independence Act 1947"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In April 2017, Noble Laureate Pakistani Malala Yousaf Zai was designed as ____?",
+      "options": {
+        "A": "UN Envoy of Peace",
+        "B": "UN Ambassador of Peace",
+        "C": "UN Representative of Peace",
+        "D": "UN Messenger of Peace"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Muhammad Ali Johar studied in ______?",
+      "options": {
+        "A": "Jerusalem",
+        "B": "Punjab university",
+        "C": "Cambridge University",
+        "D": "Aligarh University"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The joint military training exercise ‘Druzhba - III’ has started between following countries?",
+      "options": {
+        "A": "India and Afghanistan",
+        "B": "Russia and Pakistan",
+        "C": "United States and Israel",
+        "D": "India and Bangladesh"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Titu Mir worked for the Muslim peasant of _____?",
+      "options": {
+        "A": "Bombay",
+        "B": "Aligarh",
+        "C": "Bengal",
+        "D": "Delhi"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the first Governor General of India?",
+      "options": {
+        "A": "Wellesley",
+        "B": "Hasting",
+        "C": "Bentinck",
+        "D": "Canning"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which famous newspaper of Pakistan also publishes from UK?",
+      "options": {
+        "A": "Dawn",
+        "B": "Jang",
+        "C": "Mashriq",
+        "D": "Naw-i-Waqt"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which city of Pakistan most COVID-19 (Corona) cases are reported?",
+      "options": {
+        "A": "Lahore",
+        "B": "Karachi",
+        "C": "Hyderabad",
+        "D": "Multan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which river is not located in Balochistan?",
+      "options": {
+        "A": "Hingol",
+        "B": "Dasht",
+        "C": "Zhob",
+        "D": "Shyok"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the first Governor-General of the Dominion of India?",
+      "options": {
+        "A": "Lord Mountbatten",
+        "B": "Lord canning",
+        "C": "Jawahr Lal Nehru",
+        "D": "Warren Hasting"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Muhammad Rafiq Tarar was elected as president of Pakistan in which year___?",
+      "options": {
+        "A": "1996",
+        "B": "1998",
+        "C": "1997",
+        "D": "2000"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Urdu Defence Association was founded?",
+      "options": {
+        "A": "April 1902",
+        "B": "August 1905",
+        "C": "August 1900",
+        "D": "April 1900"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Rafiq Tarar, the former President of Pakistan, submitted his resignation to _____?",
+      "options": {
+        "A": "General Pervez Musharraf",
+        "B": "Chief Justice of Pakistan",
+        "C": "Speaker of the National Assembly",
+        "D": "Prime Minister of Pakistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Feroz Khan Noon’s government was dissolved by _______?",
+      "options": {
+        "A": "Iskandar Ali Mirza",
+        "B": "Liaquat Ali Khan",
+        "C": "Zulfikar Ali Bhutto",
+        "D": "Muhammad Ali Jinnah"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The PNS Mehran base attack occurred in _______?",
+      "options": {
+        "A": "2008",
+        "B": "2010",
+        "C": "2011",
+        "D": "2012"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan said the suicide bomber who targeted the Chinese engineers was a(n) __________ national.",
+      "options": {
+        "A": "Afghan",
+        "B": "Pakistani",
+        "C": "Indian",
+        "D": "Iranian"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "NACTA was established under the which ministry?",
+      "options": {
+        "A": "Ministry of Defense",
+        "B": "Ministry of Foreign Affairs",
+        "C": "Ministry of Justice",
+        "D": "Ministry of Interior"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Zhob and Kolachi rivers are located in ?",
+      "options": {
+        "A": "Punjab",
+        "B": "Sindh",
+        "C": "Khyber Pakhtunkhwa",
+        "D": "Balochistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Pakistan Army on launched ‘Operation Radd-ul-Fasaad’ across the country on __________?",
+      "options": {
+        "A": "22nd Feb 2017",
+        "B": "15th Feb 2017",
+        "C": "2nd Feb 2017",
+        "D": "13th Jan 2017"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "National Highway Authority (NHA) network comprises of how many Highways and Motorways?",
+      "options": {
+        "A": "38",
+        "B": "39",
+        "C": "37",
+        "D": "40"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Real name of Ibn-e-Insha?",
+      "options": {
+        "A": "Mirza Yousaf",
+        "B": "Sher Muhammad Khan",
+        "C": "Ghulam Abbas",
+        "D": "Abdullah Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When was the Pakistan Protection Act established?",
+      "options": {
+        "A": "2010",
+        "B": "2012",
+        "C": "2014",
+        "D": "2016"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who imposed martial law in 1985?",
+      "options": {
+        "A": "Zia-ul-Haq",
+        "B": "Ayub Khan",
+        "C": "Yahya Khan",
+        "D": "Pervez Musharraf"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Governor-General of Pakistan in 1951?",
+      "options": {
+        "A": "Iskander Mirza",
+        "B": "Khawaja Nazimuddin",
+        "C": "Ghulam Muhammad",
+        "D": "Muhammad Ali Jinnah"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which year was the Majlis-e-Shura (National Assembly) of Pakistan established?",
+      "options": {
+        "A": "1973",
+        "B": "1981",
+        "C": "1985",
+        "D": "1990"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "\"چوبال\" was written by which of the following authors?",
+      "options": {
+        "A": "Ahmed Nadeem Qasmi",
+        "B": "Faiz Ahmed Faiz",
+        "C": "Allama Iqbal",
+        "D": "Mirza Ghalib"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Indian PM Modi makes surprise stopover in Pakistan fir first time in?",
+      "options": {
+        "A": "2015",
+        "B": "2020",
+        "C": "2023",
+        "D": "2024"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Moeen Akhter is famous in the field of .",
+      "options": {
+        "A": "Comedy",
+        "B": "Singing",
+        "C": "Acting",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the author of 'Khayalistan'?",
+      "options": {
+        "A": "Munshi Prem Chand",
+        "B": "Allama Iqbal",
+        "C": "Mirza Ghalib",
+        "D": "Sajjad Hyder Yildirim"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Kartarpur Gurdwara is famous due to _____?",
+      "options": {
+        "A": "Its historical significance as the final resting place of Guru Nanak",
+        "B": "Its role as the site of the first Sikh congregation",
+        "C": "Its location as the birthplace of Guru Gobind Singh",
+        "D": "Its architectural style and design"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Titu Mir fought against ____?",
+      "options": {
+        "A": "The British",
+        "B": "The Mughals",
+        "C": "The Portuguese",
+        "D": "The French"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Benazir Bhutto become prime minister of Pakistan for second time",
+      "options": {
+        "A": "1990",
+        "B": "1993",
+        "C": "1996",
+        "D": "1980"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "India and Pakistan have fought ____ wars.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which demand was gave away by Quaid e azam due to Delhi Proposal:",
+      "options": {
+        "A": "Separate homeland",
+        "B": "Separate Electorate",
+        "C": "Separate party",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Punjab Government form a body of Women Protection named as?",
+      "options": {
+        "A": "Punjab Women Protection Act",
+        "B": "Punjab Women Protection Authority",
+        "C": "Punjab Women Protection Commission",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sadqain is famous for ______?",
+      "options": {
+        "A": "Calligrapher",
+        "B": "Painter",
+        "C": "Athlete",
+        "D": "Both A and B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "دنیا کے بڑے مذاہب کے مصنف ہیں ؟",
+      "options": {
+        "A": "شبلی نعمانی",
+        "B": "عماد الحسن آزاد فاروقی",
+        "C": "شیخ نور احمد قادری",
+        "D": "مولانا قاسم"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who annulled the partition of Bengal in 1911?",
+      "options": {
+        "A": "Warren Hastings",
+        "B": "Lord Cornwallis",
+        "C": "Lard Hardinge",
+        "D": "Charles Cornwallis"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "تاج العروس کس فن کی کتاب ہے؟",
+      "options": {
+        "A": "لغت",
+        "B": "ناول نگاری",
+        "C": "تاریخ",
+        "D": "فلسفہ"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "علامہ شبلی نعمانی کاسن وفات کیا ہے؟",
+      "options": {
+        "A": "1912",
+        "B": "1914",
+        "C": "1916",
+        "D": "1918"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who wrote the book Introduction to Islam?",
+      "options": {
+        "A": "Seyyed Hossein Nasr",
+        "B": "Karen Armstrong",
+        "C": "Muhammad Hamidullah",
+        "D": "Tariq Ramadan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many seats did the National Assembly have at the time of the 1973 Constitution making?",
+      "options": {
+        "A": "150",
+        "B": "175",
+        "C": "210",
+        "D": "250"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan is ______ km wide from east to west.",
+      "options": {
+        "A": "875",
+        "B": "885",
+        "C": "865",
+        "D": "895"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who wrote and sang the song \"Aye Watan Pyare Watan\"?",
+      "options": {
+        "A": "Amanat Ali Khan",
+        "B": "Ghulam Ali",
+        "C": "Nusrat Fateh Ali Khan",
+        "D": "Mehdi Hassan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Farooq Laghari dissolved the Benazir Bhutto government on which date?",
+      "options": {
+        "A": "November 5, 1996",
+        "B": "November 7, 1996",
+        "C": "November 12, 1996",
+        "D": "November 15, 1996"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Mohsin ul Mulk started which organization for Urdu?",
+      "options": {
+        "A": "Anjuman-e-Taraqqi-e-Urdu",
+        "B": "Urdu Defence Association",
+        "C": "All India Urdu Conference",
+        "D": "Urdu Language Society"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Sandspit Beach is a beach located in which southern region?",
+      "options": {
+        "A": "Mumbai, Maharashtra",
+        "B": "Karachi, Sindh",
+        "C": "Colombo, Sri Lanka",
+        "D": "Durban, South Africa"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Bhai Parmanand belonged to which organization?",
+      "options": {
+        "A": "Indian National Congress",
+        "B": "Arya Samaj",
+        "C": "Hindu Mahasabha",
+        "D": "Swaraj Party"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was attacked by Muhammad bin Qasim?",
+      "options": {
+        "A": "Raja Ranjit Singh",
+        "B": "Raja Dara Shikoh",
+        "C": "Raja Jodh Singh",
+        "D": "Raja Dahir"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was the Shaista Ikramullah?",
+      "options": {
+        "A": "Politician",
+        "B": "Lawyer",
+        "C": "Doctor",
+        "D": "Athlete"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What Is Cash Crop ?",
+      "options": {
+        "A": "rich harvest",
+        "B": "A crop that is not a food crop; it is grown for sale to manufactures who convert it into products.",
+        "C": "Crops grown in plantations.",
+        "D": "A crop which earns a lot of money."
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Allama Iqbal was born on:",
+      "options": {
+        "A": "9 November 1875",
+        "B": "9 November 1876",
+        "C": "9 November 1877",
+        "D": "9 November 1878"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What was the title of Allama Iqbal’s PHD Thesis?",
+      "options": {
+        "A": "The Development of Metaphysics in Persia",
+        "B": "Reconstruction of Religious Thought in Islam",
+        "C": "Concept of Social Justice in Islam",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "India revoked special status of Kashmir?",
+      "options": {
+        "A": "2019",
+        "B": "2020",
+        "C": "2017",
+        "D": "Ten"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Maktoobat e Imam Rabbani is one of the writtings of ______________?",
+      "options": {
+        "A": "Mujaddid Alif Sani",
+        "B": "Allama Iqbal",
+        "C": "Sir Syed Ahmed Khan",
+        "D": "Shah Waliullah"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name Pakistan’s first Sikh female journalist who has been selected as one of the 100 most influential Sikh personalities under 30 in the world.",
+      "options": {
+        "A": "Manmeet Gill",
+        "B": "Mehpreet Kaur",
+        "C": "Manmeet Kaur",
+        "D": "Maha Geet"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Doaaba Chaj is located between River Chenab and River ____.",
+      "options": {
+        "A": "Jhelum",
+        "B": "Ravi",
+        "C": "Indus",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Urdu was declared the national language of Pakistan in which year?",
+      "options": {
+        "A": "August 1947",
+        "B": "April 1954",
+        "C": "April 1956",
+        "D": "April 1958"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The second meeting of Khilafat movement held in",
+      "options": {
+        "A": "Lucknow",
+        "B": "Lahore",
+        "C": "Amritsar",
+        "D": "Delhi"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many constitutions have been enforced in Pakistan?",
+      "options": {
+        "A": "Four",
+        "B": "Three",
+        "C": "Two",
+        "D": "Five"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Mughal Emperor Zahiruddin Babur was buried in which city?",
+      "options": {
+        "A": "Kabul",
+        "B": "Agra",
+        "C": "Delhi",
+        "D": "Ajmer Sharif"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "K-2 was discovered and measured by Godwin Austen in which of the following year?",
+      "options": {
+        "A": "1855",
+        "B": "1851",
+        "C": "1857",
+        "D": "1856"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The 18th Amendment repeal which earlier Amendment",
+      "options": {
+        "A": "17",
+        "B": "16",
+        "C": "15",
+        "D": "13"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The poem Iblees Ki Majlis-e-Shura is written by:",
+      "options": {
+        "A": "Bahadur Shah Zafar",
+        "B": "Sir Syed Ahmed Khan",
+        "C": "Allama Iqbal",
+        "D": "Jinnah"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When 12th president of Pakistan Mamnoon Hussain passed away?",
+      "options": {
+        "A": "14 July 2021",
+        "B": "16 April 2021",
+        "C": "11 August 2021",
+        "D": "12 May 2021"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "India took the Kashmir dispute to the security council on :",
+      "options": {
+        "A": "January 6,1948",
+        "B": "January 6,1949",
+        "C": "January 6,1967",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The 1st head of the state who visited Pakistan after independence was:",
+      "options": {
+        "A": "King of Saud of Saudia Arabia",
+        "B": "President Soekarno of Indonesia",
+        "C": "President Truman of the U.S",
+        "D": "Amir of Kuwait, Sheikh Ahmad Al-Jaber Al-Sabah"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Pakistan’s Aleem Dar broke ______ record of most test matches as an umpire?",
+      "options": {
+        "A": "David Shepherd",
+        "B": "Steve Bucknor",
+        "C": "Billy Bowden",
+        "D": "Rudi Koertzen"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Charismatic Leader: Quaid-e-Azam Mohammad Ali Jinnah and the Creation of Pakistan:",
+      "options": {
+        "A": "Benazir Bhutto",
+        "B": "Shaukat Hayat khan",
+        "C": "Sikandar Hayat",
+        "D": "Colonel llahi Baksh"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Dars-e-Nizami was launched in:",
+      "options": {
+        "A": "The age of emperor Hamayun",
+        "B": "The age of emperor Jahangir",
+        "C": "The age of emperor Akbar",
+        "D": "None"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "India suspended article 370 of Kashmir in the year?",
+      "options": {
+        "A": "2018",
+        "B": "2019",
+        "C": "2020",
+        "D": "2017"
       },
       "correct": "B"
     }

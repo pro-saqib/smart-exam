@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers all MCQs 2024 of Current Affairs",
   "mcqs": [
     {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "According to Population, Pakistan is ________ largest country in the world.",
+      "options": {
+        "A": "4th",
+        "B": "5th",
+        "C": "6th",
+        "D": "7th"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Ismail Ould Cheikh Ahmed",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Who is the Current Governor of the State Bank of Pakistan (SBP)?",
       "options": {
         "A": "Dr Reza Baqir",
@@ -22,16 +52,6 @@
       "correct": "C"
     },
     {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Who is the current Prime Minister of the United Kingdom (UK)?",
       "options": {
         "A": "Andy Burnham",
@@ -40,16 +60,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Who is the Current Secretary General of OIC?",
-      "options": {
-        "A": "Dr Yousaf",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "Who is the Current Foreign Minister of Russia?",
@@ -92,14 +102,134 @@
       "correct": "A"
     },
     {
-      "question": "According to Population, Pakistan is ________ largest country in the world?",
+      "question": "Which one of the following is a sustainable development goal (SDG) target to be achieved by 2030?",
       "options": {
-        "A": "4th",
-        "B": "5th",
-        "C": "6th",
-        "D": "7th"
+        "A": "No poverty",
+        "B": "Zero hunger",
+        "C": "Good health and well being",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the recent goal of the International Monetary Fund (IMF)?",
+      "options": {
+        "A": "Economic contraction",
+        "B": "Modest growth",
+        "C": "Hyperinflation",
+        "D": "Global recession"
       },
       "correct": "B"
+    },
+    {
+      "question": "Who was awarded the UK Brain of the Year Award in 2025?",
+      "options": {
+        "A": "Dr. Amjad Saqib",
+        "B": "Dr. Faisal Khan",
+        "C": "Dr. Abdul Qadeer Khan",
+        "D": "Dr. Shahid Malik"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which nation changed all criminal laws from colonial times in July 2024?",
+      "options": {
+        "A": "India",
+        "B": "Pakistan",
+        "C": "South Africa",
+        "D": "Australia"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Chief Secretary of Punjab?",
+      "options": {
+        "A": "Abdul Khaliq Khan",
+        "B": "Kamran Ali Afzal",
+        "C": "Abdullah Khan Sumbal",
+        "D": "Akhtar Zaman"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In Lahore, Central Business District (CBD) is being developed at ____?",
+      "options": {
+        "A": "Walton Airport",
+        "B": "Kot Lakhpat",
+        "C": "DHA Area",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Why US left Afghanistan in 2021:",
+      "options": {
+        "A": "Because US had No reason to stay",
+        "B": "Because they achieved all their objectives",
+        "C": "Due to increasing International pressure",
+        "D": "As part of a planned military strategy"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the rank of Pakistan in Global Innovation Index 2021?",
+      "options": {
+        "A": "107",
+        "B": "87",
+        "C": "99",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In which event did Kazakhstan win its first-ever Olympic medal?",
+      "options": {
+        "A": "Weightlifting",
+        "B": "Air Rifle",
+        "C": "Judo",
+        "D": "Boxing"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Omicron SARS-COV-2 variant was first reported to WHO on________?",
+      "options": {
+        "A": "23 November, 2021",
+        "B": "22 November, 2021",
+        "C": "24 November, 2021",
+        "D": "None of These"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan Female Army Officers awarded UN Medal for exemplary services in which country on 1st February 2020?",
+      "options": {
+        "A": "Congo",
+        "B": "South Sudan",
+        "C": "Mali",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the current chairman of the Pakistan Cricket Board (PCB)?",
+      "options": {
+        "A": "Ramiz Raja",
+        "B": "Ehsan Mani",
+        "C": "Najam Sethi",
+        "D": "Syed Mohsin Naqvi"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which country joins NATO on 4 April 2023?",
+      "options": {
+        "A": "North Macedonia",
+        "B": "Sweden",
+        "C": "Finland",
+        "D": "Croatia"
+      },
+      "correct": "C"
     }
   ]
 }

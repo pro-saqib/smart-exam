@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2023 of English",
   "mcqs": [
     {
+      "question": "He is good ______ mathematics.",
+      "options": {
+        "A": "In",
+        "B": "At",
+        "C": "On",
+        "D": "Into"
+      },
+      "correct": "B"
+    },
+    {
       "question": "Every worker _____ on duty.",
       "options": {
         "A": "Were",
@@ -88,16 +98,6 @@
         "B": "Rarely",
         "C": "Rapidly",
         "D": "Slowly"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "He is good ______ mathematics.",
-      "options": {
-        "A": "In",
-        "B": "At",
-        "C": "On",
-        "D": "Into"
       },
       "correct": "B"
     },

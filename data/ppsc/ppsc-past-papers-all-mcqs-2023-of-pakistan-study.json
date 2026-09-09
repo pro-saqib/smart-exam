@@ -2,6 +2,116 @@
   "name": "PPSC Past Papers all MCQs 2023 of Pakistan Study",
   "mcqs": [
     {
+      "question": "When did Pakistan officially join / become a member of the United Nations (UNO)?",
+      "options": {
+        "A": "30 September 1947",
+        "B": "3 September 1947",
+        "C": "10 September 1947",
+        "D": "20 September 1947"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Heer Ranjha was written by whom?",
+      "options": {
+        "A": "Waris Shah",
+        "B": "Sultan Bahu",
+        "C": "Bullay Shah",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which kind of system of government was introduced in 1962 constitution?",
+      "options": {
+        "A": "Presidential",
+        "B": "Autonomous",
+        "C": "Confederate",
+        "D": "Bicameral"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country is in the north west of Pakistan?",
+      "options": {
+        "A": "China",
+        "B": "India",
+        "C": "Iran",
+        "D": "Afghanistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Tashkent declaration between Pakistan and India was signed on?",
+      "options": {
+        "A": "10 January 1966",
+        "B": "1 January 1965",
+        "C": "15 January 1964",
+        "D": "1 February 1966"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was the Lahore Resolution (Pakistan Resolution) passed?",
+      "options": {
+        "A": "14 March 1945",
+        "B": "23 March 1940",
+        "C": "12 March 1948",
+        "D": "28 March 1947"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ahmadis were declared Non-Muslims in _______?",
+      "options": {
+        "A": "1975",
+        "B": "1974",
+        "C": "1976",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the length of border between Pakistan and China?",
+      "options": {
+        "A": "595 km",
+        "B": "900 km",
+        "C": "599 km (596)",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country is located west of Pakistan?",
+      "options": {
+        "A": "Oman",
+        "B": "China",
+        "C": "India",
+        "D": "Iran"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Durand line is between which countries?",
+      "options": {
+        "A": "Pak-Afganistan",
+        "B": "Pak-China",
+        "C": "Pak-India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "What is the length of Siachen Glacier?",
       "options": {
         "A": "40 KM",
@@ -18,16 +128,6 @@
         "B": "Sindh",
         "C": "KPK",
         "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "When was the Lahore Resolution (Pakistan Resolution) passed?",
-      "options": {
-        "A": "14 March 1945",
-        "B": "23 March 1940",
-        "C": "12 March 1948",
-        "D": "28 March 1947"
       },
       "correct": "B"
     },
@@ -60,16 +160,6 @@
         "D": "Tikka khan"
       },
       "correct": "C"
-    },
-    {
-      "question": "Durand line is between which countries?",
-      "options": {
-        "A": "Pak-Afganistan",
-        "B": "Pak-China",
-        "C": "Pak-India",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "The first census in Pakistan was held in?",
@@ -152,36 +242,6 @@
       "correct": "B"
     },
     {
-      "question": "When did Pakistan officially join / become a member of the United Nations (UNO)?",
-      "options": {
-        "A": "30 September 1947",
-        "B": "3 September 1947",
-        "C": "10 September 1947",
-        "D": "20 September 1947"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "Which country is in the north west of Pakistan?",
-      "options": {
-        "A": "China",
-        "B": "India",
-        "C": "Iran",
-        "D": "Afghanistan"
-      },
-      "correct": "D"
-    },
-    {
-      "question": "The Tashkent declaration between Pakistan and India was signed on?",
-      "options": {
-        "A": "10 January 1966",
-        "B": "1 January 1965",
-        "C": "15 January 1964",
-        "D": "1 February 1966"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Sindh separated from Bombay in which year?",
       "options": {
         "A": "1935",
@@ -240,16 +300,6 @@
         "D": "Swabi"
       },
       "correct": "D"
-    },
-    {
-      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "A.K Fazlul-Haq",
-        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
-        "D": "Liaquat Ali Khan"
-      },
-      "correct": "B"
     },
     {
       "question": "Badshahi mosque at Lahore in 1673 was made by?",
@@ -362,16 +412,6 @@
       "correct": "B"
     },
     {
-      "question": "Which kind of system of government was introduced in 1962 constitution?",
-      "options": {
-        "A": "Presidential",
-        "B": "Autonomous",
-        "C": "Confederate",
-        "D": "Bicameral"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Who was the first Governor of state bank Pakistan?",
       "options": {
         "A": "Abdul Haleem",
@@ -480,16 +520,6 @@
         "D": "1977"
       },
       "correct": "B"
-    },
-    {
-      "question": "What is the length of border between Pakistan and China?",
-      "options": {
-        "A": "595 km",
-        "B": "900 km",
-        "C": "599 km (596)",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "When was the Kashmir issue taken to the United Nations by India?",
@@ -842,16 +872,6 @@
       "correct": "D"
     },
     {
-      "question": "Heer Ranjha was written by whom?",
-      "options": {
-        "A": "Waris Shah",
-        "B": "Sultan Bahu",
-        "C": "Bullay Shah",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Who was the first muslim governor of the province Punjab was?",
       "options": {
         "A": "Ghulam Mustafa Khar",
@@ -1120,16 +1140,6 @@
         "D": "Ahmad Shah Abdali"
       },
       "correct": "B"
-    },
-    {
-      "question": "Which country is located west of Pakistan?",
-      "options": {
-        "A": "Oman",
-        "B": "China",
-        "C": "India",
-        "D": "Iran"
-      },
-      "correct": "D"
     },
     {
       "question": "The International border between Pakistan and Afghanistan is known as ______?",
@@ -2249,16 +2259,6 @@
         "D": "Hub"
       },
       "correct": "C"
-    },
-    {
-      "question": "Ahmadis were declared Non-Muslims in _______?",
-      "options": {
-        "A": "1975",
-        "B": "1974",
-        "C": "1976",
-        "D": "None"
-      },
-      "correct": "B"
     },
     {
       "question": "The Qadianies and Ahmadis where declared non Muslim due to",

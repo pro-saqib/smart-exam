@@ -2,6 +2,76 @@
   "name": "PPSC Past Papers all MCQs 2023 of General Knowledge",
   "mcqs": [
     {
+      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
+      "options": {
+        "A": "Allama Iqbal",
+        "B": "A.K Fazlul-Haq",
+        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+        "D": "Liaquat Ali Khan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When was North Atlantic Treaty Organization (NATO) founded?",
+      "options": {
+        "A": "4 April 1949",
+        "B": "5 April 1949",
+        "C": "6 April 1949",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who discover Penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Edward Jenner",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "BCC stands for _____?",
+      "options": {
+        "A": "Basic Carbon Copy",
+        "B": "Blind Carbon Copy",
+        "C": "Business Carbon Copy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "World Trade Organization (WTO) was established in ______?",
+      "options": {
+        "A": "1992",
+        "B": "1993",
+        "C": "1994",
+        "D": "1995"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What does HTTP stands for in the context of WWW?",
+      "options": {
+        "A": "Hypertext Transfer Protocol",
+        "B": "Hypertext Transfer Protection",
+        "C": "Hyper Transfer Protocol",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CNN stands for ____?",
+      "options": {
+        "A": "Cable News Network",
+        "B": "Commercial News Network",
+        "C": "Common News Network",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Which Continent has no desert?",
       "options": {
         "A": "Europe",
@@ -162,16 +232,6 @@
       "correct": "B"
     },
     {
-      "question": "World Trade Organization (WTO) was established in ______?",
-      "options": {
-        "A": "1992",
-        "B": "1993",
-        "C": "1994",
-        "D": "1995"
-      },
-      "correct": "D"
-    },
-    {
       "question": "Who is known as the father of computer?",
       "options": {
         "A": "Barbara Liskov",
@@ -182,26 +242,6 @@
       "correct": "C"
     },
     {
-      "question": "Who Presented Lahore Resolution (Pakistan Resolution) on 23rd March, 1940 at Minto Park?",
-      "options": {
-        "A": "Allama Iqbal",
-        "B": "A.K Fazlul-Haq",
-        "C": "Quaid-e-Azam Muhammad Ali Jinnah",
-        "D": "Liaquat Ali Khan"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "BCC stands for _____?",
-      "options": {
-        "A": "Basic Carbon Copy",
-        "B": "Blind Carbon Copy",
-        "C": "Business Carbon Copy",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "When was the Arab League established?",
       "options": {
         "A": "21 December 1945",
@@ -210,16 +250,6 @@
         "D": "29 April 1946"
       },
       "correct": "B"
-    },
-    {
-      "question": "Who discover Penicillin?",
-      "options": {
-        "A": "Alexander Fleming",
-        "B": "Louis Pasteur",
-        "C": "Edward Jenner",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "When Magna Carta signed by King John of England?",
@@ -302,32 +332,12 @@
       "correct": "B"
     },
     {
-      "question": "What does HTTP stands for in the context of WWW?",
-      "options": {
-        "A": "Hypertext Transfer Protocol",
-        "B": "Hypertext Transfer Protection",
-        "C": "Hyper Transfer Protocol",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "The book 'A Brief History of Time' is written by ____?",
       "options": {
         "A": "Stephen Hawking",
         "B": "Aristotle",
         "C": "Oswald Spengler",
         "D": "Karl Marx"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "CNN stands for ____?",
-      "options": {
-        "A": "Cable News Network",
-        "B": "Commercial News Network",
-        "C": "Common News Network",
-        "D": "None of these"
       },
       "correct": "A"
     },
@@ -480,16 +490,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "When was NATO founded?",
-      "options": {
-        "A": "1948",
-        "B": "1951",
-        "C": "1946",
-        "D": "1949"
-      },
-      "correct": "D"
     },
     {
       "question": "Amnesty International is an organization for ____?",
@@ -710,6 +710,1515 @@
         "D": "None of these"
       },
       "correct": "B"
+    },
+    {
+      "question": "In 1956 Abdul Jamal Nasir did what to Suez Canal?",
+      "options": {
+        "A": "Colozined",
+        "B": "Nationalization",
+        "C": "Privatization",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is a statistical study of the human population called?",
+      "options": {
+        "A": "Biography",
+        "B": "Demography",
+        "C": "Pedology",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CAD stands for _______?",
+      "options": {
+        "A": "Computer aided design",
+        "B": "Computer algorithm for design",
+        "C": "Computer application in dosing",
+        "D": "Computer analogue design"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "NATO has how many member states?",
+      "options": {
+        "A": "32",
+        "B": "30",
+        "C": "31",
+        "D": "29"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "French Revolution was occurred in?",
+      "options": {
+        "A": "1556-1578",
+        "B": "1689-1694",
+        "C": "1789-1799",
+        "D": "1800-1810"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the Largest Continent by Population?",
+      "options": {
+        "A": "Europe",
+        "B": "Asia",
+        "C": "North America",
+        "D": "South America"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following sports is not part of the Olympic Games?",
+      "options": {
+        "A": "Swimming",
+        "B": "Tennis",
+        "C": "Hockey",
+        "D": "Cricket"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When did Pakistan join OIC?",
+      "options": {
+        "A": "1969",
+        "B": "1968",
+        "C": "1973",
+        "D": "1974"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "UN Human Rights Committee is ______?",
+      "options": {
+        "A": "International Covenant on Civil and Political Rights",
+        "B": "International Committee of Civil Rights",
+        "C": "International Convention of Civil Rights",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who said, \"Democracy is the government of the people, for the people, by the people?\"",
+      "options": {
+        "A": "Abraham Lincoln",
+        "B": "Gandhi",
+        "C": "Seeley",
+        "D": "Dicey"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Headquarter of International Labour Organization (ILO) is in ____?",
+      "options": {
+        "A": "Paris",
+        "B": "Geneva",
+        "C": "New York",
+        "D": "Hague"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What was the nationality of Alfred Nobel?",
+      "options": {
+        "A": "American",
+        "B": "Swedish",
+        "C": "German",
+        "D": "British"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When Pakistan signed the Baghdad pact, later called CENTO?",
+      "options": {
+        "A": "29 September 1955",
+        "B": "13 September 1955",
+        "C": "23 September 1955",
+        "D": "23 September 1956"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the capital of Somalia?",
+      "options": {
+        "A": "Prague",
+        "B": "Lisbon",
+        "C": "Helsinki",
+        "D": "Mogadishu"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The UN Security Council consists of _____?",
+      "options": {
+        "A": "5 members",
+        "B": "11 members",
+        "C": "15 members",
+        "D": "20 members"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mossad is the intelligence agency of ______?",
+      "options": {
+        "A": "Israel",
+        "B": "Jordan",
+        "C": "UAE",
+        "D": "UK"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who became the first woman to summit Mount Everest in 1975?",
+      "options": {
+        "A": "Jumko Tabei",
+        "B": "Jane Anderson",
+        "C": "Kane Sharpa",
+        "D": "Victoria Anderson"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Tiger Woods is a famous player of which sports?",
+      "options": {
+        "A": "Type of wood",
+        "B": "Golf player",
+        "C": "Weapon",
+        "D": "Cloth"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which city is known as the Big Apple?",
+      "options": {
+        "A": "Washington",
+        "B": "Wellington",
+        "C": "London",
+        "D": "New York"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The largest famine hit Ethiopia in which year?",
+      "options": {
+        "A": "1983",
+        "B": "1980",
+        "C": "1993",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "“Biman” is an airline of ______?",
+      "options": {
+        "A": "Bhutan",
+        "B": "Nepal",
+        "C": "Sri Lanka",
+        "D": "Afghanistan"
+      }
+    },
+    {
+      "question": "After how many days did the Chinese city of Wuhan open after the coronavirus lockdown?",
+      "options": {
+        "A": "76 days",
+        "B": "72 days",
+        "C": "74 days",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Iran left the Baghdad Pact?",
+      "options": {
+        "A": "1979",
+        "B": "1968",
+        "C": "1958",
+        "D": "1975"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The accords between Israel and PLO are named as _____?",
+      "options": {
+        "A": "Oslo Accord",
+        "B": "Abraham Accord",
+        "C": "Camp David Accord",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Treaty of Versailles was signed on June 28, 1919, by how many countries?",
+      "options": {
+        "A": "32",
+        "B": "28",
+        "C": "30",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What percentage of the Earth is covered by forest?",
+      "options": {
+        "A": "31%",
+        "B": "50%",
+        "C": "40%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Alfred Binet belongs to which country?",
+      "options": {
+        "A": "France",
+        "B": "Spain",
+        "C": "Germany",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many age categories of International Wrestling?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which city is built on 118 islands?",
+      "options": {
+        "A": "Venice",
+        "B": "Rome",
+        "C": "Turin",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Chechnya declared its independence in 1991 from _____?",
+      "options": {
+        "A": "Bosnia",
+        "B": "USSR",
+        "C": "Hungary",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Jazz is the name of ____?",
+      "options": {
+        "A": "Music",
+        "B": "Power",
+        "C": "Wind",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who invented chromatography?",
+      "options": {
+        "A": "Mikhail Semenovich Tsvet",
+        "B": "Charles Babbage",
+        "C": "Rutherford",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The official name of the virus causing the COVID-19 given by WHO is _______?",
+      "options": {
+        "A": "MERS-CoV 2",
+        "B": "SARS-CoV 2",
+        "C": "MERS -CoV 1",
+        "D": "SARS-CoV 1"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Permanent Court of Arbitration (PCA) allowed India to make Kishanganga Hydroelectric project in _____?",
+      "options": {
+        "A": "January 2014",
+        "B": "July 2013",
+        "C": "September 2013",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which year the Taliban Office opened in Qatar?",
+      "options": {
+        "A": "2013",
+        "B": "2012",
+        "C": "2014",
+        "D": "2016"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Hezbollah Lubnan's political party was formed/founded in which year?",
+      "options": {
+        "A": "1987",
+        "B": "1982",
+        "C": "1998",
+        "D": "1987"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Aung San Suu Kyi was awarded the Nobel Peace Prize in ______?",
+      "options": {
+        "A": "1991",
+        "B": "1989",
+        "C": "1987",
+        "D": "1999"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Glacier is a ______ sheet of ice.",
+      "options": {
+        "A": "Slow moving",
+        "B": "Fast moving",
+        "C": "Static",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Israel withdraw his troops in 2000 after 23 years from _____?",
+      "options": {
+        "A": "Lebanon",
+        "B": "Syria",
+        "C": "Egypt",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was the African Union established?",
+      "options": {
+        "A": "2002",
+        "B": "2004",
+        "C": "1999",
+        "D": "2005"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is name of Iran’s new currency?",
+      "options": {
+        "A": "Roman",
+        "B": "Sian",
+        "C": "Bron",
+        "D": "Toman"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Germany remained in allied from 1945 to _____?",
+      "options": {
+        "A": "1950",
+        "B": "1951",
+        "C": "1952",
+        "D": "1953"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who said microbes are animalcule?",
+      "options": {
+        "A": "Darwin",
+        "B": "Mendel",
+        "C": "Leeuwenhoek",
+        "D": "Lois Pasteur"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is known as the Father of Geometry?",
+      "options": {
+        "A": "Kepler",
+        "B": "Euclid",
+        "C": "Pythagoras",
+        "D": "Newton"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Warsaw pact was dissolved in which year?",
+      "options": {
+        "A": "1991",
+        "B": "1990",
+        "C": "1980",
+        "D": "1970"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "London Tower bridge is located on which river?",
+      "options": {
+        "A": "Fleet",
+        "B": "Themes",
+        "C": "Wandle",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "First Arab space mission to Mars Al-Amal launched by which country?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "UAE",
+        "C": "Qatar",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Doha agreement was signed between US and Taliban in _____?",
+      "options": {
+        "A": "February 2020",
+        "B": "January2020",
+        "C": "March 2020",
+        "D": "April 2020"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Anna Molka Ahmad famous for _______?",
+      "options": {
+        "A": "Literature",
+        "B": "Scientist",
+        "C": "Painting",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Temple Trees is an official residence of the King of",
+      "options": {
+        "A": "Prime Minister of Nepal",
+        "B": "King of Bhutan",
+        "C": "President of Maldives",
+        "D": "Prime Minister of Sri Lanka"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the Capital of Laos?",
+      "options": {
+        "A": "Yaren",
+        "B": "Vientiane",
+        "C": "Bucharest",
+        "D": "Riyadh"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The largest natural gas producer country in the world is ____?",
+      "options": {
+        "A": "India",
+        "B": "US",
+        "C": "Russia",
+        "D": "Both B and C"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who among the following Mughal rulers was a contemporary of Queen Elizabeth I of England?",
+      "options": {
+        "A": "Jahangir",
+        "B": "Aurangzeb Alamgir",
+        "C": "Zaheer Ud Din Babur",
+        "D": "Akbar the Great"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Max Weber was famous a German ____?",
+      "options": {
+        "A": "Sociologist",
+        "B": "Biologist",
+        "C": "Artist",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Iron Dome is a Mobile Defence system developed by which country?",
+      "options": {
+        "A": "Israel",
+        "B": "Iran",
+        "C": "Japan",
+        "D": "USA"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Geneva is a famous city of _____?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "UAE",
+        "D": "Switzerland"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "FAO stands for _____?",
+      "options": {
+        "A": "Food and Airoplane Organization",
+        "B": "Food and Agriculture Olympic",
+        "C": "Food and Agriculture Organization",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In 1946, who called for complete elimination of nuclear weapons?",
+      "options": {
+        "A": "UN General Assembly",
+        "B": "UN secretariat",
+        "C": "World Bank",
+        "D": "European Court of Human Rights"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What was the date of the Truman Doctrine speech?",
+      "options": {
+        "A": "March 18, 1947",
+        "B": "March 16, 1947",
+        "C": "March 14, 1947",
+        "D": "March 12, 1947"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who was known as “Man of Destiny”?",
+      "options": {
+        "A": "Musolini",
+        "B": "Hitler",
+        "C": "Nehru",
+        "D": "Napoleon"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many circular rings in the Olympics symbol?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "9"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the first Hijabi woman in the Israeli Parliament?",
+      "options": {
+        "A": "Haneen Zoabi",
+        "B": "Iman Khatib-Yasin",
+        "C": "Hussniya Jabara",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Nobel Prize has been awarded in how many fields?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Yellow river is located in which country?",
+      "options": {
+        "A": "China",
+        "B": "America",
+        "C": "Canada",
+        "D": "France"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If your aeroplane lands at \"Heathrow\" airport which city would you be in?",
+      "options": {
+        "A": "Tokyo",
+        "B": "Jakarta",
+        "C": "London",
+        "D": "Amsterdam"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country is not a member of NATO? Lithuania, Montenegro, China, Luxembourg",
+      "options": {
+        "A": "Lithuania",
+        "B": "Montenegro",
+        "C": "China",
+        "D": "Luxembourg"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "1st UAE Commercial flight land in Israel on ________?",
+      "options": {
+        "A": "19 October 2020",
+        "B": "10 October 2020",
+        "C": "11 October 2020",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What country used a tank first?",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "India",
+        "D": "France"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the following proverb by choosing the correct word: Money makes the ___ go",
+      "options": {
+        "A": "Life",
+        "B": "Time",
+        "C": "Mare",
+        "D": "Donkey"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Select the correct passive form of the given sentence. They should follow all the instructions carefully.",
+      "options": {
+        "A": "All the instructions should be carefully followed by them.",
+        "B": "Let the instructions be read carefully",
+        "C": "All the instructions will be carefully followed by them.",
+        "D": "All the instructions would be carefully followed by them."
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Probability of something in interest rate of XXX.",
+      "options": {
+        "A": "Financial operation",
+        "B": "Statistical operation",
+        "C": "Mathematical operations",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Socrates was born in :",
+      "options": {
+        "A": "469 BC",
+        "B": "569 BC",
+        "C": "500 BC",
+        "D": "369 BC"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In __ model services like online banking, travel and health information",
+      "options": {
+        "A": "B2C",
+        "B": "B2B",
+        "C": "C2C",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In which country is the Gateway Arch located?",
+      "options": {
+        "A": "USA",
+        "B": "UK",
+        "C": "UAE",
+        "D": "France"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "London tower is located in ______ .",
+      "options": {
+        "A": "England",
+        "B": "USA",
+        "C": "India",
+        "D": "France"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Indian Independence Act 1947 was affected from _______",
+      "options": {
+        "A": "10 August 1947",
+        "B": "12 August 1947",
+        "C": "14 August 1947",
+        "D": "15 August 1947"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which organization was created by the UK, Australia, New Zealand in 1931?",
+      "options": {
+        "A": "Common Wealth",
+        "B": "RCD",
+        "C": "NATO",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "South Korea disconnects relations with which country in 2020?",
+      "options": {
+        "A": "USA",
+        "B": "China",
+        "C": "North Korea",
+        "D": "all of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When the US implement sanctions on Iran reason the nuclear program?",
+      "options": {
+        "A": "2005",
+        "B": "2006",
+        "C": "2007",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When did the USA invade Iraq?",
+      "options": {
+        "A": "March 19, 2001",
+        "B": "March 19, 2003",
+        "C": "March 19, 2005",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the chairman of the International Olympic Committee?",
+      "options": {
+        "A": "Kim-un-Yong",
+        "B": "Jacques Rogge",
+        "C": "Dick Pound",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The weight of a hockey ball approximately is__________?",
+      "options": {
+        "A": "5.75 ounce to 6 ounce",
+        "B": "6 ounce to 6.5 ounce",
+        "C": "5 ounce to 5.5 ounce",
+        "D": "5.5 ounce to 5.75 ounce"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The weight of a hockey ball approximately is__________?",
+      "options": {
+        "A": "5.75 ounce to 6 ounce",
+        "B": "6 ounce to 6.5 ounce",
+        "C": "5 ounce to 5.5 ounce",
+        "D": "5.5 ounce to 5.75 ounce"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What was the purpose of SEATO?",
+      "options": {
+        "A": "To prevent communism from gaining ground in the region.",
+        "B": "To prevent overpopulation in the region.",
+        "C": "To prevent illiteracy in the region.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is foreign exchange also known as?",
+      "options": {
+        "A": "forex",
+        "B": "investment",
+        "C": "tourism",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Poona Pact, 1932, was signed between ______.",
+      "options": {
+        "A": "Dr. B.R. Ambedkar and Mahatma Gandhi",
+        "B": "Dr. B.R. Ambedkar and Jawaharlal Nehru",
+        "C": "Mahatma Gandhi and Mc Donald",
+        "D": "Mahatma Gandhi and Viceroy Irvin"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Strait separates Sicily from Italy?",
+      "options": {
+        "A": "Palk Strait",
+        "B": "Sundae Strait",
+        "C": "Messina Strait",
+        "D": "Magellan strait"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest stock market in Asia is?",
+      "options": {
+        "A": "Nikkei",
+        "B": "Mumbai",
+        "C": "Strait Times",
+        "D": "Shanghai-500"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "International Court of Justice aimed to in 1949 military alliance was formed.",
+      "options": {
+        "A": "NATO",
+        "B": "Balkan League",
+        "C": "Central Powers",
+        "D": "Anglo-Egyptian Treaty"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where COP26 will take place between 9 and 20 November 2020",
+      "options": {
+        "A": "Stockholm",
+        "B": "Rome",
+        "C": "Glasgow",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Big ben, a big clock, is located in the parliament of ____",
+      "options": {
+        "A": "UK",
+        "B": "USA",
+        "C": "India",
+        "D": "Pakistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ECO was founded in?",
+      "options": {
+        "A": "1985",
+        "B": "1986",
+        "C": "1966",
+        "D": "1988"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the current PM of America?",
+      "options": {
+        "A": "Joe Biden",
+        "B": "Kamala Harris",
+        "C": "Mike Pence",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the full form of SORRY?",
+      "options": {
+        "A": "Some One Is Right on You",
+        "B": "Some One Is Really Remembering You",
+        "C": "Some One Remembering You",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Healthful diet includes balance variety and ___ principle.",
+      "options": {
+        "A": "Availability",
+        "B": "Moderation",
+        "C": "Quality",
+        "D": "Complimentary"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which one is not the principal of new world order",
+      "options": {
+        "A": "Territorial integrity",
+        "B": "Human rights",
+        "C": "Peaceful engagement",
+        "D": "war on terrorism"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which among the following got independence from the United Kingdom (UK)?",
+      "options": {
+        "A": "Uzbekistan",
+        "B": "Venezuela",
+        "C": "South Korea",
+        "D": "Pakistan"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Varadero beach is located in which country",
+      "options": {
+        "A": "Cuba",
+        "B": "Nicaragua",
+        "C": "Panama",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When China join World trade organization ?",
+      "options": {
+        "A": "1995",
+        "B": "1997",
+        "C": "1999",
+        "D": "2001"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Where is located the famous tourist place Copacabana Beach in South America",
+      "options": {
+        "A": "Argentina",
+        "B": "Colombia",
+        "C": "Brazil",
+        "D": "Uruguay"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Skyes- Picot agreement was signed",
+      "options": {
+        "A": "1916",
+        "B": "1918",
+        "C": "1917",
+        "D": "1919"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which movement change Africa and Middle east regimes",
+      "options": {
+        "A": "Revolutionary league",
+        "B": "Arab league",
+        "C": "African peace league",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "When did Taiwan separates from China?",
+      "options": {
+        "A": "1947",
+        "B": "1949",
+        "C": "1963",
+        "D": "1977"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Martin Cooper invented the “Cell phone” in which year ?",
+      "options": {
+        "A": "1989",
+        "B": "1987",
+        "C": "1973",
+        "D": "1980"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "One who travels from place to place ?",
+      "options": {
+        "A": "Tramp",
+        "B": "Journeyman",
+        "C": "Mendicant",
+        "D": "Itinerant"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Clausewitz policy is",
+      "options": {
+        "A": "Decision to use force must be mutual",
+        "B": "Strategic deterrence, political prestige benefits",
+        "C": "The policy of detente evolved from conflict",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In hundred meter race false start time is :",
+      "options": {
+        "A": "0.1 second",
+        "B": "0.25 second",
+        "C": "0.75 second",
+        "D": "1 second"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who among the following coined the term “Cold War”?",
+      "options": {
+        "A": "Bernard Baruch",
+        "B": "MacArthur",
+        "C": "Hirohito",
+        "D": "Max Hastings"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cold war strategy is named as",
+      "options": {
+        "A": "Containment",
+        "B": "Deterrence",
+        "C": "Balance of power",
+        "D": "Common defense"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Transnational actor and transnational government was was activated in the area of",
+      "options": {
+        "A": "WWI",
+        "B": "Cold war",
+        "C": "Bluff war",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Australian open tennis tournament is played on which type of court :",
+      "options": {
+        "A": "Hard court",
+        "B": "Clay court",
+        "C": "Grass court",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Alibaba group found in",
+      "options": {
+        "A": "1991",
+        "B": "1997",
+        "C": "1993",
+        "D": "1999"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Arab Spring started from which country?",
+      "options": {
+        "A": "Egypt",
+        "B": "Tunisia",
+        "C": "Libya",
+        "D": "Syria"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country is completely surrounded by South Africa?",
+      "options": {
+        "A": "Gabon",
+        "B": "Laos",
+        "C": "Lesotho",
+        "D": "Niue"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "International Cricket Council ICC headquarters is located in ____?",
+      "options": {
+        "A": "Dubai",
+        "B": "USA",
+        "C": "England",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The current US President Joe Biden has also served as ______ of the United States.",
+      "options": {
+        "A": "Speaker",
+        "B": "Secretary State",
+        "C": "Vice President",
+        "D": "Director CIA"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kashgar is situated in:",
+      "options": {
+        "A": "Nepal",
+        "B": "Taiwan",
+        "C": "China",
+        "D": "Kashmir"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the name of the world's largest active volcano?",
+      "options": {
+        "A": "Mount Fuji",
+        "B": "Mount karkatoa",
+        "C": "Mount Loa",
+        "D": "Mount Everst"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Cue, boiling, and break term associated with game:",
+      "options": {
+        "A": "Volly ball",
+        "B": "Snooker",
+        "C": "Billiard",
+        "D": "Poli"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who chaired the Asia Pacific Group of UNESCO for the year 2020 from Pakistan:",
+      "options": {
+        "A": "Abdul Basit",
+        "B": "Moin-ul-Haq",
+        "C": "Maleeha Lodhi",
+        "D": "Munir Akram"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Winter Olympic Games 2022 held in which country?",
+      "options": {
+        "A": "Japan",
+        "B": "Qatar",
+        "C": "Australia",
+        "D": "China"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The red sea is connected to which Gulf or sea through Bab al-Mandeb Strait?",
+      "options": {
+        "A": "Arbian Sea",
+        "B": "Gulf of Aden",
+        "C": "Indian Ocean",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Blue Lagoon Iceland is located------?",
+      "options": {
+        "A": "Norway",
+        "B": "lceland",
+        "C": "Turkey",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Cyclones in Australia are known as:",
+      "options": {
+        "A": "Typhoon",
+        "B": "Hurricane",
+        "C": "Willi Willies",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest cluster of Population is ------?",
+      "options": {
+        "A": "South Asia",
+        "B": "Southeast West",
+        "C": "South East",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Yellow river is also called",
+      "options": {
+        "A": "red river",
+        "B": "The huang he",
+        "C": "green river",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Multiple Nuclei Model was presented in?",
+      "options": {
+        "A": "1938",
+        "B": "1939",
+        "C": "1940",
+        "D": "1945"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which women made a breakthrough in Fiber Optics?",
+      "options": {
+        "A": "Shirley Ann Jackson",
+        "B": "John Henry Holmes",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Gulf of Bothnia is situated between----------:",
+      "options": {
+        "A": "Sweden and Finland",
+        "B": "Denmark and Sweden",
+        "C": "Norway and Sweden",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is popularly known as Father of Indian Constitution?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Rajendra Prasad",
+        "C": "Dr. Bhimrao Ramji Ambedkar",
+        "D": "Mahatma Gandhi"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Cloud gate located in ----------?",
+      "options": {
+        "A": "America",
+        "B": "London",
+        "C": "Dubai",
+        "D": "Chicago"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which one is not the principle of new world order?",
+      "options": {
+        "A": "Territorial Integrity",
+        "B": "Human Rights",
+        "C": "Peaceful Engagement",
+        "D": "War on terrorism"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "After Cold War a new cold war or cold war 2 has arisen between:",
+      "options": {
+        "A": "Russia & U.S",
+        "B": "Russia & China",
+        "C": "China & U.S",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "ILO headquarters is established in:",
+      "options": {
+        "A": "Washington",
+        "B": "Paris",
+        "C": "London",
+        "D": "Geneva"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "To counter USSR force which treaty was in 1949",
+      "options": {
+        "A": "NATO",
+        "B": "Washington Treaty",
+        "C": "Both A and B",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The term 'double fault' is associated with which game?",
+      "options": {
+        "A": "Rugby",
+        "B": "Tennis",
+        "C": "Basket ball",
+        "D": "Football"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Jan Sheer Khan was the famous player of :",
+      "options": {
+        "A": "Cricket",
+        "B": "Hockey",
+        "C": "Football",
+        "D": "Squash"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many noble prize categories are there?",
+      "options": {
+        "A": "Four",
+        "B": "Five",
+        "C": "Six",
+        "D": "Seven"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Joe Biden served as vice President The United States (US) president Joe Biden has also served as vice president",
+      "options": {
+        "A": "2009-2017",
+        "B": "2010 - 2019",
+        "C": "2012-2019",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "San Yat Sen is the father of which country ?",
+      "options": {
+        "A": "China",
+        "B": "Nepal",
+        "C": "India",
+        "D": "Bhutan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the nickname of the clock tower in",
+      "options": {
+        "A": "Canadian National Tower",
+        "B": "Pisa tower",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "World war II was outbreak due to the attack of Germany on ___",
+      "options": {
+        "A": "France",
+        "B": "Canada",
+        "C": "Poland",
+        "D": "Russia"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Environmental Ministerial Meeting of the G20 countries was held in 2020 under the presidency of which Islamic country_____?",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Bahrain",
+        "C": "Qatar",
+        "D": "Oman"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ICC was founded in 1909, its headquarters located in the country :",
+      "options": {
+        "A": "France",
+        "B": "USA",
+        "C": "UAE",
+        "D": "UK"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is located in Africa and Asia?",
+      "options": {
+        "A": "Iran",
+        "B": "Egypt",
+        "C": "Pakistan",
+        "D": "China"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The country North Korea is situated in:",
+      "options": {
+        "A": "South Asia",
+        "B": "Middle East",
+        "C": "East Asia",
+        "D": "Central Europe"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What are the two seas linked by Suez Canal?",
+      "options": {
+        "A": "The red sea and Caspian",
+        "B": "The Mediterranean and the Red sea",
+        "C": "The Indian ocean and Arabian sea",
+        "D": "The red sea and the black sea"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country is both in Europe and Asia?",
+      "options": {
+        "A": "Turkmenistan",
+        "B": "Turkey",
+        "C": "Lebanon",
+        "D": "Syria"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Parcel Islands in the South China Sea are disputed between China and ___",
+      "options": {
+        "A": "Vietnam",
+        "B": "Japan",
+        "C": "Philippines",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The largest producer of electricity in the Islamic World is:",
+      "options": {
+        "A": "Saudi Arabia",
+        "B": "Pakistan",
+        "C": "Uzbekistan",
+        "D": "Turkey"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Carrie Logar bill authorised non military aid to Pakistan for a period of :",
+      "options": {
+        "A": "2010-2014",
+        "B": "2011-2014",
+        "C": "20112-2014",
+        "D": "None"
+      },
+      "correct": "A"
     }
   ]
 }

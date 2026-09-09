@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2021 of Islamic Study",
   "mcqs": [
     {
+      "question": "Zun-Noorain is the title of _____?",
+      "options": {
+        "A": "Hazrat Abu Bakar",
+        "B": "Hazrat Umar",
+        "C": "Hazrat Usman",
+        "D": "Hazrat Ali"
+      },
+      "correct": "C"
+    },
+    {
       "question": "A person who recites Kalma of Islam verbally not heartilly is called?",
       "options": {
         "A": "Munafiq",
@@ -148,16 +158,6 @@
         "B": "Cairo",
         "C": "Damascus",
         "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Zun-Noorain is the title of _____?",
-      "options": {
-        "A": "Hazrat Abu Bakar",
-        "B": "Hazrat Umar",
-        "C": "Hazrat Usman",
-        "D": "Hazrat Ali"
       },
       "correct": "C"
     },

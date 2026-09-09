@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2023 of Islamic Study",
   "mcqs": [
     {
+      "question": "How many times the word “Zakat” came together with “Salat” in Quran?",
+      "options": {
+        "A": "20 times",
+        "B": "32 times",
+        "C": "40 times",
+        "D": "42 times"
+      },
+      "correct": "B"
+    },
+    {
       "question": "Battle in which Holy Prophet ﷺ not participated is known as ______?",
       "options": {
         "A": "Jaziya",
@@ -60,16 +70,6 @@
         "D": "Hazrat Shoaib AS"
       },
       "correct": "A"
-    },
-    {
-      "question": "How many times the word “Zakat” came together with “Salat” in Quran?",
-      "options": {
-        "A": "20 times",
-        "B": "32 times",
-        "C": "40 times",
-        "D": "42 times"
-      },
-      "correct": "B"
     },
     {
       "question": "How many Heads/Masarifs of Zakat?",
@@ -210,6 +210,426 @@
         "D": "Surah-e-Kausar"
       },
       "correct": "B"
+    },
+    {
+      "question": "The Rashidun Caliphate lasted for ______?",
+      "options": {
+        "A": "30 years",
+        "B": "40 years",
+        "C": "50 years",
+        "D": "10 years"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does Taraweeh means?",
+      "options": {
+        "A": "To Rest",
+        "B": "To Stand",
+        "C": "To Pray",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "حج کے لغوی معنی کیا ہیں؟",
+      "options": {
+        "A": "پتھر کا چومنا",
+        "B": "زیارت کا ارادہ کرنا",
+        "C": "طواف کرنا",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "موسی علیہ السلام کی قوم کا جادوگر جس نے قوم کو بچھڑے کی پوجا پر لگادیا تھا؟",
+      "options": {
+        "A": "سامری",
+        "B": "ناسب",
+        "C": "راہب",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "بنی اسرائیل کے آخری رسول کون تھے؟",
+      "options": {
+        "A": "حضرت موسی",
+        "B": "حضرت عیسی",
+        "C": "حضرت یعقوب",
+        "D": "حضرت نوح"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "حضرت موسی اپنی قوم کو فرعون سے بچا کر کس وادی میں لے گئے تھے؟",
+      "options": {
+        "A": "وادی سینا",
+        "B": "وادی طور",
+        "C": "وادی مکہ",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ملکہ سبا کا تعلق کس نبی کے دور سے ہے؟",
+      "options": {
+        "A": "حضرت موسی",
+        "B": "حضرت سلیمان",
+        "C": "حضرت عیسی",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "مومنین کو کن صورتوں میں میدان جنگ سے پیٹھ پھیرنے کا حکم دیا گیا ہے؟",
+      "options": {
+        "A": "لشکر نے ملنے کے لئے",
+        "B": "جنگی حکمت عملی کے طور پر",
+        "C": "دونوں",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "سبت اور رفع طور کس نبی کے واقعات ہیں؟",
+      "options": {
+        "A": "حضرت موسی",
+        "B": "حضرت عیسی",
+        "C": "حضرت ابراھیم",
+        "D": "حضرت یوسف"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which surah of the Holy Quran in which Allah has promised to protect the Holy Quran?",
+      "options": {
+        "A": "Surah Al-Hijr",
+        "B": "Al-Maida",
+        "C": "Surah Al-Baqarah",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which surahs are called Mauzatain?",
+      "options": {
+        "A": "Last four surahs",
+        "B": "First two surahs",
+        "C": "Last two surahs",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Before Islam Friday was called _____?",
+      "options": {
+        "A": "یومالفرقان",
+        "B": "یوم العروبہ",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "بخت نصر کا تعلق کس ملک سے تھا؟",
+      "options": {
+        "A": "بابل",
+        "B": "کابل",
+        "C": "یروشلم",
+        "D": "ان میں سے کوئی بھی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "On which Prophet Taurat (Torat) was revealed?",
+      "options": {
+        "A": "Hazrat Issa",
+        "B": "Hazrat Mussa",
+        "C": "Hazrat Ibrahim",
+        "D": "Hazrat Dawood"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What was the name of town in Israel which was the home of Hazrat Issa (AS) in his youth?",
+      "options": {
+        "A": "Safed",
+        "B": "Haifa",
+        "C": "Tal Aviv",
+        "D": "Nazareth"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which mosque was ordered by Allah to destroy?",
+      "options": {
+        "A": "Zirar",
+        "B": "Mushrikoon",
+        "C": "Kafiroon",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ہوا روشنی پانی چرند پرند کس کے تابع تھے ؟",
+      "options": {
+        "A": "حضرت سلیمان",
+        "B": "حضرت یعقوب",
+        "C": "حضرت داؤد",
+        "D": "داؤد یوسف"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "کون سی کتاب امام ابو حنیفہ سے منسوب کی جاتی ہے ؟",
+      "options": {
+        "A": "کتاب الآثار",
+        "B": "مسدس",
+        "C": "اربعین",
+        "D": "ان میں سے کوئی بھی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How many sons of Hazrat Yaqoob A.S?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Humama bin Kharsha was the disciple of _______",
+      "options": {
+        "A": "Hazrat Anas",
+        "B": "Hazrat Abu Bakar",
+        "C": "Hazrat Arqam",
+        "D": "Hazrat Hanzala"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "اللہ تعالی نے سب چیزوں کے نام کس کو سیکھاے؟",
+      "options": {
+        "A": "حضرت محمد ﷺ",
+        "B": "حضرت آدم",
+        "C": "جنات کو",
+        "D": "فرشتوں کو"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "حضرت ابو عبیدہ کا اصل نام کیا ہے ؟",
+      "options": {
+        "A": "عبداللہ بن ابی قحافہ",
+        "B": "قاسم بن عبداللہ",
+        "C": "عامر بن عبداللہ",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "کون سے صحابی عشرہ مبشرہ میں سے ہیں",
+      "options": {
+        "A": "حضرت سلمان فارسی",
+        "B": "حضرت سعد بن ابی وقاس",
+        "C": "حضرت حمزہ",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The year of death of Tahzeeb ul Ahkam writer is:",
+      "options": {
+        "A": "460 Hijri",
+        "B": "400 Hijri",
+        "C": "489 Hijri",
+        "D": "381 Hijri"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the Last writer Kitab-e-wahi?",
+      "options": {
+        "A": "Hazrat Ali(RA)",
+        "B": "Hazrat Abi bin Kaab(RA)",
+        "C": "Hazrat Umar (RA)",
+        "D": "Hazrat Abu Hurairah (RA)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "For how many days Hazrat Younas remained in the abdomen of fish?",
+      "options": {
+        "A": "50",
+        "B": "40",
+        "C": "30",
+        "D": "60"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Treaty of Hudaybiyyah took place in which Hijri?",
+      "options": {
+        "A": "5th",
+        "B": "7th",
+        "C": "4th",
+        "D": "6th"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Holy Prophet (PBUH) was born on__?",
+      "options": {
+        "A": "Friday",
+        "B": "Monday",
+        "C": "Saturday",
+        "D": "Thursday"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "شادی شدہ زانی کی سزا",
+      "options": {
+        "A": "رجم",
+        "B": "پھانسی",
+        "C": "قتل",
+        "D": "سو کوڑے"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "اللہ تعالی نے زمین اور آسمان کتنے دنوں میں تخلیق کئے ؟",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which religious follower are not allowed to eat saree while keeping fast?",
+      "options": {
+        "A": "Christianity",
+        "B": "Jews",
+        "C": "Both of these",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which prophet mentioned first in the Holy Quran?",
+      "options": {
+        "A": "Hazrat Nooh (AS)",
+        "B": "Hazrat Adam (AS)",
+        "C": "Hazrat Ibrahim (AS)",
+        "D": "Hazrat Muhammad ﷺ"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "قرآن حکیم نے کس فعل کو قتل سے بھی زیادہ شدید قرار دیا ہے؟",
+      "options": {
+        "A": "زنا",
+        "B": "محاربہ",
+        "C": "طلاق",
+        "D": "فتنہ و فساد"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "حضور کریم کی ولادت واقعہ الفیل کے کتنے روز بعد ہوئی؟",
+      "options": {
+        "A": "25 روز بعد",
+        "B": "35 روز بعد",
+        "C": "45 روز بعد",
+        "D": "55 روز بعد"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Sariya is battle _____?",
+      "options": {
+        "A": "In which Prophet Muhammad participate",
+        "B": "In which Prophet Muhammad not participate",
+        "C": "Before prophet-hood fought",
+        "D": "All of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The name of wife of Abu Jahal was ____",
+      "options": {
+        "A": "Zirarah",
+        "B": "Umm e Jameel",
+        "C": "Umm e Kalsoom",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When Hudood Ordinance was introduced in Pakistan first time.",
+      "options": {
+        "A": "1978",
+        "B": "1981",
+        "C": "1979",
+        "D": "1984"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "روزہ کس سن ہجری میں فرض ہوا؟",
+      "options": {
+        "A": "9th Shaban, 2 A.H",
+        "B": "8th Shaban, 2 A.H",
+        "C": "7th Shaban, 2 A.H",
+        "D": "10th Shaban, 2 A.H"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Abu Tarab is the title of ____?",
+      "options": {
+        "A": "Hazrat umar",
+        "B": "Hazrat Ali",
+        "C": "Abubakr",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Islamic Calendar starts from _____?",
+      "options": {
+        "A": "Hijri",
+        "B": "After birth of Muhammad (PBUH)",
+        "C": "After death of Hazrat Umar (RA)",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is called Umm-Ul-Masakeen?",
+      "options": {
+        "A": "Hazrat Zainab (R.A)",
+        "B": "Hazrat Ayesha (R.A)",
+        "C": "Hazrat Khadija (R.A)",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "To stay in which ground is the major part of Hajj?",
+      "options": {
+        "A": "Arafaat",
+        "B": "Mina",
+        "C": "Muzdalfa",
+        "D": "None"
+      },
+      "correct": "A"
     }
   ]
 }

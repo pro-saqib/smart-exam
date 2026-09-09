@@ -2,6 +2,56 @@
   "name": "PPSC Past Papers all MCQs 2021 of General Knowledge",
   "mcqs": [
     {
+      "question": "United Nations Organization (UNO) officially came into existence / was founded / established on?",
+      "options": {
+        "A": "10 October 1945",
+        "B": "14 October 1945",
+        "C": "24 October 1945",
+        "D": "28 October 1945"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When was North Atlantic Treaty Organization (NATO) founded?",
+      "options": {
+        "A": "4 April 1949",
+        "B": "5 April 1949",
+        "C": "6 April 1949",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Ismail Ould Cheikh Ahmed",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Where is the headquarters of SAARC located?",
+      "options": {
+        "A": "Katmandu, Nepal",
+        "B": "Islamabad, Pakistan",
+        "C": "Delhi, India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The largest Island of the world is _____?",
+      "options": {
+        "A": "Iceland",
+        "B": "Cyprus",
+        "C": "Greenland",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
       "question": "Which Continent has no desert?",
       "options": {
         "A": "Europe",
@@ -20,16 +70,6 @@
         "D": "Spain"
       },
       "correct": "B"
-    },
-    {
-      "question": "The largest Island of the world is _____?",
-      "options": {
-        "A": "Iceland",
-        "B": "Cyprus",
-        "C": "Greenland",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "When did the United Kingdom (UK) leave the European Union (Brexit)?",
@@ -62,16 +102,6 @@
       "correct": "C"
     },
     {
-      "question": "United Nations Organization (UNO) officially came into existence / was founded / established on?",
-      "options": {
-        "A": "10 October 1945",
-        "B": "14 October 1945",
-        "C": "24 October 1945",
-        "D": "28 October 1945"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Which flower is the National flower of Pakistan?",
       "options": {
         "A": "Rose",
@@ -92,32 +122,12 @@
       "correct": "C"
     },
     {
-      "question": "Where is the headquarters of SAARC located?",
-      "options": {
-        "A": "Katmandu, Nepal",
-        "B": "Islamabad, Pakistan",
-        "C": "Delhi, India",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "What is the capital of Chile?",
       "options": {
         "A": "Prague",
         "B": "Vienna",
         "C": "Santiago",
         "D": "Bern"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who is the Current Secretary General of OIC?",
-      "options": {
-        "A": "Dr Yousaf",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
       },
       "correct": "C"
     },
@@ -330,16 +340,6 @@
         "D": "England"
       },
       "correct": "A"
-    },
-    {
-      "question": "When was NATO founded?",
-      "options": {
-        "A": "1948",
-        "B": "1951",
-        "C": "1946",
-        "D": "1949"
-      },
-      "correct": "D"
     },
     {
       "question": "In which year did the Bolsheviks Revolution take place in Russia?",
@@ -1399,6 +1399,896 @@
         "D": "None of these"
       },
       "correct": "C"
+    },
+    {
+      "question": "Saudi Arabia has which sort of political system?",
+      "options": {
+        "A": "Monarchy",
+        "B": "Presidential",
+        "C": "Parliamentarian",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "United Nations has formed by a charter signed by different nations but is has no interference in _____?",
+      "options": {
+        "A": "Aggression",
+        "B": "Internal Matter",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "British Junior Open Squash Championship 2020 was won by which player?",
+      "options": {
+        "A": "Ayoub Sattar",
+        "B": "Dilsher Khan",
+        "C": "Hamza Khan",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The main purpose of Oslo accord 1992 is ____?",
+      "options": {
+        "A": "Vacate from Gaza",
+        "B": "To settle dispute between Israel and Pakistan",
+        "C": "To establish peace between Israel and the Palestinians",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest Helicopter in the world is _____?",
+      "options": {
+        "A": "Mil Mi-26",
+        "B": "CH-47 Chinook",
+        "C": "Hughes YOH-6A",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country has filed a case against Myanmar in the International Court of Justice (ICJ)?",
+      "options": {
+        "A": "Gambia",
+        "B": "Austria",
+        "C": "Pakistan",
+        "D": "India"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which one Country abolished the post of Prime Minister?",
+      "options": {
+        "A": "UK",
+        "B": "UAE",
+        "C": "Senegal",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The 'Head of Government\" of Germany is called?",
+      "options": {
+        "A": "President",
+        "B": "Federal Chancellor",
+        "C": "Prime Minister",
+        "D": "Governor"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Tianwen-1 mission of China is related to ______?",
+      "options": {
+        "A": "Mars",
+        "B": "Space Agency",
+        "C": "Moon",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which organization targeted to have no more than 3% of the world population living on just 1.90 Dollar a day by 2030?",
+      "options": {
+        "A": "World Bank",
+        "B": "UNO",
+        "C": "WHO",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "UN Security Council’s President change according to _____?",
+      "options": {
+        "A": "Seniority",
+        "B": "Alphabetically order",
+        "C": "Highest GDP",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who was the first tutor of Lata Mangeshkar?",
+      "options": {
+        "A": "Ahmad Khurshid",
+        "B": "Ghulam Ali",
+        "C": "Aman Ali Khan",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Treaty is an International agreement conclude between states in written form and governed by International law embodied in a single instrument or in two or more related instruments is provided in which Treaty?",
+      "options": {
+        "A": "Nairobi Convention",
+        "B": "Vienna Convention",
+        "C": "Hague Convention",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Surena an invention of University of Tehran is a _____?",
+      "options": {
+        "A": "Bomb",
+        "B": "Robot",
+        "C": "Missile",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is an agency of the United Nations that leads International efforts to defeat hunger and improve nutrition and food security?",
+      "options": {
+        "A": "Food and Agriculture Organization of the United Nations",
+        "B": "World Bank",
+        "C": "Asian Development Bank",
+        "D": "Universal Food Organization"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the new maximum temperature that has been recorded in Antarctica?",
+      "options": {
+        "A": "19.3 C",
+        "B": "18.3 C",
+        "C": "17.3 C",
+        "D": "16.3 C"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Rohingya Refugees came from _____?",
+      "options": {
+        "A": "Nepal",
+        "B": "UAE",
+        "C": "Myanmar",
+        "D": "Qatar"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Sadiq Khan has got how many votes in 2021 election of “Mayor of London”?",
+      "options": {
+        "A": "55.2%",
+        "B": "55.3%",
+        "C": "55.4%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is the narrowest strait of the world?",
+      "options": {
+        "A": "Strait of Tartar",
+        "B": "Malacca Strait",
+        "C": "Palk Strait",
+        "D": "Strait Yucatan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Alexander defeated Raja Porous in _____?",
+      "options": {
+        "A": "324 B.C",
+        "B": "326 B.C",
+        "C": "328 B.C",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In March 2021, North Korea ended its diplomatic relations with which of the following country South Korea?",
+      "options": {
+        "A": "Malaysia",
+        "B": "USA",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which US convention has most signatories at its opening day?",
+      "options": {
+        "A": "UN convention on Genocide",
+        "B": "UN convention on Economics",
+        "C": "UN convention on persons with disabilities",
+        "D": "None of thee"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the number of current U.S. Congress which is established on January 3, 2021?",
+      "options": {
+        "A": "112th",
+        "B": "115th",
+        "C": "117th",
+        "D": "119th"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "On January 8, 2020, Ukraine International Airlines Flight 752 was shot down minutes after taking off from Tehran, Iran, by an Iranian surface-to-air missile?",
+      "options": {
+        "A": "Human error",
+        "B": "Technical error",
+        "C": "Pilot mistake",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Kronborg Castle is in _____?",
+      "options": {
+        "A": "Austria",
+        "B": "Morocco",
+        "C": "Denmark",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The mixing of Equity and Debt is called?",
+      "options": {
+        "A": "Capital Structure",
+        "B": "Investment",
+        "C": "Treasury",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Human Security Network has _______ members .",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "15",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which country is the World's top supplier of weapons?",
+      "options": {
+        "A": "Israel",
+        "B": "Russia",
+        "C": "America",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many countries are members of the Gulf Cooperation Council (GCC)?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "6",
+        "D": "4"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Kobe Bryant American basketball player just died in a plane crash which state of America?",
+      "options": {
+        "A": "California",
+        "B": "New York",
+        "C": "Hawaii",
+        "D": "Washington"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country has launched it’s first semi-heavy missile-equipped submarine dubbed as Fatah?",
+      "options": {
+        "A": "Pakistan",
+        "B": "Iran",
+        "C": "Turkey",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who gave a speech called “Where Do Human Rights Begin”?",
+      "options": {
+        "A": "Eleanor Roosevelt",
+        "B": "Antonio Guterres",
+        "C": "Kofi Anan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country’s deforestation rate is the highest in Asia?",
+      "options": {
+        "A": "Pakistan",
+        "B": "Afghanistan",
+        "C": "China",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In 1946, who called for complete elimination of nuclear weapons?",
+      "options": {
+        "A": "UN General Assembly",
+        "B": "UN secretariat",
+        "C": "World Bank",
+        "D": "European Court of Human Rights"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When the wicket-keeper bails out the wickets and Batsman did not go for a run then what type of out?",
+      "options": {
+        "A": "Stump",
+        "B": "Bowled",
+        "C": "Run Out",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following countries declared 2019 as the ‘Year of Tolerance’?",
+      "options": {
+        "A": "UAE",
+        "B": "Germany",
+        "C": "France",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The first-ever nuclear bomb was detonated in ______?",
+      "options": {
+        "A": "New Mexico",
+        "B": "USA",
+        "C": "France",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The focal point of Human Rights Organization is ______?",
+      "options": {
+        "A": "Human Rights Department",
+        "B": "Human Rights Commission",
+        "C": "UN Human Rights Council",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country hosted ICC Men`s World Cup 2022?",
+      "options": {
+        "A": "England",
+        "B": "Australia",
+        "C": "Japan",
+        "D": "Pakistan"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Viceroy term is made for used in which years?",
+      "options": {
+        "A": "1600",
+        "B": "1858",
+        "C": "1707",
+        "D": "1905"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "China got more gold medals in Asian Games?",
+      "options": {
+        "A": "2018",
+        "B": "2017",
+        "C": "2016",
+        "D": "2019"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Name the game in which sides of teams are changed after every goal?",
+      "options": {
+        "A": "Soccer",
+        "B": "Rugby",
+        "C": "Baseball",
+        "D": "Ice Hockey"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A game which is played by horse riders .",
+      "options": {
+        "A": "Polo",
+        "B": "Gulf",
+        "C": "Baseball",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The oldest seat of learning in Europe is ___",
+      "options": {
+        "A": "University of Bologna",
+        "B": "Cambridge",
+        "C": "University of Paris",
+        "D": "Oxford"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Shin bet is security intelligence agency of",
+      "options": {
+        "A": "Isreal",
+        "B": "Russia",
+        "C": "Japan",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A cation with +1 has 10 electrons, How many protons does it contain",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "13",
+        "D": "16"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The transition period of Brexit ended on",
+      "options": {
+        "A": "31 Dec, 2020",
+        "B": "31 Dec, 2021",
+        "C": "30 Dec, 2020",
+        "D": "31 Dec, 2019"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "OPEC was founded in",
+      "options": {
+        "A": "1960",
+        "B": "1970",
+        "C": "1980",
+        "D": "1990"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which king started Khumb ka mela ?",
+      "options": {
+        "A": "Arunasva",
+        "B": "Yashovarman",
+        "C": "Harshavardhana",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "President Johnson made a policy regarding poverty alleviation. This Act is known as ?",
+      "options": {
+        "A": "Peace Prosperity Act",
+        "B": "Economic Opportunity Act",
+        "C": "Great economic Act",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Artistic literary musical and intellectual movement Originated in Europe ?",
+      "options": {
+        "A": "Romanticism",
+        "B": "Articism",
+        "C": "Mysticism",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the aurthor of 95 thesis ?",
+      "options": {
+        "A": "Martin Luther",
+        "B": "Mussolini",
+        "C": "Adam Smith",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who was the last president of USSR ?",
+      "options": {
+        "A": "Joseph Stalin",
+        "B": "Mikhail Gorbachev",
+        "C": "Nikita Khrushchev",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Anglo Afghan treaty was concluded in",
+      "options": {
+        "A": "1912",
+        "B": "1915",
+        "C": "1919",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Civil Government of Turkey was formed in ?",
+      "options": {
+        "A": "1923",
+        "B": "1924",
+        "C": "1922",
+        "D": "1970"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ali Wardi Nawab of Bengal invaded Germany ?",
+      "options": {
+        "A": "1740",
+        "B": "1750",
+        "C": "1760",
+        "D": "None of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who introduced modern history of Philosophy ?",
+      "options": {
+        "A": "Rene descartes",
+        "B": "john locke",
+        "C": "charles montesquieu",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Military commander of Sultan Abdul Hameed ?",
+      "options": {
+        "A": "Kamal Pasha",
+        "B": "Sarwat ud din",
+        "C": "Hassan Pasha",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "President Muhammad Al Gaddafi belong to which country ?",
+      "options": {
+        "A": "Libya",
+        "B": "Iran",
+        "C": "Syria",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Iberian Peninsula Muslim forced conversion to Christianity ?",
+      "options": {
+        "A": "Ethnicity",
+        "B": "Conversos",
+        "C": "Moriscos",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Nadir Shah belong to which country ?",
+      "options": {
+        "A": "Iran",
+        "B": "India",
+        "C": "Pakistan",
+        "D": "Afghanistan"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The biggest sports festival is",
+      "options": {
+        "A": "Sydney Olympics",
+        "B": "Montreal Olympics",
+        "C": "The Olympic games",
+        "D": "Tokyo Olympics"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When US president Franklin Roosevelt introduced day performance of Government ?",
+      "options": {
+        "A": "1933",
+        "B": "1934",
+        "C": "1935",
+        "D": "1938"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Liaqat Ali Khan was killed by :",
+      "options": {
+        "A": "Aslam Khan",
+        "B": "Naeem Agha",
+        "C": "Saeed Akbar",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mesopotamia word originated from :",
+      "options": {
+        "A": "Sumerian",
+        "B": "Greek",
+        "C": "latin",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Al Mansoor Abbasid Caliphate was brother of",
+      "options": {
+        "A": "Abu Haider",
+        "B": "Abu Jaffar",
+        "C": "Abbas al Saffah",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which US president give new World Order the time of USSR disintegration ?",
+      "options": {
+        "A": "Richard Nixon",
+        "B": "Bill Clinton",
+        "C": "Bush Senior",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Forth World refers to which countries",
+      "options": {
+        "A": "Chad ,South Sudan",
+        "B": "China, Cuba",
+        "C": "Somalia, Yemen",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ibn e Sina was born in ______?",
+      "options": {
+        "A": "Shabshan",
+        "B": "Samarand",
+        "C": "Bukhara",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Why is there a severe difference in the climates of Northern and Southern Hemisphere?",
+      "options": {
+        "A": "Due to the rotation of the earth around the sun of its orbit",
+        "B": "Due to rotation of the earth around its axis",
+        "C": "None of these",
+        "D": "Both a& b"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "SOS stands for___",
+      "options": {
+        "A": "Save our souls",
+        "B": "Save our shops",
+        "C": "Save Our Ship",
+        "D": "none"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Recently which of the following country has pulled out from “Open Skies Treaty” following the United States ?",
+      "options": {
+        "A": "Russia",
+        "B": "U.K",
+        "C": "China",
+        "D": "Iran"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is an accomplice?",
+      "options": {
+        "A": "A guilty associate or partner in crime",
+        "B": "A person to whom pardon is granted",
+        "C": "In both of above situation",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Nurek is the name of?",
+      "options": {
+        "A": "Sea",
+        "B": "Dam",
+        "C": "River",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "UPS is abbreviation of",
+      "options": {
+        "A": "uninterruptible power supply",
+        "B": "uninterruptible power super",
+        "C": "uninterruptible phone supply",
+        "D": "none"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Police man ridding on the motorcycles as guard to a VIP",
+      "options": {
+        "A": "Outriders",
+        "B": "Servants",
+        "C": "Attendants",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Bosheen dam is located in ___?",
+      "options": {
+        "A": "Brazil",
+        "B": "Peru",
+        "C": "Ghanna",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The length of Jeddah tower is",
+      "options": {
+        "A": "600 meter",
+        "B": "800 meter",
+        "C": "1000 meter",
+        "D": "3000 meter"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When Halaku khan sacked Baghdad?",
+      "options": {
+        "A": "1230",
+        "B": "1240",
+        "C": "1248",
+        "D": "1258"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The ___ are actual dried flower bud used as spice .",
+      "options": {
+        "A": "Cinnamon",
+        "B": "Cloves",
+        "C": "Saffron",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which animals serves in the sport of polo?",
+      "options": {
+        "A": "Donkey",
+        "B": "Cow",
+        "C": "Horse",
+        "D": "Animal"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country has the most Airports?",
+      "options": {
+        "A": "Brazil",
+        "B": "USA",
+        "C": "Canada",
+        "D": ". Russia"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which state is not a member of Non-Proliferation Treaty?",
+      "options": {
+        "A": "China",
+        "B": "Iran",
+        "C": "North Korea",
+        "D": "USA"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who was the last Prime Minister of Turkey________?",
+      "options": {
+        "A": "Ahmet-Davutoglu",
+        "B": "Recep-Tayyib-Erdogen",
+        "C": "Binali Yıldırım",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The largest reservoir of fresh water is present in _____?",
+      "options": {
+        "A": "Himalaya (Glaciers)",
+        "B": "Alps",
+        "C": "Oceans",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the highest organ of United Nations?",
+      "options": {
+        "A": "General Assembly",
+        "B": "Secretariat",
+        "C": "International Court of Justice",
+        "D": "Security Council"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country has maximum death per million?",
+      "options": {
+        "A": "USA",
+        "B": "India",
+        "C": "Brasil",
+        "D": "Peru"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The muscles, tissues, and blood all are made up of____________?",
+      "options": {
+        "A": "Proteins",
+        "B": "Carbohydrate",
+        "C": "Vitamins",
+        "D": "Fats"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who defeated Marathas in 1761?",
+      "options": {
+        "A": "Syed Ahmed Shaheed",
+        "B": "Ahmad Shah Abdali",
+        "C": "Syed Ahmed Shah",
+        "D": "None of these"
+      },
+      "correct": "B"
     }
   ]
 }

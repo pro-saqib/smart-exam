@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2023 of Geography",
   "mcqs": [
     {
+      "question": "What is the length of the border between Pakistan and Afghanistan?",
+      "options": {
+        "A": "2611 km",
+        "B": "2350 km",
+        "C": "2282 km",
+        "D": "2430 km"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Which Continent has no desert?",
       "options": {
         "A": "Europe",
@@ -210,16 +220,6 @@
         "D": "Baluchistan"
       },
       "correct": "D"
-    },
-    {
-      "question": "What is the length of the border between Pakistan and Afghanistan?",
-      "options": {
-        "A": "2611 km",
-        "B": "2350 km",
-        "C": "2282 km",
-        "D": "2430 km"
-      },
-      "correct": "A"
     },
     {
       "question": "Mangla dam is located in _____?",

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { MCQ, Subject } from "@/lib/types";
 import { useApp } from "@/store/app-store";
 import type { SavedQuiz } from "@/store/app-store";
-import { Bookmark, BookmarkCheck, ArrowRight, RotateCcw, CheckCircle2, XCircle, AlertCircle, Play, Shuffle, SkipForward, Timer as TimerIcon } from "lucide-react";
+import { Bookmark, BookmarkCheck, ArrowRight, CheckCircle2, XCircle, AlertCircle, Play, Shuffle, SkipForward, Timer as TimerIcon } from "lucide-react";
 import { toast } from "sonner";
 
 export function QuizRunner({
@@ -14,6 +14,10 @@ export function QuizRunner({
   onStart,
   onReset,
   subjectId,
+  subjectName,
+  routePath,
+  routeParams,
+  routeSearch,
   savedState,
 }: {
   items: MCQ[];
@@ -24,6 +28,10 @@ export function QuizRunner({
   onStart?: () => void;
   onReset?: () => void;
   subjectId?: string;
+  subjectName?: string;
+  routePath?: string;
+  routeParams?: Record<string, string>;
+  routeSearch?: Record<string, unknown>;
   savedState?: SavedQuiz | null;
 }) {
   const { recordAttempt, toggleSolveLater, saveQuiz, clearSavedQuiz, subjects } = useApp();
@@ -42,48 +50,125 @@ export function QuizRunner({
   const [timeUp, setTimeUp] = useState(false);
   const [restored, setRestored] = useState(false);
   const [restoredItems, setRestoredItems] = useState<MCQ[] | null>(null);
+  const [sessionItems, setSessionItems] = useState<MCQ[] | null>(null);
 
   const activeItems = useMemo(() => {
+    if (sessionItems) return sessionItems;
     if (restoredItems) return restoredItems;
     if (selectedSubtopic === "__all__") return items;
     return mcqsBySubtopic[selectedSubtopic] ?? items;
-  }, [items, selectedSubtopic, mcqsBySubtopic, restoredItems]);
+  }, [items, selectedSubtopic, mcqsBySubtopic, restoredItems, sessionItems]);
 
-  // Save quiz state on unmount if quiz is in progress
+  const resolvedSubjectName = useMemo(() => {
+    if (subjectName) return subjectName;
+    return subjects.find((s) => s.id === subjectId)?.name || title || "Quiz";
+  }, [subjectName, subjects, subjectId, title]);
+
+  // Keep a ref to latest quiz state for safe unmount persistence without dependency loops
+  const stateRef = useRef({
+    started,
+    timeUp,
+    order,
+    idx,
+    score,
+    retryQueue,
+    elapsed,
+    startTs,
+    timeLimitMin,
+    shuffleOptions,
+    shuffleQuestions,
+    subjectId,
+    resolvedSubjectName,
+    routePath,
+    routeParams,
+    routeSearch,
+    title,
+    activeItems,
+  });
+
+  useEffect(() => {
+    stateRef.current = {
+      started,
+      timeUp,
+      order,
+      idx,
+      score,
+      retryQueue,
+      elapsed,
+      startTs,
+      timeLimitMin,
+      shuffleOptions,
+      shuffleQuestions,
+      subjectId,
+      resolvedSubjectName,
+      routePath,
+      routeParams,
+      routeSearch,
+      title,
+      activeItems,
+    };
+  });
+
+  // Helper to persist current quiz progress
+  const persistProgress = (currentIndex: number, currentScore: { correct: number; wrong: number }, currentRetryQueue: string[]) => {
+    if (!started || timeUp || order.length === 0 || currentIndex >= order.length) return;
+    saveQuiz({
+      mode: title,
+      routePath,
+      routeParams,
+      routeSearch,
+      subjectId: subjectId || "",
+      subjectName: resolvedSubjectName,
+      currentIndex,
+      order,
+      items: activeItems.map((m) => m.id),
+      score: currentScore,
+      retryQueue: currentRetryQueue,
+      elapsed,
+      startTs: startTs || Date.now(),
+      timeLimitMin,
+      shuffleOptions,
+      shuffleQuestions,
+    });
+  };
+
+  // Save quiz state ONLY on actual unmount if quiz is in progress
   useEffect(() => {
     return () => {
-      if (started && !timeUp && order.length > 0 && idx < order.length) {
-        const subjectName = subjects.find((s) => s.id === subjectId)?.name || "Unknown";
-        saveQuiz({
-          mode: title,
-          subjectId: subjectId || "",
-          subjectName,
-          currentIndex: idx,
-          order,
-          items: activeItems.map((m) => m.id),
-          score,
-          retryQueue,
-          elapsed,
-          startTs: startTs || 0,
-          timeLimitMin,
-          shuffleOptions,
-          shuffleQuestions,
+      const s = stateRef.current;
+      if (s.started && !s.timeUp && s.order.length > 0 && s.idx < s.order.length) {
+        useApp.getState().saveQuiz({
+          mode: s.title,
+          routePath: s.routePath,
+          routeParams: s.routeParams,
+          routeSearch: s.routeSearch,
+          subjectId: s.subjectId || "",
+          subjectName: s.resolvedSubjectName,
+          currentIndex: s.idx,
+          order: s.order,
+          items: s.activeItems.map((m) => m.id),
+          score: s.score,
+          retryQueue: s.retryQueue,
+          elapsed: s.elapsed,
+          startTs: s.startTs || 0,
+          timeLimitMin: s.timeLimitMin,
+          shuffleOptions: s.shuffleOptions,
+          shuffleQuestions: s.shuffleQuestions,
         });
       }
     };
-  }, [started, timeUp, order, idx, score, retryQueue, elapsed, startTs, timeLimitMin, shuffleOptions, shuffleQuestions, subjectId, title, subjects, activeItems]);
+  }, []);
 
-  // Restore from saved state
+  // Restore from saved state on initial load / when savedState first provided
+  const initialRestoreDone = useRef(false);
   useEffect(() => {
-    if (savedState && !restored && !started) {
-      console.log("Restoring quiz:", savedState);
-      // Reconstruct items from saved IDs using current mcqs store
+    if (savedState && !initialRestoreDone.current && !started) {
+      initialRestoreDone.current = true;
       const allMcqs = useApp.getState().mcqs;
       if (savedState.items && savedState.items.length > 0) {
         const restoredMcs = savedState.items.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
         if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
       } else if (savedState.order && savedState.order.length > 0) {
-        // Fallback: reconstruct from order IDs
         const restoredMcs = savedState.order.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
         if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
       }
@@ -99,30 +184,35 @@ export function QuizRunner({
       setStarted(true);
       setRestored(true);
       if (onStart) onStart();
-      clearSavedQuiz();
     }
-  }, [savedState, restored, started]);
+  }, [savedState, started, onStart]);
 
-  const current = useMemo(() => activeItems.find((m) => m.id === order[idx]), [activeItems, order, idx]);
+  const current = useMemo(() => {
+    if (!order[idx]) return undefined;
+    return activeItems.find((m) => m.id === order[idx]) || useApp.getState().mcqs.find((m) => m.id === order[idx]);
+  }, [activeItems, order, idx]);
+
+  const isBookmarked = useApp((s) => Boolean(s.mcqs.find((m) => m.id === current?.id)?.solveLater));
 
   // Timer tick
   useEffect(() => {
-    if (!started || startTs === null || timeUp || idx >= items.length) return;
+    if (!started || startTs === null || timeUp || idx >= order.length) return;
     const id = setInterval(() => setElapsed(Math.floor((Date.now() - startTs) / 1000)), 500);
     return () => clearInterval(id);
-  }, [started, startTs, timeUp, idx, items.length]);
+  }, [started, startTs, timeUp, idx, order.length]);
 
   // Time limit enforcement
   useEffect(() => {
     if (!started || timeLimitMin === 0) return;
     if (elapsed >= timeLimitMin * 60 && !timeUp) {
       setTimeUp(true);
+      clearSavedQuiz();
       toast.message("Time's up!");
-      setIdx(items.length); // jump to summary
+      setIdx(order.length); // jump to summary
     }
-  }, [elapsed, timeLimitMin, started, timeUp, items.length]);
+  }, [elapsed, timeLimitMin, started, timeUp, order.length, clearSavedQuiz]);
 
-  // Keyboard shortcuts (declare early so hooks order is stable)
+  // Keyboard shortcuts
   useEffect(() => {
     const fn = (e: KeyboardEvent) => {
       if (e.key === "Enter" && picked !== null) {
@@ -137,29 +227,35 @@ export function QuizRunner({
     return () => window.removeEventListener("keydown", fn);
   }, [picked]);
 
-  // Auto-advance 1s after a selection while preserving the manual Next button
+  // Auto-advance 500ms after a correct selection
   useEffect(() => {
     if (picked === null) return;
-    // Only auto-advance when the selected answer is correct.
     if (current && current.correct && picked === current.correct) {
       const t = setTimeout(() => {
         setPicked(null);
-        setIdx((i) => i + 1);
+        const nextIdx = idx + 1;
+        setIdx(nextIdx);
+        if (nextIdx >= order.length) {
+          clearSavedQuiz();
+        } else {
+          persistProgress(nextIdx, score, retryQueue);
+        }
       }, 500);
       return () => clearTimeout(t);
     }
     return;
-  }, [picked, current]);
+  }, [picked, current, idx, order.length, score, retryQueue]);
 
-  // When session ends (idx >= items.length), ensure elapsed is finalised
+  // When session ends, finalize
   useEffect(() => {
     if (!started || startTs === null) return;
-    if (idx >= items.length) {
+    if (idx >= order.length && order.length > 0) {
       setElapsed(Math.floor((Date.now() - startTs) / 1000));
+      clearSavedQuiz();
     }
-  }, [idx, items.length, started, startTs]);
+  }, [idx, order.length, started, startTs, clearSavedQuiz]);
 
-  if (!items.length) {
+  if (!items.length && !restoredItems?.length) {
     return (
       <div className="rounded-2xl border border-dashed border-border p-6 md:p-8 text-muted-foreground max-w-xl">
         {emptyText}
@@ -168,8 +264,15 @@ export function QuizRunner({
   }
 
   const begin = (idsOverride?: string[]) => {
-    const ids = idsOverride ?? activeItems.map((m) => m.id);
-    setOrder(shuffleQuestions ? shuffle(ids) : ids);
+    clearSavedQuiz();
+    const allMcqs = useApp.getState().mcqs;
+    const active = idsOverride
+      ? (idsOverride.map((id) => allMcqs.find((m) => m.id === id) || activeItems.find((m) => m.id === id)).filter(Boolean) as MCQ[])
+      : activeItems;
+    setSessionItems(active);
+    const ids = idsOverride ?? active.map((m) => m.id);
+    const newOrder = shuffleQuestions ? shuffle(ids) : ids;
+    setOrder(newOrder);
     setIdx(0);
     setPicked(null);
     setScore({ correct: 0, wrong: 0 });
@@ -178,11 +281,14 @@ export function QuizRunner({
     setTimeUp(false);
     setStartTs(Date.now());
     setStarted(true);
+    setRestored(true);
     if (onStart) onStart();
   };
 
   const close = () => {
     setStarted(false);
+    setSessionItems(null);
+    setRestoredItems(null);
     clearSavedQuiz();
     if (onReset) onReset();
   };
@@ -312,29 +418,41 @@ export function QuizRunner({
     setPicked(letter);
     if (current.correct) {
       const ok = await recordAttempt(current.id, letter);
-      setScore((s) => ({ correct: s.correct + (ok ? 1 : 0), wrong: s.wrong + (ok ? 0 : 1) }));
-      if (!ok) setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
+      const newScore = { correct: score.correct + (ok ? 1 : 0), wrong: score.wrong + (ok ? 0 : 1) };
+      const newRetryQueue = !ok && !retryQueue.includes(current.id) ? [...retryQueue, current.id] : retryQueue;
+      setScore(newScore);
+      setRetryQueue(newRetryQueue);
+      persistProgress(idx, newScore, newRetryQueue);
     }
   };
 
-  // Auto-advance 1s after a selection while preserving the manual Next button
-  // (moved earlier)
-
   const next = () => {
     setPicked(null);
-    setIdx((i) => i + 1);
+    const nextIdx = idx + 1;
+    setIdx(nextIdx);
+    if (nextIdx >= order.length) {
+      clearSavedQuiz();
+    } else {
+      persistProgress(nextIdx, score, retryQueue);
+    }
   };
 
   const skip = () => {
     if (!current) return;
-    setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
+    const newRetryQueue = retryQueue.includes(current.id) ? retryQueue : [...retryQueue, current.id];
+    setRetryQueue(newRetryQueue);
     setPicked(null);
-    setIdx((i) => i + 1);
+    const nextIdx = idx + 1;
+    setIdx(nextIdx);
+    if (nextIdx >= order.length) {
+      clearSavedQuiz();
+    } else {
+      persistProgress(nextIdx, score, newRetryQueue);
+    }
   };
 
-  // keyboard handler moved earlier to keep hooks stable
-
-  const progress = ((idx) / items.length) * 100;
+  const totalQuestions = order.length || activeItems.length;
+  const progress = totalQuestions > 0 ? (idx / totalQuestions) * 100 : 0;
 
   // Build (possibly shuffled) option order for the current question
   const allLetters = (["A", "B", "C", "D", "E"] as const);
@@ -350,7 +468,7 @@ export function QuizRunner({
       <header className="flex items-center justify-between gap-3">
         <div>
           <div className="text-xs text-muted-foreground">{title}</div>
-          <div className="text-lg font-medium">Question {idx + 1} of {items.length}</div>
+          <div className="text-lg font-medium">Question {idx + 1} of {totalQuestions}</div>
         </div>
         <div className="flex items-center gap-3 text-xs">
           <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md border border-border bg-secondary/60 font-mono ${
@@ -362,10 +480,21 @@ export function QuizRunner({
           <span className="text-success">✓ {score.correct}</span>
           <span className="text-destructive">✗ {score.wrong}</span>
           <button
-            onClick={async () => { await toggleSolveLater(current.id); toast.success(current.solveLater ? "Removed bookmark" : "Saved for later"); }}
-            className="p-2 rounded-lg hover:bg-accent"
+            onClick={async () => {
+              if (!current) return;
+              await toggleSolveLater(current.id);
+              toast.success(isBookmarked ? "Removed bookmark" : "Saved for later");
+            }}
+            className="p-2 rounded-lg hover:bg-accent transition-colors"
+            title={isBookmarked ? "Remove bookmark" : "Save for later"}
           >
-            {current.solveLater ? <BookmarkCheck className="size-5 text-primary-glow" /> : <Bookmark className="size-5" />}
+            <Bookmark
+              className={`size-5 transition-all ${
+                isBookmarked
+                  ? "fill-primary text-primary"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+            />
           </button>
         </div>
       </header>
@@ -446,8 +575,6 @@ function fmtTime(total: number) {
   const s = total % 60;
   return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
 }
-
-
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];

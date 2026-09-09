@@ -2,6 +2,176 @@
   "name": "PPSC Past Papers MCQs 2004 to 2020 of Everyday Science",
   "mcqs": [
     {
+      "question": "When was the Lucknow Pact made between the Muslim League and Congress?",
+      "options": {
+        "A": "November 1915",
+        "B": "December 1917",
+        "C": "November 1914",
+        "D": "December 1916"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many bones in human body (skeleton)?",
+      "options": {
+        "A": "200",
+        "B": "206",
+        "C": "270",
+        "D": "300"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Deficiency of Iodine causes ____?",
+      "options": {
+        "A": "Imbalances in fluid volume in the vessels and tissues",
+        "B": "Goiter",
+        "C": "Tetnas",
+        "D": "Cancer"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the largest gland in the human body?",
+      "options": {
+        "A": "Thyroid",
+        "B": "Liver",
+        "C": "Pancreas",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who discover Penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Edward Jenner",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "GPS is an abbreviation of _____?",
+      "options": {
+        "A": "Google Positioning System",
+        "B": "Global Positioning System",
+        "C": "Global Positioning Station",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Normal human body temperature 98.6°F corresponds to _______?",
+      "options": {
+        "A": "55°C",
+        "B": "42°C",
+        "C": "37°C",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A universal donor has the blood group?",
+      "options": {
+        "A": "B",
+        "B": "O-",
+        "C": "AB",
+        "D": "A"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which acid is produced in the gastric juice of the stomach to digest food?",
+      "options": {
+        "A": "Hydrochloric Acid",
+        "B": "Nitric Acid",
+        "C": "Sulphuric Acid",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is largest human cell in the body?",
+      "options": {
+        "A": "Ovum",
+        "B": "Stem",
+        "C": "Nerve",
+        "D": "Fat"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the largest part of the human brain?",
+      "options": {
+        "A": "Encephalus",
+        "B": "Cerebellum",
+        "C": "Middle brain",
+        "D": "Cerebrum"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which is the shortest/smallest bone in human body?",
+      "options": {
+        "A": "Stapes",
+        "B": "Tibia",
+        "C": "Femur",
+        "D": "Humerus"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the longest and the strongest bone in human body?",
+      "options": {
+        "A": "Femur",
+        "B": "Stapes",
+        "C": "Tibia",
+        "D": "Femur"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the largest internal organ of human body?",
+      "options": {
+        "A": "Kidney",
+        "B": "Lungs",
+        "C": "Liver",
+        "D": "Brain"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who invented Telephone?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Nikola Tesla",
+        "C": "Alexander Graham Bell",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "DNA is the abbreviation of _______?",
+      "options": {
+        "A": "Decomposednucleic Acid",
+        "B": "Degeneratenucleic Acid",
+        "C": "Deoxyribonucleic Acid",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What organ produces bile?",
+      "options": {
+        "A": "Gall bladder",
+        "B": "Kidneys",
+        "C": "Liver",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
       "question": "What is total area of the Pakistan?",
       "options": {
         "A": "899,913 km²",
@@ -120,16 +290,6 @@
         "D": "Hafiz Jalandhri"
       },
       "correct": "D"
-    },
-    {
-      "question": "A universal donor has the blood group?",
-      "options": {
-        "A": "B",
-        "B": "O-",
-        "C": "AB",
-        "D": "A"
-      },
-      "correct": "B"
     },
     {
       "question": "The reciprocal of bulk modulus is called?",
@@ -252,16 +412,6 @@
       "correct": "C"
     },
     {
-      "question": "Which is the largest gland in the human body?",
-      "options": {
-        "A": "Thyroid",
-        "B": "Liver",
-        "C": "Pancreas",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "What will happen if the ozone layer disappears?",
       "options": {
         "A": "UV Rays reach the earth",
@@ -280,26 +430,6 @@
         "D": "None of the above"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who invented Telephone?",
-      "options": {
-        "A": "Thomas Edison",
-        "B": "Nikola Tesla",
-        "C": "Alexander Graham Bell",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who discover Penicillin?",
-      "options": {
-        "A": "Alexander Fleming",
-        "B": "Louis Pasteur",
-        "C": "Edward Jenner",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "The boiling point of water on a centigrade scale is?",
@@ -422,16 +552,6 @@
       "correct": "A"
     },
     {
-      "question": "When was the Lucknow Pact made between the Muslim League and Congress?",
-      "options": {
-        "A": "November 1915",
-        "B": "December 1917",
-        "C": "November 1914",
-        "D": "December 1916"
-      },
-      "correct": "D"
-    },
-    {
       "question": "Necrophobia is a fear of ______?",
       "options": {
         "A": "Death",
@@ -450,16 +570,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "What organ produces bile?",
-      "options": {
-        "A": "Gall bladder",
-        "B": "Kidneys",
-        "C": "Liver",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "When white light is passed through a prism, it splits into ______ colors.",
@@ -528,16 +638,6 @@
         "B": "50,075 km",
         "C": "40,075 km",
         "D": "30,000 km"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "DNA is the abbreviation of _______?",
-      "options": {
-        "A": "Decomposednucleic Acid",
-        "B": "Degeneratenucleic Acid",
-        "C": "Deoxyribonucleic Acid",
-        "D": "None of these"
       },
       "correct": "C"
     },
@@ -640,16 +740,6 @@
         "D": "D"
       },
       "correct": "C"
-    },
-    {
-      "question": "How many bones in human body (skeleton)?",
-      "options": {
-        "A": "200",
-        "B": "206",
-        "C": "270",
-        "D": "300"
-      },
-      "correct": "B"
     },
     {
       "question": "Vaccination was discovered by?",
@@ -890,16 +980,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Normal human body temperature 98.6°F corresponds to _______?",
-      "options": {
-        "A": "55°C",
-        "B": "42°C",
-        "C": "37°C",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "Which type of vitamin is used for human body through sun?",
@@ -1552,16 +1632,6 @@
       "correct": "B"
     },
     {
-      "question": "Deficiency of Iodine causes ____?",
-      "options": {
-        "A": "Imbalances in fluid volume in the vessels and tissues",
-        "B": "Goiter",
-        "C": "Tetnas",
-        "D": "Cancer"
-      },
-      "correct": "B"
-    },
-    {
       "question": "The percentage of water in whole Milk is about _____?",
       "options": {
         "A": "70%",
@@ -1577,16 +1647,6 @@
         "A": "Speed",
         "B": "Velocity",
         "C": "Temperature",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "GPS is an abbreviation of _____?",
-      "options": {
-        "A": "Google positing system",
-        "B": "Global positioning system",
-        "C": "Global positioning station",
         "D": "None of these"
       },
       "correct": "B"
@@ -1660,16 +1720,6 @@
         "D": "24 hours and 1 mints and 10 seconds"
       },
       "correct": "B"
-    },
-    {
-      "question": "Which is the longest and the strongest bone in human body?",
-      "options": {
-        "A": "Femur",
-        "B": "Stapes",
-        "C": "Tibia",
-        "D": "Femur"
-      },
-      "correct": "A"
     },
     {
       "question": "The first session of the first Constituent Assembly of Pakistan was held on ________?",
@@ -1882,16 +1932,6 @@
       "correct": "C"
     },
     {
-      "question": "What is the largest internal organ of human body?",
-      "options": {
-        "A": "Kidney",
-        "B": "Lungs",
-        "C": "Liver",
-        "D": "Brain"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Which of the following increases the rate of a chemical reaction?",
       "options": {
         "A": "Catalyst",
@@ -2042,16 +2082,6 @@
       "correct": "B"
     },
     {
-      "question": "Which acid is produced in the gastric juice of the stomach to digest food?",
-      "options": {
-        "A": "Hydrochloric Acid",
-        "B": "Nitric Acid",
-        "C": "Sulphuric Acid",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "What is the condition commonly known as \"lockjaw\" caused by?",
       "options": {
         "A": "Diphtheria",
@@ -2170,16 +2200,6 @@
         "D": "Dmitri Mendeleev"
       },
       "correct": "D"
-    },
-    {
-      "question": "Which is the shortest/smallest bone in human body?",
-      "options": {
-        "A": "Stapes",
-        "B": "Tibia",
-        "C": "Femur",
-        "D": "Humerus"
-      },
-      "correct": "A"
     },
     {
       "question": "Which chemical is used for purification (purity) of water?",
@@ -4232,16 +4252,6 @@
       "correct": "A"
     },
     {
-      "question": "Which is largest human cell in the body?",
-      "options": {
-        "A": "Ovum",
-        "B": "Stem",
-        "C": "Nerve",
-        "D": "Fat"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Muscular and nervous disorder is due to lack of which vitamin?",
       "options": {
         "A": "Vitamin E",
@@ -4999,6 +5009,166 @@
         "D": "yellow light"
       },
       "correct": "A"
+    },
+    {
+      "question": "Greenhouse effect causes",
+      "options": {
+        "A": "Global warming",
+        "B": "Cooling",
+        "C": "Planets to grow better",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A species can be defined as a group of organisms that",
+      "options": {
+        "A": "Can form better than kind of organism",
+        "B": "Can live with one another",
+        "C": "Cannot live with one another",
+        "D": "Can breed with one another"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Alexander Fleming Discovered:",
+      "options": {
+        "A": "X-rays",
+        "B": "Stethoscope",
+        "C": "Penicillin",
+        "D": "Radio"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Arteries become hard due to the deposition of ----in them.",
+      "options": {
+        "A": "cholesterol",
+        "B": "fats",
+        "C": "both A and B",
+        "D": "none of them"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Thyroid Gland is located in which part of a human body?",
+      "options": {
+        "A": "Leg",
+        "B": "Neck",
+        "C": "Arm",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Our body needs vitamin D for:",
+      "options": {
+        "A": "Immune System Health",
+        "B": "Healthy Skin",
+        "C": "Proper absorption of Calcium, stored in bones",
+        "D": "All of the above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is a mixture of Potassium Nitrate Powdered Charcoal and Sulphur called?",
+      "options": {
+        "A": "Gun Powder",
+        "B": "Glass",
+        "C": "Paint",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Malaria is caused by?",
+      "options": {
+        "A": "Virus",
+        "B": "Bacteria",
+        "C": "Protozoa",
+        "D": "Fungi"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Protein fibers like actin and myosin take part in muscle:",
+      "options": {
+        "A": "Repair",
+        "B": "Formation",
+        "C": "Expansion",
+        "D": "Contraction"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The biggest planet is",
+      "options": {
+        "A": "Venus",
+        "B": "Mars",
+        "C": "Mercury",
+        "D": "Jupiter"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Geology describes the rocky parts of the Earth's",
+      "options": {
+        "A": "Core",
+        "B": "mantle",
+        "C": "Crust",
+        "D": "Convection Currents"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A virus can spread through:",
+      "options": {
+        "A": "Contaminated food or water",
+        "B": "Coughing",
+        "C": "Touch",
+        "D": "All"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The humidity in air tells us about the ratio of ____in the air",
+      "options": {
+        "A": "Oxygen",
+        "B": "Water vapors",
+        "C": "Nitrogen",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Gravitational acceleration for the bodies falling freely is",
+      "options": {
+        "A": "zero",
+        "B": "negative",
+        "C": "positive",
+        "D": "None"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "When a disease occurs over a large area of earth's surface at one time it is called",
+      "options": {
+        "A": "none",
+        "B": "viral disease",
+        "C": "Endemic disease",
+        "D": "Pandemic disease"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Hypothermia is caused by exposure to _____?",
+      "options": {
+        "A": "Extremely hot",
+        "B": "Extreme cold",
+        "C": "Extreme heat",
+        "D": "None of the above"
+      },
+      "correct": "B"
     }
   ]
 }

@@ -2,6 +2,26 @@
   "name": "PPSC Past Papers all MCQs 2021 of Current Affairs",
   "mcqs": [
     {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Ismail Ould Cheikh Ahmed",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Who is the Current Chief Minister (CM) of Gilgit-Baltistan (GB)?",
       "options": {
         "A": "Khalid Khurshid Khan",
@@ -32,16 +52,6 @@
       "correct": "C"
     },
     {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Who is the current Prime Minister of the United Kingdom (UK)?",
       "options": {
         "A": "Andy Burnham",
@@ -50,16 +60,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "Who is the Current Secretary General of OIC?",
-      "options": {
-        "A": "Dr Yousaf",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "Who is the Current Deputy Chairman of Senate of Pakistan?",
@@ -307,6 +307,286 @@
         "A": "Andy Jassy",
         "B": "Jeff Bezos",
         "C": "Bill gates",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Chief Justice of Lahore High Court?",
+      "options": {
+        "A": "Justice Tahira Safdar",
+        "B": "Justice Ayesha Malik",
+        "C": "Justice Aalia Neelum",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Leader of Hurriyat Conference?",
+      "options": {
+        "A": "Syed Ali Shah Geelani",
+        "B": "Yaseen Malik",
+        "C": "Masarat Alam Bhat",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the current CEO of Pakistan Steel Mill?",
+      "options": {
+        "A": "Mr. Shahid Javed",
+        "B": "Mr. Ali Akbar",
+        "C": "Mr. Asad Islam Mahni",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Chief Justice of the European Court of Human Rights?",
+      "options": {
+        "A": "Robert Spano",
+        "B": "Marko Bošnjak",
+        "C": "Paul Mahoney",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Queen of the UK?",
+      "options": {
+        "A": "Queen Elizabeth II",
+        "B": "Queen Mary",
+        "C": "Queen Camilla",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "According to Reporters Without Borders (RWB), Pakistan was ______ most dangerous countries to work as a Journalist during 2003 to 2022?",
+      "options": {
+        "A": "Third",
+        "B": "Seventh",
+        "C": "Fifth",
+        "D": "Second"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many countries who participated in Aman Naval exercise in 2021?",
+      "options": {
+        "A": "42",
+        "B": "43",
+        "C": "45",
+        "D": "46"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Leader of Hamas group of Palestine?",
+      "options": {
+        "A": "Ismail Haniyeh",
+        "B": "Yahya Sinwar",
+        "C": "Khaled Mashal",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Federal Minister for Affairs Kashmir and Gilgit-Baltistan?",
+      "options": {
+        "A": "Engr Amir Muqam",
+        "B": "Ali Amin Gandapur",
+        "C": "Sherry Rehman",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who is the Current Speaker of Punjab Assembly?",
+      "options": {
+        "A": "Dost Muhammad Mazari",
+        "B": "Chaudhry Pervaiz Elahi",
+        "C": "Malik Muhammad Ahmad Khan",
+        "D": "Sardar Sibtain Khan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Organization of dependencies of UK which are now sovereign states where nominal need of organization is British Monarch?",
+      "options": {
+        "A": "European Union",
+        "B": "Common Wealth",
+        "C": "African countries",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "According to Auto Policy 2021, auto companies are bound to provide cars in ______?",
+      "options": {
+        "A": "2 months",
+        "B": "3 months",
+        "C": "4 months",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "GSP plus provided how much relief on Pakistan goods?",
+      "options": {
+        "A": "63%",
+        "B": "66%",
+        "C": "69%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "As per Global Terrorism Index 2025, what is the rank of Pakistan?",
+      "options": {
+        "A": "9th",
+        "B": "8th",
+        "C": "10th",
+        "D": "th"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How much percentage Housing contributes to Pakistan GDP?",
+      "options": {
+        "A": "0.25%",
+        "B": "1 %",
+        "C": "2.5%",
+        "D": "3.00%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Abdullah Shahid, served president of UN General Assembly, is from which country?",
+      "options": {
+        "A": "Maldives",
+        "B": "Libya",
+        "C": "Portugal",
+        "D": "India"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Who became world’s richest person in 2021 ?",
+      "options": {
+        "A": "Elon Musk",
+        "B": "Bill Gates",
+        "C": "Jeff Bezos",
+        "D": "Mark Zuckerberg"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "How many months Nasir Jamshed cricketer stayed in jail ?",
+      "options": {
+        "A": "17 months",
+        "B": "12 months",
+        "C": "9 months",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country showed its intention to withdraw from open sky treaty?",
+      "options": {
+        "A": "Russia",
+        "B": "India",
+        "C": "China",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When US capitol hill journey incident occurred",
+      "options": {
+        "A": "5 January 2021",
+        "B": "6January 2021",
+        "C": "7 January 2021",
+        "D": "2 January 2021"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the present Secretary General of SAARC_______?",
+      "options": {
+        "A": "Golam Sarwar",
+        "B": "Hussain Irshad",
+        "C": "Vikram Nisa noor",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which Country plans to buy 12 JF-17A Block-III fighter jets from Pakistan in 2021?",
+      "options": {
+        "A": "Argentina",
+        "B": "Uganda",
+        "C": "Algeria",
+        "D": "Iran"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which country has bought three JF-17 Thunder fighter jets from Pakistan in May 2021?",
+      "options": {
+        "A": "Malaysia",
+        "B": "Iran",
+        "C": "Nigeria",
+        "D": "Afghistan"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Military coup in Myanmar is carried out against the government of _______?",
+      "options": {
+        "A": "Aung san suki",
+        "B": "Myint Swe",
+        "C": "Win Myint",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Brexit comes into force after a year of wrangling on:",
+      "options": {
+        "A": "January 01,2020",
+        "B": "January 01,2021",
+        "C": "January 01,2022",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Till July 2020 highest death rate due to coronavirus in which country.",
+      "options": {
+        "A": "Italy",
+        "B": "China",
+        "C": "USA",
+        "D": "Brazil"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pakistan got relief from karkay rental power case with the aid of which country",
+      "options": {
+        "A": "Russia",
+        "B": "Iran",
+        "C": "Turkey",
+        "D": "India"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which country launched Telescope Eye Sky?",
+      "options": {
+        "A": "China",
+        "B": "Russia",
+        "C": "USA",
         "D": "None of these"
       },
       "correct": "A"

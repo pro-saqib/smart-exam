@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, redirect } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Plus, X } from "lucide-react";
 import { toast } from "sonner";
@@ -10,6 +10,14 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useApp } from "@/store/app-store";
 
 export const Route = createFileRoute("/extractor")({
+  beforeLoad: async ({ context }) => {
+    const user = (context as any).user;
+    if (!user || user.role !== "admin") {
+      throw redirect({
+        to: "/",
+      });
+    }
+  },
   head: () => ({
     meta: [
       { title: "MCQ Extractor — PrepMind" },

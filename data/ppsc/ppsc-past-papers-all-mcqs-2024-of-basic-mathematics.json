@@ -2,6 +2,16 @@
   "name": "PPSC Past Papers all MCQs 2024 of Basic Mathematics",
   "mcqs": [
     {
+      "question": "A number is increased by 20% and then decreased by 20%. Find the net increase or decrease percent?",
+      "options": {
+        "A": "Does not changes",
+        "B": "Decreased by 4%",
+        "C": "Increased by 4%",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
       "question": "If a dishwasher cleans 1350 dishes in 1 hour, how many dishes will it wash in 16 minutes?",
       "options": {
         "A": "360",
@@ -62,16 +72,6 @@
       "correct": "B"
     },
     {
-      "question": "A number is increased by 20% and then decreased by 20%. Find the net increase or decrease percent?",
-      "options": {
-        "A": "Does not changes",
-        "B": "Decreased by 4%",
-        "C": "Increased by 4%",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
       "question": "What does a trade surplus mean?",
       "options": {
         "A": "Imports are greater than exports",
@@ -100,6 +100,1335 @@
         "D": "6/5"
       },
       "correct": "B"
+    },
+    {
+      "question": "What is the sum of all prime numbers from 60 to 80?",
+      "options": {
+        "A": "349",
+        "B": "341",
+        "C": "361",
+        "D": "351"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following ratios is the largest? 7:15, 15:23, 21:29, None of these",
+      "options": {
+        "A": "7:15",
+        "B": "15:23",
+        "C": "21:29",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "One (1) KB (Kilobytes) = ______?",
+      "options": {
+        "A": "1024 kilobytes",
+        "B": "1024 bytes",
+        "C": "1024 megabytes",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the minimum length of runway of Javelin throw?",
+      "options": {
+        "A": "30m",
+        "B": "35m",
+        "C": "32m",
+        "D": "40m"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which term of the AP 2, 11, 20, 29, _______is 290?",
+      "options": {
+        "A": "33",
+        "B": "34",
+        "C": "35",
+        "D": "36"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One Kilometer is equal to ______ metres.",
+      "options": {
+        "A": "100 metres",
+        "B": "1000 metres",
+        "C": "10000 metres",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find the 4th proportional to 4, 16 and 7?",
+      "options": {
+        "A": "29",
+        "B": "28",
+        "C": "22",
+        "D": "25"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 2 : 7 :: x : 49 is then what is the value of “x”?",
+      "options": {
+        "A": "28",
+        "B": "52",
+        "C": "14",
+        "D": "40"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is _____?",
+      "options": {
+        "A": "Rs. 650",
+        "B": "Rs. 698",
+        "C": "Rs. 690",
+        "D": "Rs. 700"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Solve: 0.003 × 0.02 = _____?",
+      "options": {
+        "A": "0.06",
+        "B": "0.006",
+        "C": "0.0006",
+        "D": "0.00006"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A train covers a distance in 5 hours at 45 km/h. What speed is required to cover the same distance in 3 hours?",
+      "options": {
+        "A": "60 km/h",
+        "B": "70 km/h",
+        "C": "75 km/h",
+        "D": "90 km/h"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A flagstaff 17.5 m high casts a shadow of length 40.25 m. The height of the building, which casts a shadow of length 28.75 m under similar conditions will be?",
+      "options": {
+        "A": "10 m",
+        "B": "17.5 m",
+        "C": "12.5 m",
+        "D": "21.25 m"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following fractions is less than 7/8 and greater than 1/3?",
+      "options": {
+        "A": "17/24",
+        "B": "1/4",
+        "C": "23/24",
+        "D": "11/12"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the sum of two numbers is 30 and their difference is 8, what is their product?",
+      "options": {
+        "A": "201",
+        "B": "208",
+        "C": "202",
+        "D": "209"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If (7^a) (7^b) = (7^c) (7^d), what is d in terms of a, b and c?",
+      "options": {
+        "A": "c - ab",
+        "B": "c/ab",
+        "C": "a + b - c",
+        "D": "c - a - b"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is a subsidy?",
+      "options": {
+        "A": "A tax imposed by the government",
+        "B": "A loan given by the government",
+        "C": "A benefit given to individuals or businesses by the government",
+        "D": "A fine charged by the government"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If the height of a triangle is 4 cm less than its base, and the hypotenuse is 10 cm, find the other sides?",
+      "options": {
+        "A": "Base = 10 cm, Height = 6 cm",
+        "B": "Base = 8 cm, Height = 4 cm",
+        "C": "Base = 12 cm, Height = 8 cm",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Ali has 20 Rs and Asim has 16 Rs. What is the ratio between them?",
+      "options": {
+        "A": "4:5",
+        "B": "5:4",
+        "C": "3:4",
+        "D": "2:3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "(x^2 -4x+4)-(^2-6x+9)/X-3)simpilify",
+      "options": {
+        "A": "2x-5/x-3",
+        "B": "x+1/x-3",
+        "C": "x-1/x-3",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of two numbers is 25, and their difference is 13. What is the product of the two numbers?",
+      "options": {
+        "A": "120",
+        "B": "130",
+        "C": "114",
+        "D": "112"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the ratio of 8 inches to 7 feet?",
+      "options": {
+        "A": "2:20",
+        "B": "2:21",
+        "C": "1:10",
+        "D": "8:7"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A line segment's ratio is 4:6. How many parts are needed to divide it?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "10",
+        "D": "2"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If an object falls 27m and rebounds two-thirds, what is the total distance?",
+      "options": {
+        "A": "105m",
+        "B": "135m",
+        "C": "54m",
+        "D": "120m"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If scores are 75, 80, 85, what number makes the average 80?",
+      "options": {
+        "A": "78",
+        "B": "80",
+        "C": "82",
+        "D": "79"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A tank can be filled by pipe A in 3 hours and Pipe B in 5 hours. At 7 am, pipe A was opened. At what time will the tank be filled if pipe B was opened at 8 am?",
+      "options": {
+        "A": "9 : 30 am",
+        "B": "9 : 15 am",
+        "C": "9 : 45 am",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The total cost of placing an advertisement in a newspaper compromises of a fixed cost of $3.50 and a variable cost that depends on the number of words. Each word costs 25 cents. Find the total cost of pacing an advertisement containing 22 words?",
+      "options": {
+        "A": "$9.00",
+        "B": "$7.00",
+        "C": "$8.00",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A train travels 16 km in 20 minutes. What is the speed of the train in km/h?",
+      "options": {
+        "A": "36 km/h",
+        "B": "45 km/h",
+        "C": "48 km/h",
+        "D": "50 km/h"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If the average weight of 7 people is 70 kg, and one person with a weight of 80 kg is replaced with a person weighing 60 kg, what will the new average weight be?",
+      "options": {
+        "A": "68 kg",
+        "B": "67.14 kg",
+        "C": "70 kg",
+        "D": "71 kg"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Out of three given numbers, the first number is twice the second and thrice the third. If the average of the three numbers is 154, what is the difference between the first and the third number?",
+      "options": {
+        "A": "168",
+        "B": "126",
+        "C": "166",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "0.04 × 0.0162 × 0.001 is equal to?",
+      "options": {
+        "A": "0.000000648",
+        "B": "0.0000648",
+        "C": "0.00000648",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the average of the first 100 natural numbers?",
+      "options": {
+        "A": "25.5",
+        "B": "50",
+        "C": "50.5",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "(0.49) 4 x (0.343) 4 ÷ (0.2401) 4 = (70 ÷ 100) ? + 3",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "4",
+        "D": "7"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If a person pays Zakat as Rs. 8500, what is the total amount of their wealth?",
+      "options": {
+        "A": "Rs. 212,500",
+        "B": "Rs. 340,000",
+        "C": "Rs. 425,000",
+        "D": "Rs. 170,000"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "4.036 is divided by 0.04 we get?",
+      "options": {
+        "A": "100.9",
+        "B": "101.0",
+        "C": "100.0",
+        "D": "102.0"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The angle of depression of a point situated at a distance of 70m from the base of a tower is 60. the height of the tower is?",
+      "options": {
+        "A": "35square root 3m",
+        "B": "70 square root 3/3m",
+        "C": "70 m",
+        "D": "70 square root 3m"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The cost of an article was Rs.75. The cost was first increased by 20% and later on it was reduced by 20%. The present cost of the article is:",
+      "options": {
+        "A": "Rs.70",
+        "B": "Rs.72",
+        "C": "Rs.76",
+        "D": "Rs.75"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A washer man irons 4 shirts in 12 minutes. How many shirts he ironed in one hour?",
+      "options": {
+        "A": "16",
+        "B": "20",
+        "C": "24",
+        "D": "30"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If m:n = 3:2, the (4m+5n):(4m-5n) is equal to _____?",
+      "options": {
+        "A": "4:9",
+        "B": "11:1",
+        "C": "9:4",
+        "D": "9:1"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "0.057-0041= ?",
+      "options": {
+        "A": "0.16",
+        "B": "0.017",
+        "C": "0.2",
+        "D": "0.2970"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "An internet service provider charges a onetime setup fee of $100 and $50 each month for service. If c customers join at the same time and are on the service for m months, which of the following expressions represents the total amount, in dollars, the provider has charged these customers?",
+      "options": {
+        "A": "100c+50c",
+        "B": "100c+ 50m",
+        "C": "100m +50cm",
+        "D": "150cm"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If a 7, b5 and c = 3, then the value of a² + b²+c²-ab-bc-ca is?",
+      "options": {
+        "A": "-12",
+        "B": "12",
+        "C": "0",
+        "D": "8"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 42 women can do a work in 18 days, how many women will do the same work in 21 days?",
+      "options": {
+        "A": "18",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "21 binders can bind 1400 books in 15 days. How many binders will required to bind 800 books in 20 days?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "5",
+        "D": "3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the ratio of 12 minute to 1 hour:",
+      "options": {
+        "A": "1:6",
+        "B": "1:12",
+        "C": "1:5",
+        "D": "1:9"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which regular expressions belong to R where R=ab*cb*R=ab*+cb*?",
+      "options": {
+        "A": "ab",
+        "B": "abb",
+        "C": "cb",
+        "D": "All of these"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If the number of elements in set A is 20, in set B is 30, and the number of elements in the union of sets A and B is 40, what is the number of elements in the intersection of sets A & B:",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A man left his property of Rs.640000. A debt of Rs. 40,000 was due to him and Rs.5,000 was spent on his burial. Distribute the amount between his widow, 1 daughter and 2 sons according to the Islamic Law.",
+      "options": {
+        "A": "Rs. 64,375",
+        "B": "Rs. 74,375",
+        "C": "Rs. 84,375",
+        "D": "Rs. 94,375"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "If 8 men or 12 women can do a piece of work in 25 days, in how many days can the same work be done by 6 men and 11 women?",
+      "options": {
+        "A": "12 days",
+        "B": "15 days",
+        "C": "18 days",
+        "D": "21 days"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The product of two numbers is 9375 and the quotient, when the larger one is divided by the smaller, is 15. The sum of the numbers is:.",
+      "options": {
+        "A": "425",
+        "B": "395",
+        "C": "380",
+        "D": "400"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "In an examination 25% candidates failed in Mathematics and 20% students failed in English. If 5% students failed in both the subjects, find the percentage of students who passed in both the subjects?",
+      "options": {
+        "A": "40%",
+        "B": "60%",
+        "C": "50%",
+        "D": "70%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "زیاں کا متضاد ہے ؟",
+      "options": {
+        "A": "فائدہ",
+        "B": "نقصان",
+        "C": "دوہرہ فائدہ",
+        "D": "ان میں سے کوئی نہیں"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A die is rolled twice. Find the probability that 5 will come up both the times?",
+      "options": {
+        "A": "1/36",
+        "B": "6/36",
+        "C": "18/36",
+        "D": "4/36"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Find the area of a circle whose circumference is 31.4 centimeters?",
+      "options": {
+        "A": "68.5 cm²",
+        "B": "78.5 cm²",
+        "C": "66.5 cm²",
+        "D": "88.5 cm²"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The value of 6log10 to: 1000/3log10 100 is equal",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Find the compound interest on 50000 with the rate of 12% compounded quarterly for the period of 6 months?",
+      "options": {
+        "A": "2845",
+        "B": "3245",
+        "C": "3045",
+        "D": "3445"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the angle between minutes and hour hands of a clock 8:30?",
+      "options": {
+        "A": "60 degree",
+        "B": "65 degree",
+        "C": "70 degree",
+        "D": "75 degree"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A is the father of B. But B is not the son of A. What is B to A?",
+      "options": {
+        "A": "Son",
+        "B": "Niece",
+        "C": "Sister",
+        "D": "Daughter"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The numerator of a fraction is 4 less than denominator. If 1 is added to both its numerator and denominator, it becomes 1/2.Find the fraction.",
+      "options": {
+        "A": "3/7",
+        "B": "2/5",
+        "C": "5/9",
+        "D": "11/12"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "5005 - 5000 ÷ 10.00 =?",
+      "options": {
+        "A": "4505",
+        "B": "0.5",
+        "C": "50",
+        "D": "5000"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A person crosses a 500 m long street in 5 minutes. What is his speed in km/h?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The number of boys and girls in a school at 360 and 240 respectively. What is the ratio of number of boys to total students?",
+      "options": {
+        "A": "1.5",
+        "B": "3.4",
+        "C": "4.5",
+        "D": "3.5"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the simplified result of the expression: X+1/7 - X-1/8?",
+      "options": {
+        "A": "56/1",
+        "B": "1/56",
+        "C": "1/54",
+        "D": "54/1"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following symbols is commonly used for a proportion?",
+      "options": {
+        "A": "∧",
+        "B": "→",
+        "C": "∨",
+        "D": "∝"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A Mason fixed black tiles of square shape around a square room. there are 21 tiles on each side of the room. How many tiles did he need altogether?",
+      "options": {
+        "A": "88",
+        "B": "76",
+        "C": "80",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "(12 x^2 +mx+23)/2x +1 = 6x -18 +41 /2x +1 in the equation above, m is a constant and x =not - 1/2. What is the value of m?",
+      "options": {
+        "A": "-48",
+        "B": "-32",
+        "C": "-30",
+        "D": "42"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Y = a/b x +c y = d/e x+c The equation of two perpendicular lines in the xy plane are shown above. where a, b, c, d, and e are constants. of 0<1 , which of the following must be true?",
+      "options": {
+        "A": "d/e <1",
+        "B": "-1<d/e<0",
+        "C": "0<1",
+        "D": "d/c<1"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Two friends start running in an opposite direction 2km/h faster than the other. After one hour they are 10 km apart. What is the speed of both friends.",
+      "options": {
+        "A": "2km/h and 6km/h",
+        "B": "4 km/h and 6 km/h",
+        "C": "4 km/h and 8 km/h",
+        "D": "3 km/h and 6 km/h"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Amy buys d dollars worth of groceries each week and spends one fourth of those dollars on fruit. in terms of d, how many weeks will it take Amy to spend a total of 100$ just on fruit?",
+      "options": {
+        "A": "400/d",
+        "B": "d/100",
+        "C": "25/d",
+        "D": "d/25"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The next number in the series is 1/5, 1/9, 1/13, 1/17?",
+      "options": {
+        "A": "1/19",
+        "B": "1/20",
+        "C": "1/21",
+        "D": "1/24"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If the certain job can be finished by 18 workers in 26 days. How many workers are needed to finish job in 12 days?",
+      "options": {
+        "A": "33 days",
+        "B": "36 days",
+        "C": "39 days",
+        "D": "42 days"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The sum of two numbers is 10, and their product is 20. What is the sum of their reciprocals?",
+      "options": {
+        "A": "1/10",
+        "B": "1/2",
+        "C": "1",
+        "D": "2"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The selling price of an article is Rs. 118 and the profit earned is 50%. The cost price of the article is?",
+      "options": {
+        "A": "77.00",
+        "B": "80.00",
+        "C": "78.66",
+        "D": "68.79"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In the xy-plane, points (−3,5) and (6,8) lie on line I . Which of the following points is also on line I?",
+      "options": {
+        "A": "(12,11)",
+        "B": "(0,6)",
+        "C": "(9,10)",
+        "D": "(3,8)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many terms are there in 20, 25, 30, _______, 140?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "23",
+        "D": "22"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of the reciprocals of A’s ages (in years) 2 years ago and 2 years from now is. The present age of A is?",
+      "options": {
+        "A": "4 years",
+        "B": "5 years",
+        "C": "7 years",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Ali deposits an amount of X 65800 to obtain a simple interest at the rate of 14% per annum for 4 year. What total amount will Ali get at the end of 4 year?",
+      "options": {
+        "A": "102648",
+        "B": "102647",
+        "C": "102646",
+        "D": "102645"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If P : Q : = 8 : 15 and Q : R = 3 : 2, then find P : Q : R?",
+      "options": {
+        "A": "8 : 15 : 7",
+        "B": "7 : 15 : 8",
+        "C": "10 : 15 : 8",
+        "D": "8 : 15 : 10"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "P and Q need 8 days to complete a work. Q and R need 12 days to complete the same work. But P, Q and R together can finish it in 6 days. How many days will be needed if P and R together do it?",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "8",
+        "D": "7"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 6 persons working 8 hours a day earn Rs.8400 per week, then how much will 9 persons working 6 hours a day each per week?",
+      "options": {
+        "A": "Rs.9250",
+        "B": "Rs.9350",
+        "C": "Rs.9550",
+        "D": "Rs.9450"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "On a 20% discount sale, an article costs 596. What was the original price of the article?",
+      "options": {
+        "A": "Rs. 720",
+        "B": "Rs. 735",
+        "C": "Rs. 775",
+        "D": "Rs. 745"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A trader mixes 26 kg of rice at Rs. 20 per kg with 30 kg of rice of other variety at Rs. 36 per kg and sells the mixture at Rs. 30 per kg. His profit percentage is:",
+      "options": {
+        "A": "5%",
+        "B": "16%",
+        "C": "10%",
+        "D": "8%"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "if a+b+c=0 then value of (a+b/c + b+c/a + c+a/b) (a/b+c +b/c+a +c/a+b) is ?",
+      "options": {
+        "A": "8",
+        "B": "-3",
+        "C": "9",
+        "D": "0"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Ali got a life insurance policy of Rs. 500,000. Rate of annual premium at 4.5% of the total amount of the policy whereas the policy fee is at the rate of 0.25%. Find the annual premium of the policy?",
+      "options": {
+        "A": "Rs. 23530",
+        "B": "Rs. 25250",
+        "C": "Rs. 23750",
+        "D": "Rs. 26000"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If one angle of a parallelogram is 24° less than twice the smallest angle then the largest angle of the parallelogram is?",
+      "options": {
+        "A": "112°",
+        "B": "176°",
+        "C": "68°",
+        "D": "102°"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the number of ways that 4 boys and 3 girls can be seated so that boys and girls alternate?",
+      "options": {
+        "A": "120",
+        "B": "72",
+        "C": "144",
+        "D": "12"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Considering the following pattern 2² + 1 = 5, 3² + 1 = 10, 4² + 17, 5² + 1 = 26, . . . . . . ., the 8th line in the pattern is?",
+      "options": {
+        "A": "8² + 1 = 64",
+        "B": "10² + 1 = 101",
+        "C": "7² + 1 = 50",
+        "D": "9² + 1 = 82"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If k ≤ x ≤ 3k + 12, which of the following must be true? I. x - 12 ≤ 3k II. k ≥ -6 III. x - k ≥ 0",
+      "options": {
+        "A": "I only",
+        "B": "I and II only",
+        "C": "II and III only",
+        "D": "I, II, and III"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A group of five clerks has been assigned to insert 24,000 letters into envelopes. The clerks perform this work at the following rates of speed: Clerk A, 1100 letters an hour; Clerk B, 1450 letters an hour; Clerk C, 1200 letters an hour; Clerk D, 1300 letters an hour; Clerk E, 1250 letters an hour. At the end of two hours of work, Clerk C and D are assigned to another task. From the time that Clerks C and D were taken off the assignment, the number of hours required for the remaining clerks to complete this assignment is?",
+      "options": {
+        "A": "More than 4 hr, but less than 6 hr",
+        "B": "More than 6 hr",
+        "C": "More than 4 hr, but less than 6 hr",
+        "D": "More than 2 hr, but less than 4 hr"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "How many pieces of 13.2 cm can be cut from from a 330 cm long rod?",
+      "options": {
+        "A": "2.5",
+        "B": "43.56",
+        "C": "25",
+        "D": "250"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Jerry estimates that there are m marbles in a jar. Harry, who knows the actual number of marbles in the jar, notes that the actual number, n, is within 10 marbles (inclusive) of Jerry's estimate. Which of the following inequalities represents the relationship between Jerry's estimate and the actual number of marbles in the jar?",
+      "options": {
+        "A": "n ≤ m ≤ 10n",
+        "B": "m/10 ≤ n ≤ 10m",
+        "C": "n + 10 ≤ m ≤ n - 10",
+        "D": "m - 10 ≤ n ≤ m + 10"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is the height of hurdles used in the 110-meter hurdles race?",
+      "options": {
+        "A": "0.914 meters",
+        "B": "1.067 meters",
+        "C": "1.219 meters",
+        "D": "0.762 meters"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which logic unit gives 0 output if all inputs are 1?",
+      "options": {
+        "A": "NOR",
+        "B": "NAND",
+        "C": "Both A and B",
+        "D": "NOT"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If the Sohail's salary is 10% more than Sajjad's salary then what will be the Sajjad's salary",
+      "options": {
+        "A": "9 1/11%",
+        "B": "10%",
+        "C": "20%",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The sum of the squares of two numbers is 97 and the squares of their difference is 25. The product of the two numbers is",
+      "options": {
+        "A": "45",
+        "B": "36",
+        "C": "60",
+        "D": "76"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the area of a rectangle with a length of 7 cm and a width of 2 cm?",
+      "options": {
+        "A": "9 cm²",
+        "B": "12 cm²",
+        "C": "14 cm²",
+        "D": "16 cm²"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "24 workers working 7 hours a day produce 4000 units in 30 days. In how many days 30 workers working 8 hours a day will produce 3500 units?",
+      "options": {
+        "A": "21 days",
+        "B": "22 days",
+        "C": "24 days",
+        "D": "25 days"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 28,800 is the actual price, what will be the price after a 20% discount?",
+      "options": {
+        "A": "22,800",
+        "B": "23,040",
+        "C": "24,000",
+        "D": "25,000"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Find the odd one out: 140, 340, 540, 730, 940, 1140",
+      "options": {
+        "A": "140",
+        "B": "340",
+        "C": "540",
+        "D": "730"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Umar paid 7895 as usher at 10% of the total amount he earned. What was the total amount he earned?",
+      "options": {
+        "A": "7895",
+        "B": "78950",
+        "C": "70000",
+        "D": "90000"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the decimal value of the fraction 1/62.5?",
+      "options": {
+        "A": "0.016",
+        "B": "0.025",
+        "C": "0.013",
+        "D": "0.014"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which positive integer is a multiple of 3 and less than double the square of 4?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "30"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "One (1) inch is approximately equivalent to how many milliliters?",
+      "options": {
+        "A": "30",
+        "B": "25",
+        "C": "50",
+        "D": "30"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How many numbers up to 200 are divisible by 2 and 3 both?",
+      "options": {
+        "A": "35",
+        "B": "29",
+        "C": "33",
+        "D": "27"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "√10 × √250 =?",
+      "options": {
+        "A": "50.25",
+        "B": "50.00",
+        "C": "43.75",
+        "D": "46.95"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A boy saved 4.56 the first month, 3.82 the second month, and $5.06 the third month. How much did he save altogether?",
+      "options": {
+        "A": "Rs: 13.44",
+        "B": "Rs: 12.50",
+        "C": "Es: 12",
+        "D": "Rs: 13"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "0.7683 + 0.369 + 0.05 + 0.8 = ?",
+      "options": {
+        "A": "0.9873",
+        "B": "1.8873",
+        "C": "1.9872",
+        "D": "1.9873"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "If 4x + 13 = 7 - 2x, what is the value of x?",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "-10/3",
+        "D": "-3"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The average of three numbers is 20. If two numbers are 16 and 22, the third is?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "22",
+        "D": "19"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "20% of 30% of 20% of Rs. 850 is?",
+      "options": {
+        "A": "Rs: 10.20",
+        "B": "Rs: 9.50",
+        "C": "Rs: 10.50",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What percentage is equivalent 21/4?",
+      "options": {
+        "A": "425%",
+        "B": "525%",
+        "C": "625%",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Roman Numeral \"XX\" means _____?",
+      "options": {
+        "A": "2000",
+        "B": "200",
+        "C": "20000",
+        "D": "20"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "70% of the students in a school are boys and the number of girl is 504 . Find the number of boys in the school.",
+      "options": {
+        "A": "1176",
+        "B": "1172",
+        "C": "1174",
+        "D": "1178"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The value of √(176 + √2401) is _____?",
+      "options": {
+        "A": "24",
+        "B": "14",
+        "C": "15",
+        "D": "18"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Find the square root of 6492304:",
+      "options": {
+        "A": "2684",
+        "B": "2384",
+        "C": "2484",
+        "D": "2548"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "When 1/4 of a number is subtracted from 1/3 of the same number, the reminder obtained is 12. The number is?",
+      "options": {
+        "A": "120",
+        "B": "96",
+        "C": "98",
+        "D": "100"
+      }
+    },
+    {
+      "question": "The Roman Numeral \"XVI\" means ___?",
+      "options": {
+        "A": "35",
+        "B": "15",
+        "C": "16",
+        "D": "25"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In covering a distance of 30 km, Ali takes 2 hours more than Raza. If Ali doubles his speed, then he would take 1 hour less than Raza. What is the speed of Ali?",
+      "options": {
+        "A": "10 kmph",
+        "B": "6 kmph",
+        "C": "5 kmph",
+        "D": "7.5 kmph"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "14, 28, 20, 40, 32, 64, ... What number should come next?",
+      "options": {
+        "A": "52",
+        "B": "96",
+        "C": "128",
+        "D": "56"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "A shopkeeper buys a watch for Rs. 350/- and sells it for Rs. 392/-, Find his percentage of profit?",
+      "options": {
+        "A": "9%",
+        "B": "10%",
+        "C": "12%",
+        "D": "11%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "If 2a - 2 = 20, then, what is the value of \"a\"?",
+      "options": {
+        "A": "12",
+        "B": "11",
+        "C": "14",
+        "D": "13"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is not a perfect square?",
+      "options": {
+        "A": "2218",
+        "B": "2809",
+        "C": "2916",
+        "D": "3136"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A shopkeeper sells one-third of his goods at a profit of 10%, another one-third at a profit of 20%, and the rest at a loss of 6%.What is his overall profit percentage?",
+      "options": {
+        "A": "10%",
+        "B": "8%",
+        "C": "11%",
+        "D": "12%"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "In a class 3/4 of the students do not know either Hindi or English. 1/6 of the students know English and 1/8 of the students know Hindi. What part of the students know both English and Hindi?",
+      "options": {
+        "A": "1/24",
+        "B": "1/12",
+        "C": "1/4",
+        "D": "5/6"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If 6n + 5. What is the value of \"n\"?",
+      "options": {
+        "A": "Zero",
+        "B": "Cannot determine",
+        "C": "Not perfect value",
+        "D": "Perfect value"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A stenographer has been asked to fill out 500 forms. she fills 25 forms by the end of half an hour when she is joined by another stenographer who fill the forms at the rate of 45 per hour. The entire assignment will be carried out in?",
+      "options": {
+        "A": "4 1/2 hours",
+        "B": "5 hours",
+        "C": "5 1/2 hours",
+        "D": "6 hours"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Roshan bought 5 pants at Rs25 each, 10 shirts at Rs50 each and 15 ties at Rs35 each. Find the average price of all the articles.",
+      "options": {
+        "A": "38.33",
+        "B": "45",
+        "C": "60",
+        "D": "45.33"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the percentage of failure if a student scores 80% in English and 85% in Math, if in both subject got the passing percentage is 75%?",
+      "options": {
+        "A": "5%",
+        "B": "7.5%",
+        "C": "8%",
+        "D": "10%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Solve for 𝑥 in the equation 3889 + 12.950 − 𝑥 = 47.97 . What is the value of 𝑥 ?",
+      "options": {
+        "A": "3853.98",
+        "B": "3875.98",
+        "C": "3850.00",
+        "D": "3863.98"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "ایک شخص 12 منٹ میں چار شرٹس استری کرتا ہے۔ ایک گھنٹے میں وہ کتنی شرٹس استری کرے گا؟",
+      "options": {
+        "A": "20 شرٹس",
+        "B": "15 شرٹس",
+        "C": "12 شرٹس",
+        "D": "10 شرٹس"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the sum of the ages of two children is 12 and their product is 32, which one is the elder?",
+      "options": {
+        "A": "4 years",
+        "B": "6 years",
+        "C": "8 years",
+        "D": "10 years"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The letters of the SAP taken all at a time can be written in?",
+      "options": {
+        "A": "2 ways",
+        "B": "6 ways",
+        "C": "24 ways",
+        "D": "30 ways"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "4 Bits is equal to ?",
+      "options": {
+        "A": "1 Nible",
+        "B": "1 byte",
+        "C": "Tera Nibble",
+        "D": "2 Bytes"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "If the mean of 7 terms is 40, the sum of those terms will be?",
+      "options": {
+        "A": "280",
+        "B": "480",
+        "C": "200",
+        "D": "346"
+      },
+      "correct": "A"
     }
   ]
 }

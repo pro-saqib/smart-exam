@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers all MCQs 2021 of English",
   "mcqs": [
     {
+      "question": "The Synonym of Happy is?",
+      "options": {
+        "A": "Hapless",
+        "B": "Unlucky",
+        "C": "Lucky",
+        "D": "All of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Idiom: Piece of cake means?",
+      "options": {
+        "A": "Bear the enmity",
+        "B": "Easy task",
+        "C": "Be happy",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "He is good ______ mathematics.",
+      "options": {
+        "A": "In",
+        "B": "At",
+        "C": "On",
+        "D": "Into"
+      },
+      "correct": "B"
+    },
+    {
       "question": "The Synonym of Eager is?",
       "options": {
         "A": "Calm",
@@ -92,16 +122,6 @@
       "correct": "D"
     },
     {
-      "question": "The Synonym of Happy is?",
-      "options": {
-        "A": "Hapless",
-        "B": "Unlucky",
-        "C": "Lucky",
-        "D": "All of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "The Synonym of Tranquil is?",
       "options": {
         "A": "Peaceful",
@@ -110,26 +130,6 @@
         "D": "Both A and B"
       },
       "correct": "D"
-    },
-    {
-      "question": "The idiom Piece of cake means?",
-      "options": {
-        "A": "Bear the enmity",
-        "B": "Easy task",
-        "C": "Be happy",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "He is good ______ mathematics.",
-      "options": {
-        "A": "In",
-        "B": "At",
-        "C": "On",
-        "D": "Into"
-      },
-      "correct": "B"
     },
     {
       "question": "What does the idiomatic expression to spill the beans mean?",

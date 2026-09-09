@@ -2,6 +2,46 @@
   "name": "PPSC Past Papers all MCQs 2022 of General Knowledge",
   "mcqs": [
     {
+      "question": "United Nations Organization (UNO) officially came into existence / was founded / established on?",
+      "options": {
+        "A": "10 October 1945",
+        "B": "14 October 1945",
+        "C": "24 October 1945",
+        "D": "28 October 1945"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "OIC stands for _____?",
+      "options": {
+        "A": "Organization of Islamic Cooperation",
+        "B": "Organization of Islamic Coordination",
+        "C": "Organization Upper Islamic Cooperation",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "When was the UNO Charter signed?",
+      "options": {
+        "A": "June 26, 1945",
+        "B": "July 4, 1945",
+        "C": "August 15, 1945",
+        "D": "September 2, 1945"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Durand line is between which countries?",
+      "options": {
+        "A": "Pak-Afganistan",
+        "B": "Pak-China",
+        "C": "Pak-India",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "How many countries are declared nuclear powers?",
       "options": {
         "A": "10",
@@ -42,16 +82,6 @@
       "correct": "B"
     },
     {
-      "question": "Durand line is between which countries?",
-      "options": {
-        "A": "Pak-Afganistan",
-        "B": "Pak-China",
-        "C": "Pak-India",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
       "question": "When Pakistan became a full member of the Shanghai Cooperation Organisation (SCO)?",
       "options": {
         "A": "1st June 2017",
@@ -90,16 +120,6 @@
         "D": "Tokyo"
       },
       "correct": "B"
-    },
-    {
-      "question": "United Nations Organization (UNO) officially came into existence / was founded / established on?",
-      "options": {
-        "A": "10 October 1945",
-        "B": "14 October 1945",
-        "C": "24 October 1945",
-        "D": "28 October 1945"
-      },
-      "correct": "C"
     },
     {
       "question": "What is the Currency of Turkey?",
@@ -147,16 +167,6 @@
         "A": "Vienna, Austria",
         "B": "Kathmandu, Nepal",
         "C": "Islamabad, Pakistan",
-        "D": "None of these"
-      },
-      "correct": "A"
-    },
-    {
-      "question": "OIC stands for _____?",
-      "options": {
-        "A": "Organization of Islamic Cooperation",
-        "B": "Organization of Islamic Coordination",
-        "C": "Organization Upper Islamic Cooperation",
         "D": "None of these"
       },
       "correct": "A"
@@ -1050,16 +1060,6 @@
         "D": "New Zealand"
       },
       "correct": "B"
-    },
-    {
-      "question": "When was the UNO Charter signed?",
-      "options": {
-        "A": "June 26, 1945",
-        "B": "July 4, 1945",
-        "C": "August 15, 1945",
-        "D": "September 2, 1945"
-      },
-      "correct": "A"
     },
     {
       "question": "Israel snatched Golan Heights in 1967 from ______?",
@@ -2699,6 +2699,86 @@
         "D": "None"
       },
       "correct": "A"
+    },
+    {
+      "question": "Who was known as king of Squash?",
+      "options": {
+        "A": "Imran Khan",
+        "B": "Jahangir Khan",
+        "C": "Babar Azam",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "_______ can lift 50 times its own weight?",
+      "options": {
+        "A": "ants",
+        "B": "Horse",
+        "C": "Donkey",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The policy of extending a country's empire and influence one word substitution",
+      "options": {
+        "A": "Imperialism",
+        "B": "Capitalism",
+        "C": "Internationalism",
+        "D": "Communism"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In which Canal Ship was stuck and trade of worldwar stopped?",
+      "options": {
+        "A": "Panama Canal",
+        "B": "Suez Canal",
+        "C": "Malaka strait",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "One word substitute of One who loves books?",
+      "options": {
+        "A": "Bibliophobe",
+        "B": "Bibliophile",
+        "C": "Bibliographer",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The current Secretary General of SAARC belongs to the country:",
+      "options": {
+        "A": "Iran",
+        "B": "UAE",
+        "C": "Bangladesh",
+        "D": "None of the above"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Paris Pact ended with _______.",
+      "options": {
+        "A": "WW2",
+        "B": "WW1",
+        "C": "War of independence",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "International Court of Justice (ICJ) deals cases between :",
+      "options": {
+        "A": "Individuals",
+        "B": "countries",
+        "C": "Both",
+        "D": "None"
+      },
+      "correct": "B"
     }
   ]
 }

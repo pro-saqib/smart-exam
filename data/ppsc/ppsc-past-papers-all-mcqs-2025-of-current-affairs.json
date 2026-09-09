@@ -2,6 +2,36 @@
   "name": "PPSC Past Papers all MCQs 2025 of Current Affairs",
   "mcqs": [
     {
+      "question": "Who is the Current Chief Justice of Pakistan (CJP)?",
+      "options": {
+        "A": "Justice Umar Ata Bandial",
+        "B": "Justice Qazi Faez Isa",
+        "C": "Justice Yahya Afridi",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who is the Current Secretary of State of the United States?",
+      "options": {
+        "A": "Daniel Bennett Smith",
+        "B": "Marco Rubio",
+        "C": "Mike Pompeo",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who is the Current Secretary General of OIC?",
+      "options": {
+        "A": "Ismail Ould Cheikh Ahmed",
+        "B": "Yousef bin Ahmad Al-Othaimeen",
+        "C": "Hussein Ibrahim Taha",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Who is the current President of Iran?",
       "options": {
         "A": "Ebrahim Raisi",
@@ -30,16 +60,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
     },
     {
       "question": "Who is the the current Attorney General of Pakistan?",
@@ -92,16 +112,6 @@
       "correct": "B"
     },
     {
-      "question": "Who is the Current Secretary General of OIC?",
-      "options": {
-        "A": "Dr Yousaf",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "What is the Capital of Sudan?",
       "options": {
         "A": "Khartoum",
@@ -120,16 +130,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "Who is the Current Chief Justice of Pakistan (CJP)?",
-      "options": {
-        "A": "Justice Umar Ata Bandial",
-        "B": "Justice Qazi Faez Isa",
-        "C": "Justice Yahya Afridi",
-        "D": "None of these"
-      },
-      "correct": "C"
     },
     {
       "question": "Who is the present Director General (DG) of World Health Organization (WHO)?",

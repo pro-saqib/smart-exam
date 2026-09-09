@@ -25,6 +25,7 @@ type SessionUser = {
   name: string;
   email: string;
   image?: string | null;
+  role: "admin" | "user";
 };
 
 // Routes that don't require auth

@@ -1899,6 +1899,2165 @@
         "D": "Humanist"
       },
       "correct": "B"
+    },
+    {
+      "question": "Synonym of Caused is?",
+      "options": {
+        "A": "Prevented",
+        "B": "Delayed",
+        "C": "Brought About",
+        "D": "Avoided"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Maiden Speech is called?",
+      "options": {
+        "A": "Support",
+        "B": "First speech",
+        "C": "Moral courage",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Green pepper is very rich ________ vitamin C.",
+      "options": {
+        "A": "Of",
+        "B": "On",
+        "C": "In",
+        "D": "About"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "There is a dog barking the street. Here 'dog' is?",
+      "options": {
+        "A": "Object",
+        "B": "Verb",
+        "C": "Subject",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "In the sentence “This is the book,” the word “This” is a _____?",
+      "options": {
+        "A": "Noun",
+        "B": "Pronoun",
+        "C": "Adjective",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A word used to modify a verb or an adjective is called?",
+      "options": {
+        "A": "Preposition",
+        "B": "Noun",
+        "C": "Pronoun",
+        "D": "Adverb"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which type of sentence contains verb and is not converted into passive voice?",
+      "options": {
+        "A": "Linking",
+        "B": "Intransitive",
+        "C": "Transitive",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following best defines a compound sentence?",
+      "options": {
+        "A": "A sentence with a subject and a verb",
+        "B": "Two independent clauses joined by a conjunction",
+        "C": "A sentence with only one idea",
+        "D": "A sentence ending with a question mark"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Choose the correct option of the idiom: Cheek by jowl?",
+      "options": {
+        "A": "Very close together",
+        "B": "One after another",
+        "C": "Side by side",
+        "D": "Proportionately"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The train was help up on the account of an accident. Here \"Hold up\" means what?",
+      "options": {
+        "A": "To Adhere to",
+        "B": "To delay",
+        "C": "To lower",
+        "D": "To examine"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The cat fell _____ the well.",
+      "options": {
+        "A": "In",
+        "B": "At",
+        "C": "Into",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "My teacher is not good _____ communicating skills.",
+      "options": {
+        "A": "In",
+        "B": "At",
+        "C": "For",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The state means _____?",
+      "options": {
+        "A": "Federal Government",
+        "B": "Provincial Government",
+        "C": "Parliament",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "You should not feel jealous _____ your brother success.",
+      "options": {
+        "A": "Of",
+        "B": "To",
+        "C": "From",
+        "D": "But"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Synonym of Turpitude is ?",
+      "options": {
+        "A": "Honour",
+        "B": "Depravity",
+        "C": "Lethargy",
+        "D": "Belligerence"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The study of the way that sequences of words are ordered into phrases, clauses, and sentences is called _____?",
+      "options": {
+        "A": "Phonology",
+        "B": "Morphology",
+        "C": "Syntax",
+        "D": "Semantics"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Idiom: On the Fence means?",
+      "options": {
+        "A": "In a position of advantage",
+        "B": "In a difficult situation",
+        "C": "Undecided",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the Synonym of DEMISE?",
+      "options": {
+        "A": "Death",
+        "B": "Dismissal",
+        "C": "Accident",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Change the voice: They invited father as well as children.",
+      "options": {
+        "A": "Father as well as children is invited",
+        "B": "Father as well as children were invited",
+        "C": "Father and children was invited",
+        "D": "Father and children is being invited"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Change the voice: She said, Doctor, my mother has been sleeping since yesterday.",
+      "options": {
+        "A": "She told the doctor that her mother had been sleeping since yesterday.",
+        "B": "She said that her mother has been sleeping.",
+        "C": "She told the doctor her mother was sleeping.",
+        "D": "She asked doctor to sleep."
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The food item was fantastic ___ the menu card.",
+      "options": {
+        "A": "In",
+        "B": "On",
+        "C": "At",
+        "D": "By"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Choose the correct sentence: Everything is good in menu B) Everything is good on the menu C) Everything is good at menu D) Everything good is menu",
+      "options": {
+        "A": "Everything is good in menu",
+        "B": "Everything is good on the menu",
+        "C": "Everything is good at menu",
+        "D": "Everything good is menu"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Father as well as the children ___ invited. Choose the correct verb form",
+      "options": {
+        "A": "Was",
+        "B": "Were",
+        "C": "Are",
+        "D": "Is"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Error in sentence: She told the doctor that he had not been sleeping for privious day.",
+      "options": {
+        "A": "Told",
+        "B": "He",
+        "C": "Sleeping",
+        "D": "Privious"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which word is both an adjective and an adverb? Sad , Beautiful , Fast, None",
+      "options": {
+        "A": "Sad",
+        "B": "Beautiful",
+        "C": "Fast",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does Outskirts mean?",
+      "options": {
+        "A": "City center",
+        "B": "Rural area",
+        "C": "Outer area of a city",
+        "D": "Forest"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Jar : Container :: Pen : ?",
+      "options": {
+        "A": "Ink",
+        "B": "Pencil",
+        "C": "Stationery",
+        "D": "Paper"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The books belongs ______ me.",
+      "options": {
+        "A": "On",
+        "B": "To",
+        "C": "For",
+        "D": "Of"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "She is confident _____ his ability to succeed.",
+      "options": {
+        "A": "Of",
+        "B": "At",
+        "C": "To",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Brain Drains means ___?",
+      "options": {
+        "A": "Mad Person",
+        "B": "Migration Of Skilled Person To Other Country",
+        "C": "Emigration Of Intellectuals",
+        "D": "None"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Synonym of REBATE is?",
+      "options": {
+        "A": "Cheap",
+        "B": "Inflation",
+        "C": "Expensive",
+        "D": "Discount"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Antonym of Benign is?",
+      "options": {
+        "A": "Malignant",
+        "B": "Malevolent",
+        "C": "Soft",
+        "D": "Both A and B"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Identify the correct spellings: Bureucracy, Bureaucracy, Beaucracy, Boreauracy",
+      "options": {
+        "A": "Bureucracy",
+        "B": "Bureaucracy",
+        "C": "Beaucracy",
+        "D": "Boreauracy"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "I am good ______ tennis.",
+      "options": {
+        "A": "Of",
+        "B": "In",
+        "C": "At",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Stubborn : Obstinate :: Generous : ?",
+      "options": {
+        "A": "Selfish",
+        "B": "Mean",
+        "C": "Magnanimous",
+        "D": "Greedy"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Change the voice: \"Strike off his name.\"",
+      "options": {
+        "A": "Let his name be struck off.",
+        "B": "Let his name struck.",
+        "C": "His name will be sticking off.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "کون سا شاعر بچوں کی حیثیت سے مشہور ہے؟",
+      "options": {
+        "A": "فیض احمد فیض",
+        "B": "اسماعیل میرٹھی",
+        "C": "ابنِ انشاء",
+        "D": "پروین شاکر"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "She stand _____ him in the crises.",
+      "options": {
+        "A": "With",
+        "B": "To",
+        "C": "By",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The meeting has been ___ until next week.",
+      "options": {
+        "A": "Put Off",
+        "B": "Put Up",
+        "C": "Put On",
+        "D": "Put Down"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "We reached ___ station just in time.",
+      "options": {
+        "A": "To",
+        "B": "At",
+        "C": "On",
+        "D": "It"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Turn ___ the music! It’s too loud.",
+      "options": {
+        "A": "Down",
+        "B": "Up",
+        "C": "On",
+        "D": "Off"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The plane ___ at 9 am.",
+      "options": {
+        "A": "Took Off",
+        "B": "Takes Off",
+        "C": "Taken Off",
+        "D": "Take Off"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "She ____ her grandmother. Both have the same nose.",
+      "options": {
+        "A": "Takes After",
+        "B": "Takes On",
+        "C": "Takes Off",
+        "D": "Takes In"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "He ___ smoking last year.",
+      "options": {
+        "A": "Gives up",
+        "B": "Gave up",
+        "C": "Give up",
+        "D": "Given up"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "My friend and benefactor ___ died.",
+      "options": {
+        "A": "Was",
+        "B": "Has",
+        "C": "Were",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Identify the correct spellings: Chalange, Challange, Challenge, None of these",
+      "options": {
+        "A": "Chalange",
+        "B": "Challange",
+        "C": "Challenge",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Either of these two roads ____ to the post office?",
+      "options": {
+        "A": "lead",
+        "B": "leads",
+        "C": "led",
+        "D": "leading"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the meaning of 'Jaada Pema'?",
+      "options": {
+        "A": "Thermometer",
+        "B": "Hydrometer",
+        "C": "Barometer",
+        "D": "Altimeter"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the meaning of Concocted?",
+      "options": {
+        "A": "True story",
+        "B": "Fabricated story",
+        "C": "Brief explanation",
+        "D": "Favorable incident"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the meaning of Dafatan?",
+      "options": {
+        "A": "ہمیشہ (Always)",
+        "B": "دھیرے دھیرے (Slowly)",
+        "C": "اچانک (All of a sudden)",
+        "D": "روزانہ (Daily)"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "She had got home at 7 when I phoned. She ____ at her mother's home.",
+      "options": {
+        "A": "Has been",
+        "B": "Had been",
+        "C": "Was being",
+        "D": "Is"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Labrador is known for ___ friendly nature.",
+      "options": {
+        "A": "their",
+        "B": "it's",
+        "C": "its",
+        "D": "there"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Change the narration: She said, \"I can speak French fluently.\"",
+      "options": {
+        "A": "She said that she could speak French fluently.",
+        "B": "She said that she can speak French fluently.",
+        "C": "She said that she may speak French fluently.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "_____ a spread chestnut tree, the children play.",
+      "options": {
+        "A": "Under",
+        "B": "Above",
+        "C": "Below",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "You may relay _____ our doing our utmost.",
+      "options": {
+        "A": "On",
+        "B": "With",
+        "C": "By",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Do you understand what I mean?",
+      "options": {
+        "A": "What I mean is that understood by you?",
+        "B": "Was what I mean understood by you?",
+        "C": "Is what I mean understood by you?",
+        "D": "What I mean is understood by you?"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "You will go, or you will miss the train. It is which type of sentence?",
+      "options": {
+        "A": "Complex",
+        "B": "Compound",
+        "C": "Reflexive",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "We knocked on the door but nobody answered. But is which part of speech?",
+      "options": {
+        "A": "Adverb",
+        "B": "Conjunction",
+        "C": "Interjection",
+        "D": "Adjective"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "I know that you _____ pass the exam with flying colours.",
+      "options": {
+        "A": "Will",
+        "B": "Shall",
+        "C": "Would",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "I don’t mind ______ if you are tired.",
+      "options": {
+        "A": "Driving",
+        "B": "To Drive",
+        "C": "Drive",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Change Voice: The Doctor bandaged the arm of the injured man.",
+      "options": {
+        "A": "The arm of the injured man was bandaged by the doctor.",
+        "B": "The injured man bandaged his arm.",
+        "C": "The injured man made the doctor injure his arm.",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "In Ilm-ul-Bayan, what are words that have the same category and class called?",
+      "options": {
+        "A": "Mutazad (antonyms)",
+        "B": "Mustalahat (terms)",
+        "C": "Mushtarak (homonyms)",
+        "D": "Mutaradif (synonyms)"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "To pull socks up means _____?",
+      "options": {
+        "A": "To start",
+        "B": "To get ready",
+        "C": "Already late",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "My friend is a couch potato. What does the idiom/phrase \"couch potato\" means?",
+      "options": {
+        "A": "Lazy person",
+        "B": "Busy person",
+        "C": "Active person",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "My books are ____ the table.",
+      "options": {
+        "A": "In",
+        "B": "On",
+        "C": "Of",
+        "D": "For"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Synonym of Insolvent is?",
+      "options": {
+        "A": "Bankrupt",
+        "B": "Stable",
+        "C": "Hard",
+        "D": "Pure"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Identifythe correct spelling ? A) Prety, B) Pretty C)Prettey, D)Prity",
+      "options": {
+        "A": "Prety",
+        "B": "Pretty",
+        "C": "Prettey",
+        "D": "Prity"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "I went to the shop ____ some chocolate",
+      "options": {
+        "A": "For buying",
+        "B": "For buy",
+        "C": "To buy",
+        "D": "Buy"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Be ____ in your language.",
+      "options": {
+        "A": "Precise",
+        "B": "Meticulous",
+        "C": "Punctilious",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Select a correct word: (A) Coaltion (B) Coallition (C) Coalition (D) Colition",
+      "options": {
+        "A": "Coaltion",
+        "B": "Coallition",
+        "C": "Coalition",
+        "D": "Colition"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "There aren’t ____ people here",
+      "options": {
+        "A": "Much",
+        "B": "Many",
+        "C": "A lot",
+        "D": "Some"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Forgery means?",
+      "options": {
+        "A": "Fraudulent alternation of writing",
+        "B": "Forcefulness",
+        "C": "Inventiveness in writing",
+        "D": "Inventiveness in speaking"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The color will not ______ your complexion?",
+      "options": {
+        "A": "Shoot",
+        "B": "Suite",
+        "C": "Suit",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The word ‘AKIN’ is closest in meaning to ?",
+      "options": {
+        "A": "Helpful",
+        "B": "Friendly",
+        "C": "Similar",
+        "D": "Pointed"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "He is good _____ playing the piano.",
+      "options": {
+        "A": "At",
+        "B": "In",
+        "C": "On",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"As you sow so shall you reap\" ترجمہ کیجیے:",
+      "options": {
+        "A": "جیسا کرو گے ویسا بھرو گ",
+        "B": "جیسا کرو گے ویسا کا ٹو گے",
+        "C": "جیسی کرنی ویسی بھرنی",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The country's ____ ruler required his citizens to seek official permission before changing jobs",
+      "options": {
+        "A": "Demoratic",
+        "B": "Dubious",
+        "C": "Autocratic",
+        "D": "Indegious"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The manager____ receipt of my letter promptly.",
+      "options": {
+        "A": "accepted",
+        "B": "realized",
+        "C": "congnized",
+        "D": "acknowledge"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The manager____ receipt of my letter promptly.",
+      "options": {
+        "A": "accepted",
+        "B": "realized",
+        "C": "congnized",
+        "D": "acknowledge"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "'RSCVP' is written at the end of a formal invitation card. It is an abbreviation of an expression used in which language?",
+      "options": {
+        "A": "Latin",
+        "B": "English",
+        "C": "French",
+        "D": "Italian"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Choose the correct option: Although he was a(an) _____new at the game Asad knew the others were playing incorrectly.",
+      "options": {
+        "A": "Export",
+        "B": "Enthusiast",
+        "C": "Authority",
+        "D": "Novice"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Choose the correct option: I have to changed him to act as my _____?",
+      "options": {
+        "A": "council",
+        "B": "councel",
+        "C": "counsel",
+        "D": "counsul"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Camcorder is a word used for?",
+      "options": {
+        "A": "Cassette player",
+        "B": "Video camera",
+        "C": "Blood pressure machine",
+        "D": "Still camera"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To lay ______ something for rainy day.",
+      "options": {
+        "A": "By",
+        "B": "From",
+        "C": "To",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The foreign phrase Ad libitum means?",
+      "options": {
+        "A": "Extension of limit",
+        "B": "At ease",
+        "C": "To a limit or extent",
+        "D": "To any extent"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Remission systems means?",
+      "options": {
+        "A": "Increase imprisonment",
+        "B": "Decrease in imprisonment",
+        "C": "Imprisonment for life",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "علامہ اقبال کی پہلی اردو نظم کون سی ہے؟",
+      "options": {
+        "A": "طلوع اسلام",
+        "B": "ہمالہ",
+        "C": "شکوہ",
+        "D": "ترانہ ملی"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "چلتے ہو تو چین کو چلیے کس کی تصنیف ہے؟",
+      "options": {
+        "A": "اشفاق احمد",
+        "B": "ابراہیم جلیس",
+        "C": "احمد ندیم قاسمی",
+        "D": "ابن انشاء"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "It has great lust _____ wealth?",
+      "options": {
+        "A": "In",
+        "B": "Of",
+        "C": "On",
+        "D": "For"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Right meaning of Per se is?",
+      "options": {
+        "A": "Essentially",
+        "B": "In itself",
+        "C": "As such",
+        "D": "All of above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Let us make _____ our differences?",
+      "options": {
+        "A": "On",
+        "B": "In",
+        "C": "After",
+        "D": "Up"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Synonym of unusual",
+      "options": {
+        "A": "Uncommon",
+        "B": "common",
+        "C": "usual",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Cry over __ milk",
+      "options": {
+        "A": "Spilt",
+        "B": "Finish",
+        "C": "Full",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Synonym of NEXUS is?",
+      "options": {
+        "A": "Bond",
+        "B": "Chain",
+        "C": "Connection",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Antonym of Wrath is?",
+      "options": {
+        "A": "Solace",
+        "B": "Peace",
+        "C": "Delight",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "______ me as soon as possible. It's urgent.",
+      "options": {
+        "A": "Call",
+        "B": "Call up",
+        "C": "Phone call",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is a verb-noun ending with -ing called?",
+      "options": {
+        "A": "Adjective",
+        "B": "Gerund",
+        "C": "Infinitive",
+        "D": "Participle"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A piece of cloth do _____ a turban.",
+      "options": {
+        "A": "For",
+        "B": "To",
+        "C": "With",
+        "D": "At"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "He hidden something _____ the curtain.",
+      "options": {
+        "A": "Behind",
+        "B": "Under",
+        "C": "Over",
+        "D": "Beside"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The passengers were very happy ___ the friendly and warm treatment given to them.",
+      "options": {
+        "A": "By",
+        "B": "For",
+        "C": "Of",
+        "D": "With"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the correct indirect speech for: \"He said, 'He will go to Karachi next week.'\"",
+      "options": {
+        "A": "He said that he will go to Karachi next week.",
+        "B": "He said that he would go to Karachi the following week.",
+        "C": "He said that he had gone to Karachi the next week.",
+        "D": "He said that he goes to Karachi the following week."
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Synonym for Praiseworthy is?",
+      "options": {
+        "A": "Creditable",
+        "B": "Forgettable",
+        "C": "Questionable",
+        "D": "Regrettable"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Synonym of intrinsic is ?",
+      "options": {
+        "A": "External",
+        "B": "Inherent",
+        "C": "Temporary",
+        "D": "Distant"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Antonym of \"wrath\" is?",
+      "options": {
+        "A": "Fury",
+        "B": "Anger",
+        "C": "Forgiveness",
+        "D": "Rage"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following correctly spells the word \"document\" used in research?",
+      "options": {
+        "A": "Questinnaire",
+        "B": "Qustionnare",
+        "C": "Questionnaire",
+        "D": "Questionaire"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which preposition is correctly used with the verb \"compile\"?",
+      "options": {
+        "A": "Compile of data",
+        "B": "Compile from data",
+        "C": "Compile by data",
+        "D": "Compile at data"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Complete the phrase: \"Live and ___.\"",
+      "options": {
+        "A": "let love",
+        "B": "let go",
+        "C": "let live",
+        "D": "let die"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Bretton Woods system deals with?",
+      "options": {
+        "A": "Climate agreements",
+        "B": "International trade laws",
+        "C": "International monetary system",
+        "D": "Political treaties"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "A word formed from the first letters of a sentence is called?",
+      "options": {
+        "A": "Antonym",
+        "B": "Abbreviation",
+        "C": "Acronym",
+        "D": "Prefix"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the proverb: \"A leopard cannot change its _____.\"",
+      "options": {
+        "A": "nature",
+        "B": "stripes",
+        "C": "spots",
+        "D": "attitude"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the sentence: \"We will go out when it ____ raining.\"",
+      "options": {
+        "A": "Stop",
+        "B": "Stopped",
+        "C": "Stops",
+        "D": "Has stopped"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Identify the subject in the sentence: \"I met a beggar on the road.\"",
+      "options": {
+        "A": "Met",
+        "B": "I",
+        "C": "A beggar",
+        "D": "On the road"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "A person who believes in practical approaches is called?",
+      "options": {
+        "A": "Idealist",
+        "B": "Pessimist",
+        "C": "Realist",
+        "D": "Pragmatic"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the proverb: “A watched pot never___?",
+      "options": {
+        "A": "burns",
+        "B": "ends",
+        "C": "cools",
+        "D": "boils"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who lives in a glass house ___ not throw the stone?",
+      "options": {
+        "A": "will",
+        "B": "can",
+        "C": "should",
+        "D": "should not"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Complete the sentence: “He is harvesting the crop when it ___ ripped.”",
+      "options": {
+        "A": "will",
+        "B": "has",
+        "C": "is",
+        "D": "he"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the correct indirect form of the sentence: “He said to Maria, ‘Let me help do my work’”?",
+      "options": {
+        "A": "He told Maria to help him do his work.",
+        "B": "He said to Maria that he should help her do her work.",
+        "C": "He asked Maria to let him help do his work.",
+        "D": "None of thes"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Identify the mistake in the sentence: \"They attack on me.\"",
+      "options": {
+        "A": "They are attack me",
+        "B": "They attacked me",
+        "C": "They attacks me",
+        "D": "They had attack me"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Synonym of Avocation is?",
+      "options": {
+        "A": "Profession",
+        "B": "Career",
+        "C": "Duty",
+        "D": "Hobby"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "DIVA: OPERA ::",
+      "options": {
+        "A": "Producer: theatre",
+        "B": "Director: drama",
+        "C": "Conductor: bus",
+        "D": "Thespian: play"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which of the following is a correct cautionary sentence?Be aware from thieves. Be aware about thieves. Be aware of thieves.",
+      "options": {
+        "A": "Be aware from thieves.",
+        "B": "Be aware about thieves.",
+        "C": "Be aware of thieves.",
+        "D": "Be aware with thieves."
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The bus _____ on the road due to engine failure.",
+      "options": {
+        "A": "broke in",
+        "B": "broke off",
+        "C": "broke out",
+        "D": "broke down"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Idiom of full of beans mrans ?",
+      "options": {
+        "A": "Exhausted",
+        "B": "Overjoyed",
+        "C": "Bored",
+        "D": "Lazy"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does the term \"Shujjah\" refer to?",
+      "options": {
+        "A": "Injury to the leg",
+        "B": "Injury to the arm",
+        "C": "Injury to the face and head",
+        "D": "Injury to the back"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Synonym of ASTUTE is?",
+      "options": {
+        "A": "Untruthful",
+        "B": "Diligent",
+        "C": "Greedy",
+        "D": "Shrewd"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "‘Mauritius’ is an island state in the which ocean?",
+      "options": {
+        "A": "Pacific Ocean",
+        "B": "Atlantic Ocean",
+        "C": "Indian Ocean",
+        "D": "Artic Ocean"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Your are _____ clever than he.",
+      "options": {
+        "A": "More",
+        "B": "Most",
+        "C": "Much",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Synonym of Sartorial is?",
+      "options": {
+        "A": "Cheerful",
+        "B": "Sincere",
+        "C": "Inelegant",
+        "D": "Homespun"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Idiom: Bandy words means _____?",
+      "options": {
+        "A": "To give respect",
+        "B": "To argue rudely",
+        "C": "To request",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Antonym of Concord is?",
+      "options": {
+        "A": "Discord",
+        "B": "Peace",
+        "C": "Unity",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Synonym of Scathing is?",
+      "options": {
+        "A": "Scornful",
+        "B": "Mild",
+        "C": "Gentle",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Antonym of \"Rob\" is?",
+      "options": {
+        "A": "Steal",
+        "B": "Give",
+        "C": "Loot",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "One-word substitution: the science of farming and plantation?",
+      "options": {
+        "A": "Botany",
+        "B": "Horticulture",
+        "C": "Agriculture",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "One-word substitution: A person who studies words and their history?",
+      "options": {
+        "A": "Etymologist",
+        "B": "Linguist",
+        "C": "Philologist",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "One-word substitution: A bike's seat other than the rider's?",
+      "options": {
+        "A": "Pillion",
+        "B": "Carrier",
+        "C": "Saddle",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "On cloud nine means what?",
+      "options": {
+        "A": "Upset",
+        "B": "Bullied",
+        "C": "Scared",
+        "D": "Happy"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The Synonym for \"Scot-free\" is?",
+      "options": {
+        "A": "Punished",
+        "B": "Free",
+        "C": "Guilty",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Synonym of Zonked is?",
+      "options": {
+        "A": "Exhausted",
+        "B": "Energetic",
+        "C": "Excited",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does \"groundbreaking\" mean?",
+      "options": {
+        "A": "Something innovative and new",
+        "B": "Something ordinary",
+        "C": "Something outdated",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Antonym of ‘Zenith’ is?",
+      "options": {
+        "A": "Recall",
+        "B": "Bottom",
+        "C": "Recollect",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Let us sit down ________ the shade of a tree for sometime.",
+      "options": {
+        "A": "Below",
+        "B": "In",
+        "C": "Upon",
+        "D": "On"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "We have respect _____our leaders",
+      "options": {
+        "A": "To",
+        "B": "For",
+        "C": "With",
+        "D": "By"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Who said, 'Child is the father of man'?",
+      "options": {
+        "A": "William Wordsworth",
+        "B": "Anatoly",
+        "C": "Einstein",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "He is ___ weak.",
+      "options": {
+        "A": "too",
+        "B": "very",
+        "C": "so",
+        "D": "also"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Aslam ____ police protection.",
+      "options": {
+        "A": "Asksfor",
+        "B": "Asking to",
+        "C": "Asked to",
+        "D": "Asked from"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which sign used with word Alas:",
+      "options": {
+        "A": "?",
+        "B": "!",
+        "C": ".",
+        "D": ":"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Idiom: Against the clock means:",
+      "options": {
+        "A": "in a great hurry",
+        "B": "in trouble",
+        "C": "excited",
+        "D": "all of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "() is called?",
+      "options": {
+        "A": "Spacing",
+        "B": "Highlighting",
+        "C": "Parenthesis",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The power of reading the thoughts of others is called?",
+      "options": {
+        "A": "Telepathy",
+        "B": "Psychology",
+        "C": "Psychopathy",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Choose the correct sentence: India attacked on Pakistan in 1965., India attacks Pakistan in 1965., India attacked Pakistan in 1965., None of these",
+      "options": {
+        "A": "India attacked on Pakistan in 1965.",
+        "B": "India attacks Pakistan in 1965.",
+        "C": "India attacked Pakistan in 1965.",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Fill in the blank: He did not pay heed ______ his brother’s advice:",
+      "options": {
+        "A": "For",
+        "B": "On",
+        "C": "To",
+        "D": "In"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The literal meaning of the word \"Ethics\" is ______?",
+      "options": {
+        "A": "Understand human nature",
+        "B": "Study of morality",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the Synonym of \"Cease\"?",
+      "options": {
+        "A": "Begin",
+        "B": "Stay",
+        "C": "Start",
+        "D": "Stop"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "There is a limit ______everything in life.",
+      "options": {
+        "A": "To",
+        "B": "On",
+        "C": "In",
+        "D": "With"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the Synonym of \"Acrimonious\"?",
+      "options": {
+        "A": "Bitter",
+        "B": "Provocative",
+        "C": "Cheap",
+        "D": "Volatile"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Antonym of Servile is?",
+      "options": {
+        "A": "Insensibility",
+        "B": "Puerile",
+        "C": "Haughty",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Many a man _____ done so.",
+      "options": {
+        "A": "Had",
+        "B": "Has",
+        "C": "Have",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following has incorrect spellings? Electrecity, Enquiry, Operational, Probation",
+      "options": {
+        "A": "Electrecity",
+        "B": "Enquiry",
+        "C": "Operational",
+        "D": "Probation"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Antonym of Continue is?",
+      "options": {
+        "A": "Release",
+        "B": "Confirm",
+        "C": "Pause",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following join two clauses of sentence?",
+      "options": {
+        "A": "Interjenction",
+        "B": "Conjunction",
+        "C": "Preposition",
+        "D": "Verb"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "There was so many smoke in the room that I could hardly____?",
+      "options": {
+        "A": "Breathe",
+        "B": "Breadth",
+        "C": "Breathing",
+        "D": "Breathless"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Identify the correct spelling: Cyclone, Cyclean, Cyclon, Clolorie",
+      "options": {
+        "A": "Cyclone",
+        "B": "Cyclean",
+        "C": "Cyclon",
+        "D": "Clolorie"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which word is wrongly spelt in the following set of words: (A) Hight A (C) Light (B) Might (D) Sight",
+      "options": {
+        "A": "Hight",
+        "B": "Light",
+        "C": "Might",
+        "D": "Sight"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Complete the Proverb: Don't put your eggs in _____?",
+      "options": {
+        "A": "Fridge",
+        "B": "One Basket",
+        "C": "Pan",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the Synonym of EXEMPLIFY?",
+      "options": {
+        "A": "Over",
+        "B": "Illustrate",
+        "C": "Answer",
+        "D": "Summary"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What Sine Die means?",
+      "options": {
+        "A": "Fixing a date",
+        "B": "Without fixing a date",
+        "C": "Without order",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The term \"Hung Parliament\" describes a situation in which?",
+      "options": {
+        "A": "Prime Minister has been removed through a vote-of no confidence but refused to step-down",
+        "B": "No single party has a majority in the house",
+        "C": "The ruling party has lost the majority in the upper house",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "She assured me ________ her help.",
+      "options": {
+        "A": "With",
+        "B": "To",
+        "C": "On",
+        "D": "Of"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Choose the Correct Spelling: Sucecde, Succeed, Sueecde, Sucedetes",
+      "options": {
+        "A": "Sucecde",
+        "B": "Succeed",
+        "C": "Sueecde",
+        "D": "Sucedetes"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "To carry the day means _____?",
+      "options": {
+        "A": "To succeed",
+        "B": "To loose something",
+        "C": "To win a victory",
+        "D": "To do something wrong"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "He sat _____ the shadow of the tree.",
+      "options": {
+        "A": "Under",
+        "B": "Below",
+        "C": "Beneath",
+        "D": "None of the above"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The Synonym of Abasement is?",
+      "options": {
+        "A": "Incurrence",
+        "B": "Taxation",
+        "C": "Humility",
+        "D": "Humilation"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Better to be untaught than (iII taught). III taught is _____?",
+      "options": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Adjective",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Choose the right one: Many a Soldiers lost his life in war., Many a Soldier lost their life in wars., Many a soldier lost his life in war., None of these",
+      "options": {
+        "A": "Many a Soldiers lost his life in war.",
+        "B": "Many a Soldier lost their life in wars.",
+        "C": "Many a soldier lost his life in war.",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "He is overwhelmed ____ grief at the death of his father.",
+      "options": {
+        "A": "On",
+        "B": "With",
+        "C": "Upon",
+        "D": "Over"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "I saw _______ one eyed person.",
+      "options": {
+        "A": "A",
+        "B": "An",
+        "C": "To",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Choose correct one: Both sisters is in same class., Both sisters are in the same class., The both sisters are in same class., None of these",
+      "options": {
+        "A": "Both sisters is in same class.",
+        "B": "Both sisters are in the same class.",
+        "C": "The both sisters are in same class.",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The Synonym of Native is?",
+      "options": {
+        "A": "Acquired",
+        "B": "Endemic",
+        "C": "Learned",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Identify type of sentence you do wrong but you you do not show.",
+      "options": {
+        "A": "Negative",
+        "B": "Interrogative",
+        "C": "Empathetic",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Synonym of Connoisseur is?",
+      "options": {
+        "A": "Ignoramus",
+        "B": "Lover of Art",
+        "C": "Idiot",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "He has no child _____ his wife.",
+      "options": {
+        "A": "By",
+        "B": "From",
+        "C": "With",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Choose the correct pair of words: Algebra : Mathematics ::",
+      "options": {
+        "A": "Mathematics: chemistry",
+        "B": "Physics: Chemistry",
+        "C": "Mathematics: Science",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Complete the proverb: A stitch in time saves ____________.",
+      "options": {
+        "A": "Eleven",
+        "B": "Twelve",
+        "C": "Ten",
+        "D": "Nine"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What the meaning is of: ‘To have a bee in one’s bonnet’?",
+      "options": {
+        "A": "To eat Honey",
+        "B": "Be obsessed with an idea",
+        "C": "To be Bitten by a bee",
+        "D": "None of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the synonym word of \"Sacrosanct\"?",
+      "options": {
+        "A": "Detest",
+        "B": "Nullify",
+        "C": "Sacred",
+        "D": "Aged"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Synonym of Abdicate is?",
+      "options": {
+        "A": "Search",
+        "B": "Advance",
+        "C": "Join",
+        "D": "Abandon"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "There are _____ people at the event than last year.",
+      "options": {
+        "A": "Fewest",
+        "B": "Fewer",
+        "C": "Lesser",
+        "D": "Less"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The dealer has sold the car? (Passive Voice)",
+      "options": {
+        "A": "The car has been sold by the dealer",
+        "B": "The car have been sold by the dealer",
+        "C": "The car had been sold by the dealer",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "\"Cul de sac\" means ____?",
+      "options": {
+        "A": "Regard",
+        "B": "Thinking loud",
+        "C": "Dead end",
+        "D": "On the way"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Pima Facie (choose the most appropiate similar wor)",
+      "options": {
+        "A": "human nature",
+        "B": "at first view",
+        "C": "valuable",
+        "D": "none of these"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Synonym of Nostalgic is?",
+      "options": {
+        "A": "healthy",
+        "B": "angry",
+        "C": "homesick",
+        "D": "none of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The Plural of deer is ________ ?",
+      "options": {
+        "A": "Deer",
+        "B": "Sheep",
+        "C": "Deery",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The antonym of 'Loath' is?",
+      "options": {
+        "A": "Agreeable",
+        "B": "Achieveable",
+        "C": "Eager",
+        "D": "Attracted"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Synonym of trepidation",
+      "options": {
+        "A": "Fear",
+        "B": "Expedition",
+        "C": "Triat",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Choose the synonym of \"Gradually\"?",
+      "options": {
+        "A": "Accidentally",
+        "B": "Suddenly",
+        "C": "Nearly",
+        "D": "Slowly"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The idiom Hubson,s choice meaning?",
+      "options": {
+        "A": "The choice of teachers",
+        "B": "Given choice",
+        "C": "No choice at all",
+        "D": "Choice to live or die"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Mark the suitable word: Forgettut of unmindful",
+      "options": {
+        "A": "numb",
+        "B": "insensible",
+        "C": "oblivious",
+        "D": "none"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "identify the correct sentence: i am sick by your lies, i am sick from your lies, i am sick of your lies, i am sick to your lies",
+      "options": {
+        "A": "i am sick by your lies",
+        "B": "i am sick from your lies",
+        "C": "i am sick of your lies",
+        "D": "i am sick to your lies"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Many young men were ___ at street corners for the coffee bars to open",
+      "options": {
+        "A": "Hanging about",
+        "B": "Hanging on",
+        "C": "Hanging back",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Do not cry over split milk. Here the word \"Over\" is a _______?",
+      "options": {
+        "A": "Preposition",
+        "B": "Noun",
+        "C": "Verb",
+        "D": "Pronoun"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "The accused ________ having made any statement",
+      "options": {
+        "A": "denied",
+        "B": "declaimed",
+        "C": "rejected",
+        "D": "refused"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "I was amazed ________ his misbehavior.",
+      "options": {
+        "A": "From",
+        "B": "At",
+        "C": "In",
+        "D": "With"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "He is walking along the road. (Here ALONG is an example)",
+      "options": {
+        "A": "preposition",
+        "B": "verb",
+        "C": "adverb",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Antonym of impertinent is?",
+      "options": {
+        "A": "Obedience",
+        "B": "Disobey",
+        "C": "Honest",
+        "D": "None"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Correction of adverb placement: Lets play nice",
+      "options": {
+        "A": "Lets play nicely",
+        "B": "Nicely lets play",
+        "C": "Lets nicely play",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Select the correct spelling: Victory, Victery, Victary, Victon",
+      "options": {
+        "A": "Victory",
+        "B": "Victery",
+        "C": "Victary",
+        "D": "Victon"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Children broke window pane. (which word is a plural noun)",
+      "options": {
+        "A": "Broke",
+        "B": "window pane",
+        "C": "children",
+        "D": "the"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Fifth column refers to:",
+      "options": {
+        "A": "Long writing",
+        "B": "Loyalty",
+        "C": "Treachery",
+        "D": "Hogo pillar"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "The opposite of 'Distill' is",
+      "options": {
+        "A": "Rare",
+        "B": "Impede",
+        "C": "Infuse",
+        "D": "Lure"
+      }
+    },
+    {
+      "question": "The antonym of 'Facilitate' is",
+      "options": {
+        "A": "Further",
+        "B": "Impede",
+        "C": "Expiate",
+        "D": "Assist"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The antonym of “Germane” is____?",
+      "options": {
+        "A": "Improvident",
+        "B": "Impartial",
+        "C": "Indifferent",
+        "D": "Irrelevant"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Antonym of IMPOUND is?",
+      "options": {
+        "A": "Stimulate",
+        "B": "Release",
+        "C": "Strengthen",
+        "D": "Generate"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "اردو کا پہلا افسانہ نگار کون ہے؟",
+      "options": {
+        "A": "پریم چند",
+        "B": "سجاد حیدر یلدرم",
+        "C": "اعظم کریوی",
+        "D": "انتظار حسین"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Synonym of. Entice is:",
+      "options": {
+        "A": "Draw",
+        "B": "Lure",
+        "C": "Repulse",
+        "D": "None of the above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is similar word of \"Wrack\"?",
+      "options": {
+        "A": "Flee",
+        "B": "Damage",
+        "C": "Trap",
+        "D": "None of the above"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the synonym of \"Commendable\"?",
+      "options": {
+        "A": "Praiseworthy",
+        "B": "Representative",
+        "C": "Reprehensible",
+        "D": "Acquittal"
+      },
+      "correct": "A"
     }
   ]
 }

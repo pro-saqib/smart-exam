@@ -1,11 +1,11 @@
 import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
-import { useApp } from "./src/store/app-store";
+import { useApp } from "../src/store/app-store";
 
 // Helper to interact with the Zustand store outside of React components
-// Since we are running this in a Node environment (Bun), 
+// Since we are running this in a Node environment (Bun),
 // we need to access the store's state directly.
-import { useApp as appStore } from "./src/store/app-store";
+import { useApp as appStore } from "../src/store/app-store";
 
 async function runImport() {
   const dataDir = join(process.cwd(), "data", "ppsc");

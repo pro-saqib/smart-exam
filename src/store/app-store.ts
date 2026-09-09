@@ -16,6 +16,9 @@ import {
 
 export interface SavedQuiz {
   mode: string;
+  routePath?: string;
+  routeParams?: Record<string, string>;
+  routeSearch?: Record<string, unknown>;
   subjectId: string;
   subjectName: string;
   currentIndex: number;
@@ -28,6 +31,7 @@ export interface SavedQuiz {
   timeLimitMin: number;
   shuffleOptions: boolean;
   shuffleQuestions: boolean;
+  userId?: string;
 }
 
 interface State {
@@ -35,6 +39,7 @@ interface State {
   mcqs: MCQ[];
   attempts: AttemptLog[];
   savedQuiz: SavedQuiz | null;
+  currentUserId: string | null;
   hydrateFromDb: () => Promise<void>;
   addSubject: (name: string, parentId?: string) => Promise<Subject>;
   renameSubject: (id: string, name: string) => Promise<void>;
@@ -54,10 +59,7 @@ function normalize(q: string) {
   return q.toLowerCase().replace(/\s+/g, " ").replace(/[^a-z0-9 ]/g, "").trim();
 }
 
-export const INITIAL_SUBJECTS: Subject[] = [
-  "General Knowledge", "Pakistan Studies", "Current Affairs", "Islamic Studies",
-  "English", "Urdu", "Everyday Science", "Basic Mathematics", "Computer Science", "Geography",
-].map((name) => ({ id: name.toLowerCase().replace(/\s+/g, "-"), name, createdAt: 0 }));
+export const INITIAL_SUBJECTS: Subject[] = [];
 
 export const useApp = create<State>()(
   persist(
@@ -66,6 +68,7 @@ export const useApp = create<State>()(
       mcqs: [],
       attempts: [],
       savedQuiz: null,
+      currentUserId: null,
 
       hydrateFromDb: async () => {
         try {
@@ -73,10 +76,19 @@ export const useApp = create<State>()(
           const data = await loadUserData();
           const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
           const dbSubjects = data.subjects.filter((s) => !initialIds.has(s.id));
+          // Clear saved quiz if it belongs to a different user
+          const currentSavedQuiz = get().savedQuiz;
+          const userId = data.userId;
+          const savedQuizToKeep =
+            currentSavedQuiz && currentSavedQuiz.userId && currentSavedQuiz.userId !== userId
+              ? null
+              : currentSavedQuiz;
           set({
             subjects: [...INITIAL_SUBJECTS, ...dbSubjects],
             mcqs: data.mcqs,
             attempts: data.attempts,
+            savedQuiz: savedQuizToKeep,
+            currentUserId: userId,
           });
         } catch (err) {
           console.error("Failed to hydrate from DB:", err);
@@ -251,7 +263,7 @@ export const useApp = create<State>()(
         }
       },
 
-      saveQuiz: (quiz) => set({ savedQuiz: quiz }),
+      saveQuiz: (quiz) => set({ savedQuiz: { ...quiz, userId: get().currentUserId ?? undefined } }),
       clearSavedQuiz: () => set({ savedQuiz: null }),
     }),
     {

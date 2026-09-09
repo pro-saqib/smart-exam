@@ -2,6 +2,116 @@
   "name": "PPSC Past Papers all MCQs 2022 of Everyday Science",
   "mcqs": [
     {
+      "question": "How many bones in human body (skeleton)?",
+      "options": {
+        "A": "200",
+        "B": "206",
+        "C": "270",
+        "D": "300"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "The only elemental metal that is liquid at room temperature is?",
+      "options": {
+        "A": "Lead",
+        "B": "Zinc",
+        "C": "Mercury",
+        "D": "Aluminum"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Myopia is a disease related to _____?",
+      "options": {
+        "A": "Stomach",
+        "B": "Liver",
+        "C": "Eye",
+        "D": "Neck"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Who discover Penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Edward Jenner",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "A universal donor has the blood group?",
+      "options": {
+        "A": "B",
+        "B": "O-",
+        "C": "AB",
+        "D": "A"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Blood group is identified by _______?",
+      "options": {
+        "A": "Antibody",
+        "B": "Anti Toxin",
+        "C": "Antigens",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which is the largest part of the human brain?",
+      "options": {
+        "A": "Encephalus",
+        "B": "Cerebellum",
+        "C": "Middle brain",
+        "D": "Cerebrum"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who invented Telephone?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Nikola Tesla",
+        "C": "Alexander Graham Bell",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the chemical formula of Washing Soda?",
+      "options": {
+        "A": "NaHCO₃",
+        "B": "Na₂SO₃",
+        "C": "Na₂CO₃",
+        "D": "None of these"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following gas mainly responsible for ozone layer depletion?",
+      "options": {
+        "A": "Chlorofluorocarbon/Freon",
+        "B": "CO2",
+        "C": "Nitrogen oxide",
+        "D": "Sulphur dioxide"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What type of reaction takes place in sun?",
+      "options": {
+        "A": "Fusion reaction",
+        "B": "Nuclear reaction",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "correct": "A"
+    },
+    {
       "question": "Radioactivity measured by which device?",
       "options": {
         "A": "Radioactivity meter",
@@ -42,16 +152,6 @@
       "correct": "D"
     },
     {
-      "question": "A universal donor has the blood group?",
-      "options": {
-        "A": "B",
-        "B": "O-",
-        "C": "AB",
-        "D": "A"
-      },
-      "correct": "B"
-    },
-    {
       "question": "Which of the following is used in fire ‘extinguishers’?",
       "options": {
         "A": "Carbon sulphite",
@@ -60,26 +160,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "Who invented Telephone?",
-      "options": {
-        "A": "Thomas Edison",
-        "B": "Nikola Tesla",
-        "C": "Alexander Graham Bell",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who discover Penicillin?",
-      "options": {
-        "A": "Alexander Fleming",
-        "B": "Louis Pasteur",
-        "C": "Edward Jenner",
-        "D": "None of these"
-      },
-      "correct": "A"
     },
     {
       "question": "The rear (back) view mirror used in the vehicles is _____?",
@@ -110,16 +190,6 @@
         "D": "None of these"
       },
       "correct": "A"
-    },
-    {
-      "question": "The only elemental metal that is liquid at room temperature is?",
-      "options": {
-        "A": "Lead",
-        "B": "Zinc",
-        "C": "Mercury",
-        "D": "Aluminum"
-      },
-      "correct": "C"
     },
     {
       "question": "Who proposed the Theory of Evolution?",
@@ -190,16 +260,6 @@
         "D": "None of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "How many bones in human body (skeleton)?",
-      "options": {
-        "A": "200",
-        "B": "206",
-        "C": "270",
-        "D": "300"
-      },
-      "correct": "B"
     },
     {
       "question": "Who is known as Father of Geography?",
@@ -342,32 +402,12 @@
       "correct": "C"
     },
     {
-      "question": "Which of the following gas mainly responsible for ozone layer depletion?",
-      "options": {
-        "A": "Chlorofluorocarbon/Freon",
-        "B": "CO2",
-        "C": "Nitrogen oxide",
-        "D": "Sulphur dioxide"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Light from Sun travels a distance before it reaches Earth",
       "options": {
         "A": "50 Million km",
         "B": "100 Million km",
         "C": "150 Million km",
         "D": "200 Million Km"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Myopia is a disease related to _____?",
-      "options": {
-        "A": "Stomach",
-        "B": "Liver",
-        "C": "Eye",
-        "D": "Neck"
       },
       "correct": "C"
     },
@@ -482,16 +522,6 @@
       "correct": "A"
     },
     {
-      "question": "What is the chemical formula of Washing Soda?",
-      "options": {
-        "A": "NaHCO₃",
-        "B": "Na₂SO₃",
-        "C": "Na₂CO₃",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Soap and detergents remove the dirt from cloths due to ______?",
       "options": {
         "A": "Capillary action",
@@ -530,16 +560,6 @@
         "D": "None of these"
       },
       "correct": "B"
-    },
-    {
-      "question": "Which is the largest part of the human brain?",
-      "options": {
-        "A": "Encephalus",
-        "B": "Cerebellum",
-        "C": "Middle brain",
-        "D": "Cerebrum"
-      },
-      "correct": "D"
     },
     {
       "question": "NaCL+H2O =?",
@@ -1302,16 +1322,6 @@
       "correct": "A"
     },
     {
-      "question": "Blood group is identified by _______?",
-      "options": {
-        "A": "Antibody",
-        "B": "Anti Toxin",
-        "C": "Antigens",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "The potential of pure water is ____?",
       "options": {
         "A": "Zero",
@@ -1552,16 +1562,6 @@
       "correct": "A"
     },
     {
-      "question": "largest part of human brain is",
-      "options": {
-        "A": "cerebrum",
-        "B": "Cerebellum",
-        "C": "Pituitary gland",
-        "D": "None"
-      },
-      "correct": "A"
-    },
-    {
       "question": "Mirror is related to reflection in the same way as water is related to",
       "options": {
         "A": "Conduction",
@@ -1620,16 +1620,6 @@
         "D": "All of these"
       },
       "correct": "C"
-    },
-    {
-      "question": "What type of Reaction takes place in sun?",
-      "options": {
-        "A": "fusion reaction",
-        "B": "Nuclear reaction",
-        "C": "Both",
-        "D": "None"
-      },
-      "correct": "A"
     },
     {
       "question": "For a fixed mass of gass at constant temperature, if we decrease volume, the pressure will _________?",

@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
-import { useApp } from "./src/store/app-store";
+import { useApp } from "../src/store/app-store";
 
 const { subjects, mcqs, attempts, deleteSubject, addSubject, addMCQs } = useApp.getState();
 
