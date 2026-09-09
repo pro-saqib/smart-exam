@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import { useApp } from "@/store/app-store";
 import { QuizRunner } from "@/components/QuizRunner";
 import { ArrowLeft } from "lucide-react";
-import { getModelPaperMcqs, SUBJECT_KEYWORDS } from "@/lib/model-papers";
+import { getModelPaperMcqs, getSubjectAllMcqs, SUBJECT_KEYWORDS } from "@/lib/model-papers";
 
 interface QuizSearchParams {
   paper?: number;
@@ -40,11 +40,11 @@ function QuizPage() {
 
   // Model paper data if paper param is provided or if it's a canonical group
   const modelPaperData = useMemo(() => {
-    if (paper && (canonicalConfig || allSubtopics.some((s) => s.id === subjectId))) {
+    if (paper) {
       return getModelPaperMcqs(subjectId, allSubtopics, mcqs, paper, 100);
     }
     return null;
-  }, [paper, canonicalConfig, subjectId, allSubtopics, mcqs]);
+  }, [paper, subjectId, allSubtopics, mcqs]);
 
   const subject = useMemo(() => subjects.find((x) => x.id === subjectId), [subjects, subjectId]);
 
@@ -53,8 +53,11 @@ function QuizPage() {
     if (modelPaperData) {
       return modelPaperData.mcqs;
     }
+    if (canonicalConfig) {
+      return getSubjectAllMcqs(subjectId, allSubtopics, mcqs);
+    }
     return mcqs.filter((m) => m.subjectId === subjectId);
-  }, [modelPaperData, mcqs, subjectId]);
+  }, [modelPaperData, canonicalConfig, subjectId, allSubtopics, mcqs]);
 
   const subtopics = useMemo(() => subjects.filter((s) => s.parentId === subjectId), [subjects, subjectId]);
 

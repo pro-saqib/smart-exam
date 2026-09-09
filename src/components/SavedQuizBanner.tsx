@@ -22,6 +22,8 @@ export function SavedQuizBanner() {
     : null;
 
   const handleResume = () => {
+    if (!savedQuiz) return;
+
     // 1. If explicit route metadata is saved, use it
     if (savedQuiz.routePath === "/practice") {
       navigate({
@@ -40,12 +42,7 @@ export function SavedQuizBanner() {
       return;
     }
 
-    // 2. Fallback parsing for legacy saved states
-    if (savedQuiz.subjectId.startsWith("practice_") || savedQuiz.mode?.toLowerCase().includes("practice")) {
-      navigate({ to: "/practice", search: { resume: true } });
-      return;
-    }
-
+    // 2. Parse subjectId formats (e.g., english_paper_1 or english)
     if (savedQuiz.subjectId.includes("_paper_")) {
       const [subjId, paperStr] = savedQuiz.subjectId.split("_paper_");
       navigate({
@@ -53,6 +50,11 @@ export function SavedQuizBanner() {
         params: { subjectId: subjId },
         search: { paper: Number(paperStr) } as any,
       });
+      return;
+    }
+
+    if (savedQuiz.subjectId.startsWith("practice_") || savedQuiz.mode?.toLowerCase().includes("practice")) {
+      navigate({ to: "/practice", search: { resume: true } });
       return;
     }
 
@@ -78,7 +80,7 @@ export function SavedQuizBanner() {
             <span className="font-medium">{modeLabel}</span>
             <span className="text-muted-foreground">&middot;</span>
             <span className="flex items-center gap-1.5 text-muted-foreground">
-              <BookOpen className="size-3.5" /> {savedQuiz.subjectName || "Subject"}
+              <BookOpen className="size-3.5" /> {savedQuiz.subjectName}
             </span>
             {remaining !== null && (
               <>
@@ -86,10 +88,6 @@ export function SavedQuizBanner() {
                 <span className="text-muted-foreground">{fmtTime(remaining)} left</span>
               </>
             )}
-            <span className="text-muted-foreground">&middot;</span>
-            <span className="text-xs text-muted-foreground">
-              {answered} of {totalQuestions} answered
-            </span>
           </div>
           <div className="mt-2 h-1.5 rounded-full bg-muted overflow-hidden max-w-xs">
             <div

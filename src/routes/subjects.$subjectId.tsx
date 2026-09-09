@@ -88,39 +88,39 @@ function SubjectDetailPage() {
               return (
                 <div
                   key={paper.paperNumber}
-                  className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-5 shadow-card transition-all duration-200 flex flex-col justify-between gap-5"
+                  className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-4 shadow-card transition-all duration-200 flex flex-col justify-between gap-3.5"
                 >
                   <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="size-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
-                        <FileCheck2 className="size-5 text-primary" />
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="size-9 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
+                        <FileCheck2 className="size-4 text-primary" />
                       </div>
                       <button
                         onClick={() => setPreviewPaper(paper)}
                         className="size-7 rounded-lg bg-secondary text-muted-foreground hover:text-foreground hover:bg-accent grid place-items-center transition-colors"
                         title="Preview Questions"
                       >
-                        <Eye className="size-4" />
+                        <Eye className="size-3.5" />
                       </button>
                     </div>
 
-                    <h3 className="font-semibold text-base group-hover:text-primary transition-colors">
+                    <h3 className="font-semibold text-sm sm:text-base group-hover:text-primary transition-colors">
                       {paper.name}
                     </h3>
 
-                    <div className="flex items-center gap-1.5 text-xs mt-1 text-muted-foreground">
+                    <div className="flex items-center gap-1.5 text-[11px] mt-0.5 text-muted-foreground">
                       <span>{paper.attemptedCount} solved</span>
                       <span>·</span>
                       <span className="font-medium text-foreground">{paper.accuracy}% accuracy</span>
                     </div>
                   </div>
 
-                  <div className="pt-3 border-t border-border/50">
+                  <div className="pt-2.5 border-t border-border/50">
                     <Link
                       to="/quiz/$subjectId"
                       params={{ subjectId }}
                       search={{ paper: paper.paperNumber }}
-                      className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg gradient-primary text-primary-foreground text-xs font-medium shadow-glow transition-all"
+                      className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg gradient-primary text-primary-foreground text-xs font-medium shadow-glow transition-all"
                     >
                       <FileText className="size-3.5" /> Practice
                     </Link>
@@ -200,7 +200,7 @@ function SubjectDetailPage() {
             return (
               <div
                 key={child.id}
-                className="group relative rounded-2xl bg-card border border-border hover:border-primary/40 p-5 shadow-card transition-all flex flex-col justify-between gap-3"
+                className="group relative rounded-2xl bg-card border border-border hover:border-primary/40 p-4 shadow-card transition-all flex flex-col justify-between gap-2.5"
               >
                 {editingId === child.id ? (
                   <div className="flex items-center gap-2">

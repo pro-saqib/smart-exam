@@ -76,13 +76,13 @@ export const useApp = create<State>()(
           const data = await loadUserData();
           const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
           const dbSubjects = data.subjects.filter((s) => !initialIds.has(s.id));
-          // Clear saved quiz if it belongs to a different user
+          // Clear saved quiz if it belongs to a different user or has no userId
           const currentSavedQuiz = get().savedQuiz;
           const userId = data.userId;
           const savedQuizToKeep =
-            currentSavedQuiz && currentSavedQuiz.userId && currentSavedQuiz.userId !== userId
-              ? null
-              : currentSavedQuiz;
+            currentSavedQuiz && currentSavedQuiz.userId === userId
+              ? currentSavedQuiz
+              : null;
           set({
             subjects: [...INITIAL_SUBJECTS, ...dbSubjects],
             mcqs: data.mcqs,
@@ -263,13 +263,15 @@ export const useApp = create<State>()(
         }
       },
 
-      saveQuiz: (quiz) => set({ savedQuiz: { ...quiz, userId: get().currentUserId ?? undefined } }),
+      saveQuiz: (quiz) => set({ savedQuiz: { ...quiz, userId: get().currentUserId ?? quiz.userId ?? undefined } }),
       clearSavedQuiz: () => set({ savedQuiz: null }),
     }),
     {
       name: "mcq-prep-v1",
-      // Only persist savedQuiz locally — everything else comes from D1
-      partialize: (state) => ({ savedQuiz: state.savedQuiz }),
+      // Only persist lightweight state to avoid exceeding the 5MB localStorage quota
+      partialize: (state) => ({
+        savedQuiz: state.savedQuiz,
+      }),
     },
   ),
 );

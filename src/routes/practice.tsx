@@ -176,11 +176,11 @@ function PracticePage() {
       </div>
 
       {/* Mode selection buttons (disabled while practicing) */}
-      <div className="flex flex-wrap gap-2">
-        <ModeBtn icon={<Shuffle className="size-4" />} active={mode === "random"} disabled={quizStarted} onClick={() => handleModeChange("random")}>Random</ModeBtn>
-        <ModeBtn icon={<AlertTriangle className="size-4" />} active={mode === "weak"} disabled={quizStarted} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
-        <ModeBtn icon={<RotateCcw className="size-4" />} active={mode === "wrong"} disabled={quizStarted} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
-        <ModeBtn icon={<Bookmark className="size-4" />} active={mode === "solve_later"} disabled={quizStarted} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
+      <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2">
+        <ModeBtn icon={<Shuffle className="size-4 shrink-0" />} active={mode === "random"} disabled={quizStarted} onClick={() => handleModeChange("random")}>Random</ModeBtn>
+        <ModeBtn icon={<AlertTriangle className="size-4 shrink-0" />} active={mode === "weak"} disabled={quizStarted} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
+        <ModeBtn icon={<RotateCcw className="size-4 shrink-0" />} active={mode === "wrong"} disabled={quizStarted} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
+        <ModeBtn icon={<Bookmark className="size-4 shrink-0" />} active={mode === "solve_later"} disabled={quizStarted} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
       </div>
 
       {!quizStarted && (
@@ -285,11 +285,11 @@ function ModeBtn({ icon, active, disabled, onClick, children }: { icon: React.Re
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium border transition-all ${
+      className={`inline-flex items-center justify-center sm:justify-start gap-2 px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-medium border transition-all ${
         active ? "gradient-primary text-primary-foreground border-transparent shadow-glow" : "bg-secondary/40 border-border text-muted-foreground hover:text-foreground hover:bg-secondary/60"
       } ${disabled ? "opacity-40 pointer-events-none" : ""}`}
     >
-      {icon} {children}
+      {icon} <span className="truncate">{children}</span>
     </button>
   );
 }

@@ -109,28 +109,28 @@ function SubjectsList() {
                 key={group.key}
                 to="/subjects/$subjectId"
                 params={{ subjectId: group.key }}
-                className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-5 shadow-card transition-all duration-200 flex flex-col justify-between gap-5"
+                className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-4 shadow-card transition-all duration-200 flex flex-col justify-between gap-3.5"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-3">
-                    <div className="size-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="size-9 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
                       {getSubjectIcon(group.key)}
                     </div>
-                    <div className="size-7 rounded-lg bg-secondary text-muted-foreground group-hover:text-foreground group-hover:bg-accent grid place-items-center transition-colors">
-                      <ChevronRight className="size-4" />
+                    <div className="size-6 rounded-lg bg-secondary text-muted-foreground group-hover:text-foreground group-hover:bg-accent grid place-items-center transition-colors">
+                      <ChevronRight className="size-3.5" />
                     </div>
                   </div>
 
-                  <h2 className="font-semibold text-base group-hover:text-primary transition-colors">
+                  <h2 className="font-semibold text-sm sm:text-base group-hover:text-primary transition-colors">
                     {group.label}
                   </h2>
-                  <p className="text-xs text-muted-foreground mt-1">
+                  <p className="text-[11px] text-muted-foreground mt-0.5">
                     {modelPaperCount} Model {modelPaperCount === 1 ? "Paper" : "Papers"} · {group.totalMcqs.toLocaleString()} MCQs
                   </p>
                 </div>
 
-                <div className="pt-3 border-t border-border/50 space-y-1.5">
-                  <div className="flex items-center justify-between text-xs">
+                <div className="pt-2.5 border-t border-border/50 space-y-1">
+                  <div className="flex items-center justify-between text-[11px]">
                     <span className="text-muted-foreground">{attemptedCount} solved</span>
                     <span className="font-medium text-foreground">{accuracy}% accuracy</span>
                   </div>

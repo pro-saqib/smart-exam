@@ -40,8 +40,16 @@ export function getSubjectGroup(subtopicName: string): { key: string; label: str
   return null;
 }
 
-/** Group child subtopics by canonical subject name. Returns groups in canonical order. */
+let lastSubtopicsRef: Subject[] | null = null;
+let lastMcqsLength = -1;
+let lastGroupsCache: SubjectGroup[] = [];
+
+/** Group child subtopics by canonical subject name. Returns groups in canonical order (memoized). */
 export function buildSubjectGroups(subtopics: Subject[], mcqs: MCQ[]): SubjectGroup[] {
+  if (lastSubtopicsRef === subtopics && lastMcqsLength === mcqs.length) {
+    return lastGroupsCache;
+  }
+
   const groupMap = new Map<string, SubjectGroup>();
 
   for (const sub of subtopics) {
@@ -57,9 +65,15 @@ export function buildSubjectGroups(subtopics: Subject[], mcqs: MCQ[]): SubjectGr
     group.totalMcqs = mcqs.filter((m) => group.subtopicIds.includes(m.subjectId)).length;
   }
 
-  return SUBJECT_KEYWORDS
+  const result = SUBJECT_KEYWORDS
     .map((sk) => groupMap.get(sk.key))
     .filter((g): g is SubjectGroup => !!g && g.totalMcqs > 0);
+
+  lastSubtopicsRef = subtopics;
+  lastMcqsLength = mcqs.length;
+  lastGroupsCache = result;
+
+  return result;
 }
 
 /** Get all MCQs belonging to a subject group in consistent order */

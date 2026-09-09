@@ -88,6 +88,12 @@
 
 @layer base {
   * { border-color: var(--color-border); }
+  button, [role="button"], a, input[type="button"], input[type="submit"], input[type="checkbox"], input[type="radio"], select, label[for], summary {
+    cursor: pointer;
+  }
+  button:disabled, [role="button"][aria-disabled="true"], input:disabled, select:disabled {
+    cursor: not-allowed;
+  }
   html, body { background-color: var(--color-background); color: var(--color-foreground); }
   body {
     font-family: var(--font-sans);
