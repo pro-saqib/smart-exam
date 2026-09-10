@@ -24,6 +24,17 @@ export interface Subject {
   createdAt: number;
 }
 
+export interface ModelPaper {
+  paperNumber: number;
+  name: string;
+  mcqs: MCQ[];
+  totalMcqs: number;
+  filteredCount?: number;
+  attemptedCount: number;
+  accuracy: number;
+  subtopicIds: string[];
+}
+
 export interface AttemptLog {
   id: string;
   mcqId: string;

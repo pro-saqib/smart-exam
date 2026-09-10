@@ -200,11 +200,11 @@ export function QuizRunner({
 
   if (!started) {
     return (
-      <div className="rounded-xl bg-card border border-border p-4 sm:p-6 md:p-8 shadow-card max-w-xl">
-        <div className="space-y-2.5 sm:space-y-3">
+      <div className="rounded-xl bg-card border border-border p-4 sm:p-5 shadow-card max-w-lg">
+        <div className="space-y-2 sm:space-y-2.5">
           {subtopics.length > 0 && (
             <div className="space-y-1">
-              <label className="text-xs sm:text-sm font-medium text-muted-foreground">Subtopic</label>
+              <label className="text-xs font-medium text-muted-foreground">Subtopic</label>
               <select
                 value={selectedSubtopic}
                 onChange={(e) => setSelectedSubtopic(e.target.value)}
@@ -230,12 +230,12 @@ export function QuizRunner({
             onChange={setShuffleOptions}
           />
 
-          <div className="p-3 sm:p-4 rounded-xl border border-border bg-secondary/40">
-            <div className="flex items-center gap-2.5">
-              <TimerIcon className="size-4 text-primary-glow" />
+          <div className="p-2.5 sm:p-3 rounded-xl border border-border bg-secondary/40">
+            <div className="flex items-center gap-2">
+              <TimerIcon className="size-3.5 sm:size-4 text-primary-glow" />
               <div className="text-xs sm:text-sm font-medium">Time limit</div>
             </div>
-            <div className="mt-2 sm:mt-3 grid grid-cols-3 gap-2">
+            <div className="mt-2 grid grid-cols-3 gap-2">
               {([
                 { v: 15, label: "15 min" },
                 { v: 30, label: "30 min" },
@@ -244,7 +244,7 @@ export function QuizRunner({
                 <button
                   key={opt.v}
                   onClick={() => setTimeLimitMin(opt.v as 60 | 15 | 30)}
-                  className={`px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-lg text-xs sm:text-sm border transition-all ${
+                  className={`px-2 py-1.5 rounded-lg text-xs sm:text-sm border transition-all ${
                     timeLimitMin === opt.v
                       ? "gradient-primary text-primary-foreground border-transparent shadow-glow"
                       : "bg-card border-border text-muted-foreground hover:text-foreground"
@@ -259,7 +259,7 @@ export function QuizRunner({
 
         <button
           onClick={() => begin()}
-          className="w-full mt-4 sm:mt-6 inline-flex items-center justify-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
+          className="w-full mt-3.5 sm:mt-4 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
         >
           <Play className="size-4" /> Start
         </button>
@@ -383,8 +383,26 @@ export function QuizRunner({
           <button
             onClick={async () => {
               if (!current) return;
-              await toggleSolveLater(current.id);
-              toast.success(isBookmarked ? "Removed bookmark" : "Saved for later");
+              const willBookmark = !isBookmarked;
+              setBookmarkedIds((prev) => {
+                const next = new Set(prev);
+                if (willBookmark) next.add(current.id);
+                else next.delete(current.id);
+                return next;
+              });
+              try {
+                await toggleSolveLater(current.id, willBookmark);
+                toast.success(willBookmark ? "Saved for later" : "Removed bookmark");
+              } catch (err) {
+                // Revert state on failure
+                setBookmarkedIds((prev) => {
+                  const next = new Set(prev);
+                  if (isBookmarked) next.add(current.id);
+                  else next.delete(current.id);
+                  return next;
+                });
+                toast.error("Failed to update bookmark");
+              }
             }}
             className="p-2 rounded-lg hover:bg-accent transition-colors"
             title={isBookmarked ? "Remove bookmark" : "Save for later"}

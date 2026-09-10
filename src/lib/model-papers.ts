@@ -26,6 +26,7 @@ export interface ModelPaper {
   name: string; // e.g. "Model Paper 1"
   mcqs: MCQ[];
   totalMcqs: number;
+  filteredCount?: number;
   attemptedCount: number;
   accuracy: number;
   subtopicIds: string[];

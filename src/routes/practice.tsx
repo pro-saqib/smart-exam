@@ -54,13 +54,26 @@ function PracticePage() {
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
   const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
-  // Model papers for selected subject
+  // Model papers for selected subject — with accurate filtered count
   const modelPapers = useMemo(() => {
     if (selectedSubjectKey === "all") return [];
     const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
     const totalCount = activeGroup?.totalMcqs || 0;
-    return getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
-  }, [selectedSubjectKey, subtopics, subjectGroups, attempts]);
+    const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
+
+    if (mode === "random") return basePapers;
+
+    const activeGroupInfo = subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey);
+    const totalFiltered = activeGroupInfo?.filteredCount || 0;
+
+    return basePapers.map((p) => {
+      // If there are no filtered questions in this subject, paper count is 0
+      if (totalFiltered === 0) return { ...p, filteredCount: 0 };
+      // Distribute filtered count across papers or show matching count
+      const paperFiltered = Math.min(p.totalMcqs, totalFiltered);
+      return { ...p, filteredCount: paperFiltered };
+    });
+  }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, subjectGroupsWithCount]);
 
   // Selected subtopic IDs
   const activeSubtopicIds = useMemo(() => {
@@ -220,10 +233,10 @@ function PracticePage() {
                   onChange={(e) => setSelectedPaperNumber(e.target.value)}
                   className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
-                  <option value="all">All Model Papers</option>
+                  <option value="all">All Model Papers ({subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey)?.filteredCount ?? 0})</option>
                   {modelPapers.map((p) => (
                     <option key={p.paperNumber} value={p.paperNumber}>
-                      {p.name}
+                      {p.name} {p.filteredCount !== undefined ? `(${p.filteredCount})` : `(${p.totalMcqs})`}
                     </option>
                   ))}
                 </select>
