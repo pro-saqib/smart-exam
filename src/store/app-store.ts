@@ -38,6 +38,7 @@ interface State {
   subjects: Subject[];
   mcqs: MCQ[];
   attempts: AttemptLog[];
+  solveLaterIds: string[];
   savedQuiz: SavedQuiz | null;
   currentUserId: string | null;
   hydrateFromDb: () => Promise<void>;
@@ -71,6 +72,7 @@ export const useApp = create<State>()(
       subjects: INITIAL_SUBJECTS,
       mcqs: [],
       attempts: [],
+      solveLaterIds: [],
       savedQuiz: null,
       currentUserId: null,
 
@@ -91,6 +93,7 @@ export const useApp = create<State>()(
             subjects: [...INITIAL_SUBJECTS, ...dbSubjects],
             mcqs: data.mcqs,
             attempts: data.attempts,
+            solveLaterIds: data.solveLaterIds || [],
             savedQuiz: savedQuizToKeep,
             currentUserId: userId,
           });
@@ -184,15 +187,19 @@ export const useApp = create<State>()(
 
       toggleSolveLater: async (id, explicitValue) => {
         const prev = get().mcqs;
+        const prevSolveLater = get().solveLaterIds;
         const m = prev.find((x) => x.id === id);
-        const newVal = explicitValue !== undefined ? explicitValue : (m ? !m.solveLater : true);
-        if (m) {
-          set((st) => ({ mcqs: st.mcqs.map((x) => (x.id === id ? { ...x, solveLater: newVal } : x)) }));
-        }
+        const newVal = explicitValue !== undefined ? explicitValue : (m ? !m.solveLater : !prevSolveLater.includes(id));
+        set((st) => ({
+          mcqs: m ? st.mcqs.map((x) => (x.id === id ? { ...x, solveLater: newVal } : x)) : st.mcqs,
+          solveLaterIds: newVal
+            ? Array.from(new Set([...st.solveLaterIds, id]))
+            : st.solveLaterIds.filter((x) => x !== id),
+        }));
         try {
           await dbToggleSolveLater({ data: { id, value: newVal } });
         } catch (err) {
-          if (m) set({ mcqs: prev });
+          set({ mcqs: prev, solveLaterIds: prevSolveLater });
           throw err;
         }
       },
