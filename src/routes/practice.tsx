@@ -109,6 +109,55 @@ function PracticePage() {
     setSelectedPaperNumber("all");
   };
 
+  // Per-group filtered counts for non-random modes computed purely in memory (0 server requests)
+  const subjectGroupsWithCount = useMemo(() => {
+    if (mode === "random") {
+      return subjectGroups.map((g) => ({ ...g, filteredCount: g.totalMcqs }));
+    }
+
+    // Weak: distinct mcqs where wrongCount >= max(1, floor(attempts / 2))
+    // Wrong: distinct mcqs where most recent attempt was incorrect
+    const statsByMcq: Record<string, { subjectId: string; total: number; wrong: number; lastCorrect: boolean; lastAt: number }> = {};
+    for (const a of attempts) {
+      if (!statsByMcq[a.mcqId]) {
+        statsByMcq[a.mcqId] = { subjectId: a.subjectId, total: 0, wrong: 0, lastCorrect: a.correct, lastAt: a.at };
+      }
+      const item = statsByMcq[a.mcqId];
+      item.total += 1;
+      if (!a.correct) item.wrong += 1;
+      if (a.at >= item.lastAt) {
+        item.lastCorrect = a.correct;
+        item.lastAt = a.at;
+      }
+    }
+
+    return subjectGroups.map((g) => {
+      const groupSubtopicSet = new Set(g.subtopicIds);
+      let count = 0;
+
+      if (mode === "weak") {
+        for (const s of Object.values(statsByMcq)) {
+          if (groupSubtopicSet.has(s.subjectId)) {
+            if (s.wrong >= Math.max(1, Math.floor(s.total / 2))) {
+              count++;
+            }
+          }
+        }
+      } else if (mode === "wrong") {
+        for (const s of Object.values(statsByMcq)) {
+          if (groupSubtopicSet.has(s.subjectId) && !s.lastCorrect) {
+            count++;
+          }
+        }
+      } else if (mode === "solve_later") {
+        // Count matching items currently loaded for solve_later or relevant attempts
+        count = items.filter((m) => groupSubtopicSet.has(m.subjectId)).length;
+      }
+
+      return { ...g, filteredCount: count };
+    });
+  }, [subjectGroups, attempts, mode, items]);
+
   const subjectLabel = useMemo(() => {
     if (selectedSubjectKey === "all") return "All Subjects";
     const group = subjectGroups.find((g) => g.key === selectedSubjectKey);
@@ -153,8 +202,8 @@ function PracticePage() {
                 className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
                 <option value="all">All subjects</option>
-                {subjectGroups.map((g) => (
-                  <option key={g.key} value={g.key}>{g.label} ({g.totalMcqs.toLocaleString()})</option>
+                {subjectGroupsWithCount.map((g) => (
+                  <option key={g.key} value={g.key}>{g.label} ({g.filteredCount.toLocaleString()})</option>
                 ))}
               </select>
             </label>
