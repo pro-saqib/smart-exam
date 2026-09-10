@@ -54,75 +54,13 @@ function PracticePage() {
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
   const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
-  // Per-group filtered counts for non-random modes computed purely in memory (0 server requests)
-  const subjectGroupsWithCount = useMemo(() => {
-    if (mode === "random") {
-      return subjectGroups.map((g) => ({ ...g, filteredCount: g.totalMcqs }));
-    }
-
-    // Weak: distinct mcqs where wrongCount >= max(1, floor(attempts / 2))
-    // Wrong: distinct mcqs where most recent attempt was incorrect
-    const statsByMcq: Record<string, { subjectId: string; total: number; wrong: number; lastCorrect: boolean; lastAt: number }> = {};
-    for (const a of attempts) {
-      if (!statsByMcq[a.mcqId]) {
-        statsByMcq[a.mcqId] = { subjectId: a.subjectId, total: 0, wrong: 0, lastCorrect: a.correct, lastAt: a.at };
-      }
-      const item = statsByMcq[a.mcqId];
-      item.total += 1;
-      if (!a.correct) item.wrong += 1;
-      if (a.at >= item.lastAt) {
-        item.lastCorrect = a.correct;
-        item.lastAt = a.at;
-      }
-    }
-
-    return subjectGroups.map((g) => {
-      const groupSubtopicSet = new Set(g.subtopicIds);
-      let count = 0;
-
-      if (mode === "weak") {
-        for (const s of Object.values(statsByMcq)) {
-          if (groupSubtopicSet.has(s.subjectId)) {
-            if (s.wrong >= Math.max(1, Math.floor(s.total / 2))) {
-              count++;
-            }
-          }
-        }
-      } else if (mode === "wrong") {
-        for (const s of Object.values(statsByMcq)) {
-          if (groupSubtopicSet.has(s.subjectId) && !s.lastCorrect) {
-            count++;
-          }
-        }
-      } else if (mode === "solve_later") {
-        // Count matching items currently loaded for solve_later or relevant attempts
-        count = items.filter((m) => groupSubtopicSet.has(m.subjectId)).length;
-      }
-
-      return { ...g, filteredCount: count };
-    });
-  }, [subjectGroups, attempts, mode, items]);
-
-  // Model papers for selected subject — with accurate filtered count
+  // Model papers for selected subject
   const modelPapers = useMemo(() => {
     if (selectedSubjectKey === "all") return [];
     const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
     const totalCount = activeGroup?.totalMcqs || 0;
-    const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
-
-    if (mode === "random") return basePapers;
-
-    const activeGroupInfo = subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey);
-    const totalFiltered = activeGroupInfo?.filteredCount || 0;
-
-    return basePapers.map((p) => {
-      // If there are no filtered questions in this subject, paper count is 0
-      if (totalFiltered === 0) return { ...p, filteredCount: 0 };
-      // Distribute filtered count across papers or show matching count
-      const paperFiltered = Math.min(p.totalMcqs, totalFiltered);
-      return { ...p, filteredCount: paperFiltered };
-    });
-  }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, subjectGroupsWithCount]);
+    return getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
+  }, [selectedSubjectKey, subtopics, subjectGroups, attempts]);
 
   // Selected subtopic IDs
   const activeSubtopicIds = useMemo(() => {
@@ -215,8 +153,8 @@ function PracticePage() {
                 className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
                 <option value="all">All subjects</option>
-                {subjectGroupsWithCount.map((g) => (
-                  <option key={g.key} value={g.key}>{g.label} ({g.filteredCount.toLocaleString()})</option>
+                {subjectGroups.map((g) => (
+                  <option key={g.key} value={g.key}>{g.label} ({g.totalMcqs.toLocaleString()})</option>
                 ))}
               </select>
             </label>
@@ -233,14 +171,12 @@ function PracticePage() {
                   onChange={(e) => setSelectedPaperNumber(e.target.value)}
                   className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
-                  <option value="all">All Model Papers ({subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey)?.filteredCount ?? 0})</option>
-                  {modelPapers
-                    .filter((p) => p.filteredCount === undefined || p.filteredCount > 0)
-                    .map((p) => (
-                      <option key={p.paperNumber} value={p.paperNumber}>
-                        {p.name} ({p.filteredCount !== undefined ? p.filteredCount : p.totalMcqs})
-                      </option>
-                    ))}
+                  <option value="all">All Model Papers</option>
+                  {modelPapers.map((p) => (
+                    <option key={p.paperNumber} value={p.paperNumber}>
+                      {p.name}
+                    </option>
+                  ))}
                 </select>
               </label>
             )}
