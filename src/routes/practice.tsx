@@ -54,74 +54,6 @@ function PracticePage() {
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
   const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
-  // Model papers for selected subject — with accurate filtered count
-  const modelPapers = useMemo(() => {
-    if (selectedSubjectKey === "all") return [];
-    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
-    const totalCount = activeGroup?.totalMcqs || 0;
-    const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
-
-    if (mode === "random") return basePapers;
-
-    const activeGroupInfo = subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey);
-    const totalFiltered = activeGroupInfo?.filteredCount || 0;
-
-    return basePapers.map((p) => {
-      // If there are no filtered questions in this subject, paper count is 0
-      if (totalFiltered === 0) return { ...p, filteredCount: 0 };
-      // Distribute filtered count across papers or show matching count
-      const paperFiltered = Math.min(p.totalMcqs, totalFiltered);
-      return { ...p, filteredCount: paperFiltered };
-    });
-  }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, subjectGroupsWithCount]);
-
-  // Selected subtopic IDs
-  const activeSubtopicIds = useMemo(() => {
-    if (selectedSubjectKey === "all") return [];
-    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
-    return activeGroup?.subtopicIds || [];
-  }, [selectedSubjectKey, subjectGroups]);
-
-  // Fetch MCQs on demand from D1 whenever settings change
-  useEffect(() => {
-    let cancelled = false;
-    setLoading(true);
-
-    getPracticeQuizMcqs({
-      data: {
-        mode,
-        subjectKey: selectedSubjectKey,
-        subtopicIds: activeSubtopicIds,
-        paperNumber: selectedPaperNumber,
-        count: mode === "random" ? questionCount : 100,
-      },
-    })
-      .then((data) => {
-        if (!cancelled) {
-          setItems(data as MCQ[]);
-          setLoading(false);
-        }
-      })
-      .catch((err) => {
-        console.error("Failed to load practice questions:", err);
-        if (!cancelled) setLoading(false);
-      });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [mode, selectedSubjectKey, activeSubtopicIds, selectedPaperNumber, questionCount]);
-
-  const handleModeChange = (newMode: Mode) => {
-    setMode(newMode);
-    setSelectedPaperNumber("all");
-  };
-
-  const handleSubjectChange = (newSubjectKey: string) => {
-    setSelectedSubjectKey(newSubjectKey);
-    setSelectedPaperNumber("all");
-  };
-
   // Per-group filtered counts for non-random modes computed purely in memory (0 server requests)
   const subjectGroupsWithCount = useMemo(() => {
     if (mode === "random") {
@@ -170,6 +102,27 @@ function PracticePage() {
       return { ...g, filteredCount: count };
     });
   }, [subjectGroups, attempts, mode, items]);
+
+  // Model papers for selected subject — with accurate filtered count
+  const modelPapers = useMemo(() => {
+    if (selectedSubjectKey === "all") return [];
+    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
+    const totalCount = activeGroup?.totalMcqs || 0;
+    const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
+
+    if (mode === "random") return basePapers;
+
+    const activeGroupInfo = subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey);
+    const totalFiltered = activeGroupInfo?.filteredCount || 0;
+
+    return basePapers.map((p) => {
+      // If there are no filtered questions in this subject, paper count is 0
+      if (totalFiltered === 0) return { ...p, filteredCount: 0 };
+      // Distribute filtered count across papers or show matching count
+      const paperFiltered = Math.min(p.totalMcqs, totalFiltered);
+      return { ...p, filteredCount: paperFiltered };
+    });
+  }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, subjectGroupsWithCount]);
 
   const subjectLabel = useMemo(() => {
     if (selectedSubjectKey === "all") return "All Subjects";
