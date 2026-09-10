@@ -1,9 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useMemo } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { useApp } from "@/store/app-store";
 import { QuizRunner } from "@/components/QuizRunner";
-import { ArrowLeft } from "lucide-react";
-import { getModelPaperMcqs, getSubjectAllMcqs, SUBJECT_KEYWORDS } from "@/lib/model-papers";
+import { ArrowLeft, Loader2 } from "lucide-react";
+import { SUBJECT_KEYWORDS } from "@/lib/model-papers";
+import { getSubjectModelPaperMcqs } from "@/lib/db-actions";
+import type { MCQ } from "@/lib/types";
 
 interface QuizSearchParams {
   paper?: number;
@@ -26,8 +28,10 @@ function QuizPage() {
   const { subjectId } = Route.useParams();
   const { paper } = Route.useSearch();
   const subjects = useApp((s) => s.subjects);
-  const mcqs = useApp((s) => s.mcqs);
   const savedQuiz = useApp((s) => s.savedQuiz);
+
+  const [loading, setLoading] = useState(true);
+  const [items, setItems] = useState<MCQ[]>([]);
 
   // Check if subjectId is a canonical group key (e.g. "english", "computer")
   const canonicalConfig = useMemo(
@@ -37,42 +41,54 @@ function QuizPage() {
 
   // All subtopics (have a parentId)
   const allSubtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
-
-  // Model paper data if paper param is provided or if it's a canonical group
-  const modelPaperData = useMemo(() => {
-    if (paper) {
-      return getModelPaperMcqs(subjectId, allSubtopics, mcqs, paper, 100);
-    }
-    return null;
-  }, [paper, subjectId, allSubtopics, mcqs]);
-
   const subject = useMemo(() => subjects.find((x) => x.id === subjectId), [subjects, subjectId]);
 
-  // Standard subject items fallback
-  const items = useMemo(() => {
-    if (modelPaperData) {
-      return modelPaperData.mcqs;
-    }
+  // Determine relevant subtopic IDs
+  const matchingSubtopicIds = useMemo(() => {
     if (canonicalConfig) {
-      return getSubjectAllMcqs(subjectId, allSubtopics, mcqs);
+      return allSubtopics
+        .filter((s) => canonicalConfig.patterns.some((p) => p.test(s.name)))
+        .map((s) => s.id);
     }
-    return mcqs.filter((m) => m.subjectId === subjectId);
-  }, [modelPaperData, canonicalConfig, subjectId, allSubtopics, mcqs]);
-
-  const subtopics = useMemo(() => subjects.filter((s) => s.parentId === subjectId), [subjects, subjectId]);
-
-  const mcqsBySubtopic = useMemo(() => {
-    const map: Record<string, typeof mcqs> = {};
-    for (const sub of subtopics) {
-      map[sub.id] = mcqs.filter((m) => m.subjectId === sub.id);
+    const children = subjects.filter((s) => s.parentId === subjectId);
+    if (children.length > 0) {
+      return children.map((c) => c.id);
     }
-    return map;
-  }, [mcqs, subtopics]);
+    return [subjectId];
+  }, [canonicalConfig, allSubtopics, subjects, subjectId]);
 
-  // Determine display title
+  // Load 100 MCQs on demand from D1
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+
+    getSubjectModelPaperMcqs({
+      data: {
+        subjectKey: subjectId,
+        subtopicIds: matchingSubtopicIds,
+        paperNumber: paper || 1,
+        pageSize: 100,
+      },
+    })
+      .then((mcqs) => {
+        if (!cancelled) {
+          setItems(mcqs as MCQ[]);
+          setLoading(false);
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to load MCQs:", err);
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [subjectId, paper, matchingSubtopicIds]);
+
   const displayTitle = useMemo(() => {
-    if (modelPaperData) {
-      return modelPaperData.name;
+    if (paper) {
+      return `Model Paper ${paper}`;
     }
     if (canonicalConfig) {
       return canonicalConfig.label;
@@ -81,11 +97,11 @@ function QuizPage() {
       return subject.name;
     }
     return "Quiz";
-  }, [modelPaperData, canonicalConfig, subject]);
+  }, [paper, canonicalConfig, subject]);
 
   const resolvedSubjectName = useMemo(() => {
-    if (canonicalConfig && modelPaperData) {
-      return `${canonicalConfig.label} — ${modelPaperData.name}`;
+    if (canonicalConfig && paper) {
+      return `${canonicalConfig.label} — Model Paper ${paper}`;
     }
     if (canonicalConfig) {
       return canonicalConfig.label;
@@ -94,10 +110,19 @@ function QuizPage() {
       return subject.name;
     }
     return displayTitle;
-  }, [canonicalConfig, modelPaperData, subject, displayTitle]);
+  }, [canonicalConfig, paper, subject, displayTitle]);
 
   const backLink = canonicalConfig ? `/subjects/${canonicalConfig.key}` : "/subjects";
   const uniqueQuizKey = `${subjectId}${paper ? `_paper_${paper}` : ""}`;
+
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[400px] gap-3">
+        <Loader2 className="size-8 animate-spin text-primary" />
+        <div className="text-sm text-muted-foreground">Loading questions...</div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">
@@ -119,8 +144,6 @@ function QuizPage() {
         items={items}
         title={displayTitle}
         emptyText="No MCQs found for this paper."
-        subtopics={subtopics}
-        mcqsBySubtopic={mcqsBySubtopic}
         subjectId={uniqueQuizKey}
         subjectName={resolvedSubjectName}
         routePath="/quiz/$subjectId"

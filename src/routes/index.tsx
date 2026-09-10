@@ -17,12 +17,16 @@ export const Route = createFileRoute("/")({
 });
 
 function Dashboard() {
-  const { subjects, mcqs, attempts } = useApp();
+  const { subjects, attempts } = useApp();
 
   const groups = useMemo(() => {
     const subtopics = subjects.filter((s) => !!s.parentId);
-    return buildSubjectGroups(subtopics, mcqs);
-  }, [subjects, mcqs]);
+    return buildSubjectGroups(subtopics);
+  }, [subjects]);
+
+  const totalMcqCount = useMemo(() => {
+    return groups.reduce((acc, g) => acc + g.totalMcqs, 0);
+  }, [groups]);
 
   const stats = useMemo(() => {
     const correct = attempts.filter((a) => a.correct).length;
@@ -78,13 +82,13 @@ function Dashboard() {
     <div className="space-y-8">
       <header>
         <div className="inline-flex items-center gap-2 text-xs px-3 py-1 rounded-full glass mb-3">
-          <Sparkles className="size-3 text-primary-glow" /> Local-first practice workspace
+          <Sparkles className="size-3 text-primary-glow" /> Your Competitive Exam Advantage
         </div>
         <h1 className="text-3xl md:text-4xl">
-          Master <span className="gradient-text">every MCQ</span> on your way to the exam.
+          Master <span className="gradient-text">every MCQ</span> on your way to success.
         </h1>
         <p className="text-muted-foreground mt-2 max-w-xl">
-          Practice MCQs across subjects, track your accuracy, and focus on weak areas with smart filters.
+          Practice 20,000+ past paper MCQs, target weak areas, and build real exam confidence.
         </p>
       </header>
 
@@ -94,13 +98,13 @@ function Dashboard() {
           icon={<BookOpen className="size-5" />}
           label="Subjects"
           value={groups.length || subjects.length}
-          sub={`${mcqs.length.toLocaleString()} curated questions`}
+          sub={`${totalMcqCount.toLocaleString()} curated questions`}
           color="primary"
         />
         <StatCard
           icon={<Target className="size-5" />}
           label="Total MCQs"
-          value={mcqs.length.toLocaleString()}
+          value={totalMcqCount.toLocaleString()}
           sub="10 core exam topics"
           color="indigo"
         />

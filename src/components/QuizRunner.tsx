@@ -31,7 +31,7 @@ export function QuizRunner({
   const [selectedSubtopic, setSelectedSubtopic] = useState<string>("__all__");
   const [shuffleQuestions, setShuffleQuestions] = useState(true);
   const [shuffleOptions, setShuffleOptions] = useState(false);
-  const [timeLimitMin, setTimeLimitMin] = useState<0 | 15 | 30>(0);
+  const [timeLimitMin, setTimeLimitMin] = useState<60 | 15 | 30>(60);
   const [order, setOrder] = useState<string[]>([]);
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<"A" | "B" | "C" | "D" | "E" | null>(null);
@@ -92,7 +92,7 @@ export function QuizRunner({
       setRetryQueue(savedState.retryQueue);
       setElapsed(savedState.elapsed);
       setStartTs(Date.now() - savedState.elapsed * 1000);
-      setTimeLimitMin(savedState.timeLimitMin as 0 | 15 | 30);
+      setTimeLimitMin((savedState.timeLimitMin || 60) as 60 | 15 | 30);
       setShuffleOptions(savedState.shuffleOptions);
       setShuffleQuestions(savedState.shuffleQuestions);
       setStarted(true);
@@ -103,7 +103,18 @@ export function QuizRunner({
 
   const current = useMemo(() => activeItems.find((m) => m.id === order[idx]), [activeItems, order, idx]);
 
-  const isBookmarked = useApp((s) => Boolean(s.mcqs.find((m) => m.id === current?.id)?.solveLater));
+  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
+
+  // Keep local bookmarked state synced with items
+  useEffect(() => {
+    const initial = new Set<string>();
+    activeItems.forEach((m) => {
+      if (m.solveLater) initial.add(m.id);
+    });
+    setBookmarkedIds(initial);
+  }, [activeItems]);
+
+  const isBookmarked = current ? bookmarkedIds.has(current.id) : false;
 
   // Timer tick
   useEffect(() => {
@@ -189,15 +200,15 @@ export function QuizRunner({
 
   if (!started) {
     return (
-      <div className="rounded-2xl bg-card border border-border p-6 md:p-8 shadow-card max-w-xl">
-        <div className="space-y-3">
+      <div className="rounded-xl bg-card border border-border p-4 sm:p-6 md:p-8 shadow-card max-w-xl">
+        <div className="space-y-2.5 sm:space-y-3">
           {subtopics.length > 0 && (
-            <div className="space-y-1.5">
-              <label className="text-sm font-medium text-muted-foreground">Subtopic</label>
+            <div className="space-y-1">
+              <label className="text-xs sm:text-sm font-medium text-muted-foreground">Subtopic</label>
               <select
                 value={selectedSubtopic}
                 onChange={(e) => setSelectedSubtopic(e.target.value)}
-                className="w-full rounded-lg bg-input/60 border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
                 <option value="__all__">All subtopics</option>
                 {subtopics.map((s) => (
@@ -219,21 +230,21 @@ export function QuizRunner({
             onChange={setShuffleOptions}
           />
 
-          <div className="p-4 rounded-xl border border-border bg-secondary/40">
-            <div className="flex items-center gap-3">
+          <div className="p-3 sm:p-4 rounded-xl border border-border bg-secondary/40">
+            <div className="flex items-center gap-2.5">
               <TimerIcon className="size-4 text-primary-glow" />
-              <div className="text-sm font-medium">Time limit</div>
+              <div className="text-xs sm:text-sm font-medium">Time limit</div>
             </div>
-            <div className="mt-3 grid grid-cols-3 gap-2">
+            <div className="mt-2 sm:mt-3 grid grid-cols-3 gap-2">
               {([
                 { v: 15, label: "15 min" },
                 { v: 30, label: "30 min" },
-                { v: 0, label: "No limit" },
+                { v: 60, label: "60 min" },
               ] as const).map((opt) => (
                 <button
                   key={opt.v}
-                  onClick={() => setTimeLimitMin(opt.v as 0 | 15 | 30)}
-                  className={`px-3 py-2 rounded-lg text-sm border transition-all ${
+                  onClick={() => setTimeLimitMin(opt.v as 60 | 15 | 30)}
+                  className={`px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-lg text-xs sm:text-sm border transition-all ${
                     timeLimitMin === opt.v
                       ? "gradient-primary text-primary-foreground border-transparent shadow-glow"
                       : "bg-card border-border text-muted-foreground hover:text-foreground"
@@ -248,7 +259,7 @@ export function QuizRunner({
 
         <button
           onClick={() => begin()}
-          className="w-full mt-6 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
+          className="w-full mt-4 sm:mt-6 inline-flex items-center justify-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
         >
           <Play className="size-4" /> Start
         </button>
@@ -258,47 +269,54 @@ export function QuizRunner({
 
   if (!current) {
     const uniqueRetry = Array.from(new Set(retryQueue));
+    const totalAnswered = score.correct + score.wrong;
+    const accuracy = Math.round((score.correct / Math.max(1, totalAnswered)) * 100);
+
     return (
-      <div className="rounded-2xl bg-card border border-border p-10 text-center shadow-card max-w-2xl mx-auto">
-        <div className="w-28 h-28 mx-auto rounded-full bg-gradient-to-br from-primary to-purple-500 grid place-items-center shadow-glow">
-          <CheckCircle2 className="size-10 text-white" />
+      <div className="rounded-2xl bg-card border border-border p-4 sm:p-6 md:p-8 text-center shadow-card max-w-xl mx-auto">
+        <div className="size-14 sm:size-16 mx-auto rounded-full bg-gradient-to-br from-primary to-purple-500 grid place-items-center shadow-glow">
+          <CheckCircle2 className="size-7 sm:size-8 text-white" />
         </div>
-        <h2 className="mt-6 text-3xl font-semibold">{timeUp ? "Time's up" : "Session complete"}</h2>
-        <div className="mt-4 flex flex-col md:flex-row items-center justify-center gap-6">
+        <h2 className="mt-3 sm:mt-4 text-xl sm:text-2xl font-semibold">{timeUp ? "Time's up" : "Session complete"}</h2>
+
+        {/* Compact single row stats for both mobile and desktop */}
+        <div className="mt-3 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-4 p-2.5 sm:p-4 rounded-xl bg-secondary/30 border border-border">
           <div className="text-center">
-            <div className="text-xs text-muted-foreground">Correct</div>
-            <div className="text-3xl font-bold text-success">{score.correct}</div>
+            <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Correct</div>
+            <div className="text-lg sm:text-2xl font-bold text-success mt-0.5">{score.correct}</div>
+          </div>
+          <div className="text-center border-x border-border/60">
+            <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Wrong</div>
+            <div className="text-lg sm:text-2xl font-bold text-destructive mt-0.5">{score.wrong}</div>
           </div>
           <div className="text-center">
-            <div className="text-xs text-muted-foreground">Wrong</div>
-            <div className="text-3xl font-bold text-destructive">{score.wrong}</div>
-          </div>
-          <div className="text-center">
-            <div className="text-xs text-muted-foreground">Accuracy</div>
-            <div className="text-3xl font-bold">{Math.round((score.correct / Math.max(1, score.correct + score.wrong)) * 100)}%</div>
+            <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Accuracy</div>
+            <div className="text-lg sm:text-2xl font-bold text-primary mt-0.5">{accuracy}%</div>
           </div>
         </div>
 
-        <div className="mt-4 text-sm text-muted-foreground">Time used: <span className="font-medium text-foreground">{fmtTime(elapsed)}</span></div>
+        <div className="mt-3 text-xs sm:text-sm text-muted-foreground">
+          Time used: <span className="font-medium text-foreground">{fmtTime(elapsed)}</span>
+        </div>
 
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <div className="mt-4 sm:mt-6 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           {uniqueRetry.length > 0 && (
             <button
               onClick={() => begin(uniqueRetry)}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
             >
-              <SkipForward className="size-4" /> Retry missed ({uniqueRetry.length})
+              <SkipForward className="size-3.5 sm:size-4" /> Retry missed ({uniqueRetry.length})
             </button>
           )}
           <button
             onClick={() => begin()}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border text-sm font-medium hover:bg-accent"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-card border border-border text-xs sm:text-sm font-medium hover:bg-accent"
           >
-            <Play className="size-4" /> Restart
+            <Play className="size-3.5 sm:size-4" /> Restart
           </button>
           <button
             onClick={() => close()}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:bg-accent border border-border"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium text-muted-foreground hover:bg-accent border border-border"
           >
             Close
           </button>
@@ -310,11 +328,13 @@ export function QuizRunner({
   const submit = async (letter: "A" | "B" | "C" | "D" | "E") => {
     if (picked) return;
     setPicked(letter);
-    if (current.correct) {
-      const ok = await recordAttempt(current.id, letter);
-      setScore((s) => ({ correct: s.correct + (ok ? 1 : 0), wrong: s.wrong + (ok ? 0 : 1) }));
-      if (!ok) setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
-    }
+    const isCorrect = current.correct === letter;
+    const ok = await recordAttempt(current.id, letter, {
+      correct: isCorrect,
+      subjectId: current.subjectId,
+    });
+    setScore((s) => ({ correct: s.correct + (ok ? 1 : 0), wrong: s.wrong + (ok ? 0 : 1) }));
+    if (!ok) setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
   };
 
   // Auto-advance 1s after a selection while preserving the manual Next button
@@ -351,17 +371,15 @@ export function QuizRunner({
       <header className="flex items-center justify-between gap-3">
         <div>
           <div className="text-xs text-muted-foreground">{title}</div>
-          <div className="text-lg font-medium">Question {idx + 1} of {totalCount}</div>
+          <div className="text-lg font-medium">Q. {idx + 1} of {totalCount}</div>
         </div>
-        <div className="flex items-center gap-3 text-xs">
+        <div className="flex items-center gap-2 sm:gap-3 text-xs">
           <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md border border-border bg-secondary/60 font-mono ${
             remaining !== null && remaining <= 60 ? "text-destructive border-destructive/40" : ""
           }`}>
             <TimerIcon className="size-3.5" />
             {remaining !== null ? fmtTime(remaining) : fmtTime(elapsed)}
           </span>
-          <span className="text-success">✓ {score.correct}</span>
-          <span className="text-destructive">✗ {score.wrong}</span>
           <button
             onClick={async () => {
               if (!current) return;
@@ -386,10 +404,10 @@ export function QuizRunner({
         <div className="h-full gradient-primary transition-all" style={{ width: `${progress}%` }} />
       </div>
 
-      <article className="rounded-2xl bg-card border border-border p-6 md:p-8 shadow-card">
-        <h2 className="text-xl md:text-2xl font-display leading-snug">{current.question}</h2>
+      <article className="rounded-2xl bg-card border border-border p-4 sm:p-6 md:p-8 shadow-card">
+        <h2 className="text-base sm:text-xl md:text-2xl font-display leading-snug">{current.question}</h2>
 
-        <div className="mt-6 grid gap-3">
+        <div className="mt-4 sm:mt-6 grid gap-2 sm:gap-3">
           {letterOrder.map((L) => {
             const text = current.options[L];
             const isPicked = picked === L;
@@ -409,14 +427,14 @@ export function QuizRunner({
                 key={L}
                 onClick={() => submit(L)}
                 disabled={picked !== null}
-                className={`text-left flex items-start gap-4 p-4 rounded-xl border transition-all ${cls}`}
+                className={`text-left flex items-center gap-3 p-2.5 sm:p-4 rounded-xl border transition-all ${cls}`}
               >
-                <span className="size-8 shrink-0 rounded-lg grid place-items-center bg-secondary text-secondary-foreground font-display font-semibold text-sm">
+                <span className="size-6 sm:size-8 shrink-0 rounded-lg grid place-items-center bg-secondary text-secondary-foreground font-display font-semibold text-xs sm:text-sm">
                   {L}
                 </span>
-                <span className="flex-1 text-sm md:text-base">{text}</span>
-                {reveal && isCorrect && <CheckCircle2 className="size-5 text-success shrink-0" />}
-                {reveal && isPicked && !isCorrect && <XCircle className="size-5 text-destructive shrink-0" />}
+                <span className="flex-1 text-xs sm:text-sm md:text-base leading-snug">{text}</span>
+                {reveal && isCorrect && <CheckCircle2 className="size-4 sm:size-5 text-success shrink-0" />}
+                {reveal && isPicked && !isCorrect && <XCircle className="size-4 sm:size-5 text-destructive shrink-0" />}
               </button>
             );
           })}
@@ -498,19 +516,19 @@ function ToggleRow({
   onChange: (v: boolean) => void;
 }) {
   return (
-    <label className="flex items-start justify-between gap-4 p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
-      <div className="flex items-start gap-3">
-        <Shuffle className="size-4 mt-0.5 text-primary-glow" />
+    <label className="flex items-start justify-between gap-3 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+      <div className="flex items-start gap-2.5">
+        <Shuffle className="size-4 mt-0.5 text-primary-glow shrink-0" />
         <div>
-          <div className="text-sm font-medium">{label}</div>
-          <div className="text-xs text-muted-foreground">{description}</div>
+          <div className="text-xs sm:text-sm font-medium">{label}</div>
+          <div className="text-[11px] sm:text-xs text-muted-foreground">{description}</div>
         </div>
       </div>
       <input
         type="checkbox"
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
-        className="mt-1 size-4 accent-primary cursor-pointer"
+        className="mt-0.5 size-4 accent-primary cursor-pointer shrink-0"
       />
     </label>
   );

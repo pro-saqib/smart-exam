@@ -69,18 +69,18 @@ export function SavedQuizBanner() {
   const modeLabel = savedQuiz.mode && savedQuiz.mode !== savedQuiz.subjectName ? savedQuiz.mode : "Quiz";
 
   return (
-    <div className="rounded-2xl bg-primary/10 border border-primary/30 p-4 md:p-5">
-      <div className="flex flex-col md:flex-row md:items-center gap-4">
-        <div className="flex-1">
-          <div className="flex items-center gap-2 text-xs text-primary-glow uppercase tracking-wider mb-1">
+    <div className="rounded-2xl bg-primary/10 border border-primary/30 p-3.5 md:p-5">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 text-[11px] text-primary-glow uppercase tracking-wider mb-0.5">
             <Clock className="size-3.5" />
             Paused Quiz
           </div>
-          <div className="flex flex-wrap items-center gap-3 text-sm">
-            <span className="font-medium">{modeLabel}</span>
+          <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
+            <span className="font-medium truncate max-w-[200px]">{modeLabel}</span>
             <span className="text-muted-foreground">&middot;</span>
-            <span className="flex items-center gap-1.5 text-muted-foreground">
-              <BookOpen className="size-3.5" /> {savedQuiz.subjectName}
+            <span className="flex items-center gap-1 text-muted-foreground truncate">
+              <BookOpen className="size-3" /> {savedQuiz.subjectName}
             </span>
             {remaining !== null && (
               <>
@@ -89,26 +89,26 @@ export function SavedQuizBanner() {
               </>
             )}
           </div>
-          <div className="mt-2 h-1.5 rounded-full bg-muted overflow-hidden max-w-xs">
+          <div className="mt-1.5 h-1.5 rounded-full bg-muted overflow-hidden max-w-xs">
             <div
               className="h-full gradient-primary transition-all"
               style={{ width: `${progress}%` }}
             />
           </div>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center justify-end gap-2 self-end md:self-center shrink-0">
           <button
             onClick={clearSavedQuiz}
-            className="p-2 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10"
+            className="p-1.5 sm:p-2 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors"
             title="Discard quiz"
           >
             <Trash2 className="size-4" />
           </button>
           <button
             onClick={handleResume}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow hover:opacity-95"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow hover:opacity-95 transition-all"
           >
-            <Play className="size-4" /> Resume
+            <Play className="size-3.5 sm:size-4" /> Resume
           </button>
         </div>
       </div>

@@ -3,8 +3,10 @@ import { useApp } from "@/store/app-store";
 import { useMemo, useState, useEffect } from "react";
 import { QuizRunner } from "@/components/QuizRunner";
 import { SavedQuizBanner } from "@/components/SavedQuizBanner";
-import { Shuffle, AlertTriangle, RotateCcw, Bookmark, BookOpen, Hash } from "lucide-react";
+import { Shuffle, AlertTriangle, RotateCcw, Bookmark, BookOpen, Hash, Loader2 } from "lucide-react";
 import { buildSubjectGroups, getSubjectModelPapers } from "@/lib/model-papers";
+import { getPracticeQuizMcqs } from "@/lib/db-actions";
+import type { MCQ } from "@/lib/types";
 
 export const Route = createFileRoute("/practice")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -22,7 +24,6 @@ export const Route = createFileRoute("/practice")({
 type Mode = "random" | "weak" | "wrong" | "solve_later";
 
 function PracticePage() {
-  const mcqs = useApp((s) => s.mcqs);
   const subjects = useApp((s) => s.subjects);
   const attempts = useApp((s) => s.attempts);
   const savedQuiz = useApp((s) => s.savedQuiz);
@@ -30,6 +31,9 @@ function PracticePage() {
   const [selectedSubjectKey, setSelectedSubjectKey] = useState<string>("all");
   const [selectedPaperNumber, setSelectedPaperNumber] = useState<string>("all");
   const [questionCount, setQuestionCount] = useState<number>(50);
+
+  const [loading, setLoading] = useState(false);
+  const [items, setItems] = useState<MCQ[]>([]);
 
   const { resume } = Route.useSearch();
   const [quizStarted, setQuizStarted] = useState(resume === true && !!savedQuiz);
@@ -48,111 +52,62 @@ function PracticePage() {
 
   // All subtopics & canonical subject groups
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
-  const subjectGroups = useMemo(() => buildSubjectGroups(subtopics, mcqs), [subtopics, mcqs]);
+  const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
-  // Model papers for selected subject — with filtered count per active mode
+  // Model papers for selected subject
   const modelPapers = useMemo(() => {
     if (selectedSubjectKey === "all") return [];
-    const papers = getSubjectModelPapers(selectedSubjectKey, subtopics, mcqs, attempts, 100);
-    return papers.map((p) => {
-      const ids = new Set(p.mcqs.map((m) => m.id));
-      const paperMcqs = mcqs.filter((m) => ids.has(m.id));
-      let filteredCount = paperMcqs.length;
-      if (mode === "weak") filteredCount = paperMcqs.filter((m) => m.wrongCount >= Math.max(1, Math.floor(m.attemptCount / 2))).length;
-      else if (mode === "wrong") filteredCount = paperMcqs.filter((m) => m.lastAttemptCorrect === false).length;
-      else if (mode === "solve_later") filteredCount = paperMcqs.filter((m) => m.solveLater === true).length;
-      return { ...p, filteredCount };
-    });
-  }, [selectedSubjectKey, subtopics, mcqs, attempts, mode]);
+    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
+    const totalCount = activeGroup?.totalMcqs || 0;
+    return getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
+  }, [selectedSubjectKey, subtopics, subjectGroups, attempts]);
 
-  const [sessionSeed, setSessionSeed] = useState(0);
+  // Selected subtopic IDs
+  const activeSubtopicIds = useMemo(() => {
+    if (selectedSubjectKey === "all") return [];
+    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
+    return activeGroup?.subtopicIds || [];
+  }, [selectedSubjectKey, subjectGroups]);
 
-  const items = useMemo(() => {
-    let pool: typeof mcqs;
+  // Fetch MCQs on demand from D1 whenever settings change
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
 
-    if (selectedSubjectKey === "all") {
-      pool = mcqs;
-    } else {
-      const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
-      const subtopicIds = activeGroup?.subtopicIds || [];
-      pool = mcqs.filter((m) => subtopicIds.includes(m.subjectId) || m.subjectId === selectedSubjectKey);
-
-      // Filter by specific Model Paper if selected
-      if (selectedPaperNumber !== "all") {
-        const paperNum = Number(selectedPaperNumber);
-        const start = (paperNum - 1) * 100;
-        pool = pool.slice(start, start + 100);
-      }
-    }
-
-    // For weak/wrong/solve_later modes, apply smart filters
-    if (mode === "weak") {
-      pool = pool.filter((m) => m.wrongCount >= Math.max(1, Math.floor(m.attemptCount / 2)));
-    }
-    if (mode === "wrong") {
-      pool = pool.filter((m) => m.lastAttemptCorrect === false);
-    }
-    if (mode === "solve_later") {
-      pool = pool.filter((m) => m.solveLater === true);
-    }
-
-    // For random mode, draw a random distribution across all subjects or the selected subject
-    if (mode === "random") {
-      if (selectedSubjectKey === "all" && subjectGroups.length > 0) {
-        const perSubjectQuota = Math.floor(questionCount / subjectGroups.length);
-        const selected: typeof mcqs = [];
-        const usedIds = new Set<string>();
-
-        // Pick proportional random MCQs from each of the canonical subject groups
-        for (const group of subjectGroups) {
-          const groupMcqs = pool.filter((m) => group.subtopicIds.includes(m.subjectId) || m.subjectId === group.key);
-          const shuffledGroup = [...groupMcqs].sort(() => Math.random() - 0.5);
-          const sample = shuffledGroup.slice(0, perSubjectQuota);
-          for (const item of sample) {
-            selected.push(item);
-            usedIds.add(item.id);
-          }
+    getPracticeQuizMcqs({
+      data: {
+        mode,
+        subjectKey: selectedSubjectKey,
+        subtopicIds: activeSubtopicIds,
+        paperNumber: selectedPaperNumber,
+        count: mode === "random" ? questionCount : 100,
+      },
+    })
+      .then((data) => {
+        if (!cancelled) {
+          setItems(data as MCQ[]);
+          setLoading(false);
         }
+      })
+      .catch((err) => {
+        console.error("Failed to load practice questions:", err);
+        if (!cancelled) setLoading(false);
+      });
 
-        // Fill any remaining questions to reach questionCount from the rest of the pool
-        const remainingPool = pool.filter((m) => !usedIds.has(m.id)).sort(() => Math.random() - 0.5);
-        const remainingNeeded = Math.max(0, questionCount - selected.length);
-        selected.push(...remainingPool.slice(0, remainingNeeded));
-
-        return selected.sort(() => Math.random() - 0.5);
-      }
-
-      // Single subject random selection
-      const shuffled = [...pool].sort(() => Math.random() - 0.5);
-      return shuffled.slice(0, questionCount);
-    }
-
-    return pool;
-  }, [mcqs.length, sessionSeed, subjectGroups, mode, selectedSubjectKey, selectedPaperNumber, questionCount]);
+    return () => {
+      cancelled = true;
+    };
+  }, [mode, selectedSubjectKey, activeSubtopicIds, selectedPaperNumber, questionCount]);
 
   const handleModeChange = (newMode: Mode) => {
     setMode(newMode);
     setSelectedPaperNumber("all");
-    setSessionSeed((s) => s + 1);
   };
 
   const handleSubjectChange = (newSubjectKey: string) => {
     setSelectedSubjectKey(newSubjectKey);
     setSelectedPaperNumber("all");
-    setSessionSeed((s) => s + 1);
   };
-
-  // Per-group filtered counts for non-random modes (so dropdown shows relevant question count)
-  const subjectGroupsWithCount = useMemo(() => {
-    return subjectGroups.map((g) => {
-      const groupPool = mcqs.filter((m) => g.subtopicIds.includes(m.subjectId) || m.subjectId === g.key);
-      let count = groupPool.length;
-      if (mode === "weak") count = groupPool.filter((m) => m.wrongCount >= Math.max(1, Math.floor(m.attemptCount / 2))).length;
-      else if (mode === "wrong") count = groupPool.filter((m) => m.lastAttemptCorrect === false).length;
-      else if (mode === "solve_later") count = groupPool.filter((m) => m.solveLater === true).length;
-      return { ...g, filteredCount: count };
-    });
-  }, [subjectGroups, mcqs, mode]);
 
   const subjectLabel = useMemo(() => {
     if (selectedSubjectKey === "all") return "All Subjects";
@@ -184,42 +139,42 @@ function PracticePage() {
       </div>
 
       {!quizStarted && (
-        <div className="rounded-2xl bg-card border border-border p-6 shadow-card max-w-xl">
-          <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+        <div className="rounded-xl bg-card border border-border p-4 sm:p-6 shadow-card max-w-xl">
+          <div className="grid gap-3 sm:gap-4 grid-cols-1 md:grid-cols-2">
             {/* Subject Selection */}
-            <label className="flex flex-col gap-2 p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
-              <div className="flex items-center gap-3">
+            <label className="flex flex-col gap-1.5 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+              <div className="flex items-center gap-2.5">
                 <BookOpen className="size-4 text-primary" />
-                <div className="text-sm font-medium">Subject</div>
+                <div className="text-xs sm:text-sm font-medium">Subject</div>
               </div>
               <select
                 value={selectedSubjectKey}
                 onChange={(e) => handleSubjectChange(e.target.value)}
-                className="w-full rounded-lg bg-input/60 border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
                 <option value="all">All subjects</option>
-                {subjectGroupsWithCount.map((g) => (
-                  <option key={g.key} value={g.key}>{g.label} ({g.filteredCount.toLocaleString()})</option>
+                {subjectGroups.map((g) => (
+                  <option key={g.key} value={g.key}>{g.label} ({g.totalMcqs.toLocaleString()})</option>
                 ))}
               </select>
             </label>
 
             {/* Model Paper Selection — only for weak/wrong/solve_later modes */}
             {mode !== "random" && selectedSubjectKey !== "all" && modelPapers.length > 0 && (
-              <label className="flex flex-col gap-2 p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
-                <div className="flex items-center gap-3">
+              <label className="flex flex-col gap-1.5 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+                <div className="flex items-center gap-2.5">
                   <BookOpen className="size-4 text-primary" />
-                  <div className="text-sm font-medium">Model Paper</div>
+                  <div className="text-xs sm:text-sm font-medium">Model Paper</div>
                 </div>
                 <select
                   value={selectedPaperNumber}
                   onChange={(e) => setSelectedPaperNumber(e.target.value)}
-                  className="w-full rounded-lg bg-input/60 border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                  className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
                   <option value="all">All Model Papers</option>
                   {modelPapers.map((p) => (
                     <option key={p.paperNumber} value={p.paperNumber}>
-                      {p.name} ({p.filteredCount})
+                      {p.name}
                     </option>
                   ))}
                 </select>
@@ -228,17 +183,17 @@ function PracticePage() {
 
             {/* Question Count Selection (only for random mode) */}
             {mode === "random" && (
-              <div className="p-4 rounded-xl border border-border bg-secondary/40">
-                <div className="flex items-center gap-3 mb-3">
+              <div className="p-3 sm:p-4 rounded-xl border border-border bg-secondary/40">
+                <div className="flex items-center gap-2.5 mb-2 sm:mb-3">
                   <Hash className="size-4 text-primary" />
-                  <div className="text-sm font-medium">Questions</div>
+                  <div className="text-xs sm:text-sm font-medium">Questions</div>
                 </div>
                 <div className="flex gap-2">
                   {[50, 100].map((count) => (
                     <button
                       key={count}
                       onClick={() => setQuestionCount(count)}
-                      className={`flex-1 px-3 py-2 rounded-lg text-sm border transition-all ${
+                      className={`flex-1 px-3 py-1.5 rounded-lg text-xs sm:text-sm border transition-all ${
                         questionCount === count
                           ? "gradient-primary text-primary-foreground border-transparent shadow-glow"
                           : "bg-card border-border text-muted-foreground hover:text-foreground"
@@ -253,12 +208,23 @@ function PracticePage() {
           </div>
 
           {/* Stats Summary */}
-          <div className="mt-4 pt-4 border-t border-border">
-            <div className="text-sm text-muted-foreground">
-              Found <span className="font-medium text-foreground">{items.length}</span> questions
-              {mode === "weak" && " matching weak criteria"}
-              {mode === "wrong" && " that were answered incorrectly"}
-              {mode === "solve_later" && " bookmarked for later"}
+          <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-border flex items-center justify-between">
+            <div className="text-xs sm:text-sm text-muted-foreground flex items-center gap-2">
+              {loading ? (
+                <>
+                  <Loader2 className="size-3.5 animate-spin text-primary" />
+                  <span>Finding matching questions...</span>
+                </>
+              ) : (
+                <>
+                  <span>
+                    Found <span className="font-medium text-foreground">{items.length}</span> questions
+                    {mode === "weak" && " matching weak criteria"}
+                    {mode === "wrong" && " that were answered incorrectly"}
+                    {mode === "solve_later" && " bookmarked for later"}
+                  </span>
+                </>
+              )}
             </div>
           </div>
         </div>

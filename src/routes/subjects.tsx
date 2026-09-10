@@ -66,13 +66,13 @@ function getSubjectIcon(key: string) {
 }
 
 function SubjectsList() {
-  const { subjects, mcqs, attempts } = useApp();
+  const { subjects, attempts } = useApp();
 
   // All subtopics (have a parentId)
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
 
   // Group subtopics by canonical subject name
-  const groups = useMemo(() => buildSubjectGroups(subtopics, mcqs), [subtopics, mcqs]);
+  const groups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
   // Total MCQs across all groups
   const totalMcqCount = useMemo(
@@ -109,32 +109,32 @@ function SubjectsList() {
                 key={group.key}
                 to="/subjects/$subjectId"
                 params={{ subjectId: group.key }}
-                className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-4 shadow-card transition-all duration-200 flex flex-col justify-between gap-3.5"
+                className="group relative rounded-xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2"
               >
                 <div>
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="size-9 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
+                  <div className="flex items-center justify-between mb-1">
+                    <div className="size-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
                       {getSubjectIcon(group.key)}
                     </div>
-                    <div className="size-6 rounded-lg bg-secondary text-muted-foreground group-hover:text-foreground group-hover:bg-accent grid place-items-center transition-colors">
-                      <ChevronRight className="size-3.5" />
+                    <div className="size-5 rounded bg-secondary text-muted-foreground group-hover:text-foreground group-hover:bg-accent grid place-items-center transition-colors">
+                      <ChevronRight className="size-3" />
                     </div>
                   </div>
 
-                  <h2 className="font-semibold text-sm sm:text-base group-hover:text-primary transition-colors">
+                  <h2 className="font-semibold text-sm group-hover:text-primary transition-colors line-clamp-1">
                     {group.label}
                   </h2>
-                  <p className="text-[11px] text-muted-foreground mt-0.5">
+                  <p className="text-[10px] text-muted-foreground mt-0.5">
                     {modelPaperCount} Model {modelPaperCount === 1 ? "Paper" : "Papers"} · {group.totalMcqs.toLocaleString()} MCQs
                   </p>
                 </div>
 
-                <div className="pt-2.5 border-t border-border/50 space-y-1">
-                  <div className="flex items-center justify-between text-[11px]">
+                <div className="pt-2 border-t border-border/50 space-y-1">
+                  <div className="flex items-center justify-between text-[10px]">
                     <span className="text-muted-foreground">{attemptedCount} solved</span>
                     <span className="font-medium text-foreground">{accuracy}% accuracy</span>
                   </div>
-                  <div className="h-1.5 rounded-full bg-muted overflow-hidden">
+                  <div className="h-1 rounded-full bg-muted overflow-hidden">
                     <div
                       className="h-full gradient-primary transition-all duration-300"
                       style={{ width: `${Math.min(100, accuracy)}%` }}

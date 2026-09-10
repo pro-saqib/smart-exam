@@ -20,6 +20,7 @@ export interface Subject {
   id: string;
   name: string;
   parentId?: string;
+  totalMcqs?: number;
   createdAt: number;
 }
 

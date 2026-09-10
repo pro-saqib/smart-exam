@@ -1,9 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { ArrowLeft, BookOpen, FileText, Eye, Check, X, Pencil, Trash2, FileCheck2 } from "lucide-react";
 import { toast } from "sonner";
 import { buildSubjectGroups, getSubjectModelPapers, SUBJECT_KEYWORDS, ModelPaper } from "@/lib/model-papers";
+import { getSubjectModelPaperMcqs } from "@/lib/db-actions";
+import type { MCQ } from "@/lib/types";
 
 export const Route = createFileRoute("/subjects/$subjectId")({
   head: () => ({
@@ -30,7 +32,7 @@ function SubjectDetailPage() {
 
   // All subtopics (have a parentId)
   const allSubtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
-  const allGroups = useMemo(() => buildSubjectGroups(allSubtopics, mcqs), [allSubtopics, mcqs]);
+  const allGroups = useMemo(() => buildSubjectGroups(allSubtopics), [allSubtopics]);
   const activeGroup = useMemo(
     () => allGroups.find((g) => g.key === subjectId),
     [allGroups, subjectId],
@@ -39,8 +41,9 @@ function SubjectDetailPage() {
   // Model papers in batches of 100
   const modelPapers = useMemo(() => {
     if (!canonicalConfig && !activeGroup) return [];
-    return getSubjectModelPapers(subjectId, allSubtopics, mcqs, attempts, 100);
-  }, [canonicalConfig, activeGroup, subjectId, allSubtopics, mcqs, attempts]);
+    const totalCount = activeGroup?.totalMcqs || 0;
+    return getSubjectModelPapers(subjectId, allSubtopics, totalCount, attempts, 100);
+  }, [canonicalConfig, activeGroup, subjectId, allSubtopics, attempts]);
 
   // 2. Or check if it's a regular database subject
   const dbSubject = useMemo(
@@ -88,41 +91,41 @@ function SubjectDetailPage() {
               return (
                 <div
                   key={paper.paperNumber}
-                  className="group relative rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-4 shadow-card transition-all duration-200 flex flex-col justify-between gap-3.5"
+                  className="group relative rounded-xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2"
                 >
                   <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="size-9 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
-                        <FileCheck2 className="size-4 text-primary" />
+                    <div className="flex items-center justify-between mb-1">
+                      <div className="size-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
+                        <FileCheck2 className="size-3.5 text-primary" />
                       </div>
                       <button
                         onClick={() => setPreviewPaper(paper)}
-                        className="size-7 rounded-lg bg-secondary text-muted-foreground hover:text-foreground hover:bg-accent grid place-items-center transition-colors"
+                        className="size-6 rounded-md bg-secondary text-muted-foreground hover:text-foreground hover:bg-accent grid place-items-center transition-colors"
                         title="Preview Questions"
                       >
-                        <Eye className="size-3.5" />
+                        <Eye className="size-3" />
                       </button>
                     </div>
 
-                    <h3 className="font-semibold text-sm sm:text-base group-hover:text-primary transition-colors">
+                    <h3 className="font-semibold text-sm group-hover:text-primary transition-colors line-clamp-1">
                       {paper.name}
                     </h3>
 
-                    <div className="flex items-center gap-1.5 text-[11px] mt-0.5 text-muted-foreground">
+                    <div className="flex items-center gap-1.5 text-[10px] mt-0.5 text-muted-foreground">
                       <span>{paper.attemptedCount} solved</span>
                       <span>·</span>
                       <span className="font-medium text-foreground">{paper.accuracy}% accuracy</span>
                     </div>
                   </div>
 
-                  <div className="pt-2.5 border-t border-border/50">
+                  <div className="pt-2 border-t border-border/50">
                     <Link
                       to="/quiz/$subjectId"
                       params={{ subjectId }}
                       search={{ paper: paper.paperNumber }}
-                      className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg gradient-primary text-primary-foreground text-xs font-medium shadow-glow transition-all"
+                      className="w-full inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg gradient-primary text-primary-foreground text-xs font-medium shadow-glow transition-all"
                     >
-                      <FileText className="size-3.5" /> Practice
+                      <FileText className="size-3" /> Practice
                     </Link>
                   </div>
                 </div>
@@ -135,6 +138,7 @@ function SubjectDetailPage() {
           <ModelPaperPreviewModal
             title={previewPaper.name}
             paper={previewPaper}
+            subjectKey={subjectId}
             onClose={() => setPreviewPaper(null)}
           />
         )}
@@ -302,7 +306,29 @@ function SubjectDetailPage() {
   );
 }
 
-function ModelPaperPreviewModal({ title, paper, onClose }: { title: string; paper: ModelPaper; onClose: () => void }) {
+function ModelPaperPreviewModal({ title, paper, subjectKey, onClose }: { title: string; paper: ModelPaper; subjectKey: string; onClose: () => void }) {
+  const [mcqs, setMcqs] = useState<MCQ[]>(paper.mcqs || []);
+  const [loading, setLoading] = useState(mcqs.length === 0);
+
+  useEffect(() => {
+    if (mcqs.length === 0) {
+      setLoading(true);
+      getSubjectModelPaperMcqs({
+        data: {
+          subjectKey,
+          subtopicIds: paper.subtopicIds,
+          paperNumber: paper.paperNumber,
+          pageSize: 100,
+        },
+      })
+        .then((data) => {
+          setMcqs(data as MCQ[]);
+          setLoading(false);
+        })
+        .catch(() => setLoading(false));
+    }
+  }, [paper, subjectKey]);
+
   return (
     <div className="fixed inset-0 z-50 grid place-items-center bg-background/80 backdrop-blur-sm p-4" onClick={onClose}>
       <div
@@ -324,23 +350,27 @@ function ModelPaperPreviewModal({ title, paper, onClose }: { title: string; pape
           </button>
         </header>
         <div className="overflow-y-auto p-5 space-y-4">
-          <ul className="space-y-3">
-            {paper.mcqs.map((q, i) => (
-              <li key={q.id} className="rounded-lg border border-border bg-secondary/30 p-3">
-                <div className="text-sm font-medium">{(paper.paperNumber - 1) * 100 + i + 1}. {q.question}</div>
-                <ul className="mt-2 grid sm:grid-cols-2 gap-1 text-xs">
-                  {(["A", "B", "C", "D", "E"] as const).filter((L) => q.options[L]).map((L) => (
-                    <li
-                      key={L}
-                      className={`px-2 py-1 rounded ${q.correct === L ? "bg-success/15 text-success font-medium" : "text-muted-foreground"}`}
-                    >
-                      <span className="font-mono">{L}.</span> {q.options[L]}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
+          {loading ? (
+            <div className="text-center py-10 text-muted-foreground">Loading preview questions...</div>
+          ) : (
+            <ul className="space-y-3">
+              {mcqs.map((q, i) => (
+                <li key={q.id} className="rounded-lg border border-border bg-secondary/30 p-3">
+                  <div className="text-sm font-medium">{(paper.paperNumber - 1) * 100 + i + 1}. {q.question}</div>
+                  <ul className="mt-2 grid sm:grid-cols-2 gap-1 text-xs">
+                    {(["A", "B", "C", "D", "E"] as const).filter((L) => q.options[L]).map((L) => (
+                      <li
+                        key={L}
+                        className={`px-2 py-1 rounded ${q.correct === L ? "bg-success/15 text-success font-medium" : "text-muted-foreground"}`}
+                      >
+                        <span className="font-mono">{L}.</span> {q.options[L]}
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
         <footer className="p-4 border-t border-border flex items-center justify-end">
           <button onClick={onClose} className="px-4 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm hover:bg-accent">

@@ -45,8 +45,12 @@ interface State {
   renameSubject: (id: string, name: string) => Promise<void>;
   deleteSubject: (id: string) => Promise<void>;
   addMCQs: (subjectId: string, items: Omit<MCQ, "id" | "subjectId" | "attemptCount" | "wrongCount" | "solveLater" | "createdAt">[]) => Promise<number>;
-  toggleSolveLater: (id: string) => Promise<void>;
-  recordAttempt: (mcqId: string, selected: "A" | "B" | "C" | "D" | "E") => Promise<boolean>;
+  toggleSolveLater: (id: string, value?: boolean) => Promise<void>;
+  recordAttempt: (
+    mcqId: string,
+    selected: "A" | "B" | "C" | "D" | "E",
+    options?: { correct?: boolean; subjectId?: string },
+  ) => Promise<boolean>;
   deleteMCQ: (id: string) => Promise<void>;
   clearAttempts: () => Promise<void>;
   saveQuiz: (quiz: SavedQuiz) => void;
@@ -178,40 +182,43 @@ export const useApp = create<State>()(
         return fresh.length;
       },
 
-      toggleSolveLater: async (id) => {
+      toggleSolveLater: async (id, explicitValue) => {
         const prev = get().mcqs;
         const m = prev.find((x) => x.id === id);
-        if (!m) return;
-        const newVal = !m.solveLater;
-        set((st) => ({ mcqs: st.mcqs.map((x) => (x.id === id ? { ...x, solveLater: newVal } : x)) }));
+        const newVal = explicitValue !== undefined ? explicitValue : (m ? !m.solveLater : true);
+        if (m) {
+          set((st) => ({ mcqs: st.mcqs.map((x) => (x.id === id ? { ...x, solveLater: newVal } : x)) }));
+        }
         try {
           await dbToggleSolveLater({ data: { id, value: newVal } });
         } catch (err) {
-          set({ mcqs: prev });
+          if (m) set({ mcqs: prev });
           throw err;
         }
       },
 
-      recordAttempt: async (mcqId, selected) => {
+      recordAttempt: async (mcqId, selected, options) => {
         const m = get().mcqs.find((x) => x.id === mcqId);
-        if (!m) return false;
-        const correct = m.correct === selected;
-        const newAttemptCount = m.attemptCount + 1;
-        const newWrongCount = m.wrongCount + (correct ? 0 : 1);
+        const correct = options?.correct !== undefined ? options.correct : (m ? m.correct === selected : false);
+        const subjectId = options?.subjectId || m?.subjectId || "";
+        const newAttemptCount = (m?.attemptCount || 0) + 1;
+        const newWrongCount = (m?.wrongCount || 0) + (correct ? 0 : 1);
         const log: AttemptLog = {
           id: uid(),
           mcqId,
-          subjectId: m.subjectId,
+          subjectId,
           selected,
           correct,
           at: Date.now(),
         };
         set((st) => ({
-          mcqs: st.mcqs.map((x) =>
-            x.id === mcqId
-              ? { ...x, attemptCount: newAttemptCount, wrongCount: newWrongCount, lastAttemptCorrect: correct }
-              : x,
-          ),
+          mcqs: m
+            ? st.mcqs.map((x) =>
+                x.id === mcqId
+                  ? { ...x, attemptCount: newAttemptCount, wrongCount: newWrongCount, lastAttemptCorrect: correct }
+                  : x,
+              )
+            : st.mcqs,
           attempts: [...st.attempts, log],
         }));
         try {
@@ -219,13 +226,10 @@ export const useApp = create<State>()(
             data: {
               id: log.id,
               mcqId,
-              subjectId: m.subjectId,
+              subjectId,
               selected,
               correct,
               at: log.at,
-              attemptCount: newAttemptCount,
-              wrongCount: newWrongCount,
-              lastAttemptCorrect: correct,
             },
           });
         } catch (err) {

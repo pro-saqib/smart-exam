@@ -45,11 +45,7 @@ let lastMcqsLength = -1;
 let lastGroupsCache: SubjectGroup[] = [];
 
 /** Group child subtopics by canonical subject name. Returns groups in canonical order (memoized). */
-export function buildSubjectGroups(subtopics: Subject[], mcqs: MCQ[]): SubjectGroup[] {
-  if (lastSubtopicsRef === subtopics && lastMcqsLength === mcqs.length) {
-    return lastGroupsCache;
-  }
-
+export function buildSubjectGroups(subtopics: Subject[], mcqs?: MCQ[]): SubjectGroup[] {
   const groupMap = new Map<string, SubjectGroup>();
 
   for (const sub of subtopics) {
@@ -58,22 +54,21 @@ export function buildSubjectGroups(subtopics: Subject[], mcqs: MCQ[]): SubjectGr
     if (!groupMap.has(group.key)) {
       groupMap.set(group.key, { key: group.key, label: group.label, subtopicIds: [], totalMcqs: 0 });
     }
-    groupMap.get(group.key)!.subtopicIds.push(sub.id);
+    const current = groupMap.get(group.key)!;
+    current.subtopicIds.push(sub.id);
+    current.totalMcqs += sub.totalMcqs || 0;
   }
 
-  for (const group of groupMap.values()) {
-    group.totalMcqs = mcqs.filter((m) => group.subtopicIds.includes(m.subjectId)).length;
+  if (mcqs && mcqs.length > 0) {
+    for (const group of groupMap.values()) {
+      const actualCount = mcqs.filter((m) => group.subtopicIds.includes(m.subjectId)).length;
+      if (actualCount > 0) group.totalMcqs = actualCount;
+    }
   }
 
-  const result = SUBJECT_KEYWORDS
+  return SUBJECT_KEYWORDS
     .map((sk) => groupMap.get(sk.key))
     .filter((g): g is SubjectGroup => !!g && g.totalMcqs > 0);
-
-  lastSubtopicsRef = subtopics;
-  lastMcqsLength = mcqs.length;
-  lastGroupsCache = result;
-
-  return result;
 }
 
 /** Get all MCQs belonging to a subject group in consistent order */
@@ -98,12 +93,11 @@ export function getSubjectAllMcqs(
 export function getSubjectModelPapers(
   groupKey: string,
   subtopics: Subject[],
-  allMcqs: MCQ[],
+  totalMcqsCount: number,
   attempts: AttemptLog[],
   batchSize = 100
 ): ModelPaper[] {
-  const subjectMcqs = getSubjectAllMcqs(groupKey, subtopics, allMcqs);
-  if (!subjectMcqs.length) return [];
+  if (totalMcqsCount <= 0) return [];
 
   const groupSubtopics = subtopics
     .filter((s) => {
@@ -113,26 +107,25 @@ export function getSubjectModelPapers(
     .map((s) => s.id);
 
   const papers: ModelPaper[] = [];
-  const totalPapers = Math.ceil(subjectMcqs.length / batchSize);
+  const totalPapers = Math.ceil(totalMcqsCount / batchSize);
+
+  // Filter attempts belonging to this group's subtopics
+  const groupSubtopicSet = new Set(groupSubtopics);
+  const relevantAttempts = attempts.filter((a) => groupSubtopicSet.has(a.subjectId));
+  const accuracy = relevantAttempts.length > 0
+    ? Math.round((relevantAttempts.filter((a) => a.correct).length / relevantAttempts.length) * 100)
+    : 0;
 
   for (let i = 0; i < totalPapers; i++) {
-    const start = i * batchSize;
-    const chunk = subjectMcqs.slice(start, start + batchSize);
-    const chunkIds = new Set(chunk.map((m) => m.id));
-
-    // Calculate attempt metrics for this specific batch
-    const chunkAttempts = attempts.filter((a) => chunkIds.has(a.mcqId));
-    const attemptedCount = new Set(chunkAttempts.map((a) => a.mcqId)).size;
-    const accuracy = chunkAttempts.length > 0
-      ? Math.round((chunkAttempts.filter((a) => a.correct).length / chunkAttempts.length) * 100)
-      : 0;
+    const isLast = i === totalPapers - 1;
+    const paperMcqsCount = isLast ? totalMcqsCount - i * batchSize : batchSize;
 
     papers.push({
       paperNumber: i + 1,
       name: `Model Paper ${i + 1}`,
-      mcqs: chunk,
-      totalMcqs: chunk.length,
-      attemptedCount,
+      mcqs: [],
+      totalMcqs: paperMcqsCount,
+      attemptedCount: 0,
       accuracy,
       subtopicIds: groupSubtopics,
     });

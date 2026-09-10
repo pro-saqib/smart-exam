@@ -12,10 +12,7 @@
     }
   ],
   "vars": {
-    "BETTER_AUTH_URL": "https://prepmind.saqib-logic.workers.dev",
-    "BETTER_AUTH_SECRET": "",
-    "GOOGLE_CLIENT_ID": "",
-    "GOOGLE_CLIENT_SECRET": ""
+    "BETTER_AUTH_URL": "https://prepmind.saqib-logic.workers.dev"
   },
   "env": {
     "production": {
