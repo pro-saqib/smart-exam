@@ -124,6 +124,53 @@ function PracticePage() {
     });
   }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, subjectGroupsWithCount]);
 
+  // Selected subtopic IDs
+  const activeSubtopicIds = useMemo(() => {
+    if (selectedSubjectKey === "all") return [];
+    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
+    return activeGroup?.subtopicIds || [];
+  }, [selectedSubjectKey, subjectGroups]);
+
+  // Fetch MCQs on demand from D1 whenever settings change
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+
+    getPracticeQuizMcqs({
+      data: {
+        mode,
+        subjectKey: selectedSubjectKey,
+        subtopicIds: activeSubtopicIds,
+        paperNumber: selectedPaperNumber,
+        count: mode === "random" ? questionCount : 100,
+      },
+    })
+      .then((data) => {
+        if (!cancelled) {
+          setItems(data as MCQ[]);
+          setLoading(false);
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to load practice questions:", err);
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [mode, selectedSubjectKey, activeSubtopicIds, selectedPaperNumber, questionCount]);
+
+  const handleModeChange = (newMode: Mode) => {
+    setMode(newMode);
+    setSelectedPaperNumber("all");
+  };
+
+  const handleSubjectChange = (newSubjectKey: string) => {
+    setSelectedSubjectKey(newSubjectKey);
+    setSelectedPaperNumber("all");
+  };
+
   const subjectLabel = useMemo(() => {
     if (selectedSubjectKey === "all") return "All Subjects";
     const group = subjectGroups.find((g) => g.key === selectedSubjectKey);
