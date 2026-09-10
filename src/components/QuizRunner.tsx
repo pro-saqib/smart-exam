@@ -200,15 +200,15 @@ export function QuizRunner({
 
   if (!started) {
     return (
-      <div className="rounded-xl bg-card border border-border p-4 sm:p-5 shadow-card max-w-lg">
-        <div className="space-y-2 sm:space-y-2.5">
+      <div className="rounded-2xl bg-card border border-border p-6 md:p-8 shadow-card max-w-xl">
+        <div className="space-y-3">
           {subtopics.length > 0 && (
-            <div className="space-y-1">
-              <label className="text-xs font-medium text-muted-foreground">Subtopic</label>
+            <div className="space-y-1.5">
+              <label className="text-sm font-medium text-muted-foreground">Subtopic</label>
               <select
                 value={selectedSubtopic}
                 onChange={(e) => setSelectedSubtopic(e.target.value)}
-                className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                className="w-full rounded-lg bg-input/60 border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
                 <option value="__all__">All subtopics</option>
                 {subtopics.map((s) => (
@@ -230,12 +230,12 @@ export function QuizRunner({
             onChange={setShuffleOptions}
           />
 
-          <div className="p-2.5 sm:p-3 rounded-xl border border-border bg-secondary/40">
-            <div className="flex items-center gap-2">
-              <TimerIcon className="size-3.5 sm:size-4 text-primary-glow" />
-              <div className="text-xs sm:text-sm font-medium">Time limit</div>
+          <div className="p-4 rounded-xl border border-border bg-secondary/40">
+            <div className="flex items-center gap-3">
+              <TimerIcon className="size-4 text-primary-glow" />
+              <div className="text-sm font-medium">Time limit</div>
             </div>
-            <div className="mt-2 grid grid-cols-3 gap-2">
+            <div className="mt-3 grid grid-cols-3 gap-2">
               {([
                 { v: 15, label: "15 min" },
                 { v: 30, label: "30 min" },
@@ -244,7 +244,7 @@ export function QuizRunner({
                 <button
                   key={opt.v}
                   onClick={() => setTimeLimitMin(opt.v as 60 | 15 | 30)}
-                  className={`px-2 py-1.5 rounded-lg text-xs sm:text-sm border transition-all ${
+                  className={`px-3 py-2 rounded-lg text-sm border transition-all ${
                     timeLimitMin === opt.v
                       ? "gradient-primary text-primary-foreground border-transparent shadow-glow"
                       : "bg-card border-border text-muted-foreground hover:text-foreground"
@@ -259,7 +259,7 @@ export function QuizRunner({
 
         <button
           onClick={() => begin()}
-          className="w-full mt-3.5 sm:mt-4 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
+          className="w-full mt-6 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
         >
           <Play className="size-4" /> Start
         </button>
