@@ -234,11 +234,13 @@ function PracticePage() {
                   className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
                   <option value="all">All Model Papers ({subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey)?.filteredCount ?? 0})</option>
-                  {modelPapers.map((p) => (
-                    <option key={p.paperNumber} value={p.paperNumber}>
-                      {p.name} {p.filteredCount !== undefined ? `(${p.filteredCount})` : `(${p.totalMcqs})`}
-                    </option>
-                  ))}
+                  {modelPapers
+                    .filter((p) => p.filteredCount === undefined || p.filteredCount > 0)
+                    .map((p) => (
+                      <option key={p.paperNumber} value={p.paperNumber}>
+                        {p.name} ({p.filteredCount !== undefined ? p.filteredCount : p.totalMcqs})
+                      </option>
+                    ))}
                 </select>
               </label>
             )}
