@@ -4,7 +4,7 @@ import { useMemo, useState, useEffect } from "react";
 import { ArrowLeft, BookOpen, FileText, Eye, Check, X, Pencil, Trash2, FileCheck2 } from "lucide-react";
 import { toast } from "sonner";
 import { buildSubjectGroups, getSubjectModelPapers, SUBJECT_KEYWORDS, ModelPaper } from "@/lib/model-papers";
-import { getSubjectModelPaperMcqs } from "@/lib/db-actions";
+import { getSubjectModelPaperMcqs, getSubjectModelPaperStats } from "@/lib/db-actions";
 import type { MCQ } from "@/lib/types";
 
 export const Route = createFileRoute("/subjects/$subjectId")({
@@ -45,6 +45,45 @@ function SubjectDetailPage() {
     return getSubjectModelPapers(subjectId, allSubtopics, totalCount, attempts, 100);
   }, [canonicalConfig, activeGroup, subjectId, allSubtopics, attempts]);
 
+  const [paperStats, setPaperStats] = useState<Record<number, { attemptedCount: number; accuracy: number }>>({});
+
+  useEffect(() => {
+    if (!activeGroup || activeGroup.subtopicIds.length === 0) {
+      setPaperStats({});
+      return;
+    }
+
+    let cancelled = false;
+    getSubjectModelPaperStats({
+      data: {
+        subtopicIds: activeGroup.subtopicIds,
+      },
+    })
+      .then((stats) => {
+        if (!cancelled) {
+          setPaperStats(stats || {});
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to load model paper stats:", err);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [activeGroup, attempts]);
+
+  const modelPapersWithStats = useMemo(() => {
+    return modelPapers.map((p) => {
+      const stats = paperStats[p.paperNumber];
+      return {
+        ...p,
+        attemptedCount: stats?.attemptedCount ?? 0,
+        accuracy: stats?.accuracy ?? 0,
+      };
+    });
+  }, [modelPapers, paperStats]);
+
   // 2. Or check if it's a regular database subject
   const dbSubject = useMemo(
     () => subjects.find((s) => s.id === subjectId),
@@ -75,19 +114,19 @@ function SubjectDetailPage() {
             <div className="text-xs font-semibold text-primary uppercase tracking-wider">Model Papers</div>
             <h1 className="text-2xl font-display">{title}</h1>
             <p className="text-xs text-muted-foreground mt-0.5">
-              {modelPapers.length} {modelPapers.length === 1 ? "Model Paper" : "Model Papers"} · {totalMcqs.toLocaleString()} MCQs
+              {modelPapersWithStats.length} {modelPapersWithStats.length === 1 ? "Model Paper" : "Model Papers"} · {totalMcqs.toLocaleString()} MCQs
             </p>
           </div>
         </div>
 
-        {modelPapers.length === 0 ? (
+        {modelPapersWithStats.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
             <BookOpen className="size-8 mx-auto mb-2 text-muted-foreground/50" />
             No model papers available for this subject yet.
           </div>
         ) : (
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {modelPapers.map((paper) => {
+            {modelPapersWithStats.map((paper) => {
               return (
                 <div
                   key={paper.paperNumber}

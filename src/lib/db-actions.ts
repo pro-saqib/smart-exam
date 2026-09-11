@@ -78,9 +78,14 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
       correct: attempt.correct,
       at: attempt.at,
     }).from(attempt).where(eq(attempt.userId, userId)),
-    db.select({
-      mcqId: solveLater.mcqId,
-    }).from(solveLater).where(eq(solveLater.userId, userId)),
+    db
+      .select({
+        mcqId: solveLater.mcqId,
+        subjectId: mcq.subjectId,
+      })
+      .from(solveLater)
+      .innerJoin(mcq, eq(solveLater.mcqId, mcq.id))
+      .where(eq(solveLater.userId, userId)),
   ]);
 
   const countMap = new Map<string, number>();
@@ -106,6 +111,7 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
       at: a.at.getTime(),
     })),
     solveLaterIds: userSolveLater.map((s) => s.mcqId),
+    solveLaterItems: userSolveLater.map((s) => ({ mcqId: s.mcqId, subjectId: s.subjectId })),
     userId,
   };
 });
@@ -197,6 +203,93 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
     });
   });
 
+export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
+  .inputValidator(
+    z.object({
+      mode: z.enum(["weak", "wrong", "solve_later"]),
+      subjectKey: z.string(),
+      subtopicIds: z.array(z.string()),
+    }),
+  )
+  .handler(async ({ data }) => {
+    const session = await requireSession();
+    const db = await getDb();
+    const userId = session.user.id;
+
+    if (!data.subtopicIds || data.subtopicIds.length === 0) {
+      return {};
+    }
+
+    const subjectMcqs = await db
+      .select({ id: mcq.id })
+      .from(mcq)
+      .where(inArray(mcq.subjectId, data.subtopicIds))
+      .orderBy(mcq.id);
+
+    if (subjectMcqs.length === 0) return {};
+
+    const mcqIdToPaperNumber = new Map<string, number>();
+    subjectMcqs.forEach((m, idx) => {
+      const paperNum = Math.floor(idx / 100) + 1;
+      mcqIdToPaperNumber.set(m.id, paperNum);
+    });
+
+    let matchingIds = new Set<string>();
+
+    if (data.mode === "wrong") {
+      const rows = await db
+        .select({ mcqId: attempt.mcqId, correct: attempt.correct, at: attempt.at })
+        .from(attempt)
+        .where(eq(attempt.userId, userId))
+        .orderBy(desc(attempt.at));
+      const latestAttemptByMcq = new Map<string, boolean>();
+      for (const r of rows) {
+        if (!latestAttemptByMcq.has(r.mcqId)) {
+          latestAttemptByMcq.set(r.mcqId, r.correct);
+        }
+      }
+      for (const [mcqId, isCorrect] of latestAttemptByMcq.entries()) {
+        if (!isCorrect) {
+          matchingIds.add(mcqId);
+        }
+      }
+    } else if (data.mode === "solve_later") {
+      const rows = await db
+        .select({ mcqId: solveLater.mcqId })
+        .from(solveLater)
+        .where(eq(solveLater.userId, userId));
+      rows.forEach((r) => matchingIds.add(r.mcqId));
+    } else if (data.mode === "weak") {
+      const rows = await db
+        .select({ mcqId: attempt.mcqId, correct: attempt.correct })
+        .from(attempt)
+        .where(eq(attempt.userId, userId));
+
+      const stats: Record<string, { total: number; wrong: number }> = {};
+      for (const r of rows) {
+        if (!stats[r.mcqId]) stats[r.mcqId] = { total: 0, wrong: 0 };
+        stats[r.mcqId].total += 1;
+        if (!r.correct) stats[r.mcqId].wrong += 1;
+      }
+
+      for (const [id, st] of Object.entries(stats)) {
+        if (st.wrong >= Math.max(1, Math.floor(st.total / 2))) {
+          matchingIds.add(id);
+        }
+      }
+    }
+
+    const counts: Record<number, number> = {};
+    for (const m of subjectMcqs) {
+      if (matchingIds.has(m.id)) {
+        const paperNum = mcqIdToPaperNumber.get(m.id)!;
+        counts[paperNum] = (counts[paperNum] || 0) + 1;
+      }
+    }
+
+    return counts;
+  });
+
 export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
   .inputValidator(
     z.object({
@@ -214,20 +307,13 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
 
     const hasSubjectFilter = data.subjectKey !== "all" && data.subtopicIds && data.subtopicIds.length > 0;
     const filterSubjectIds = hasSubjectFilter ? data.subtopicIds! : [];
+    const paperNum = data.paperNumber !== "all" ? parseInt(data.paperNumber, 10) : null;
 
-    let selectedMcqs: {
-      id: string;
-      subjectId: string;
-      question: string;
-      options: string;
-      correct: string | null;
-      explanation: string | null;
-      createdAt: Date;
-    }[] = [];
+    let selectedMcqs: any[] = [];
 
     if (data.mode === "random") {
       if (hasSubjectFilter) {
-        selectedMcqs = await db
+        const subjectMcqs = await db
           .select({
             id: mcq.id,
             subjectId: mcq.subjectId,
@@ -239,8 +325,15 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
           })
           .from(mcq)
           .where(inArray(mcq.subjectId, filterSubjectIds))
-          .orderBy(sql`RANDOM()`)
-          .limit(data.count);
+          .orderBy(mcq.id);
+
+        if (paperNum !== null && !isNaN(paperNum)) {
+          const start = (paperNum - 1) * 100;
+          selectedMcqs = subjectMcqs.slice(start, start + 100);
+        } else {
+          const shuffled = [...subjectMcqs].sort(() => Math.random() - 0.5);
+          selectedMcqs = shuffled.slice(0, data.count);
+        }
       } else {
         selectedMcqs = await db
           .select({
@@ -256,13 +349,8 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
           .orderBy(sql`RANDOM()`)
           .limit(data.count);
       }
-    } else if (data.mode === "wrong") {
-      const wrongMcqIdsQuery = db
-        .select({ mcqId: attempt.mcqId })
-        .from(attempt)
-        .where(and(eq(attempt.userId, userId), eq(attempt.correct, false)));
-
-      const query = db
+    } else {
+      const subjectMcqs = await db
         .select({
           id: mcq.id,
           subjectId: mcq.subjectId,
@@ -273,69 +361,67 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
           createdAt: mcq.createdAt,
         })
         .from(mcq)
-        .where(
-          hasSubjectFilter
-            ? and(inArray(mcq.id, wrongMcqIdsQuery), inArray(mcq.subjectId, filterSubjectIds))
-            : inArray(mcq.id, wrongMcqIdsQuery)
-        )
-        .orderBy(sql`RANDOM()`)
-        .limit(data.count);
+        .where(hasSubjectFilter ? inArray(mcq.subjectId, filterSubjectIds) : sql`1=1`)
+        .orderBy(mcq.id);
 
-      selectedMcqs = await query;
-    } else if (data.mode === "solve_later") {
-      const bookmarkedMcqIds = db
-        .select({ mcqId: solveLater.mcqId })
-        .from(solveLater)
-        .where(eq(solveLater.userId, userId));
+      const mcqIdToPaperNumber = new Map<string, number>();
+      subjectMcqs.forEach((m, idx) => {
+        const paperNum = Math.floor(idx / 100) + 1;
+        mcqIdToPaperNumber.set(m.id, paperNum);
+      });
 
-      const query = db
-        .select({
-          id: mcq.id,
-          subjectId: mcq.subjectId,
-          question: mcq.question,
-          options: mcq.options,
-          correct: mcq.correct,
-          explanation: mcq.explanation,
-          createdAt: mcq.createdAt,
-        })
-        .from(mcq)
-        .where(
-          hasSubjectFilter
-            ? and(inArray(mcq.id, bookmarkedMcqIds), inArray(mcq.subjectId, filterSubjectIds))
-            : inArray(mcq.id, bookmarkedMcqIds)
-        )
-        .orderBy(mcq.id)
-        .limit(data.count);
+      let matchingIds = new Set<string>();
 
-      selectedMcqs = await query;
-    } else if (data.mode === "weak") {
-      const weakMcqIds = db
-        .select({ mcqId: attempt.mcqId })
-        .from(attempt)
-        .where(eq(attempt.userId, userId))
-        .groupBy(attempt.mcqId)
-        .having(sql`SUM(CASE WHEN ${attempt.correct} = 0 THEN 1 ELSE 0 END) >= MAX(1, COUNT(*) / 2)`);
+      if (data.mode === "wrong") {
+        const rows = await db
+          .select({ mcqId: attempt.mcqId, correct: attempt.correct, at: attempt.at })
+          .from(attempt)
+          .where(eq(attempt.userId, userId))
+          .orderBy(desc(attempt.at));
+        const latestAttemptByMcq = new Map<string, boolean>();
+        for (const r of rows) {
+          if (!latestAttemptByMcq.has(r.mcqId)) {
+            latestAttemptByMcq.set(r.mcqId, r.correct);
+          }
+        }
+        for (const [mcqId, isCorrect] of latestAttemptByMcq.entries()) {
+          if (!isCorrect) {
+            matchingIds.add(mcqId);
+          }
+        }
+      } else if (data.mode === "solve_later") {
+        const rows = await db
+          .select({ mcqId: solveLater.mcqId })
+          .from(solveLater)
+          .where(eq(solveLater.userId, userId));
+        rows.forEach((r) => matchingIds.add(r.mcqId));
+      } else if (data.mode === "weak") {
+        const rows = await db
+          .select({ mcqId: attempt.mcqId, correct: attempt.correct })
+          .from(attempt)
+          .where(eq(attempt.userId, userId));
 
-      const query = db
-        .select({
-          id: mcq.id,
-          subjectId: mcq.subjectId,
-          question: mcq.question,
-          options: mcq.options,
-          correct: mcq.correct,
-          explanation: mcq.explanation,
-          createdAt: mcq.createdAt,
-        })
-        .from(mcq)
-        .where(
-          hasSubjectFilter
-            ? and(inArray(mcq.id, weakMcqIds), inArray(mcq.subjectId, filterSubjectIds))
-            : inArray(mcq.id, weakMcqIds)
-        )
-        .orderBy(sql`RANDOM()`)
-        .limit(data.count);
+        const stats: Record<string, { total: number; wrong: number }> = {};
+        for (const r of rows) {
+          if (!stats[r.mcqId]) stats[r.mcqId] = { total: 0, wrong: 0 };
+          stats[r.mcqId].total += 1;
+          if (!r.correct) stats[r.mcqId].wrong += 1;
+        }
 
-      selectedMcqs = await query;
+        for (const [id, st] of Object.entries(stats)) {
+          if (st.wrong >= Math.max(1, Math.floor(st.total / 2))) {
+            matchingIds.add(id);
+          }
+        }
+      }
+
+      const filteredMatchingMcqs = subjectMcqs.filter((m) => matchingIds.has(m.id));
+
+      if (paperNum !== null && !isNaN(paperNum)) {
+        selectedMcqs = filteredMatchingMcqs.filter((m) => mcqIdToPaperNumber.get(m.id) === paperNum);
+      } else {
+        selectedMcqs = filteredMatchingMcqs.slice(0, data.count);
+      }
     }
 
     if (selectedMcqs.length === 0) return [];
@@ -566,6 +652,72 @@ export const dbClearAttempts = createServerFn({ method: "POST" }).handler(async 
   const db = await getDb();
   await db.delete(attempt).where(eq(attempt.userId, session.user.id));
 });
+
+export const getSubjectModelPaperStats = createServerFn({ method: "POST" })
+  .inputValidator(
+    z.object({
+      subtopicIds: z.array(z.string()),
+    }),
+  )
+  .handler(async ({ data }) => {
+    const session = await requireSession();
+    const db = await getDb();
+    const userId = session.user.id;
+
+    if (!data.subtopicIds || data.subtopicIds.length === 0) {
+      return {};
+    }
+
+    const subjectMcqs = await db
+      .select({ id: mcq.id })
+      .from(mcq)
+      .where(inArray(mcq.subjectId, data.subtopicIds))
+      .orderBy(mcq.id);
+
+    if (subjectMcqs.length === 0) return {};
+
+    const mcqIdToPaperNumber = new Map<string, number>();
+    subjectMcqs.forEach((m, idx) => {
+      const paperNum = Math.floor(idx / 100) + 1;
+      mcqIdToPaperNumber.set(m.id, paperNum);
+    });
+
+    const userAttempts = await db
+      .select({
+        mcqId: attempt.mcqId,
+        correct: attempt.correct,
+      })
+      .from(attempt)
+      .where(eq(attempt.userId, userId));
+
+    const paperStats: Record<number, { attemptedMcqIds: Set<string>; correctAttempts: number; totalAttempts: number }> = {};
+
+    for (const a of userAttempts) {
+      const paperNum = mcqIdToPaperNumber.get(a.mcqId);
+      if (paperNum !== undefined) {
+        if (!paperStats[paperNum]) {
+          paperStats[paperNum] = { attemptedMcqIds: new Set(), correctAttempts: 0, totalAttempts: 0 };
+        }
+        paperStats[paperNum].attemptedMcqIds.add(a.mcqId);
+        paperStats[paperNum].totalAttempts += 1;
+        if (a.correct) {
+          paperStats[paperNum].correctAttempts += 1;
+        }
+      }
+    }
+
+    const result: Record<number, { attemptedCount: number; accuracy: number }> = {};
+    for (const [paperNumStr, stat] of Object.entries(paperStats)) {
+      const paperNum = Number(paperNumStr);
+      const accuracy = stat.totalAttempts > 0 ? Math.round((stat.correctAttempts / stat.totalAttempts) * 100) : 0;
+      result[paperNum] = {
+        attemptedCount: stat.attemptedMcqIds.size,
+        accuracy,
+      };
+    }
+
+    return result;
+  });
 
 // ─── Admin User Management ───────────────────────────────────────────────────
 

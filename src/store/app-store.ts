@@ -39,6 +39,7 @@ interface State {
   mcqs: MCQ[];
   attempts: AttemptLog[];
   solveLaterIds: string[];
+  solveLaterItems: { mcqId: string; subjectId: string }[];
   savedQuiz: SavedQuiz | null;
   currentUserId: string | null;
   hydrateFromDb: () => Promise<void>;
@@ -73,6 +74,7 @@ export const useApp = create<State>()(
       mcqs: [],
       attempts: [],
       solveLaterIds: [],
+      solveLaterItems: [],
       savedQuiz: null,
       currentUserId: null,
 
@@ -94,6 +96,7 @@ export const useApp = create<State>()(
             mcqs: data.mcqs,
             attempts: data.attempts,
             solveLaterIds: data.solveLaterIds || [],
+            solveLaterItems: data.solveLaterItems || [],
             savedQuiz: savedQuizToKeep,
             currentUserId: userId,
           });
@@ -188,6 +191,7 @@ export const useApp = create<State>()(
       toggleSolveLater: async (id, explicitValue) => {
         const prev = get().mcqs;
         const prevSolveLater = get().solveLaterIds;
+        const prevSolveLaterItems = get().solveLaterItems;
         const m = prev.find((x) => x.id === id);
         const newVal = explicitValue !== undefined ? explicitValue : (m ? !m.solveLater : !prevSolveLater.includes(id));
         set((st) => ({
@@ -195,11 +199,14 @@ export const useApp = create<State>()(
           solveLaterIds: newVal
             ? Array.from(new Set([...st.solveLaterIds, id]))
             : st.solveLaterIds.filter((x) => x !== id),
+          solveLaterItems: newVal && m
+            ? [...st.solveLaterItems.filter((x) => x.mcqId !== id), { mcqId: id, subjectId: m.subjectId }]
+            : st.solveLaterItems.filter((x) => x.mcqId !== id),
         }));
         try {
           await dbToggleSolveLater({ data: { id, value: newVal } });
         } catch (err) {
-          set({ mcqs: prev, solveLaterIds: prevSolveLater });
+          set({ mcqs: prev, solveLaterIds: prevSolveLater, solveLaterItems: prevSolveLaterItems });
           throw err;
         }
       },

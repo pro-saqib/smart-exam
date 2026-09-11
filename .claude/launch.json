@@ -3,7 +3,8 @@
   "configurations": [
     {
       "name": "dev",
-      "url": "http://localhost:8080",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": ["run", "dev"],
       "port": 8080
     }
   ]

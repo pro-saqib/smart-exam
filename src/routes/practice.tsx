@@ -5,7 +5,7 @@ import { QuizRunner } from "@/components/QuizRunner";
 import { SavedQuizBanner } from "@/components/SavedQuizBanner";
 import { Shuffle, AlertTriangle, RotateCcw, Bookmark, BookOpen, Hash, Loader2 } from "lucide-react";
 import { buildSubjectGroups, getSubjectModelPapers } from "@/lib/model-papers";
-import { getPracticeQuizMcqs } from "@/lib/db-actions";
+import { getPracticeQuizMcqs, getPracticeModelPaperCounts } from "@/lib/db-actions";
 import type { MCQ } from "@/lib/types";
 
 export const Route = createFileRoute("/practice")({
@@ -26,7 +26,7 @@ type Mode = "random" | "weak" | "wrong" | "solve_later";
 function PracticePage() {
   const subjects = useApp((s) => s.subjects);
   const attempts = useApp((s) => s.attempts);
-  const solveLaterIds = useApp((s) => s.solveLaterIds);
+  const solveLaterItems = useApp((s) => s.solveLaterItems);
   const savedQuiz = useApp((s) => s.savedQuiz);
   const [mode, setMode] = useState<Mode>("random");
   const [selectedSubjectKey, setSelectedSubjectKey] = useState<string>("all");
@@ -35,6 +35,7 @@ function PracticePage() {
 
   const [loading, setLoading] = useState(false);
   const [items, setItems] = useState<MCQ[]>([]);
+  const [paperCounts, setPaperCounts] = useState<Record<number, number>>({});
 
   const { resume } = Route.useSearch();
   const [quizStarted, setQuizStarted] = useState(resume === true && !!savedQuiz);
@@ -55,26 +56,27 @@ function PracticePage() {
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
   const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
-  // Filtered counts calculation for subjects and model papers in Weak / Wrong / Solve Later modes
+  // Filtered counts calculation for subjects in Weak / Wrong / Solve Later modes
   const subjectGroupsWithCount = useMemo(() => {
     if (mode === "random") {
       return subjectGroups.map((g) => ({ ...g, filteredCount: g.totalMcqs }));
     }
 
-    const statsByMcq: Record<string, { subjectId: string; total: number; wrong: number; hasWrong: boolean }> = {};
+    const statsByMcq: Record<string, { subjectId: string; total: number; wrong: number; lastCorrect?: boolean; lastAt: number }> = {};
     for (const a of attempts) {
       if (!statsByMcq[a.mcqId]) {
-        statsByMcq[a.mcqId] = { subjectId: a.subjectId, total: 0, wrong: 0, hasWrong: false };
+        statsByMcq[a.mcqId] = { subjectId: a.subjectId, total: 0, wrong: 0, lastAt: 0 };
       }
       const item = statsByMcq[a.mcqId];
       item.total += 1;
       if (!a.correct) {
         item.wrong += 1;
-        item.hasWrong = true;
+      }
+      if (a.at >= item.lastAt) {
+        item.lastAt = a.at;
+        item.lastCorrect = a.correct;
       }
     }
-
-    const solveLaterSet = new Set(solveLaterIds);
 
     return subjectGroups.map((g) => {
       const groupSubtopicSet = new Set(g.subtopicIds);
@@ -88,16 +90,18 @@ function PracticePage() {
         }
       } else if (mode === "wrong") {
         for (const s of Object.values(statsByMcq)) {
-          if (groupSubtopicSet.has(s.subjectId) && s.hasWrong) {
+          if (groupSubtopicSet.has(s.subjectId) && s.lastCorrect === false) {
             count++;
           }
         }
       } else if (mode === "solve_later") {
-        for (const a of attempts) {
-          if (solveLaterSet.has(a.mcqId) && groupSubtopicSet.has(a.subjectId)) {
-            count++;
+        const uniqueMcqIdsInGroup = new Set<string>();
+        for (const item of solveLaterItems) {
+          if (groupSubtopicSet.has(item.subjectId)) {
+            uniqueMcqIdsInGroup.add(item.mcqId);
           }
         }
+        count = uniqueMcqIdsInGroup.size;
       }
 
       return {
@@ -105,7 +109,43 @@ function PracticePage() {
         filteredCount: count,
       };
     });
-  }, [subjectGroups, attempts, mode, solveLaterIds]);
+  }, [subjectGroups, attempts, mode, solveLaterItems]);
+
+  // Selected subtopic IDs
+  const activeSubtopicIds = useMemo(() => {
+    if (selectedSubjectKey === "all") return [];
+    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
+    return activeGroup?.subtopicIds || [];
+  }, [selectedSubjectKey, subjectGroups]);
+
+  // Fetch exact per-model-paper counts when a specific subject is selected in non-random modes
+  useEffect(() => {
+    if (mode === "random" || selectedSubjectKey === "all" || activeSubtopicIds.length === 0) {
+      setPaperCounts({});
+      return;
+    }
+
+    let cancelled = false;
+    getPracticeModelPaperCounts({
+      data: {
+        mode,
+        subjectKey: selectedSubjectKey,
+        subtopicIds: activeSubtopicIds,
+      },
+    })
+      .then((counts) => {
+        if (!cancelled) {
+          setPaperCounts(counts || {});
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to load model paper counts:", err);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [mode, selectedSubjectKey, activeSubtopicIds, attempts]);
 
   // Model papers for selected subject
   const modelPapers = useMemo(() => {
@@ -118,26 +158,14 @@ function PracticePage() {
       return basePapers;
     }
 
-    // In weak, wrong, or solve_later mode, calculate matching count for the subject and distribute across papers
-    const activeGroupWithCount = subjectGroupsWithCount.find((g) => g.key === selectedSubjectKey);
-    const totalFiltered = activeGroupWithCount?.filteredCount || 0;
-    if (totalFiltered === 0) return [];
-
-    // Filter to model papers that contain matching questions and attach filteredCount
+    // In weak, wrong, or solve_later mode, attach exact counts and filter out papers with 0 matching questions
     return basePapers
       .map((p) => ({
         ...p,
-        filteredCount: totalFiltered,
+        filteredCount: paperCounts[p.paperNumber] ?? 0,
       }))
       .filter((p) => p.filteredCount && p.filteredCount > 0);
-  }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, subjectGroupsWithCount]);
-
-  // Selected subtopic IDs
-  const activeSubtopicIds = useMemo(() => {
-    if (selectedSubjectKey === "all") return [];
-    const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
-    return activeGroup?.subtopicIds || [];
-  }, [selectedSubjectKey, subjectGroups]);
+  }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, paperCounts]);
 
   // Fetch MCQs on demand from D1 whenever settings change
   useEffect(() => {
@@ -167,7 +195,7 @@ function PracticePage() {
     return () => {
       cancelled = true;
     };
-  }, [mode, selectedSubjectKey, activeSubtopicIds, selectedPaperNumber, questionCount]);
+  }, [mode, selectedSubjectKey, activeSubtopicIds, selectedPaperNumber, questionCount, attempts]);
 
   const handleModeChange = (newMode: Mode) => {
     setMode(newMode);
