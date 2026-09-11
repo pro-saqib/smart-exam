@@ -51,25 +51,50 @@ export const bootstrapUser = createServerFn({ method: "POST" }).handler(async ()
 // ─── load all user data (Lightweight Metadata) ─────────────────────────────
 // Loads shared subjects with counts + user attempts & solve-later flags (<50KB).
 
+// Module-level in-memory cache for static curriculum counts
+let cachedMcqCounts: Map<string, number> | null = null;
+let cachedSubjects: any[] | null = null;
+let lastCacheTime = 0;
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+
 export const loadUserData = createServerFn({ method: "GET" }).handler(async () => {
   const session = await requireSession();
   const db = await getDb();
   const userId = session.user.id;
 
-  const [subjects, mcqCounts, attempts, userSolveLater] = await Promise.all([
-    db.select({
-      id: subject.id,
-      name: subject.name,
-      parentId: subject.parentId,
-      createdAt: subject.createdAt,
-    }).from(subject),
-    db
-      .select({
-        subjectId: mcq.subjectId,
-        count: sql<number>`count(${mcq.id})`,
-      })
-      .from(mcq)
-      .groupBy(mcq.subjectId),
+  const now = Date.now();
+  let subjects = cachedSubjects;
+  let countMap = cachedMcqCounts;
+
+  if (!subjects || !countMap || now - lastCacheTime > CACHE_TTL) {
+    const [fetchedSubjects, mcqCounts] = await Promise.all([
+      db.select({
+        id: subject.id,
+        name: subject.name,
+        parentId: subject.parentId,
+        createdAt: subject.createdAt,
+      }).from(subject),
+      db
+        .select({
+          subjectId: mcq.subjectId,
+          count: sql<number>`count(${mcq.id})`,
+        })
+        .from(mcq)
+        .groupBy(mcq.subjectId),
+    ]);
+
+    subjects = fetchedSubjects;
+    countMap = new Map<string, number>();
+    for (const row of mcqCounts) {
+      countMap.set(row.subjectId, Number(row.count) || 0);
+    }
+
+    cachedSubjects = subjects;
+    cachedMcqCounts = countMap;
+    lastCacheTime = now;
+  }
+
+  const [attempts, userSolveLater] = await Promise.all([
     db.select({
       id: attempt.id,
       mcqId: attempt.mcqId,
@@ -87,11 +112,6 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
       .innerJoin(mcq, eq(solveLater.mcqId, mcq.id))
       .where(eq(solveLater.userId, userId)),
   ]);
-
-  const countMap = new Map<string, number>();
-  for (const row of mcqCounts) {
-    countMap.set(row.subjectId, Number(row.count) || 0);
-  }
 
   return {
     subjects: subjects.map((s) => ({
