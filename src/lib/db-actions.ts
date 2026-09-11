@@ -51,11 +51,12 @@ export const bootstrapUser = createServerFn({ method: "POST" }).handler(async ()
 // ─── load all user data (Lightweight Metadata) ─────────────────────────────
 // Loads shared subjects with counts + user attempts & solve-later flags (<50KB).
 
-// Module-level in-memory cache for static curriculum counts
+// Module-level in-memory cache for static curriculum counts and model paper chunks
 let cachedMcqCounts: Map<string, number> | null = null;
 let cachedSubjects: any[] | null = null;
 let lastCacheTime = 0;
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+const modelPaperMcqCache = new Map<string, any[]>();
 
 export const loadUserData = createServerFn({ method: "GET" }).handler(async () => {
   const session = await requireSession();
@@ -144,14 +145,17 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
     const db = await getDb();
     const userId = session.user.id;
 
+    const cacheKey = `${data.subjectKey}_p${data.paperNumber}_sz${data.pageSize}_sub_${(data.subtopicIds || []).join(",")}`;
+    let rows = modelPaperMcqCache.get(cacheKey);
+
     const allowedSubjectIds = (data.subtopicIds && data.subtopicIds.length > 0)
       ? data.subtopicIds
       : [data.subjectKey];
 
     const offset = Math.max(0, (data.paperNumber - 1) * data.pageSize);
 
-    const [rows, userAttempts, userSolveLater] = await Promise.all([
-      db
+    const [fetchedRows, userAttempts, userSolveLater] = await Promise.all([
+      rows ? Promise.resolve(rows) : db
         .select({
           id: mcq.id,
           subjectId: mcq.subjectId,
@@ -179,6 +183,11 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
         .from(solveLater)
         .where(eq(solveLater.userId, userId)),
     ]);
+
+    if (!rows) {
+      rows = fetchedRows;
+      modelPaperMcqCache.set(cacheKey, rows);
+    }
 
     const solveLaterSet = new Set(userSolveLater.map((s) => s.mcqId));
     const attemptsByMcq: Record<string, { total: number; wrong: number; lastCorrect?: boolean; lastAt: number }> = {};
@@ -586,6 +595,7 @@ export const dbAddMCQs = createServerFn({ method: "POST" })
     // Clear cache
     cachedSubjects = null;
     cachedMcqCounts = null;
+    modelPaperMcqCache.clear();
 
     return { added: data.items.length };
   });
@@ -611,6 +621,7 @@ export const dbDeleteMCQ = createServerFn({ method: "POST" })
     // Clear cache
     cachedSubjects = null;
     cachedMcqCounts = null;
+    modelPaperMcqCache.clear();
   });
 
 // ─── User Bookmarks & Attempts (User Scoped) ─────────────────────────────────
