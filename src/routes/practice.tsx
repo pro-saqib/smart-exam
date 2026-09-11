@@ -52,16 +52,16 @@ function PracticePage() {
     }
   }, [resume]);
 
+  // All subtopics & canonical subject groups
+  const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
+  const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
+
   // Set default subject if not set and subjects are available
   useEffect(() => {
     if (!selectedSubjectKey && subjectGroups.length > 0) {
       setSelectedSubjectKey(subjectGroups[0].key);
     }
   }, [subjectGroups, selectedSubjectKey]);
-
-  // All subtopics & canonical subject groups
-  const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
-  const subjectGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
 
   // Filtered counts calculation for subjects in Weak / Wrong / Solve Later modes
   const subjectGroupsWithCount = useMemo(() => {
