@@ -57,6 +57,25 @@ let cachedSubjects: any[] | null = null;
 let lastCacheTime = 0;
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 const modelPaperMcqCache = new Map<string, any[]>();
+let allCurriculumMcqsCache: any[] | null = null;
+
+async function getAllCurriculumMcqs(db: any) {
+  if (!allCurriculumMcqsCache) {
+    allCurriculumMcqsCache = await db
+      .select({
+        id: mcq.id,
+        subjectId: mcq.subjectId,
+        question: mcq.question,
+        options: mcq.options,
+        correct: mcq.correct,
+        explanation: mcq.explanation,
+        createdAt: mcq.createdAt,
+      })
+      .from(mcq)
+      .orderBy(mcq.id);
+  }
+  return allCurriculumMcqsCache;
+}
 
 export const loadUserData = createServerFn({ method: "GET" }).handler(async () => {
   const session = await requireSession();
@@ -149,27 +168,19 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
     let rows = modelPaperMcqCache.get(cacheKey);
 
     const allowedSubjectIds = (data.subtopicIds && data.subtopicIds.length > 0)
-      ? data.subtopicIds
-      : [data.subjectKey];
+      ? new Set(data.subtopicIds)
+      : new Set([data.subjectKey]);
 
     const offset = Math.max(0, (data.paperNumber - 1) * data.pageSize);
 
-    const [fetchedRows, userAttempts, userSolveLater] = await Promise.all([
-      rows ? Promise.resolve(rows) : db
-        .select({
-          id: mcq.id,
-          subjectId: mcq.subjectId,
-          question: mcq.question,
-          options: mcq.options,
-          correct: mcq.correct,
-          explanation: mcq.explanation,
-          createdAt: mcq.createdAt,
-        })
-        .from(mcq)
-        .where(inArray(mcq.subjectId, allowedSubjectIds))
-        .orderBy(mcq.id)
-        .limit(data.pageSize)
-        .offset(offset),
+    if (!rows) {
+      const allMcqs = await getAllCurriculumMcqs(db);
+      const filtered = allMcqs.filter((m: any) => allowedSubjectIds.has(m.subjectId));
+      rows = filtered.slice(offset, offset + data.pageSize);
+      modelPaperMcqCache.set(cacheKey, rows);
+    }
+
+    const [userAttempts, userSolveLater] = await Promise.all([
       db
         .select({
           mcqId: attempt.mcqId,
@@ -183,11 +194,6 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
         .from(solveLater)
         .where(eq(solveLater.userId, userId)),
     ]);
-
-    if (!rows) {
-      rows = fetchedRows;
-      modelPaperMcqCache.set(cacheKey, rows);
-    }
 
     const solveLaterSet = new Set(userSolveLater.map((s) => s.mcqId));
     const attemptsByMcq: Record<string, { total: number; wrong: number; lastCorrect?: boolean; lastAt: number }> = {};
@@ -241,16 +247,14 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
       return {};
     }
 
-    const subjectMcqs = await db
-      .select({ id: mcq.id })
-      .from(mcq)
-      .where(inArray(mcq.subjectId, data.subtopicIds))
-      .orderBy(mcq.id);
+    const allMcqs = await getAllCurriculumMcqs(db);
+    const subtopicSet = new Set(data.subtopicIds);
+    const subjectMcqs = allMcqs.filter((m: any) => subtopicSet.has(m.subjectId));
 
     if (subjectMcqs.length === 0) return {};
 
     const mcqIdToPaperNumber = new Map<string, number>();
-    subjectMcqs.forEach((m, idx) => {
+    subjectMcqs.forEach((m: any, idx: number) => {
       const paperNum = Math.floor(idx / 100) + 1;
       mcqIdToPaperNumber.set(m.id, paperNum);
     });
@@ -336,22 +340,12 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
       // Random mode disabled per requirements, fallback to weak/wrong/solve_later
       selectedMcqs = [];
     } else {
-      const subjectMcqs = await db
-        .select({
-          id: mcq.id,
-          subjectId: mcq.subjectId,
-          question: mcq.question,
-          options: mcq.options,
-          correct: mcq.correct,
-          explanation: mcq.explanation,
-          createdAt: mcq.createdAt,
-        })
-        .from(mcq)
-        .where(hasSubjectFilter ? inArray(mcq.subjectId, filterSubjectIds) : sql`1=0`)
-        .orderBy(mcq.id);
+      const allMcqs = await getAllCurriculumMcqs(db);
+      const filterSubtopicSet = new Set(filterSubjectIds);
+      const subjectMcqs = hasSubjectFilter ? allMcqs.filter((m: any) => filterSubtopicSet.has(m.subjectId)) : allMcqs;
 
       const mcqIdToPaperNumber = new Map<string, number>();
-      subjectMcqs.forEach((m, idx) => {
+      subjectMcqs.forEach((m: any, idx: number) => {
         const paperNum = Math.floor(idx / 100) + 1;
         mcqIdToPaperNumber.set(m.id, paperNum);
       });
