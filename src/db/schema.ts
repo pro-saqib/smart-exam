@@ -88,6 +88,7 @@ export const mcq = sqliteTable("mcq", {
 }, (t) => [
   index("mcq_user_idx").on(t.userId),
   index("mcq_subject_idx").on(t.subjectId),
+  index("mcq_subject_id_idx").on(t.subjectId, t.id),
 ]);
 
 export const attempt = sqliteTable("attempt", {
@@ -107,6 +108,7 @@ export const attempt = sqliteTable("attempt", {
 }, (t) => [
   index("attempt_user_idx").on(t.userId),
   index("attempt_mcq_idx").on(t.mcqId),
+  index("attempt_user_mcq_idx").on(t.userId, t.mcqId),
 ]);
 
 export const solveLater = sqliteTable("solve_later", {
@@ -121,4 +123,5 @@ export const solveLater = sqliteTable("solve_later", {
 }, (t) => [
   index("solve_later_user_idx").on(t.userId),
   index("solve_later_mcq_idx").on(t.mcqId),
+  index("solve_later_user_mcq_idx").on(t.userId, t.mcqId),
 ]);

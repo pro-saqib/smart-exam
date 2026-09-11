@@ -305,50 +305,15 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
     const db = await getDb();
     const userId = session.user.id;
 
-    const hasSubjectFilter = data.subjectKey !== "all" && data.subtopicIds && data.subtopicIds.length > 0;
+    const hasSubjectFilter = Boolean(data.subjectKey && data.subtopicIds && data.subtopicIds.length > 0);
     const filterSubjectIds = hasSubjectFilter ? data.subtopicIds! : [];
     const paperNum = data.paperNumber !== "all" ? parseInt(data.paperNumber, 10) : null;
 
     let selectedMcqs: any[] = [];
 
     if (data.mode === "random") {
-      if (hasSubjectFilter) {
-        const subjectMcqs = await db
-          .select({
-            id: mcq.id,
-            subjectId: mcq.subjectId,
-            question: mcq.question,
-            options: mcq.options,
-            correct: mcq.correct,
-            explanation: mcq.explanation,
-            createdAt: mcq.createdAt,
-          })
-          .from(mcq)
-          .where(inArray(mcq.subjectId, filterSubjectIds))
-          .orderBy(mcq.id);
-
-        if (paperNum !== null && !isNaN(paperNum)) {
-          const start = (paperNum - 1) * 100;
-          selectedMcqs = subjectMcqs.slice(start, start + 100);
-        } else {
-          const shuffled = [...subjectMcqs].sort(() => Math.random() - 0.5);
-          selectedMcqs = shuffled.slice(0, data.count);
-        }
-      } else {
-        selectedMcqs = await db
-          .select({
-            id: mcq.id,
-            subjectId: mcq.subjectId,
-            question: mcq.question,
-            options: mcq.options,
-            correct: mcq.correct,
-            explanation: mcq.explanation,
-            createdAt: mcq.createdAt,
-          })
-          .from(mcq)
-          .orderBy(sql`RANDOM()`)
-          .limit(data.count);
-      }
+      // Random mode disabled per requirements, fallback to weak/wrong/solve_later
+      selectedMcqs = [];
     } else {
       const subjectMcqs = await db
         .select({
@@ -361,7 +326,7 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
           createdAt: mcq.createdAt,
         })
         .from(mcq)
-        .where(hasSubjectFilter ? inArray(mcq.subjectId, filterSubjectIds) : sql`1=1`)
+        .where(hasSubjectFilter ? inArray(mcq.subjectId, filterSubjectIds) : sql`1=0`)
         .orderBy(mcq.id);
 
       const mcqIdToPaperNumber = new Map<string, number>();
@@ -415,7 +380,27 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
         }
       }
 
-      const filteredMatchingMcqs = subjectMcqs.filter((m) => matchingIds.has(m.id));
+      const matchingIdArray = Array.from(matchingIds);
+      if (matchingIdArray.length === 0) return [];
+
+      const queryBuilder = db
+        .select({
+          id: mcq.id,
+          subjectId: mcq.subjectId,
+          question: mcq.question,
+          options: mcq.options,
+          correct: mcq.correct,
+          explanation: mcq.explanation,
+          createdAt: mcq.createdAt,
+        })
+        .from(mcq)
+        .where(
+          hasSubjectFilter
+            ? and(inArray(mcq.subjectId, filterSubjectIds), inArray(mcq.id, matchingIdArray))
+            : inArray(mcq.id, matchingIdArray)
+        );
+
+      const filteredMatchingMcqs = await queryBuilder;
 
       if (paperNum !== null && !isNaN(paperNum)) {
         selectedMcqs = filteredMatchingMcqs.filter((m) => mcqIdToPaperNumber.get(m.id) === paperNum);

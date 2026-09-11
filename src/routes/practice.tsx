@@ -28,8 +28,8 @@ function PracticePage() {
   const attempts = useApp((s) => s.attempts);
   const solveLaterItems = useApp((s) => s.solveLaterItems);
   const savedQuiz = useApp((s) => s.savedQuiz);
-  const [mode, setMode] = useState<Mode>("random");
-  const [selectedSubjectKey, setSelectedSubjectKey] = useState<string>("all");
+  const [mode, setMode] = useState<Mode>("weak");
+  const [selectedSubjectKey, setSelectedSubjectKey] = useState<string>("");
   const [selectedPaperNumber, setSelectedPaperNumber] = useState<string>("all");
   const [questionCount, setQuestionCount] = useState<number>(50);
 
@@ -48,9 +48,16 @@ function PracticePage() {
       if (lowerMode.includes("weak")) setMode("weak");
       else if (lowerMode.includes("wrong")) setMode("wrong");
       else if (lowerMode.includes("solve") || lowerMode.includes("later")) setMode("solve_later");
-      else setMode("random");
+      else setMode("weak");
     }
   }, [resume]);
+
+  // Set default subject if not set and subjects are available
+  useEffect(() => {
+    if (!selectedSubjectKey && subjectGroups.length > 0) {
+      setSelectedSubjectKey(subjectGroups[0].key);
+    }
+  }, [subjectGroups, selectedSubjectKey]);
 
   // All subtopics & canonical subject groups
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
@@ -113,14 +120,14 @@ function PracticePage() {
 
   // Selected subtopic IDs
   const activeSubtopicIds = useMemo(() => {
-    if (selectedSubjectKey === "all") return [];
+    if (!selectedSubjectKey) return [];
     const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
     return activeGroup?.subtopicIds || [];
   }, [selectedSubjectKey, subjectGroups]);
 
-  // Fetch exact per-model-paper counts when a specific subject is selected in non-random modes
+  // Fetch exact per-model-paper counts when a specific subject is selected
   useEffect(() => {
-    if (mode === "random" || selectedSubjectKey === "all" || activeSubtopicIds.length === 0) {
+    if (!selectedSubjectKey || activeSubtopicIds.length === 0) {
       setPaperCounts({});
       return;
     }
@@ -149,16 +156,12 @@ function PracticePage() {
 
   // Model papers for selected subject
   const modelPapers = useMemo(() => {
-    if (selectedSubjectKey === "all") return [];
+    if (!selectedSubjectKey) return [];
     const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
     const totalCount = activeGroup?.totalMcqs || 0;
     const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
 
-    if (mode === "random") {
-      return basePapers;
-    }
-
-    // In weak, wrong, or solve_later mode, attach exact counts and filter out papers with 0 matching questions
+    // Attach exact counts and filter out papers with 0 matching questions
     return basePapers
       .map((p) => ({
         ...p,
@@ -230,7 +233,6 @@ function PracticePage() {
 
       {/* Mode selection buttons (disabled while practicing) */}
       <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2">
-        <ModeBtn icon={<Shuffle className="size-4 shrink-0" />} active={mode === "random"} disabled={quizStarted} onClick={() => handleModeChange("random")}>Random</ModeBtn>
         <ModeBtn icon={<AlertTriangle className="size-4 shrink-0" />} active={mode === "weak"} disabled={quizStarted} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
         <ModeBtn icon={<RotateCcw className="size-4 shrink-0" />} active={mode === "wrong"} disabled={quizStarted} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
         <ModeBtn icon={<Bookmark className="size-4 shrink-0" />} active={mode === "solve_later"} disabled={quizStarted} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
@@ -243,14 +245,13 @@ function PracticePage() {
             <label className="flex flex-col gap-1.5 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
               <div className="flex items-center gap-2.5">
                 <BookOpen className="size-4 text-primary" />
-                <div className="text-xs sm:text-sm font-medium">Subject</div>
+                <div className="text-xs sm:text-sm font-medium">Select a subject</div>
               </div>
               <select
                 value={selectedSubjectKey}
                 onChange={(e) => handleSubjectChange(e.target.value)}
                 className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
-                <option value="all">All subjects</option>
                 {subjectGroupsWithCount.map((g) => (
                   <option key={g.key} value={g.key}>
                     {g.label} ({(g.filteredCount ?? g.totalMcqs).toLocaleString()})
@@ -260,7 +261,7 @@ function PracticePage() {
             </label>
 
             {/* Model Paper Selection — only for weak/wrong/solve_later modes */}
-            {mode !== "random" && selectedSubjectKey !== "all" && modelPapers.length > 0 && (
+            {selectedSubjectKey && modelPapers.length > 0 && (
               <label className="flex flex-col gap-1.5 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
                 <div className="flex items-center gap-2.5">
                   <BookOpen className="size-4 text-primary" />
@@ -279,31 +280,6 @@ function PracticePage() {
                   ))}
                 </select>
               </label>
-            )}
-
-            {/* Question Count Selection (only for random mode) */}
-            {mode === "random" && (
-              <div className="p-3 sm:p-4 rounded-xl border border-border bg-secondary/40">
-                <div className="flex items-center gap-2.5 mb-2 sm:mb-3">
-                  <Hash className="size-4 text-primary" />
-                  <div className="text-xs sm:text-sm font-medium">Questions</div>
-                </div>
-                <div className="flex gap-2">
-                  {[50, 100].map((count) => (
-                    <button
-                      key={count}
-                      onClick={() => setQuestionCount(count)}
-                      className={`flex-1 px-3 py-1.5 rounded-lg text-xs sm:text-sm border transition-all ${
-                        questionCount === count
-                          ? "gradient-primary text-primary-foreground border-transparent shadow-glow"
-                          : "bg-card border-border text-muted-foreground hover:text-foreground"
-                      }`}
-                    >
-                      {count}
-                    </button>
-                  ))}
-                </div>
-              </div>
             )}
           </div>
 
