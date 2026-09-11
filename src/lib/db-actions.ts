@@ -67,26 +67,18 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
   let countMap = cachedMcqCounts;
 
   if (!subjects || !countMap || now - lastCacheTime > CACHE_TTL) {
-    const [fetchedSubjects, mcqCounts] = await Promise.all([
-      db.select({
-        id: subject.id,
-        name: subject.name,
-        parentId: subject.parentId,
-        createdAt: subject.createdAt,
-      }).from(subject),
-      db
-        .select({
-          subjectId: mcq.subjectId,
-          count: sql<number>`count(${mcq.id})`,
-        })
-        .from(mcq)
-        .groupBy(mcq.subjectId),
-    ]);
+    const fetchedSubjects = await db.select({
+      id: subject.id,
+      name: subject.name,
+      parentId: subject.parentId,
+      totalMcqs: subject.totalMcqs,
+      createdAt: subject.createdAt,
+    }).from(subject);
 
     subjects = fetchedSubjects;
     countMap = new Map<string, number>();
-    for (const row of mcqCounts) {
-      countMap.set(row.subjectId, Number(row.count) || 0);
+    for (const s of subjects) {
+      countMap.set(s.id, s.totalMcqs || 0);
     }
 
     cachedSubjects = subjects;
@@ -586,6 +578,15 @@ export const dbAddMCQs = createServerFn({ method: "POST" })
       )
       .onConflictDoNothing();
 
+    // Update subject totalMcqs count
+    const currentSub = await db.select({ totalMcqs: subject.totalMcqs }).from(subject).where(eq(subject.id, data.subjectId)).get();
+    const newTotal = (currentSub?.totalMcqs || 0) + data.items.length;
+    await db.update(subject).set({ totalMcqs: newTotal }).where(eq(subject.id, data.subjectId));
+
+    // Clear cache
+    cachedSubjects = null;
+    cachedMcqCounts = null;
+
     return { added: data.items.length };
   });
 
@@ -594,9 +595,22 @@ export const dbDeleteMCQ = createServerFn({ method: "POST" })
   .handler(async ({ data }) => {
     await requireAdmin();
     const db = await getDb();
+
+    const mcqRow = await db.select({ subjectId: mcq.subjectId }).from(mcq).where(eq(mcq.id, data.id)).get();
+
     await db.delete(solveLater).where(eq(solveLater.mcqId, data.id));
     await db.delete(attempt).where(eq(attempt.mcqId, data.id));
     await db.delete(mcq).where(eq(mcq.id, data.id));
+
+    if (mcqRow) {
+      const currentSub = await db.select({ totalMcqs: subject.totalMcqs }).from(subject).where(eq(subject.id, mcqRow.subjectId)).get();
+      const newTotal = Math.max(0, (currentSub?.totalMcqs || 0) - 1);
+      await db.update(subject).set({ totalMcqs: newTotal }).where(eq(subject.id, mcqRow.subjectId));
+    }
+
+    // Clear cache
+    cachedSubjects = null;
+    cachedMcqCounts = null;
   });
 
 // ─── User Bookmarks & Attempts (User Scoped) ─────────────────────────────────

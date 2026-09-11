@@ -62,6 +62,7 @@ export const subject = sqliteTable("subject", {
     .references(() => user.id, { onDelete: "cascade" }),
   name: text("name").notNull(),
   parentId: text("parent_id"),
+  totalMcqs: integer("total_mcqs").notNull().default(0),
   createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
 }, (t) => [
   index("subject_user_idx").on(t.userId),
