@@ -214,6 +214,7 @@ export const useApp = create<State>()(
       recordAttempt: async (mcqId, selected, options) => {
         const m = get().mcqs.find((x) => x.id === mcqId);
         const correct = options?.correct !== undefined ? options.correct : (m ? m.correct === selected : false);
+        // Priority: options.subjectId (from QuizRunner) → m.subjectId (from local MCQ) → "" as fallback
         const subjectId = options?.subjectId || m?.subjectId || "";
         const newAttemptCount = (m?.attemptCount || 0) + 1;
         const newWrongCount = (m?.wrongCount || 0) + (correct ? 0 : 1);
@@ -248,7 +249,7 @@ export const useApp = create<State>()(
           });
         } catch (err) {
           console.error("Failed to persist attempt:", err);
-          // Don't rollback — quiz UX would be jarring
+          toast.error("Failed to save your progress. Please check connection.");
         }
         return correct;
       },
