@@ -3,7 +3,7 @@ import { useApp } from "@/store/app-store";
 import { useMemo, useState, useEffect } from "react";
 import { QuizRunner } from "@/components/QuizRunner";
 import { SavedQuizBanner } from "@/components/SavedQuizBanner";
-import { Shuffle, AlertTriangle, RotateCcw, Bookmark, BookOpen, Hash, Loader2 } from "lucide-react";
+import { Shuffle, AlertTriangle, RotateCcw, Bookmark, BookOpen, Hash, Loader2, ChevronDown } from "lucide-react";
 import { buildSubjectGroups, getSubjectModelPapers } from "@/lib/model-papers";
 import { getPracticeQuizMcqs, getPracticeModelPaperCounts } from "@/lib/db-actions";
 import type { MCQ } from "@/lib/types";
@@ -39,6 +39,7 @@ function PracticePage() {
 
   const { resume } = Route.useSearch();
   const [quizStarted, setQuizStarted] = useState(resume === true && !!savedQuiz);
+  const [quizCompleted, setQuizCompleted] = useState(false);
 
   // If resuming on mount, ensure quizStarted is active and mode is matched from saved quiz
   useEffect(() => {
@@ -216,41 +217,52 @@ function PracticePage() {
     return group?.label || "Subject";
   }, [selectedSubjectKey, subjectGroups]);
 
-  const resolvedPracticeTitle = `${mode.toUpperCase()} Practice — ${subjectLabel}`;
+  const modeName = mode === "weak" ? "Weak Questions" : mode === "wrong" ? "Wrong Retry" : "Solve Later";
+  const paperLabel = selectedPaperNumber === "all" ? "All Papers" : `Paper ${selectedPaperNumber}`;
+  const resolvedPracticeTitle = `${subjectLabel} · ${modeName}${selectedPaperNumber !== "all" ? ` (${paperLabel})` : ""}`;
   const practiceUniqueKey = `practice_${selectedSubjectKey}_${selectedPaperNumber}_${mode}`;
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-3xl font-display">Practice</h1>
-        <p className="text-muted-foreground mt-1">Mix it up — sharpen weak areas or replay wrong answers.</p>
-      </div>
+      {!quizCompleted && (
+        <div>
+          <div className="text-xs font-semibold text-primary uppercase tracking-wider">
+            {modeName}
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-display">{subjectLabel}</h1>
+          {!quizStarted && (
+            <p className="text-muted-foreground mt-1">Mix it up — sharpen weak areas or replay wrong answers.</p>
+          )}
+        </div>
+      )}
 
       {/* Resume Banner displayed above mode options */}
       <div className="max-w-xl">
         {!quizStarted && <SavedQuizBanner />}
       </div>
 
-      {/* Mode selection buttons (disabled while practicing) */}
-      <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2">
-        <ModeBtn icon={<AlertTriangle className="size-4 shrink-0" />} active={mode === "weak"} disabled={quizStarted} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
-        <ModeBtn icon={<RotateCcw className="size-4 shrink-0" />} active={mode === "wrong"} disabled={quizStarted} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
-        <ModeBtn icon={<Bookmark className="size-4 shrink-0" />} active={mode === "solve_later"} disabled={quizStarted} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
-      </div>
+      {/* Mode selection buttons (hidden while practicing) */}
+      {!quizStarted && (
+        <div className="flex overflow-x-auto whitespace-nowrap pb-2 scrollbar-none sm:flex-wrap gap-2">
+          <ModeBtn icon={<AlertTriangle className="size-4 shrink-0" />} active={mode === "weak"} onClick={() => handleModeChange("weak")}>Weak</ModeBtn>
+          <ModeBtn icon={<RotateCcw className="size-4 shrink-0" />} active={mode === "wrong"} onClick={() => handleModeChange("wrong")}>Wrong retry</ModeBtn>
+          <ModeBtn icon={<Bookmark className="size-4 shrink-0" />} active={mode === "solve_later"} onClick={() => handleModeChange("solve_later")}>Solve Later</ModeBtn>
+        </div>
+      )}
 
       {!quizStarted && (
         <div className="rounded-xl bg-card border border-border p-4 sm:p-6 shadow-card max-w-xl">
-          <div className="grid gap-3 sm:gap-4 grid-cols-1 md:grid-cols-2">
+          <div className="grid gap-3 sm:gap-4 grid-cols-2">
             {/* Subject Selection */}
-            <label className="flex flex-col gap-1.5 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+            <label className={`flex flex-col gap-2.5 ${modelPapers.length === 0 ? "col-span-2" : ""}`}>
               <div className="flex items-center gap-2.5">
                 <BookOpen className="size-4 text-primary" />
-                <div className="text-xs sm:text-sm font-medium">Select a subject</div>
+                <div className="text-xs sm:text-sm font-medium">Subject</div>
               </div>
               <select
                 value={selectedSubjectKey}
                 onChange={(e) => handleSubjectChange(e.target.value)}
-                className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                className="w-full rounded-lg bg-secondary/40 border border-border px-3 py-[9px] sm:py-2.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
               >
                 {subjectGroupsWithCount.map((g) => (
                   <option key={g.key} value={g.key}>
@@ -260,19 +272,19 @@ function PracticePage() {
               </select>
             </label>
 
-            {/* Model Paper Selection — only for weak/wrong/solve_later modes */}
+            {/* Paper Selection — only for weak/wrong/solve_later modes */}
             {selectedSubjectKey && modelPapers.length > 0 && (
-              <label className="flex flex-col gap-1.5 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+              <label className="flex flex-col gap-2.5">
                 <div className="flex items-center gap-2.5">
                   <BookOpen className="size-4 text-primary" />
-                  <div className="text-xs sm:text-sm font-medium">Model Paper</div>
+                  <div className="text-xs sm:text-sm font-medium">Paper</div>
                 </div>
                 <select
                   value={selectedPaperNumber}
                   onChange={(e) => setSelectedPaperNumber(e.target.value)}
-                  className="w-full rounded-lg bg-input/60 border border-border px-2.5 py-1.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                  className="w-full rounded-lg bg-secondary/40 border border-border px-3 py-[9px] sm:py-2.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
-                  <option value="all">All Model Papers</option>
+                  <option value="all">All Papers</option>
                   {modelPapers.map((p) => (
                     <option key={p.paperNumber} value={p.paperNumber}>
                       {p.name} {p.filteredCount !== undefined ? `(${p.filteredCount})` : `(${p.totalMcqs})`}
@@ -308,10 +320,16 @@ function PracticePage() {
 
       <QuizRunner
         items={items}
-        title={mode.toUpperCase()}
+        title={selectedPaperNumber === "all" ? "All questions" : `Paper ${selectedPaperNumber}`}
+        subtitle=""
+        resultSubtitle={`${subjectLabel} · ${modeName}`}
         emptyText="No questions match this mode yet."
         onStart={() => setQuizStarted(true)}
-        onReset={() => setQuizStarted(false)}
+        onReset={() => {
+          setQuizStarted(false);
+          setQuizCompleted(false);
+        }}
+        onComplete={setQuizCompleted}
         subjectId={practiceUniqueKey}
         subjectName={resolvedPracticeTitle}
         routePath="/practice"

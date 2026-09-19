@@ -32,6 +32,8 @@ function QuizPage() {
 
   const [loading, setLoading] = useState(true);
   const [items, setItems] = useState<MCQ[]>([]);
+  const [quizStarted, setQuizStarted] = useState(false);
+  const [quizCompleted, setQuizCompleted] = useState(false);
 
   // Check if subjectId is a canonical group key (e.g. "english", "computer")
   const canonicalConfig = useMemo(
@@ -88,7 +90,7 @@ function QuizPage() {
 
   const displayTitle = useMemo(() => {
     if (paper) {
-      return `Model Paper ${paper}`;
+      return `Paper ${paper}`;
     }
     if (canonicalConfig) {
       return canonicalConfig.label;
@@ -101,7 +103,7 @@ function QuizPage() {
 
   const resolvedSubjectName = useMemo(() => {
     if (canonicalConfig && paper) {
-      return `${canonicalConfig.label} — Model Paper ${paper}`;
+      return `${canonicalConfig.label} — Paper ${paper}`;
     }
     if (canonicalConfig) {
       return canonicalConfig.label;
@@ -126,30 +128,44 @@ function QuizPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <Link
-          to={backLink}
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-        >
-          <ArrowLeft className="size-4" /> Back to {canonicalConfig ? canonicalConfig.label : "subjects"}
-        </Link>
-      </div>
-      <div>
-        <div className="text-xs font-semibold text-primary uppercase tracking-wider">
-          {canonicalConfig ? canonicalConfig.label : "Practice Paper"}
+      {!quizCompleted && (
+        <div className="flex items-center gap-3">
+          {!quizStarted && (
+            <Link
+              to={backLink}
+              className="size-9 rounded-xl border border-border bg-secondary/40 grid place-items-center text-muted-foreground hover:text-foreground hover:bg-secondary/60 transition-colors shrink-0"
+              title={`Back to ${canonicalConfig ? canonicalConfig.label : "subjects"}`}
+            >
+              <ArrowLeft className="size-4" />
+            </Link>
+          )}
+          <div>
+            <div className="text-xs font-semibold text-primary uppercase tracking-wider">
+              {canonicalConfig ? canonicalConfig.label : "Practice Paper"}
+            </div>
+            <h1 className="text-2xl sm:text-3xl font-display">{displayTitle}</h1>
+          </div>
         </div>
-        <h1 className="text-3xl font-display">{displayTitle}</h1>
-      </div>
+      )}
       <QuizRunner
         items={items}
         title={displayTitle}
+        subtitle={displayTitle}
+        resultSubtitle={canonicalConfig ? canonicalConfig.label : subject?.name}
         emptyText="No MCQs found for this paper."
+        onStart={() => setQuizStarted(true)}
+        onReset={() => {
+          setQuizStarted(false);
+          setQuizCompleted(false);
+        }}
+        onComplete={setQuizCompleted}
         subjectId={uniqueQuizKey}
         subjectName={resolvedSubjectName}
         routePath="/quiz/$subjectId"
         routeParams={{ subjectId }}
         routeSearch={paper ? { paper } : undefined}
         savedState={savedQuiz?.subjectId === uniqueQuizKey ? savedQuiz : null}
+        hideTitle={true}
       />
     </div>
   );

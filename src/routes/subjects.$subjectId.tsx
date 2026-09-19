@@ -10,8 +10,8 @@ import type { MCQ } from "@/lib/types";
 export const Route = createFileRoute("/subjects/$subjectId")({
   head: () => ({
     meta: [
-      { title: "Model Papers — PrepMind" },
-      { name: "description", content: "Practice 100-MCQ model papers for this subject." },
+      { title: "Papers — PrepMind" },
+      { name: "description", content: "Practice 100-MCQ papers for this subject." },
     ],
   }),
   loader: () => ({}),
@@ -95,7 +95,7 @@ function SubjectDetailPage() {
   const [previewPaper, setPreviewPaper] = useState<ModelPaper | null>(null);
   const [previewSubtopicId, setPreviewSubtopicId] = useState<string | null>(null);
 
-  // ── A. CANONICAL SUBJECT MODEL PAPERS VIEW (e.g. /subjects/english) ──
+  // ── A. CANONICAL SUBJECT PAPERS VIEW (e.g. /subjects/english) ──
   if (canonicalConfig || activeGroup) {
     const title = canonicalConfig?.label || activeGroup?.label || "Subject";
     const totalMcqs = activeGroup?.totalMcqs || 0;
@@ -111,10 +111,9 @@ function SubjectDetailPage() {
             <ArrowLeft className="size-4" />
           </Link>
           <div>
-            <div className="text-xs font-semibold text-primary uppercase tracking-wider">Model Papers</div>
             <h1 className="text-2xl font-display">{title}</h1>
             <p className="text-xs text-muted-foreground mt-0.5">
-              {modelPapersWithStats.length} {modelPapersWithStats.length === 1 ? "Model Paper" : "Model Papers"} · {totalMcqs.toLocaleString()} MCQs
+              {modelPapersWithStats.length} {modelPapersWithStats.length === 1 ? "Paper" : "Papers"} · {totalMcqs.toLocaleString()} MCQs
             </p>
           </div>
         </div>
@@ -122,10 +121,10 @@ function SubjectDetailPage() {
         {modelPapersWithStats.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
             <BookOpen className="size-8 mx-auto mb-2 text-muted-foreground/50" />
-            No model papers available for this subject yet.
+            No papers available for this subject yet.
           </div>
         ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {modelPapersWithStats.map((paper) => {
               return (
                 <div
@@ -232,7 +231,7 @@ function SubjectDetailPage() {
           )}
         </div>
       ) : (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {children.map((child) => {
             const count = mcqs.filter((m) => m.subjectId === child.id).length;
             const relevantAttempts = attempts.filter((a) => a.subjectId === child.id);

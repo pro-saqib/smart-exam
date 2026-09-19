@@ -97,8 +97,16 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
 
     subjects = fetchedSubjects;
     countMap = new Map<string, number>();
+
+    const allMcqs = await getAllCurriculumMcqs(db);
+    const computedCounts = new Map<string, number>();
+    for (const m of allMcqs) {
+      computedCounts.set(m.subjectId, (computedCounts.get(m.subjectId) || 0) + 1);
+    }
+
     for (const s of subjects) {
-      countMap.set(s.id, s.totalMcqs || 0);
+      const cnt = s.totalMcqs > 0 ? s.totalMcqs : (computedCounts.get(s.id) || 0);
+      countMap.set(s.id, cnt);
     }
 
     cachedSubjects = subjects;

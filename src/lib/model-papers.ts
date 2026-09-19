@@ -3,13 +3,13 @@ import type { MCQ, Subject, AttemptLog } from "@/lib/types";
 // Canonical subject keywords — ordered per display preference
 export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[] }[] = [
   { key: "english",           label: "English",            patterns: [/\benglish\b/i] },
-  { key: "general-knowledge",label: "General Knowledge", patterns: [/general.knowledge/i] },
+  { key: "general-knowledge",label: "G.K",                patterns: [/general.knowledge/i] },
   { key: "geography",        label: "Geography",          patterns: [/geography/i] },
   { key: "pakistan-study",   label: "Pakistan Study",     patterns: [/pak.stud/i, /pakistan.stud/i] },
   { key: "computer",          label: "Computer",          patterns: [/computer/i] },
   { key: "everyday-science", label: "Everyday Science",  patterns: [/everyday.science/i] },
   { key: "current-affairs",  label: "Current Affairs",   patterns: [/current.affairs/i] },
-  { key: "basic-mathematics", label: "Basic Mathematics", patterns: [/basic.math/i] },
+  { key: "basic-mathematics", label: "Maths",              patterns: [/basic.math/i] },
   { key: "islamic-study",    label: "Islamic Study",      patterns: [/islamic/i] },
   { key: "urdu",             label: "Urdu",               patterns: [/\burdu\b/i] },
 ];
@@ -123,7 +123,7 @@ export function getSubjectModelPapers(
 
     papers.push({
       paperNumber: i + 1,
-      name: `Model Paper ${i + 1}`,
+      name: `Paper ${i + 1}`,
       mcqs: [],
       totalMcqs: paperMcqsCount,
       attemptedCount: 0,
@@ -151,7 +151,7 @@ export function getModelPaperMcqs(
   const chunk = subjectMcqs.slice(start, start + batchSize);
 
   return {
-    name: `Model Paper ${safePaperNumber}`,
+    name: `Paper ${safePaperNumber}`,
     mcqs: chunk,
     paperNumber: safePaperNumber,
     totalPapers,

@@ -95,7 +95,7 @@ function SubjectsList() {
           No subjects loaded yet.
         </div>
       ) : (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {groups.map((group) => {
             const groupAttempts = attempts.filter((a) => group.subtopicIds.includes(a.subjectId));
             const attemptedCount = new Set(groupAttempts.map((a) => a.mcqId)).size;
@@ -125,7 +125,7 @@ function SubjectsList() {
                     {group.label}
                   </h2>
                   <p className="text-[10px] text-muted-foreground mt-0.5">
-                    {modelPaperCount} Model {modelPaperCount === 1 ? "Paper" : "Papers"} · {group.totalMcqs.toLocaleString()} MCQs
+                    {modelPaperCount} {modelPaperCount === 1 ? "Paper" : "Papers"} · {group.totalMcqs.toLocaleString()} MCQs
                   </p>
                 </div>
 

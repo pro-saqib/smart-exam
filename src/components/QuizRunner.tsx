@@ -8,6 +8,8 @@ import { toast } from "sonner";
 export function QuizRunner({
   items,
   title,
+  subtitle,
+  resultSubtitle,
   emptyText,
   subtopics = [],
   mcqsBySubtopic = {},
@@ -15,9 +17,13 @@ export function QuizRunner({
   onReset,
   subjectId,
   savedState,
+  hideTitle,
+  onComplete,
 }: {
   items: MCQ[];
   title: string;
+  subtitle?: string;
+  resultSubtitle?: string;
   emptyText: string;
   subtopics?: Subject[];
   mcqsBySubtopic?: Record<string, MCQ[]>;
@@ -25,6 +31,8 @@ export function QuizRunner({
   onReset?: () => void;
   subjectId?: string;
   savedState?: SavedQuiz | null;
+  hideTitle?: boolean;
+  onComplete?: (complete: boolean) => void;
 }) {
   const { recordAttempt, toggleSolveLater, saveQuiz, clearSavedQuiz, subjects } = useApp();
   const [started, setStarted] = useState(false);
@@ -33,7 +41,15 @@ export function QuizRunner({
   const [shuffleOptions, setShuffleOptions] = useState(false);
   const [timeLimitMin, setTimeLimitMin] = useState<60 | 15 | 30>(60);
   const [order, setOrder] = useState<string[]>([]);
+  const orderRef = useRef<string[]>([]);
+  useEffect(() => {
+    orderRef.current = order;
+  }, [order]);
   const [idx, setIdx] = useState(0);
+  const idxRef = useRef(idx);
+  useEffect(() => {
+    idxRef.current = idx;
+  }, [idx]);
   const [picked, setPicked] = useState<"A" | "B" | "C" | "D" | "E" | null>(null);
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [retryQueue, setRetryQueue] = useState<string[]>([]);
@@ -86,7 +102,9 @@ export function QuizRunner({
         const restoredMcs = savedState.order.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
         if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
       }
+      orderRef.current = savedState.order;
       setOrder(savedState.order);
+      idxRef.current = savedState.currentIndex;
       setIdx(savedState.currentIndex);
       setScore(savedState.score);
       setRetryQueue(savedState.retryQueue);
@@ -102,6 +120,22 @@ export function QuizRunner({
   }, [savedState, restored, started, onStart]);
 
   const current = useMemo(() => activeItems.find((m) => m.id === order[idx]), [activeItems, order, idx]);
+
+  const currentRef = useRef(current);
+  useEffect(() => {
+    currentRef.current = current;
+  }, [current]);
+
+  const pickedRef = useRef(picked);
+  useEffect(() => {
+    pickedRef.current = picked;
+  }, [picked]);
+
+  useEffect(() => {
+    if (onComplete) {
+      onComplete(started && !current);
+    }
+  }, [started, current, onComplete]);
 
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
 
@@ -155,7 +189,9 @@ export function QuizRunner({
     if (current && current.correct && picked === current.correct) {
       const t = setTimeout(() => {
         setPicked(null);
-        setIdx((i) => i + 1);
+        const nextIdx = idxRef.current + 1;
+        idxRef.current = nextIdx;
+        setIdx(nextIdx);
       }, 500);
       return () => clearTimeout(t);
     }
@@ -180,7 +216,10 @@ export function QuizRunner({
 
   const begin = (idsOverride?: string[]) => {
     const ids = idsOverride ?? activeItems.map((m) => m.id);
-    setOrder(shuffleQuestions ? shuffle(ids) : ids);
+    const newOrder = shuffleQuestions ? shuffle(ids) : ids;
+    orderRef.current = newOrder;
+    setOrder(newOrder);
+    idxRef.current = 0;
     setIdx(0);
     setPicked(null);
     setScore({ correct: 0, wrong: 0 });
@@ -200,7 +239,7 @@ export function QuizRunner({
 
   if (!started) {
     return (
-      <div className="rounded-2xl bg-card border border-border p-6 md:p-8 shadow-card max-w-xl">
+      <div className="rounded-xl bg-card border border-border p-4 sm:p-6 shadow-card max-w-xl">
         <div className="space-y-3">
           {subtopics.length > 0 && (
             <div className="space-y-1.5">
@@ -217,18 +256,38 @@ export function QuizRunner({
               </select>
             </div>
           )}
-          <ToggleRow
-            label="Shuffle questions"
-            description="Present questions in random order each session."
-            checked={shuffleQuestions}
-            onChange={setShuffleQuestions}
-          />
-          <ToggleRow
-            label="Shuffle answer options"
-            description="Randomize A/B/C/D positions per question."
-            checked={shuffleOptions}
-            onChange={setShuffleOptions}
-          />
+          <div className="grid grid-cols-2 gap-3">
+            <label className="flex items-center justify-between gap-3 p-3 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+              <div className="flex items-center gap-2.5">
+                <Shuffle className="size-4 text-primary-glow shrink-0" />
+                <div>
+                  <div className="text-xs sm:text-sm font-medium">Shuffle questions</div>
+                  <div className="text-[10px] sm:text-[11px] text-muted-foreground hidden sm:block">Random order</div>
+                </div>
+              </div>
+              <input
+                type="checkbox"
+                checked={shuffleQuestions}
+                onChange={(e) => setShuffleQuestions(e.target.checked)}
+                className="size-4 accent-primary cursor-pointer shrink-0"
+              />
+            </label>
+            <label className="flex items-center justify-between gap-3 p-3 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+              <div className="flex items-center gap-2.5">
+                <Shuffle className="size-4 text-primary-glow shrink-0" />
+                <div>
+                  <div className="text-xs sm:text-sm font-medium">Shuffle options</div>
+                  <div className="text-[10px] sm:text-[11px] text-muted-foreground hidden sm:block">Randomize A-D</div>
+                </div>
+              </div>
+              <input
+                type="checkbox"
+                checked={shuffleOptions}
+                onChange={(e) => setShuffleOptions(e.target.checked)}
+                className="size-4 accent-primary cursor-pointer shrink-0"
+              />
+            </label>
+          </div>
 
           <div className="p-4 rounded-xl border border-border bg-secondary/40">
             <div className="flex items-center gap-3">
@@ -273,53 +332,68 @@ export function QuizRunner({
     const accuracy = Math.round((score.correct / Math.max(1, totalAnswered)) * 100);
 
     return (
-      <div className="rounded-2xl bg-card border border-border p-4 sm:p-6 md:p-8 text-center shadow-card max-w-xl mx-auto">
-        <div className="size-14 sm:size-16 mx-auto rounded-full bg-gradient-to-br from-primary to-purple-500 grid place-items-center shadow-glow">
-          <CheckCircle2 className="size-7 sm:size-8 text-white" />
-        </div>
-        <h2 className="mt-3 sm:mt-4 text-xl sm:text-2xl font-semibold">{timeUp ? "Time's up" : "Session complete"}</h2>
-
-        {/* Compact single row stats for both mobile and desktop */}
-        <div className="mt-3 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-4 p-2.5 sm:p-4 rounded-xl bg-secondary/30 border border-border">
-          <div className="text-center">
-            <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Correct</div>
-            <div className="text-lg sm:text-2xl font-bold text-success mt-0.5">{score.correct}</div>
+      <div className="rounded-2xl bg-card border border-border p-4 sm:p-6 md:p-8 text-center shadow-card">
+        <div className="max-w-xl mx-auto">
+          <div className="size-14 sm:size-16 mx-auto rounded-full bg-gradient-to-br from-primary to-purple-500 grid place-items-center shadow-glow">
+            <CheckCircle2 className="size-7 sm:size-8 text-white" />
           </div>
-          <div className="text-center border-x border-border/60">
-            <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Wrong</div>
-            <div className="text-lg sm:text-2xl font-bold text-destructive mt-0.5">{score.wrong}</div>
-          </div>
-          <div className="text-center">
-            <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Accuracy</div>
-            <div className="text-lg sm:text-2xl font-bold text-primary mt-0.5">{accuracy}%</div>
-          </div>
-        </div>
-
-        <div className="mt-3 text-xs sm:text-sm text-muted-foreground">
-          Time used: <span className="font-medium text-foreground">{fmtTime(elapsed)}</span>
-        </div>
-
-        <div className="mt-4 sm:mt-6 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-          {uniqueRetry.length > 0 && (
-            <button
-              onClick={() => begin(uniqueRetry)}
-              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
-            >
-              <SkipForward className="size-3.5 sm:size-4" /> Retry missed ({uniqueRetry.length})
-            </button>
+          <h2 className="mt-3 sm:mt-4 text-xl sm:text-2xl font-semibold">{timeUp ? "Time's up" : "Session complete"}</h2>
+          {resultSubtitle ? (
+            <div className="mt-1 flex flex-col items-center justify-center gap-0.5 text-xs sm:text-sm">
+              <span className="text-primary font-medium">{resultSubtitle}</span>
+              <span className="text-muted-foreground font-normal">{title}</span>
+            </div>
+          ) : subtitle ? (
+            <div className="mt-1 flex flex-col items-center justify-center gap-0.5 text-xs sm:text-sm">
+              <span className="text-primary font-medium">{subtitle}</span>
+              <span className="text-muted-foreground font-normal">{title}</span>
+            </div>
+          ) : (
+            <div className="text-xs sm:text-sm text-primary font-medium mt-1">{title}</div>
           )}
-          <button
-            onClick={() => begin()}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-card border border-border text-xs sm:text-sm font-medium hover:bg-accent"
-          >
-            <Play className="size-3.5 sm:size-4" /> Restart
-          </button>
-          <button
-            onClick={() => close()}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium text-muted-foreground hover:bg-accent border border-border"
-          >
-            Close
-          </button>
+
+          {/* Compact single row stats for both mobile and desktop */}
+          <div className="mt-3 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-4 p-2.5 sm:p-4 rounded-xl bg-secondary/30 border border-border">
+            <div className="text-center">
+              <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Correct</div>
+              <div className="text-lg sm:text-2xl font-bold text-success mt-0.5">{score.correct}</div>
+            </div>
+            <div className="text-center border-x border-border/60">
+              <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Wrong</div>
+              <div className="text-lg sm:text-2xl font-bold text-destructive mt-0.5">{score.wrong}</div>
+            </div>
+            <div className="text-center">
+              <div className="text-[10px] sm:text-xs text-muted-foreground uppercase font-medium">Accuracy</div>
+              <div className="text-lg sm:text-2xl font-bold text-primary mt-0.5">{accuracy}%</div>
+            </div>
+          </div>
+
+          <div className="mt-3 text-xs sm:text-sm text-muted-foreground">
+            Time used: <span className="font-medium text-foreground">{fmtTime(elapsed)}</span>
+          </div>
+
+          <div className="mt-4 sm:mt-6 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+            {uniqueRetry.length > 0 && (
+              <button
+                onClick={() => begin(uniqueRetry)}
+                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg gradient-primary text-primary-foreground text-xs sm:text-sm font-medium shadow-glow"
+              >
+                <SkipForward className="size-3.5 sm:size-4" /> Retry missed ({uniqueRetry.length})
+              </button>
+            )}
+            <button
+              onClick={() => begin()}
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg bg-card border border-border text-xs sm:text-sm font-medium hover:bg-accent"
+            >
+              <Play className="size-3.5 sm:size-4" /> Restart
+            </button>
+            <button
+              onClick={() => close()}
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium text-muted-foreground hover:bg-accent border border-border"
+            >
+              Close
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -342,14 +416,19 @@ export function QuizRunner({
 
   const next = () => {
     setPicked(null);
-    setIdx((i) => i + 1);
+    const nextIdx = idxRef.current + 1;
+    idxRef.current = nextIdx;
+    setIdx(nextIdx);
   };
 
   const skip = () => {
-    if (!current) return;
-    setRetryQueue((q) => (q.includes(current.id) ? q : [...q, current.id]));
+    const curr = activeItems.find((m) => m.id === order[idxRef.current]);
+    if (!curr) return;
+    setRetryQueue((q) => (q.includes(curr.id) ? q : [...q, curr.id]));
     setPicked(null);
-    setIdx((i) => i + 1);
+    const nextIdx = idxRef.current + 1;
+    idxRef.current = nextIdx;
+    setIdx(nextIdx);
   };
 
   // keyboard handler moved earlier to keep hooks stable
@@ -367,59 +446,66 @@ export function QuizRunner({
   const remaining = timeLimitMin > 0 ? Math.max(0, timeLimitMin * 60 - elapsed) : null;
 
   return (
-    <div className="space-y-6">
-      <header className="flex items-center justify-between gap-3">
-        <div>
-          <div className="text-xs text-muted-foreground">{title}</div>
-          <div className="text-lg font-medium">Q. {idx + 1} of {totalCount}</div>
-        </div>
-        <div className="flex items-center gap-2 sm:gap-3 text-xs">
-          <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md border border-border bg-secondary/60 font-mono ${
-            remaining !== null && remaining <= 60 ? "text-destructive border-destructive/40" : ""
-          }`}>
-            <TimerIcon className="size-3.5" />
-            {remaining !== null ? fmtTime(remaining) : fmtTime(elapsed)}
-          </span>
-          <button
-            onClick={async () => {
-              if (!current) return;
-              const willBookmark = !isBookmarked;
-              setBookmarkedIds((prev) => {
-                const next = new Set(prev);
-                if (willBookmark) next.add(current.id);
-                else next.delete(current.id);
-                return next;
-              });
-              try {
-                await toggleSolveLater(current.id, willBookmark);
-                toast.success(willBookmark ? "Saved for later" : "Removed bookmark");
-              } catch (err) {
-                // Revert state on failure
+    <div className="space-y-4">
+      <div className="space-y-2.5">
+        <header className="flex items-center justify-between gap-3">
+          <div>
+            {!hideTitle && (
+              <>
+                <div className="text-xs text-muted-foreground">{title}</div>
+                {subtitle && <div className="text-sm font-medium text-foreground">{subtitle}</div>}
+              </>
+            )}
+            <div className="text-lg font-medium">Q. {idx + 1} of {totalCount}</div>
+          </div>
+          <div className="flex items-center gap-2 sm:gap-3 text-xs">
+            <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md border border-border bg-secondary/60 font-mono ${
+              remaining !== null && remaining <= 60 ? "text-destructive border-destructive/40" : ""
+            }`}>
+              <TimerIcon className="size-3.5" />
+              {remaining !== null ? fmtTime(remaining) : fmtTime(elapsed)}
+            </span>
+            <button
+              onClick={async () => {
+                if (!current) return;
+                const willBookmark = !isBookmarked;
                 setBookmarkedIds((prev) => {
                   const next = new Set(prev);
-                  if (isBookmarked) next.add(current.id);
+                  if (willBookmark) next.add(current.id);
                   else next.delete(current.id);
                   return next;
                 });
-                toast.error("Failed to update bookmark");
-              }
-            }}
-            className="p-2 rounded-lg hover:bg-accent transition-colors"
-            title={isBookmarked ? "Remove bookmark" : "Save for later"}
-          >
-            <Bookmark
-              className={`size-5 transition-all ${
-                isBookmarked
-                  ? "fill-primary text-primary"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            />
-          </button>
-        </div>
-      </header>
+                try {
+                  await toggleSolveLater(current.id, willBookmark);
+                  toast.success(willBookmark ? "Saved for later" : "Removed bookmark");
+                } catch (err) {
+                  // Revert state on failure
+                  setBookmarkedIds((prev) => {
+                    const next = new Set(prev);
+                    if (isBookmarked) next.add(current.id);
+                    else next.delete(current.id);
+                    return next;
+                  });
+                  toast.error("Failed to update bookmark");
+                }
+              }}
+              className="p-2 rounded-lg hover:bg-accent transition-colors"
+              title={isBookmarked ? "Remove bookmark" : "Save for later"}
+            >
+              <Bookmark
+                className={`size-5 transition-all ${
+                  isBookmarked
+                    ? "fill-primary text-primary"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              />
+            </button>
+          </div>
+        </header>
 
-      <div className="h-1.5 rounded-full bg-muted overflow-hidden">
-        <div className="h-full gradient-primary transition-all" style={{ width: `${progress}%` }} />
+        <div className="h-1.5 rounded-full bg-muted overflow-hidden">
+          <div className="h-full gradient-primary transition-all" style={{ width: `${progress}%` }} />
+        </div>
       </div>
 
       <article className="rounded-2xl bg-card border border-border p-4 sm:p-6 md:p-8 shadow-card">
@@ -534,19 +620,19 @@ function ToggleRow({
   onChange: (v: boolean) => void;
 }) {
   return (
-    <label className="flex items-start justify-between gap-3 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
-      <div className="flex items-start gap-2.5">
-        <Shuffle className="size-4 mt-0.5 text-primary-glow shrink-0" />
-        <div>
-          <div className="text-xs sm:text-sm font-medium">{label}</div>
-          <div className="text-[11px] sm:text-xs text-muted-foreground">{description}</div>
+    <label className="flex items-center justify-between gap-3 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
+      <div className="flex items-center gap-2.5">
+        <Shuffle className="size-4 text-primary-glow shrink-0" />
+        <div className="text-xs sm:text-sm font-medium flex items-center gap-2 flex-wrap">
+          <span>{label}</span>
+          <span className="text-[11px] sm:text-xs text-muted-foreground font-normal">— {description}</span>
         </div>
       </div>
       <input
         type="checkbox"
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
-        className="mt-0.5 size-4 accent-primary cursor-pointer shrink-0"
+        className="size-4 accent-primary cursor-pointer shrink-0"
       />
     </label>
   );

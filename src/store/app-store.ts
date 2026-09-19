@@ -13,6 +13,13 @@ import {
   loadUserData,
   bootstrapUser,
 } from "@/lib/db-actions";
+import {
+  localDbLoadUserData,
+  localDbSaveUserData,
+  localDbEnqueueSync,
+  localDbGetSyncQueue,
+  localDbRemoveSyncItem,
+} from "@/lib/local-db";
 
 export interface SavedQuiz {
   mode: string;
@@ -80,6 +87,21 @@ export const useApp = create<State>()(
 
       hydrateFromDb: async () => {
         try {
+          // 1. Instant local hydration from IndexedDB (0ms network delay)
+          const localData = await localDbLoadUserData();
+          if (localData && (localData.subjects.length > 0 || localData.mcqs.length > 0)) {
+            const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
+            const dbSubjects = localData.subjects.filter((s) => !initialIds.has(s.id));
+            set({
+              subjects: [...INITIAL_SUBJECTS, ...dbSubjects],
+              mcqs: localData.mcqs,
+              attempts: localData.attempts,
+              solveLaterIds: localData.solveLaterIds || [],
+              solveLaterItems: localData.solveLaterItems || [],
+            });
+          }
+
+          // 2. Background SWR sync with server
           await bootstrapUser();
           const data = await loadUserData();
           const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
@@ -91,15 +113,46 @@ export const useApp = create<State>()(
             currentSavedQuiz && currentSavedQuiz.userId === userId
               ? currentSavedQuiz
               : null;
+
+          const freshSubjects = [...INITIAL_SUBJECTS, ...dbSubjects];
+          const freshMcqs = data.mcqs;
+          const freshAttempts = data.attempts;
+          const freshSolveLaterIds = data.solveLaterIds || [];
+          const freshSolveLaterItems = data.solveLaterItems || [];
+
           set({
-            subjects: [...INITIAL_SUBJECTS, ...dbSubjects],
-            mcqs: data.mcqs,
-            attempts: data.attempts,
-            solveLaterIds: data.solveLaterIds || [],
-            solveLaterItems: data.solveLaterItems || [],
+            subjects: freshSubjects,
+            mcqs: freshMcqs,
+            attempts: freshAttempts,
+            solveLaterIds: freshSolveLaterIds,
+            solveLaterItems: freshSolveLaterItems,
             savedQuiz: savedQuizToKeep,
             currentUserId: userId,
           });
+
+          // Save to local IndexedDB for future instant loads
+          await localDbSaveUserData({
+            subjects: freshSubjects,
+            mcqs: freshMcqs,
+            attempts: freshAttempts,
+            solveLaterIds: freshSolveLaterIds,
+            solveLaterItems: freshSolveLaterItems,
+          });
+
+          // Process any queued offline mutations
+          const queue = await localDbGetSyncQueue();
+          for (const item of queue) {
+            try {
+              if (item.type === "ATTEMPT") {
+                await dbRecordAttempt({ data: item.payload });
+              } else if (item.type === "TOGGLE_SOLVE_LATER") {
+                await dbToggleSolveLater({ data: item.payload });
+              }
+              await localDbRemoveSyncItem(item.id);
+            } catch (syncErr) {
+              console.warn("Background sync item failed, will retry later:", syncErr);
+            }
+          }
         } catch (err) {
           console.error("Failed to hydrate from DB:", err);
         }
@@ -206,8 +259,13 @@ export const useApp = create<State>()(
         try {
           await dbToggleSolveLater({ data: { id, value: newVal } });
         } catch (err) {
-          set({ mcqs: prev, solveLaterIds: prevSolveLater, solveLaterItems: prevSolveLaterItems });
-          throw err;
+          // Offline fallback: enqueue for background sync
+          await localDbEnqueueSync({
+            id: uid(),
+            type: "TOGGLE_SOLVE_LATER",
+            payload: { id, value: newVal },
+            createdAt: Date.now(),
+          });
         }
       },
 
@@ -248,8 +306,20 @@ export const useApp = create<State>()(
             },
           });
         } catch (err) {
-          console.error("Failed to persist attempt:", err);
-          toast.error("Failed to save your progress. Please check connection.");
+          console.warn("Offline: failed to persist attempt immediately, queueing for sync:", err);
+          await localDbEnqueueSync({
+            id: uid(),
+            type: "ATTEMPT",
+            payload: {
+              id: log.id,
+              mcqId,
+              subjectId,
+              selected,
+              correct,
+              at: log.at,
+            },
+            createdAt: Date.now(),
+          });
         }
         return correct;
       },

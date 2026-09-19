@@ -70,7 +70,7 @@ export function SavedQuizBanner() {
 
   return (
     <div className="rounded-2xl bg-primary/10 border border-primary/30 p-3.5 md:p-5">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+      <div className="flex flex-row items-center justify-between gap-3">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 text-[11px] text-primary-glow uppercase tracking-wider mb-0.5">
             <Clock className="size-3.5" />
