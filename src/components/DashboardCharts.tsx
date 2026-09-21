@@ -63,6 +63,7 @@ export function DashboardCharts() {
         "English": "Eng",
         "Urdu": "Urdu",
         "Geography": "Geo",
+        "GHQ Past": "GHQ",
       };
       return shortMap[name] || name;
     };

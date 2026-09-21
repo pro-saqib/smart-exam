@@ -12,6 +12,7 @@ export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[] 
   { key: "basic-mathematics", label: "Maths",              patterns: [/basic.math/i] },
   { key: "islamic-study",    label: "Islamic Study",      patterns: [/islamic/i] },
   { key: "urdu",             label: "Urdu",               patterns: [/\burdu\b/i] },
+  { key: "ghq-past-papers",  label: "GHQ Past",           patterns: [/\bghq\b/i, /army.headquarters/i] },
 ];
 
 export interface SubjectGroup {

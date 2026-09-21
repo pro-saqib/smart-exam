@@ -15,6 +15,7 @@ import {
   Languages,
   Newspaper,
   GraduationCap,
+  ShieldCheck,
 } from "lucide-react";
 
 export const Route = createFileRoute("/subjects")({
@@ -60,6 +61,8 @@ function getSubjectIcon(key: string) {
       return <Languages className="size-5 text-primary" />;
     case "urdu":
       return <GraduationCap className="size-5 text-primary" />;
+    case "ghq-past-papers":
+      return <ShieldCheck className="size-5 text-primary" />;
     default:
       return <BookOpen className="size-5 text-primary" />;
   }
