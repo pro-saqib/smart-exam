@@ -1,4 +1,4 @@
-import type { MCQ, Subject, AttemptLog } from "@/lib/types";
+import type { MCQ, Subject, AttemptLog, PaperLockStatus } from "@/lib/types";
 
 // Canonical subject keywords — ordered per display preference
 export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[] }[] = [
@@ -157,3 +157,63 @@ export function getModelPaperMcqs(
     totalPapers,
   };
 }
+
+/**
+ * Deterministically computes whether a model paper is unlocked.
+ * Paper 1 is unlocked by default for all subjects.
+ * Paper N (N >= 2) is unlocked only if Paper N-1 is completed or attempted.
+ * Admins have all papers unlocked.
+ */
+export function getPaperLockStatus({
+  subjectKey,
+  paperNumber,
+  isAdmin = false,
+  completedPaperNumbers = new Set<number>(),
+  attemptedPaperNumbers = new Set<number>(),
+}: {
+  subjectKey: string;
+  paperNumber: number;
+  isAdmin?: boolean;
+  completedPaperNumbers?: Set<number>;
+  attemptedPaperNumbers?: Set<number>;
+}): PaperLockStatus {
+  if (isAdmin) {
+    return {
+      isUnlocked: true,
+      isCompleted: completedPaperNumbers.has(paperNumber),
+      previousPaperNumber: paperNumber > 1 ? paperNumber - 1 : null,
+      reason: "admin",
+    };
+  }
+
+  // Paper 1 is always unlocked
+  if (paperNumber <= 1) {
+    return {
+      isUnlocked: true,
+      isCompleted: completedPaperNumbers.has(1),
+      previousPaperNumber: null,
+      reason: "first_paper",
+    };
+  }
+
+  const prevPaper = paperNumber - 1;
+  const isPrevCompleted = completedPaperNumbers.has(prevPaper);
+  const isPrevAttempted = attemptedPaperNumbers.has(prevPaper);
+
+  if (isPrevCompleted || isPrevAttempted) {
+    return {
+      isUnlocked: true,
+      isCompleted: completedPaperNumbers.has(paperNumber),
+      previousPaperNumber: prevPaper,
+      reason: isPrevCompleted ? "previous_completed" : "previous_attempted",
+    };
+  }
+
+  return {
+    isUnlocked: false,
+    isCompleted: false,
+    previousPaperNumber: prevPaper,
+    reason: "locked",
+  };
+}
+

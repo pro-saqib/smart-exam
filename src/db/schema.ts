@@ -110,6 +110,7 @@ export const attempt = sqliteTable("attempt", {
   index("attempt_user_idx").on(t.userId),
   index("attempt_mcq_idx").on(t.mcqId),
   index("attempt_user_mcq_idx").on(t.userId, t.mcqId),
+  index("attempt_user_subject_idx").on(t.userId, t.subjectId),
 ]);
 
 export const solveLater = sqliteTable("solve_later", {
@@ -126,3 +127,21 @@ export const solveLater = sqliteTable("solve_later", {
   index("solve_later_mcq_idx").on(t.mcqId),
   index("solve_later_user_mcq_idx").on(t.userId, t.mcqId),
 ]);
+
+export const paperCompletion = sqliteTable("paper_completion", {
+  id: text("id").primaryKey(),
+  userId: text("user_id")
+    .notNull()
+    .references(() => user.id, { onDelete: "cascade" }),
+  subjectKey: text("subject_key").notNull(),
+  paperNumber: integer("paper_number").notNull(),
+  score: integer("score").default(0).notNull(),
+  totalQuestions: integer("total_questions").default(0).notNull(),
+  accuracy: integer("accuracy").default(0).notNull(),
+  completedAt: integer("completed_at", { mode: "timestamp" }).notNull(),
+}, (t) => [
+  index("paper_completion_user_idx").on(t.userId),
+  index("paper_completion_user_subject_idx").on(t.userId, t.subjectKey),
+  index("paper_completion_lookup_idx").on(t.userId, t.subjectKey, t.paperNumber),
+]);
+

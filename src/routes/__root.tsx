@@ -125,6 +125,12 @@ function RootComponent() {
   const hydrateFromDb = useApp((s) => s.hydrateFromDb);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      (window as any).__PREPMIND_STORE__ = useApp;
+    }
+  }, []);
+
+  useEffect(() => {
     if (user) hydrateFromDb();
   }, [user?.id]);
 

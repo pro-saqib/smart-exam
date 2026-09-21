@@ -1,11 +1,11 @@
-import type { MCQ, Subject, AttemptLog } from "@/lib/types";
+import type { MCQ, Subject, AttemptLog, PaperCompletionRecord } from "@/lib/types";
 
 const DB_NAME = "prepmind-local-db";
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 
 export interface SyncQueueItem {
   id: string;
-  type: "ATTEMPT" | "TOGGLE_SOLVE_LATER";
+  type: "ATTEMPT" | "TOGGLE_SOLVE_LATER" | "RECORD_PAPER_COMPLETION";
   payload: any;
   createdAt: number;
 }
@@ -35,6 +35,10 @@ export function openLocalDB(): Promise<IDBDatabase> {
       if (!db.objectStoreNames.contains("solveLaterItems")) {
         db.createObjectStore("solveLaterItems", { keyPath: "mcqId" });
       }
+      if (!db.objectStoreNames.contains("paperCompletions")) {
+        const pcStore = db.createObjectStore("paperCompletions", { keyPath: "id" });
+        pcStore.createIndex("subjectKey", "subjectKey", { unique: false });
+      }
       if (!db.objectStoreNames.contains("syncQueue")) {
         db.createObjectStore("syncQueue", { keyPath: "id" });
       }
@@ -48,10 +52,12 @@ export async function localDbSaveUserData(data: {
   attempts: AttemptLog[];
   solveLaterIds: string[];
   solveLaterItems: { mcqId: string; subjectId: string }[];
+  paperCompletions?: PaperCompletionRecord[];
 }): Promise<void> {
   try {
     const db = await openLocalDB();
-    const tx = db.transaction(["subjects", "mcqs", "attempts", "solveLaterIds", "solveLaterItems"], "readwrite");
+    const stores = ["subjects", "mcqs", "attempts", "solveLaterIds", "solveLaterItems", "paperCompletions"];
+    const tx = db.transaction(stores, "readwrite");
 
     const subStore = tx.objectStore("subjects");
     for (const s of data.subjects) {
@@ -78,6 +84,13 @@ export async function localDbSaveUserData(data: {
       slItemsStore.put(item);
     }
 
+    if (data.paperCompletions && data.paperCompletions.length > 0) {
+      const pcStore = tx.objectStore("paperCompletions");
+      for (const pc of data.paperCompletions) {
+        pcStore.put(pc);
+      }
+    }
+
     return new Promise((resolve, reject) => {
       tx.oncomplete = () => resolve();
       tx.onerror = () => reject(tx.error);
@@ -93,17 +106,19 @@ export async function localDbLoadUserData(): Promise<{
   attempts: AttemptLog[];
   solveLaterIds: string[];
   solveLaterItems: { mcqId: string; subjectId: string }[];
+  paperCompletions: PaperCompletionRecord[];
 } | null> {
   try {
     const db = await openLocalDB();
     return new Promise((resolve, reject) => {
-      const tx = db.transaction(["subjects", "mcqs", "attempts", "solveLaterIds", "solveLaterItems"], "readonly");
+      const tx = db.transaction(["subjects", "mcqs", "attempts", "solveLaterIds", "solveLaterItems", "paperCompletions"], "readonly");
 
       const subReq = tx.objectStore("subjects").getAll();
       const mcqReq = tx.objectStore("mcqs").getAll();
       const attReq = tx.objectStore("attempts").getAll();
       const slIdsReq = tx.objectStore("solveLaterIds").getAll();
       const slItemsReq = tx.objectStore("solveLaterItems").getAll();
+      const pcReq = tx.objectStore("paperCompletions").getAll();
 
       tx.oncomplete = () => {
         resolve({
@@ -112,6 +127,7 @@ export async function localDbLoadUserData(): Promise<{
           attempts: attReq.result || [],
           solveLaterIds: (slIdsReq.result || []).map((x: any) => x.id),
           solveLaterItems: slItemsReq.result || [],
+          paperCompletions: pcReq.result || [],
         });
       };
       tx.onerror = () => reject(tx.error);
@@ -119,6 +135,20 @@ export async function localDbLoadUserData(): Promise<{
   } catch (err) {
     console.warn("IndexedDB load failed:", err);
     return null;
+  }
+}
+
+export async function localDbRecordPaperCompletion(completion: PaperCompletionRecord): Promise<void> {
+  try {
+    const db = await openLocalDB();
+    const tx = db.transaction("paperCompletions", "readwrite");
+    tx.objectStore("paperCompletions").put(completion);
+    return new Promise((resolve, reject) => {
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+  } catch (err) {
+    console.warn("Failed to record paper completion in IndexedDB:", err);
   }
 }
 

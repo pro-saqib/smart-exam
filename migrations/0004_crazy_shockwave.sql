@@ -1,0 +1,1 @@
+CREATE INDEX `attempt_user_subject_idx` ON `attempt` (`user_id`,`subject_id`);

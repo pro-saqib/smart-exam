@@ -15,6 +15,27 @@
       "when": 1788950019327,
       "tag": "0001_striped_nighthawk",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789912157613,
+      "tag": "0002_nasty_white_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1789915306737,
+      "tag": "0003_empty_sprite",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1789991975320,
+      "tag": "0004_crazy_shockwave",
+      "breakpoints": true
     }
   ]
 }

@@ -2,10 +2,11 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState, useEffect } from "react";
 import { useApp } from "@/store/app-store";
 import { QuizRunner } from "@/components/QuizRunner";
-import { ArrowLeft, Loader2 } from "lucide-react";
-import { SUBJECT_KEYWORDS } from "@/lib/model-papers";
+import { ArrowLeft, Loader2, Lock } from "lucide-react";
+import { SUBJECT_KEYWORDS, getPaperLockStatus } from "@/lib/model-papers";
 import { getSubjectModelPaperMcqs } from "@/lib/db-actions";
 import type { MCQ } from "@/lib/types";
+import { toast } from "sonner";
 
 interface QuizSearchParams {
   paper?: number;
@@ -27,8 +28,13 @@ export const Route = createFileRoute("/quiz/$subjectId")({
 function QuizPage() {
   const { subjectId } = Route.useParams();
   const { paper } = Route.useSearch();
+  const context = Route.useRouteContext();
+  const isAdmin = (context as any)?.user?.role === "admin";
+
   const subjects = useApp((s) => s.subjects);
   const savedQuiz = useApp((s) => s.savedQuiz);
+  const paperCompletions = useApp((s) => s.paperCompletions);
+  const recordPaperCompletion = useApp((s) => s.recordPaperCompletion);
 
   const [loading, setLoading] = useState(true);
   const [items, setItems] = useState<MCQ[]>([]);
@@ -45,6 +51,28 @@ function QuizPage() {
   const allSubtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
   const subject = useMemo(() => subjects.find((x) => x.id === subjectId), [subjects, subjectId]);
 
+  // Determine completed papers for lock calculation
+  const completedPaperNumbers = useMemo(() => {
+    return new Set(
+      paperCompletions
+        .filter((c) => c.subjectKey === subjectId)
+        .map((c) => c.paperNumber),
+    );
+  }, [paperCompletions, subjectId]);
+
+  // Evaluate paper lock status
+  const lockStatus = useMemo(() => {
+    if (!paper || paper <= 1) {
+      return { isUnlocked: true, isCompleted: false, previousPaperNumber: null, reason: "first_paper" as const };
+    }
+    return getPaperLockStatus({
+      subjectKey: subjectId,
+      paperNumber: paper,
+      isAdmin,
+      completedPaperNumbers,
+    });
+  }, [paper, subjectId, isAdmin, completedPaperNumbers]);
+
   // Determine relevant subtopic IDs
   const matchingSubtopicIds = useMemo(() => {
     if (canonicalConfig) {
@@ -59,8 +87,13 @@ function QuizPage() {
     return [subjectId];
   }, [canonicalConfig, allSubtopics, subjects, subjectId]);
 
-  // Load 100 MCQs on demand from D1
+  // Load 100 MCQs on demand from D1 only if unlocked (saves row reads on locked papers)
   useEffect(() => {
+    if (!lockStatus.isUnlocked) {
+      setLoading(false);
+      return;
+    }
+
     let cancelled = false;
     setLoading(true);
 
@@ -86,7 +119,7 @@ function QuizPage() {
     return () => {
       cancelled = true;
     };
-  }, [subjectId, paper, matchingSubtopicIds]);
+  }, [subjectId, paper, matchingSubtopicIds, lockStatus.isUnlocked]);
 
   const displayTitle = useMemo(() => {
     if (paper) {
@@ -117,6 +150,44 @@ function QuizPage() {
   const backLink = canonicalConfig ? `/subjects/${canonicalConfig.key}` : "/subjects";
   const uniqueQuizKey = `${subjectId}${paper ? `_paper_${paper}` : ""}`;
 
+  // Route Guard: Locked Screen
+  if (!lockStatus.isUnlocked && paper && paper > 1) {
+    return (
+      <div className="space-y-6 max-w-lg mx-auto py-8">
+        <div className="rounded-2xl bg-card border border-border/80 p-6 sm:p-8 text-center shadow-card space-y-4">
+          <div className="size-16 mx-auto rounded-2xl bg-muted/80 border border-border flex items-center justify-center shadow-sm">
+            <Lock className="size-8 text-muted-foreground" />
+          </div>
+          <div>
+            <div className="text-xs font-semibold text-primary uppercase tracking-wider">
+              {canonicalConfig ? canonicalConfig.label : "Subject Paper"}
+            </div>
+            <h2 className="text-xl sm:text-2xl font-display mt-1">Paper {paper} is Locked</h2>
+            <p className="text-xs sm:text-sm text-muted-foreground mt-2 max-w-xs mx-auto">
+              You need to complete Paper {paper - 1} before you can practice Paper {paper}.
+            </p>
+          </div>
+          <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-2.5">
+            <Link
+              to="/quiz/$subjectId"
+              params={{ subjectId }}
+              search={{ paper: paper - 1 }}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
+            >
+              Start Paper {paper - 1}
+            </Link>
+            <Link
+              to={backLink}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-secondary text-secondary-foreground text-sm font-medium hover:bg-accent border border-border"
+            >
+              Back to Papers
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[400px] gap-3">
@@ -125,6 +196,17 @@ function QuizPage() {
       </div>
     );
   }
+
+  const handleQuizFinish = async (summary: { score: { correct: number; wrong: number }; total: number; accuracy: number }) => {
+    if (paper && paper >= 1) {
+      await recordPaperCompletion(subjectId, paper, {
+        score: summary.score.correct,
+        totalQuestions: summary.total,
+        accuracy: summary.accuracy,
+      });
+      toast.success(`Paper ${paper} completed! Paper ${paper + 1} is now unlocked.`);
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -159,6 +241,7 @@ function QuizPage() {
           setQuizCompleted(false);
         }}
         onComplete={setQuizCompleted}
+        onFinish={handleQuizFinish}
         subjectId={uniqueQuizKey}
         subjectName={resolvedSubjectName}
         routePath="/quiz/$subjectId"

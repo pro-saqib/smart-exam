@@ -85,39 +85,43 @@ export async function getTestpointPageLimit(url: string): Promise<number> {
   const html = await response.text();
   const $ = cheerio.load(html);
 
-  // Look for pagination - common patterns
+  // Look for pagination - run all patterns and take the overall max
   let maxPage = 1;
 
   // Pattern 1: data-page attribute
-  $("[data-page]").each((i, el) => {
+  $("[data-page]").each((_, el) => {
     const page = parseInt($(el).attr("data-page") || "0");
     if (page > maxPage) maxPage = page;
   });
 
-  // Pattern 2: Pagination links (e.g., ?page=N)
-  if (maxPage === 1) {
-    $("a[href*='page=']").each((i, el) => {
-      const href = $(el).attr("href") || "";
-      const match = href.match(/page=(\d+)/);
-      if (match) {
-        const page = parseInt(match[1]);
-        if (page > maxPage) maxPage = page;
-      }
-    });
-  }
-
-  // Pattern 3: Look for "last page" link or numbered pagination
-  if (maxPage === 1) {
-    const paginationLinks = $("a").filter((i, el) => {
-      const text = $(el).text().trim();
-      return /^\d+$/.test(text);
-    });
-
-    paginationLinks.each((i, el) => {
-      const page = parseInt($(el).text().trim());
+  // Pattern 2: links with ?page=N or &page=N (absolute or relative hrefs)
+  $("a[href*='page=']").each((_, el) => {
+    const href = $(el).attr("href") || "";
+    const match = href.match(/[?&]page=(\d+)/);
+    if (match) {
+      const page = parseInt(match[1]);
       if (page > maxPage) maxPage = page;
-    });
-  }
+    }
+  });
+
+  // Pattern 3: numbered link text (pagination buttons like "2", "3", "4"...)
+  $("a").each((_, el) => {
+    const text = $(el).text().trim();
+    if (/^\d+$/.test(text)) {
+      const page = parseInt(text);
+      if (page > maxPage) maxPage = page;
+    }
+  });
+
+  // Pattern 4: links inside pagination containers
+  $(".pagination a, .page-numbers a, nav[aria-label*='page'] a, [class*='pagina'] a").each((_, el) => {
+    const href = $(el).attr("href") || "";
+    const match = href.match(/[?&]page=(\d+)/);
+    if (match) {
+      const page = parseInt(match[1]);
+      if (page > maxPage) maxPage = page;
+    }
+  });
 
   return maxPage;
 }

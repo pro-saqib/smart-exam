@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
 import { useMemo, useState, useEffect } from "react";
-import { ArrowLeft, BookOpen, FileText, Eye, Check, X, Pencil, Trash2, FileCheck2 } from "lucide-react";
+import { ArrowLeft, BookOpen, FileText, Eye, Check, X, Pencil, Trash2, FileCheck2, Lock } from "lucide-react";
 import { toast } from "sonner";
-import { buildSubjectGroups, getSubjectModelPapers, SUBJECT_KEYWORDS, ModelPaper } from "@/lib/model-papers";
+import { buildSubjectGroups, getSubjectModelPapers, getPaperLockStatus, SUBJECT_KEYWORDS, ModelPaper } from "@/lib/model-papers";
 import { getSubjectModelPaperMcqs, getSubjectModelPaperStats } from "@/lib/db-actions";
 import type { MCQ } from "@/lib/types";
 
@@ -22,7 +22,7 @@ function SubjectDetailPage() {
   const { subjectId } = Route.useParams();
   const context = Route.useRouteContext();
   const isAdmin = (context as any)?.user?.role === "admin";
-  const { subjects, mcqs, attempts, renameSubject, deleteSubject } = useApp();
+  const { subjects, mcqs, attempts, paperCompletions, renameSubject, deleteSubject } = useApp();
 
   // 1. Check if subjectId matches a canonical group key (e.g. "english", "general-knowledge")
   const canonicalConfig = useMemo(
@@ -72,6 +72,24 @@ function SubjectDetailPage() {
       cancelled = true;
     };
   }, [activeGroup, attempts]);
+
+  const completedPaperNumbers = useMemo(() => {
+    return new Set(
+      paperCompletions
+        .filter((c) => c.subjectKey === subjectId)
+        .map((c) => c.paperNumber),
+    );
+  }, [paperCompletions, subjectId]);
+
+  const attemptedPaperNumbers = useMemo(() => {
+    const set = new Set<number>();
+    for (const [pNumStr, stat] of Object.entries(paperStats)) {
+      if (stat.attemptedCount > 0) {
+        set.add(Number(pNumStr));
+      }
+    }
+    return set;
+  }, [paperStats]);
 
   const modelPapersWithStats = useMemo(() => {
     return modelPapers.map((p) => {
@@ -126,45 +144,114 @@ function SubjectDetailPage() {
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {modelPapersWithStats.map((paper) => {
+              const lockStatus = getPaperLockStatus({
+                subjectKey: subjectId,
+                paperNumber: paper.paperNumber,
+                isAdmin,
+                completedPaperNumbers,
+                attemptedPaperNumbers,
+              });
+              const isLocked = !lockStatus.isUnlocked;
+              const isCompleted = lockStatus.isCompleted;
+
               return (
                 <div
                   key={paper.paperNumber}
-                  className="group relative rounded-xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2"
+                  className={`group relative rounded-xl border p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2 ${
+                    isLocked
+                      ? "bg-card/50 border-border/50 opacity-60 grayscale-[25%] select-none"
+                      : isCompleted
+                      ? "bg-card border-success/30 hover:border-success/60 hover:shadow-glow"
+                      : "bg-card border-border hover:border-primary/50 hover:shadow-glow"
+                  }`}
                 >
                   <div>
                     <div className="flex items-center justify-between mb-1">
-                      <div className="size-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
-                        <FileCheck2 className="size-3.5 text-primary" />
-                      </div>
-                      <button
-                        onClick={() => setPreviewPaper(paper)}
-                        className="size-6 rounded-md bg-secondary text-muted-foreground hover:text-foreground hover:bg-accent grid place-items-center transition-colors"
-                        title="Preview Questions"
+                      <div
+                        className={`size-7 rounded-lg border flex items-center justify-center transition-transform ${
+                          isLocked
+                            ? "bg-muted text-muted-foreground border-border/40"
+                            : isCompleted
+                            ? "bg-success/15 text-success border-success/30"
+                            : "bg-primary/10 text-primary border-primary/20 group-hover:scale-105"
+                        }`}
                       >
-                        <Eye className="size-3" />
-                      </button>
+                        {isLocked ? (
+                          <Lock className="size-3.5 text-muted-foreground" />
+                        ) : isCompleted ? (
+                          <Check className="size-3.5 text-success" />
+                        ) : (
+                          <FileCheck2 className="size-3.5 text-primary" />
+                        )}
+                      </div>
+                      {isLocked ? (
+                        <span
+                          className="size-6 rounded-md bg-secondary/50 text-muted-foreground/40 grid place-items-center cursor-not-allowed"
+                          title={`Locked — Complete Paper ${paper.paperNumber - 1} to unlock`}
+                        >
+                          <Lock className="size-3" />
+                        </span>
+                      ) : (
+                        <button
+                          onClick={() => setPreviewPaper(paper)}
+                          className="size-6 rounded-md bg-secondary text-muted-foreground hover:text-foreground hover:bg-accent grid place-items-center transition-colors"
+                          title="Preview Questions"
+                        >
+                          <Eye className="size-3" />
+                        </button>
+                      )}
                     </div>
 
-                    <h3 className="font-semibold text-sm group-hover:text-primary transition-colors line-clamp-1">
+                    <h3
+                      className={`font-semibold text-sm line-clamp-1 ${
+                        isLocked
+                          ? "text-muted-foreground"
+                          : isCompleted
+                          ? "text-foreground group-hover:text-success"
+                          : "group-hover:text-primary transition-colors"
+                      }`}
+                    >
                       {paper.name}
                     </h3>
 
-                    <div className="flex items-center gap-1.5 text-[10px] mt-0.5 text-muted-foreground">
-                      <span>{paper.attemptedCount} solved</span>
-                      <span>·</span>
-                      <span className="font-medium text-foreground">{paper.accuracy}% accuracy</span>
-                    </div>
+                    {isLocked ? (
+                      <p className="text-[10px] text-muted-foreground/90 mt-0.5 font-medium">
+                        Complete Paper {paper.paperNumber - 1} to unlock
+                      </p>
+                    ) : (
+                      <div className="flex items-center gap-1.5 text-[10px] mt-0.5 text-muted-foreground">
+                        <span>{paper.attemptedCount} solved</span>
+                        <span>·</span>
+                        <span className={`font-medium ${isCompleted ? "text-success" : "text-foreground"}`}>
+                          {paper.accuracy}% accuracy
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   <div className="pt-2 border-t border-border/50">
-                    <Link
-                      to="/quiz/$subjectId"
-                      params={{ subjectId }}
-                      search={{ paper: paper.paperNumber }}
-                      className="w-full inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg gradient-primary text-primary-foreground text-xs font-medium shadow-glow transition-all"
-                    >
-                      <FileText className="size-3" /> Practice
-                    </Link>
+                    {isLocked ? (
+                      <button
+                        disabled
+                        className="w-full inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg bg-secondary/60 text-muted-foreground text-xs font-medium cursor-not-allowed border border-border/50"
+                        title={`Complete Paper ${paper.paperNumber - 1} to unlock this paper`}
+                      >
+                        <Lock className="size-3" /> Locked
+                      </button>
+                    ) : (
+                      <Link
+                        to="/quiz/$subjectId"
+                        params={{ subjectId }}
+                        search={{ paper: paper.paperNumber }}
+                        className={`w-full inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+                          isCompleted
+                            ? "bg-success/15 hover:bg-success/25 text-success border border-success/30"
+                            : "gradient-primary text-primary-foreground shadow-glow"
+                        }`}
+                      >
+                        <FileText className="size-3" /> {isCompleted ? "Practice Again" : "Practice"}
+                      </Link>
+                    )}
                   </div>
                 </div>
               );
@@ -199,9 +286,10 @@ function SubjectDetailPage() {
   }
 
   const children = subjects.filter((s) => s.parentId === dbSubject.id);
-  const totalMcqs = mcqs.filter(
-    (m) => m.subjectId === dbSubject.id || children.some((c) => c.id === m.subjectId),
-  ).length;
+  const totalMcqs =
+    dbSubject.totalMcqs ||
+    children.reduce((sum, c) => sum + (c.totalMcqs || 0), 0) ||
+    mcqs.filter((m) => m.subjectId === dbSubject.id || children.some((c) => c.id === m.subjectId)).length;
 
   return (
     <div className="space-y-6">
@@ -233,7 +321,7 @@ function SubjectDetailPage() {
       ) : (
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {children.map((child) => {
-            const count = mcqs.filter((m) => m.subjectId === child.id).length;
+            const count = child.totalMcqs ?? mcqs.filter((m) => m.subjectId === child.id).length;
             const relevantAttempts = attempts.filter((a) => a.subjectId === child.id);
             const accuracy = relevantAttempts.length > 0
               ? Math.round((relevantAttempts.filter((a) => a.correct).length / relevantAttempts.length) * 100)
@@ -421,9 +509,37 @@ function ModelPaperPreviewModal({ title, paper, subjectKey, onClose }: { title: 
 }
 
 function SubtopicPreviewModal({ subtopicId, onClose }: { subtopicId: string; onClose: () => void }) {
-  const { subjects, mcqs } = useApp();
+  const { subjects, mcqs: storeMcqs } = useApp();
   const subtopic = subjects.find((s) => s.id === subtopicId);
-  const subtopicMcqs = useMemo(() => mcqs.filter((m) => m.subjectId === subtopicId), [mcqs, subtopicId]);
+  const localMcqs = useMemo(() => storeMcqs.filter((m) => m.subjectId === subtopicId), [storeMcqs, subtopicId]);
+  const [mcqs, setMcqs] = useState<MCQ[]>(localMcqs);
+  const [loading, setLoading] = useState(localMcqs.length === 0 && (subtopic?.totalMcqs || 0) > 0);
+
+  useEffect(() => {
+    if (localMcqs.length > 0) {
+      setMcqs(localMcqs);
+      setLoading(false);
+      return;
+    }
+    if ((subtopic?.totalMcqs || 0) > 0) {
+      setLoading(true);
+      getSubjectModelPaperMcqs({
+        data: {
+          subjectKey: subtopicId,
+          subtopicIds: [subtopicId],
+          paperNumber: 1,
+          pageSize: 100,
+        },
+      })
+        .then((data) => {
+          setMcqs(data as MCQ[]);
+          setLoading(false);
+        })
+        .catch(() => setLoading(false));
+    }
+  }, [subtopicId, localMcqs, subtopic?.totalMcqs]);
+
+  const displayCount = subtopic?.totalMcqs || mcqs.length;
 
   return (
     <div className="fixed inset-0 z-50 grid place-items-center bg-background/80 backdrop-blur-sm p-4" onClick={onClose}>
@@ -437,7 +553,7 @@ function SubtopicPreviewModal({ subtopicId, onClose }: { subtopicId: string; onC
             <h2 className="text-lg font-medium mt-0.5">{subtopic?.name || "Paper"}</h2>
             <div className="mt-2 flex flex-wrap gap-2 text-xs">
               <span className="inline-flex items-center gap-1.5 px-2 py-1 rounded-md bg-success/15 text-success font-medium">
-                <Check className="size-3.5" /> {subtopicMcqs.length} MCQs
+                <Check className="size-3.5" /> {displayCount} MCQs
               </span>
             </div>
           </div>
@@ -446,11 +562,13 @@ function SubtopicPreviewModal({ subtopicId, onClose }: { subtopicId: string; onC
           </button>
         </header>
         <div className="overflow-y-auto p-5 space-y-4">
-          {subtopicMcqs.length === 0 ? (
+          {loading ? (
+            <div className="text-center py-10 text-muted-foreground">Loading preview questions...</div>
+          ) : mcqs.length === 0 ? (
             <div className="text-center py-8 text-muted-foreground">No MCQs found.</div>
           ) : (
             <ul className="space-y-3">
-              {subtopicMcqs.map((q, i) => (
+              {mcqs.map((q, i) => (
                 <li key={q.id} className="rounded-lg border border-border bg-secondary/30 p-3">
                   <div className="text-sm font-medium">{i + 1}. {q.question}</div>
                   <ul className="mt-2 grid sm:grid-cols-2 gap-1 text-xs">

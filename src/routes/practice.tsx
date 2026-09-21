@@ -126,6 +126,9 @@ function PracticePage() {
     return activeGroup?.subtopicIds || [];
   }, [selectedSubjectKey, subjectGroups]);
 
+  // Stable key from subtopic IDs to use as effect dependency instead of the array
+  const activeSubtopicIdsKey = activeSubtopicIds.join(",");
+
   // Fetch exact per-model-paper counts when a specific subject is selected
   useEffect(() => {
     if (!selectedSubjectKey || activeSubtopicIds.length === 0) {
@@ -153,7 +156,7 @@ function PracticePage() {
     return () => {
       cancelled = true;
     };
-  }, [mode, selectedSubjectKey, activeSubtopicIds, attempts]);
+  }, [mode, selectedSubjectKey, activeSubtopicIdsKey]);
 
   // Model papers for selected subject
   const modelPapers = useMemo(() => {
@@ -199,7 +202,7 @@ function PracticePage() {
     return () => {
       cancelled = true;
     };
-  }, [mode, selectedSubjectKey, activeSubtopicIds, selectedPaperNumber, questionCount, attempts]);
+  }, [mode, selectedSubjectKey, activeSubtopicIdsKey, selectedPaperNumber, questionCount]);
 
   const handleModeChange = (newMode: Mode) => {
     setMode(newMode);

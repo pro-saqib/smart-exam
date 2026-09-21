@@ -43,3 +43,22 @@ export interface AttemptLog {
   correct: boolean;
   at: number;
 }
+
+export interface PaperCompletionRecord {
+  id: string;
+  userId?: string;
+  subjectKey: string;
+  paperNumber: number;
+  score: number;
+  totalQuestions: number;
+  accuracy: number;
+  completedAt: number;
+}
+
+export interface PaperLockStatus {
+  isUnlocked: boolean;
+  isCompleted: boolean;
+  previousPaperNumber: number | null;
+  reason: "first_paper" | "admin" | "previous_completed" | "previous_attempted" | "locked";
+}
+

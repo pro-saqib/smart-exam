@@ -1,6 +1,5 @@
 import { Link, useLocation, useRouter } from "@tanstack/react-router";
 import { LayoutDashboard, BookOpen, Brain, Sparkles, PanelLeft, ScanSearch, LogOut, ShieldCheck, Users } from "lucide-react";
-import { useApp } from "@/store/app-store";
 import { useEffect, useState } from "react";
 import { signOut } from "@/lib/auth-client";
 import { toast } from "sonner";

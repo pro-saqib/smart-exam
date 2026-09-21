@@ -2,8 +2,21 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { MCQ, Subject } from "@/lib/types";
 import { useApp } from "@/store/app-store";
 import type { SavedQuiz } from "@/store/app-store";
-import { Bookmark, BookmarkCheck, ArrowRight, RotateCcw, CheckCircle2, XCircle, AlertCircle, Play, Shuffle, SkipForward, Timer as TimerIcon } from "lucide-react";
+import { getMcqsByIds } from "@/lib/db-actions";
+import { Bookmark, BookmarkCheck, ArrowRight, RotateCcw, CheckCircle2, XCircle, AlertCircle, Play, Shuffle, SkipForward, Timer as TimerIcon, Loader2 } from "lucide-react";
 import { toast } from "sonner";
+
+function resolveSavedMcqs(saved: SavedQuiz, pool: MCQ[]): MCQ[] {
+  const map = new Map<string, MCQ>(pool.map((m) => [m.id, m]));
+  const targetIds = saved.items && saved.items.length > 0 ? saved.items : saved.order;
+  if (!targetIds || targetIds.length === 0) return [];
+  const found: MCQ[] = [];
+  for (const id of targetIds) {
+    const item = map.get(id);
+    if (item) found.push(item);
+  }
+  return found;
+}
 
 export function QuizRunner({
   items,
@@ -16,9 +29,14 @@ export function QuizRunner({
   onStart,
   onReset,
   subjectId,
+  subjectName,
+  routePath,
+  routeParams,
+  routeSearch,
   savedState,
   hideTitle,
   onComplete,
+  onFinish,
 }: {
   items: MCQ[];
   title: string;
@@ -30,53 +48,105 @@ export function QuizRunner({
   onStart?: () => void;
   onReset?: () => void;
   subjectId?: string;
+  subjectName?: string;
+  routePath?: string;
+  routeParams?: Record<string, string>;
+  routeSearch?: Record<string, unknown>;
   savedState?: SavedQuiz | null;
   hideTitle?: boolean;
   onComplete?: (complete: boolean) => void;
+  onFinish?: (summary: { score: { correct: number; wrong: number }; total: number; accuracy: number }) => void;
 }) {
   const { recordAttempt, toggleSolveLater, saveQuiz, clearSavedQuiz, subjects } = useApp();
-  const [started, setStarted] = useState(false);
+
+  // Try to resolve saved MCQs synchronously from items and store mcqs
+  const synchronousRestoredMcs = useMemo(() => {
+    if (!savedState) return [];
+    return resolveSavedMcqs(savedState, [...items, ...(useApp.getState().mcqs || [])]);
+  }, [savedState, items]);
+
+  const hasSyncRestore = synchronousRestoredMcs.length > 0;
+
+  const [started, setStarted] = useState(() => hasSyncRestore);
+  const finishedRef = useRef(false);
   const [selectedSubtopic, setSelectedSubtopic] = useState<string>("__all__");
-  const [shuffleQuestions, setShuffleQuestions] = useState(true);
-  const [shuffleOptions, setShuffleOptions] = useState(false);
-  const [timeLimitMin, setTimeLimitMin] = useState<60 | 15 | 30>(60);
-  const [order, setOrder] = useState<string[]>([]);
-  const orderRef = useRef<string[]>([]);
+  const [shuffleQuestions, setShuffleQuestions] = useState(() => savedState?.shuffleQuestions ?? true);
+  const [shuffleOptions, setShuffleOptions] = useState(() => savedState?.shuffleOptions ?? false);
+  const [timeLimitMin, setTimeLimitMin] = useState<60 | 15 | 30>(() => (savedState?.timeLimitMin || 60) as 60 | 15 | 30);
+  const [order, setOrder] = useState<string[]>(() => (savedState ? savedState.order : []));
+  const orderRef = useRef<string[]>(savedState ? savedState.order : []);
   useEffect(() => {
     orderRef.current = order;
   }, [order]);
-  const [idx, setIdx] = useState(0);
-  const idxRef = useRef(idx);
+
+  const [idx, setIdx] = useState(() => (savedState ? savedState.currentIndex : 0));
+  const idxRef = useRef(savedState ? savedState.currentIndex : 0);
   useEffect(() => {
     idxRef.current = idx;
   }, [idx]);
+
   const [picked, setPicked] = useState<"A" | "B" | "C" | "D" | "E" | null>(null);
-  const [score, setScore] = useState({ correct: 0, wrong: 0 });
-  const [retryQueue, setRetryQueue] = useState<string[]>([]);
-  const [elapsed, setElapsed] = useState(0);
-  const [startTs, setStartTs] = useState<number | null>(null);
+  const [score, setScore] = useState(() => (savedState ? savedState.score : { correct: 0, wrong: 0 }));
+  const [retryQueue, setRetryQueue] = useState<string[]>(() => (savedState ? savedState.retryQueue : []));
+  const [elapsed, setElapsed] = useState(() => (savedState ? savedState.elapsed : 0));
+  const [startTs, setStartTs] = useState<number | null>(() =>
+    savedState ? Date.now() - savedState.elapsed * 1000 : null
+  );
   const [timeUp, setTimeUp] = useState(false);
-  const [restored, setRestored] = useState(false);
-  const [restoredItems, setRestoredItems] = useState<MCQ[] | null>(null);
+  const [restored, setRestored] = useState(() => hasSyncRestore);
+  const [isRestoringAsync, setIsRestoringAsync] = useState(() => Boolean(savedState && !hasSyncRestore));
+  const [restoredItems, setRestoredItems] = useState<MCQ[] | null>(() => (hasSyncRestore ? synchronousRestoredMcs : null));
 
   const activeItems = useMemo(() => {
-    if (restoredItems) return restoredItems;
+    if (restoredItems && restoredItems.length > 0) return restoredItems;
     if (selectedSubtopic === "__all__") return items;
     return mcqsBySubtopic[selectedSubtopic] ?? items;
   }, [items, selectedSubtopic, mcqsBySubtopic, restoredItems]);
 
+  // Keep stable refs for values used in the save-on-unmount cleanup
+  // to avoid re-registering the effect on every render (which triggers saveQuiz loops)
+  const activeItemsRef = useRef(activeItems);
+  useEffect(() => { activeItemsRef.current = activeItems; }, [activeItems]);
+
+  const routeParamsRef = useRef(routeParams);
+  useEffect(() => { routeParamsRef.current = routeParams; }, [routeParams]);
+
+  const routeSearchRef = useRef(routeSearch);
+  useEffect(() => { routeSearchRef.current = routeSearch; }, [routeSearch]);
+
+  const subjectsRef = useRef(subjects);
+  useEffect(() => { subjectsRef.current = subjects; }, [subjects]);
+
+  // On mount with synchronous restore, notify parent onStart (run once only)
+  const onStartRef = useRef(onStart);
+  useEffect(() => {
+    onStartRef.current = onStart;
+  });
+
+  useEffect(() => {
+    if (hasSyncRestore && onStartRef.current) {
+      onStartRef.current();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // Save quiz state on unmount if quiz is in progress
+  // Uses refs for values that change every render to prevent infinite saveQuiz loops
   useEffect(() => {
     return () => {
-      if (started && !timeUp && order.length > 0 && idx < order.length) {
-        const subjectName = subjects.find((s) => s.id === subjectId)?.name || title || "Quiz";
+      if (started && !timeUp && orderRef.current.length > 0 && idxRef.current < orderRef.current.length) {
+        const resolvedSubjectName =
+          subjectName || subjectsRef.current.find((s) => s.id === subjectId)?.name || title || "Quiz";
         saveQuiz({
           mode: title,
           subjectId: subjectId || "",
-          subjectName,
-          currentIndex: idx,
-          order,
-          items: activeItems.map((m) => m.id),
+          subjectName: resolvedSubjectName,
+          routePath,
+          routeParams: routeParamsRef.current,
+          routeSearch: routeSearchRef.current,
+          currentIndex: idxRef.current,
+          order: orderRef.current,
+          items: activeItemsRef.current.map((m) => m.id),
           score,
           retryQueue,
           elapsed,
@@ -87,21 +157,36 @@ export function QuizRunner({
         });
       }
     };
-  }, [started, timeUp, order, idx, score, retryQueue, elapsed, startTs, timeLimitMin, shuffleOptions, shuffleQuestions, subjectId, title, subjects, activeItems, saveQuiz]);
+  }, [
+    started,
+    timeUp,
+    score,
+    retryQueue,
+    elapsed,
+    startTs,
+    timeLimitMin,
+    shuffleOptions,
+    shuffleQuestions,
+    subjectId,
+    subjectName,
+    routePath,
+    title,
+    saveQuiz,
+  ]);
 
-  // Restore from saved state
+  // True if restore already happened (sync) or is not needed (no savedState)
+  const restoreAttemptedRef = useRef(!savedState || hasSyncRestore);
+
+  // Restore from saved state when not restored synchronously
   useEffect(() => {
-    if (savedState && !restored && !started) {
-      // Reconstruct items from saved IDs using current mcqs store
-      const allMcqs = useApp.getState().mcqs;
-      if (savedState.items && savedState.items.length > 0) {
-        const restoredMcs = savedState.items.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
-        if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
-      } else if (savedState.order && savedState.order.length > 0) {
-        // Fallback: reconstruct from order IDs
-        const restoredMcs = savedState.order.map((id) => allMcqs.find((m) => m.id === id)).filter(Boolean) as MCQ[];
-        if (restoredMcs.length > 0) setRestoredItems(restoredMcs);
-      }
+    if (!savedState || restoreAttemptedRef.current) return;
+
+    const localPool = [...items, ...(useApp.getState().mcqs || [])];
+    const matched = resolveSavedMcqs(savedState, localPool);
+
+    if (matched.length > 0) {
+      restoreAttemptedRef.current = true;
+      setRestoredItems(matched);
       orderRef.current = savedState.order;
       setOrder(savedState.order);
       idxRef.current = savedState.currentIndex;
@@ -115,9 +200,43 @@ export function QuizRunner({
       setShuffleQuestions(savedState.shuffleQuestions);
       setStarted(true);
       setRestored(true);
-      if (onStart) onStart();
+      setIsRestoringAsync(false);
+      if (onStartRef.current) onStartRef.current();
+    } else {
+      // MCQs not yet in items/store — fetch from server (once)
+      const idsToFetch = savedState.items?.length > 0 ? savedState.items : savedState.order;
+      if (idsToFetch && idsToFetch.length > 0) {
+        restoreAttemptedRef.current = true;
+        setIsRestoringAsync(true);
+        getMcqsByIds({ data: { mcqIds: idsToFetch } })
+          .then((fetched) => {
+            if (fetched && fetched.length > 0) {
+              setRestoredItems(fetched as MCQ[]);
+              orderRef.current = savedState.order;
+              setOrder(savedState.order);
+              idxRef.current = savedState.currentIndex;
+              setIdx(savedState.currentIndex);
+              setScore(savedState.score);
+              setRetryQueue(savedState.retryQueue);
+              setElapsed(savedState.elapsed);
+              setStartTs(Date.now() - savedState.elapsed * 1000);
+              setTimeLimitMin((savedState.timeLimitMin || 60) as 60 | 15 | 30);
+              setShuffleOptions(savedState.shuffleOptions);
+              setShuffleQuestions(savedState.shuffleQuestions);
+              setStarted(true);
+              setRestored(true);
+              setIsRestoringAsync(false);
+              if (onStartRef.current) onStartRef.current();
+            }
+          })
+          .catch((err) => {
+            console.error("Failed to restore saved quiz MCQs:", err);
+            setIsRestoringAsync(false);
+          });
+      }
     }
-  }, [savedState, restored, started, onStart]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [savedState, items]);
 
   const current = useMemo(() => activeItems.find((m) => m.id === order[idx]), [activeItems, order, idx]);
 
@@ -152,20 +271,20 @@ export function QuizRunner({
 
   // Timer tick
   useEffect(() => {
-    if (!started || startTs === null || timeUp || idx >= items.length) return;
+    if (!started || startTs === null || timeUp || !current || idx >= order.length) return;
     const id = setInterval(() => setElapsed(Math.floor((Date.now() - startTs) / 1000)), 500);
     return () => clearInterval(id);
-  }, [started, startTs, timeUp, idx, items.length]);
+  }, [started, startTs, timeUp, current, idx, order.length]);
 
   // Time limit enforcement
   useEffect(() => {
-    if (!started || timeLimitMin === 0) return;
+    if (!started || timeLimitMin === 0 || !current) return;
     if (elapsed >= timeLimitMin * 60 && !timeUp) {
       setTimeUp(true);
       toast.message("Time's up!");
-      setIdx(items.length); // jump to summary
+      setIdx(order.length); // jump to summary
     }
-  }, [elapsed, timeLimitMin, started, timeUp, items.length]);
+  }, [elapsed, timeLimitMin, started, timeUp, current, order.length]);
 
   // Keyboard shortcuts (declare early so hooks order is stable)
   useEffect(() => {
@@ -198,15 +317,38 @@ export function QuizRunner({
     return;
   }, [picked, current]);
 
-  // When session ends (idx >= items.length), ensure elapsed is finalised
+  // When session ends (idx >= items.length), ensure elapsed is finalised and trigger onFinish/onComplete
   useEffect(() => {
-    if (!started || startTs === null) return;
-    if (idx >= items.length) {
-      setElapsed(Math.floor((Date.now() - startTs) / 1000));
+    if (!started) return;
+    if (!current && !finishedRef.current) {
+      finishedRef.current = true;
+      if (startTs !== null) {
+        setElapsed(Math.floor((Date.now() - startTs) / 1000));
+      }
+      const totalAnswered = score.correct + score.wrong;
+      const accuracy = Math.round((score.correct / Math.max(1, totalAnswered)) * 100);
+      if (onComplete) onComplete(true);
+      if (onFinish) {
+        onFinish({
+          score,
+          total: activeItems.length,
+          accuracy,
+        });
+      }
     }
-  }, [idx, items.length, started, startTs]);
+  }, [started, current, startTs, score, activeItems.length, onComplete, onFinish]);
 
-  if (!items.length) {
+  // While waiting for async MCQ fetch to restore saved quiz, show spinner instead of config form
+  if (isRestoringAsync) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[300px] gap-3">
+        <Loader2 className="size-8 animate-spin text-primary" />
+        <div className="text-sm text-muted-foreground">Restoring your quiz...</div>
+      </div>
+    );
+  }
+
+  if (!items.length && !restoredItems?.length) {
     return (
       <div className="rounded-2xl border border-dashed border-border p-6 md:p-8 text-muted-foreground max-w-xl">
         {emptyText}
@@ -215,6 +357,7 @@ export function QuizRunner({
   }
 
   const begin = (idsOverride?: string[]) => {
+    finishedRef.current = false;
     const ids = idsOverride ?? activeItems.map((m) => m.id);
     const newOrder = shuffleQuestions ? shuffle(ids) : ids;
     orderRef.current = newOrder;
@@ -232,6 +375,7 @@ export function QuizRunner({
   };
 
   const close = () => {
+    finishedRef.current = false;
     setStarted(false);
     clearSavedQuiz();
     if (onReset) onReset();
@@ -476,7 +620,7 @@ export function QuizRunner({
                   return next;
                 });
                 try {
-                  await toggleSolveLater(current.id, willBookmark);
+                  await toggleSolveLater(current.id, willBookmark, current.subjectId);
                   toast.success(willBookmark ? "Saved for later" : "Removed bookmark");
                 } catch (err) {
                   // Revert state on failure

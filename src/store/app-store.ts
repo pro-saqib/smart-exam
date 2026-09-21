@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { MCQ, Subject, AttemptLog } from "@/lib/types";
+import type { MCQ, Subject, AttemptLog, PaperCompletionRecord } from "@/lib/types";
 import {
   dbAddSubject,
   dbRenameSubject,
@@ -10,12 +10,14 @@ import {
   dbDeleteMCQ,
   dbRecordAttempt,
   dbClearAttempts,
+  dbRecordPaperCompletion,
   loadUserData,
   bootstrapUser,
 } from "@/lib/db-actions";
 import {
   localDbLoadUserData,
   localDbSaveUserData,
+  localDbRecordPaperCompletion,
   localDbEnqueueSync,
   localDbGetSyncQueue,
   localDbRemoveSyncItem,
@@ -47,14 +49,21 @@ interface State {
   attempts: AttemptLog[];
   solveLaterIds: string[];
   solveLaterItems: { mcqId: string; subjectId: string }[];
+  paperCompletions: PaperCompletionRecord[];
   savedQuiz: SavedQuiz | null;
   currentUserId: string | null;
   hydrateFromDb: () => Promise<void>;
+  recordPaperCompletion: (
+    subjectKey: string,
+    paperNumber: number,
+    stats?: { score: number; totalQuestions: number; accuracy: number },
+  ) => Promise<void>;
+  getCompletedPaperNumbers: (subjectKey: string) => Set<number>;
   addSubject: (name: string, parentId?: string) => Promise<Subject>;
   renameSubject: (id: string, name: string) => Promise<void>;
   deleteSubject: (id: string) => Promise<void>;
   addMCQs: (subjectId: string, items: Omit<MCQ, "id" | "subjectId" | "attemptCount" | "wrongCount" | "solveLater" | "createdAt">[]) => Promise<number>;
-  toggleSolveLater: (id: string, value?: boolean) => Promise<void>;
+  toggleSolveLater: (id: string, value?: boolean, subjectId?: string) => Promise<void>;
   recordAttempt: (
     mcqId: string,
     selected: "A" | "B" | "C" | "D" | "E",
@@ -82,6 +91,7 @@ export const useApp = create<State>()(
       attempts: [],
       solveLaterIds: [],
       solveLaterItems: [],
+      paperCompletions: [],
       savedQuiz: null,
       currentUserId: null,
 
@@ -89,7 +99,7 @@ export const useApp = create<State>()(
         try {
           // 1. Instant local hydration from IndexedDB (0ms network delay)
           const localData = await localDbLoadUserData();
-          if (localData && (localData.subjects.length > 0 || localData.mcqs.length > 0)) {
+          if (localData && (localData.subjects.length > 0 || localData.mcqs.length > 0 || localData.paperCompletions.length > 0 || localData.attempts.length > 0 || localData.solveLaterItems.length > 0)) {
             const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
             const dbSubjects = localData.subjects.filter((s) => !initialIds.has(s.id));
             set({
@@ -98,10 +108,28 @@ export const useApp = create<State>()(
               attempts: localData.attempts,
               solveLaterIds: localData.solveLaterIds || [],
               solveLaterItems: localData.solveLaterItems || [],
+              paperCompletions: localData.paperCompletions || [],
             });
           }
 
-          // 2. Background SWR sync with server
+          // 2. Process any queued offline mutations first so D1 has all data
+          const queue = await localDbGetSyncQueue();
+          for (const item of queue) {
+            try {
+              if (item.type === "ATTEMPT") {
+                await dbRecordAttempt({ data: item.payload });
+              } else if (item.type === "TOGGLE_SOLVE_LATER") {
+                await dbToggleSolveLater({ data: item.payload });
+              } else if (item.type === "RECORD_PAPER_COMPLETION") {
+                await dbRecordPaperCompletion({ data: item.payload });
+              }
+              await localDbRemoveSyncItem(item.id);
+            } catch (syncErr) {
+              console.warn("Background sync item failed, will retry later:", syncErr);
+            }
+          }
+
+          // 3. Background SWR sync with server
           await bootstrapUser();
           const data = await loadUserData();
           const initialIds = new Set(INITIAL_SUBJECTS.map((s) => s.id));
@@ -119,6 +147,7 @@ export const useApp = create<State>()(
           const freshAttempts = data.attempts;
           const freshSolveLaterIds = data.solveLaterIds || [];
           const freshSolveLaterItems = data.solveLaterItems || [];
+          const freshPaperCompletions = data.paperCompletions || [];
 
           set({
             subjects: freshSubjects,
@@ -126,6 +155,7 @@ export const useApp = create<State>()(
             attempts: freshAttempts,
             solveLaterIds: freshSolveLaterIds,
             solveLaterItems: freshSolveLaterItems,
+            paperCompletions: freshPaperCompletions,
             savedQuiz: savedQuizToKeep,
             currentUserId: userId,
           });
@@ -137,29 +167,74 @@ export const useApp = create<State>()(
             attempts: freshAttempts,
             solveLaterIds: freshSolveLaterIds,
             solveLaterItems: freshSolveLaterItems,
+            paperCompletions: freshPaperCompletions,
           });
-
-          // Process any queued offline mutations
-          const queue = await localDbGetSyncQueue();
-          for (const item of queue) {
-            try {
-              if (item.type === "ATTEMPT") {
-                await dbRecordAttempt({ data: item.payload });
-              } else if (item.type === "TOGGLE_SOLVE_LATER") {
-                await dbToggleSolveLater({ data: item.payload });
-              }
-              await localDbRemoveSyncItem(item.id);
-            } catch (syncErr) {
-              console.warn("Background sync item failed, will retry later:", syncErr);
-            }
-          }
         } catch (err) {
           console.error("Failed to hydrate from DB:", err);
         }
       },
 
+      recordPaperCompletion: async (subjectKey, paperNumber, stats) => {
+        const userId = get().currentUserId || "local";
+        const id = `${userId}_${subjectKey}_${paperNumber}`;
+        const newRecord: PaperCompletionRecord = {
+          id,
+          userId,
+          subjectKey,
+          paperNumber,
+          score: stats?.score ?? 0,
+          totalQuestions: stats?.totalQuestions ?? 0,
+          accuracy: stats?.accuracy ?? 0,
+          completedAt: Date.now(),
+        };
+
+        set((st) => {
+          const existingIndex = st.paperCompletions.findIndex((p) => p.id === id);
+          if (existingIndex >= 0) {
+            const updated = [...st.paperCompletions];
+            updated[existingIndex] = newRecord;
+            return { paperCompletions: updated };
+          }
+          return { paperCompletions: [...st.paperCompletions, newRecord] };
+        });
+
+        await localDbRecordPaperCompletion(newRecord);
+
+        try {
+          await dbRecordPaperCompletion({
+            data: {
+              subjectKey,
+              paperNumber,
+              score: newRecord.score,
+              totalQuestions: newRecord.totalQuestions,
+              accuracy: newRecord.accuracy,
+            },
+          });
+        } catch (err) {
+          console.warn("Offline: failed to persist paper completion to D1, queueing for sync:", err);
+          await localDbEnqueueSync({
+            id: uid(),
+            type: "RECORD_PAPER_COMPLETION",
+            payload: {
+              subjectKey,
+              paperNumber,
+              score: newRecord.score,
+              totalQuestions: newRecord.totalQuestions,
+              accuracy: newRecord.accuracy,
+            },
+            createdAt: Date.now(),
+          });
+        }
+      },
+
+      getCompletedPaperNumbers: (subjectKey: string) => {
+        const completions = get().paperCompletions.filter((c) => c.subjectKey === subjectKey);
+        return new Set(completions.map((c) => c.paperNumber));
+      },
+
+
       addSubject: async (name, parentId) => {
-        const s: Subject = { id: uid(), name: name.trim(), parentId, createdAt: Date.now() };
+        const s: Subject = { id: uid(), name: name.trim(), parentId, totalMcqs: 0, createdAt: Date.now() };
         set((st) => ({ subjects: [...st.subjects, s] }));
         try {
           await dbAddSubject({ data: { id: s.id, name: s.name, parentId } });
@@ -208,18 +283,25 @@ export const useApp = create<State>()(
           if (!key || existing.has(key)) continue;
           existing.add(key);
           fresh.push({
-            id: uid(),
+            ...it,
+            id: uid(),       // always overwrite scraper ID with a fresh unique ID
             subjectId,
             attemptCount: 0,
             wrongCount: 0,
             solveLater: false,
             createdAt: Date.now(),
-            ...it,
           });
         }
         if (!fresh.length) return 0;
 
-        set((st) => ({ mcqs: [...st.mcqs, ...fresh] }));
+        set((st) => ({
+          mcqs: [...st.mcqs, ...fresh],
+          subjects: st.subjects.map((s) =>
+            s.id === subjectId
+              ? { ...s, totalMcqs: (s.totalMcqs || 0) + fresh.length }
+              : s
+          ),
+        }));
         try {
           await dbAddMCQs({
             data: {
@@ -235,25 +317,33 @@ export const useApp = create<State>()(
           });
         } catch (err) {
           const freshIds = new Set(fresh.map((m) => m.id));
-          set((st) => ({ mcqs: st.mcqs.filter((m) => !freshIds.has(m.id)) }));
+          set((st) => ({
+            mcqs: st.mcqs.filter((m) => !freshIds.has(m.id)),
+            subjects: st.subjects.map((s) =>
+              s.id === subjectId
+                ? { ...s, totalMcqs: Math.max(0, (s.totalMcqs || 0) - fresh.length) }
+                : s
+            ),
+          }));
           throw err;
         }
         return fresh.length;
       },
 
-      toggleSolveLater: async (id, explicitValue) => {
+      toggleSolveLater: async (id, explicitValue, subjectId) => {
         const prev = get().mcqs;
         const prevSolveLater = get().solveLaterIds;
         const prevSolveLaterItems = get().solveLaterItems;
         const m = prev.find((x) => x.id === id);
+        const resolvedSubjectId = subjectId || m?.subjectId || "";
         const newVal = explicitValue !== undefined ? explicitValue : (m ? !m.solveLater : !prevSolveLater.includes(id));
         set((st) => ({
           mcqs: m ? st.mcqs.map((x) => (x.id === id ? { ...x, solveLater: newVal } : x)) : st.mcqs,
           solveLaterIds: newVal
             ? Array.from(new Set([...st.solveLaterIds, id]))
             : st.solveLaterIds.filter((x) => x !== id),
-          solveLaterItems: newVal && m
-            ? [...st.solveLaterItems.filter((x) => x.mcqId !== id), { mcqId: id, subjectId: m.subjectId }]
+          solveLaterItems: newVal
+            ? [...st.solveLaterItems.filter((x) => x.mcqId !== id), { mcqId: id, subjectId: resolvedSubjectId }]
             : st.solveLaterItems.filter((x) => x.mcqId !== id),
         }));
         try {
@@ -325,10 +415,19 @@ export const useApp = create<State>()(
       },
 
       deleteMCQ: async (id) => {
-        const prev = { mcqs: get().mcqs, attempts: get().attempts };
+        const prev = { mcqs: get().mcqs, attempts: get().attempts, subjects: get().subjects };
+        const prevMcq = get().mcqs.find((m) => m.id === id);
+        const subjectId = prevMcq?.subjectId;
         set((st) => ({
           mcqs: st.mcqs.filter((m) => m.id !== id),
           attempts: st.attempts.filter((a) => a.mcqId !== id),
+          subjects: subjectId
+            ? st.subjects.map((s) =>
+                s.id === subjectId
+                  ? { ...s, totalMcqs: Math.max(0, (s.totalMcqs || 0) - 1) }
+                  : s
+              )
+            : st.subjects,
         }));
         try {
           await dbDeleteMCQ({ data: { id } });

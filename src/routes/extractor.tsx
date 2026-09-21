@@ -1,6 +1,6 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Plus, X } from "lucide-react";
+import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Plus, BookOpen } from "lucide-react";
 import { toast } from "sonner";
 import { TestpointExtractorForm } from "@/components/mcq-extractor/mcq-extractor-form";
 import { MCQResultCard } from "@/components/mcq-extractor/mcq-result-card";
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/extractor")({
   head: () => ({
     meta: [
       { title: "MCQ Extractor — PrepMind" },
-      { name: "description", content: "Extract MCQs from a source URL and page range, preview them, and download the result as a text file." },
+      { name: "description", content: "Extract MCQs from Testpoint past papers, preview them, and import into subjects." },
     ],
   }),
   component: MCQExtractorPage,
@@ -50,6 +50,17 @@ function MCQExtractorPage() {
   const [savingSubject, setSavingSubject] = useState(false);
   const [loadingSubjects, setLoadingSubjects] = useState(false);
   const [loadingPages, setLoadingPages] = useState(false);
+  const [selectedParentId, setSelectedParentId] = useState<string>("");
+  const [selectedSubtopicId, setSelectedSubtopicId] = useState<string>(""); // "" = create new
+
+  // Top-level subjects for the subject picker in review dialog
+  const topLevelSubjects = useMemo(() => subjects.filter((s) => !s.parentId), [subjects]);
+
+  // Subtopics under the selected parent
+  const childSubjects = useMemo(
+    () => subjects.filter((s) => s.parentId === selectedParentId),
+    [subjects, selectedParentId],
+  );
 
   useEffect(() => {
     const loadSubjects = async () => {
@@ -68,22 +79,22 @@ function MCQExtractorPage() {
   }, []);
 
   const handleYearChange = async (year: string) => {
-    setTpForm(prev => ({ ...prev, selectedYear: year, selectedSubject: "", startPage: 1, endPage: 1, maxPages: 0 }));
+    setTpForm((prev) => ({ ...prev, selectedYear: year, selectedSubject: "", startPage: 1, endPage: 1, maxPages: 0 }));
   };
 
   const handleSubjectChange = async (subjectUrl: string) => {
     if (!subjectUrl) {
-      setTpForm(prev => ({ ...prev, selectedSubject: "", startPage: 1, endPage: 1, maxPages: 0 }));
+      setTpForm((prev) => ({ ...prev, selectedSubject: "", startPage: 1, endPage: 1, maxPages: 0 }));
       return;
     }
 
     setLoadingPages(true);
     try {
       const maxPages = await fetchTestpointPageLimit({ data: { url: subjectUrl } });
-      setTpForm(prev => ({ ...prev, selectedSubject: subjectUrl, startPage: 1, endPage: maxPages, maxPages }));
+      setTpForm((prev) => ({ ...prev, selectedSubject: subjectUrl, startPage: 1, endPage: maxPages, maxPages }));
     } catch (error) {
       console.error("Failed to get page limit:", error);
-      setTpForm(prev => ({ ...prev, selectedSubject: subjectUrl, startPage: 1, endPage: 10, maxPages: 10 }));
+      setTpForm((prev) => ({ ...prev, selectedSubject: subjectUrl, startPage: 1, endPage: 10, maxPages: 10 }));
       toast.error("Could not detect page count, defaulting to 10 pages");
     } finally {
       setLoadingPages(false);
@@ -106,10 +117,13 @@ function MCQExtractorPage() {
     if (state.status !== "success" || !state.result.items.length || savingSubject) return;
 
     const extractedName = summary?.name ?? formatSubjectName(new URL(state.result.sourceUrl).host);
-    const parent = subjects.find(s => !s.parentId && normalizeSubjectName(extractedName).includes(normalizeSubjectName(s.name)));
+
+    const parent = selectedParentId
+      ? subjects.find((s) => s.id === selectedParentId)
+      : subjects.find((s) => !s.parentId && normalizeSubjectName(extractedName).includes(normalizeSubjectName(s.name)));
 
     if (!parent) {
-      toast.error(`No matching subject found for "${extractedName}". Please create it first.`);
+      toast.error("Please select a parent subject first.");
       return;
     }
 
@@ -127,30 +141,30 @@ function MCQExtractorPage() {
 
     setSavingSubject(true);
     try {
-      const BATCH = 100;
-      const needsBatching = allItems.length > BATCH;
       let totalAdded = 0;
 
-      if (needsBatching) {
-        for (let i = 0; i < allItems.length; i += BATCH) {
-          const batch = allItems.slice(i, i + BATCH);
-          const partNum = Math.floor(i / BATCH) + 1;
-          const subtopic = await addSubject(`${extractedName} (Part ${partNum})`, parent.id);
-          totalAdded += await addMCQs(subtopic.id, batch);
-        }
-        const parts = Math.ceil(allItems.length / BATCH);
+      if (selectedSubtopicId) {
+        // Append to existing subtopic — no new subject created
+        const existing = subjects.find((s) => s.id === selectedSubtopicId);
+        totalAdded = await addMCQs(selectedSubtopicId, allItems);
+        const totalNow = (existing?.totalMcqs || 0) + totalAdded;
+        const papers = Math.ceil(totalNow / 100);
         toast.success(totalAdded > 0
-          ? `${totalAdded} MCQs added across ${parts} subtopics`
+          ? `${totalAdded.toLocaleString()} MCQs appended to ${existing?.name ?? "subtopic"} (~${papers} Model Papers)`
           : `No new MCQs were added`);
       } else {
+        // Create single new subtopic with all MCQs
         const subtopic = await addSubject(extractedName, parent.id);
         totalAdded = await addMCQs(subtopic.id, allItems);
+        const papers = Math.ceil(totalAdded / 100);
         toast.success(totalAdded > 0
-          ? `${totalAdded} MCQs added to ${subtopic.name}`
+          ? `${totalAdded.toLocaleString()} MCQs added to ${subtopic.name} (${papers} Model Paper${papers === 1 ? "" : "s"} generated)`
           : `No new MCQs were added to ${subtopic.name}`);
       }
 
       setResultsOpen(false);
+    } catch (err: any) {
+      toast.error(err?.message || "Failed to add MCQs to subject");
     } finally {
       setSavingSubject(false);
     }
@@ -171,6 +185,18 @@ function MCQExtractorPage() {
 
       setState({ status: "success", result, error: null });
       setResultsOpen(true);
+      // Pre-select subject via fuzzy match as a convenience (admin can override)
+      const extractedName = formatSubjectName(new URL(result.sourceUrl).pathname.split("/").filter(Boolean).pop() || new URL(result.sourceUrl).host);
+      const fuzzyParent = subjects.find((s) => !s.parentId && normalizeSubjectName(extractedName).includes(normalizeSubjectName(s.name)));
+      const parentId = fuzzyParent?.id ?? (subjects.find((s) => !s.parentId)?.id ?? "");
+      setSelectedParentId(parentId);
+      setSelectedSubtopicId("");
+      // Try to pre-select an existing subtopic with a matching name
+      if (parentId) {
+        const children = subjects.filter((s) => s.parentId === parentId);
+        const matchedChild = children.find((c) => normalizeSubjectName(c.name) === normalizeSubjectName(extractedName));
+        if (matchedChild) setSelectedSubtopicId(matchedChild.id);
+      }
       if (result.warnings?.length) {
         toast.message(result.warnings[0]);
       } else {
@@ -275,21 +301,56 @@ function MCQExtractorPage() {
               )}
             </div>
 
-            <footer className="p-4 border-t border-border flex items-center justify-end gap-2">
-              <button
-                onClick={handleAddToSubject}
-                disabled={!canDownload || savingSubject}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-success text-success-foreground text-sm font-medium hover:bg-success/90 disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <Plus className="size-4" /> {savingSubject ? "Adding..." : "Add to subject"}
-              </button>
-              <button
-                onClick={handleDownload}
-                disabled={!canDownload}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <Download className="size-4" /> Download .txt
-              </button>
+            <footer className="p-4 border-t border-border flex flex-col gap-3">
+              {/* Two-level subject picker */}
+              <div className="flex flex-col sm:flex-row gap-2">
+                <div className="flex items-center gap-2 flex-1 min-w-0">
+                  <BookOpen className="size-4 text-muted-foreground shrink-0" />
+                  <select
+                    value={selectedParentId}
+                    onChange={(e) => {
+                      setSelectedParentId(e.target.value);
+                      setSelectedSubtopicId("");
+                    }}
+                    className="flex-1 px-3 py-2 rounded-lg bg-secondary/40 border border-border text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                  >
+                    <option value="">— Select parent subject —</option>
+                    {topLevelSubjects.map((s) => (
+                      <option key={s.id} value={s.id}>{s.name}</option>
+                    ))}
+                  </select>
+                </div>
+                {selectedParentId && (
+                  <div className="flex items-center gap-2 flex-1 min-w-0">
+                    <select
+                      value={selectedSubtopicId}
+                      onChange={(e) => setSelectedSubtopicId(e.target.value)}
+                      className="flex-1 px-3 py-2 rounded-lg bg-secondary/40 border border-border text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                    >
+                      <option value="">+ Create new: "{summary?.name ?? "subtopic"}"</option>
+                      {childSubjects.map((s) => (
+                        <option key={s.id} value={s.id}>{s.name} ({s.totalMcqs} MCQs)</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
+              </div>
+              <div className="flex items-center gap-2 justify-end">
+                <button
+                  onClick={handleAddToSubject}
+                  disabled={!canDownload || savingSubject || !selectedParentId}
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-success text-success-foreground text-sm font-medium hover:bg-success/90 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  <Plus className="size-4" /> {savingSubject ? "Adding..." : selectedSubtopicId ? "Append to subtopic" : "Add to subject"}
+                </button>
+                <button
+                  onClick={handleDownload}
+                  disabled={!canDownload}
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  <Download className="size-4" /> Download .txt
+                </button>
+              </div>
             </footer>
           </DialogContent>
         )}
