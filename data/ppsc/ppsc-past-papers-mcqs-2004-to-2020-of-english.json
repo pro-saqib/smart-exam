@@ -62,7 +62,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct spelling: Acomodation, Accommodation, Accomodation, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Acomodation",
         "B": "Accommodation",
@@ -197,7 +197,7 @@
         "A": "Is a letter written by her?",
         "B": "Has the letter been written by her?",
         "C": "Is she writing a letter?",
-        "D": "A letter is written by her?"
+        "D": "letter is written by her?"
       },
       "correct": "A"
     },
@@ -362,7 +362,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling: Ocassionally, Occasionally, Ocassionaly, Occasionaly",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Ocassionally",
         "B": "Occasionally",
@@ -377,7 +377,7 @@
         "A": "Unattainable dream",
         "B": "An impracticable wish",
         "C": "Both A and B",
-        "D": "A bad dream"
+        "D": "bad dream"
       },
       "correct": "C"
     },
@@ -418,7 +418,8 @@
         "B": "To suspect a trick or detect",
         "C": "To suspect that something is wrong",
         "D": "To suspect foul dealings"
-      }
+      },
+      "correct": "D"
     },
     {
       "question": "Idiom: \"Feel blue\" means?",
@@ -481,7 +482,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct spellings: Secretaiate, Secretariat, Sucretariat, Sacretariate",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Secretaiate",
         "B": "Secretariat",
@@ -643,7 +644,7 @@
     {
       "question": "Sentence Completion: To answer accurately is more important than ____?",
       "options": {
-        "A": "A quick finish",
+        "A": "quick finish",
         "B": "To finish quickly",
         "C": "Finishing quickly",
         "D": "You finish quickly"
@@ -653,9 +654,9 @@
     {
       "question": "The idiom \"A DARK HORSE\" means?",
       "options": {
-        "A": "A wicked fellow",
+        "A": "wicked fellow",
         "B": "An unexpected winner",
-        "C": "A criminal getting the dirty water",
+        "C": "criminal getting the dirty water",
         "D": "None of these"
       },
       "correct": "B"
@@ -673,10 +674,10 @@
     {
       "question": "Complete the Idiom: Hell hath no fury like _____?",
       "options": {
-        "A": "A devil is advocate",
-        "B": "A woman forgotten",
-        "C": "A burned woman",
-        "D": "A woman scorned"
+        "A": "devil is advocate",
+        "B": "woman forgotten",
+        "C": "burned woman",
+        "D": "woman scorned"
       },
       "correct": "D"
     },
@@ -841,7 +842,7 @@
       "correct": "B"
     },
     {
-      "question": "Find the correct spelling: Existence, Existense, Existense, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Existence",
         "B": "Existense",
@@ -851,7 +852,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling word: Receive, Receve, Recive, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Receive",
         "B": "Receve",
@@ -881,7 +882,7 @@
       "correct": "A"
     },
     {
-      "question": "Correct the correct spelling: Imminent, Imminant, Emminent, None of these",
+      "question": "Correct the correct spelling:",
       "options": {
         "A": "Imminent",
         "B": "Imminant",
@@ -975,7 +976,7 @@
       "options": {
         "A": "Some ministers very close to the Prime Minister",
         "B": "Cabinet announced by the majority part in the Parliament before forming the government",
-        "C": "A specialized group of critics formed by the opposition party in the Parliament",
+        "C": "specialized group of critics formed by the opposition party in the Parliament",
         "D": "None of these"
       },
       "correct": "C"
@@ -1086,8 +1087,9 @@
         "A": "Birds",
         "B": "Animals",
         "C": "Height",
-        "D": "Fire"
-      }
+        "D": "Darkness"
+      },
+      "correct": "D"
     },
     {
       "question": "A handwriting that cannot be read ?",
@@ -1160,7 +1162,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling: Imidiatly, Immidiatly, Imidiately, Immediately",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Imidiatly",
         "B": "Immidiatly",
@@ -1170,7 +1172,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correct spelling: Begger, Beggar, Baggar, Bager",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Begger",
         "B": "Beggar",
@@ -1270,7 +1272,7 @@
       "correct": "C"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words? (A) Confusion (B) Previous (C) Computer (D) Distruction",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Confusion",
         "B": "Previous",
@@ -1280,7 +1282,7 @@
       "correct": "D"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words? (A) Enquiry (B) Electricity (C) Nursary (D) Library",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Enquiry",
         "B": "Electricity",
@@ -1320,7 +1322,7 @@
       "correct": "A"
     },
     {
-      "question": "Identify the correct spelling: Occured, Occurred, Occurrred, Occurad",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Occured",
         "B": "Occurred",
@@ -1400,7 +1402,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words? Variety , Abilty , Energy , Capacity",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Variety",
         "B": "Abilty",
@@ -1463,7 +1465,7 @@
       "question": "The Synonym of Rookie is?",
       "options": {
         "A": "Professional",
-        "B": "A new recruit",
+        "B": "new recruit",
         "C": "Expert",
         "D": "None of these"
       },
@@ -1483,7 +1485,7 @@
       "question": "The Idiom: A gordian knot means?",
       "options": {
         "A": "Difficult or complex problem",
-        "B": "A piece of work",
+        "B": "piece of work",
         "C": "An easy task",
         "D": "None of these"
       },
@@ -1520,7 +1522,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling word: Suprietandent, Superintendent, Supritendent, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Suprietandent",
         "B": "Superintendent",
@@ -1600,7 +1602,7 @@
       "correct": "C"
     },
     {
-      "question": "FIND OUT ONE WORD FROM THE GIVEN WORDS WHICH IS DIFFERENT FROM THE OTHER THREE (A) Lion, (B) Elephant, (C) Tiger, (D) Leopard",
+      "question": "Find the word that is different from the other three:",
       "options": {
         "A": "Lion",
         "B": "Elephant",
@@ -1670,7 +1672,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling: Conscientious, Conscintious, Consientious, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Conscientious",
         "B": "Conscintious",
@@ -1680,7 +1682,7 @@
       "correct": "A"
     },
     {
-      "question": "Identify the correct spellings: Bureucracy, Bureaucracy, Beaucracy, Boreauracy",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Bureucracy",
         "B": "Bureaucracy",
@@ -1710,7 +1712,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling: Adolterat, Adelterete, Adulterate, Adulterat",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Adolterat",
         "B": "Adelterete",
@@ -1770,7 +1772,7 @@
       "correct": "C"
     },
     {
-      "question": "Identify the correct spelling: Beginning, Begnning, Biginning, Begginning",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Beginning",
         "B": "Begnning",
@@ -1840,7 +1842,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct spellings: Chalange, Challange, Challenge, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Chalange",
         "B": "Challange",
@@ -1910,7 +1912,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correctly spelt word? Committee, Comittee, Commitee, Comitee.",
+      "question": "Choose the correctly spelt word?",
       "options": {
         "A": "Commettee",
         "B": "Commitee",
@@ -2110,7 +2112,7 @@
       "correct": "D"
     },
     {
-      "question": "FIND OUT ONE WORD FROM THE GIVEN WORDS WHICH IS DIFFERENT FROM THE OTHER THREE (A) Apples (B) Oranges (C) Mango (D) Spinach",
+      "question": "Find the word that is different from the other three:",
       "options": {
         "A": "Apples",
         "B": "Oranges",
@@ -2160,7 +2162,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence from the following: (A) I requested her to kindly help me",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "I requested her to kindly help me",
         "B": "I requested her to help me kindly",
@@ -2170,7 +2172,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence. (A) Faisalabad is as famous city as Lahore",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "Faisalabad is as famous city as Lahore",
         "B": "Faisalabad is famous city as Lahore",
@@ -2362,10 +2364,10 @@
     {
       "question": "The Idiom: A cock and bull story means ____?",
       "options": {
-        "A": "A story of mammals",
-        "B": "A story of animals",
-        "C": "A true story",
-        "D": "A foolish and connected story"
+        "A": "story of mammals",
+        "B": "story of animals",
+        "C": "true story",
+        "D": "foolish and connected story"
       },
       "correct": "D"
     },
@@ -2480,7 +2482,7 @@
       "correct": "B"
     },
     {
-      "question": "Find the correct spellings: Eotae, Eota, Oita, Iota",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Eotae",
         "B": "Eota",
@@ -2490,7 +2492,7 @@
       "correct": "D"
     },
     {
-      "question": "Find the correct spellings: Convenent, Convinient, Convenient, Convenant",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Convenent",
         "B": "Convinient",
@@ -2500,7 +2502,7 @@
       "correct": "C"
     },
     {
-      "question": "Find the correct spellings: Cuming, Comming, Comeing, Coming",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Cuming",
         "B": "Comming",
@@ -2510,7 +2512,7 @@
       "correct": "D"
     },
     {
-      "question": "Find the correct spellings: Clurk, Clerk, Clerck, Clark",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Clurk",
         "B": "Clerk",
@@ -2530,7 +2532,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelt in the following? Distruction, Confusion, Previous, Computer",
+      "question": "Which word is wrongly spelt in the following?",
       "options": {
         "A": "Distruction",
         "B": "Confusion",
@@ -2550,7 +2552,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the word with correct spelling: Successfull, Successful, Succesfull, Sucesful",
+      "question": "Choose the word with correct spelling:",
       "options": {
         "A": "Successfull",
         "B": "Successful",
@@ -2570,7 +2572,7 @@
       "correct": "A"
     },
     {
-      "question": "Which of the following has incorrect spellings? Electrecity, Enquiry, Operational, Probation",
+      "question": "Which of the following has incorrect spellings?",
       "options": {
         "A": "Electrecity",
         "B": "Enquiry",
@@ -2580,7 +2582,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelled in the following? Nursery, Secondary, Liberary, Primary",
+      "question": "Which word is wrongly spelled in the following?",
       "options": {
         "A": "Nursery",
         "B": "Secondary",
@@ -2590,7 +2592,7 @@
       "correct": "C"
     },
     {
-      "question": "Identify the correct spelling: Buleward, Bouleward, Bolevard, Boulevard",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Buleward",
         "B": "Bouleward",
@@ -2680,7 +2682,7 @@
       "correct": "B"
     },
     {
-      "question": "Which word is correctly spelt in the following set of words? Obsilote, Obsolete, Absoliete, None of these",
+      "question": "Which word is correctly spelt in the following set of words?",
       "options": {
         "A": "Obsilote",
         "B": "Obsolete",
@@ -2690,7 +2692,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling word: Diverse, Diverce, Diwerse, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Diverse",
         "B": "Diverce",
@@ -2720,7 +2722,7 @@
       "correct": "C"
     },
     {
-      "question": "Which word is correctly spelt in the following set of words: Vollence, Violence, Voilance, Violance",
+      "question": "Which word is correctly spelt in the following set of words:",
       "options": {
         "A": "Vollence",
         "B": "Violence",
@@ -2730,7 +2732,7 @@
       "correct": "B"
     },
     {
-      "question": "Which word is correctly spelt in the following set of words: Guarantee, Garuan-tea, Gaurantee, None of these",
+      "question": "Which word is correctly spelt in the following set of words:",
       "options": {
         "A": "Guarantee",
         "B": "Garuan-tea",
@@ -2780,7 +2782,7 @@
       "correct": "C"
     },
     {
-      "question": "Which word is wrongly spelt in the following A set of words? Speach, Speak, Break, Bleed",
+      "question": "Which word is wrongly spelt in the following A set of words?",
       "options": {
         "A": "Speach",
         "B": "Speak",
@@ -2950,7 +2952,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words? Parfect, Straight, Necessary, Destruction",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Parfect",
         "B": "Straight",
@@ -2960,7 +2962,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words? Priveous, Companion, Confusion, Gratitude",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Priveous",
         "B": "Companion",
@@ -2970,7 +2972,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling word: Temparay, Temporary, Temperary, Temprary",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Temparay",
         "B": "Temporary",
@@ -2980,7 +2982,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct spelling: Relegion, Religion, Relegon, Religon",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Relegion",
         "B": "Religion",
@@ -2990,7 +2992,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct spelling: Parmanent, Purmanent, Parmnant, Permanent",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Parmanent",
         "B": "Purmanent",
@@ -3000,7 +3002,7 @@
       "correct": "D"
     },
     {
-      "question": "Identify the correct spelling: Biscut, Biscuit, Bescuit, Bescut",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Biscut",
         "B": "Biscuit",
@@ -3010,7 +3012,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct spelling: Government, Govenrnment, Garment, Govermant",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Government",
         "B": "Govenrnment",
@@ -3120,7 +3122,7 @@
       "correct": "A"
     },
     {
-      "question": "Find the correctly punctuated sentence: The field was safe enough; wasn’t it?, The field was safe enough: wasn’t it?, The field was safe enough, wasn’t it?, None of these",
+      "question": "Find the correctly punctuated sentence:",
       "options": {
         "A": "The field was safe enough; wasn’t it?",
         "B": "The field was safe enough: wasn’t it?",
@@ -3200,7 +3202,7 @@
       "correct": "B"
     },
     {
-      "question": "Find the correctly punctuated sentence: After surviving this ordeal, the trapper felt relieved, After surviving, this ordeal' the trapper felt relieved., After surviving this ordeal the trapper, felt relieved,After surviving, this ordeal the trapper felt relieved.",
+      "question": "Find the correctly punctuated sentence:",
       "options": {
         "A": "After surviving this ordeal, the trapper felt relieved",
         "B": "After surviving, this ordeal' the trapper felt relieved.",
@@ -3330,7 +3332,7 @@
       "correct": "C"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words? (A) Beginning (B) Appearence B (C) Ceiling (D) Changeable",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Beginning",
         "B": "Appearence",
@@ -3340,7 +3342,7 @@
       "correct": "B"
     },
     {
-      "question": "Which word is wrongly spelled in the following set of word? Fashon, Occasion, inclination.Situation",
+      "question": "Which word is wrongly spelled in the following set of word?",
       "options": {
         "A": "Fashon",
         "B": "Occasion",
@@ -3360,7 +3362,7 @@
       "correct": "A"
     },
     {
-      "question": "Identify the correct spelling: Cyclone, Cyclean, Cyclon, Clolorie",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Cyclone",
         "B": "Cyclean",
@@ -3370,7 +3372,7 @@
       "correct": "A"
     },
     {
-      "question": "What is the meaning of underlined word the following sentence Emperor Jahangir had a reputation for being JUST ?Stubborn, Fair, Strick,Flexible",
+      "question": "What is the meaning of underlined word the following sentence Emperor Jahangir had a reputation for being JUST ?",
       "options": {
         "A": "Stubborn",
         "B": "Fair",
@@ -3380,7 +3382,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct spelling in following set of word:Prety, Pretty, Prettey, Prity",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Prety",
         "B": "Pretty",
@@ -3390,7 +3392,7 @@
       "correct": "B"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words: (A) Hight A (C) Light (B) Might (D) Sight",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Hight",
         "B": "Light",
@@ -3422,7 +3424,7 @@
     {
       "question": "\"Fender bender\" means ___?",
       "options": {
-        "A": "A small car accident",
+        "A": "small car accident",
         "B": "Plane crash",
         "C": "Train accident",
         "D": "None of these"
@@ -3732,9 +3734,9 @@
     {
       "question": "Change from Active to Passive Voice: \"She was watching a film.\"",
       "options": {
-        "A": "A film is being watched by her",
-        "B": "A film will be watched by her",
-        "C": "A film was being watched by her",
+        "A": "film is being watched by her",
+        "B": "film will be watched by her",
+        "C": "film was being watched by her",
         "D": "None of these"
       },
       "correct": "C"
@@ -3982,7 +3984,7 @@
     {
       "question": "______ of what he said was very sensible.",
       "options": {
-        "A": "A few",
+        "A": "few",
         "B": "Much",
         "C": "Many",
         "D": "Few"
@@ -4083,7 +4085,7 @@
       "question": "What is the meaning of the idiom/proverb \"A chip off the old clock\"?",
       "options": {
         "A": "Having characteristics of one's ancestors",
-        "B": "A piece of wood",
+        "B": "piece of wood",
         "C": "An old friend",
         "D": "None of these"
       },
@@ -4100,7 +4102,7 @@
       "correct": "A"
     },
     {
-      "question": "Fill in the blank: It is awful to be afflicted _____ a sense of inferiority.",
+      "question": "Fill in the blank:",
       "options": {
         "A": "For",
         "B": "With",
@@ -4132,7 +4134,7 @@
     {
       "question": "Choose the best answer explain the meaning of the inverted commas word in the sentence: There is \"cavity\" in one of your front teeth.",
       "options": {
-        "A": "A hole",
+        "A": "hole",
         "B": "Cavity",
         "C": "Food",
         "D": "None of these"
@@ -4283,7 +4285,7 @@
       "question": "Find out the correct Passive Voice sentence: \"People say that honesty is the best policy but they seldom set upon it\".",
       "options": {
         "A": "Honesty is said to be the best policy but it is seldom acted upon",
-        "B": "A It is said that honesty is the best policy but that is seldom acted upon",
+        "B": "It is said that honesty is the best policy but that is seldom acted upon",
         "C": "Honesty is that best policy which is seldom acted upon",
         "D": "None of these"
       },
@@ -4343,8 +4345,8 @@
       "question": "Identify the correct passive voice of: We could hear a strange noise in the dark.",
       "options": {
         "A": "No noise could be heard in the dark",
-        "B": "A strange noise was heard in the dark",
-        "C": "A strange noise could be heard in the dark",
+        "B": "strange noise was heard in the dark",
+        "C": "strange noise could be heard in the dark",
         "D": "None of these"
       },
       "correct": "C"
@@ -4670,7 +4672,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling word: Continuous, Continous, Continuoas, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Continuous",
         "B": "Continous",
@@ -4680,7 +4682,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling: Disciplane, Disipline, Discipline, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Disciplane",
         "B": "Disipline",
@@ -4690,7 +4692,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct spelling: Pevot, Pivot, Piviet, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Pevot",
         "B": "Pivot",
@@ -4700,7 +4702,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling word: Precausions, Precautions, Prekautions, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Precausions",
         "B": "Precautions",
@@ -4710,7 +4712,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling word: Mosquito, Masquito, Moskuito, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Mosquito",
         "B": "Masquito",
@@ -4720,7 +4722,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling word: Pagant, Pegeant, Pageant, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Pagant",
         "B": "Pegeant",
@@ -4730,7 +4732,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct spelling word: Sabordinate, Subordinate, Subordenate, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Sabordinate",
         "B": "Subordinate",
@@ -4740,7 +4742,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling word: Friquent, Frekuent, Frequent, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Friquent",
         "B": "Frekuent",
@@ -4750,7 +4752,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct spelling word: Procejure, Procedure, Prosedure, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Procejure",
         "B": "Procedure",
@@ -4910,7 +4912,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the Correct Spelling: Relieve , Reletve ,Releeive , Realieve",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Relieve",
         "B": "Reletve",
@@ -4920,7 +4922,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the Correct Spelling: Sucecde, Succeed, Sueecde, Sucedetes",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Sucecde",
         "B": "Succeed",
@@ -5182,9 +5184,9 @@
     {
       "question": "In a jiffy means ______?",
       "options": {
-        "A": "A very short time",
-        "B": "A long time",
-        "C": "A tense situation",
+        "A": "very short time",
+        "B": "long time",
+        "C": "tense situation",
         "D": "None of these"
       },
       "correct": "A"
@@ -5340,7 +5342,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the incorrect spelling: Transpyre, Rejuvenation, Reverberation, Hallucinations",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Transpyre",
         "B": "Rejuvenation",
@@ -5834,15 +5836,15 @@
       "options": {
         "A": "An ideal place.",
         "B": "Dream land.",
-        "C": "A worthless place.",
-        "D": "A useless situation."
+        "C": "worthless place.",
+        "D": "useless situation."
       },
       "correct": "A"
     },
     {
       "question": "What is the synonym of SHOVE?",
       "options": {
-        "A": "A strong push",
+        "A": "strong push",
         "B": "Avoid",
         "C": "Come out",
         "D": "Fast"
@@ -5912,9 +5914,9 @@
     {
       "question": "Clique means ___?",
       "options": {
-        "A": "A group of animals",
-        "B": "A group of people",
-        "C": "A group of birds",
+        "A": "group of animals",
+        "B": "group of people",
+        "C": "group of birds",
         "D": "none of these"
       },
       "correct": "B"
@@ -6290,7 +6292,7 @@
       "correct": "C"
     },
     {
-      "question": "From following, find the correct punctuated sentence: Shakespeares Hamlet is the play for all ages, Shakespeare Hamelt is the play for all ages",
+      "question": "From following, find the correct punctuated sentence:",
       "options": {
         "A": "Shakespeares Hamlet is the play for all ages",
         "B": "Shakespeare Hamelt is the play for all ages",
@@ -6734,7 +6736,7 @@
       "options": {
         "A": "Strong house",
         "B": "Project to make paper house",
-        "C": "A week structure",
+        "C": "week structure",
         "D": "None of them"
       },
       "correct": "C"
@@ -6870,7 +6872,7 @@
       "correct": "B"
     },
     {
-      "question": "Which word is wrongly spelt in the following? Honest, Parfect, Loyal, Popular",
+      "question": "Which word is wrongly spelt in the following?",
       "options": {
         "A": "Honest",
         "B": "Parfect",
@@ -6880,7 +6882,7 @@
       "correct": "B"
     },
     {
-      "question": "Which word is wrongly spelt in the following? Graceful, Boastful, Couragious, Stubborn",
+      "question": "Which word is wrongly spelt in the following?",
       "options": {
         "A": "Graceful",
         "B": "Boastful",
@@ -6890,7 +6892,7 @@
       "correct": "C"
     },
     {
-      "question": "Which word is wrongly spelt in the following? Excesive, Sufficient, Plentiful, Commerce",
+      "question": "Which word is wrongly spelt in the following?",
       "options": {
         "A": "Excesive",
         "B": "Sufficient",
@@ -6900,7 +6902,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelt in the following? Tournament, Refreshment, Goverment, Ornament",
+      "question": "Which word is wrongly spelt in the following?",
       "options": {
         "A": "Tournament",
         "B": "Refreshment",
@@ -7172,7 +7174,7 @@
     {
       "question": "The foreign phrase Coup d'elat means:",
       "options": {
-        "A": "A great work",
+        "A": "great work",
         "B": "Without care",
         "C": "Indispensable",
         "D": "Illegal"
@@ -7182,9 +7184,9 @@
     {
       "question": "Choose the correct meaning of the Idiom: \"Gift of the gab\"?",
       "options": {
-        "A": "A gift from a wealthy person",
-        "B": "A gift from a poor person",
-        "C": "A gift from a relative",
+        "A": "gift from a wealthy person",
+        "B": "gift from a poor person",
+        "C": "gift from a relative",
         "D": "Fluency of speech"
       },
       "correct": "D"
@@ -7370,7 +7372,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct words from the options to complete the sentence correctly: Khalid is ____ taller than Naveed.",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Not as tall but as",
         "B": "As tall, if not",
@@ -7630,7 +7632,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct sentence: his silence tantamount to refusal, his silence is tantamount to refusal, his silence is tantmouting to refusal, his silence tantamounted to resusal",
+      "question": "Identify the correct sentence:",
       "options": {
         "A": "his silence tantamount to refusal",
         "B": "his silence is tantamount to refusal",
@@ -7880,7 +7882,7 @@
       "correct": "C"
     },
     {
-      "question": "Select the correct spelling: Victory, Victery, Victary, Victon",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Victory",
         "B": "Victery",
@@ -8042,8 +8044,8 @@
     {
       "question": "What is meant by Cortage?",
       "options": {
-        "A": "A funeral procession",
-        "B": "A victory procession",
+        "A": "funeral procession",
+        "B": "victory procession",
         "C": "Unruly crowd",
         "D": "Highly disciplined crowd"
       },
@@ -8073,7 +8075,7 @@
       "question": "What do you understand by Shoal?",
       "options": {
         "A": "Large number of insects together",
-        "B": "A large group of horses",
+        "B": "large group of horses",
         "C": "Group of unidentified flying objects",
         "D": "Large number of fish swimming together"
       },
@@ -8082,8 +8084,8 @@
     {
       "question": "Small talk means?",
       "options": {
-        "A": "A discussion carried for a long time",
-        "B": "A brief discussion",
+        "A": "discussion carried for a long time",
+        "B": "brief discussion",
         "C": "Closed talk",
         "D": "None of these"
       },
@@ -8140,7 +8142,7 @@
       "correct": "A"
     },
     {
-      "question": "Which of following word closet to the meaning of word monitor ?Punish ,Conclude ,Observe, interfere",
+      "question": "Which of following word closet to the meaning of word monitor ?",
       "options": {
         "A": "Punish",
         "B": "Conclude",
@@ -8163,14 +8165,14 @@
       "question": "What do you understand by caucus ?",
       "options": {
         "A": "Group of people in a procession",
-        "B": "A closed political meeting",
-        "C": "A group of people dancing",
+        "B": "closed political meeting",
+        "C": "group of people dancing",
         "D": "None"
       },
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence among following: (A) He was promoted as DSP",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "He was promoted as DSP",
         "B": "He was promoted to DSP",
@@ -8190,7 +8192,7 @@
       "correct": "D"
     },
     {
-      "question": "Find out one word from the given words which is different from other three (A) Barometer, (B) Thermometer, (C) Diameter, (D) Lactometer",
+      "question": "Find the word that is different from the other three:",
       "options": {
         "A": "Barometer",
         "B": "Thermometer",

@@ -94,7 +94,7 @@
     {
       "question": "Idiom: Rule of Thumb means?",
       "options": {
-        "A": "A rough estimate",
+        "A": "rough estimate",
         "B": "Fixed rule",
         "C": "Exact estimation",
         "D": "An easy choice"
@@ -107,7 +107,7 @@
         "A": "Unattainable dream",
         "B": "An impracticable wish",
         "C": "Both A and B",
-        "D": "A bad dream"
+        "D": "bad dream"
       },
       "correct": "C"
     },
@@ -172,7 +172,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correctly punctuated sentence: My aunt who lives in Karachi, is a doctor., My aunt, who lives in Karachi is a doctor., My aunt, “who lives in Karachi”, is a doctor., None of these",
+      "question": "Choose the correctly punctuated sentence:",
       "options": {
         "A": "My aunt who lives in Karachi, is a doctor.",
         "B": "My aunt, who lives in Karachi is a doctor.",
@@ -316,7 +316,7 @@
       "options": {
         "A": "To conceal one's talent",
         "B": "To listen someone",
-        "C": "A very small distance / A narrow escape",
+        "C": "very small distance / A narrow escape",
         "D": "None"
       },
       "correct": "C"
@@ -462,7 +462,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the right one: Neither Ali nor Aslam have taken his test., Neither Ali nor Aslam has taken their test., Neither Ali nor Aslam has taken his test., None of these",
+      "question": "Choose the right one:",
       "options": {
         "A": "Neither Ali nor Aslam have taken his test.",
         "B": "Neither Ali nor Aslam has taken their test.",
@@ -896,7 +896,7 @@
       "options": {
         "A": "Public Officer",
         "B": "Complainant",
-        "C": "A guilty associate or a partner in crime",
+        "C": "guilty associate or a partner in crime",
         "D": "Police Officer"
       },
       "correct": "C"
@@ -1102,7 +1102,7 @@
       "correct": "A"
     },
     {
-      "question": "Correct the right one: Do not make friend with selfish people., Do not make friendship with selfish people., Do not make friends with selfish people., None of these",
+      "question": "Correct the right one:",
       "options": {
         "A": "Do not make friend with selfish people.",
         "B": "Do not make friendship with selfish people.",
@@ -1186,7 +1186,7 @@
       "options": {
         "A": "Little",
         "B": "Some",
-        "C": "A little",
+        "C": "little",
         "D": "None of these"
       },
       "correct": "B"
@@ -1222,7 +1222,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the right one: Many a Soldiers lost his life in war., Many a Soldier lost their life in wars., Many a soldier lost his life in war., None of these",
+      "question": "Choose the right one:",
       "options": {
         "A": "Many a Soldiers lost his life in war.",
         "B": "Many a Soldier lost their life in wars.",
@@ -1292,7 +1292,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct one: This is most perfect., This is a Perfect., This is a most Perfect., None of these",
+      "question": "Choose the correct one:",
       "options": {
         "A": "This is most perfect.",
         "B": "This is Perfect.",
@@ -1332,7 +1332,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correct one: That news is too good to be true.,The news is too good to be true.,This news is too good to be true.,None of these",
+      "question": "Choose the correct one:",
       "options": {
         "A": "That news is too good to be true.",
         "B": "The news is too good to be true.",
@@ -1372,7 +1372,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correctly punctuated sentence: I met a beautiful, European woman., I met a beautiful European woman., I met a beautiful, European, woman., None of these",
+      "question": "Choose the correctly punctuated sentence:",
       "options": {
         "A": "I met a beautiful, European woman.",
         "B": "I met a beautiful European woman.",
@@ -1572,7 +1572,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose correct one: Both sisters is in same class., Both sisters are in the same class., The both sisters are in same class., None of these",
+      "question": "Choose correct one:",
       "options": {
         "A": "Both sisters is in same class.",
         "B": "Both sisters are in the same class.",
@@ -1582,11 +1582,11 @@
       "correct": "B"
     },
     {
-      "question": "Choose correct one: Hundred of people are watching the match on TV, Hundreds of people are watching the match on TV, A hundreds of people are watching the match on TV, None of these",
+      "question": "Choose correct one:",
       "options": {
         "A": "Hundred of people are watching the match on TV",
         "B": "Hundreds of people are watching the match on TV",
-        "C": "A hundreds of people are watching the match on TV",
+        "C": "hundreds of people are watching the match on TV",
         "D": "None of these"
       },
       "correct": "B"
@@ -1672,11 +1672,11 @@
       "correct": "B"
     },
     {
-      "question": "Choose the Correct one: A white and black dog is barking,A white and a black dog is barking, A white and black dog are barking, None of these",
+      "question": "Choose the Correct one:",
       "options": {
-        "A": "A white and black dog is barking",
-        "B": "A white and a black dog is barking",
-        "C": "A white and black dog are barking",
+        "A": "white and black dog is barking",
+        "B": "white and a black dog is barking",
+        "C": "white and black dog are barking",
         "D": "None of these"
       },
       "correct": "A"
@@ -1702,7 +1702,7 @@
       "correct": "C"
     },
     {
-      "question": "Which one is correct? That car is not yours., That car is not theirs., The library lost all its books., None of these",
+      "question": "Which one is correct?",
       "options": {
         "A": "That car is not yours.",
         "B": "That car is not theirs.",
@@ -2095,8 +2095,8 @@
       "question": "The idiom a hard nut to crack means :",
       "options": {
         "A": "An easy question",
-        "B": "A foolish search",
-        "C": "A difficult problem",
+        "B": "foolish search",
+        "C": "difficult problem",
         "D": "Expensive thing"
       },
       "correct": "C"
@@ -2154,9 +2154,9 @@
     {
       "question": "The idiom 'Month of Sundays' means?",
       "options": {
-        "A": "A special Sunday",
-        "B": "A very long time ago",
-        "C": "A short period",
+        "A": "special Sunday",
+        "B": "very long time ago",
+        "C": "short period",
         "D": "Days of regret"
       },
       "correct": "B"
@@ -2326,7 +2326,7 @@
       "options": {
         "A": "To run in a zig zag manner",
         "B": "To be affected by riots",
-        "C": "A narrow escape",
+        "C": "narrow escape",
         "D": "None of these"
       },
       "correct": "C"
@@ -2334,7 +2334,7 @@
     {
       "question": "Hide ones Light under a bush",
       "options": {
-        "A": "A narrow escape",
+        "A": "narrow escape",
         "B": "At distance",
         "C": "near to light",
         "D": "None"
@@ -2634,7 +2634,7 @@
     {
       "question": "نو نقعد نہ تیرا یدھار",
       "options": {
-        "A": "A bird in hand is worth than two in the bush",
+        "A": "bird in hand is worth than two in the bush",
         "B": "It makes two to quarrel",
         "C": "Birds of feather flock together",
         "D": "None"
@@ -2935,7 +2935,7 @@
       "question": "ایک ھاتھ سے تالی نھیں بجتی",
       "options": {
         "A": "It makes two to quarrel",
-        "B": "A bird in hand is worth than two in the bush",
+        "B": "bird in hand is worth than two in the bush",
         "C": "birds of feather flock together",
         "D": "None"
       },
@@ -3175,7 +3175,7 @@
       "question": "_____ elderly couple strolled along ___ beach",
       "options": {
         "A": "An /the",
-        "B": "A /the",
+        "B": "/the",
         "C": "An /that",
         "D": "none"
       },

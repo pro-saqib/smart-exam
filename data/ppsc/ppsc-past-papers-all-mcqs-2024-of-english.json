@@ -24,9 +24,9 @@
     {
       "question": "Idiom: The Alpha and Omega means?",
       "options": {
-        "A": "A beautiful object",
+        "A": "beautiful object",
         "B": "Beginning and end",
-        "C": "A good man",
+        "C": "good man",
         "D": "Something divine"
       },
       "correct": "B"
@@ -447,7 +447,7 @@
         "A": "An ominous warning",
         "B": "a windfall",
         "C": "An unexpected disaster",
-        "D": "A thunderstorm"
+        "D": "thunderstorm"
       },
       "correct": "C"
     },
@@ -1015,7 +1015,7 @@
       "question": "Eat one's cake and have it means ____?",
       "options": {
         "A": "Policy in coach fighting among friends",
-        "B": "A policy to keep dog as a house guard",
+        "B": "policy to keep dog as a house guard",
         "C": "To maintain disease cat",
         "D": "Have it both ways"
       },
@@ -1112,7 +1112,7 @@
       "correct": "D"
     },
     {
-      "question": "Which one is correct? That car is not yours., That car is not theirs., The library lost all its books., None of these",
+      "question": "Which one is correct?",
       "options": {
         "A": "That car is not yours.",
         "B": "That car is not theirs.",
@@ -1172,7 +1172,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the Past Perfect Sentence: (A) She has laugh.",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "She has laugh.",
         "B": "She had laughed.",
@@ -1195,7 +1195,7 @@
       "question": "Choose the option that best corrects the sentence: Lying on the grass, a snake bit him.",
       "options": {
         "A": "Lying on the grass a snake was bitten by him.",
-        "B": "A snake bit him lying on the grass.",
+        "B": "snake bit him lying on the grass.",
         "C": "Lying on the grass, he was bitten by a snake.",
         "D": "None of these"
       },
@@ -1265,7 +1265,7 @@
       "question": "\"Alma Mater\" is _____?",
       "options": {
         "A": "An Instrument to gauge rainfall",
-        "B": "A famous tower in Paris",
+        "B": "famous tower in Paris",
         "C": "The place where someone was educated",
         "D": "Investigation centre of Scotland Yard"
       },
@@ -1654,10 +1654,10 @@
     {
       "question": "Change the voice: She will have sung a song.",
       "options": {
-        "A": "A song will have been sung by her.",
-        "B": "A song have been sung by her.",
-        "C": "A song will had sung by her.",
-        "D": "A song has sung by her."
+        "A": "song will have been sung by her.",
+        "B": "song have been sung by her.",
+        "C": "song will had sung by her.",
+        "D": "song has sung by her."
       },
       "correct": "A"
     },
@@ -2044,9 +2044,9 @@
     {
       "question": "\"Lingua Franca\" means ______?",
       "options": {
-        "A": "A beautiful girl",
-        "B": "A difficult exam",
-        "C": "A common language",
+        "A": "beautiful girl",
+        "B": "difficult exam",
+        "C": "common language",
         "D": "An unknown person"
       },
       "correct": "C"
@@ -2109,7 +2109,7 @@
         "C": "He said the cat had been run over by the truck.",
         "D": "He said the cat was run over by the truck."
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Exports in Chemicals and sugar have _____ a phenomenal rise this year.",
@@ -2127,7 +2127,7 @@
         "A": "Some one's beloved",
         "B": "Deceit",
         "C": "Fondness of vising new places",
-        "D": "A woman with a bright face"
+        "D": "woman with a bright face"
       },
       "correct": "B"
     },
@@ -2232,7 +2232,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correct spelling: Curisity, Curiosity, Curiusity, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Curisity",
         "B": "Curiosity",
@@ -2394,9 +2394,9 @@
     {
       "question": "Complete the sentence with suitable idiom: Definitely it is a _____ because it has been a very long time to see you.",
       "options": {
-        "A": "A elephant’s year",
-        "B": "A dog’s year",
-        "C": "A donkey’s year",
+        "A": "elephant’s year",
+        "B": "dog’s year",
+        "C": "donkey’s year",
         "D": "None of these"
       },
       "correct": "C"
@@ -2414,10 +2414,10 @@
     {
       "question": "What is meant by Meander?",
       "options": {
-        "A": "A grassy area",
-        "B": "A barren area",
-        "C": "A bend of a river",
-        "D": "A bend of canal"
+        "A": "grassy area",
+        "B": "barren area",
+        "C": "bend of a river",
+        "D": "bend of canal"
       },
       "correct": "C"
     },
@@ -2526,7 +2526,7 @@
       "options": {
         "A": "Whimsical person",
         "B": "An idiot",
-        "C": "A weak person",
+        "C": "weak person",
         "D": "Made of straws"
       },
       "correct": "C"
@@ -2636,8 +2636,8 @@
       "options": {
         "A": "To take credit for something someone else did",
         "B": "To not take what someone says too seriously; to treat someone’s words with a degree of skepticism",
-        "C": "A phrase implying that one is not proficient at performing a particular task and that they should not try to perform the task professionally",
-        "D": "A foolish and hopeless search for or pursuit of something unattainable"
+        "C": "phrase implying that one is not proficient at performing a particular task and that they should not try to perform the task professionally",
+        "D": "foolish and hopeless search for or pursuit of something unattainable"
       },
       "correct": "D"
     },
@@ -2876,7 +2876,7 @@
       "options": {
         "A": "I was given a book by her.",
         "B": "She was given a book.",
-        "C": "A book is given by her to me.",
+        "C": "book is given by her to me.",
         "D": "I was given her a book."
       },
       "correct": "A"
@@ -3135,10 +3135,11 @@
       "question": "Emily is falling _____ the horse.",
       "options": {
         "A": "In",
-        "B": "Of",
+        "B": "Off",
         "C": "Onto",
-        "D": "inside"
-      }
+        "D": "Inside"
+      },
+      "correct": "B"
     },
     {
       "question": "To provide explanation which symbol is used ?",

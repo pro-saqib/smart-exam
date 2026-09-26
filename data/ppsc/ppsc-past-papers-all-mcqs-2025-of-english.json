@@ -27,7 +27,7 @@
         "A": "Is a letter written by her?",
         "B": "Has the letter been written by her?",
         "C": "Is she writing a letter?",
-        "D": "A letter is written by her?"
+        "D": "letter is written by her?"
       },
       "correct": "A"
     },
@@ -58,7 +58,8 @@
         "B": "Speaking directly to the point",
         "C": "Perform as a task with exactness",
         "D": "To say something that is exactly right"
-      }
+      },
+      "correct": "D"
     },
     {
       "question": "The Synonym of Obstinate?",
@@ -183,7 +184,7 @@
     {
       "question": "Sentence Completion: To answer accurately is more important than ____?",
       "options": {
-        "A": "A quick finish",
+        "A": "quick finish",
         "B": "To finish quickly",
         "C": "Finishing quickly",
         "D": "You finish quickly"
@@ -193,9 +194,9 @@
     {
       "question": "The idiom \"A DARK HORSE\" means?",
       "options": {
-        "A": "A wicked fellow",
+        "A": "wicked fellow",
         "B": "An unexpected winner",
-        "C": "A criminal getting the dirty water",
+        "C": "criminal getting the dirty water",
         "D": "None of these"
       },
       "correct": "B"
@@ -221,7 +222,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correctly punctuated sentence: My aunt who lives in Karachi, is a doctor., My aunt, who lives in Karachi is a doctor., My aunt, “who lives in Karachi”, is a doctor., None of these",
+      "question": "Choose the correctly punctuated sentence:",
       "options": {
         "A": "My aunt who lives in Karachi, is a doctor.",
         "B": "My aunt, who lives in Karachi is a doctor.",
@@ -233,10 +234,10 @@
     {
       "question": "Idiom: \"Red letter day\" means?",
       "options": {
-        "A": "A dangerous day",
+        "A": "dangerous day",
         "B": "An important day",
         "C": "An eventful day",
-        "D": "A formidable day"
+        "D": "formidable day"
       },
       "correct": "B"
     },
@@ -313,7 +314,7 @@
     {
       "question": "Faux Pas means?",
       "options": {
-        "A": "A lame person",
+        "A": "lame person",
         "B": "Luck",
         "C": "False and incorrect step",
         "D": "Wisdom"
@@ -351,7 +352,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct spelling: Credibility, Credibilitty, Cradibility, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Credibility",
         "B": "Credibilitty",
@@ -481,7 +482,7 @@
       "correct": "C"
     },
     {
-      "question": "Which among the following is the odd one out? Harddisk, Cache, RAM, ROM",
+      "question": "Which among the following is the odd one out?",
       "options": {
         "A": "Harddisk",
         "B": "Cache",
@@ -504,7 +505,7 @@
       "question": "Carte Blanche means?",
       "options": {
         "A": "Wheel in the motion",
-        "B": "A blank thing",
+        "B": "blank thing",
         "C": "Going by the rules",
         "D": "Full discretionary powers"
       },
@@ -525,7 +526,7 @@
       "options": {
         "A": "Some ministers very close to the Prime Minister",
         "B": "Cabinet announced by the majority part in the Parliament before forming the government",
-        "C": "A specialized group of critics formed by the opposition party in the Parliament",
+        "C": "specialized group of critics formed by the opposition party in the Parliament",
         "D": "None of these"
       },
       "correct": "C"
@@ -543,10 +544,10 @@
     {
       "question": "What is meant by “Petticoat Government?",
       "options": {
-        "A": "A government is exile",
-        "B": "A government run by woman",
-        "C": "A government without actual power",
-        "D": "A government run by some feudal lords"
+        "A": "government is exile",
+        "B": "government run by woman",
+        "C": "government without actual power",
+        "D": "government run by some feudal lords"
       },
       "correct": "B"
     },
@@ -593,9 +594,9 @@
     {
       "question": "What is Armageddon?",
       "options": {
-        "A": "A final battle between nations which will end the world",
-        "B": "A last day of Universe",
-        "C": "A name of film",
+        "A": "final battle between nations which will end the world",
+        "B": "last day of Universe",
+        "C": "name of film",
         "D": "None of the above"
       },
       "correct": "A"
@@ -603,7 +604,7 @@
     {
       "question": "What is mean by causeway?",
       "options": {
-        "A": "A raised path",
+        "A": "raised path",
         "B": "Marsh soil",
         "C": "Salty ocean",
         "D": "Road on Hill"
@@ -693,7 +694,7 @@
     {
       "question": "Which idiom is used to represent the importance of utilization of opportunity?",
       "options": {
-        "A": "A blessing in disguise",
+        "A": "blessing in disguise",
         "B": "Once in a blue moon",
         "C": "Make hay while the sun shines",
         "D": "None of these"
@@ -731,7 +732,7 @@
       "correct": "A"
     },
     {
-      "question": "The correct spelling is: Ghandhara, Gandara, Gandhara, Ghandara",
+      "question": "The correct spelling is:",
       "options": {
         "A": "Ghandhara",
         "B": "Gandara",
@@ -861,7 +862,7 @@
       "correct": "B"
     },
     {
-      "question": "Which of these options is NOT a passive voice sentence?.The book was read by him, The cake was baked by her, Did he read the book?, The letter was sent yesterday",
+      "question": "Which of these options is NOT a passive voice sentence?",
       "options": {
         "A": "The book was read by him",
         "B": "The cake was baked by her",
@@ -921,7 +922,7 @@
       "correct": "B"
     },
     {
-      "question": "Which one is correct? You can pass unless you work hard, You can’t pass unless you work hard, You can’t pass if you work hard, None of these",
+      "question": "Which one is correct?",
       "options": {
         "A": "You can pass unless you work hard",
         "B": "You can’t pass unless you work hard",
@@ -1016,7 +1017,7 @@
         "A": "Person of soft nature",
         "B": "Completely unarmed",
         "C": "Person used as a tool to do something dangerous",
-        "D": "A narrow escape"
+        "D": "narrow escape"
       },
       "correct": "C"
     },
@@ -1031,7 +1032,7 @@
       "correct": "B"
     },
     {
-      "question": "Which sentence shows a fixed future event? She will go to school tomorrow, She is going to school tomorrow, The train leaves at 6 PM, None of these",
+      "question": "Which sentence shows a fixed future event?",
       "options": {
         "A": "She will go to school tomorrow",
         "B": "She is going to school tomorrow",
@@ -1081,7 +1082,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence: She asked, “Could you help me, please?”, She asked, “Could you help me, Please.”, She asked, “Could you help me please?”, None of these",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "She asked, “Could you help me, please?”",
         "B": "She asked, “Could you help me, Please.”",
@@ -1091,7 +1092,7 @@
       "correct": "A"
     },
     {
-      "question": "Which of the following is a plural? Index, Analysis, Crisis, Criteria",
+      "question": "Which of the following is a plural?",
       "options": {
         "A": "Index",
         "B": "Analysis",
@@ -1203,7 +1204,7 @@
     {
       "question": "Idiom: A turn coat means?",
       "options": {
-        "A": "A poor man",
+        "A": "poor man",
         "B": "Man of principal",
         "C": "One who changes one's opinion or party",
         "D": "None of these"
@@ -1341,7 +1342,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the sentence with correct capitalisation?Mr. Smith is our English teacher ,Mr. Smith is our English teacher ,Mr. Smith is our English Teacher",
+      "question": "Choose the sentence with correct capitalisation?",
       "options": {
         "A": "Mr. Smith is our English teacher",
         "B": "Mr. Smith is our english teacher",
@@ -1431,7 +1432,7 @@
       "correct": "B"
     },
     {
-      "question": "Which one of the following word is not preposition? Against, Away, Like, None of these",
+      "question": "Which one of the following word is not preposition?",
       "options": {
         "A": "Against",
         "B": "Away",
@@ -1501,7 +1502,7 @@
       "correct": "D"
     },
     {
-      "question": "Identify the interjection in the sentence: Alas! The soldier died in the war.",
+      "question": "Identify the interjection in the sentence:",
       "options": {
         "A": "Soldier",
         "B": "Alas",
@@ -1511,7 +1512,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the adjective in the sentence: \"He lives in a small house.\"",
+      "question": "Identify the adjective in the sentence:",
       "options": {
         "A": "Lives",
         "B": "In",
@@ -1523,10 +1524,10 @@
     {
       "question": "Change into indirect narration: A man cried, “Help!”",
       "options": {
-        "A": "A man said that help was needed.",
-        "B": "A man exclaimed for help.",
-        "C": "A man cried for help.",
-        "D": "A man told that he needs help."
+        "A": "man said that help was needed.",
+        "B": "man exclaimed for help.",
+        "C": "man cried for help.",
+        "D": "man told that he needs help."
       },
       "correct": "C"
     },
@@ -1591,7 +1592,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct spelling: Oppertunity, Apportunity, Opertunity, Opportunity",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Oppertunity",
         "B": "Apportunity",
@@ -1601,7 +1602,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correct spelling: Imidiatly, Immidiatly, Imidiately, Immediately",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Imidiatly",
         "B": "Immidiatly",
@@ -1973,10 +1974,10 @@
     {
       "question": "Which of the following best defines a compound sentence?",
       "options": {
-        "A": "A sentence with a subject and a verb",
+        "A": "sentence with a subject and a verb",
         "B": "Two independent clauses joined by a conjunction",
-        "C": "A sentence with only one idea",
-        "D": "A sentence ending with a question mark"
+        "C": "sentence with only one idea",
+        "D": "sentence ending with a question mark"
       },
       "correct": "B"
     },
@@ -2111,7 +2112,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence: Everything is good in menu B) Everything is good on the menu C) Everything is good at menu D) Everything good is menu",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "Everything is good in menu",
         "B": "Everything is good on the menu",
@@ -2131,7 +2132,7 @@
       "correct": "A"
     },
     {
-      "question": "Error in sentence: She told the doctor that he had not been sleeping for privious day.",
+      "question": "Error in sentence:",
       "options": {
         "A": "Told",
         "B": "He",
@@ -2141,7 +2142,7 @@
       "correct": "D"
     },
     {
-      "question": "Which word is both an adjective and an adverb? Sad , Beautiful , Fast, None",
+      "question": "Which word is both an adjective and an adverb?",
       "options": {
         "A": "Sad",
         "B": "Beautiful",
@@ -2221,7 +2222,7 @@
       "correct": "D"
     },
     {
-      "question": "Identify the correct spellings: Bureucracy, Bureaucracy, Beaucracy, Boreauracy",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Bureucracy",
         "B": "Bureaucracy",
@@ -2351,7 +2352,7 @@
       "correct": "B"
     },
     {
-      "question": "Identify the correct spellings: Chalange, Challange, Challenge, None of these",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Chalange",
         "B": "Challange",
@@ -2561,7 +2562,7 @@
       "correct": "A"
     },
     {
-      "question": "Identifythe correct spelling ? A) Prety, B) Pretty C)Prettey, D)Prity",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Prety",
         "B": "Pretty",
@@ -2591,7 +2592,7 @@
       "correct": "A"
     },
     {
-      "question": "Select a correct word: (A) Coaltion (B) Coallition (C) Coalition (D) Colition",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Coaltion",
         "B": "Coallition",
@@ -2605,7 +2606,7 @@
       "options": {
         "A": "Much",
         "B": "Many",
-        "C": "A lot",
+        "C": "lot",
         "D": "Some"
       },
       "correct": "B"
@@ -3011,11 +3012,11 @@
       "correct": "C"
     },
     {
-      "question": "Identify the subject in the sentence: \"I met a beggar on the road.\"",
+      "question": "Identify the subject in the sentence:",
       "options": {
         "A": "Met",
         "B": "I",
-        "C": "A beggar",
+        "C": "beggar",
         "D": "On the road"
       },
       "correct": "B"
@@ -3051,7 +3052,7 @@
       "correct": "D"
     },
     {
-      "question": "Complete the sentence: “He is harvesting the crop when it ___ ripped.”",
+      "question": "Complete the sentence:",
       "options": {
         "A": "will",
         "B": "has",
@@ -3101,7 +3102,7 @@
       "correct": "D"
     },
     {
-      "question": "Which of the following is a correct cautionary sentence?Be aware from thieves. Be aware about thieves. Be aware of thieves.",
+      "question": "Which of the following is a correct cautionary sentence?",
       "options": {
         "A": "Be aware from thieves.",
         "B": "Be aware about thieves.",
@@ -3171,11 +3172,11 @@
       "correct": "A"
     },
     {
-      "question": "The Synonym of Sartorial is?",
+      "question": "The Antonym of \"Sartorial\" is:",
       "options": {
-        "A": "Cheerful",
+        "A": "Stylish",
         "B": "Sincere",
-        "C": "Inelegant",
+        "C": "Elegant",
         "D": "Homespun"
       },
       "correct": "D"
@@ -3391,7 +3392,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct sentence: India attacked on Pakistan in 1965., India attacks Pakistan in 1965., India attacked Pakistan in 1965., None of these",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "India attacked on Pakistan in 1965.",
         "B": "India attacks Pakistan in 1965.",
@@ -3471,7 +3472,7 @@
       "correct": "B"
     },
     {
-      "question": "Which of the following has incorrect spellings? Electrecity, Enquiry, Operational, Probation",
+      "question": "Which of the following has incorrect spellings?",
       "options": {
         "A": "Electrecity",
         "B": "Enquiry",
@@ -3511,7 +3512,7 @@
       "correct": "A"
     },
     {
-      "question": "Identify the correct spelling: Cyclone, Cyclean, Cyclon, Clolorie",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Cyclone",
         "B": "Cyclean",
@@ -3521,7 +3522,7 @@
       "correct": "A"
     },
     {
-      "question": "Which word is wrongly spelt in the following set of words: (A) Hight A (C) Light (B) Might (D) Sight",
+      "question": "Which word is wrongly spelt in the following set of words?",
       "options": {
         "A": "Hight",
         "B": "Light",
@@ -3581,7 +3582,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the Correct Spelling: Sucecde, Succeed, Sueecde, Sucedetes",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Sucecde",
         "B": "Succeed",
@@ -3631,7 +3632,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the right one: Many a Soldiers lost his life in war., Many a Soldier lost their life in wars., Many a soldier lost his life in war., None of these",
+      "question": "Choose the right one:",
       "options": {
         "A": "Many a Soldiers lost his life in war.",
         "B": "Many a Soldier lost their life in wars.",
@@ -3661,7 +3662,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose correct one: Both sisters is in same class., Both sisters are in the same class., The both sisters are in same class., None of these",
+      "question": "Choose correct one:",
       "options": {
         "A": "Both sisters is in same class.",
         "B": "Both sisters are in the same class.",
@@ -3871,7 +3872,7 @@
       "correct": "D"
     },
     {
-      "question": "identify the correct sentence: i am sick by your lies, i am sick from your lies, i am sick of your lies, i am sick to your lies",
+      "question": "identify the correct sentence:",
       "options": {
         "A": "i am sick by your lies",
         "B": "i am sick from your lies",
@@ -3951,7 +3952,7 @@
       "correct": "A"
     },
     {
-      "question": "Select the correct spelling: Victory, Victery, Victary, Victon",
+      "question": "Choose the correct spelling:",
       "options": {
         "A": "Victory",
         "B": "Victery",
@@ -3987,7 +3988,8 @@
         "B": "Impede",
         "C": "Infuse",
         "D": "Lure"
-      }
+      },
+      "correct": "C"
     },
     {
       "question": "The antonym of 'Facilitate' is",

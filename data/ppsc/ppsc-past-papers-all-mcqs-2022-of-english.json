@@ -67,7 +67,7 @@
         "A": "Unattainable dream",
         "B": "An impracticable wish",
         "C": "Both A and B",
-        "D": "A bad dream"
+        "D": "bad dream"
       },
       "correct": "C"
     },
@@ -1142,7 +1142,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct punctuated sentence: Mr. Nouman Alvi is the doctor in this town., Mr, Nouman Alvi is the doctor in this town., Mr Nouman Alvi is the doctor in this town., None of these",
+      "question": "Choose the correct punctuated sentence:",
       "options": {
         "A": "Mr. Nouman Alvi is the doctor in this town.",
         "B": "Mr, Nouman Alvi is the doctor in this town.",
@@ -1382,7 +1382,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct one: Pakistan and India is poor., Both Pakistan as well as India are poor., Both Pakistan and India are poor., None of these",
+      "question": "Choose the correct one:",
       "options": {
         "A": "Pakistan and India is poor.",
         "B": "Both Pakistan as well as India are poor.",
@@ -1392,7 +1392,7 @@
       "correct": "C"
     },
     {
-      "question": "Choose the correct one: She invite me and my sister., She invited me and my sister., She invites I and my sister, None of these",
+      "question": "Choose the correct one:",
       "options": {
         "A": "She invite me and my sister.",
         "B": "She invited me and my sister.",
@@ -1474,9 +1474,9 @@
     {
       "question": "Change Voice: Daniel is singing a song.",
       "options": {
-        "A": "A song is being sung by Danial.",
-        "B": "A song had being sung by Danial.",
-        "C": "A song was being sung by Danial.",
+        "A": "song is being sung by Danial.",
+        "B": "song had being sung by Danial.",
+        "C": "song was being sung by Danial.",
         "D": "None of these"
       },
       "correct": "A"
@@ -1505,7 +1505,7 @@
       "question": "Eat one's cake and have it means ____?",
       "options": {
         "A": "Policy in coach fighting among friends",
-        "B": "A policy to keep dog as a house guard",
+        "B": "policy to keep dog as a house guard",
         "C": "To maintain disease cat",
         "D": "Have it both ways"
       },
@@ -1712,11 +1712,11 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct one: A series of lectures were delivered., A series of lectures was delivered., A series of lecture was delivered., None of these",
+      "question": "Choose the correct one:",
       "options": {
-        "A": "A series of lectures were delivered.",
-        "B": "A series of lectures was delivered.",
-        "C": "A series of lecture was delivered.",
+        "A": "series of lectures were delivered.",
+        "B": "series of lectures was delivered.",
+        "C": "series of lecture was delivered.",
         "D": "None of these"
       },
       "correct": "B"
@@ -1934,8 +1934,8 @@
     {
       "question": "He gave me ___ quantity of milk",
       "options": {
-        "A": "A small",
-        "B": "A little",
+        "A": "small",
+        "B": "little",
         "C": "Small",
         "D": "None of these"
       },
@@ -2494,7 +2494,7 @@
     {
       "question": "A Jaundiced Eye Means?",
       "options": {
-        "A": "A Prejudiced Person",
+        "A": "Prejudiced Person",
         "B": "Offer gratitude",
         "C": "An intelligent",
         "D": "None"
@@ -2544,9 +2544,9 @@
     {
       "question": "He is singing a song .Change voice",
       "options": {
-        "A": "A song is being sung by her",
-        "B": "A song is being sung by him",
-        "C": "A song is been sung by him",
+        "A": "song is being sung by her",
+        "B": "song is being sung by him",
+        "C": "song is been sung by him",
         "D": "None"
       },
       "correct": "B"

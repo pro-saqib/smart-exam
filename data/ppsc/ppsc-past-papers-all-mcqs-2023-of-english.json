@@ -24,9 +24,9 @@
     {
       "question": "Idiom: The Alpha and Omega means?",
       "options": {
-        "A": "A beautiful object",
+        "A": "beautiful object",
         "B": "Beginning and end",
-        "C": "A good man",
+        "C": "good man",
         "D": "Something divine"
       },
       "correct": "B"
@@ -104,10 +104,10 @@
     {
       "question": "Idiom: \"Red letter day\" means?",
       "options": {
-        "A": "A dangerous day",
+        "A": "dangerous day",
         "B": "An important day",
         "C": "An eventful day",
-        "D": "A formidable day"
+        "D": "formidable day"
       },
       "correct": "B"
     },
@@ -246,7 +246,7 @@
       "options": {
         "A": "Lord Minto",
         "B": "Lord Curzon",
-        "C": "A.O Hume",
+        "C": "O Hume",
         "D": "Salimullah"
       },
       "correct": "C"
@@ -1267,8 +1267,9 @@
         "A": "From",
         "B": "On",
         "C": "With",
-        "D": "In"
-      }
+        "D": "By"
+      },
+      "correct": "D"
     },
     {
       "question": "Analogy STRUT: WALK ::",

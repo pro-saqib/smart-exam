@@ -82,7 +82,7 @@
       "correct": "A"
     },
     {
-      "question": "Which of the following is adverb? Easily, Lovely, Miserly, None of these",
+      "question": "Which of the following is adverb?",
       "options": {
         "A": "Easily",
         "B": "Lovely",
@@ -164,9 +164,9 @@
     {
       "question": "Idiom: The Alpha and Omega means?",
       "options": {
-        "A": "A beautiful object",
+        "A": "beautiful object",
         "B": "Beginning and end",
-        "C": "A good man",
+        "C": "good man",
         "D": "Something divine"
       },
       "correct": "B"
@@ -302,7 +302,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct sentence: Have Ahsan play football?, Does Ahsan play football?, Do Ahsan play football?, None of these",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "Have Ahsan play football?",
         "B": "Does Ahsan play football?",
@@ -382,7 +382,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct sentence: A) He has died a year ago. B) He died a year ago. C) He had died a year ago. D) He is died a year ago.",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "He has died a year ago.",
         "B": "He died a year ago.",
@@ -422,7 +422,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct sentence: The person to who I sold the house was a fraud., The person to whom I sold the house was a fraud., The person which I sold the house was a fraud., None of these",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "The person to who I sold the house was a fraud.",
         "B": "The person to whom I sold the house was a fraud.",
@@ -854,9 +854,9 @@
     {
       "question": "What is meant by \"Party to crime\"?",
       "options": {
-        "A": "A person who participates in, assists with, or facilitates a crime",
-        "B": "A person who investigates a crime",
-        "C": "A person who witnesses a crime",
+        "A": "person who participates in, assists with, or facilitates a crime",
+        "B": "person who investigates a crime",
+        "C": "person who witnesses a crime",
         "D": "None of these"
       },
       "correct": "A"
@@ -1232,7 +1232,7 @@
       "correct": "D"
     },
     {
-      "question": "Select the adjective in the sentence: His performance, as usual, was excellent.",
+      "question": "Select the adjective in the sentence:",
       "options": {
         "A": "Excellent",
         "B": "His",
@@ -1252,7 +1252,7 @@
       "correct": "D"
     },
     {
-      "question": "Choose the correctly punctuated sentence: My aunt who lives in Karachi, is a doctor., My aunt, who lives in Karachi is a doctor., My aunt, “who lives in Karachi”, is a doctor., None of these",
+      "question": "Choose the correctly punctuated sentence:",
       "options": {
         "A": "My aunt who lives in Karachi, is a doctor.",
         "B": "My aunt, who lives in Karachi is a doctor.",
@@ -1392,12 +1392,12 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct indirect speech: A) A mother told her son that do not play in the sunshine and sit under the tree shade. B) A mother told her son not to play in the sunshine and to sit under the tree shade. C) A mother told her son to not play in the sunshine and sit under the tree shade. D) A mother said her son don’t play in the sunshine and sit under the tree shade",
+      "question": "Choose the correct indirect speech:",
       "options": {
-        "A": "A mother told her son that do not play in the sunshine and sit under the tree shade.",
-        "B": "A mother told her son not to play in the sunshine and to sit under the tree shade.",
-        "C": "A mother told her son not to play in the sunshine and to sit under the tree shade.",
-        "D": "A mother told her son not to play in the sunshine and to sit under the tree shade."
+        "A": "mother told her son that do not play in the sunshine and sit under the tree shade.",
+        "B": "mother told her son not to play in the sunshine and to sit under the tree shade.",
+        "C": "mother told her son not to play in the sunshine and to sit under the tree shade.",
+        "D": "mother told her son not to play in the sunshine and to sit under the tree shade."
       },
       "correct": "B"
     },
@@ -1502,7 +1502,7 @@
       "correct": "A"
     },
     {
-      "question": "Choose the correct sentence: A) Let you and I go together B) Let you and me go together C) Let I and you go together D) Let me and you go together",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "Let you and I go together",
         "B": "Let you and me go together",
@@ -1612,7 +1612,7 @@
       "correct": "D"
     },
     {
-      "question": "Which one is correct?He is family man , He is a family man ,He is a man with family , He family man",
+      "question": "Which one is correct?",
       "options": {
         "A": "He is family man",
         "B": "He is a family man",
@@ -1762,7 +1762,7 @@
       "correct": "B"
     },
     {
-      "question": "Correct form is: Inspite of, In spite of, In-spite of, In spite off",
+      "question": "Correct form is:",
       "options": {
         "A": "Inspite of",
         "B": "In spite of",
@@ -1822,7 +1822,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence: He wrote the best book., He wrote a best book., He wrote an best book., None of these",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "He wrote the best book.",
         "B": "He wrote a best book.",
@@ -1832,7 +1832,7 @@
       "correct": "A"
     },
     {
-      "question": "Which is the correct sentence? She is the Fatima Jinah of society, She is the Fatima Jinnah of society, She is Fatima Jinnah of the society, None of these",
+      "question": "Which is the correct sentence?",
       "options": {
         "A": "She is the Fatima Jinah of society",
         "B": "She is the Fatima Jinnah of society",
@@ -1876,7 +1876,7 @@
       "options": {
         "A": "Verbal noun",
         "B": "Pronoun",
-        "C": "A word with many meaning",
+        "C": "word with many meaning",
         "D": "None of these"
       },
       "correct": "A"
@@ -1932,7 +1932,7 @@
       "correct": "B"
     },
     {
-      "question": "Choose the correct sentence: A. No sooner I had reached the station than the bus left. B. No sooner had I reach the station than the bus left. C. No sooner had I reached the station than the bus left. D. No sooner did I reached the station than the bus left.",
+      "question": "Choose the correct sentence:",
       "options": {
         "A": "No sooner I had reached the station than the bus left.",
         "B": "No sooner had I reach the station than the bus left.",
