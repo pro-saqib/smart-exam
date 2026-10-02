@@ -10,11 +10,15 @@ import { toast } from "sonner";
 
 interface QuizSearchParams {
   paper?: number;
+  subtopicPage?: number;
+  subtopicIds?: string;
 }
 
 export const Route = createFileRoute("/quiz/$subjectId")({
   validateSearch: (search: Record<string, unknown>): QuizSearchParams => ({
     paper: search.paper ? Number(search.paper) : undefined,
+    subtopicPage: search.subtopicPage ? Number(search.subtopicPage) : undefined,
+    subtopicIds: search.subtopicIds ? String(search.subtopicIds) : undefined,
   }),
   head: () => ({
     meta: [
@@ -27,7 +31,7 @@ export const Route = createFileRoute("/quiz/$subjectId")({
 
 function QuizPage() {
   const { subjectId } = Route.useParams();
-  const { paper } = Route.useSearch();
+  const { paper, subtopicPage, subtopicIds: subtopicIdsParam } = Route.useSearch();
   const context = Route.useRouteContext();
   const isAdmin = (context as any)?.user?.role === "admin";
 
@@ -75,9 +79,15 @@ function QuizPage() {
 
   // Determine relevant subtopic IDs
   const matchingSubtopicIds = useMemo(() => {
+    // Named-paper mode: subtopicIds passed explicitly via URL
+    if (subtopicIdsParam) {
+      return subtopicIdsParam.split(",").filter(Boolean);
+    }
     if (canonicalConfig) {
       return allSubtopics
-        .filter((s) => canonicalConfig.patterns.some((p) => p.test(s.name)))
+        .filter((s) => canonicalConfig.parentId
+          ? s.parentId === canonicalConfig.parentId
+          : canonicalConfig.patterns.some((p) => p.test(s.name)))
         .map((s) => s.id);
     }
     const children = subjects.filter((s) => s.parentId === subjectId);
@@ -85,7 +95,7 @@ function QuizPage() {
       return children.map((c) => c.id);
     }
     return [subjectId];
-  }, [canonicalConfig, allSubtopics, subjects, subjectId]);
+  }, [subtopicIdsParam, canonicalConfig, allSubtopics, subjects, subjectId]);
 
   // Load 100 MCQs on demand from D1 only if unlocked (saves row reads on locked papers)
   useEffect(() => {
@@ -101,7 +111,7 @@ function QuizPage() {
       data: {
         subjectKey: subjectId,
         subtopicIds: matchingSubtopicIds,
-        paperNumber: paper || 1,
+        paperNumber: subtopicPage ?? paper ?? 1,
         pageSize: 100,
       },
     })

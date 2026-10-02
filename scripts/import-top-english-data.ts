@@ -18,6 +18,7 @@ interface ScrapedMCQ {
 const SUBTOPICS: { key: string; id: string; name: string }[] = [
   { key: "Synonyms",                       id: "top_eng_synonyms",      name: "Synonyms" },
   { key: "Antonyms",                       id: "top_eng_antonyms",      name: "Antonyms" },
+  { key: "Analogy",                        id: "top_eng_analogy",       name: "Analogy" },
   { key: "Idioms & Proverbs",              id: "top_eng_idioms",        name: "Idioms & Proverbs" },
   { key: "One Word Substitution",          id: "top_eng_one_word",      name: "One Word Substitution" },
   { key: "Active & Passive Voice",         id: "top_eng_voice",         name: "Active & Passive Voice" },

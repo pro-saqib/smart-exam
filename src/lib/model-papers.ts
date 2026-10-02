@@ -1,7 +1,16 @@
 import type { MCQ, Subject, AttemptLog, PaperLockStatus } from "@/lib/types";
 
 // Canonical subject keywords — ordered per display preference
-export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[] }[] = [
+export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[]; parentId?: string; namedPapers?: boolean }[] = [
+  { key: "top-english",       label: "Top English",        patterns: [], parentId: "top_english", namedPapers: true },
+  { key: "top-islamic",       label: "Top Islamic Studies",patterns: [], parentId: "top_islamic", namedPapers: true },
+  { key: "top-gk",            label: "Top GK",             patterns: [], parentId: "top_gk",      namedPapers: true },
+  { key: "top-computer",      label: "Top Computer",       patterns: [], parentId: "top_computer", namedPapers: true },
+  { key: "top-pakistan-study", label: "Top Pakistan Study", patterns: [], parentId: "top_pakistan_study", namedPapers: true },
+  { key: "top-everyday-science", label: "Top Everyday Science", patterns: [], parentId: "top_everyday_science", namedPapers: true },
+  { key: "top-urdu",          label: "Top Urdu",           patterns: [], parentId: "top_urdu",    namedPapers: true },
+  { key: "top-pak-affairs",   label: "Top Pak Affairs",    patterns: [], parentId: "top_pak_affairs", namedPapers: true },
+  { key: "top-international-affairs", label: "Top International Affairs", patterns: [], parentId: "top_international_affairs", namedPapers: true },
   { key: "english",           label: "English",            patterns: [/\benglish\b/i] },
   { key: "general-knowledge",label: "G.K",                patterns: [/general.knowledge/i] },
   { key: "geography",        label: "Geography",          patterns: [/geography/i] },
@@ -31,11 +40,18 @@ export interface ModelPaper {
   attemptedCount: number;
   accuracy: number;
   subtopicIds: string[];
+  /** For named-papers mode: local page index within the subtopic (1-based). Used for correct offset calculation. */
+  subtopicPage?: number;
 }
 
-export function getSubjectGroup(subtopicName: string): { key: string; label: string } | null {
+export function getSubjectGroup(subtopicName: string, subtopicParentId?: string): { key: string; label: string } | null {
   for (const subject of SUBJECT_KEYWORDS) {
-    if (subject.patterns.some((p) => p.test(subtopicName))) {
+    // Match by parentId first (exact group membership)
+    if (subject.parentId && subtopicParentId && subject.parentId === subtopicParentId) {
+      return { key: subject.key, label: subject.label };
+    }
+    // Match by name pattern
+    if (subject.patterns.length > 0 && subject.patterns.some((p) => p.test(subtopicName))) {
       return { key: subject.key, label: subject.label };
     }
   }
@@ -51,7 +67,7 @@ export function buildSubjectGroups(subtopics: Subject[], mcqs?: MCQ[]): SubjectG
   const groupMap = new Map<string, SubjectGroup>();
 
   for (const sub of subtopics) {
-    const group = getSubjectGroup(sub.name);
+    const group = getSubjectGroup(sub.name, sub.parentId);
     if (!group) continue;
     if (!groupMap.has(group.key)) {
       groupMap.set(group.key, { key: group.key, label: group.label, subtopicIds: [], totalMcqs: 0 });
@@ -81,7 +97,7 @@ export function getSubjectAllMcqs(
 ): MCQ[] {
   const groupSubtopics = subtopics
     .filter((s) => {
-      const g = getSubjectGroup(s.name);
+      const g = getSubjectGroup(s.name, s.parentId);
       return g?.key === groupKey;
     })
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -101,22 +117,61 @@ export function getSubjectModelPapers(
 ): ModelPaper[] {
   if (totalMcqsCount <= 0) return [];
 
+  const canonicalConfig = SUBJECT_KEYWORDS.find((sk) => sk.key === groupKey);
+  const useNamedPapers = canonicalConfig?.namedPapers === true;
+
   const groupSubtopics = subtopics
     .filter((s) => {
-      const g = getSubjectGroup(s.name);
+      const g = getSubjectGroup(s.name, s.parentId);
       return g?.key === groupKey;
     })
-    .map((s) => s.id);
+    .sort((a, b) => b.totalMcqs - a.totalMcqs); // largest subtopics first
 
-  const papers: ModelPaper[] = [];
-  const totalPapers = Math.ceil(totalMcqsCount / batchSize);
-
-  // Filter attempts belonging to this group's subtopics
-  const groupSubtopicSet = new Set(groupSubtopics);
+  const groupSubtopicIds = groupSubtopics.map((s) => s.id);
+  const groupSubtopicSet = new Set(groupSubtopicIds);
   const relevantAttempts = attempts.filter((a) => groupSubtopicSet.has(a.subjectId));
-  const accuracy = relevantAttempts.length > 0
+  const overallAccuracy = relevantAttempts.length > 0
     ? Math.round((relevantAttempts.filter((a) => a.correct).length / relevantAttempts.length) * 100)
     : 0;
+
+  if (useNamedPapers) {
+    // Generate per-subtopic named papers: "Synonyms 1", "Synonyms 2", "Antonyms 1", etc.
+    const papers: ModelPaper[] = [];
+    let globalPaperNumber = 1;
+
+    for (const sub of groupSubtopics) {
+      const subTotal = sub.totalMcqs || 0;
+      if (subTotal === 0) continue;
+      const subPapers = Math.ceil(subTotal / batchSize);
+      const subAttempts = relevantAttempts.filter((a) => a.subjectId === sub.id);
+      const subAccuracy = subAttempts.length > 0
+        ? Math.round((subAttempts.filter((a) => a.correct).length / subAttempts.length) * 100)
+        : 0;
+
+      for (let i = 0; i < subPapers; i++) {
+        const isLast = i === subPapers - 1;
+        const paperMcqsCount = isLast ? subTotal - i * batchSize : batchSize;
+        const label = subPapers === 1 ? sub.name : `${sub.name} ${i + 1}`;
+        papers.push({
+          paperNumber: globalPaperNumber,
+          name: label,
+          mcqs: [],
+          totalMcqs: paperMcqsCount,
+          attemptedCount: 0,
+          accuracy: subAccuracy,
+          subtopicIds: [sub.id],
+          subtopicPage: i + 1,
+        });
+        globalPaperNumber++;
+      }
+    }
+
+    return papers;
+  }
+
+  // Default: flat pool chunked into "Paper 1, Paper 2, ..."
+  const papers: ModelPaper[] = [];
+  const totalPapers = Math.ceil(totalMcqsCount / batchSize);
 
   for (let i = 0; i < totalPapers; i++) {
     const isLast = i === totalPapers - 1;
@@ -128,8 +183,8 @@ export function getSubjectModelPapers(
       mcqs: [],
       totalMcqs: paperMcqsCount,
       attemptedCount: 0,
-      accuracy,
-      subtopicIds: groupSubtopics,
+      accuracy: overallAccuracy,
+      subtopicIds: groupSubtopicIds,
     });
   }
 

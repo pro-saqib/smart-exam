@@ -242,7 +242,13 @@ function SubjectDetailPage() {
                       <Link
                         to="/quiz/$subjectId"
                         params={{ subjectId }}
-                        search={{ paper: paper.paperNumber }}
+                        search={{
+                          paper: paper.paperNumber,
+                          ...(paper.subtopicPage !== undefined && {
+                            subtopicPage: paper.subtopicPage,
+                            subtopicIds: paper.subtopicIds.join(","),
+                          }),
+                        }}
                         className={`w-full inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
                           isCompleted
                             ? "bg-success/15 hover:bg-success/25 text-success border border-success/30"
@@ -443,7 +449,7 @@ function ModelPaperPreviewModal({ title, paper, subjectKey, onClose }: { title: 
         data: {
           subjectKey,
           subtopicIds: paper.subtopicIds,
-          paperNumber: paper.paperNumber,
+          paperNumber: paper.subtopicPage ?? paper.paperNumber,
           pageSize: 100,
         },
       })

@@ -39,6 +39,8 @@ function classifySubtopic(question: string, sourceLabel: string): string {
   // For the top100 mixed source — classify by question patterns
   if (/\bsynonym\b/.test(q)) return "Synonyms";
   if (/\bantonym\b|\bopposite\b/.test(q)) return "Antonyms";
+  if (/analogy|::\s*$|:\s*\w+\s*::|choose the correct analog|\bis to\b.*as\b/i.test(q))
+    return "Analogy";
   if (
     /idiom|proverb|phrase\b|burning the midnight|beat about|smell a rat|hit the nail|cold feet|throw in towel|axe to grind|make the most/.test(q)
   )
