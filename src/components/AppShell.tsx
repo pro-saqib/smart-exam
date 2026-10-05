@@ -1,5 +1,5 @@
 import { Link, useLocation, useRouter } from "@tanstack/react-router";
-import { LayoutDashboard, BookOpen, Brain, Sparkles, PanelLeft, ScanSearch, LogOut, ShieldCheck, Users } from "lucide-react";
+import { LayoutDashboard, BookOpen, Brain, Sparkles, Flame, PanelLeft, ScanSearch, LogOut, ShieldCheck, Users } from "lucide-react";
 import { useEffect, useState } from "react";
 import { signOut } from "@/lib/auth-client";
 import { toast } from "sonner";
@@ -29,6 +29,7 @@ export function AppShell({ children, user }: { children: React.ReactNode; user: 
   const navItems = [
     { to: "/", label: "Dashboard", icon: LayoutDashboard },
     { to: "/subjects", label: "Subjects", icon: BookOpen },
+    { to: "/subjects", search: { filter: "top" }, label: "Top MCQs", icon: Flame },
     { to: "/practice", label: "Practice", icon: Brain },
     ...(isAdmin
       ? [
@@ -68,12 +69,23 @@ export function AppShell({ children, user }: { children: React.ReactNode; user: 
         </div>
         <nav className="flex-1 px-3 space-y-1 overflow-y-auto">
           {navItems.map((item) => {
-            const active = item.to === "/" ? loc.pathname === "/" : loc.pathname.startsWith(item.to);
+            const searchObj = (loc.search as Record<string, any>) || {};
+            const isTopRoute = loc.pathname === "/subjects" && searchObj.filter === "top";
+            const isSubjectsRoute = loc.pathname === "/subjects" && searchObj.filter !== "top";
+
+            const active = item.to === "/"
+              ? loc.pathname === "/"
+              : item.search
+                ? isTopRoute
+                : item.to === "/subjects"
+                  ? isSubjectsRoute
+                  : loc.pathname.startsWith(item.to);
             const Icon = item.icon;
             return (
               <Link
-                key={item.to}
+                key={item.label}
                 to={item.to}
+                search={item.search}
                 className={`group flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-all ${
                   active
                     ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-card"

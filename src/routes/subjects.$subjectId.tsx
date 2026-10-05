@@ -56,6 +56,7 @@ function SubjectDetailPage() {
     let cancelled = false;
     getSubjectModelPaperStats({
       data: {
+        subjectKey: subjectId,
         subtopicIds: activeGroup.subtopicIds,
       },
     })

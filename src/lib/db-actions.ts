@@ -6,6 +6,7 @@ import { getEnv } from "@/lib/env";
 import { user, subject, mcq, attempt, solveLater, paperCompletion } from "@/db/schema";
 import { eq, and, inArray, desc, sql } from "drizzle-orm";
 import { INITIAL_SUBJECTS } from "@/store/app-store";
+import { getSubjectModelPaperMapping } from "@/lib/model-papers";
 
 async function getDb() {
   const env = await getEnv();
@@ -372,17 +373,20 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
       return {};
     }
 
+    const allSubjects = await db.select({
+      id: subject.id,
+      name: subject.name,
+      parentId: subject.parentId,
+      totalMcqs: subject.totalMcqs,
+    }).from(subject);
+
     const mcqIndex = await getMcqIndex(db);
     const subtopicSet = new Set(data.subtopicIds);
     const subjectMcqs = mcqIndex.filter((m) => subtopicSet.has(m.subjectId));
 
     if (subjectMcqs.length === 0) return {};
 
-    const mcqIdToPaperNumber = new Map<string, number>();
-    subjectMcqs.forEach((m: any, idx: number) => {
-      const paperNum = Math.floor(idx / 100) + 1;
-      mcqIdToPaperNumber.set(m.id, paperNum);
-    });
+    const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, mcqIndex, 100);
 
     let matchingIds = new Set<string>();
 
@@ -527,11 +531,15 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
       // Fetch full rows only for matching IDs — no full-table scan
       let filteredMatchingMcqs = await getMcqFullRowsByIds(db, scopedIds);
 
-      if (paperNum !== null && !isNaN(paperNum)) {
-        const mcqIdToPaperNumber = new Map<string, number>();
-        subjectMcqs.forEach((m, idx) => {
-          mcqIdToPaperNumber.set(m.id, Math.floor(idx / 100) + 1);
-        });
+      if (paperNum !== null && !isNaN(paperNum) && data.subjectKey && data.subjectKey !== "all") {
+        const allSubjects = await db.select({
+          id: subject.id,
+          name: subject.name,
+          parentId: subject.parentId,
+          totalMcqs: subject.totalMcqs,
+        }).from(subject);
+
+        const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, mcqIndex, 100);
         selectedMcqs = filteredMatchingMcqs.filter((m) => mcqIdToPaperNumber.get(m.id) === paperNum);
       } else {
         selectedMcqs = filteredMatchingMcqs.slice(0, data.count);

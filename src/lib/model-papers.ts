@@ -125,7 +125,7 @@ export function getSubjectModelPapers(
       const g = getSubjectGroup(s.name, s.parentId);
       return g?.key === groupKey;
     })
-    .sort((a, b) => b.totalMcqs - a.totalMcqs); // largest subtopics first
+    .sort((a, b) => a.name.localeCompare(b.name)); // Alphabetical sorting matching quiz route
 
   const groupSubtopicIds = groupSubtopics.map((s) => s.id);
   const groupSubtopicSet = new Set(groupSubtopicIds);
@@ -272,4 +272,55 @@ export function getPaperLockStatus({
     reason: "locked",
   };
 }
+
+/** Map every MCQ ID belonging to a subject group to its 1-indexed model paper number */
+export function getSubjectModelPaperMapping(
+  groupKey: string,
+  subtopics: Subject[],
+  mcqIndex: { id: string; subjectId: string }[],
+  batchSize = 100
+): Map<string, number> {
+  const canonicalConfig = SUBJECT_KEYWORDS.find((sk) => sk.key === groupKey);
+  const useNamedPapers = canonicalConfig?.namedPapers === true;
+
+  const groupSubtopics = subtopics
+    .filter((s) => {
+      const g = getSubjectGroup(s.name, s.parentId);
+      return g?.key === groupKey;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name)); // Must match getSubjectModelPapers alphabetical sort
+
+  const mcqIdToPaperNumber = new Map<string, number>();
+
+  if (useNamedPapers) {
+    let globalPaperNumber = 1;
+    for (const sub of groupSubtopics) {
+      const subMcqs = mcqIndex.filter((m) => m.subjectId === sub.id);
+      const subPapers = Math.ceil(subMcqs.length / batchSize) || (sub.totalMcqs > 0 ? Math.ceil(sub.totalMcqs / batchSize) : 0);
+
+      for (let i = 0; i < subPapers; i++) {
+        const start = i * batchSize;
+        const end = start + batchSize;
+        const chunk = subMcqs.slice(start, end);
+        for (const m of chunk) {
+          mcqIdToPaperNumber.set(m.id, globalPaperNumber);
+        }
+        globalPaperNumber++;
+      }
+    }
+  } else {
+    const groupSubtopicIds = new Set(groupSubtopics.map((s) => s.id));
+    const groupMcqs = mcqIndex.filter((m) => groupSubtopicIds.has(m.subjectId));
+    for (let i = 0; i < groupMcqs.length; i += batchSize) {
+      const paperNum = Math.floor(i / batchSize) + 1;
+      const chunk = groupMcqs.slice(i, i + batchSize);
+      for (const m of chunk) {
+        mcqIdToPaperNumber.set(m.id, paperNum);
+      }
+    }
+  }
+
+  return mcqIdToPaperNumber;
+}
+
 

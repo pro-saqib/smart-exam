@@ -19,6 +19,9 @@ import {
 } from "lucide-react";
 
 export const Route = createFileRoute("/subjects")({
+  validateSearch: (search: Record<string, unknown>) => ({
+    filter: (search.filter as string) || undefined,
+  }),
   head: () => ({
     meta: [
       { title: "Subjects — PrepMind" },
@@ -41,26 +44,36 @@ function SubjectsPage() {
 
 function getSubjectIcon(key: string) {
   switch (key) {
-    case "basic-mathematics":
-      return <Calculator className="size-5 text-primary" />;
-    case "computer":
-      return <Laptop className="size-5 text-primary" />;
-    case "current-affairs":
-      return <Newspaper className="size-5 text-primary" />;
-    case "everyday-science":
-      return <Microscope className="size-5 text-primary" />;
-    case "general-knowledge":
-      return <Globe2 className="size-5 text-primary" />;
-    case "geography":
-      return <Compass className="size-5 text-primary" />;
-    case "islamic-study":
-      return <Moon className="size-5 text-primary" />;
-    case "pakistan-study":
-      return <Landmark className="size-5 text-primary" />;
+    case "top-english":
     case "english":
       return <Languages className="size-5 text-primary" />;
+    case "top-islamic":
+    case "islamic-study":
+      return <Moon className="size-5 text-primary" />;
+    case "top-gk":
+    case "general-knowledge":
+      return <Globe2 className="size-5 text-primary" />;
+    case "top-computer":
+    case "computer":
+      return <Laptop className="size-5 text-primary" />;
+    case "top-pakistan-study":
+    case "pakistan-study":
+      return <Landmark className="size-5 text-primary" />;
+    case "top-everyday-science":
+    case "everyday-science":
+      return <Microscope className="size-5 text-primary" />;
+    case "top-urdu":
     case "urdu":
       return <GraduationCap className="size-5 text-primary" />;
+    case "top-pak-affairs":
+    case "current-affairs":
+      return <Newspaper className="size-5 text-primary" />;
+    case "top-international-affairs":
+      return <Compass className="size-5 text-primary" />;
+    case "basic-mathematics":
+      return <Calculator className="size-5 text-primary" />;
+    case "geography":
+      return <Compass className="size-5 text-primary" />;
     case "ghq-past-papers":
       return <ShieldCheck className="size-5 text-primary" />;
     default:
@@ -69,13 +82,22 @@ function getSubjectIcon(key: string) {
 }
 
 function SubjectsList() {
+  const { filter } = Route.useSearch();
   const { subjects, attempts } = useApp();
 
   // All subtopics (have a parentId)
   const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
 
   // Group subtopics by canonical subject name
-  const groups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
+  const allGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
+
+  const groups = useMemo(() => {
+    if (filter === "top") {
+      return allGroups.filter((g) => g.key.startsWith("top-"));
+    }
+    // Hide top category subjects from main subjects list
+    return allGroups.filter((g) => !g.key.startsWith("top-"));
+  }, [allGroups, filter]);
 
   // Total MCQs across all groups
   const totalMcqCount = useMemo(
@@ -86,9 +108,9 @@ function SubjectsList() {
   return (
     <div className="space-y-8">
       <header>
-        <h1 className="text-3xl font-display">Subjects</h1>
+        <h1 className="text-3xl font-display">{filter === "top" ? "Top Category MCQs" : "Subjects"}</h1>
         <p className="text-muted-foreground mt-1">
-          {groups.length} subjects · {totalMcqCount.toLocaleString()} total MCQs
+          {groups.length} {filter === "top" ? "top categories" : "subjects"} · {totalMcqCount.toLocaleString()} total MCQs
         </p>
       </header>
 
