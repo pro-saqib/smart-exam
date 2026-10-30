@@ -68,8 +68,12 @@ export function buildSubjectGroups(subjects: Subject[], mcqs?: MCQ[]): SubjectGr
 
   for (const s of subjects) {
     // Determine the canonical group for this subject.
-    // For IS subjects, the subject itself is the parent (s.id).
-    // For others, the parentId is the group.
+    // IS subjects now have no subtopics (they are the subject).
+    // The previous logic assumed only subjects with parentId should be grouped.
+
+    // Updated logic:
+    // 1. If s.parentId is set, the group is parentId.
+    // 2. If s.parentId is null, the group is s.id itself (for IS parents).
     const group = getSubjectGroup(s.name, s.parentId || s.id);
     if (!group) continue;
 

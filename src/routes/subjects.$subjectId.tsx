@@ -30,9 +30,9 @@ function SubjectDetailPage() {
     [subjectId],
   );
 
-  // All subtopics (have a parentId)
-  const allSubtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
-  const allGroups = useMemo(() => buildSubjectGroups(allSubtopics), [allSubtopics]);
+  // All subjects
+  const allSubjects = useMemo(() => subjects, [subjects]);
+  const allGroups = useMemo(() => buildSubjectGroups(allSubjects), [allSubjects]);
   const activeGroup = useMemo(
     () => allGroups.find((g) => g.key === subjectId),
     [allGroups, subjectId],
@@ -42,8 +42,8 @@ function SubjectDetailPage() {
   const modelPapers = useMemo(() => {
     if (!canonicalConfig && !activeGroup) return [];
     const totalCount = activeGroup?.totalMcqs || 0;
-    return getSubjectModelPapers(subjectId, allSubtopics, totalCount, attempts, 100);
-  }, [canonicalConfig, activeGroup, subjectId, allSubtopics, attempts]);
+    return getSubjectModelPapers(subjectId, allSubjects, totalCount, attempts, 100);
+  }, [canonicalConfig, activeGroup, subjectId, allSubjects, attempts]);
 
   const [paperStats, setPaperStats] = useState<Record<number, { attemptedCount: number; accuracy: number }>>({});
 
