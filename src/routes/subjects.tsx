@@ -76,6 +76,24 @@ function getSubjectIcon(key: string) {
       return <Compass className="size-5 text-primary" />;
     case "ghq-past-papers":
       return <ShieldCheck className="size-5 text-primary" />;
+    case "is-english":
+      return <Languages className="size-5 text-primary" />;
+    case "is-gk":
+      return <Globe2 className="size-5 text-primary" />;
+    case "is-pakistan-study":
+      return <Landmark className="size-5 text-primary" />;
+    case "is-everyday-science":
+      return <Microscope className="size-5 text-primary" />;
+    case "is-islamic-study":
+      return <Moon className="size-5 text-primary" />;
+    case "is-computer":
+      return <Laptop className="size-5 text-primary" />;
+    case "is-geography":
+      return <Compass className="size-5 text-primary" />;
+    case "is-current-affairs":
+      return <Newspaper className="size-5 text-primary" />;
+    case "is-urdu":
+      return <GraduationCap className="size-5 text-primary" />;
     default:
       return <BookOpen className="size-5 text-primary" />;
   }
@@ -95,8 +113,10 @@ function SubjectsList() {
     if (filter === "top") {
       return allGroups.filter((g) => g.key.startsWith("top-"));
     }
-    // Hide top category subjects from main subjects list
-    return allGroups.filter((g) => !g.key.startsWith("top-"));
+    if (filter === "is") {
+      return allGroups.filter((g) => g.key.startsWith("is-"));
+    }
+    return allGroups.filter((g) => !g.key.startsWith("top-") && !g.key.startsWith("is-"));
   }, [allGroups, filter]);
 
   // Total MCQs across all groups
@@ -108,9 +128,11 @@ function SubjectsList() {
   return (
     <div className="space-y-8">
       <header>
-        <h1 className="text-3xl font-display">{filter === "top" ? "Top Category MCQs" : "Subjects"}</h1>
+        <h1 className="text-3xl font-display">
+          {filter === "top" ? "Top Category MCQs" : filter === "is" ? "Imtiaz Shahid MCQs" : "Subjects"}
+        </h1>
         <p className="text-muted-foreground mt-1">
-          {groups.length} {filter === "top" ? "top categories" : "subjects"} · {totalMcqCount.toLocaleString()} total MCQs
+          {groups.length} {filter === "top" ? "top categories" : filter === "is" ? "subject categories" : "subjects"} · {totalMcqCount.toLocaleString()} total MCQs
         </p>
       </header>
 

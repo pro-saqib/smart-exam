@@ -22,6 +22,15 @@ export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[];
   { key: "islamic-study",    label: "Islamic Study",      patterns: [/islamic/i] },
   { key: "urdu",             label: "Urdu",               patterns: [/\burdu\b/i] },
   { key: "ghq-past-papers",  label: "GHQ Past",           patterns: [/\bghq\b/i, /army.headquarters/i] },
+  { key: "is-english",          label: "IS English",          patterns: [], parentId: "is_english" },
+  { key: "is-gk",               label: "IS General Knowledge",patterns: [], parentId: "is_gk" },
+  { key: "is-pakistan-study",   label: "IS Pakistan Study",   patterns: [], parentId: "is_pakistan_study" },
+  { key: "is-everyday-science", label: "IS Everyday Science", patterns: [], parentId: "is_everyday_science" },
+  { key: "is-islamic-study",    label: "IS Islamic Study",    patterns: [], parentId: "is_islamic_study" },
+  { key: "is-computer",         label: "IS Computer",         patterns: [], parentId: "is_computer" },
+  { key: "is-geography",        label: "IS Geography",        patterns: [], parentId: "is_geography" },
+  { key: "is-current-affairs",  label: "IS Current Affairs",  patterns: [], parentId: "is_current_affairs" },
+  { key: "is-urdu",             label: "IS Urdu",             patterns: [], parentId: "is_urdu" },
 ];
 
 export interface SubjectGroup {
