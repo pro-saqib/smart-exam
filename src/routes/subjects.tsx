@@ -82,11 +82,8 @@ function SubjectsList() {
   const { filter } = Route.useSearch();
   const { subjects, attempts } = useApp();
 
-  // All subtopics (have a parentId)
-  const subtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
-
   // Group subtopics by canonical subject name
-  const allGroups = useMemo(() => buildSubjectGroups(subtopics), [subtopics]);
+  const allGroups = useMemo(() => buildSubjectGroups(subjects), [subjects]);
 
   const groups = useMemo(() => {
     if (filter === "top") {

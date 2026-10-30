@@ -62,19 +62,25 @@ let lastSubtopicsRef: Subject[] | null = null;
 let lastMcqsLength = -1;
 let lastGroupsCache: SubjectGroup[] = [];
 
-/** Group child subtopics by canonical subject name. Returns groups in canonical order (memoized). */
-export function buildSubjectGroups(subtopics: Subject[], mcqs?: MCQ[]): SubjectGroup[] {
+/** Group subjects by canonical subject name. Returns groups in canonical order (memoized). */
+export function buildSubjectGroups(subjects: Subject[], mcqs?: MCQ[]): SubjectGroup[] {
   const groupMap = new Map<string, SubjectGroup>();
 
-  for (const sub of subtopics) {
-    const group = getSubjectGroup(sub.name, sub.parentId);
+  for (const s of subjects) {
+    // Determine the canonical group for this subject.
+    // For IS subjects, the subject itself is the parent (s.id).
+    // For others, the parentId is the group.
+    const group = getSubjectGroup(s.name, s.parentId || s.id);
     if (!group) continue;
+
     if (!groupMap.has(group.key)) {
       groupMap.set(group.key, { key: group.key, label: group.label, subtopicIds: [], totalMcqs: 0 });
     }
     const current = groupMap.get(group.key)!;
-    current.subtopicIds.push(sub.id);
-    current.totalMcqs += sub.totalMcqs || 0;
+
+    // Add this subject ID as a source of MCQs
+    current.subtopicIds.push(s.id);
+    current.totalMcqs += s.totalMcqs || 0;
   }
 
   if (mcqs && mcqs.length > 0) {
