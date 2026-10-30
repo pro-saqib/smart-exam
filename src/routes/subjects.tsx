@@ -15,7 +15,6 @@ import {
   Languages,
   Newspaper,
   GraduationCap,
-  ShieldCheck,
 } from "lucide-react";
 
 export const Route = createFileRoute("/subjects")({
@@ -45,55 +44,35 @@ function SubjectsPage() {
 function getSubjectIcon(key: string) {
   switch (key) {
     case "top-english":
-    case "english":
+    case "is-english":
       return <Languages className="size-5 text-primary" />;
     case "top-islamic":
-    case "islamic-study":
+    case "is-islamic-study":
       return <Moon className="size-5 text-primary" />;
     case "top-gk":
-    case "general-knowledge":
+    case "is-gk":
       return <Globe2 className="size-5 text-primary" />;
     case "top-computer":
-    case "computer":
+    case "is-computer":
       return <Laptop className="size-5 text-primary" />;
     case "top-pakistan-study":
-    case "pakistan-study":
+    case "is-pakistan-study":
       return <Landmark className="size-5 text-primary" />;
     case "top-everyday-science":
-    case "everyday-science":
+    case "is-everyday-science":
       return <Microscope className="size-5 text-primary" />;
     case "top-urdu":
     case "urdu":
+    case "is-urdu":
       return <GraduationCap className="size-5 text-primary" />;
     case "top-pak-affairs":
-    case "current-affairs":
+    case "is-current-affairs":
       return <Newspaper className="size-5 text-primary" />;
     case "top-international-affairs":
+    case "is-geography":
       return <Compass className="size-5 text-primary" />;
     case "basic-mathematics":
       return <Calculator className="size-5 text-primary" />;
-    case "geography":
-      return <Compass className="size-5 text-primary" />;
-    case "ghq-past-papers":
-      return <ShieldCheck className="size-5 text-primary" />;
-    case "is-english":
-      return <Languages className="size-5 text-primary" />;
-    case "is-gk":
-      return <Globe2 className="size-5 text-primary" />;
-    case "is-pakistan-study":
-      return <Landmark className="size-5 text-primary" />;
-    case "is-everyday-science":
-      return <Microscope className="size-5 text-primary" />;
-    case "is-islamic-study":
-      return <Moon className="size-5 text-primary" />;
-    case "is-computer":
-      return <Laptop className="size-5 text-primary" />;
-    case "is-geography":
-      return <Compass className="size-5 text-primary" />;
-    case "is-current-affairs":
-      return <Newspaper className="size-5 text-primary" />;
-    case "is-urdu":
-      return <GraduationCap className="size-5 text-primary" />;
     default:
       return <BookOpen className="size-5 text-primary" />;
   }
