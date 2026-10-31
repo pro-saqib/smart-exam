@@ -1,0 +1,4384 @@
+**Model Paper 170**
+**Category: General Knowledge**
+1. What is the primary function of NLP (Natural Language Processing) in ChatGPT?
+* A) Image recognition
+* B) Understanding and generating human-like text
+* C) Video processing
+* D) Hardware development
+* **Answer**: B
+
+2. What is the study of the origin and history of words called?
+* A) Lexicology
+* B) Semantics
+* C) Etymology
+* D) Phonology
+* **Answer**: C
+
+3. What is the role of META AI in business?
+* A) Enhancing customer experiences through AI-driven recommendations
+* B) Improving business decision-making with data insights and analytics
+* C) Automating tasks and processes to improve efficiency
+* D) All of these
+* **Answer**: D
+
+4. ChatGPT is built on which model architecture?
+* A) RNN (Recurrent Neural Networks)
+* B) Transformer Architecture
+* C) Convolutional Neural Networks (CNN)
+* D) Decision Trees
+* **Answer**: B
+
+5. Who is Ketanji Brown Jackson?
+* A) Black judge on the U.S. Supreme Court
+* B) US Senator
+* C) New York Governor
+* D) None of these
+* **Answer**: A
+
+6. Deep learning can be applied to which of the following?
+* A) Image recognition
+* B) Natural language processing
+* C) Speech recognition
+* D) All of these
+* **Answer**: D
+
+7. Who invented the first practical sewing machine?
+* A) Thomas Saint
+* B) Elias Howe
+* C) Isaac Singer
+* D) George Stephenson
+* **Answer**: B
+
+8. What is the cause of stone cancer in the Taj Mahal's marble?
+* A) Acid rain caused by air pollution
+* B) Growth of moss and algae
+* C) High humidity in the region
+* D) Structural weakening due to earthquakes
+* **Answer**: A
+
+9. The Persian New Year, based on the Iranian Solar Hijri calendar, is also called:
+* A) Equinox
+* B) Nowruz
+* C) Mehregan
+* D) Yalda
+* **Answer**: B
+
+10. Which movie won the Oscar for Best Picture in 2022?
+* A) Dune
+* B) The Power of the Dog
+* C) CODA
+* D) King Richard
+* **Answer**: C
+
+11. What is the estimated world population as of 2025?
+* A) 7 billion
+* B) 8 billion
+* C) 8.8 billion
+* D) 10.2 billion
+* **Answer**: B
+
+**Category: Pakistan Affairs**
+1. Which of the following is a UNESCO World Heritage Site in Pakistan?
+* A) Minar-e-Pakistan
+* B) Rohtas Fort
+* C) Lahore Museum
+* D) Faisal Mosque
+* **Answer**: B
+
+2. Which Pakistani poet was nominated for the Nobel Prize in Literature?
+* A) Faiz Ahmad Faiz
+* B) Habib Jalib
+* C) Allama Iqbal
+* D) Parveen Shakir
+* **Answer**: A
+
+3. Which city in Punjab has significant investment from the China-Pakistan Economic Corridor (CPEC) for an economic zone?
+* A) Lahore
+* B) Faisalabad
+* C) Rawalpindi
+* D) Multan
+* **Answer**: B
+
+4. According to __________ of Pakistan's Constitution 1973 that everyone has the right to a fair trial and due process of law, courts, state authorities, judicial or quasi-judicial forums, and executives are required to provide each party with a fair opportunity to defend themselves.
+* A) Article 10
+* B) Article 10-A
+* C) Article 19
+* D) Article 25
+* **Answer**: B
+
+5. What is the use of the E-Construction Services Portal?
+* A) To apply for building permits and track project approvals
+* B) To manage payroll for construction workers
+* C) To provide construction equipment rentals
+* D) To conduct virtual tours of completed buildings
+* **Answer**: A
+
+6. Which mobile app is mostly used for money transfer in Pakistan?
+* A) Jazz Cash
+* B) Easy Paisa
+* C) U Paisa
+* D) NayaPay
+* **Answer**: B
+
+7. Which app is used for booking railway tickets in Pakistan?
+* A) Pakistan Railways Official
+* B) Book Karu
+* C) Ticket Shop App
+* D) Rail App
+* **Answer**: A
+
+8. What is the purpose of the DASTAK app in Punjab, also known as "Maryam Ki Dastak"?
+* A) To register and track citizen complaints against government services.
+* B) To provide a digital marketplace for local businesses.
+* C) To deliver government services at citizens' doorsteps.
+* D) To offer online banking and digital payment solutions.
+* **Answer**: C
+
+9. Which platform is commonly used in Pakistan for international remittances?
+* A) PayPal
+* B) Western Union
+* C) Google Pay
+* D) Alipay
+* **Answer**: B
+
+10. Which online platform is used to apply for a domicile certificate in Punjab, Pakistan?
+* A) NADRA e-Sahulat
+* B) e-Khidmat
+* C) Pakistan Citizen Portal
+* D) City Islamabad App
+* **Answer**: B
+
+11. What is the primary purpose of the e-Pay Punjab app?
+* A) Online shopping
+* B) Paying government taxes and fees
+* C) Social media networking
+* D) Playing online games
+* **Answer**: B
+
+12. When did the first economic war between Pakistan and India take place?
+* A) 1948
+* B) 1956
+* C) 1965
+* D) 1971
+* **Answer**: A
+
+13. Who is the largest arms supplier to Pakistan?
+* A) Russia
+* B) UK
+* C) US
+* D) China
+* **Answer**: D
+
+14. Which agreement was signed between India and Pakistan to address the rehabilitation and protection of refugees after Partition?
+* A) Tashkent Pact
+* B) Simla agreement
+* C) Liaqat-Nehru Pact
+* D) Inter-Dominion Agreement
+* **Answer**: C
+
+15. How many total seats are there in the National Assembly of Pakistan?
+* A) 272
+* B) 336
+* C) 342
+* D) 372
+* **Answer**: B
+
+16. Who was the first Chief Minister of Punjab after independence?
+* A) Feroz Khan Noon
+* B) Nawab Sadiq Hussain Qureshi
+* C) Ghulam Haider Wyne
+* D) Iftikhar Hussain Khan Mamdot
+* **Answer**: D
+
+17. Which of the following was one of the reasons the British annexed Punjab in 1849?
+* A) Control over trade routes
+* B) To establish trade agreements with China
+* C) To create a tourism industry
+* D) To promote cultural exchange
+* **Answer**: A
+
+18. How many princely states joined Pakistan after the independence of India in 1947?
+* A) 5
+* B) 7
+* C) 10
+* D) 13
+* **Answer**: D
+
+19. Who was the first female Chief Justice of Pakistan?
+* A) Justice Fatima Jinnah
+* B) Justice Musarat Hilali
+* C) Justice Aalia Neelum
+* D) Justice Tahira Safdar
+* **Answer**: D
+
+20. Who is the highest-ranking civil servant responsible for provincial administration in Pakistan?
+* A) Chief Minister
+* B) IG Police
+* C) Chief Secretary
+* D) Governor
+* **Answer**: C
+
+21. Which of the following was an impact of British colonialism in Punjab?
+* A) Promotion of local handicrafts and traditions
+* B) Suppression of local crafts and traditions
+* C) Encouragement of indigenous education
+* D) Establishment of equal trade relations
+* **Answer**: B
+
+22. Which Mughal emperor built the Badshahi Masjid in Lahore?
+* A) Akbar
+* B) Jahangir
+* C) Aurangzeb
+* D) Shah Jahan
+* **Answer**: C
+
+23. Who was the first President of Pakistan?
+* A) Ayub Khan
+* B) Liaqat Ali Khan
+* C) Isikandar Mirza
+* D) Zulfiqar Ali Bhutto
+* **Answer**: C
+
+24. Which city is the largest contributor to Punjab's GDP?
+* A) Lahore
+* B) Rawalpindi
+* C) Multan
+* D) Faisalabad
+* **Answer**: A
+
+25. In which year was Rawal Dam constructed?
+* A) 1955
+* B) 1962
+* C) 1971
+* D) 1980
+* **Answer**: B
+
+**Category: Job-Related Questions**
+1. A person __________ standing as an advocate of a High Court, is eligible to be appointed as judge of the Supreme Court.
+* A) 10 years
+* B) 15 years
+* C) 20 years
+* D) 25 years
+* **Answer**: B
+
+2. What should an investigation officer include in the daily investigation diary?
+* A) Only the names of the suspects
+* B) Personal opinions and reflections about the case
+* C) A summary of the investigation, key actions taken, and progress made
+* D) Information unrelated to the investigation
+* **Answer**: C
+
+3. What is the punishment for a person who lodges frivolous or false whistleblower information?
+* A) Imprisonment for up to one year
+* B) Imprisonment for up to two years or a fine up to two hundred thousand rupees, or both
+* C) Fine up to one hundred thousand rupees only
+* D) No punishment if the information is false
+* **Answer**: B
+
+4. Which article of the Constitution of Pakistan deals with safeguards regarding arrest and detention?
+* A) Article 10
+* B) Article 57
+* C) Article 93
+* D) Article 107
+* **Answer**: A
+
+5. What powers are granted to the Punjab Enforcement and Regulatory Authority (PERA) under the Punjab Enforcement and Regulation Act 2024?
+* A) Power to conduct inspections, searches, seizures, and arrests
+* B) Power to levy taxes
+* C) Power to regulate trade policies
+* D) Power to grant licenses
+* **Answer**: A
+
+6. The Criminal Procedure Code (CrPC) section related to security for keeping the peace on conviction:
+* A) Section 105
+* B) Section 106
+* C) Section 109
+* D) Section 111
+* **Answer**: B
+
+7. Under which section of the CrPC is an FIR lodged in Pakistan?
+* A) Section 302
+* B) Section 144
+* C) Section 154
+* D) Section 182
+* **Answer**: C
+
+**Category: Current Affairs**
+1. In which U.S. state did the assassination attempt on Donald Trump take place during a campaign rally in July 2024?
+* A) Texas
+* B) Florida
+* C) Pennsylvania
+* D) Ohio
+* **Answer**: C
+
+2. According to Article 7 of the Constitution of Pakistan (1973), the term "State" includes which of the following?
+* A) Federal Government, Provincial Government, and Local Authorities
+* B) Only the Prime Minister and President
+* C) Only Federal Government
+* D) Judiciary, Press and International Organizations
+* **Answer**: A
+
+**Category: Geography**
+1. Which is the most fertile region of Pakistan?
+* A) Indus Basin
+* B) Thar Desert
+* C) Balochistan Plateau
+* D) Karakoram Range
+* **Answer**: A
+
+2. Where is Derawar Fort located?
+* A) Thar Desert
+* B) Cholistan Desert
+* C) Sulaiman range
+* D) Kharan Desert
+* **Answer**: B
+
+3. Khunjerab Pass serves as a border crossing between Pakistan and which country?
+* A) India
+* B) Afghanistan
+* C) China
+* D) Iran
+* **Answer**: C
+
+4. Which winds affects Punjab, Pakistan, during winter?
+* A) Monsoon
+* B) Western Disturbances
+* C) Sea Breeze
+* D) Tropical Cyclones
+* **Answer**: B
+
+**Category: Everyday Science**
+1. How many spinal nerves are there in the human body?
+* A) 12 pairs
+* B) 24 pairs
+* C) 31 pairs
+* D) 33 pairs
+* **Answer**: C
+
+2. What is the study of agriculture called?
+* A) Agronomy
+* B) Botany
+* C) Entomology
+* D) Zoology
+* **Answer**: A
+
+3. Which solvent is commonly used in soft drinks?
+* A) Water
+* B) Acetone
+* C) Ether
+* D) Sodium
+* **Answer**: A
+
+4. Which of the following terms is NOT used in Physics?
+* A) Acceleration
+* B) Stock value
+* C) Inertia
+* D) Motion
+* **Answer**: B
+
+5. What is the minimum distance between two points called in physics:
+* A) Distance
+* B) Speed
+* C) Velocity
+* D) Displacement
+* **Answer**: D
+
+6. Which of the following can be caused by global warming and climate change?
+* A) Rising sea levels
+* B) Extreme weather events
+* C) Melting polar ice caps
+* D) All of these
+* **Answer**: D
+
+7. What is the primary cause of deforestation?
+* A) Climate change
+* B) Urbanization and agriculture
+* C) Natural disasters
+* D) Wildlife activities
+* **Answer**: B
+
+8. Who discovered that malaria is transmitted by mosquitoes?
+* A) Louis Pasteur
+* B) Robert Koch
+* C) Sir Ronald Ross
+* D) Edward Jenner
+* **Answer**: C
+
+9. Which organelle is responsible for protein synthesis in a cell?
+* A) Mitochondria
+* B) Ribosome
+* C) Golgi apparatus
+* D) Lysosome
+* **Answer**: B
+
+10. What is the approximate blood circulation rate in human capillaries in mm/sec?
+* A) 0.1 mm/sec
+* B) 1 mm/sec
+* C) 10 mm/sec
+* D) 100 mm/sec
+* **Answer**: B
+
+11. Malaria is spread through:
+* A) Bacteria
+* B) Virus
+* C) Plasmodium
+* D) Anopheles
+* **Answer**: D
+
+12. __________ is a key gland that plays a crucial role in digestion by producing enzymes that break down carbohydrates, proteins, and fats, and also secretes bicarbonate to neutralize stomach acid.
+* A) Pancreas
+* B) Gallbladder
+* C) Thyroid
+* D) Liver
+* **Answer**: A
+
+**Category: Computer**
+1. What is the function of the IF function in Excel?
+* A) To perform a logical test and return a value based on the result
+* B) To add up a range of cells
+* C) To find the average of a range of cells
+* D) To count the number of cells in a range
+* **Answer**: A
+
+2. In PowerPoint, Themes could be found under:
+* A) Home tab
+* B) Design tab
+* C) Insert tab
+* D) View tab
+* **Answer**: B
+
+3. From which tab can headers and footers be inserted in MS Word?
+* A) Home
+* B) Insert
+* C) Layout
+* D) View
+* **Answer**: B
+
+4. By default, how many worksheets are there in a new Microsoft Excel workbook?
+* A) 1
+* B) 3
+* C) 5
+* D) 10
+* **Answer**: A
+
+5. Through which tab can comments be added in MS Word?
+* A) Home
+* B) Insert
+* C) Review
+* D) View
+* **Answer**: C
+
+**Category: English**
+1. She was confident __________ her success.
+* A) of
+* B) to
+* C) with
+* D) for
+* **Answer**: A
+
+2. Which of the following is a synonym of scathing:
+* A) Scornful
+* B) Gentle
+* C) Supportive
+* D) Respectful
+* **Answer**: A
+
+3. In the following question, out of the four alternatives, select the alternative which best expresses the meaning of the Idiom/Phrase. Bandy words
+* A) To lie
+* B) To hint without expressing
+* C) To talks in a confused manner
+* D) To argue or exchange words heatedly
+* **Answer**: D
+
+4. What is the one-word substitute for "bike seat other than rider"?
+* A) Saddle
+* B) Cushion
+* C) Bridle
+* D) Pillion
+* **Answer**: D
+
+5. Antonym of Zenith is:
+* A) Peak
+* B) Summit
+* C) Nadir
+* D) Pinnacle
+* **Answer**: C
+
+6. What is the antonym of Rob:
+* A) Steal
+* B) Take
+* C) Give
+* D) Borrow
+* **Answer**: C
+
+7. Which of the following is the correct form of the sentence?
+* A) Let us sit down under the shade of a tree for some time.
+* B) Let us sit down in the shade of a tree for some time.
+* C) Let us sitting down in the shade of a tree for some time.
+* D) Let us sit down on the shade of a tree for some time.
+* **Answer**: B
+
+8. What is the meaning of Vulgar:
+* A) Decent
+* B) Indecent
+* C) Elegant
+* D) Respectful
+* **Answer**: B
+
+9. Which of the following is the antonym of sartorial:
+* A) Elegant
+* B) Stylish
+* C) Refined
+* D) Homespun
+* **Answer**: D
+
+10. Which of the following is a synonym for Groundbreaking:
+* A) Ordinary
+* B) Innovative
+* C) Common
+* D) Traditional
+* **Answer**: B
+
+11. Which of the following is an antonym of Concord:
+* A) Harmony
+* B) Agreement
+* C) Unity
+* D) Discord
+* **Answer**: D
+
+12. She is one of those people who always __________ to find the positive in every event.
+* A) tries
+* B) manages
+* C) struggles
+* D) fails
+* **Answer**: A
+
+13. Fill in the blanks with correct option. __________ person cannot read or write.
+* A) Illegible
+* B) Legible
+* C) Literate
+* D) Illiterate
+* **Answer**: D
+
+14. Which of the following is a synonym for Scot-free:
+* A) Captured
+* B) Punished
+* C) Unpunished
+* D) Guilty
+* **Answer**: C
+
+15. You are __________ than he.
+* A) cleverer
+* B) clever
+* C) more clever
+* D) most clever
+* **Answer**: A
+
+16. Select the correct meaning of the given idiom. On cloud nine
+* A) To be lost in thoughts
+* B) To travel in space
+* C) To be extremely happy
+* D) To be far from home
+* **Answer**: C
+
+17. An infant depends __________ its mother for food.
+* A) at
+* B) on
+* C) upon
+* D) to
+* **Answer**: B
+
+**Model Paper 171**
+**Category: General Knowledge**
+1. How much of global shipping trade is carried through Panama Canal:
+* A) 5%
+* B) 15%
+* C) 20%
+* D) 25%
+* **Answer**: A
+2. Which of the following crises occurred during the presidency of Jimmy Carter (1977-1981)?
+* A) Iran Hostage Crisis
+* B) Global Oil Crisis
+* C) U.S. support to Pakistan after Soviet invasion of Afghanistan
+* D) All of these
+* **Answer**: D
+3. Donald Trump once threatened to reimpose U.S. control over the Panama Canal due to:
+* A) Growing risk of Chinese influence
+* B) Trade dispute
+* C) Venezuelan political crisis
+* D) Environmental concerns
+* **Answer**: A
+4. Which day is celebrated as the End of Corporal Punishment?
+* A) 9th May
+* B) 8th March
+* C) 01st May
+* D) 30th April
+* **Answer**: D
+5. The Taj Mahal in Agra is located in which state of India?
+* A) Rajasthan
+* B) Uttar Pradesh
+* C) Madhya Pradesh
+* D) Delhi
+* **Answer**: B
+6. Aristotle belongs to which country?
+* A) Italy
+* B) Greece
+* C) Egypt
+* D) Rome
+* **Answer**: B
+7. Pakistan is not a member of which organization:
+* A) BRICS
+* B) OIC
+* C) SAARC
+* D) ECO
+* **Answer**: A
+8. During the reign of Emperor Akbar, it was compulsory for a Mansabdar to maintain at least how many horsemen?
+* A) 300-400
+* B) 200-600
+* C) 200-400
+* D) 400-700
+* **Answer**: C
+9. The scientist's ________ approach helped to learn the experiment meticulously.
+* A) Erratic
+* B) Random
+* C) Impulsive
+* D) Methodical
+* **Answer**: D
+10. Which city is famously known as the "City of Canals"?
+* A) Venice
+* B) Amsterdam
+* C) Bangkok
+* D) Rome
+* **Answer**: A
+11. What was the objective of the Bretton woods system?
+* A) Economic System
+* B) International Monetary System
+* C) To promote space research and technology
+* D) To create a global military alliance
+* **Answer**: B
+12. Queen Elizabeth I of England belongs to ________ dynasty.
+* A) Stuart
+* B) York
+* C) Tudor
+* D) None of these
+* **Answer**: C
+13. Which province of Pakistan is known as Bab-ul-Islam (Gateway of Islam)?
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: B
+14. Tax on imports is an example of which of the following?
+* A) Collateral
+* B) Trade Barrier
+* C) Foreign Trade
+* D) Terms of trade
+* **Answer**: B
+15. Who was the President of the United States during World War II?
+* A) F D Roosevelt
+* B) Theodor Roosevelt
+* C) Henry Truman
+* D) Dwight D. Eisenhower
+* **Answer**: A
+16. Who is considered as Father or SAARC?
+* A) General Zia Ur Rehman
+* B) General Zia Ul Haq
+* C) Birendra Bir Bikram
+* D) Jawaharlal Nehru
+* **Answer**: A
+17. Who said the famous words: "Give me a place to stand, and I will move the Earth"
+* A) Socrates
+* B) Archimedes
+* C) Aristotle
+* D) Pythagoras
+* **Answer**: B
+
+**Category: Pakistan Affairs**
+1. Amanat Ali Khan belongs to which musical gharana?
+* A) Gwalior Gharana
+* B) Patiala Gharana
+* C) Kirana Gharana
+* D) None of These
+* **Answer**: B
+2. When SBP commenced its operation?
+* A) 1947
+* B) 1948
+* C) 1949
+* D) 1950
+* **Answer**: B
+3. Which Provincial assembly approved the establishment of 10 Economic zones?
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: C
+4. FATA merged in which province of Pakistan:
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: C
+5. According to the 1959 land reforms, what was the minimum agricultural landholding liable to taxation?
+* A) 12.5 Acres
+* B) 25 Acres
+* C) 50 Acres
+* D) 30 Acres
+* **Answer**: A
+6. Cyber Crime Control Act under:
+* A) ETO 2002
+* B) PECO 2007
+* C) PECA 2016
+* D) All of these
+* **Answer**: D
+7. Justice Qazi Faez Isa served as the Chief Justice of the Balochistan High Court during which period?
+* A) 2006-14
+* B) 2009-14
+* C) 2014-17
+* D) None of these
+* **Answer**: B
+8. Apart from poetry, Allama Iqbal wrote his first book on which subject?
+* A) Philosophy
+* B) Politics
+* C) Economics
+* D) History
+* **Answer**: C
+9. What is the traditional ethical code followed by the Pashtun people?
+* A) Sharia
+* B) Pashtunwali
+* C) Deobandi
+* D) Sufism
+* **Answer**: B
+10. Who is the first Pakistani transgender Lawyer?
+* A) Nisha Rao
+* B) Chistrine Jorgensen
+* C) Joyita Mondal
+* D) Baber Masih
+* **Answer**: A
+11. When did Pakistan establish diplomatic relations with the European Economic Community?
+* A) 1951
+* B) 1962
+* C) 1965
+* D) 1982
+* **Answer**: B
+12. Karnal Sher Khan awarded Nishan-e-Haider in which war?
+* A) Kargil War
+* B) 1965 War
+* C) 1971 War
+* D) None of these
+* **Answer**: A
+13. When was the 1962 Constitution of Pakistan enforced?
+* A) 14th August
+* B) 8th June
+* C) 23rd March
+* D) None of these
+* **Answer**: B
+14. When was the First Muslim Economic Conference held during the tenure of Liaquat Ali Khan?
+* A) 1950
+* B) 1949
+* C) 1948
+* D) None of these
+* **Answer**: B
+15. Who was the President of Pakistan at the time of the 18th Constitutional Amendment in 2010?
+* A) Mamnoon Hussain
+* B) Pervez Musharraf
+* C) Asif Ali Zardari
+* D) Arif Alvi
+* **Answer**: C
+16. Pakistan launched an operation in Kashmir in 1965 which was called operation?
+* A) Barbarossa
+* B) Gibraltar
+* C) Azad
+* D) Kashmir
+* **Answer**: B
+17. Pakistan inherited only _______ cotton mills out of 451 in the subcontinent at the time of partition.
+* A) 08
+* B) 16
+* C) 50
+* D) None of these
+* **Answer**: B
+18. Who started the silk letter movement?
+* A) Ubaid Ullah Sindhi
+* B) Maulana Shaukat Ali
+* C) Maulana Muhammad Ali Jauhar
+* D) None of these
+* **Answer**: A
+19. In which year was the Partition of Bengal annulled by the British government?
+* A) 1905
+* B) 1911
+* C) 1920
+* D) 1947
+* **Answer**: B
+20. When did Pakistan offer diplomatic support to China during the Tiananmen Square protests?
+* A) 1985
+* B) 1989
+* C) 1992
+* D) 1995
+* **Answer**: B
+21. When did Pakistan become a member of the International Monetary Fund (IMF)?
+* A) 1948
+* B) 1947
+* C) 1950
+* D) None of these
+* **Answer**: C
+22. When was the Human Rights Commission of Pakistan (HRCP) established?
+* A) 1948
+* B) 1985
+* C) 1986
+* D) none of these
+* **Answer**: C
+
+**Category: Current Affairs**
+1. What is the name of the informal-political military alliance in the Middle East that has united against Israel?
+* A) Jabhat al-Nusra
+* B) Hay'at Tahrir al-Sham
+* C) Axis of Resistance
+* D) Axis of Evil
+* **Answer**: C
+2. As of recent trade data, which country is the largest export partner of Pakistan?
+* A) US
+* B) China
+* C) UAE
+* D) UK
+* **Answer**: A
+3. The Pakistan Federal Budget for fiscal year 2024-25 is:
+* A) Rs 18.877 trillion
+* B) Rs 15.577 trillion
+* C) Rs 13.777 trillion
+* D) Rs 111.977 trillion
+* **Answer**: A
+
+**Category: Geography**
+1. Which country is the largest producer of uranium?
+* A) Canada
+* B) Australia
+* C) Kazakhstan
+* D) Russia
+* **Answer**: C
+2. Satpara and Phandar are located in _______ areas?
+* A) Kashmir
+* B) Gilgit-Baltistan
+* C) Astor
+* D) Punjab
+* **Answer**: B
+3. What is the other name of K2?
+* A) Mount Godwin-Austen
+* B) Kanchenjunga
+* C) Mount Kilimanjaro
+* D) Mount Everest
+* **Answer**: A
+4. What is the approximate length of the Pakistan-China border?
+* A) 400 km
+* B) 500 km
+* C) 600 km
+* D) 700 km
+* **Answer**: C
+5. In the _______, Hindu Kush range merges with Pamir plateau.
+* A) East
+* B) West
+* C) North
+* D) South
+* **Answer**: C
+6. Thal is located in which province of Pakistan?
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: A
+
+**Category: Everyday Science**
+1. Which instrument is used to measure earthquakes?
+* A) Barometer
+* B) Thermometer
+* C) Hygrometer
+* D) Seismograph
+* **Answer**: D
+2. Which Muslim scientist is credited with discovering the contagious nature of diseases and pulmonary circulation of blood?
+* A) Ibn Sina
+* B) Al Razi
+* C) Ibn al Nafis
+* D) None of these
+* **Answer**: C
+
+**Category: English**
+1. Choose the correct relation of Analogy
+* A) Conductor: Bus
+* B) Drama: Director
+* C) Producer: Theater
+* D) Thespian: Play
+* **Answer**: D
+2. I took revenge _______ my enemy.
+* A) to
+* B) From
+* C) on
+* D) None of these
+* **Answer**: C
+3. A person who values things practically is called:
+* A) Idealist
+* B) Realist
+* C) Pragmatist
+* D) Optimist
+* **Answer**: C
+4. In the sentence "I met a beggar on the road", the subject is:
+* A) Met
+* B) Beggar
+* C) I
+* D) The Road
+* **Answer**: C
+5. He is proficient _______ math.
+* A) of
+* B) with
+* C) in
+* D) off
+* **Answer**: C
+6. The farmer is cutting the crop which _______ ripened.
+* A) is
+* B) had
+* C) had been
+* D) has
+* **Answer**: D
+7. Choose the synonym of Capital letter: ENTICE
+* A) Alert
+* B) Caution
+* C) Lure
+* D) None of these
+* **Answer**: C
+8. Change in narration of given sentence:
+"Diana said to me, "Let me do my work".
+* A) Diana asked me to let she do her work.
+* B) Diana ordered me to let him do his work.
+* C) Diana proposed me let done her work
+* D) None of these
+* **Answer**: B
+9. The synonym of Avocation:
+* A) Duty
+* B) Hobby
+* C) Obligatory
+* D) None of these
+* **Answer**: B
+10. Who lives in glass house _______ not throw the stones.
+* A) has
+* B) should
+* C) has
+* D) None of these
+* **Answer**: B
+11. Identify the mistake. "They attacked on me".
+* A) They attacked upon me.
+* B) They attacked to me.
+* C) They attacked on me.
+* D) They attacked me.
+* **Answer**: D
+12. Change narration: "Did Ayesha wrote a letter to her sister?"
+* A) Was a letter written by Ayesha to her sister.
+* B) Did a letter wrote by Ayesha to her sister.
+* C) Was a letter being written by Ayesha to her sister.
+* D) None of these
+* **Answer**: A
+13. Choose the antonym of Capital letter: MODEST
+* A) Unhappy
+* B) Conceited
+* C) Sullen
+* D) Glum
+* **Answer**: B
+14. A watched pot never ______.
+* A) Cooked
+* B) Steams
+* C) Boils
+* D) None of these
+* **Answer**: C
+15. We will go out when it ______ raining.
+* A) Stops
+* B) would Stop
+* C) Stopped
+* D) Stopping
+* **Answer**: A
+16. Which of these is used between sentences which are grammatically independent?
+* A) Hyphen
+* B) Comma
+* C) Colon
+* D) Semi colon
+* **Answer**: C
+17. Choose the correct punctuation sentence:
+* A) My aunt, who lives in Lahore, is a doctor.
+* B) My aunt who lives in Lahore is a doctor.
+* C) My aunt, who lives in Lahore is a doctor.
+* D) None of these
+* **Answer**: A
+18. Complete the phrase: A leopard can't change its ______.
+* A) Spots
+* B) Food
+* C) Feet
+* D) None of these
+* **Answer**: A
+19. What is the meaning of the underlined idiom "In the start of the game they were losing, but they managed to carry the day in the end."
+* A) To be successful or victorious
+* B) Bad day
+* C) To be exhausted after the game
+* D) To lose the game
+* **Answer**: A
+20. Which one is correct sentence:
+* A) Why didn't you go?
+* B) Why didn't go you?
+* C) Why didn't you go!
+* D) None of these
+* **Answer**: A
+21. What is the meaning of the underlined idiom in the sentence: "He escaped from the secret police by the skin of his teeth":
+* A) Vast
+* B) Narrowly
+* C) Openly
+* D) None of these
+* **Answer**: B
+22. Many a man ______ killed by them.
+* A) were
+* B) was
+* C) had been
+* D) None of these
+* **Answer**: B
+23. Choose the correct sentence.
+* A) She accused him of stealing her purse.
+* B) She accuse him with stealing her purse.
+* C) She accused him to stealing her purse.
+* D) None of these
+* **Answer**: A
+24. A word that is composed of the first letters of a phrase is called:
+* A) Acronym
+* B) Phonics
+* C) Abridgement
+* D) None of these
+* **Answer**: A
+
+**Category: Islamiat**
+1. Which one of the following was born inside the Holy Kaaba?
+* A) Hazrat Abu Bakar RA
+* B) Hazrat Umar RA
+* C) Hazrat Usman RA
+* D) Hazrat Ali RA
+* **Answer**: D
+2. The law about Zina was revealed in which Hijri year?
+* A) 5 Hijri
+* B) 6 Hijri
+* C) 7 Hijri
+* D) 8 Hijri
+* **Answer**: A
+3. How many Prophets are mentioned by name in the Holy Quran?
+* A) 11
+* B) 14
+* C) 37
+* D) 41
+* **Answer**: C
+4. The wars in which Prophet Muhammad (PBUH) personally participated are known as:
+* A) Ghazwa
+* B) Sarriya
+* C) Fiqh
+* D) Jihad
+* **Answer**: A
+5. Din Ilahi was introduced by:
+* A) Aurangzeb
+* B) Shah Jahan
+* C) Akbar
+* D) Jahangir
+* **Answer**: C
+6. Sheikh Ahmad Sirhindi born in:
+* A) 1532 AD
+* B) 1554 AD
+* C) 1564 AD
+* D) 1581 AD
+* **Answer**: C
+7. Hazrat Sauda (RA), one of the wives of the Prophet Muhammad (PBUH), died during the caliphate of:
+* A) Hazrat Abu Bakr RA
+* B) Hazrat Umar RA
+* C) Hazrat Usman RA
+* D) Hazrat Ali RA
+* **Answer**: B
+8. Which woman narrated the most hadiths from Prophet Muhammad (PBUH)?
+* A) Hazrat Ayesha RA
+* B) Hazrat Fatima RA
+* C) Hazrat Hafsa RA
+* D) Hazrat Khadija RA
+* **Answer**: A
+9. The period of Prophet Muhammad (PBUH) in Makkah after the revelation of Wahi (Divine Revelation) lasted for:
+* A) 10 years
+* B) 11 years
+* C) 12 years
+* D) 13 years
+* **Answer**: D
+10. Which scientific word formation is necessary to understand the words of Qur'an?
+* A) Etymology
+* B) Syntax
+* C) Morphology
+* D) All of these
+* **Answer**: D
+11. During the time of which Prophet did the Bani Israel settle in Egypt?
+* A) Prophet Ibrahim (AS)
+* B) Prophet Musa (AS)
+* C) Prophet Dawood (AS)
+* D) Prophet Yousaf (AS)
+* **Answer**: D
+12. Ahsan-ul-Qasas (the best of stories) is related to which Prophet?
+* A) Prophet Ibrahim (AS)
+* B) Prophet Musa (AS)
+* C) Prophet Dawood (AS)
+* D) Prophet Yousaf (AS)
+* **Answer**: D
+13. Which Surah was recited by the Prophet Muhammad (PBUH) at the time of the Fath (Conquest) of Makkah?
+* A) Surah Al-Fatiha
+* B) Surah Al-Fath
+* C) Surah Al-Nasr
+* D) Surah Al-Ikhlas
+* **Answer**: B
+14. Who translated the Quran in Subcontinent as Fateh-ur-Rehman?
+* A) Shah Abdul Aziz
+* B) Shah Wali Ullah
+* C) Maulana Ashraf Thanvi
+* D) None of these
+* **Answer**: B
+15. Imam Tirmazi died in?
+* A) 277 AH
+* B) 278 AH
+* C) 279 AH
+* D) None of These
+* **Answer**: C
+16. The translation of the Qur'an known as Zia ul-Quran in the Subcontinent was done by:
+* A) Pir Muhammad Karam Shah Al-Azhari
+* B) Maulana Abul Kalam Azad
+* C) Imam Ahmad Raza Khan
+* D) None of these
+* **Answer**: A
+17. Who wrote the book "Kitab al Kharaj"?
+* A) Imam Abu Hanifa
+* B) Imam Shafi
+* C) Imam Abu Yusuf
+* D) Muhammad Al Shaybani
+* **Answer**: C
+18. Khateeb-ul-Anbia is a title of:
+* A) Hazrat Idrees AS
+* B) Hazrat Shoaib AS
+* C) Hazrat Yaqoob AS
+* D) Hazrat Ibrahim AS
+* **Answer**: B
+19. Name of Abasinian King Najashi was:
+* A) فارقلیط
+* B) مقوقس
+* C) اصحمہ
+* D) None of these
+* **Answer**: C
+20. During the tenure of which caliph was Tarawih prayed in congregation (Ba Jammat) for the first time?
+* A) Hazrat Abu Bakr RA
+* B) Hazrat Umar RA
+* C) Hazrat Usman RA
+* D) Hazrat Ali RA
+* **Answer**: B
+21. Shaqq-e-Sadr occurred how many times:
+* A) 4
+* B) 6
+* C) 10
+* D) None of these
+* **Answer**: A
+22. The type of Hadith in which the chain of narrators remains unbroken and continuous is called:
+* A) Hasan
+* B) Mutawatir
+* C) Mutassil
+* D) None of these
+* **Answer**: C
+23. Which book compiled by Ahmad Bin Shoaib RA:
+* A) Tirmazi
+* B) Al Bukhari
+* C) Ibn Maja
+* D) None of these
+* **Answer**: D
+24. قیامت کے دن نامہ اعمال میں سب سے وزنی چیز ہوگی۔
+* A) نماز
+* B) حج
+* C) حُسنِ اخلاق
+* D) حقوق العباد
+* **Answer**: C
+
+**Model Paper 172**
+**Category: General Knowledge**
+1. Transnational advocacy networks and epistemic communities are linked by:
+* A) Nationalism & Geography
+* B) Educational Background
+* C) Former Government Service
+* D) Expertise and Activism in social issues
+* **Answer**: D
+
+2. The first Asian Games were held in which country?
+* A) China
+* B) Japan
+* C) India
+* D) South Korea
+* **Answer**: C
+
+3. Which organization works for the liberalization of foreign trade and investment?
+* A) World Trade Organization (WTO)
+* B) United Nations (UN)
+* C) World Bank
+* D) International Monetary Fund (IMF)
+* **Answer**: A
+
+4. Dr. Sun Yat-sen served as the President of which country?
+* A) Japan
+* B) China
+* C) South Korea
+* D) Vietnam
+* **Answer**: B
+
+5. China launched the Long March 5B rocket on which date?
+* A) April 29, 2021
+* B) May 5, 2021
+* C) April 29, 2020
+* D) May 10, 2021
+* **Answer**: A
+
+6. Yasir Arafat and his friends founded Al-Fatah in:
+* A) 1958
+* B) 1960
+* C) 1962
+* D) 1964
+* **Answer**: A
+
+7. Which Indian professor and diplomat said, "India illegally occupied Kashmir"?
+* A) Krishna Menon
+* B) V.P. Menon
+* C) J.P. Narayan
+* D) Nivedita Menon
+* **Answer**: D
+
+8. What is the capital of Liberia?
+* A) Freetown
+* B) Accra
+* C) Bamako
+* D) Monrovia
+* **Answer**: D
+
+9. Burhan Wani, the famous Kashmiri leader, was martyred in which year?
+* A) 2015
+* B) 2016
+* C) 2017
+* D) 2018
+* **Answer**: B
+
+**Category: Pakistan Affairs**
+1. Sanghar District in Sindh is famous for:
+* A) Fish
+* B) Art
+* C) Hur Mujhaid
+* D) Culture
+* **Answer**: C
+
+2. Pakistan's culture is basically:
+* A) Exclusive
+* B) Goal kick
+* C) Separatist
+* D) Collectivist
+* **Answer**: D
+
+3. What was the name of PIA's hotel in New York?
+* A) Roosevelt Hotel
+* B) Hilton Manhattan
+* C) Empire State Inn
+* D) Karachi House
+* **Answer**: A
+
+4. What is Pakistan's biggest export commodity?
+* A) Rice
+* B) Textiles and Garments
+* C) Sports Goods
+* D) Leather Products
+* **Answer**: B
+
+5. Which type of government was proposed in the Objectives Resolution?
+* A) Dictatorship
+* B) Democracy
+* C) Monarchy
+* D) Autocracy
+* **Answer**: B
+
+6. The Indian National Congress did not take part in which of the following Round Table Conferences?
+* A) First
+* B) Second
+* C) Second & Third
+* D) First & Third
+* **Answer**: D
+
+7. British army assets were divided between Pakistan and India. Pakistan's share was:
+* A) 16%
+* B) 36%
+* C) 54%
+* D) 72%
+* **Answer**: B
+
+8. Which Viceroy had the longest tenure in India?
+* A) Lord Harding
+* B) Lord Mayo
+* C) Lord Linlithgow
+* D) Lord Wavell
+* **Answer**: C
+
+9. Who did not follow Quaid-e-Azam Muhammad Ali Jinnah's command during the Kashmir issue in 1947?
+* A) General Douglas Gracey
+* B) Sardar Patel
+* C) Frank Messervy
+* D) Mountbatten
+* **Answer**: A
+
+10. State means:
+* A) Federal Government
+* B) Provincial Government
+* C) Parliament
+* D) All of these
+* **Answer**: D
+
+11. The Poona Pact of 1932 was for:
+* A) Muslims
+* B) Sikhs
+* C) Achhoots / Untouchables
+* D) Brahman
+* **Answer**: C
+
+12. Who was the first Admiral of the Pakistan Navy?
+* A) James Wilfred Jefford
+* B) Haji Mohammad Siddiq
+* C) Afzal Rahman Khan
+* D) Syed Mohammad Ahsan
+* **Answer**: A
+
+13. How many amendments were proposed by Jinnah in the Nehru Report?
+* A) Two
+* B) Three
+* C) Four
+* D) Seven
+* **Answer**: B
+
+14. In 2018, the Federally Administered Tribal Areas (FATA) merged into:
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: C
+
+15. The Wardha Scheme is related to:
+* A) Education
+* B) Agriculture
+* C) Child welfare
+* D) Development
+* **Answer**: A
+
+16. Pakistan conducted five nuclear tests on which date?
+* A) May 11, 1998
+* B) May 28, 1998
+* C) June 1, 1998
+* D) May 14, 1998
+* **Answer**: B
+
+17. Ganda Singh Border connects:
+* A) Lahore & Amritsar
+* B) Kasur & Firozpur
+* C) Sialkot-Gurdaspur
+* D) None of these
+* **Answer**: B
+
+18. Babul Islam is referred to as which province of:
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: B
+
+**Category: Current Affairs**
+1. Fitch Ratings upgraded Pakistan's credit rating in April 2025 due to:
+* A) Reduction in fiscal deficit
+* B) Increase in remittances
+* C) Implementation of IMF program
+* D) All of these
+* **Answer**: D
+
+**Category: Geography**
+1. Sindh Sagar Doab lies between which two rivers?
+* A) Chenab & Jhelum
+* B) Sindh & Jhelum
+* C) Sindh & Chenab
+* D) Sindh & Ravi
+* **Answer**: B
+
+2. What is the largest ethnic group in Afghanistan?
+* A) Tajik
+* B) Hazara
+* C) Pashtun
+* D) Uzbek
+* **Answer**: C
+
+3. Cable Beach is located in which country?
+* A) Australia
+* B) Bahamas
+* C) New Zealand
+* D) Mexico
+* **Answer**: A
+
+**Category: Everyday Science**
+1. False ceiling refers to:
+* A) Increasing ventilation
+* B) Cooling of the room
+* C) Insulation of the roof
+* D) Improving air circulation
+* **Answer**: C
+
+2. Who invented the lightning rod?
+* A) Thomas Edison
+* B) Nikola Tesla
+* C) Michael Faraday
+* D) Benjamin Franklin
+* **Answer**: D
+
+3. A decrease in atmospheric pressure can cause:
+* A) Intense conditions
+* B) Wind
+* C) Rain
+* D) Pleasant conditions
+* **Answer**: C
+
+4. When a ball is thrown vertically upward, what is the velocity of the ball at the highest point?
+* A) Zero
+* B) Maximum
+* C) Constant
+* D) Minimum
+* **Answer**: A
+
+5. The salivary glands produce which enzyme?
+* A) Pepsin
+* B) Lipase
+* C) Trypsin
+* D) Ptyalin
+* **Answer**: D
+
+6. A generator converts which type of energy into electrical energy?
+* A) Heat
+* B) Chemical
+* C) Solar
+* D) Mechanical
+* **Answer**: D
+
+7. What was the name of the first animal to be successfully cloned in Scotland?
+* A) Goat
+* B) Dog
+* C) Sheep
+* D) Cow
+* **Answer**: C
+
+8. The mixture of the following gases: hydrogen, methane, and carbon monoxide is called:
+* A) Coal gas
+* B) CNG
+* C) Biogas
+* D) Natural gas
+* **Answer**: A
+
+**Category: Computer**
+1. Which key can be used to start a presentation from the beginning of the slides in Microsoft PowerPoint?
+* A) F2
+* B) F5
+* C) F1
+* D) Esc
+* **Answer**: B
+
+2. What happens when you convert a Word file into a PDF document?
+* A) It appears as a read-only document
+* B) It shares to everyone automatically
+* C) It reduces the size of the document
+* D) It can be edited by anyone
+* **Answer**: A
+
+3. Ctrl + N is used to:
+* A) Save Document
+* B) Open Document
+* C) Close Document
+* D) New Document
+* **Answer**: D
+
+4. In Excel, press ______ key to enter a new line within the same cell.
+* A) Ctrl + Enter
+* B) Shift + Enter
+* C) Alt + Enter
+* D) Ctrl + Shift + Enter
+* **Answer**: C
+
+5. Two or more computers connected to each other of sharing information form a:
+* A) Network
+* B) Library
+* C) Server
+* D) None of these
+* **Answer**: A
+
+6. The Master Document feature in MS Word allows:
+* A) Inserting charts into sections
+* B) Protect file with password
+* C) Manage and edit multiple subdocuments within a single master document
+* D) It can resize all documents
+* **Answer**: C
+
+7. Wi-Fi stands for:
+* A) Wireless Fidelity
+* B) Wide Frequency
+* C) Wireless Functionality
+* D) Worldwide Fidelity
+* **Answer**: A
+
+8. What is the default file extension for a Microsoft Excel workbook?
+* A) .xlsx
+* B) .xls
+* C) .csv
+* D) .xlm
+* **Answer**: A
+
+9. Which function returns the current time in Excel?
+* A) =NOW()
+* B) =DATE()
+* C) =TODAY()
+* D) =CURRENTDATE()
+* **Answer**: A
+
+10. Which one is a function key?
+* A) F5, F6, F7
+* B) Ctrl + Alt + Del
+* C) Shift+F10
+* D) Tab + 1
+* **Answer**: A
+
+11. ______ option can be used for creating a new presentation using already available colors and graphics.
+* A) Transition tab
+* B) Theme tab
+* C) Animation tab
+* D) Template tab
+* **Answer**: D
+
+12. In which option can you apply the same design to all slides in a PowerPoint presentation?
+* A) Transition tab
+* B) Design tab
+* C) Insert tab
+* D) Animation tab
+* **Answer**: B
+
+13. To effectively move text, images, and objects in Microsoft PowerPoint using:
+* A) Animation
+* B) Theme
+* C) Template
+* D) Transition
+* **Answer**: A
+
+14. In Excel, a formula always starts with which symbol?
+* A) +
+* B) =
+* C) @
+* D) #
+* **Answer**: B
+
+15. Which tab is used to add bibliography and citation in MS Word?
+* A) Insert
+* B) References
+* C) Design
+* D) Home
+* **Answer**: B
+
+16. Which key is used for Help?
+* A) F1
+* B) F2
+* C) F5
+* D) F11
+* **Answer**: A
+
+17. Cyber security is a system designed to protect computer networks and/or defend against:
+* A) Unauthorized Access
+* B) Exploitation
+* C) Modification
+* D) All of these
+* **Answer**: D
+
+18. Which key is used to view Slide Show view in PowerPoint?
+* A) F1
+* B) F2
+* C) F5
+* D) F12
+* **Answer**: C
+
+19. Which shortcut key is used to insert a hyperlink?
+* A) Ctrl + H
+* B) Ctrl + K
+* C) Ctrl + L
+* D) Ctrl + Y
+* **Answer**: B
+
+20. The innermost directory in the given path C > Documents and files > Desktop > City > Market > Computer is:
+* A) C
+* B) Document and files
+* C) Computer
+* D) Market
+* **Answer**: C
+
+**Category: English**
+1. The piece of cloth will do ______ a turban.
+* A) by
+* B) for
+* C) to
+* D) with
+* **Answer**: B
+
+2. What is the synonym of Praiseworthy:
+* A) Despicable
+* B) Shameful
+* C) Ignoble
+* D) Creditable
+* **Answer**: D
+
+3. You should put ______ something for a rainy day.
+* A) on
+* B) by
+* C) down
+* D) up
+* **Answer**: B
+
+4. Choose the correctly punctuated sentence
+* A) My aunt who lives in Karachi is a doctor.
+* B) My aunt, who lives in Karachi, is a doctor.
+* C) My aunt, who lives in Karachi is a doctor.
+* D) My aunt who lives in Karachi, is a doctor.
+* **Answer**: B
+
+5. Synonym of INTRINSIC:
+* A) Intricate
+* B) Complicated
+* C) Secret
+* D) Essential
+* **Answer**: D
+
+6. We sit ______ the shade of the mango tree.
+* A) under
+* B) from
+* C) of
+* D) in
+* **Answer**: D
+
+7. He was hiding something ______ the curtain.
+* A) Below
+* B) Behind
+* C) Beneath
+* D) Under
+* **Answer**: B
+
+8. He is ______ one-eyed person.
+* A) an
+* B) a
+* C) the
+* D) of
+* **Answer**: B
+
+9. Identify the underlined word. She is walking along the road.
+* A) Adverb
+* B) Adjective
+* C) Conjunction
+* D) Preposition
+* **Answer**: D
+
+10. The passengers were very happy ______ the friendly and warm treatment given to them.
+* A) by
+* B) to
+* C) of
+* D) at
+* **Answer**: A
+
+11. What is the synonym of Abasement:
+* A) Elevation
+* B) Improvement
+* C) Humiliation
+* D) Promotion
+* **Answer**: C
+
+12. He said, "What a beautiful day it is." What is the correct indirect (reported) speech?
+* A) He exclaimed with sorrow that it was a beautiful day.
+* B) He exclaimed with wonder that it was a very beautiful day.
+* C) He said that it is a beautiful day.
+* D) He exclaimed that it is a very beautiful day.
+* **Answer**: B
+
+13. They said, "We will visit London next week." What is the correct indirect (reported) speech?
+* A) They said that we would visit London next week.
+* B) They said that they would visit London following week.
+* C) They said that they will visit London next week.
+* D) They said that we were visit London next week.
+* **Answer**: B
+
+14. What does Loathe mean:
+* A) Entrench
+* B) Abjure
+* C) Detest
+* D) Meddle
+* **Answer**: C
+
+15. A verb which ends with (ing) and acts as a noun is called:
+* A) Adjective
+* B) Gerund
+* C) Infinitive
+* D) Participle
+* **Answer**: B
+
+16. "Don't sleep" is reported as ______:
+* A) He advised to not sleep
+* B) He said to not sleep
+* C) He ordered not to sleep
+* D) He instructed not to sleep
+* **Answer**: C
+
+**Category: Islamiat**
+1. The first capital of Abbasid caliphate was:
+* A) Kufa
+* B) Baghdad
+* C) Damascus
+* D) Basra
+* **Answer**: A
+
+2. Which year is called the Year of Sorrow?
+* A) 7 Nabvi
+* B) 8 Nabvi
+* C) 9 Nabvi
+* D) 10 Nabvi
+* **Answer**: D
+
+3. Qasr prayer is allowed in which of the following situations:
+* A) When sick
+* B) When travelling
+* C) During Ramazan
+* D) None of these
+* **Answer**: B
+
+4. Which Umayyad ruler standardized the currency?
+* A) Umar Bin Abdul Aziz
+* B) Abdul Malik Ibn Marwan
+* C) Marwan-II
+* D) Al Walid
+* **Answer**: B
+
+5. How many sons did Hazrat Yaqoob (A.S) have?
+* A) 10
+* B) 11
+* C) 12
+* D) 13
+* **Answer**: C
+
+6. پہلے امیر حج کون تھے؟
+* A) حضرت ابوبکر صدیق رضی اللہ عنہ
+* B) حضرت عمر بن خطاب رضی اللہ عنہ
+* C) حضرت عثمان بن عفان رضی اللہ عنہ
+* D) حضرت علی بن ابی طالب رضی اللہ عنہ
+* **Answer**: A
+
+7. ہجرت کے پانچویں سال حضور صلی اللہ علیہ وسلم سے کس امہات المومنین سے نکاح ہوا؟
+* A) حضرت صفیہ رضی اللہ عنہا
+* B) حضرت زینب بنت جحش رضی اللہ عنہا
+* C) حضرت جویریہ رضی اللہ عنہا
+* D) حضرت ام سلمہ رضی اللہ عنہا
+* **Answer**: B
+
+**Model Paper 173**
+**Category: General Knowledge**
+1. In which year did the USSR officially end?
+* A) 1989
+* B) 1991
+* C) 1997
+* D) 1999
+* **Answer**: B
+
+2. Who was the Mughal Emperor during the reign of Queen Elizabeth I?
+* A) Shah Jahan
+* B) Babar
+* C) Akbar
+* D) Jahangir
+* **Answer**: C
+
+3. Which country provided $144 million in humanitarian aid to Afghanistan in 2021?
+* A) USA
+* B) UK
+* C) Germany
+* D) China
+* **Answer**: A
+
+4. The term "Cold War" was first used by:
+* A) F.D. Roosevelt
+* B) Bernard Baruch
+* C) Stalin
+* D) Churchill
+* **Answer**: B
+
+5. India procured the S-400 Triumf air defense missile system from:
+* A) Russia
+* B) UK
+* C) Germany
+* D) US
+* **Answer**: A
+
+6. Realism theory in international relations is most closely associated with which personality?
+* A) John Locke
+* B) Thomas Hobbes
+* C) Hans J. Morgenthau
+* D) Immanuel Kant
+* **Answer**: C
+
+7. Third battle of Panipat was fought between:
+* A) Mughal Empire and Marathas
+* B) Marathas and Sikhs
+* C) Marathas and Afghan forces
+* D) Mughals and Rajputs
+* **Answer**: C
+
+8. Which level of analysis explains relation between states?
+* A) Individual level
+* B) Domestic level
+* C) Global level
+* D) Bureaucratic level
+* **Answer**: C
+
+9. Hungry remained under the control of Ottoman Empire how many years?
+* A) 111 years
+* B) 135 years
+* C) 158 years
+* D) 190 years
+* **Answer**: C
+
+10. Zoom App is used for?
+* A) Graphic Designing
+* B) Audio Conferencing
+* C) Video Conferencing
+* D) File sharing
+* **Answer**: C
+
+11. Name of Anti-globalization movement:
+* A) North South Movement
+* B) East West Movement
+* C) Global Justice Movement
+* D) Anti-WTO Movement
+* **Answer**: C
+
+12. Fitch Indicator survey shows:
+* A) Returning capacity of loan by lender country
+* B) Given amount of loan by lender country
+* C) GDP Growth
+* D) Creditworthiness of the borrower country
+* **Answer**: C
+
+13. What was the official theme of the 2016 Rio Olympics?
+* A) One World, One Dream
+* B) A New World
+* C) Inspire a Generation
+* D) Share the Spirit
+* **Answer**: B
+
+14. Which is not an American state?
+* A) Paraguay
+* B) Alaska
+* C) Canada
+* D) Texas
+* **Answer**: A
+
+15. Burhan Wani died in which year:
+* A) 2012
+* B) 2016
+* C) 2018
+* D) 2021
+* **Answer**: B
+
+**Category: Pakistan Affairs**
+1. The Mami Khel gas field reserves are in the south of which province?
+* A) Punjab
+* B) Sindh
+* C) Khyber Pakhtunkhwa
+* D) Baluchistan
+* **Answer**: C
+
+2. Samiullah is associated with which sport:
+* A) Cricket
+* B) Football
+* C) Hockey
+* D) Badminton
+* **Answer**: C
+
+3. In which year was Malala Yousafzai awarded the Nobel Peace Prize?
+* A) 2012
+* B) 2014
+* C) 2016
+* D) 2018
+* **Answer**: B
+
+4. Bin Qasim Port started function in:
+* A) 1947
+* B) 1956
+* C) 1980
+* D) 1973
+* **Answer**: C
+
+5. Who is the owner of Hashoo Group?
+* A) Murtaza Hashwani
+* B) Shahnawaz Hashwani
+* C) Sadruddin Hashwani
+* D) Zafar Hashwani
+* **Answer**: C
+
+6. Which philosophy was given by Sheikh Ahmad Sirhindi?
+* A) Wahdat al-Shuhud
+* B) Wahdat al-Wajud
+* C) Secularism
+* D) None of these
+* **Answer**: A
+
+7. "Jeevay Jeevay Pakistan" was sung by which of the following artists?
+* A) Noor Jehan
+* B) Shahnaz Begum
+* C) Abida Parveen
+* D) Nazia Hassan
+* **Answer**: B
+
+8. Who was the first Foreign Minister of Pakistan?
+* A) Liaquat Ali Khan
+* B) Zulfikar Ali Bhutto
+* C) Zafarullah Khan
+* D) Khwaja Nazimuddin
+* **Answer**: C
+
+9. The Agra Summit between India and Pakistan was held in which year?
+* A) 1991
+* B) 2001
+* C) 2011
+* D) 2021
+* **Answer**: B
+
+10. When were diplomatic relations between Pakistan and China established?
+* A) May 1, 1950
+* B) May 21, 1951
+* C) August 14, 1952
+* D) July 5, 1951
+* **Answer**: B
+
+11. Special courts in Pakistan established by which amendment for trial of heinous offenses:
+* A) 11th
+* B) 10th
+* C) 12th
+* D) 15th
+* **Answer**: C
+
+12. For how many years did the Constitution of Pakistan 1962 remain in effect?
+* A) 4 years
+* B) 5 years
+* C) 6 years
+* D) 7 years
+* **Answer**: D
+
+13. Muhammad Khan Junejo became the Prime Minister of Pakistan in:
+* A) 1983
+* B) 1985
+* C) 1968
+* D) 1991
+* **Answer**: B
+
+14. Shah Jahan was succeeded by which Mughal Emperor?
+* A) Aurangzeb
+* B) Akbar
+* C) Humayoun
+* D) Jahangir
+* **Answer**: A
+
+15. In which year was the 17th Amendment to the Constitution of Pakistan passed?
+* A) January 2001
+* B) December 2002
+* C) March 2009
+* D) December 2003
+* **Answer**: D
+
+16. In which city did Sir Syed Ahmed Khan found the Scientific Society in 1863?
+* A) Ghazipur
+* B) Delhi
+* C) Lahore
+* D) Lucknow
+* **Answer**: A
+
+17. In which year did Orient Airways become Pakistan International Airlines (PIA) and start operating as a corporation?
+* A) 1951
+* B) 1953
+* C) 1955
+* D) 1961
+* **Answer**: C
+
+18. Gandhi Irwin pact ended in which movement in 1931?
+* A) Swadeshi Movement
+* B) Civil Disobedience Movement
+* C) Khilafat Movement
+* D) Quit India Movement
+* **Answer**: B
+
+19. Who was the first President of Pakistan?
+* A) Zulfikar Ali Bhutto
+* B) Isikandar Mirza
+* C) Ayub Khan
+* D) Liaqat Ali Khan
+* **Answer**: B
+
+20. Which leader was assassinated on 27th December 2007 in Rawalpindi?
+* A) Liaqat Ali Khan
+* B) Murtaza Bhutto
+* C) Benazir Bhutto
+* D) Samil Ul Haq
+* **Answer**: C
+
+21. Dyarchy was introduced in sub-continent by:
+* A) Congress
+* B) British Government
+* C) Kings
+* D) Maratha Empire
+* **Answer**: B
+
+**Category: Current Affairs**
+1. Which team made its debut in the ICC Champions Trophy 2025?
+* A) Sri Lanka
+* B) Afghanistan
+* C) Ireland
+* D) Nepal
+* **Answer**: B
+
+2. Who is the current President of Iran?
+* A) Ebrahim Raisi
+* B) Muhammad Mokhber
+* C) Masoud Pezeshkian
+* D) Ali Khamenei
+* **Answer**: C
+
+3. Who is the current Vice President of the United States?
+* A) Kamala Harris
+* B) JD Vance
+* C) Mike Pence
+* D) Joe Biden
+* **Answer**: B
+
+4. Which sector of Pakistan economy is most likely to be affected by US Tariff:
+* A) Textile
+* B) IT
+* C) Agriculture
+* D) Pharmaceuticals
+* **Answer**: A
+
+5. IMF approved a loan of ______ for Pakistan under its Resilience and sustainability program from Pakistan.
+* A) $1.3 billion
+* B) $2.3 billion
+* C) $3.3 billion
+* D) $4.3 billion
+* **Answer**: A
+
+**Category: Geography**
+1. The Pothohar Plateau and Salt Range in Pakistan are situated between:
+* A) The Indus River and Ravi River
+* B) The Indus River and Jhelum River
+* C) The Jhelum River and Chenab River
+* D) The Ravi River and Sutlej River
+* **Answer**: B
+
+2. Which is the smallest city in the world by population and area?
+* A) Monaco
+* B) San Marino
+* C) Vatican City
+* D) Nauru
+* **Answer**: C
+
+3. Which country lies to the east of Pakistan?
+* A) China
+* B) Afghanistan
+* C) India
+* D) Iran
+* **Answer**: C
+
+4. The water of which river is shared by India, China, and Bangladesh?
+* A) Ganges
+* B) Indus
+* C) Brahmaputra
+* D) Yamuna
+* **Answer**: C
+
+5. Chaj Doab is between:
+* A) Jhelum River and Ravi River
+* B) Chenab River and Sutlej River
+* C) Jhelum River and Chenab River
+* D) Indus River and Ravi River
+* **Answer**: C
+
+6. The largest lake in the world is:
+* A) Lake Superior
+* B) Caspian Sea
+* C) Lake Victoria
+* D) Lake Huron
+* **Answer**: B
+
+7. Which is the capital of Bulgaria?
+* A) Bucharest
+* B) Sofia
+* C) Belgrade
+* D) Zagreb
+* **Answer**: B
+
+**Category: Everyday Science**
+1. Ice float on water because:
+* A) Ice is denser than water
+* B) Water is dense than ice
+* C) It is more viscous than water
+* D) Ice has more surface tension than water
+* **Answer**: B
+
+2. Taste buds are for:
+* A) Digestion
+* B) Selection
+* C) Respiration
+* D) Safety
+* **Answer**: B
+
+3. Soil erosion is caused by:
+* A) Deforestation
+* B) Residual
+* C) Mining
+* D) Leaching
+* **Answer**: A
+
+4. Which is the nearest galaxy to Earth?
+* A) Milky Way
+* B) Andromeda Galaxy
+* C) Triangulum Galaxy
+* D) Sombrero Galaxy
+* **Answer**: B
+
+5. Which of the following is an example of a mineral acid?
+* A) Acetic Acid
+* B) Citric Acid
+* C) Sulfuric Acid
+* D) Tartaric Acid
+* **Answer**: C
+
+6. How many vertebrae are there in the human body?
+* A) 24
+* B) 33
+* C) 26
+* D) 32
+* **Answer**: B
+
+**Category: Computer**
+1. What is the function of the Ctrl + C shortcut key:
+* A) Paste
+* B) Cut
+* C) Copy
+* D) Save
+* **Answer**: C
+
+2. Which of the following is an open-source operating system?
+* A) Windows
+* B) macOS
+* C) Linux
+* D) iOS
+* **Answer**: C
+
+3. Which is the most commonly used search engine?
+* A) Yahoo
+* B) Bing
+* C) Google
+* D) DuckDuckGo
+* **Answer**: C
+
+4. What is the shortcut key to insert a hyperlink?
+* A) Ctrl + L
+* B) Ctrl + H
+* C) Ctrl + K
+* D) Ctrl + P
+* **Answer**: C
+
+5. What is the smallest unit of memory in a computer?
+* A) Bit
+* B) Word
+* C) Nibble
+* D) Byte
+* **Answer**: A
+
+6. Which of the following is a popular cloud storage service?
+* A) Drive
+* B) Drop Box
+* C) Google Mail
+* D) Chrome
+* **Answer**: B
+
+**Category: English**
+1. What is the antonym of Facsimile:
+* A) Duplicate
+* B) Copy
+* C) Original
+* D) Replica
+* **Answer**: C
+
+2. Complete the sentence: Five people have joined the job and seven ______ resigned.
+* A) has
+* B) have
+* C) was
+* D) is
+* **Answer**: B
+
+3. English Correction: These is a perfect method.
+* A) This is the perfect method
+* B) This is a perfect method
+* C) These is a perfect method
+* D) This is an perfect method
+* **Answer**: B
+
+4. Complete the sentence: She came later than ______.
+* A) Me
+* B) I
+* C) Myself
+* D) Her
+* **Answer**: B
+
+5. Identify the grammatically correct sentence:
+* A) Many a soldiers lost their lives in the battle.
+* B) Many a soldier lost their life in the battle.
+* C) Many a soldier lost his life in the battle.
+* D) Many a soldier lose their life in the battle.
+* **Answer**: C
+
+6. Better to be un-taught than ill-taught. Ill-taught in the sentence is:
+* A) Noun
+* B) Verb
+* C) Adjective
+* D) Adverb
+* **Answer**: C
+
+7. What is the antonym of Wrath:
+* A) Anger
+* B) Fury
+* C) Rage
+* D) Delight
+* **Answer**: D
+
+8. Complete the sentence: She is overwhelmed ______ grief.
+* A) of
+* B) by
+* C) with
+* D) in
+* **Answer**: C
+
+9. What is the antonym of Fickle:
+* A) Unpredictable
+* B) Changeable
+* C) Steadfast
+* D) Variable
+* **Answer**: C
+
+10. Which is the correct spelling?
+* A) Questionare
+* B) Questionaire
+* C) Questionnaire
+* D) Questionnar
+* **Answer**: C
+
+11. This record enables me to balance ______ the facts of my life and decide what to do with it.
+* A) up
+* B) on
+* C) down
+* D) of
+* **Answer**: A
+
+12. Identify the correct punctuation for the sentence: "dont to be late"
+* A) "Don't be late."
+* B) Don't to be late.
+* C) Dont be late.
+* D) None of these
+* **Answer**: A
+
+13. Many young men were ______ at street corners for the coffee bar to open.
+* A) Hanging back
+* B) Hanging in
+* C) Hanging about
+* D) Hanging on
+* **Answer**: C
+
+**Category: Islamiat**
+1. "صحیفہ صادقہ" کے مصنف کون ہیں؟
+* A) حضرت عبداللہ بن عمرو
+* B) امام بخاری
+* C) امام ابو حنیفہ
+* D) امام مالک
+* **Answer**: A
+2. How many sons of Hazrat Yaqoob A.S?
+* A) 10
+* B) 12
+* C) 14
+* D) 16
+* **Answer**: B
+3. حضرت فاطمہ بنت اسد کس کی والدہ تھیں؟
+* A) حضرت علی علیہ السلام
+* B) حضرت حسن علیہ السلام
+* C) حضرت حسین علیہ السلام
+* D) حضرت زینب علیہ السلام
+* **Answer**: A
+4. غسیل الملائکہ کس صحابی کا لقب ہے؟
+* A) حضرت طلحہؓ
+* B) حضرت حنظلہؓ
+* C) حضرت ابن عباسؓ
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+5. غزوہ احد میں حضرت محمد ﷺ نے کس دشمن کو دوزخ میں بھیجا؟
+* A) ابن ملجم
+* B) ابو جہل
+* C) ابی بن خلف
+* D) ان میں سے کوئی نہیں
+* **Answer**: C
+6. خیار بلوغ سے کیا مراد ہے؟
+* A) خرید و فروخت کا طریقہ
+* B) بالغ ہونے سے پہلے نکاح
+* C) زکوٰۃ کا نصاب
+* D) عدت کا وقت
+* **Answer**: B
+7. قرآن میں کتنی سورتیں ایسی ہیں جو کسی نبی کے نام پر ہیں؟
+* A) 3
+* B) 4
+* C) 5
+* D) 6
+* **Answer**: D
+8. وہ حدیث جسے ائمہ حدیث نے قابل حجت قرار دیا ہو، اسے کیا کہا جاتا ہے؟
+* A) ضعیف حدیث
+* B) صحیح حدیث
+* C) متروک حدیث
+* D) مردود حدیث
+* **Answer**: B
+9. بستان المحدثین کے مصنف کون ہیں؟
+* A) شاہ ولی اللہ دہلوی
+* B) امام بخاری
+* C) شاہ عبدالعزیز دہلوی
+* D) امام مسلم
+* **Answer**: C
+
+**Model Paper 174**
+**Category: General Knowledge**
+1. Which country won the first FIFA World Cup?
+* A) Argentina
+* B) Brazil
+* C) Uruguay
+* D) Germany
+* **Answer**: C
+
+2. Sheikh Zayed Bin Sultan Al Nahhyan ruled UAE for how many years:
+* A) 24
+* B) 29
+* C) 33
+* D) 39
+* **Answer**: C
+
+3. Who said, "Man is a social animal"?
+* A) Aristotle
+* B) Plato
+* C) Karl Marx
+* D) Sigmund Freud
+* **Answer**: A
+
+**Category: Pakistan Affairs**
+1. The First Five Year Plan of Pakistan ran from:
+* A) 1955-60
+* B) 1960-65
+* C) 1965-70
+* D) 1970-75
+* **Answer**: A
+
+2. Who became the Premier (Chief Minister) of Punjab after the 1937 elections under the Government of India Act 1935?
+* A) Allama Iqbal
+* B) Khizar Hayat Tiwana
+* C) Sir Sikandar Hayat Khan
+* D) Ch. Rehmat Ali
+* **Answer**: C
+
+**Category: Geography**
+1. Which is the Highest peak of Himalayas range in Pakistan:
+* A) K-2
+* B) Tirich Mir
+* C) Nanga Parbat
+* D) Sakasar
+* **Answer**: C
+
+**Category: Everyday Science**
+1. A submarine works according to which scientific law?
+* A) Newton's First Law
+* B) Archimedes' Principle
+* C) Pascal's Law
+* D) Boyle's Law
+* **Answer**: B
+
+2. The model where the Sun was believed to revolve around the Earth was first proposed by which scientist?
+* A) Nicolaus Copernicus
+* B) Ptolemy
+* C) Galileo Galilei
+* D) Johannes Kepler
+* **Answer**: B
+
+**Category: Computer**
+1. Computer chips are primarily made from which material?
+* A) Aluminum
+* B) Silicon
+* C) Germanium
+* D) Plastic
+* **Answer**: B
+
+2. What is the primary function of the camera in a smartphone?
+* A) To send text messages
+* B) To capture photos and videos
+* C) To make phone calls
+* D) To browse the internet
+* **Answer**: B
+
+3. Who converts program language to machine language?
+* A) Compiler
+* B) Interpreter
+* C) Debugger
+* D) Scanner
+* **Answer**: A
+
+**Category: English**
+1. What is the antonym of the word OVERWROUGHT
+* A) Angry
+* B) Calm
+* C) Stressed
+* D) Excited
+* **Answer**: B
+
+2. Which type of sentence is this: "He made a mistake after he apologized"?
+* A) Simple sentence
+* B) Compound sentence
+* C) Complex sentence
+* D) Complex-compound sentence
+* **Answer**: C
+
+3. Synonym of FLATTERY is:
+* A) Command
+* B) Cajole
+* C) Criticize
+* D) Ignore
+* **Answer**: B
+
+4. Change narration: The father said to his children, "Be punctual."
+* A) The father told his children to be punctual.
+* B) The father advised his children to be punctual.
+* C) The father ordered his children to be punctual.
+* D) The father said his children to be punctual.
+* **Answer**: B
+
+5. What is the synonym of the word Shaman:
+* A) Priest
+* B) Merchant
+* C) Soldier
+* D) Farmer
+* **Answer**: A
+
+**Category: Subject Related**
+1. In which year was the First Women Bank Limited (FWBL), the first women's bank in Pakistan, established?
+* A) 1985
+* B) 1989
+* C) 1992
+* D) 1995
+* **Answer**: B
+
+2. Ethics are deducted from which of the following?
+* A) Law
+* B) Value
+* C) Politics
+* D) Science
+* **Answer**: B
+
+3. A research tool where interview skills are not needed is:
+* A) Questionnaire
+* B) Interview
+* C) Focus group
+* D) Case study
+* **Answer**: A
+
+4. Who is the author of the 1970 book "The Dialectic of Sex: The Case for Feminist Revolution"?
+* A) Betty Friedan
+* B) Gloria Steinem
+* C) Shulamith Firestone
+* D) Simone de Beauvoir
+* **Answer**: C
+
+5. Social welfare is systematically and professionally worked for by:
+* A) Government agencies only
+* B) Voluntary agencies only
+* C) Both government and voluntary agencies
+* D) Private organizations only
+* **Answer**: C
+
+6. What is the main difference between Social Work and Sociology?
+* A) Sociology focuses on individual behavior, while social work focuses on society as a whole.
+* B) Sociology is the study of society, while social work is the practice of applying that knowledge to improve lives.
+* C) Sociology is focused on theoretical knowledge, while social work is concerned only with research.
+* D) Sociology and social work are the same, they just have different names in different countries.
+* **Answer**: B
+
+7. Estrogen is primarily considered a:
+* A) Digestive enzyme
+* B) Female sex hormone
+* C) Blood protein
+* D) Brain neurotransmitter
+* **Answer**: B
+
+8. The process of sending information from the encoder to the receiver is called:
+* A) Translation
+* B) Communication
+* C) Distortion
+* D) Encoding
+* **Answer**: B
+
+9. What happens to the sampling error as the sample size increases?
+* A) Sampling error increases
+* B) Sampling error remains the same
+* C) Sampling error decreases
+* D) Sampling error becomes zero
+* **Answer**: C
+
+10. What approach was established due to the failure of the Women in Development (WID) model?
+* A) Gender and Development (GAD)
+* B) Women Empowerment Approach
+* C) Social Welfare Model
+* D) Human Rights Framework
+* **Answer**: A
+
+11. Human rights apply equally to all individuals, including:
+* A) Male and female members of society
+* B) Members of minority groups
+* C) People of all races, ethnicities, and religions
+* D) All of these
+* **Answer**: D
+
+12. Social order is largely enforced through:
+* A) Law
+* B) Socialization
+* C) Political institutions
+* D) Economic policies
+* **Answer**: B
+
+13. Feminist epistemology is closely related to:
+* A) Naturalism
+* B) Standpoint epistemology
+* C) Empiricism
+* D) Rationalism
+* **Answer**: B
+
+14. A ______ helps to fill in gaps or clarify incomplete responses.
+* A) Statement
+* B) Probe
+* C) Conclusion
+* D) Judgment
+* **Answer**: B
+
+15. What does Bait-ul-Maal mean:
+* A) House of Peace
+* B) House of Knowledge
+* C) House of Wealth
+* D) House of Power
+* **Answer**: C
+
+16. Which of the following is the philosophical study of knowledge?
+* A) Metaphysics
+* B) Logic
+* C) Ethics
+* D) Epistemology
+* **Answer**: D
+
+17. In which year was the Agha Khan Rural Support Programme (AKRSP) established?
+* A) 1980
+* B) 1982
+* C) 1985
+* D) 1990
+* **Answer**: B
+
+18. UNIFEM works to provide:
+* A) Financial assistance
+* B) Technical assistance
+* C) Support for innovative programs to foster women's empowerment and gender equality
+* D) All of these
+* **Answer**: D
+
+19. When did Rural Sociology originated as a systematic science?
+* A) 1820
+* B) 1850
+* C) 1862
+* D) 1897
+* **Answer**: A
+
+20. ______ involves comparing other cultures by using one's own culture as the standard.
+* A) Cultural relativism
+* B) Ethnocentrism
+* C) Socialization
+* D) Globalization
+* **Answer**: B
+
+21. When a currency devaluation occurs, what is a likely economic consequence?
+* A) Incomes increase and expenditures decrease
+* B) Incomes and expenditures both remain stable
+* C) Former incomes decrease and expenditures may increase
+* D) Both incomes and expenditures decrease equally
+* **Answer**: C
+
+22. The knowledge that comes through experience is known as:
+* A) Rationalism
+* B) Empiricism
+* C) Idealism
+* D) Mysticism
+* **Answer**: B
+
+23. What is the name of the home for kidnapped and lost children in Pakistan?
+* A) Edhi Home
+* B) Dar-ul-Aman
+* C) Nighaban
+* D) Apna Ghar
+* **Answer**: C
+
+24. "The Color Purple" by Alice Walker primarily explores the struggles and empowerment of:
+* A) A wealthy African American woman
+* B) An abused and uneducated black African American woman
+* C) A white woman in the South
+* D) A young immigrant woman
+* **Answer**: B
+
+25. NOW stands for:
+* A) National Organization for Women
+* B) National Office for Women
+* C) New Order for Women
+* D) None of these
+* **Answer**: A
+
+26. Which is considered the first human charter in history?
+* A) The Magna Carta
+* B) Meesaq-e-Madina (The Constitution of Madina)
+* C) The Universal Declaration of Human Rights
+* D) UK Declaration of Rights
+* **Answer**: B
+
+27. A good researcher possesses a combination of skills, qualities, and attributes. This reflects their:
+* A) Social influence
+* B) Physical ability
+* C) Research aptitude
+* D) Political awareness
+* **Answer**: C
+
+28. Who is associated with PRA (Participatory Rural Appraisal) and its application in rural community studies?
+* A) Amartya Sen
+* B) Robert Chambers
+* C) Mahatma Gandhi
+* D) Karl Marx
+* **Answer**: B
+
+29. What does UNIFEM stand for?
+* A) United Nations Institute for Female Empowerment and Management
+* B) United Nations International Forum for Economic Management
+* C) United Nations Development Fund for Women
+* D) United Nations Federation for Equality of Mankind
+* **Answer**: C
+
+30. Postcolonial feminism emerged as a specific perspective within:
+* A) Masculinity studies
+* B) Psychoanalysis
+* C) Feminism
+* D) Queer theory
+* **Answer**: C
+
+31. Feminist theory primarily focuses on:
+* A) Production
+* B) Reproduction
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+
+32. The Protestant Ethic and the Spirit of Capitalism is a book written by which of the following authors?
+* A) Karl Marx
+* B) Emile Durkheim
+* C) Max Weber
+* D) Sigmund Freud
+* **Answer**: C
+
+33. Pakistan's land can be broadly classified as:
+* A) Arid
+* B) Coastal
+* C) Upper and Lower
+* D) All of these
+* **Answer**: D
+
+34. Fitch Ratings:
+* A) Sets monetary policy
+* B) Issues currency
+* C) Provides forward-looking credit opinions, as indicated by its ratings, that reflect its expectations of credit behavior over a range of scenarios
+* D) Regulates stock exchanges
+* **Answer**: C
+
+35. Pakistan passed the Protection against Harassment of Women at the Workplace Act in:
+* A) 2006
+* B) 2008
+* C) 2010
+* D) 2012
+* **Answer**: C
+
+36. ______ is the comprehensive study of rural social organization, its structure, and functions.
+* A) Rural Sociology
+* B) Urban Sociology
+* C) Social Psychology
+* D) Industrial Sociology
+* **Answer**: A
+
+37. The Indira Awaas Yojana (IAY) scheme was implemented by:
+* A) District Rural Development Agency (DRDA)
+* B) Ministry of Housing and Urban Affairs
+* C) Ministry of Rural Development
+* D) National Rural Health Mission
+* **Answer**: A
+
+38. The distribution of employee salary is best described as a:
+* A) Categorical variable
+* B) Independent variable
+* C) Continuous and dependent variable
+* D) Discrete variable
+* **Answer**: C
+
+39. Individualization in social work is primarily related to ______, particularly during the pre-interview stage.
+* A) Social casework
+* B) Group work
+* C) Community development
+* D) Policy practice
+* **Answer**: A
+
+40. Sociologists study religion to understand its role in shaping:
+* A) Economic systems
+* B) Individual behavior and societal structures
+* C) Political parties
+* D) Technological advancements
+* **Answer**: B
+
+41. Statistics is broadly categorized into two main types:
+* A) Qualitative and Quantitative
+* B) Descriptive and Predictive
+* C) Descriptive and Inferential
+* D) Primary and Secondary
+* **Answer**: C
+
+42. When the mother holds primary influence and decision-making power in a family or society, it is called:
+* A) Matriarchal
+* B) Patriarchal
+* C) Egalitarian
+* D) Autocratic
+* **Answer**: A
+
+43. The concept of the "urban revolution" is most strongly associated with:
+* A) Karl Marx
+* B) V. Gordon Childe
+* C) Auguste Comte
+* D) Max Weber
+* **Answer**: B
+
+44. "Women are highly concentrated in low-paying jobs" is an example of:
+* A) Institutional sexism
+* B) Gender poverty
+* C) Gender inequality
+* D) Social discrimination
+* **Answer**: A
+
+45. When group environment cohesion and collaboration occur as team members begin to understand their roles and work together effectively, it is called:
+* A) Forming
+* B) Storming
+* C) Norming
+* D) Performing
+* **Answer**: C
+
+46. The growth of cities is indeed called:
+* A) Industrialization
+* B) Urbanization
+* C) Globalization
+* D) Modernization
+* **Answer**: B
+
+47. The prerequisite for rural people to understand the significance of rights and law is:
+* A) Agricultural training
+* B) Traditional knowledge
+* C) Religious teachings
+* D) Modern education
+* **Answer**: D
+
+48. When children are traced through both families, it is called:
+* A) Bilateral descent
+* B) Patrilineal descent
+* C) Matrilineal descent
+* D) Unilineal descent
+* **Answer**: A
+
+49. A primary occupation in rural areas is:
+* A) Manufacturing
+* B) IT
+* C) Agriculture
+* D) Tourism
+* **Answer**: C
+
+50. According to Karl Marx, capitalists own the means of production and exploit the:
+* A) Bourgeoisie
+* B) Proletariat
+* C) Feudal lords
+* D) Aristocracy
+* **Answer**: B
+
+51. ______ in social work is a method of addressing social welfare needs by facilitating an adjustment between available resources and the needs of a community.
+* A) Casework
+* B) Group work
+* C) Community development
+* D) Community organization
+* **Answer**: D
+
+52. Globalization as an uprising can be understood as a continuation and expansion of:
+* A) Modernization
+* B) Global civilization
+* C) Nationalism
+* D) Postmodernism
+* **Answer**: A
+
+53. The means of production in rural areas typically involve:
+* A) Agriculture
+* B) Land
+* C) Animal farming
+* D) All of these
+* **Answer**: D
+
+54. The study of the human mind and behavior is called:
+* A) Sociology
+* B) Psychology
+* C) Anthropology
+* D) Psychiatry
+* **Answer**: B
+
+55. A person who depends on charity is often called a:
+* A) Benefactor
+* B) Pauper
+* C) Philanthropist
+* D) Volunteer
+* **Answer**: B
+
+56. The first Women's Studies course was held in 1969 at:
+* A) Harvard University
+* B) Stanford University
+* C) Cornell University
+* D) University of California
+* **Answer**: C
+
+57. Emile Durkheim collected data for his study on suicide primarily from:
+* A) Catholic, Protestant, and Hindu communities
+* B) Catholic and Protestant communities
+* C) Protestant and Jewish communities
+* D) Protestant and Hindu communities
+* **Answer**: B
+
+58. Social welfare administration is considered a:
+* A) Primary method of social work
+* B) Secondary method of social work
+* C) Tertiary method of social work
+* D) Non-essential method of social work
+* **Answer**: B
+
+59. The Protection of Women (Criminal Laws Amendment) Act was passed in:
+* A) 2005
+* B) 2006
+* C) 2007
+* D) 2008
+* **Answer**: B
+
+60. Dr. Akhtar Hameed Khan is known for:
+* A) Comilla rural development experiment
+* B) Orangi Pilot Project (OPP)
+* C) Microfinance in Bangladesh
+* D) Rural development in India
+* **Answer**: B
+
+61. Evolution is a process of survival that is:
+* A) Genetically determined
+* B) Clinically determined
+* C) Not-Clinically determined
+* D) Based on environmental factors only
+* **Answer**: A
+
+62. ______ where people's primary means of subsistence is hunting wild animals, fishing, and gathering wild plants.
+* A) Pastoral society
+* B) Agrarian society
+* C) Industrial society
+* D) Hunter-gatherer culture
+* **Answer**: D
+
+63. Which trust does the International Monetary Fund (IMF) use to support countries in building resilience to climate change and promoting sustainable development?
+* A) Poverty Reduction and Growth Trust (PRGT)
+* B) Resilience and Sustainability Trust (RST)
+* C) Financial Stability Trust (FST)
+* D) Global Development Fund (GDF)
+* **Answer**: B
+
+64. When a social worker resolves conflicts among community members, they play the role of:
+* A) Teacher
+* B) Advocate
+* C) Mediator
+* D) Counselor
+* **Answer**: C
+
+65. Why do sociologists study religion?
+* A) To analyze religious beliefs and practices in isolation
+* B) To understand the role of religion in shaping individual beliefs and rituals
+* C) To examine how religion functions within society, its impact on social structures and individual behavior, and its role in shaping values and social norms
+* D) To study the history of religious institutions only
+* **Answer**: C
+
+66. The systems designed to provide services to needy and vulnerable populations are primarily known as:
+* A) Healthcare systems
+* B) Educational systems
+* C) Social welfare systems
+* D) Criminal justice systems
+* **Answer**: C
+
+67. The death and birth phenomena are most closely related to:
+* A) Education
+* B) Religion
+* C) Both education and religion
+* D) Socialization
+* **Answer**: B
+
+68. Services for individuals with intellectual disabilities and those facing economic hardships are considered part of:
+* A) Criminal justice services
+* B) Social welfare services
+* C) Educational services
+* D) Health care services
+* **Answer**: B
+
+69. Social organization created in a horticultural society is through:
+* A) Clan
+* B) Band
+* C) Tribe
+* D) Family
+* **Answer**: C
+
+70. In which year was the Department of Gender & Women Studies at Allama Iqbal Open University (AIOU) established?
+* A) 1995
+* B) 1998
+* C) 2000
+* D) 2005
+* **Answer**: B
+
+**Model Paper 175**
+**Category: General Knowledge**
+1. Genghis Khan died in the year:
+* A) 1209
+* B) 1227
+* C) 1232
+* D) Karl Marx
+* **Answer**: B
+
+2. Dr. Tedros Adhanom Ghebreyesus is the Director General of which organization?
+* A) WHO
+* B) UNESCO
+* C) WWF
+* D) IMF
+* **Answer**: A
+
+3. Which batsman has the greatest number of ODI centuries for Pakistan:
+* A) Inzamam Ul Haq
+* B) Muhammad Yousaf
+* C) Babar Azam
+* D) Saeed Anwar
+* **Answer**: D
+
+4. When Berlin Wall was demolished:
+* A) 1987
+* B) 1989
+* C) 1992
+* D) 1994
+* **Answer**: B
+
+5. The study of human society, examining human behavior and society, is called:
+* A) Anthropology
+* B) Archaeology
+* C) Sociology
+* D) Psychology
+* **Answer**: C
+
+6. The Treaty of Versailles was signed in which of the following year:
+* A) 1917
+* B) 1918
+* C) 1919
+* D) 1920
+* **Answer**: C
+
+7. Which two countries conducted Joint military exercise called 'Al-Kassah-III' from December 13, 2021 onwards?
+* A) Pakistan and Saudi Arabia
+* B) Egypt and Jordan
+* C) Saudi Arabia and Turkey
+* D) Egypt and Pakistan
+* **Answer**: A
+
+8. A person who observes and studies the natural world is called:
+* A) Naturalist
+* B) Gastronomist
+* C) Geologist
+* D) Astrologist
+* **Answer**: A
+
+9. Wikileaks founder Julian Assange belongs to which country:
+* A) US
+* B) UK
+* C) Canada
+* D) Australia
+* **Answer**: D
+
+10. The South Asian Association for Regional Co-operation (SAARC) was founded in 1985 at:
+* A) Dhaka
+* B) Delhi
+* C) Islamabad
+* D) Rangoon
+* **Answer**: A
+
+11. ECO (Economic Corporation Organization) headquarter is in:
+* A) Tehran
+* B) Istanbul
+* C) Kabul
+* D) Karachi
+* **Answer**: A
+
+12. Plato was the student of:
+* A) Socrates
+* B) Aristotle
+* C) Pythagoras
+* D) Confucius
+* **Answer**: A
+
+13. The Flerk is a:
+* A) Novel of James Bond series
+* B) Popular superhero of youngsters
+* C) Smugglers mafia in South America
+* D) Club for teenagers
+* **Answer**: D
+
+14. Tsai Ing-wen is the president of:
+* A) Taiwan
+* B) Singapore
+* C) South Korea
+* D) Vietnam
+* **Answer**: A
+
+15. Where first summit of OIC was held:
+* A) Rabat
+* B) Doha
+* C) Dakar
+* D) Lahore
+* **Answer**: A
+
+**Category: Pakistan Affairs**
+1. 1st population census in Pakistan was held in:
+* A) 1951
+* B) 1952
+* C) 1952
+* D) 1954
+* **Answer**: A
+
+2. The proposed motorway from Gawadar to Kashghar is about ______ km long.
+* A) 2600
+* B) 2800
+* C) 2900
+* D) 3000
+* **Answer**: D
+
+3. ICT stands for:
+* A) Islamabad Capital Total
+* B) Islamabad City Tribes
+* C) Islamabad Capital Territory
+* D) Islamabad City Territory
+* **Answer**: C
+
+4. Pakistan is ______ largest sugar producer in the world.
+* A) 5th
+* B) 7th
+* C) 10th
+* D) None of these
+* **Answer**: A
+
+5. The Unionist Party in British India was founded by:
+* A) Fazl Hussain
+* B) Muhammad Ali Jinnah
+* C) Sikandar Hayat
+* D) None of these
+* **Answer**: A
+
+6. The Objectives Resolution was adopted by the Constituent Assembly of Pakistan in:
+* A) 1947
+* B) 1948
+* C) 1949
+* D) 1950
+* **Answer**: C
+
+7. Madr-e-Millat Fatima Jinnah died in the year?
+* A) 1940
+* B) 1950
+* C) 1967
+* D) None of these
+* **Answer**: C
+
+8. Boundary Line between Azad Kashmir and Occupied Kashmir is called:
+* A) Line of Control
+* B) Durand Line
+* C) Oder-Neisse line
+* D) The Radcliff line
+* **Answer**: A
+
+9. The main dispute between Pakistan and India is:
+* A) Water dispute
+* B) Ladakh Crisis
+* C) Border Dispute
+* D) Kashmir Issue
+* **Answer**: D
+
+10. Sir Shahnawaz Bhutto was Diwan (Budget Minister) in which princely state?
+* A) Hyderabad
+* B) Junagarh
+* C) Kapurthala
+* D) None of these
+* **Answer**: B
+
+11. Pakistan adopted a bicameral federal legislature under the constitution:
+* A) 1956
+* B) 1965
+* C) 1973
+* D) 1999
+* **Answer**: C
+
+12. Sheikh Mujeeb Ur Rehman met his end by which way?
+* A) In an accident
+* B) Assassination
+* C) Heart failure
+* D) None of these
+* **Answer**: B
+
+13. ______ had the distinction of being the first Jawan (a rank of the foot soldier in Pakistan Army) to be awarded the highest award Nishan-e-Haider for his gallantry.
+* A) Sawar Muhammad Hussain Janjua
+* B) Tufail Muhammad
+* C) Shabbir Sharif
+* D) Rashid Minhas
+* **Answer**: A
+
+14. Pakistan and France agreed to ______ on 31 July 1951.
+* A) Initiate Embassy Service
+* B) Initiate Nuclear Deal
+* C) Initiate Economic Ties
+* D) None of these
+* **Answer**: A
+
+15. Which viceroy had the shortest tenure:
+* A) Mountbatten
+* B) Elgin I
+* C) Wavel
+* D) Rippon
+* **Answer**: A
+
+**Category: Current Affairs**
+1. Which country out of the following has constituted a law in 2023, to streamline its foreign relations:
+* A) Myanmar
+* B) China
+* C) Bangladesh
+* D) Sri Lanka
+* **Answer**: B
+
+**Category: Geography**
+1. Pakistan is located in the Tropic Zone of:
+* A) Tropic of Cancer
+* B) Tropic of Capricorn
+* C) Tropical Rainforest
+* D) Tropical Grassland
+* **Answer**: A
+
+2. Which is the largest desert of Pakistan?
+* A) Thal
+* B) Cholistan
+* C) Thar
+* D) Kharan
+* **Answer**: C
+
+**Category: Everyday Science**
+1. Bu Ali Sina is famous for his work in:
+* A) Mathematics
+* B) Medicine
+* C) Literature
+* D) None of these
+* **Answer**: B
+
+2. The study of Earth's atmosphere, particularly concerning weather forecasting, is called:
+* A) Meteorology
+* B) Geology
+* C) Oceanography
+* D) Astronomy
+* **Answer**: A
+
+**Category: Computer**
+1. Which feature allows you to add speaker notes to your presentation?
+* A) Handout Master
+* B) Notes Pane
+* C) Slide Master
+* D) Slide Sorter
+* **Answer**: B
+
+2. How can you embed a video from a website into your PowerPoint slide?
+* A) Insert the video using the Video from File option
+* B) Using the Online Video option in the insert tab
+* C) Copy and Paste the video link directly onto the slide
+* D) Insert the video using the Video from Clip Art option
+* **Answer**: B
+
+3. Which of the following is a basic formula to add numbers in Excel?
+* A) =SUM(A1)
+* B) =ADD(A1)
+* C) =PLUS(A1)
+* D) =TOTAL(A1)
+* **Answer**: A
+
+4. Which feature allows you to check the spelling and grammar in a document?
+* A) Thesaurus
+* B) Spell Check
+* C) Word Count
+* D) Find
+* **Answer**: B
+
+5. What is a URL used for?
+* A) To save files on a computer
+* B) To store data online
+* C) To access a specific website
+* D) To create a new file
+* **Answer**: C
+
+6. What term describes the space between the margin and the beginning of the text?
+* A) Indentation
+* B) Margin
+* C) Alignment
+* D) Spacing
+* **Answer**: A
+
+7. What feature allows you to quickly fill a series of cells with data or a pattern based on the content of other cells?
+* A) Flash fill
+* B) Autofill
+* C) Format Painter
+* D) Conditional Formatting
+* **Answer**: B
+
+8. Which of the following is a web browser?
+* A) Google Drive
+* B) Mozilla Firefox
+* C) Skype
+* D) Adobe Photoshop
+* **Answer**: B
+
+9. Which software is commonly used for database management?
+* A) MySQL
+* B) Adobe Acrobat
+* C) Microsoft Word
+* D) Notepad
+* **Answer**: A
+
+10. Which of these is a video conferencing platform?
+* A) Zoom
+* B) WordPress
+* C) Excel
+* D) Paint
+* **Answer**: A
+
+11. Which application would you use to edit photos?
+* A) Microsoft PowerPoint
+* B) Adobe Photoshop
+* C) Google Chrome
+* D) Mozilla Firefox
+* **Answer**: B
+
+12. What is the purpose of Google Drive?
+* A) To edit photos
+* B) To provide cloud storage
+* C) To browse the internet
+* D) To make a video calls
+* **Answer**: B
+
+13. Which of the following is a common use of the Python programming language?
+* A) Web development
+* B) Video editing
+* C) Image editing
+* D) File compression
+* **Answer**: A
+
+14. What does the acronym "PDF" stand for?
+* A) Pretty Document File
+* B) Portable Document Format
+* C) Public Document Format
+* D) Private Data File
+* **Answer**: B
+
+15. Which of the following is an email service provider?
+* A) Gmail
+* B) Windows 10
+* C) Skype
+* D) Facebook
+* **Answer**: A
+
+**Category: English**
+1. My friend willingly complied ______ my request
+* A) of
+* B) to
+* C) from
+* D) with
+* **Answer**: D
+
+2. Choose the antonym of Impound:
+* A) Release
+* B) Stimulate
+* C) Strengthen
+* D) Generate
+* **Answer**: A
+
+3. They ______ all the window panes.
+* A) Rowed
+* B) Broke
+* C) Pealed
+* D) Has cut
+* **Answer**: B
+
+4. Shrewd synonym is:
+* A) Crafty
+* B) Brilliant
+* C) Influencing
+* D) None of these
+* **Answer**: A
+
+5. Sufficient means:
+* A) Hope
+* B) Optimism
+* C) Adequate
+* D) Humanitarian
+* **Answer**: C
+
+6. Beware ______ thieves.
+* A) to
+* B) for
+* C) on
+* D) of
+* **Answer**: D
+
+7. Choose the correct statement of (if any):
+We should help the poor people.
+* A) We should help the poors.
+* B) We should help a poor.
+* C) We should help the poor.
+* D) We should help the poor fellows.
+* **Answer**: C
+
+8. Complete the following sentence. He hopes that he ______ soon.
+* A) recovered
+* B) will recover
+* C) has recovered
+* D) recovers
+* **Answer**: B
+
+9. Select the most suitable antonym for: Cease
+* A) Pause
+* B) Expire
+* C) Continue
+* D) Combat
+* **Answer**: C
+
+10. Choose the correct statement:
+* A) He insisted to do that.
+* B) He insisted on doing that.
+* C) He insisted for doing that
+* D) He insisted at doing that
+* **Answer**: B
+
+11. The bus broke ______ on the way.
+* A) up
+* B) down
+* C) with
+* D) in
+* **Answer**: B
+
+12. Choose the correct meaning of the underlined idiom from the provided options. At present the organization incorporated graduates who are usually birds of passage.
+* A) Very sensitive
+* B) Highly skilled and experienced
+* C) Living a wandering or unsettled life
+* D) Passionate
+* **Answer**: C
+
+13. Find out the option that most nearly describes the meaning of the given idiomatic phrase: Full of beans
+* A) Overjoyed
+* B) Very active
+* C) Very nervous
+* D) Sad
+* **Answer**: B
+
+**Category: Job Related**
+1. A police station is temporarily without a Sub Inspector. The senior most Head Constable takes over and registers an FIR in a case. In this action valid U/R 22.1 of the Punjab Police Rules 1934?
+* A) Yes, any police officer can register an FIR
+* B) No, only a Sub-Inspector or above can register on FIR.
+* C) Yes, but only if the Head Constable was officially assigned charge.
+* D) No, an FIR must always be the Superintendent of Police.
+* **Answer**: C
+
+2. Which section of CrPC governs the procedure for recording confessions?
+* A) Section 161
+* B) Section 162
+* C) Section 164
+* D) Section 170
+* **Answer**: C
+
+3. When the Kashmir dispute was discussed in UN Security Council for the first time?
+* A) February 1948
+* B) August 1947
+* C) September 1947
+* D) October 1947
+* **Answer**: A
+
+4. A person approaches the police to file an FIR for a non-cognizable offense. What is the police officer's legal obligation under CrPC?
+* A) Register the FIR immediately
+* B) Conduct an investigation before registering the FIR
+* C) Seek prior approval from a magistrate before registering the FIR
+* D) Refuse to registered the FIR
+* **Answer**: C
+
+5. During an investigation, a police officer records a witness statement under Section 161 CrPC. Can the witness refuse to give a statement?
+* A) Yes, a witness can refuse to answer all questions
+* B) No, a witness must answer all questions
+* C) No, a witness must answer all questions truthfully, except self-incriminating ones
+* D) None of these
+* **Answer**: C
+
+6. A crowd gathers in violation of public order, blocking a main highway. The police order them to disperse, but the ______ Section can the police use force to disperse them?
+* A) Section 127
+* B) Section 128
+* C) Section 129
+* D) Section 130
+* **Answer**: B
+
+7. Under Section 107 CrPC, which court has the authority to try cases under preventive action for public peace?
+* A) High Court
+* B) Sessions Court
+* C) Magistrate Court
+* D) Federal Shariat Court
+* **Answer**: C
+
+8. Under the Protection Against Harassment of Women at the Workplace Act, how many jury members are required to handle complaints?
+* A) 2
+* B) 3
+* C) 4
+* D) 9
+* **Answer**: B
+
+9. CCPO is which rank officer:
+* A) Deputy Inspector General (DIG)
+* B) Additional Inspector General (AIG)
+* C) Deputy General (DG)
+* D) None of these
+* **Answer**: A
+
+10. Two rival groups claim ownership of a piece of land, leading to repeated clashes. The magistrate fears violence. Under which section can the magistrate attach the disputed property to prevent further violence?
+* A) Section 144
+* B) Section 145
+* C) Section 146
+* D) Section 147
+* **Answer**: C
+
+11. What is the punishment for criminal intimidation under the Pakistan Penal Code (Section 506)?
+* A) 1 year
+* B) 2 years
+* C) 3 years
+* D) 5 years
+* **Answer**: B
+
+12. An injury on the face or head is called:
+* A) Shajjah
+* B) Jaifah
+* C) Munaqqilah
+* D) Damighah
+* **Answer**: A
+
+**Model Paper 176**
+**Category: General Knowledge**
+1. The 2019 BRICS summit was held in which month in Brazil?
+* A) March
+* B) June
+* C) July
+* D) November
+* **Answer**: D
+
+2. The twenty-third session of the Conference of the Parties (COP 23) took place from 6-17 November, 2017 in:
+* A) Kyoto, Japan
+* B) Marrakech, Morocco
+* C) Bonn, Germany
+* D) Rome, Italy
+* **Answer**: C
+
+3. What is the name of the disputed boundary between India and China?
+* A) Durand Line
+* B) McMahon Line
+* C) Line of Control
+* D) Line of Actual Control (LAC)
+* **Answer**: D
+
+4. Donbass is a dispute between which two parties?
+* A) Ukraine and Russia
+* B) Russia and the European Union
+* C) Ukraine and Poland
+* D) Ukraine and Belarus
+* **Answer**: A
+
+5. What percentage of world trade is carried out through ships?
+* A) 40%
+* B) 50%
+* C) 70%
+* D) 80%
+* **Answer**: D
+
+6. Which continent has the maximum number of countries:
+* A) South America
+* B) Asia
+* C) Africa
+* D) Europe
+* **Answer**: C
+
+**Category: Pakistan Affairs**
+1. In which year did the Battle of Samugarh take place?
+* A) 1658
+* B) 1667
+* C) 1660
+* D) 1666
+* **Answer**: A
+
+2. In which year was the first coin of Pakistan issued?
+* A) 1947
+* B) 1948
+* C) 1950
+* D) 1952
+* **Answer**: B
+
+3. Which Pakistani mountaineer ascended K2 in 2020?
+* A) Muhammad Ali Sadpara
+* B) Sajid Sadpara
+* C) Samina Baig
+* D) Nazir Sabir
+* **Answer**: A
+
+4. How many provinces did Pakistan have immediately after its independence in 1947?
+* A) 3
+* B) 4
+* C) 5
+* D) 7
+* **Answer**: B
+
+5. In 1924, who referred to the All-India Muslim League (AIML) as a religious organization?
+* A) Muhammad Ali Jinnah
+* B) Allama Muhammad Iqbal
+* C) Lala Lajpat Rai
+* D) Maulana Shaukat Ali
+* **Answer**: B
+
+**Category: Current Affairs**
+1. What was the Defence Budget of Pakistan for the fiscal year 2023–24?
+* A) PKR 1.604 trillion
+* B) PKR 1.804 trillion
+* C) PKR 2.004 trillion
+* D) PKR 1.504 trillion
+* **Answer**: B
+
+2. Who is the current Ambassador of Pakistan to the United Nations (UNO)?
+* A) Maleeha Lodhi
+* B) Sherry Rehman
+* C) Munir Akram
+* D) Shamshad Akhtar
+* **Answer**: C
+
+3. In the 2024 global pollution rankings, Pakistan was ranked third according to the IQ Air World Air Quality Report.
+* A) 1st
+* B) 2nd
+* C) 3rd
+* D) 4th
+* **Answer**: C
+
+**Category: Geography**
+1. What is a local wind that blows from the sea to the land called?
+* A) Sea breeze
+* B) Land breeze
+* C) Monsoon
+* D) Cyclone
+* **Answer**: A
+
+2. Bolan Pass is located in which province of Pakistan?
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Baluchistan
+* **Answer**: D
+
+**Category: Computer**
+1. FORTRAN machine language was invented by:
+* A) Charles Babbage
+* B) John Backus
+* C) Dennis Ritchie
+* D) James Gosling
+* **Answer**: B
+
+2. Who is the current Managing Director of the International Monetary Fund (IMF)?
+* A) Christine Lagarde
+* B) Dominique Strauss-Kahn
+* C) David Malpass
+* D) Kristalina Georgieva
+* **Answer**: D
+
+3. Which computer is not based on size?
+* A) Supercomputer
+* B) Mainframe Computer
+* C) Digital Computer
+* D) Microcomputer
+* **Answer**: C
+
+4. Cell reference in Excel shows in which bar?
+* A) Formula Bar
+* B) Tool Bar
+* C) Chart Bar
+* D) Name Bar
+* **Answer**: A
+
+5. Which bar is located at the top of MS Word?
+* A) Title Bar
+* B) Status Bar
+* C) Formula Bar
+* D) Menu Bar
+* **Answer**: A
+
+**Category: English**
+1. What is a synonym of Melancholy?
+* A) Joyful
+* B) Cheerful
+* C) Sorrowful
+* D) Excited
+* **Answer**: C
+
+2. The idiom "All and Sundry" means?
+* A) Specific
+* B) Everyone
+* C) Relevant
+* D) Experienced
+* **Answer**: B
+
+3. He is deaf ___ my advice.
+* A) to
+* B) for
+* C) of
+* D) from
+* **Answer**: A
+
+4. THIRST: PARCHED:: ? Choose the correct alternative:
+* A) Laughter: Appeased
+* B) Fever: Flushed
+* C) Water: Sink
+* D) Hunger: Strangled
+* **Answer**: B
+
+**Model Paper 177**
+**Category: General Knowledge**
+1. The Watergate Scandal is associated with which U.S. President?
+* A) John F. Kennedy
+* B) Lyndon B. Johnson
+* C) Richard Nixon
+* D) Jimmy Carter
+* **Answer**: C
+
+2. The book "Al-Futuhat al-Makkiyah" was written by:
+* A) Imam al-Ghazali
+* B) Ibn Sina
+* C) Ibn Arabi
+* D) Al Shafi
+* **Answer**: C
+
+3. Which of the following countries does not have a written constitution?
+* A) India
+* B) US
+* C) UK
+* D) New Zealand
+* **Answer**: C
+
+4. The term "sociology" was coined by:
+* A) August Comte
+* B) Karl Marx
+* C) Emile Durkheim
+* D) Max Weber
+* **Answer**: A
+
+5. The Durand Line was formed after which war?
+* A) First Anglo-Afghan War
+* B) Second Anglo-Afghan War
+* C) Third Anglo-Afghan War
+* D) WW1
+* **Answer**: B
+
+6. The Ottoman Empire was the successor of which dynasty?
+* A) Umayyad Dynasty
+* B) Abbasid Dynasty
+* C) Seljuk Dynasty
+* D) Fatimid Dynasty
+* **Answer**: C
+
+7. Biography is the study of:
+* A) Plants
+* B) Maps
+* C) Rocks
+* D) Lives of people
+* **Answer**: D
+
+8. What is the primary goal of Action Research?
+* A) To develop new theories
+* B) To observe natural phenomena
+* C) To improve practices through systematic change
+* D) To conduct experiments in laboratories
+* **Answer**: C
+
+9. What is meant by Bureaucratic Dysfunction?
+* A) A situation where a bureaucratic system functions smoothly and efficiently
+* B) A state of inefficiency, rigidity, or lack of responsiveness in a bureaucratic system
+* C) A form of organizational creativity within a bureaucracy
+* D) A system where rules and regulations are consistently followed
+* **Answer**: B
+
+10. Who was Thomas Malthus?
+* A) English Economist
+* B) English Physicist
+* C) Political leader
+* D) Philosopher
+* **Answer**: A
+
+11. Socialization primarily affects which part of the self:
+* A) I
+* B) Me
+* C) I and Me
+* D) Philosopher
+* **Answer**: C
+
+12. What happens when an industry operates beyond the optimum level of production?
+* A) It maximizes profits
+* B) It achieves economies of scale
+* C) It faces diminishing returns and inefficiency
+* D) It experiences rapid growth and expansion
+* **Answer**: C
+
+13. The Economic Commission for Europe (ECE) is a ______ of the United Nations (UN), focusing on promoting economic cooperation and integration among European countries.
+* A) Department
+* B) Program
+* C) Regional Commission
+* D) Specialized Agency
+* **Answer**: C
+
+**Category: Pakistan Affairs**
+1. Who represented Pakistan in Weightlifting (Men's 67kg category) at the Tokyo 2020 Olympics and finished 5th?
+* A) Arshad Nadeem
+* B) Khalil Akhtar
+* C) Talha Talib
+* D) Najma Parveen
+* **Answer**: C
+
+2. Women of Pakistan: Two Steps Forward, One Step Back wrote by:
+* A) Khawar Mumtaz and Farida Shaheed
+* B) Muhammad Jahangir
+* C) Saleem Nazeer Khan
+* D) Tehmina Durrani
+* **Answer**: A
+
+3. Kartarpur is located in district which of Pakistan?
+* A) Lahore
+* B) Sialkot
+* C) Gujranwala
+* D) Narowal
+* **Answer**: D
+
+4. The August Offer was announced on:
+* A) 26th January 1930
+* B) 22nd March 1942
+* C) 8th August 1940
+* D) 15th August 1947
+* **Answer**: C
+
+5. The book "The Songs of Blood and Sword" is written by:
+* A) Zulfiqar Ali Bhutto
+* B) Benazir Bhutto
+* C) Maleeha Lodhi
+* D) Fatima Bhutto
+* **Answer**: D
+
+6. Which operation led to the death of Osama bin Laden in 2011 in Abbottabad:
+* A) Operation Desert Storm
+* B) Operation Enduring Freedom
+* C) Operation Neptune Spear
+* D) Operation Iraqi Freedom
+* **Answer**: C
+
+7. The Indian National Congress was founded in which year?
+* A) 1857
+* B) 1885
+* C) 1905
+* D) 1942
+* **Answer**: B
+
+8. The book "Pakistan: Between Mosque and Military" was written by:
+* A) Sardar Masood
+* B) Husain Haqqani
+* C) Asad Majeed
+* D) Jaleel Abbas Jilani
+* **Answer**: B
+
+9. Baltit Fort is located in which valley?
+* A) Swat valley
+* B) Hunza valley
+* C) Chitral valley
+* D) Kashmir valley
+* **Answer**: B
+
+**Category: Geography**
+1. Which is the coldest region of the world:
+* A) Siberia
+* B) Arctic Circle
+* C) Greenland
+* D) Alaska
+* **Answer**: A
+
+2. Convectional rainfall commonly occurs in:
+* A) Temperate Regions
+* B) Equatorial Regions
+* C) Polar Regions
+* D) Desert Regions
+* **Answer**: B
+
+3. Which country is known as the "Land of a Thousand Lakes"?
+* A) Canada
+* B) Finland
+* C) Jamaica
+* D) Japan
+* **Answer**: B
+
+4. The Bara River originates in the Tirah Valley of Bara Tehsil, Khyber District. It joins the:
+* A) River Kabul
+* B) River Swat
+* C) River Indus
+* D) River Kurram
+* **Answer**: A
+
+**Category: Everyday Science**
+1. Which of the following salts is commonly used to melt ice on roads?
+* A) Potassium nitrate
+* B) Calcium chloride
+* C) Ammonium nitrate
+* D) Potassium chloride
+* **Answer**: B
+
+2. What is the SI unit of speed?
+* A) Kilometers per hour (km/h)
+* B) Miles per hour (mph)
+* C) Centimeters per second (cm/s)
+* D) None of these
+* **Answer**: D
+
+3. Due to deforestation, which of the following can increase?
+* A) Rainfall
+* B) Biodiversity
+* C) Soil erosion
+* D) Oxygen production
+* **Answer**: C
+
+4. A picosecond is equal to:
+* A) 10⁻⁸ seconds
+* B) 10⁻⁹ seconds
+* C) 10⁻¹² seconds
+* D) 10⁻³ seconds
+* **Answer**: C
+
+5. The cell membrane is also known as the plasma membrane. It is the outermost covering of:
+* A) Animal cells
+* B) Bacterial cells
+* C) Plant cells
+* D) None of these
+* **Answer**: A
+
+6. The speed of electromagnetic waves in a vacuum is:
+* A) Same for all intensities
+* B) Faster for higher intensities
+* C) Lower for higher intensities
+* D) Dependent on the frequency of the wave
+* **Answer**: A
+
+**Category: Computer**
+1. When a key is pressed on the keyboard, which standard is used for converting the keystrokes into the corresponding bits?
+* A) ANSI
+* B) ASCII
+* C) EDCDIC
+* D) ISO
+* **Answer**: A
+
+2. What does COUNTA () function do?
+* A) Counts cells having alphabets
+* B) Counts empty cells
+* C) Counts cells having number
+* D) Counts non-empty cells
+* **Answer**: D
+
+3. In Excel, what does A20:A31 refer to?
+* A) A single cell
+* B) A range of cells from A20 to A31
+* C) A formula to calculate the average
+* D) A specific column labeled A20 and A31
+* **Answer**: B
+
+4. A pixel is:
+* A) the smallest resolvable part of a picture
+* B) A picture stored in the secondary
+* C) A computer program that draws picture
+* D) A virus
+* **Answer**: A
+
+**Category: English**
+1. The synonym of Prolong is:
+* A) Extend
+* B) Shorten
+* C) Cancel
+* D) End
+* **Answer**: A
+
+2. Choose the correct one: Laugh up one's sleeves.
+* A) Laugh in one's sleeves
+* B) Laugh at one's sleeves
+* C) Laugh on one's sleeves
+* D) None of these
+* **Answer**: A
+
+3. What does the idiom "get your goat" mean?
+* A) To make someone laugh
+* B) To annoy or irritate someone
+* C) To make someone happy
+* D) To confuse someone
+* **Answer**: B
+
+4. His office is always in apple-pie order. What does the idiom/phrase "apple-pie order" means?
+* A) Neat & Tidy
+* B) Disordered
+* C) Mismanaged
+* D) Ornamental
+* **Answer**: A
+
+5. The antonym of Docile is:
+* A) Yielding
+* B) Unyielding
+* C) Obedient
+* D) Submissive
+* **Answer**: B
+
+**Category: Islamiat**
+1. فاتحہ پڑھنے کا مطلب کیا ہوتا ہے؟
+* A) کسی کی صحت کی دعا کرنا
+* B) مردے کی روح کو ثواب پہنچانا
+* C) دنیاوی کامیابی کی دعا کرنا
+* D) کسی کی مدد کے لیے دعا کرنا
+* **Answer**: B
+
+**Model Paper 178**
+**Category: General Knowledge**
+1. Globalization is often led by the P5 permanent members of the United Nations Security Council. Which of the following countries are part of the P5?
+* A) India, Brazil, Russia, United States, Japan
+* B) Germany, France, United States, China, United Kingdom
+* C) China, India, Japan, Brazil, Germany
+* D) China, France, Russia, United Kingdom, United States
+* **Answer**: D
+
+2. The Suri tribe belongs to which region:
+* A) India
+* B) South Africa
+* C) Afghanistan
+* D) Syria
+* **Answer**: C
+
+3. The Giza Pyramids are located in:
+* A) Iraq
+* B) Jordan
+* C) Egypt
+* D) Saudi Arabia
+* **Answer**: C
+
+4. ______ conducted a direct-ascent anti-satellite (DA-ASAT) test, destroying a defunct Soviet electronic intelligence satellite.
+* A) China
+* B) Russia
+* C) US
+* D) Italy
+* **Answer**: B
+
+**Category: Pakistan Affairs**
+1. In which year did Pakistan win the ICC Champions Trophy?
+* A) 2015
+* B) 2017
+* C) 2019
+* D) 2013
+* **Answer**: B
+
+2. Who won the Pakistan Super League (PSL) 2024?
+* A) Islamabad United
+* B) Multan Sultans
+* C) Lahore Qalandars
+* D) Karachi Kings
+* **Answer**: A
+
+3. Who was the 8th President of Pakistan?
+* A) Waseem Sajjad
+* B) Rafique Tarar
+* C) Pervez Musharraf
+* D) Farooq Leghari
+* **Answer**: D
+
+4. The border between Pakistan and Afghanistan is called:
+* A) Radcliffe Line
+* B) Line of Control
+* C) Durand Line
+* D) McMahon Line
+* **Answer**: C
+
+5. Who completely defeated the Mongols in India?
+* A) Zahir-ud-Din Babur
+* B) Sultan Alauddin Khilji
+* C) Sher Shah Suri
+* D) Ahmad Shah Abdali
+* **Answer**: B
+
+**Category: Everyday Science**
+1. The minimum speed of sound in air at 0°C is approximately:
+* A) 331 m/s
+* B) 345 m/s
+* C) 354 m/s
+* D) 389 m/s
+* **Answer**: A
+
+2. In which medium does sound travel the fastest?
+* A) Steel
+* B) Air
+* C) Water
+* D) None of these
+* **Answer**: A
+
+3. The chemical formula CH3COOH is called:
+* A) Acetic Acid
+* B) Hydrochloric Acid
+* C) Sulfuric Acid
+* D) Citric Acid
+* **Answer**: A
+
+**Category: Computer**
+1. The brain of the computer is called:
+* A) Central Processing Unit (CPU)
+* B) Hard Drive
+* C) Random Access Memory (RAM)
+* D) Graphics Processing Unit (GPU)
+* **Answer**: A
+
+2. What does SQL stand for:
+* A) Simple Query Language
+* B) Structured Query Language
+* C) Standard Query Language
+* D) Synchronized Query Language
+* **Answer**: B
+
+3. In Microsoft Word, the name of the document appears in:
+* A) Title Bar
+* B) Status Bar
+* C) Ribbon
+* D) Task Pane
+* **Answer**: A
+
+4. A firewall in a computer is primarily used for:
+* A) Speeding up internet connection
+* B) Monitoring system performance
+* C) Enhancing computer security by blocking unauthorized access to the system or network
+* D) Increasing storage capacity
+* **Answer**: C
+
+5. What does ISR stand for?
+* A) Interrupt Service Routine
+* B) Integrated Service Routine
+* C) Input Service Routine
+* D) Internal Service Routine
+* **Answer**: A
+
+6. In Microsoft Word, the word count is displayed on which of the following?
+* A) Title bar
+* B) Taskbar
+* C) Status bar
+* D) Ribbon
+* **Answer**: C
+
+7. In Microsoft Excel, how are rows denoted?
+* A) Letters
+* B) Roman numerals
+* C) Numbers
+* D) Symbols
+* **Answer**: C
+
+8. In Microsoft Word, which component allows you to adjust margins, indentations, and tabs?
+* A) Ruler
+* B) Status Bar
+* C) Ribbon
+* D) Task Pane
+* **Answer**: A
+
+9. The IP address 192.168.0.1 is an example of which IP address class?
+* A) Class A
+* B) Class B
+* C) Class C
+* D) Class D
+* **Answer**: C
+
+10. DHCP is used to dynamically assign which of the following to an end user?
+* A) MAC Address
+* B) IP Address
+* C) Subnet Mask only
+* D) Device Name
+* **Answer**: B
+
+11. Bluetooth is an example of _______.
+* A) Wide Area Network
+* B) Personal Area Network
+* C) Local Area Network
+* D) Local Area Network
+* **Answer**: B
+
+12. In Microsoft Excel, which key is used to access the Help feature?
+* A) F1
+* B) F2
+* C) F3
+* D) F4
+* **Answer**: A
+
+13. What is the maximum number of rows that can be used in Microsoft Excel (Excel 2016 and later)?
+* A) 1,048,576
+* B) 65,536
+* C) 500,000
+* D) 100,000
+* **Answer**: A
+
+14. To crop an image in Microsoft Word, which of the following steps is correct?
+* A) Select the image, go to the "Insert" tab, and click the "Crop" button.
+* B) Select the image, go to the "Home" tab, and click the "Crop" button.
+* C) Select the image, navigate to the "Picture Format" tab, and click the "Crop" button
+* D) Select the image, go to the "Design" tab, and click the "Crop" button.
+* **Answer**: C
+
+15. Which of the following is NOT a Database Management System (DBMS)?
+* A) MySQL
+* B) PostgreSQL
+* C) Oracle
+* D) COBOL
+* **Answer**: D
+
+16. What is the maximum number of undo actions possible in Microsoft Excel (by default)?
+* A) 50
+* B) 100
+* C) 16
+* D) 20
+* **Answer**: B
+
+17. Where is the cell name shown in Microsoft Excel?
+* A) Status Bar
+* B) Name Box
+* C) Formula Bar
+* D) Title Bar
+* **Answer**: B
+
+18. How many bits are used in an IPv6 address?
+* A) 32 Bits
+* B) 64 Bits
+* C) 128 Bits
+* D) 256 Bits
+* **Answer**: C
+
+19. Where are recently deleted files typically stored in a Windows operating system?
+* A) Control Panel
+* B) Downloads Folder
+* C) Recycle Bin
+* D) Task Manager
+* **Answer**: C
+
+20. What does SSL stand for?
+* A) Secure Socket Layer
+* B) Secure Service Layer
+* C) System Security Layer
+* D) Standard Secure Layer
+* **Answer**: A
+
+21. Neural networks are used in:
+* A) Internet Protocol (IP) systems
+* B) SNARC for learning and pattern recognition
+* C) Disk Management Tools
+* D) Spreadsheet Applications
+* **Answer**: B
+
+22. How do you declare an integer variable in C++?
+* A) int 25;
+* B) integer x;
+* C) int x;
+* D) x int;
+* **Answer**: C
+
+23. Which layer of the OSI model is responsible for supporting congestion control in a network?
+* A) Physical Layer
+* B) Data Link Layer
+* C) Network Layer
+* D) Transport Layer
+* **Answer**: D
+
+24. What does DOM stand for?
+* A) Document Object Model
+* B) Digital Object Management
+* C) Data Operations Model
+* D) Document Online Management
+* **Answer**: A
+
+**Category: English**
+1. Choose the correct analogy. Filter : Water ::
+* A) Curtail : Activity
+* B) Expunge : Book
+* C) Edit : Text
+* D) Censor : Play
+* **Answer**: D
+
+2. Fill in the blank: I ______ to the airport to catch the flight.
+* A) go
+* B) going
+* C) gone
+* D) goes
+* **Answer**: A
+
+3. There is no women ______ the committee.
+* A) in
+* B) on
+* C) at
+* D) with
+* **Answer**: B
+
+4. Choose the correct preposition to complete the sentence: I confide ______ you.
+* A) at
+* B) with
+* C) in
+* D) to
+* **Answer**: C
+
+**Model Paper 179**
+**Category: General Knowledge**
+1. Who was the youngest elected president of the USA?
+* A) John F. Kennedy
+* B) Bill Clinton
+* C) Franklin D. Roosevelt
+* D) Abraham Lincoln
+* **Answer**: A
+
+2. The Way of the World is a play written by which of the following playwrights?
+* A) William Shakespeare
+* B) Christopher Marlowe
+* C) William Congreve
+* D) Oscar Wilde
+* **Answer**: C
+
+3. In which city was the American Stock Exchange established?
+* A) Chicago
+* B) New York
+* C) Los Angeles
+* D) Philadelphia
+* **Answer**: B
+
+4. Which country has signed a deal with France to buy 80 French-made Rafale fighter jets in December 2021?
+* A) United Arab Emirates (UAE)
+* B) Bahrain
+* C) Turkey
+* D) Saudi Arabia
+* **Answer**: A
+
+5. The Hockey World Cup is held after how many years?
+* A) 2 years
+* B) 3 years
+* C) 4 years
+* D) 5 years
+* **Answer**: C
+
+6. The boundary line which include the creek in Sindh is known as:
+* A) Blue Line
+* B) Red Line
+* C) Green Line
+* D) Yellow Line
+* **Answer**: C
+
+**Category: Pakistan Affairs**
+1. Quaid e Azam joined Muslim League in:
+* A) 1911
+* B) 1912
+* C) 1913
+* D) 1914
+* **Answer**: C
+
+2. Who was the first President of Pakistan?
+* A) Liaquat Ali Khan
+* B) Iskander Mirza
+* C) Zulfikar Ali Bhutto
+* D) Feroz Khan Noon
+* **Answer**: B
+
+3. The British Cabinet Mission to India in 1946 consisted of:
+* A) 2
+* B) 3
+* C) 4
+* D) 5
+* **Answer**: B
+
+**Category: Everyday Science**
+1. Who was the inventor of the telephone?
+* A) Thomas Edison
+* B) Alexander Graham Bell
+* C) Nikola Tesla
+* D) Guglielmo Marconi
+* **Answer**: B
+
+2. In the human body percentage of which element is highest?
+* A) Hydrogen
+* B) Nitrogen
+* C) Carbon
+* D) Oxygen
+* **Answer**: D
+
+3. Which type of energy is produced during a fission reaction in a nuclear reactor?
+* A) Kinetic Energy
+* B) Electrical Energy
+* C) Thermal Energy
+* D) Potential Energy
+* **Answer**: C
+
+**Category: Computer**
+1. Removing the unwanted part of an image is called?
+* A) Resizing
+* B) Cropping
+* C) Filtering
+* D) Rotating
+* **Answer**: B
+
+**Category: English**
+1. This means of transportation ______ time.
+* A) Save
+* B) Saves
+* C) Saved
+* D) Saving
+* **Answer**: B
+
+2. The verb which contains an object is called?
+* A) Action Verbs
+* B) Transitive Verbs
+* C) Linking Verbs
+* D) Auxiliary Verbs
+* **Answer**: B
+
+3. I will never go by ______ tabloid press.
+* A) Experience
+* B) Inadequate
+* C) Limited
+* D) None of these
+* **Answer**: D

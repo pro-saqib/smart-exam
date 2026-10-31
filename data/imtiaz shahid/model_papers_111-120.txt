@@ -1,0 +1,5580 @@
+**Model Paper 111**
+
+**Category: Basic Computer Studies**
+1. Instructions are written in machine language as:
+* A) English Code
+* B) Binary Code
+* C) Link Code
+* D) Ne. Monics
+* **Answer**: B
+2. How many characters in ASCII 8-bit code can represent?
+* A) 1000 characters
+* B) 390 characters
+* C) 156 characters
+* D) 256 characters
+* **Answer**: D
+3. x(yz) - (xy)z is a representation of the:
+* A) associative law
+* B) distributive law
+* C) multiplicative law
+* D) addition law
+* **Answer**: A
+4. Hardware is best described as:
+* A) Physical parts
+* B) Program
+* C) Printed parts
+* D) Logical parts
+* **Answer**: A
+5. An element of an array is mentioned by its:
+* A) Array
+* B) Subscript
+* C) Object
+* D) Name of element
+* **Answer**: B
+6. What is the main difference between a mainframe and a super computer?
+* A) Supercomputer is much larger than mainframe computers
+* B) Supercomputers are much smaller than mainframe computers
+* C) Supercomputers are focused to execute a few programs as fast as possible while the main frame used its power to execute as many programs concurrently
+* D) Supercomputers are focused to execute as many programs as possible while the mainframe uses its power to execute a few programs as fast as possible
+* **Answer**: C
+7. Is it necessary for an algorithm to solve a problem with an infinite number of steps?
+* A) No
+* B) Yes
+* C) Error
+* D) None of these
+* **Answer**: A
+8. Arithmetic Operations are performed by:
+* A) LU
+* B) AU
+* C) ALU
+* D) CU
+* **Answer**: C
+9. A processor is also known as:
+* A) CPU
+* B) UPS
+* C) UPC
+* D) PUS
+* **Answer**: A
+10. Which of the following part of the CPU controls the sequence of their instructions?
+* A) AU
+* B) CU
+* C) LU
+* D) ALU
+* **Answer**: B
+11. RAM stands for:
+* A) Random Access Memory
+* B) Random Analysis
+* C) Read Able Memory
+* D) Random Available Memory
+* **Answer**: A
+12. ROM stores data:
+* A) Permanently
+* B) Temporarily
+* C) Partially
+* D) Fully
+* **Answer**: A
+13. Which of the following is the highest speed slot?
+* A) ISA
+* B) AGP
+* C) PCI
+* D) AGC
+* **Answer**: B
+14. A video game is played by using ____ card.
+* A) Sound
+* B) Modem
+* C) Graphics
+* D) Network information
+* **Answer**: C
+15. Barcode reader is a/an ____ device.
+* A) Output
+* B) Input
+* C) Display
+* D) Storage
+* **Answer**: B
+16. Which is used in security systems and criminal investigations?
+* A) Fingerprint reader
+* B) Robots
+* C) Sound Card
+* D) Barcode Reader
+* **Answer**: A
+17. Which is also known as a mechanical agent?
+* A) Computer
+* B) Barcode Reader
+* C) Processor
+* D) Robots
+* **Answer**: D
+18. ____ is the set of instructions given to the computer to perform a specific task.
+* A) Monitor
+* B) Hardware
+* C) Software
+* D) Printer
+* **Answer**: C
+19. Flat panels are usually used in:
+* A) Super computer
+* B) Personal computer
+* C) Main frame computer
+* D) Laptops
+* **Answer**: D
+20. Cary T90 is an example of:
+* A) IBM
+* B) Hybrid computer
+* C) Super computer
+* D) Personal computer
+* **Answer**: C
+21. Which one is application software?
+* A) Windows
+* B) Linux
+* C) MS-Excel
+* D) DOS
+* **Answer**: C
+22. The language used for artificial intelligence is:
+* A) Cobol
+* B) Lisp
+* C) Assembly
+* D) Fortran
+* **Answer**: B
+23. Which of the following is not a type of bus in the computer?
+* A) Data bus
+* B) Power bus
+* C) Control bus
+* D) All of the above
+* **Answer**: B
+24. In a network with 25 computers which topology would require the most extensive cabling?
+* A) Star
+* B) Mesh
+* C) Bus
+* D) None of the above
+* **Answer**: B
+25. Decimal value of 2^-1 is equal to:
+* A) 0.5
+* B) 0.25
+* C) 0.05
+* D) 0.1
+* **Answer**: A
+26. In the topology computer is directly linked to a centre computer:
+* A) Bus
+* B) Node
+* C) Star
+* D) Ring
+* **Answer**: C
+27. MAN stands for:
+* A) Metropolitan Area Number
+* B) Metro Area Network
+* C) Metropolitan Area Network
+* D) None of these
+* **Answer**: C
+28. Which of the following is the second largest measurement of RAM?
+* A) Megabyte
+* B) Gigabyte
+* C) Byte
+* D) Terabyte
+* **Answer**: B
+29. Programs stored in ROM are called:
+* A) Fireware
+* B) Formware
+* C) Farmware
+* D) Firmware
+* **Answer**: D
+30. Cache memory acts between:
+* A) CPU and Hard disk
+* B) RAM and ROM
+* C) CPU and RAM
+* D) All of these
+* **Answer**: C
+31. Analog computer works on the supply of
+* A) Physical strength
+* B) Natural strength
+* C) Magnetic strength
+* D) Continuous electrical pulses
+* **Answer**: D
+32. Microsoft Word was released in which year?
+* A) 1981
+* B) 1982
+* C) 1983
+* D) 1984
+* **Answer**: C
+33. What was the initial name of Microsoft Word when it was released?
+* A) Multi-Technique Word
+* B) Multi-Transition Word
+* C) Multi-Type Word
+* D) Multi-Tool Word
+* **Answer**: D
+34. Office Button is symbolized with which feature on MS Word?
+* A) Paper
+* B) Ribbon
+* C) Arrow
+* D) Office
+* **Answer**: D
+35. Which of the following option is provided by Office Button?
+* A) Open
+* B) Save
+* C) Print
+* D) All of the above
+* **Answer**: D
+36. Where is Office Button located in MS Word?
+* A) Left Upper
+* B) Left Bottom
+* C) Right Upper
+* D) Right Bottom
+* **Answer**: A
+37. Which of the following document settings can be changed from the Home tab?
+* A) Font Size
+* B) Adding Bullets
+* C) Adjusting Styles
+* D) All of the above
+* **Answer**: D
+38. Which of the following is the 2nd tab in the Ribbon?
+* A) Home
+* B) Insert
+* C) Page Layout
+* D) References
+* **Answer**: B
+39. Which of the following can be added using the Insert tab?
+* A) Table
+* B) Picture
+* C) Clip Art
+* D) All of the above
+* **Answer**: D
+40. Which of the following is not a command in Insert tab?
+* A) Page
+* B) Table
+* C) Link
+* D) Style
+* **Answer**: D
+41. Which of the following can be changed using the Page layout tab?
+* A) Theme
+* B) Page Setup
+* C) Arrange
+* D) All of the above
+* **Answer**: D
+42. Which of the following tab is used to add the document citation?
+* A) Home
+* B) Insert
+* C) Page Layout
+* D) References
+* **Answer**: D
+43. How many commands are present in the Reference tab?
+* A) 4
+* B) 5
+* C) 6
+* D) 7
+* **Answer**: C
+44. An excel workbook is a collection of:
+* A) Workbooks
+* B) Worksheets
+* C) Charts
+* D) Worksheets and Charts
+* **Answer**: D
+45. Which of these keys are used in MS Excel to insert the current time in workbook?
+* A) Ctrl + Shift + ;
+* B) Ctrl + !
+* C) Ctrl + *
+* D) None of these
+* **Answer**: A
+46. Getting data from a cell located in a different sheet is called:
+* A) Accessing
+* B) Cell Referencing
+* C) Updating
+* D) Functioning
+* **Answer**: B
+47. In MS Excel ready-made templates are available under the ____ tab.
+* A) File
+* B) Insert
+* C) Design
+* D) None of the above
+* **Answer**: A
+48. You can edit existing Excel Data by pressing the ____ key.
+* A) F1 key
+* B) F2 key
+* C) F3 key
+* D) F4 key
+* **Answer**: B
+49. When you insert an Excel File into a word document, the data are?
+* A) Hyperlinked
+* B) Placed in a word table
+* C) Linked
+* D) Embedded
+* **Answer**: D
+50. The greater than sign is an example of ____ operation.
+* A) Arithmetic
+* B) Logical
+* C) Conditional
+* D) Greater
+* **Answer**: B
+51. Which function displays row data into column or column data into a row?
+* A) Hyperlink
+* B) Index
+* C) Transpose
+* D) Rows
+* **Answer**: C
+52. Microsoft Office Inter Connect is:
+* A) An application that supports editing scanned documents
+* B) Business-relationship database
+* C) A scanning and OCR application
+* D) None of these
+* **Answer**: B
+53. If you press ____ the cell accepts your typing as its content.
+* A) Tab
+* B) Ctrl+Enter
+* C) Enter
+* D) Alt+Enter
+* **Answer**: C
+54. The default style for new data keyed in a new workbook is ____.
+* A) Comma
+* B) Normal
+* C) Currency
+* D) Percent
+* **Answer**: B
+55. How we can view a cell comment?
+* A) Position the mouse pointer over the cell
+* B) Click the comment command on the view menu
+* C) Click the edit comment commands on the Insert menu
+* D) Click the display comment command on the window menu
+* **Answer**: A
+56. Which of these will not select all the cells in a document?
+* A) Using the Edit - Selection All menu
+* B) Pressing Ctrl + A on the keyboard
+* C) Clicking three times with the right mouse button in the spreadsheet
+* D) None of these
+* **Answer**: C
+57. Which of the following is not an element of a computer spreadsheet interface?
+* A) Pencil work
+* B) Active cell
+* C) Menu bar
+* D) Workbook
+* **Answer**: A
+58. In a computer spreadsheet rows are labeled ____?
+* A) by letters
+* B) by numbers
+* C) by cell references
+* D) by symbols
+* **Answer**: B
+59. Basic unit of a computer worksheet in which you enter text and numbers is known as ____?
+* A) Workbook
+* B) Column
+* C) Row
+* D) Cell
+* **Answer**: D
+60. User-developed instructions for excel are called ____?
+* A) Program
+* B) Macros
+* C) Procedure
+* D) All of these
+* **Answer**: B
+61. Computer spreadsheet cell that is highlighted with a heavy border is a ____?
+* A) Active cell
+* B) Cell containing a formula
+* C) Locked cell
+* D) Cell
+* **Answer**: A
+62. Which of these is a type of sound file?
+* A) DAT files
+* B) LOG files
+* C) DRV Files
+* D) WAV Files
+* **Answer**: D
+63. In the current presentation, if we want to insert a new slide, we can choose which of these?
+* A) Ctrl + F
+* B) Ctrl + O
+* C) Ctrl + M
+* D) Ctrl + N
+* **Answer**: C
+64. Which of these terms do we use when an image in a clip art changes the direction that it was originally facing?
+* A) Group
+* B) Rotate
+* C) Flip
+* D) B and C
+* **Answer**: D
+65. Which of these refers to the PowerPoint view used for displaying only the text (title and bullets)?
+* A) Slide sorter show
+* B) Slide view
+* C) Outline view
+* D) Notes page view
+* **Answer**: C
+66. Which toolbar provides various options in different master views?
+* A) Standard toolbar
+* B) Formatting toolbar
+* C) Drawing toolbar
+* D) Common tasks toolbar
+* **Answer**: D
+67. We can find any and every command on the:
+* A) Menu bar
+* B) Standard toolbar
+* C) Formatting toolbar
+* D) Drawing toolbar
+* **Answer**: A
+68. Which of these features should one use when we want to type in the text box for notes?
+* A) Insert
+* B) Slide shows
+* C) Zoom
+* D) Slide master
+* **Answer**: A
+69. Which of these is the page setup orientation by default of the slides in PowerPoint?
+* A) Landscape
+* B) Portrait
+* C) Vertical
+* D) None of the above
+* **Answer**: A
+70. From which of these menus can we access a Text Box, Picture, Chart, etc?
+* A) View
+* B) Insert
+* C) Edit
+* D) File
+* **Answer**: B
+71. Which of these font effects is NOT available in the PowerPoint Font dialogue box?
+* A) Shadow
+* B) Underline
+* C) Strikethrough
+* D) Emboss
+* **Answer**: C
+72. Which of these sections does a slide layout NOT have?
+* A) Lists
+* B) Animations
+* C) Titles
+* D) Charts
+* **Answer**: B
+73. If you want to insert some slides from other presentation into current one chooses
+* A) From Insert menu choose Slides from Files
+* B) From Insert menu choose Slides from Presentation
+* C) From Insert menu choose Slides
+* D) None of these
+* **Answer**: A
+74. What are the three options available in the Insert >> Picture menu?
+* A) Clipart, Pictures, Shapes
+* B) Clipart, From File, Shapes
+* C) Clipart, From files, AutoShapes
+* D) Clipart, Pictures, AutoShapes
+* **Answer**: D
+75. To insert slide numbers
+* A) Insert a text box and select insert >> Page Number
+* B) Insert a textbox and select insert >> Page Number
+* C) Choose Insert >> Slide Number
+* D) Insert a new text box and select Insert >> slide Number
+* **Answer**: C
+76. In a PowerPoint presentation:
+* A) Sound clips can be inserted but not movie clips
+* B) Movie clips can be inserted but not sound clips
+* C) Both cannot be inserted
+* D) Both can be inserted
+* **Answer**: D
+77. To insert a hyperlink in a slide
+* A) Choose to insert >> hyperlink
+* B) Press Ctrl + K
+* C) Hyperlinks can't be inserted in slides
+* D) Both A & B
+* **Answer**: D
+78. A computer on the internet is identified by:
+* A) E-mail address
+* B) Street address
+* C) IP address
+* D) None of the above
+* **Answer**: C
+79. What is telnet?
+* A) Search engine
+* B) Browser
+* C) Protocol
+* D) Gateway
+* **Answer**: C
+80. Select the example of connectivity?
+* A) Floppy Disk
+* B) Internet
+* C) Data
+* D) Power card
+* **Answer**: B
+81. Which term is not used by intranet?
+* A) IP
+* B) HTTP
+* C) TCP
+* D) BSNL
+* **Answer**: D
+82. Which term avoided in E-mail
+* A) Re-Reading
+* B) Subject line
+* C) Smileys
+* D) Wrong E-mail address
+* **Answer**: D
+83. Which domains are used by profit business?
+* A) .org
+* B) .edu
+* C) .net
+* D) .com
+* **Answer**: D
+84. What was the first network that provides the basis for the internet?
+* A) ARAPANET
+* B) AAPARANET
+* C) ARPANET
+* D) PARA NET
+* **Answer**: C
+85. The web page code is written using:
+* A) Hypertext markup language
+* B) Winzip
+* C) URL
+* D) Perl
+* **Answer**: A
+86. The computer connected to the internet must have?
+* A) Have a unique IP address
+* B) be an IBM PC
+* C) have a modem connection
+* D) be Internet compatible
+* **Answer**: A
+
+**Category: General Knowledge**
+1. The use of physical punishment for class management is called ____?
+* A) Extinction technique
+* B) Satiation technique
+* C) Time out technique
+* D) Corporal punishment
+* **Answer**: D
+2. A common technique to help people begin the creative process is?
+* A) Calculations
+* B) Brain storming
+* C) Thoroughness
+* D) Mental shortcuts
+* **Answer**: B
+3. Non-permanent members of the UN Security Council are elected for a term of ____?
+* A) 1 year
+* B) 2 years
+* C) 3 years
+* D) 5 years
+* **Answer**: B
+4. Braille education system was introduced by Braille for?
+* A) Blinds
+* B) Dump
+* C) Handicap
+* D) Labours
+* **Answer**: A
+
+**Category: English**
+1. Carpenter is to wood as a tailor is to ____?
+* A) Machine
+* B) Ship
+* C) Cloth
+* D) Shop
+* **Answer**: C
+2. Limb is to body as the branch is to ____?
+* A) Building
+* B) Grass
+* C) Garden
+* D) Tree
+* **Answer**: D
+3. Milk is to white as the sky is to ____?
+* A) Red
+* B) Blue
+* C) Green
+* D) Black
+* **Answer**: B
+4. Boot is to foot as the glove is to ____?
+* A) Wool
+* B) Cloth
+* C) Cotton
+* D) Hand
+* **Answer**: D
+5. The market is nearer to them than ____?
+* A) We
+* B) Ourselves
+* C) Ours
+* D) Us
+* **Answer**: D
+6. A person who talks in his/her sleep is called a ____?
+* A) Bourgeois
+* B) Somniloquist
+* C) Ventriloquist
+* D) Insomnist
+* **Answer**: B
+7. Something that is hard but likely to crack easily is called:
+* A) Resilient
+* B) Flexible
+* C) Brittle
+* D) Supple
+* **Answer**: C
+8. A person who helps another do a crime is called a
+* A) Cuckold
+* B) Amateur
+* C) Accomplice
+* D) Changeling
+* **Answer**: C
+9. The antonym of stale is:
+* A) Old
+* B) Break
+* C) Tale
+* D) Fresh
+* **Answer**: D
+
+**Category: Islamic Studies**
+1. "Spirit of Islam" book was written by?
+* A) Syed Ameer Ali
+* B) Quaid-e-Azam
+* C) Allama Iqbal
+* D) Sir Syed
+* **Answer**: A
+**Model Paper 112**
+
+**Category: General Knowledge**
+1. Amazon founded in which year:
+* A) 1983
+* B) 1994
+* C) 2003
+* D) 2004
+* **Answer**: B
+2. The first Asian Secretary-General of the United Nation was:
+* A) Trygve Lie
+* B) Ban ki Moon
+* C) U Thant
+* D) Kurt Waldheim
+* **Answer**: C
+3. Who wrote the novel Pride and Prejudice?
+* A) George Orwell
+* B) Charles Dickens
+* C) Jane Austen
+* D) Earnest Hemingway
+* **Answer**: C
+4. Where "CN Tower" is located?
+* A) London
+* B) Toronto
+* C) Dubai
+* D) Heidelberg
+* **Answer**: B
+5. Diego Garcia is ________ military base in the Indian Ocean.
+* A) Japan
+* B) US
+* C) Germany
+* D) Russia
+* **Answer**: B
+6. The North Atlantic Treaty Organization was created in:
+* A) 1944
+* B) 1949
+* C) 1958
+* D) 1961
+* **Answer**: B
+7. Myanmar got independence in:
+* A) 1947
+* B) 1948
+* C) 1950
+* D) 1951
+* **Answer**: B
+8. On January 8, 2022 Ukraine International Airline Flight 752 was shot down minutes after taking off from Tehran Iran by an Iranian surface to air missile called it:
+* A) Human error
+* B) Technical error
+* **Answer**: A
+9. Zika virus is a mosquito-borne virus first identified in:
+* A) Morocco
+* B) Uganda
+* C) Ghana
+* D) Nepal
+* **Answer**: B
+10. On October 31, ________ Indira Gandhi was assassinated.
+* A) 1981
+* B) 1982
+* C) 1983
+* D) 1984
+* **Answer**: D
+11. Israel captured East Jerusalem in:
+* A) 1948
+* B) 1967
+* C) 1971
+* D) 1988
+* **Answer**: B
+12. How many players in basketball game in each team?
+* A) 5
+* B) 9
+* C) 11
+* D) 12
+* **Answer**: A
+13. Louvre museum is located in:
+* A) Paris
+* B) London
+* C) Rome
+* D) None of these
+* **Answer**: A
+14. Anwar Sadat was the president of:
+* A) Syria
+* B) Iraq
+* C) Egypt
+* D) Qatar
+* **Answer**: C
+15. Globalization has improved in the living structure of:
+* A) Workers in developing countries
+* B) People in developed countries
+* C) Both A & B
+* D) None of these
+* **Answer**: A
+16. Ashgabat is the capital of:
+* A) Azerbaijan
+* B) Portugal
+* C) Turkmenistan
+* D) Tajikistan
+* **Answer**: C
+17. Who abolished Khilafat in Turkey?
+* A) Alliance
+* B) British army
+* C) Mustafa Kamal
+* D) None of these
+* **Answer**: C
+18. When the Soviet Union invaded Afghanistan:
+* A) 24 December 1974
+* B) 24 December 1977
+* C) 24 December 1979
+* D) 24 December 1981
+* **Answer**: C
+19. The runway for long jump is about ________ in width.
+* A) 1.22 m
+* B) 1.44 m
+* C) 1.66 m
+* D) None of these
+* **Answer**: A
+
+**Category: Pakistan Studies**
+1. Which Article of Constitution gives Supreme Court the Suo Motu powers?
+* A) Article 144(3)
+* B) Article 154(3)
+* C) Article 174(3)
+* D) Article 184(3)
+* **Answer**: D
+2. Who started the Faraizi Movement?
+* A) Maulana Muhammad Ali Jauhar
+* B) Haji Shariatullah
+* C) Allama Iqbal
+* D) Sir Agha Khan
+* **Answer**: B
+3. All Parties Conference regarding freedom of India against British rule was made in ________.
+* A) 1922
+* B) 1924
+* C) 1926
+* D) 1928
+* **Answer**: D
+4. Who was the last Governor of undivided Punjab?
+* A) Abdur Rab Nishtar
+* B) Sir Evan Jenkins
+* C) Francis Mudie
+* D) Ghulam Muhammad
+* **Answer**: B
+5. The Cabinet Mission came to India in the year:
+* A) 1941
+* B) 1943
+* C) 1946
+* D) 1947
+* **Answer**: C
+6. Quaid-e-Azam joined Indian National Congress in which year:
+* A) 1906
+* B) 1914
+* C) 1920
+* D) 1931
+* **Answer**: A
+7. The Battle of Karnal was fought Between the Mughal Emperor Muhammad Shah and ________.
+* A) Aurangzeb
+* B) Akbar
+* C) Nadir Shah
+* D) Bahadur Shah
+* **Answer**: C
+8. When was Indian Council Act passed?
+* A) 1855
+* B) 1858
+* C) 1861
+* D) 1884
+* **Answer**: C
+9. Johar Town Blast in Lahore is related to:
+* A) Hafiz Saeed
+* B) FATF
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+10. Qazi Isa was the ________ of Baluchistan Muslim League.
+* A) President
+* B) Vice President
+* C) General Secretary
+* D) Board of governance member
+* **Answer**: A
+11. Ganda Singh border connects:
+* A) Sialkot-Ferozpur
+* B) Ferozpur-Kasur
+* C) Amritsar-Lahore
+* D) None of these
+* **Answer**: B
+12. Which is the national bird of Pakistan?
+* A) Markhor
+* B) Chakor
+* C) Parrot
+* D) Pigeon
+* **Answer**: B
+13. Doctrine of Necessity in Pakistan was first time used by:
+* A) Chief Justice Muhammad Munir
+* B) Chief Justice Ifthikhar Ch
+* C) Chief Justice Kazim Ali
+* D) None of these
+* **Answer**: A
+14. The Pakistan initiatives for mothers and newborn was designed to work for:
+* A) To fight against terrorism
+* B) Women rights
+* C) Against child labour
+* D) To address maternal and newborn health issue
+* **Answer**: D
+15. Who was the first viceroy of India:
+* A) Lord Rippon
+* B) Lord Canning
+* C) Lord Curzon
+* D) Lord Mayo
+* **Answer**: B
+16. When was the 18th Amendment Bill passed by National Assembly of Pakistan?
+* A) February 8, 2010
+* B) March 8, 2010
+* C) April 8, 2010
+* D) May 8, 2010
+* **Answer**: C
+
+**Category: Current Affairs**
+1. On December 14, 2022, which country launches space force unit in South Korea:
+* A) UK
+* B) US
+* C) Japan
+* D) Germany
+* **Answer**: B
+2. According to 1998 census the share of urban settlements in Pakistan was:
+* A) 11.81 %
+* B) 14.98%
+* C) 32.52%
+* D) 17.76 %
+* **Answer**: C
+3. Who is the winner of ICC Men's T20 World Cup 2021?
+* A) New Zealand
+* B) England
+* C) West Indies
+* D) Australia
+* **Answer**: D
+4. How many times has France won the FIFA World Cup?
+* A) One
+* B) Two
+* C) Three
+* D) Four
+* **Answer**: B
+5. Who is the current President of Iran?
+* A) Ebrahim Raisi
+* B) Abdul Nasir
+* C) Mohsin Raza
+* D) Amir Hussain
+* **Answer**: A
+
+**Category: Geography**
+1. Baluchistan plateau lies in:
+* A) East of Koh Kirthar and Sulaiman range
+* B) West of Koh Kirthar and Sulaiman range
+* C) South of Koh Kirthar and Sulaiman range
+* D) North of Koh Kirthar and Sulaiman range
+* **Answer**: B
+2. Chaj Doab lies between which two rivers:
+* A) Chenab & Ravi
+* B) Chenab & Jhelum
+* C) Sindh & Ravi
+* D) Sindh & Chenab
+* **Answer**: B
+3. Which is the highest peak of Himalayas range in Pakistan?
+* A) Sakesar
+* B) Tirich Mir
+* C) Nanga Parbat
+* D) K-2
+* **Answer**: C
+4. Which type of forest is found in Chitral, Dir and Swat:
+* A) Alpine
+* B) Coniferous
+* C) Deciduous
+* D) None of these
+* **Answer**: B
+5. Identify the latitude of Punjab Province:
+* A) 27.42 to 34.02 N
+* B) 28.42 to 35.02 N
+* C) 29.42 to 36.02 N
+* D) 31.42 to 36.02 N
+* **Answer**: A
+
+**Category: Everyday Science**
+1. What is the first element in the periodic table?
+* A) Hydrogen
+* B) Helium
+* C) Nitrogen
+* D) Carbon
+* **Answer**: A
+2. Non flowering plants are called as:
+* A) Cryptogams
+* B) Angiosperms
+* C) Phanerogams
+* D) Phanerogams
+* **Answer**: A
+3. Optical fibre works on the principle of:
+* A) Scattering
+* B) Total Internal Reflection
+* C) Interference
+* D) Principle of refraction
+* **Answer**: B
+4. Who among the following proposed Laws of planetary motion?
+* A) Roger Bacon
+* B) Issac Newton
+* C) Johannes Kepler
+* D) Galileo
+* **Answer**: C
+5. The gases used in different types of welding would include:
+* A) Oxygen and hydrogen
+* B) Oxygen, hydrogen, acetylene and nitrogen
+* C) Oxygen, acetylene and argon
+* D) Oxygen and acetylene
+* **Answer**: D
+6. Law of magnet induction proposed by:
+* A) Michael Faraday
+* B) Ernest Rutherford
+* C) Clerk Maxwell
+* D) Neils Bohr
+* **Answer**: A
+7. How many neutrons in hydrogen?
+* A) 0
+* B) 1
+* C) 2
+* D) 3
+* **Answer**: A
+
+**Category: Basic Computer Studies**
+1. 1 Gigabyte is equal to:
+* A) 1024 bytes
+* B) 1024 bits
+* C) 1024 megabytes
+* D) 1024 terabytes
+* **Answer**: C
+2. What is the extension of Microsoft Word files?
+* A) DOC
+* B) DOCX
+* C) TXT
+* D) DOCS
+* **Answer**: B
+3. We can insert a page number in Microsoft word at:
+* A) Header
+* B) Margin
+* C) Macros
+* D) None of these
+* **Answer**: A
+4. Which product of Microsoft is not available in Linux operating system:
+* A) Open Source
+* B) MS Access
+* C) Command Line Interface
+* D) None of these
+* **Answer**: B
+5. The term DNS stands for:
+* A) Domain Name System
+* B) Dependent Name Server
+* C) Domain Name Service
+* D) None of these
+* **Answer**: A
+
+**Category: English**
+1. The meaning of idiom Laugh in one's sleeves is:
+* A) To laugh secretly
+* B) To laugh openly
+* C) To laugh at some weak
+* D) To laugh occasionally
+* **Answer**: A
+2. The antonym of Impertinent:
+* A) Kind
+* B) Polite
+* C) Noble
+* D) Mannered
+* **Answer**: B
+3. Fill in the blanks with suitable Prepositions: The bridge is constructed ________ the canal.
+* A) Over
+* B) Across
+* C) by
+* D) None of these
+* **Answer**: A
+4. She ________ for the upcoming tennis tournament.
+* A) trains
+* B) is going to train
+* C) is training
+* D) will train
+* **Answer**: C
+5. My elder brother got a motor bike but I ________.
+* A) have not
+* B) has not
+* C) had not
+* D) could not
+* **Answer**: A
+6. White ball ________ for the first time in the 1992 Cricket World Cup.
+* A) used
+* B) was used
+* C) had used
+* D) had been used
+* **Answer**: B
+7. If Ashraf ________ earlier, he would always be on time.
+* A) got up
+* B) get up
+* C) had to get up
+* D) had got up
+* **Answer**: D
+8. You can go neither by train ________ by bus?
+* A) or
+* B) nor
+* C) no
+* D) and
+* **Answer**: B
+9. If you work hard, you ________ good marks.
+* A) would get
+* B) would got
+* C) will get
+* D) will got
+* **Answer**: C
+10. Anna has finished her work, now she is ________ home.
+* A) going
+* B) going to
+* C) going to the
+* D) going towards the
+* **Answer**: A
+11. Fatima is not at home at the moment, She ________ work.
+* A) is at
+* B) is on
+* C) was at
+* D) was on
+* **Answer**: A
+12. ________ sign is used at the end of a sentence or a short phrase which express strong feelings.
+* A) Comma
+* B) Exclamation
+* C) Semi Colon
+* D) Full stop
+* **Answer**: B
+13. Near the London eye, there is a bridge ________ the Thames River.
+* A) above
+* B) over
+* C) off
+* D) towards
+* **Answer**: B
+14. ________ of the two sisters is married.
+* A) both
+* B) every
+* C) each
+* D) any
+* **Answer**: C
+15. Faint heart never won fair lady. WON is which part of speech?
+* A) verb
+* B) adverb
+* C) preposition
+* D) None of these
+* **Answer**: A
+16. Correction of adverb Lets play nice:
+* A) Lets play nicely
+* B) Nicely lets play
+* C) Lets nicely play
+* D) None of these
+* **Answer**: A
+17. The wages of sin ________ death.
+* A) is
+* B) are
+* C) by
+* D) None of these
+* **Answer**: A
+
+**Category: Islamic Studies**
+1. Which surah starts without "Bismillah"?
+* A) Al Baqarah
+* B) Al Tauba
+* C) Al Nisa
+* D) Al Quraish
+* **Answer**: B
+2. Bait-e-Rizwan took place in ________ Hijrah.
+* A) 5
+* B) 6
+* C) 7
+* D) 8
+* **Answer**: B
+3. How many days Hazrat Younas AS remained in the abdomen of fish?
+* A) 10 days
+* B) 20 days
+* C) 30 days
+* D) 40 days
+* **Answer**: D
+4. Holy Prophet PBUH was born in:
+* A) 570 AD
+* B) 571 AD
+* C) 572 AD
+* D) 573 AD
+* **Answer**: B
+5. Which article of the Constitution of 1973 is related to the affairs of Zakat?
+* A) 31
+* B) 35
+* C) 76
+* D) 123
+* **Answer**: A
+6. The term "Islam" means:
+* A) Submission
+* B) Peace
+* C) Fortitude
+* D) Thankfulness
+* **Answer**: A
+
+**Model Paper 113**
+
+**Category: General Knowledge**
+1. Cue, bolting and break terms associated with which game:
+* A) Volleyball
+* B) Snooker
+* C) Billiard
+* D) Polo
+* **Answer**: C
+2. In 1946, who called for the complete elimination of nuclear weapons:
+* A) UN General Assembly
+* B) UN Secretariat
+* C) World Bank
+* D) European Court of Human Rights
+* **Answer**: A
+3. Which religion followers are not allowed to eat sehri while keeping fast?
+* A) Christians
+* B) Jews
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+4. Who is popularly known as Father of Indian Constitution?
+* A) B.R Ambedkar
+* B) Jawaharlal Nehru
+* C) Mahatama Gandhi
+* D) Bal Gangadhar Tilak
+* **Answer**: A
+5. How many countries joined NATO:
+* A) 20
+* B) 26
+* C) 30
+* D) 34
+* **Answer**: C
+6. Which of the following is not a member of NATO?
+* A) Lithuania
+* B) Luxemburg
+* C) Montenegro
+* D) China
+* **Answer**: D
+7. The book "A Brief History of Time" is written by:
+* A) Aristotle
+* B) Oswald Spengler
+* C) Stephen Hawking
+* D) Karl Marx
+* **Answer**: C
+8. In tennis which test is used to check the fitness of players:
+* A) Push up test
+* B) Fitness test
+* C) Dyer test
+* D) T test
+* **Answer**: C †
+9. Geneva is the city of which country:
+* A) New Zealand
+* B) Switzerland
+* C) Italy
+* D) None of these
+* **Answer**: B
+10. Arab Spring started from which country:
+* A) Tunisia
+* B) Libya
+* C) Yemen
+* D) Egypt
+* **Answer**: A
+11. Cloud Gate is located in:
+* A) Chicago
+* B) San Francisco
+* C) Alaska
+* D) None of these
+* **Answer**: A
+12. After cold war, a new cold war or cold war II has arisen between:
+* A) Russia & US
+* B) Russia & China
+* C) China & US
+* D) None of these
+* **Answer**: C
+13. Which one is the capital of Somalia?
+* A) Nairobi
+* B) Cairo
+* C) Mogadishu
+* D) None of these
+* **Answer**: C
+14. Healthful diet includes balance, variety and ______ principle.
+* A) Availability
+* B) Moderation
+* C) Quality
+* D) Complimentary
+* **Answer**: B
+15. Which one is not the principle of New World Order?
+* A) Territorial Integrity
+* B) Human Rights
+* C) Peaceful Engagement
+* D) War on terrorism
+* **Answer**: D
+
+**Category: Pakistan Studies**
+1. Who among the following Mughal rulers was a contemporary of Queen Elizabeth I of England:
+* A) Jahangir
+* B) Aurangzeb Alamgir
+* C) Zaheer-ud-din Babar
+* D) Akbar the Great
+* **Answer**: D
+2. The Charismatic Leader: Quaid-i-Azam Mohammad Ali Jinnah and the Creation of Pakistan:
+* A) Benazir Bhutto
+* B) Sikandar Hayat
+* C) Shaukat Hayat Khan
+* D) Colonel Ilahi Baksh
+* **Answer**: B
+3. During Mughal rule Bakhshi was:
+* A) Incharge of Military Affairs
+* B) Finance Minister
+* C) Incharge of Religious Affairs
+* D) Minister of the Royal Household
+* **Answer**: A
+4. Tipu sultan had diplomatic relations with which French king:
+* A) Napoleon
+* B) Charles
+* C) Henry II
+* D) None of these
+* **Answer**: A
+5. Which of the following cities was the former capital of Pakistan?
+* A) Lahore
+* B) Rawalpindi
+* C) Peshawar
+* D) Karachi
+* **Answer**: D
+6. Who was the Prime Minister of India at the time of Tashkent agreement?
+* A) Lal Bahadur Shastri
+* B) Indira Gandhi
+* C) Atal Bihari Vajpayee
+* D) Rajiv Gandhi
+* **Answer**: A
+7. "Chilam Joshi" is a festival celebrated in
+* A) Kalash Valley
+* B) Gilgit Baltistan
+* C) Peshawar
+* D) None of these
+* **Answer**: A
+8. Which is the national flower of Pakistan?
+* A) Jasmine
+* B) Rose
+* C) Sunflower
+* D) Marigold
+* **Answer**: A
+9. The largest oil refinery in Pakistan is:
+* A) Attock oil refinery
+* B) Pak-China oil refinery
+* C) Pak-Arab oil refinery
+* D) None of these
+* **Answer**: C
+10. When did Pakistan join the OIC?
+* A) 1968
+* B) 1969
+* C) 1973
+* D) 1974
+* **Answer**: B
+11. When did the Indian mutiny take place?
+* A) 1849
+* B) 1857
+* C) 1865
+* D) 1902
+* **Answer**: B
+12. Azad Pattan project will be constructed on which river:
+* A) Indus
+* B) Jhelum
+* C) Chenab
+* D) None of these
+* **Answer**: B
+13. How many princely states at the time of subcontinent partition decided to join Pakistan out of 565?
+* A) 11
+* B) 12
+* C) 13
+* D) 14
+* **Answer**: C
+14. In Punjab Radcliffe gave an unjust award, including following tehsils in Indian side:
+* A) Sheikhupura, Kasur
+* B) Gurdaspur, Pathankot
+* C) Feroxpur, Hoshiarpur
+* D) Shakargarh, Pakpattan
+* **Answer**: B
+15. Agra summit was a two days summit which remained:
+* A) Successful
+* B) Un-Conclusive
+* C) Delayed Till Further
+* D) None of these
+* **Answer**: B
+16. Which out of the following countries hosted most refugees in 2012?
+* A) Iran
+* B) Pakistan
+* C) Germany
+* D) France
+* **Answer**: B
+17. Who was the founder of Nawaiwaqt news paper?
+* A) Hameed Nizami
+* B) Majeed Nizami
+* C) Arif Nizami
+* D) None of these
+* **Answer**: A
+18. General Pervaiz Musharraf was elected as President through referendum on:
+* A) April 30, 2001
+* B) April 30, 2002
+* C) April 30, 2003
+* D) April 30, 2004
+* **Answer**: B
+19. The name of the daughter of Quad-e-Azam was:
+* A) Maryam
+* B) Dina
+* C) Khadija
+* D) None of these
+* **Answer**: B
+20. Who was the founder of Lodhi dynasty of India?
+* A) Ibrahim Lodhi
+* B) Bahlul Khan Lodhi
+* C) Sikandar Lodhi
+* D) None of these
+* **Answer**: B
+21. Maleeha Lodhi served as ambassador of:
+* A) [not legible in scan]
+* B) [not legible in scan]
+* C) [not legible in scan]
+* D) All of these
+* **Answer**: D
+22. Chapter 1 of the 1973 constitution deals with:
+* A) Fundamental Rights
+* B) Principles of Policy
+* C) President's powers
+* D) Prime Minister's Powers
+* **Answer**: A
+23. Faiz Ahmad Faiz buried in:
+* A) Karachi
+* B) Lahore
+* C) Hyderabad
+* D) None of these
+* **Answer**: B
+24. Zulfiqar Ali Bhutto first ministry was:
+* A) Industrialization
+* B) Commerce
+* C) Finance
+* D) Petroleum
+* **Answer**: B
+25. Mahmud of Ghazni waged war against rebellious India in the year of:
+* A) 900 AD
+* B) 1000 AD
+* C) 1100 AD
+* D) 1200 AD
+* **Answer**: B
+26. When Aligarh College became university in:
+* A) 1875
+* B) 1877
+* C) 1920
+* D) 1936
+* **Answer**: C
+
+**Category: Current Affairs**
+1. Who chaired Asia Pacific Group of UNESCO for the year 2020 from Pakistan?
+* A) Abdul Basit
+* B) Moin-ul-Haq
+* C) Maleeha Lodhi
+* D) Munir Akram
+* **Answer**: D
+2. Banjosa Lake is situated in:
+* A) Swat
+* B) Gilgit Baltistan
+* C) AJK
+* D) Karachi
+* **Answer**: C
+3. In March 2006, who was appointed as the bowling coach for Pakistan?
+* A) Shaoib Malik
+* B) Waqar Younus
+* **Answer**: B
+
+**Category: Geography**
+1. Which is the largest lake of Pakistan?
+* A) Drigh lake
+* B) Manchar lake
+* C) Kunjhar lake
+* D) Saif-ul-Malook Lake
+* **Answer**: B
+2. The largest volcano of the world is:
+* A) Mauna Loa
+* B) Mauna Kea
+* C) Mount Etna
+* D) None of these
+* **Answer**: A
+3. The world's deepest trench the Mariana Trench is located in:
+* A) Indian Ocean
+* B) Atlantic Ocean
+* C) Pacific Ocean
+* D) Arctic Ocean
+* **Answer**: C
+4. River flows into a quiet lake and begins to form a:
+* A) Deltas
+* B) Alluvial fans
+* C) Natural levees
+* D) Point bars
+* **Answer**: A
+5. The Bari Doab is located between:
+* A) Jhelum & Chenab
+* B) Bias & Ravi
+* C) Ravi & Chenab
+* D) Bias and Chenab
+* **Answer**: B
+
+**Category: Everyday Science**
+1. A matter can exist in which of the following forms:
+* A) Liquid
+* B) Solid
+* C) Gas
+* D) All of these
+* **Answer**: D
+2. The number of bones in new born baby is:
+* A) 200
+* B) 250
+* C) 300
+* D) None of these
+* **Answer**: C
+3. The reaction between an acid and a base to form:
+* A) Salt & Water
+* B) Acid solution
+* C) Base solution
+* D) Water
+* **Answer**: A
+4. Which is used as an electrode in the dry cell?
+* A) Lead
+* B) Graphite
+* C) Molybdenum
+* D) None of these
+* **Answer**: B
+5. The muscles, tissues and blood all are made up of:
+* A) Carbohydrates
+* B) Proteins
+* C) Vitamins
+* D) Fats
+* **Answer**: B
+
+**Category: Basic Computer Studies**
+1. Errors from computer hardware and software can be identified and removed by process:
+* A) Interface
+* B) Debugging
+* C) Formatting
+* D) Flip Flop
+* **Answer**: B
+2. In MS Word a character that is raised and is smaller above the baseline is called:
+* A) Outline
+* B) Raised
+* C) Superscript
+* D) Subscript
+* **Answer**: C
+3. Computer Hard Disk was first introduced in:
+* A) Dell
+* B) Apple
+* C) Microsoft
+* D) IBM
+* **Answer**: D
+4. Ctrl, shift and alt are called ______ keys.
+* A) Modifier
+* B) Function
+* C) Adjustment
+* D) None of these
+* **Answer**: A
+5. Brain virus created by ______ brothers.
+* A) Pakistani
+* B) Italian
+* C) Chinese
+* D) Japanese
+* **Answer**: A
+6. Which of the following is not a nomenclature of MS Excel?
+* A) Range
+* B) Workbook
+* C) Document
+* D) Cell
+* **Answer**: C
+7. Which key is used for help in Word?
+* A) F1
+* B) F2
+* C) F3
+* D) F4
+* **Answer**: A
+
+**Category: English**
+1. ______ she is a good runner but I have not seen her running.
+* A) Possibly
+* B) Apparently
+* C) Doubtfully
+* D) None of these
+* **Answer**: B
+2. (What) did he wants you to do? Identify (what) in this sentence act as:
+* A) Pronoun
+* B) Adverb
+* C) Adjective
+* D) Noun
+* **Answer**: A
+3. She sings a song, doesn't she here, doesn't she is:
+* A) Tag question
+* B) Pronoun case
+* C) Gerund case
+* D) Object
+* **Answer**: A
+4. Choose the correct analogy Morning : Noon :: ? : ?
+* A) Child: Young
+* B) Child: Youth
+* C) Noon: Forenoon
+* D) None of these
+* **Answer**: B
+5. The meaning of Put on is:
+* A) Call
+* B) Wear
+* C) Escape
+* D) None of these
+* **Answer**: B
+6. Synonym of VEIL:
+* A) Cover
+* B) Over
+* C) Blatant
+* D) None of these
+* **Answer**: A
+7. Choose the analogy of words written in capital letters. Lion: Roar
+* A) Snake : Slither
+* B) Goat: Bleat
+* C) Lizard : Crawl
+* D) Elephant : Tusk
+* **Answer**: B
+8. Choose the analogy of words written in capital letters. Speak: Stammer
+* A) Walk : Stagger
+* B) Strut : Walk
+* C) Speech : Stage
+* D) None of these
+* **Answer**: A
+9. I met ______ European.
+* A) a
+* B) an
+* C) the
+* D) None of these
+* **Answer**: A
+10. Antonym of Haggard:
+* A) Healthy
+* B) Robust
+* C) Hearty
+* D) Animated
+* **Answer**: D
+11. We should abide by the rule, ______?
+* A) Would we?
+* B) Shouldn't we?
+* C) Will not we?
+* D) None of these
+* **Answer**: B
+12. The workers called ______ the strike.
+* A) of
+* B) off
+* C) on
+* D) None of these
+* **Answer**: B
+13. His hand ______ caught yesterday in the door.
+* A) Bruised
+* B) Burnt
+* C) Rough
+* D) Rashed
+* **Answer**: A
+14. How this incident come ______?
+* A) around
+* B) about
+* C) by
+* D) at
+* **Answer**: B
+15. That charming girl was the ______ of all eyes.
+* A) Target
+* B) Ambition
+* C) Cynosure
+* D) Doggerel
+* **Answer**: C
+16. Change narration: The worker said, 'I have not done anything wrong.'
+* A) The worker said that he has not done anything wrong.
+* B) The worker said that he have not done anything wrong.
+* C) The worker said that he had not done anything wrong.
+* D) The worker asked that he has not done anything wrong.
+* **Answer**: C
+
+**Category: Islamic Studies**
+1. Which Mosque was ordered by Allah to destroy?
+* A) Kafiroon
+* B) Zirar
+* C) Mushrikoon
+* D) None of these
+* **Answer**: B
+2. In which Surah of the Holy Quran Bismillah is added twice:
+* A) Surah Baqarah
+* B) Surah Namal
+* C) Surah Yaseen
+* D) None of these
+* **Answer**: B
+3. Which Prophet was declared Adam second?
+* A) Hazrat Ibrahim AS
+* B) Hazrat Nooh AS
+* C) Hazrat Musa AS
+* D) None of these
+* **Answer**: B
+4. Hazrat Zaid bin Haris RA name occurred in which surah of Holy Quran:
+* A) Surah Al Imran
+* B) Surah Al Baqarah
+* C) Surah Al Ahzab
+* D) Surah Rehman
+* **Answer**: C
+5. [Urdu question - options not legible in scan]
+* **Answer**: D
+6. [Urdu question - options not legible in scan]
+* **Answer**: C
+7. [Urdu question - options not legible in scan]
+* **Answer**: B
+
+
+**Model Paper 114**
+
+**Category: General Knowledge**
+1. Where is the British Library situated?
+* A) Paris
+* B) London
+* C) Washington
+* D) New York
+* **Answer**: B
+2. The Nobel Prize has been awarded in ______ fields.
+* A) 5
+* B) 6
+* C) 7
+* D) 8
+* **Answer**: A†
+3. FAO stands for:
+* A) Food and Agriculture Organization
+* B) Financial and Agriculture Organization
+* C) Food and Assurance Organization
+* D) None of these
+* **Answer**: A
+4. The Headquarter of International Labour Organization (ILO) is in:
+* A) New York
+* B) Geneva
+* C) Paris
+* D) Hague
+* **Answer**: B
+5. Eiffel Tower is located in which country:
+* A) Germany
+* B) France
+* C) Italy
+* D) US
+* **Answer**: B
+6. Which of the following becomes first Arab country to launch Mars probe?
+* A) Qatar
+* B) UAE
+* C) Saudi Arabia
+* D) Iran
+* **Answer**: B
+7. Tokyo Olympics 2020 final torchbearer of the Olympic torch relay lit by:
+* A) Bajrang Punia
+* B) Naomi Osaka
+* C) Yang Qian
+* D) None of these
+* **Answer**: B
+8. US President Joe Biden is also served as ______ in US.
+* A) Pentagon Chief
+* B) Speaker of Congress
+* C) Vice President
+* D) Chief Judge
+* **Answer**: C
+9. Six days Arab-Israel war won by:
+* A) Jordan
+* B) Syria
+* C) Egypt
+* D) Israel
+* **Answer**: D
+10. Which is introduced by Zia ul Haq:
+* A) Army Act
+* B) Hudood Ordinance
+* C) Police Act
+* D) None of these
+* **Answer**: B
+11. Hegel thought process was based on:
+* A) Thinking
+* B) Material exchange
+* C) Both A & B
+* D) None of these
+* **Answer**: C†
+12. The term 'double fault' is associated with:
+* A) Baseball
+* B) Golf
+* C) Tennis
+* D) Bridge
+* **Answer**: C
+13. An inter-governmental military alliance between 30 member states 28 European and 02 North American was formed under:
+* A) NATO
+* B) Washington treaty
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+14. Chinese astronaut Wang Yaping is famous for:
+* A) To walk in space
+* B) To walk in moon
+* C) First Chinese women pilot
+* D) None of these
+* **Answer**: A
+15. Which school attacked in Afghanistan in May 2021?
+* A) Mirwais Nika High School
+* B) Sayed Al-Shuhada School
+* C) Faizal E. Kandahari High School
+* D) Safia Ama Jan Girls High School
+* **Answer**: B
+16. Who was the President of US & USSR in U-2 incident of Cuban missile crisis of 1962?
+* A) John F Kennedy & Nikita Khrushchev
+* B) Henry Truman & Stalin
+* C) Richard Nixon & Mikhail Gorbachev
+* D) None of these
+* **Answer**: A
+17. The Fifth Fleet of USA is located in
+* A) Syria
+* B) Bahrain
+* C) Italy
+* D) Qatar
+* **Answer**: B
+18. Sun Yat-sen was father of nation of:
+* A) Japan
+* B) China
+* C) Malaysia
+* D) None of these
+* **Answer**: B†
+19. Temple Tree is an official residence of the:
+* A) Prime Minister of Qatar
+* B) Prime Minister of Maldives
+* C) Prime Minister of Malaysia
+* D) Prime Minister of Sri Lanka
+* **Answer**: D
+
+**Category: Pakistan Studies**
+1. Who among the following accepted Din-i-Ilahi?
+* A) Todermal
+* B) Tansen
+* C) Birbal
+* D) Man Singh
+* **Answer**: C
+2. Who stood against Akbar Deen-i-Ilahi:
+* A) Shah Wali Ullah
+* B) Sheikh Sirhindi
+* C) Sir Syed Ahmad Khan
+* D) Aurangzeb
+* **Answer**: B
+3. In which city of Pakistan 2nd Islamic Summit Conference was held:
+* A) Karachi
+* B) Islamabad
+* C) Lahore
+* D) Peshawar
+* **Answer**: C
+4. Badshahi mosque is in Lahore built by ______ in 1673.
+* A) Jahangir
+* B) Akbar
+* C) Shah Jahan
+* D) Aurangzeb
+* **Answer**: D
+5. How many towns in Pakistan at the time of Independence more than 100000 population:
+* A) 08
+* B) 09
+* C) 10
+* D) 11
+* **Answer**: A
+6. Who wrote "The Loyal Muhammadans of India":
+* A) Sir Muhammad Zafar Ullah Khan
+* B) Rehmat Ali
+* C) Fazal-ul-Haq
+* D) Sir Syed Ahmad Khan
+* **Answer**: D
+7. Central National Muhammadan Association was a political organization founded by Syed Ameer Ali in:
+* A) 1875
+* B) 1876
+* C) 1877
+* D) 1878
+* **Answer**: C
+8. Zulifqar Ali Bhutto started his political career in the era of:
+* A) Ayub Khan
+* B) Yahya Khan
+* C) Iskandar Mirza
+* D) Ghulam Muhammad
+* **Answer**: C
+9. Term and tenure of Senate membership is ______ years.
+* A) 3 years
+* B) 4 years
+* C) 5 years
+* D) 6 years
+* **Answer**: D
+10. Ahmad Shah Abdali launched his early invasions against:
+* A) Mughals
+* B) Sikhs
+* C) Marhattas
+* D) British
+* **Answer**: A
+11. Working with Zia book written by:
+* A) Ayesha Jalal
+* B) Stanley Wolpert
+* C) K. M. Arif
+* D) Ishtiaq Ahmad
+* **Answer**: C
+12. Bangladesh separated from Pakistan in:
+* A) 1969
+* B) 1970
+* C) 1971
+* D) 1972
+* **Answer**: C
+13. In the context of Pakistan political and judiciary history what does PCO stands for:
+* A) Provisional Constitutional Ordinance
+* B) Provisional Constitutional Order
+* C) Provisional Court Order
+* D) None of these
+* **Answer**: B
+14. Bahadur Shah Zafar buried in:
+* A) Delhi
+* B) Cambridge
+* C) Rangoon
+* D) Hyderabad
+* **Answer**: C
+15. Jahangir khan was associated with which game:
+* A) Cricket
+* B) Squash
+* C) Hockey
+* D) Badminton
+* **Answer**: B
+16. Jan Sher Khan got Hilal-e-Imtiaz in which year:
+* A) 1989
+* B) 1993
+* C) 1997
+* D) 2002
+* **Answer**: C
+17. Lal Suhanra National Park was established in:
+* A) 1968
+* B) 1972
+* C) 1976
+* D) 1991
+* **Answer**: B
+18. ______ of the constitution of Pakistan ensures equality before the law and equal protection of the law and states that there shall be no discrimination on the basis of gender alone.
+* A) Article 22
+* B) Article 23
+* C) Article 24
+* D) Article 25
+* **Answer**: D
+19. When first General election held in Pakistan:
+* A) 1954
+* B) 1962
+* C) 1968
+* D) 1970
+* **Answer**: D
+20. The range of Shaheen-III missile is:
+* A) 2250 km
+* B) 2550 km
+* C) 2750 km
+* D) 2950 km
+* **Answer**: C
+
+**Category: Geography**
+1. The largest artificial lake in the world is:
+* A) Baikal Lake
+* B) Mead Lake
+* C) Kariba Lake
+* D) Superior Lake
+* **Answer**: C
+2. Which is the largest lake in Europe?
+* A) Onega lake
+* B) Garda lake
+* C) Ladoga lake
+* D) Como lake
+* **Answer**: C
+3. Which is the longest river of Pakistan?
+* A) Chenab
+* B) Jhelum
+* C) Indus
+* D) Sutlej
+* **Answer**: C
+4. Which is the largest coral reef in the world?
+* A) Mesoamerican reef
+* B) Florida Keys reef
+* C) Great Barrier reef
+* D) None of these
+* **Answer**: C
+5. Strait of Malacca is the main shipping channel between Indian and Pacific Oceans. It is located between:
+* A) Indonesia & Malaysia
+* B) South Korea & North Korea
+* C) England & France
+* D) None of these
+* **Answer**: A
+
+**Category: Everyday Science**
+1. Sound travels fastest in:
+* A) Solid
+* B) Liquid
+* C) Gas
+* D) None of these
+* **Answer**: A
+2. Which of the following is not a vector quantity?
+* A) Displacement
+* B) Velocity
+* C) Speed
+* D) Acceleration
+* **Answer**: C
+3. Our brain demands the most:
+* A) Glucose
+* B) Lactose
+* C) Proteins
+* D) Vitamins
+* **Answer**: A
+4. The sunlight can reach a depth of ______ meters in the ocean.
+* A) 100 m
+* B) 200 m
+* C) 300 m
+* D) 400 m
+* **Answer**: B
+5. How many stages of COVID-19 discovered until now:
+* A) 3
+* B) 4
+* C) 5
+* D) 6
+* **Answer**: B
+6. Horticulture is the study of:
+* A) Animals
+* B) Insects
+* C) Plants & Fruits
+* D) None of these
+* **Answer**: C
+7. Which of the following branch of biology is related with the study of the bacteria:
+* A) Immunology
+* B) Microbiology
+* C) Entomology
+* D) Genetics
+* **Answer**: B
+8. Who is known as Father of Geometry?
+* A) Euclid
+* B) Pythagoras
+* C) Rutherford
+* D) None of these
+* **Answer**: A
+9. The amount of oxygen required to store your body to its normal resting level of metabolic function is called:
+* A) EPOC
+* B) Deficit oxygen
+* C) Lactate Threshold
+* D) None of these
+* **Answer**: A
+
+**Category: Basic Computer Studies**
+1. Which of the following is not one of PowerPoint's views?
+* A) Outline view
+* B) Slide Sorter
+* C) Slide Show view
+* D) Normal
+* **Answer**: D†
+2. What is the largest font size available in drop down menu of MS Word?
+* A) 68
+* B) 70
+* C) 72
+* D) 78
+* **Answer**: C
+3. The process of removing unwanted part of an image is called:
+* A) Hiding
+* B) Cutting
+* C) Cropping
+* D) Bordering
+* **Answer**: C
+4. Who among the following is the founder of Microsoft?
+* A) Charles Babbage
+* B) Bill Gates
+* C) Elon Musk
+* D) None of these
+* **Answer**: B
+5. Physical part of computer is called:
+* A) Hardware
+* B) Software
+* C) CPU
+* D) None of these
+* **Answer**: A
+6. Cursor is a ______.
+* A) Cursor
+* B) Think blinking line
+* C) Pointing device
+* D) None of these
+* **Answer**: B
+
+**Category: English**
+1. What is the meaning of Apprehension?
+* A) Depth
+* B) Elongation
+* C) Security
+* D) Arrest
+* **Answer**: D
+2. Alia parted ______ her parents in tears.
+* A) from
+* B) of
+* C) with
+* D) by
+* **Answer**: A
+3. She is used to ______ the hardships of life.
+* A) face
+* B) faced
+* C) to get faced
+* D) to have faced
+* **Answer**: A
+4. Dear friend______ I need your help. Fill in the blank with suitable punctuation.
+* A) Comma
+* B) Semi Colon
+* C) Exclamation
+* D) None of these
+* **Answer**: A
+5. Her parents went to Karachi______ train.
+* A) to
+* B) by
+* C) at
+* D) of
+* **Answer**: B
+6. I helped him. Here I is:
+* A) Verb
+* B) Object
+* C) Subject
+* D) Adjective
+* **Answer**: C†
+7. Which of the following is correctly punctuated?
+* A) That's anyone's guess.
+* B) The library lost all its books.
+* C) That car is not your's.
+* D) That car is not their's.
+* **Answer**: A
+8. Change narration: They are thanked their guests.
+* A) The guest said their host thank you.
+* B) The guest told to their host thank you.
+* C) The guest said to their host thank you.
+* D) None of these
+* **Answer**: C
+9. The research study is an eye-opener and attempts to acquaint us with the problems of poor nations.
+* A) attempted to acquaint
+* B) attempts at acquainting
+* C) attempt at acquaint
+* D) attempting to acquaint
+* **Answer**: B
+10. Change voice please pick it up.
+* A) Please let it be picked up.
+* B) You are requested to pick it up.
+* C) Let me picked it up.
+* D) None of these
+* **Answer**: A
+11. My friend and I are going to party. Here I is:
+* A) Subjective case
+* B) Genitive case
+* C) Objective case
+* D) None of these
+* **Answer**: A
+12. Change narration: He said to me, "Why are you late?"
+* A) He asked me why I was late.
+* B) He said to me why I was late.
+* C) He told me why I were late.
+* D) None of these
+* **Answer**: A
+13. Blood is thicker than ______.
+* A) Air
+* B) Water
+* C) Gas
+* D) None of these
+* **Answer**: B
+14. Don't judge book by its ______.
+* A) Page
+* B) Size
+* C) Cover
+* D) Paper
+* **Answer**: C
+15. He is ill ______ fever.
+* A) with
+* B) by
+* C) to
+* D) of
+* **Answer**: A
+
+**Category: Islamic Studies**
+1. Islamic calendar starting is relating to:
+* A) Birth of Holy Prophet PBUH
+* B) Treaty of Hudaybia
+* C) Hijrat e Madina
+* D) Fattah Makkah
+* **Answer**: C
+2. Roza became obligatory in which Hijri:
+* A) 2 Hijri
+* B) 3 Hijri
+* C) 4 Hijri
+* D) 5 Hijri
+* **Answer**: A
+3. حضرت عیسیٰ کو کس کی مدد کی گئی؟
+* A) جنات کی
+* B) روح القدس کی
+* C) فرشتوں کی
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+4. قرآن پاک کی آخری وحی کے کاتب کون تھے؟
+* A) حضرت ابی بن کعب انصاری
+* B) حضرت عمرؓ
+* C) حضرت ابوہریرہؓ
+* D) حضرت عبداللہ بن مسعودؓ
+* **Answer**: A
+5. حضرت جعفرؓ کس غزوہ میں شہید ہوئے؟
+* A) غزوہ احد
+* B) غزوہ موتہ
+* C) غزوہ خیبر
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+6. یوم الفرقان کس غزوہ کو کہتے ہیں؟
+* A) غزوہ بدر
+* B) غزوہ احزاب
+* C) غزوہ احد
+* D) ان میں سے کوئی نہیں
+* **Answer**: A
+7. ابوالعرب کس نبی کا لقب ہے؟
+* A) حضرت ابراہیمؑ
+* B) حضرت اسماعیلؑ
+* C) حضرت یعقوبؑ
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+8. تالمود کس مذہب کی کتاب ہے؟
+* A) ہندو
+* B) عیسائیت
+* C) یہودی
+* D) ان میں سے کوئی نہیں
+* **Answer**: C
+**Model Paper 115**
+
+**Category: General Knowledge**
+
+1. Regional Cooperation for Development found in:
+* A) 1964
+* B) 1970
+* C) 1974
+* D) 1976
+* **Answer**: A
+
+2. Germany remains under Allies' occupation from 1945 to ____.
+* A) 1950
+* B) 1951
+* C) 1952
+* D) 1953
+* **Answer**: C
+
+3. What is name of Iran's new currency?
+* A) Roman
+* B) Toman
+* C) Sian
+* D) Bron
+* **Answer**: B
+
+4. Which is the largest hardware company of the world:
+* A) Dell
+* B) Microsoft
+* C) Apple
+* D) None of these
+* **Answer**: D †
+
+5. The interdisciplinary study of human population is called:
+* A) Cartography
+* B) Geography
+* C) Demography
+* D) Biography
+* **Answer**: C
+
+6. The study of life of one's individual is called:
+* A) Psychology
+* B) Biography
+* C) Biology
+* D) None of these
+* **Answer**: B †
+
+7. Israel withdrew his troops in 2000 after 23 years from:
+* A) Syria
+* B) Lebanon
+* C) Egypt
+* D) None of these
+* **Answer**: B
+
+8. NAFTA stands for:
+* A) North Asian Free Trade Agreement
+* B) North American Free Trade Association
+* C) North Alliance Free Trade Agreement
+* D) North American Free Trade Agreement
+* **Answer**: D
+
+9. When was the African Union established:
+* A) 1967
+* B) 1987
+* C) 2002
+* D) 2005
+* **Answer**: C
+
+10. The famous book "The Republic" was written by:
+* A) Socrates
+* B) Plato
+* C) Aristotle
+* D) Alexander
+* **Answer**: B
+
+**Category: Pakistan Studies**
+
+1. Father of Slave dynasty:
+* A) Qutb-ud-din Aibak
+* B) Khizer Khan
+* C) Behlol Lodhi
+* D) None of these
+* **Answer**: A
+
+2. Pakistan is located in which continent:
+* A) Africa
+* B) Asia
+* C) Europe
+* D) None of these
+* **Answer**: B
+
+3. The Punjab government has converted federal minister ____ house into Panahgah.
+* A) Ayaz Sadiq
+* B) Rana Sana Ullah
+* C) Ishaq Dar
+* D) None of these
+* **Answer**: C
+
+4. 1965 war started from:
+* A) 4 September
+* B) 5 September
+* C) 6 September
+* D) 7 September
+* **Answer**: C
+
+5. The largest earth filled dam of the world is:
+* A) Tarbela
+* B) Warsak
+* C) Mangla
+* D) None of these
+* **Answer**: A
+
+6. When was the Kashmir issue taken to the United Nations by India?
+* A) 15 August 1947
+* B) 01 January 1948
+* C) 26 January 1949
+* D) None of these
+* **Answer**: B
+
+7. Durand Line is the border between:
+* A) Pakistan-Iran
+* B) Pakistan-India
+* C) Pakistan-Afghanistan
+* D) None of these
+* **Answer**: C
+
+8. Who founded All India National Congress?
+* A) Nehru
+* B) Gandhi
+* C) A.O Hume
+* D) Quaid-e-Azam
+* **Answer**: C
+
+9. Pakistan left CENTO in:
+* A) 1973
+* B) 1979
+* C) 1984
+* D) 1988
+* **Answer**: B
+
+10. Indus Waters Treaty, treaty, signed on September 19, 1960, between India and Pakistan and brokered by:
+* A) World Bank
+* B) United Nations
+* C) IMF
+* D) WHO
+* **Answer**: A
+
+11. First capital of Pakistan was:
+* A) Karachi
+* B) Lahore
+* C) Hyderabad
+* D) None of these
+* **Answer**: A
+
+12. Tarbela dam is located in:
+* A) Wazirabad
+* B) Swabi
+* C) Mardan
+* D) Shangla
+* **Answer**: B
+
+13. The ____ was a gathering of 35 prominent Indian Muslim leaders led by the Aga Khan III at the Viceregal Lodge in Simla in October 1906.
+* A) Minto conference
+* B) Delhi Convention
+* C) Simla Deputation
+* D) None of these
+* **Answer**: C
+
+14. The capital of British India was transferred from Calcutta to ____ in the year 1911.
+* A) Delhi
+* B) Mumbai
+* C) Hyderabad
+* D) Bangalore
+* **Answer**: A
+
+15. Where is Shah Jahan's tomb located?
+* A) Delhi
+* B) Sikan
+* C) Agra
+* D) Fatehpur
+* **Answer**: C
+
+16. When was Liaqat Nehru Pact between India and Pakistan signed?
+* A) 1950
+* B) 1955
+* C) 1958
+* D) 1964
+* **Answer**: A
+
+17. National Command and Operation Center (NCOC) was formed in:
+* A) March 2020
+* B) April 2020
+* C) May 2020
+* D) June 2020
+* **Answer**: A
+
+18. Another name of K2 is:
+* A) Godwin Austen
+* B) Broad Peak
+* C) Koyo Zom
+* D) None of these
+* **Answer**: A
+
+19. In 1846 the British sold Kashmir to Dogra Maharaja Gulab Singh for an amount of:
+* A) 60 Lacs
+* B) 65 Lacs
+* C) 70 Lacs
+* D) 75 Lacs
+* **Answer**: D
+
+20. Pakistan conducted nuclear tests on:
+* A) 22 May 1998
+* B) 24 May 1998
+* C) 28 May 1998
+* D) None of these
+* **Answer**: C
+
+**Category: Geography**
+
+1. Kachura Lake is situated in:
+* A) Swat
+* B) Skardu
+* C) Muzaffarabad
+* D) Karachi
+* **Answer**: B
+
+2. Hingol River is situated in which province:
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Balouchistan
+* **Answer**: D
+
+3. Glacier is a ____ sheet of ice.
+* A) Fast moving
+* B) Slow moving
+* C) Static
+* D) None of these
+* **Answer**: B
+
+4. Which country is in the west of Pakistan?
+* A) China
+* B) Iran
+* C) India
+* D) Afghanistan
+* **Answer**: B
+
+**Category: Everyday Science**
+
+1. How many times a normal man respires per minute:
+* A) 10-15 times
+* B) 14-18 times
+* C) 20-25 times
+* D) 25-30 times
+* **Answer**: B
+
+2. Solar plate consists of which type of cell:
+* A) Fuel cell
+* B) Photo voltaic cell
+* C) Both A & B
+* D) None of these
+* **Answer**: B
+
+3. Graphical representation of data is called:
+* A) Pie chart
+* B) Scatter plot
+* C) Line chart
+* D) Bar Chart
+* **Answer**: A
+
+4. Phases of the moon occur because:
+* A) We can see only that part of the moon which reflects light towards us
+* B) Our distance from the moon keeps changing
+* C) The shadow of the Earth covers only a part of moon's surface
+* D) The thickness of the moon's atmosphere
+* **Answer**: A
+
+5. Who said microbes are animalcule:
+* A) Darwin
+* B) Mendel
+* C) Leeuwenhoek
+* D) Louis Pasteur
+* **Answer**: C
+
+6. Duodenum Jejunum is a part of:
+* A) Large Intestine
+* B) Small Intestine
+* C) Stomach
+* D) Kidney
+* **Answer**: B
+
+7. Element present in largest amount in human body is:
+* A) Hydrogen
+* B) Nitrogen
+* C) Oxygen
+* D) Carbon
+* **Answer**: C
+
+8. Cooking oil can be converted into vegetable ghee by the process of:
+* A) Oxidation
+* B) Distillation
+* C) Hydrogenation
+* D) Crystallization
+* **Answer**: C
+
+9. The SI unit of "pressure" is:
+* A) Pascal
+* B) Joule
+* C) Tesla
+* D) Henry
+* **Answer**: A
+
+10. Who discovered the force of attraction or repulsion:
+* A) Faraday
+* B) Wander wall
+* C) Coulomb
+* D) None of these
+* **Answer**: C
+
+**Category: Basic Computer Studies**
+
+1. Which symbol is used to execute formulas in MS Excel?
+* A) :
+* B) =
+* C) #
+* D) ~
+* **Answer**: B
+
+2. Excel is a program that is use to prepare a:
+* A) Database
+* B) Text Document
+* C) Spreadsheet
+* D) Workbook
+* **Answer**: C
+
+3. The intersection of a column and row in a spreadsheet is called:
+* A) Key
+* B) Field
+* C) Cell
+* D) Menu
+* **Answer**: C
+
+4. In MS Word a character that is raised and is smaller above the baseline is called:
+* A) Outline
+* B) Raised
+* C) Superscript
+* D) Subscript
+* **Answer**: C
+
+5. Which shortcut key is used to spell check in Microsoft Word?
+* A) F1
+* B) F2
+* C) F7
+* D) F9
+* **Answer**: C
+
+6. How can you apply exactly the same formatting you did to another text?
+* A) Copy the text and paste in new location. Then type the new text again
+* B) Copy the text and click on Paste Special tool on new place
+* C) Select the text then click on Format Painter and select the new text
+* **Answer**: C
+
+7. A feature of MS Office that saves the document automatically after certain interval is called:
+* A) Save
+* B) Save as
+* C) AutoSave
+* D) None of these
+* **Answer**: C
+
+8. Which key deletes the character to the right of the cursor in MS Word:
+* A) Delete
+* B) Backspace
+* C) End
+* D) None of these
+* **Answer**: A
+
+9. By selecting "paragraph" we can apply:
+* A) Line spacing
+* B) Indent
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+
+10. Which is not an input device:
+* A) Mouse
+* B) Plotter
+* C) Keyboard
+* D) Scanner
+* **Answer**: B
+
+11. Which tab of MS-Word contains the Shapes option:
+* A) Home
+* B) Review
+* C) Insert
+* D) None of these
+* **Answer**: C
+
+12. Single spacing in MS-Word document causes ____ point line spacing.
+* A) 10
+* B) 12
+* C) 14
+* D) 16
+* **Answer**: B
+
+13. What is the shortcut key to "Subscript" the selected text?
+* A) Ctrl + =
+* B) Ctrl + -
+* C) Ctrl + Shift + =
+* D) Ctrl + Shift + -
+* **Answer**: A
+
+14. Which shortcut is used for Undo in MS Word:
+* A) Ctrl+Y
+* B) Ctrl+Z
+* C) Ctrl+K
+* D) Ctrl+I
+* **Answer**: B
+
+15. What is the shortcut key for "Decrease Font Size" the selected text:
+* A) Ctrl + Shift + >
+* B) Ctrl + Shift + <
+* C) Ctrl+>
+* D) Ctrl+<
+* **Answer**: B
+
+16. Which is an example of a formula?
+* A) =A1+A2
+* B) add(A1:A2)
+* C) A1+A2
+* D) SUM(A1:A2)
+* **Answer**: A
+
+17. An excel workbook is a collection of:
+* A) Worksheets
+* B) Charts
+* C) Both A & B
+* D) None of these
+* **Answer**: A
+
+18. Which command is used to add data in excel:
+* A) ABD
+* B) COUNT
+* C) SUM
+* D) None of these
+* **Answer**: C
+
+19. Shortcut key for page break in MS Word:
+* A) Ctrl+Enter
+* B) Ctrl+Space
+* C) Shift+Enter
+* D) None of these
+* **Answer**: A
+
+20. The first network that initiated Internet was:
+* A) Vnet
+* B) Inet
+* C) ARPANET
+* D) NSFNet
+* **Answer**: C
+
+**Category: English**
+
+1. What is the synonym of Gigantic?
+* A) Crammed
+* B) Poky
+* C) Tiny
+* D) Huge
+* **Answer**: D
+
+2. Give the meaning of the idiom "break out":
+* A) Occur suddenly
+* B) break down
+* C) Incomplete
+* D) None of these
+* **Answer**: A
+
+3. The idiom "Kick the bucket" means?
+* A) To Kill
+* B) Achieve a goal
+* C) To be successful
+* D) To Die
+* **Answer**: D
+
+4. The meaning of the idiom "Prick up your ears" is:
+* A) Ignoring
+* B) Listening carefully
+* C) Tune out
+* D) None of these
+* **Answer**: B
+
+5. Change voice: Our army has defeated the enemy.
+* A) The enemy has defeated by our army.
+* B) The enemy had been defeated by the army.
+* C) The enemy has been defeated by our army.
+* D) None of these
+* **Answer**: C
+
+6. My brother and friend ____ me in my studies
+* A) Help
+* B) Helps
+* C) Helped
+* D) Helping
+* **Answer**: A †
+
+7. The meaning of put out is:
+* A) Extinguish
+* B) Assuage
+* C) Help
+* D) None of these
+* **Answer**: A
+
+8. The antonym of Diligent is:
+* A) Hardworking
+* B) Intent
+* C) Lazy
+* D) Active
+* **Answer**: C
+
+9. I am sick ____ this idle life.
+* A) of
+* B) in
+* C) on
+* D) with
+* **Answer**: A
+
+10. Antonym of Dastard:
+* A) Open
+* B) Concise
+* C) Craven
+* D) Hero
+* **Answer**: D
+
+11. Ali is my best friend. Best is which part of speech:
+* A) Noun
+* B) Verb
+* C) Adjective
+* D) Adverb
+* **Answer**: C
+
+12. He said you are doing very well. Well is which part of speech:
+* A) Noun
+* B) Verb
+* C) Adjective
+* D) Adverb
+* **Answer**: D †
+
+13. Change narration: He said to him, 'Thank you for your kind help.'
+* A) He thanked him for his kind help
+* B) He requested him for his kind help
+* C) He told him for his kind help
+* D) He asked him for his kind help
+* **Answer**: A
+
+14. Change voice: Please give me your pen and take your seat.
+* A) Let your pen given me and take your seat.
+* B) You are requested to give me your pen and take your seat.
+* C) You are warned to give me your pen and take your seat.
+* D) You are ordered to give me your pen and take your seat.
+* **Answer**: B †
+
+**Category: Islamic Studies**
+
+1. Name the battle in which Hazrat Khalid Bin Waleed RA participated first time for Muslims:
+* A) Battle of Badr
+* B) Battle of Trench
+* C) Battle of Mutah
+* D) Battle of Tabook
+* **Answer**: C
+
+2. Which surah of the Holy Quran in which Allah has promised to protect the Holy Quran?
+* A) Surah Al-Anfal
+* B) Surah Al-Maida
+* C) Surah Al-Hijr
+* D) Surah Al-Baqarah
+* **Answer**: C
+**Model Paper 116**
+
+**Category: Accounting**
+1. Stock exchange is known as ________ market for securities.
+* A) Primary market
+* B) Secondary market
+* C) Capital market
+* D) Service value and monetary cost
+* **Answer**: B
+2. Right shares are the shares:
+* A) Offered to the existing equity shareholders
+* B) Issued by a newly formed company
+* C) Legally issued to the public at large
+* D) That have a right of redemption
+* **Answer**: A
+3. Net profit ratio is a:
+* A) Long term solvency ratio
+* B) Short term solvency ratio
+* C) Turnover ratio
+* D) Profitability ratio
+* **Answer**: D
+4. Liquid ratio is also known as ratio:
+* A) Inventory
+* B) Current
+* C) Acid test
+* D) Debt equity
+* **Answer**: C
+5. In his traditional role the finance manager is responsible for ___________
+* A) Arrangement of financial resources
+* B) Acquiring capital assets of the organization
+* C) Efficient management of capital
+* D) Proper utilization of funds
+* **Answer**: A
+6. Control of financial planning is key responsibility of:
+* A) Treasury management
+* B) Authoritative management
+* C) Participative management
+* D) None of these
+* **Answer**: A
+7. Having some overall goal in mind, financial management is concerned with:
+* A) Financing of assets
+* B) Acquisition of assets
+* C) Management of assets
+* D) All of these
+* **Answer**: D
+8. Bonds with longer maturities generally have ________ interest rate risk
+* A) Higher
+* B) Lower
+* C) Depends on the type of bond
+* D) None of these
+* **Answer**: A
+9. Patents, Copyrights and Trademarks are:
+* A) Investments
+* B) Intangible assets
+* C) Current assets
+* D) Fixed assets
+* **Answer**: B
+10. When the coupon rate is less than the required rate of return the discount on the bond ________ as maturity approaches.
+* A) Increases
+* B) Decreases
+* C) Does not change
+* D) First decreases then increases
+* **Answer**: B
+11. Which of the following is not a current asset?
+* A) Temporary investment
+* B) Salary paid in advance
+* C) Inventory
+* D) Preliminary expenses
+* **Answer**: D
+12. Money Market is an ________ in which only short-term debt instruments (maturity less than one year) are traded.
+* A) Financial market
+* B) Security market
+* C) Secondary market
+* D) All of these
+* **Answer**: A
+13. NAFTA stands for:
+* A) North American Free Trade Agreement
+* B) North Asian Free Trade Agreement
+* C) North American Free Trade Association
+* D) None of these
+* **Answer**: A
+14. A ________ is a potential obligation that may arise from an event that has not yet occurred.
+* A) Current liabilities
+* B) Contingent liability
+* C) Long term liabilities
+* D) None of these
+* **Answer**: B
+15. Contribution margin is also known as:
+* A) Marginal income
+* B) Gross profit
+* C) Net profit
+* D) Net loss
+* **Answer**: A
+16. A series of constant cash flows that occur at the end of each period for some fixed number of periods is:
+* A) Ordinary annuity
+* B) Annuity due
+* C) Multiple cash flows
+* D) Perpetuity
+* **Answer**: A
+17. Process of verifying the documentary evidences of transactions is known as:
+* A) Auditing
+* B) Vouching
+* C) Testing
+* D) Verification
+* **Answer**: B
+18. Zero Coupon Bond is also known as:
+* A) Deep discount bond
+* B) Bearer bond
+* C) Zero interest bond
+* D) Irredeemable bond
+* **Answer**: A
+19. An efficient market hypothesis states all public information which is reflected in current market prices is classified as:
+* A) Strong form efficiency
+* B) Weak form efficiency
+* C) Semi strong efficiency
+* D) Market efficiency
+* **Answer**: C
+20. The firm operate, produce, market all over the world is called:
+* A) International firm
+* B) Global firm
+* C) Limited liability company
+* D) None of these
+* **Answer**: B
+21. A feasibility study considers all of the aspects of project, including:
+* A) Availability of time and capacity
+* B) Financial resources
+* C) Market demand
+* D) All of these
+* **Answer**: D
+22. Land revenue assigned to jagirdar used for:
+* A) Agricultural income purposes
+* B) Non-Agricultural income purposes
+* C) Passive income purposes
+* D) None of these
+* **Answer**: A
+23. A market for wholesale loans and deposits traded between banks is called:
+* A) Interbank market
+* B) Investor market
+* C) Subsidiary market
+* D) None of these
+* **Answer**: A
+24. Government made policy for the industrial sector is called:
+* A) Factories policy
+* B) Industrial policy
+* C) Distributive policy
+* D) Regulatory policy
+* **Answer**: B
+25. Which one of the following becomes a creative factor in production:
+* A) Land
+* B) Capital
+* C) Consumers
+* D) Human resources
+* **Answer**: D
+26. Which factor has been the most rapidly changing component in an organization's general environment in the past quarter-century:
+* A) Global
+* B) Social
+* C) Technological
+* D) Economic
+* **Answer**: C
+27. The main operation expenses of a business are termed as:
+* A) Operating expense
+* B) Administration expense
+* C) Non-administration expense
+* D) Selling expense
+* **Answer**: A
+28. The primary objective of cost accounting is to:
+* A) Ascertain the cost of goods and services
+* B) Ascertain the profit
+* C) Inventory valuation
+* D) Fixation of selling price
+* **Answer**: A
+29. Agency theory suggests that managers (the agents), particularly those of large, publicly-owned firms, may have different objectives from those of the:
+* A) Workers
+* B) Subordinates
+* C) Employees
+* D) Shareholders
+* **Answer**: D
+30. Inventory Period + Accounts Receivable Period is called:
+* A) Cash cycle
+* B) Operating cycle
+* C) Collective cycle
+* D) None of these
+* **Answer**: B
+31. Fixed assets turnover ratio is a:
+* A) Long-term solvency ratio
+* B) Short-term solvency ratio
+* C) Turnover ratio
+* D) Profitability ratio
+* **Answer**: C
+32. The following factor would be relatively low if supply of labor is higher than demand:
+* A) Production
+* B) Labor cost
+* C) Wage
+* D) All of these
+* **Answer**: C
+33. ________ is the phase of an audit where the auditor gathers samples to identify any material misstatements in the client's accounting records or other data.
+* A) Substantive testing
+* B) Control testing
+* C) Detective testing
+* D) None of these
+* **Answer**: A
+34. Balance Sheet shows ________.
+* A) The financial performance at particular date
+* B) The financial position at particular date
+* C) The financial position for an accounting period
+* D) The financial performance for an accounting period
+* **Answer**: B
+35. Income statement is also known as:
+* A) Statement of earnings
+* B) Statement of balance sheet
+* C) Statement of income
+* D) Statement of operations
+* **Answer**: A
+36. Which statement shows the flow of cash and cash equivalents during the financial period:
+* A) Statement of changes in equity
+* B) Cash flow statement
+* C) Balance sheet
+* D) Income statement
+* **Answer**: B
+37. Monopolistic competition differs from perfect competition primarily because:
+* A) Monopolistic competition, firms can differentiate their products
+* B) Perfect competition, firms can differentiate their products
+* C) in monopolistic competition, industry produces all of the market supply of goods
+* D) None of these
+* **Answer**: A
+38. A nationwide electronic funds transfer network which enables participating banks/financial institutions to distribute electronic credit and debit entries to bank accounts and to settle such entries is termed as:
+* A) Clearing bank
+* B) Clearing house
+* C) Clearing cheque
+* D) Certificate of Deposits
+* **Answer**: B
+39. The maximum amount beyond which a company is not allowed to raise funds by issue of shares is:
+* A) Issue capital
+* B) Reserve capital
+* C) Nominal capital
+* D) Subscribed capital
+* **Answer**: C
+40. Ratio of net profit before interest and tax to sales is:
+* A) Capital gearing
+* B) Solvency ratio
+* C) Operating profit ratio
+* D) None of these
+* **Answer**: C
+41. The capital budgeting in which we check in how many years initial investment is cover is called:
+* A) Net present Value
+* B) Internal rate of return
+* C) Payback period
+* D) Discounted cash flow
+* **Answer**: C
+42. Variable manufacturing overhead (VMOH) Fixed manufacturing overhead (FMOH) is a part of:
+* A) Standard cost
+* B) Manufacturing overhead cost
+* C) Activity based cost
+* D) Marginal overhead cost
+* **Answer**: B
+43. Assets are usually shown in Balance Sheet at:
+* A) Unexpired cost
+* B) Replacement cost
+* C) Revalue cost
+* D) Market value
+* **Answer**: A
+44. A Joint Stock Company is managed by
+* A) Owner
+* B) Shareholders
+* C) Secretary
+* D) Board of Directors
+* **Answer**: D
+45. ________ is the aggregate of direct material cost, direct labor cost, and direct expenses.
+* A) Prime cost
+* B) Bottom line cost
+* C) Variable cost
+* D) None of these
+* **Answer**: A
+46. Guarantee made by company bank to foreign bank for import is called:
+* A) Letter of assurance
+* B) Letter of credit
+* C) Deferred payment letter
+* D) None of these
+* **Answer**: B
+47. Implicit cost is also known as:
+* A) Component cost
+* B) Opportunity cost
+* C) Notional cost
+* D) Incremental cost
+* **Answer**: B
+48. Bank pass book is also known as:
+* A) Bank book
+* B) Bank account
+* C) Bank column
+* D) Bank statement
+* **Answer**: D
+49. Which statement is correct: Agency conflict is minimized by:
+* A) Increasing share of debt by bond holder & stockholder
+* B) Restructuring remuneration
+* C) Both are correct
+* D) Both are incorrect
+* **Answer**: C
+50. Residual value is the:
+* A) Value of the asset when it is purchased
+* B) Value of the asset at the end of its useful life
+* C) Cost of the asset
+* D) Allocation of the cost
+* **Answer**: B
+51. Which bank gave monetary policy in Pakistan?
+* A) State Bank of Pakistan
+* B) National Bank of Pakistan
+* C) International Monetary Fund
+* D) None of these
+* **Answer**: A
+52. P/V ratio shows the ________ ratio.
+* A) Profit earning capability
+* B) Profit and Volume
+* C) Safety margin
+* **Answer**: B
+53. Which item comes under financial activities in cash flow?
+* A) Redemption of Preference Share
+* B) Issue of Preference Share
+* C) Interest paid
+* D) All of these
+* **Answer**: D
+54. Cash budget include:
+* A) Dividend payable
+* B) Postal expenditure
+* C) Issue of capital
+* D) All of these
+* **Answer**: D
+55. Which of the following is a revenue reserve?
+* A) Security premium account
+* B) Capital reserve
+* C) Capital redemption reserve
+* D) None of these
+* **Answer**: D
+56. Market control process consists:
+* A) Formation of Performance standards
+* B) Performance Appraisal
+* C) Correcting Deviations
+* D) All of these
+* **Answer**: D
+57. Bank overdraft is a ________.
+* A) Current liability
+* B) Contingent liability
+* C) Current asset
+* D) None of these
+* **Answer**: A
+58. The statement of cash flow clarifies cash flows according to:
+* A) Inflow and Outflow
+* B) Operating, Investing, and Financing Activities
+* C) Operating and non-operating Flows
+* D) None of these
+* **Answer**: B
+59. Microeconomics theory is also known as:
+* A) Price theory
+* B) Surety theory
+* C) Capital consumption theory
+* D) None of these
+* **Answer**: A
+60. The basic financial statements include:
+* A) Statement of Cash Flows
+* B) Statement of Retained Earnings
+* C) Balance Sheet and Income Statement
+* D) All of these
+* **Answer**: D
+61. Performance measurement is:
+* A) The determination of improvement efforts
+* B) The process of quantifying action
+* C) The improvement of operations
+* D) The planning and control of operations
+* **Answer**: B
+62. The parties to joint venture are called:
+* A) Principal and agent
+* B) Friends
+* C) Co-ventures
+* D) Partners
+* **Answer**: C
+63. Income from property held under trust for charitable or religious purposes is:
+* A) Exempted from tax
+* B) Taxable @ 10%
+* C) Taxable @ 20%
+* D) None of these
+* **Answer**: A
+64. Verification of the value of assets, liabilities, the balance of reserves, provision and the amount of profit earned or loss suffered a firm is called:
+* A) Continuous audit
+* B) Interim audit
+* C) Balance sheet audit
+* D) Partial audit
+* **Answer**: C
+65. Undistributed profits are also known as:
+* A) Corporate saving
+* B) Retained earning
+* C) General reserve
+* D) All of these
+* **Answer**: D
+66. The concept of reliability refers to:
+* A) Objectivity of instructions
+* B) Purpose of measurement
+* C) Consistency of scores
+* D) Uniformity of scoring
+* **Answer**: C
+67. The difference between assets and liabilities is called as:
+* A) Drawings
+* B) Capital
+* C) Income
+* D) Expenses
+* **Answer**: B
+68. Financial planning for long term and seasonal expense is:
+* A) Best
+* B) Worst
+* C) Aggressive
+* D) Conservative
+* **Answer**: D
+69. Leadership motivates the people to work and not the power of money", this concept is related to
+* A) Autocratic model
+* B) Custodial model
+* C) Supportive model
+* D) Collegial model
+* **Answer**: C
+70. A speech made without preparation is:
+* A) Extempore
+* B) Speech
+* C) Debate
+* D) Prepared
+* **Answer**: A
+71. A current account surplus implies that:
+* A) The country is a net lender to the rest of the world
+* B) The country is running a net capital account surplus
+* C) Foreign investment in domestic securities
+* **Answer**: A
+72. Which of the following is not an element of credit policy?
+* A) Collection policy
+* B) Credit terms
+* C) Sales price
+* D) Cash discount price
+* **Answer**: C
+73. ________ is a type of preferred stock that provides a greater guarantee of dividend payments to its holders
+* A) Cumulative preferred stock
+* B) Non-cumulative preferred stock
+* C) Common stock
+* D) None of these
+* **Answer**: A
+74. The ________ is the rate of interest an investor, saver or lender receives (or expects to receive) after allowing for inflation
+* A) Prime interest rate
+* B) Real interest rate
+* C) Variable interest rate
+* D) None of these
+* **Answer**: B
+75. The net present value is:
+* A) is calculated by discounting all cash flows to present value and subtracting outflows from inflows
+* B) calculates the rate of return which leaves you indifferent between undertaking the project, and not undertaking the project
+* C) leads to the same decisions as the use of the payback period
+* D) None of these
+* **Answer**: A
+
+**Category: General Knowledge**
+1. Who coined the name of United Nations?
+* A) Stalin
+* B) F. D Roosevelt
+* C) John. F. Kennedy
+* D) None of these
+* **Answer**: B
+2. When WW2 ended:
+* A) 1944
+* B) 1945
+* C) 1942
+* D) None of these
+* **Answer**: B
+
+**Category: Pakistan Studies**
+1. Pakistan first participated in the Olympic Games in:
+* A) 1947
+* B) 1948
+* C) 1949
+* D) 1950
+* **Answer**: B
+2. Sami Ullah Khan was the player of:
+* A) Cricket
+* B) Hockey
+* C) Tennis
+* D) Soccer
+* **Answer**: B
+3. ________ is a Pakistani jurist who has been Justice of the Islamabad High Court (IHC).
+* A) Tahira Qazi
+* B) Lubna Saleem
+* C) Ayesha Malik
+* D) None of these
+* **Answer**: B
+
+**Category: Everyday Science**
+1. Electronic magnified information is called
+* A) E-commerce
+* B) Digital business
+* C) Electronic business
+* D) None of these
+* **Answer**: D †
+
+**Category: Basic Computer Studies**
+1. We can remove / hide border of a shape by selecting:
+* A) No line
+* B) No outline
+* C) White line
+* D) No border
+* **Answer**: B
+2. The best way to insert a new slide in a presentation is to use the:
+* A) Normal view
+* B) Special view
+* C) Slide sorter view
+* C) None of these
+* **Answer**: A
+3. Which of the following pane is not available in Task Pane?
+* A) Getting started
+* B) Clip Art
+* C) Word Art
+* D) Search results
+* **Answer**: C
+4. The term depletion applies to decrease in value of:
+* A) Current asset
+* B) Wasting asset
+* C) Tangible asset
+* D) Intangible asset
+* **Answer**: B
+5. What is the shortcut-key for manual line break in MS Word:
+* A) Ctrl+Enter
+* B) Shift+Enter
+* C) Alt+Enter
+* D) None of these
+* **Answer**: B
+6. Which of the following are actions you can assign to an action button or slide object?
+* A) Run a macro
+* B) Play a sound
+* C) Hyperlink
+* D) All of these
+* **Answer**: D
+7. What does 5*2 in Word?
+* A) 5 rows 2 columns
+* B) 2 columns 5 rows
+* C) 52 columns
+* D) 52 rows
+* **Answer**: A
+8. What happens if you select first and second slide and then click on New Slide button on toolbar:
+* A) A new slide is inserted as first slide in presentation
+* B) A new slide is inserted as second slide in presentation
+* C) A new slide is inserted as third slide in presentation
+* D) None of these
+* **Answer**: C
+9. In latest generation computers, the instructions are executed:
+* A) Parallel
+* B) Sequentially
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+10. Where is RAM located?
+* A) Motherboard
+* B) Expansion board
+* C) External drive
+* D) None of these
+* **Answer**: A
+11. Which of following is not an element of computer spreadsheet interface?
+* A) Active cell
+* B) Menu bar
+* C) Pencil work
+* D) Workbook
+* **Answer**: C
+12. Which of the following is an absolute cell reference:
+* A) #a#1
+* B) !A!1
+* C) A1
+* D) $A$1
+* **Answer**: D
+13. The slide that is used to introduce a topic and set the tone for the presentation is called the:
+* A) Table slide
+* B) Graph slide
+* C) Title slide
+* D) Bullet slide
+* **Answer**: C
+14. The primary purpose of an operating system is:
+* A) To make the most efficient use of the computer hardware.
+* B) To allow people to use the computer
+* C) To keep systems programmers employed
+* D) To make computers easier to use
+* **Answer**: A
+15. A smart tag will be removed from a cell when:
+* A) The cell is hidden
+* B) The cell is moved
+* C) The formatting of the cell is changed
+* D) The data in the cell is changed or deleted
+* **Answer**: D
+16. Which of the following you can paste selectively using Paste Special Command:
+* A) Validation
+* B) Formats
+* C) Formulas
+* D) All of these
+* **Answer**: D
+17. ________ is a type of computer memory that can retain stored information even after power is removed.
+* A) Volatile memory
+* B) Non-Volatile memory
+* C) Both A & B
+* D) None of these
+* **Answer**: B
+18. The first Network was called:
+* A) CNNET
+* B) ASAPNET
+* C) ARPANET
+* D) NSFNET
+* **Answer**: C
+
+**Category: English**
+1. Antonym of Wean is:
+* A) Attach
+* B) Detach
+* C) Discourage
+* D) Halt
+* **Answer**: A
+**Model Paper 117**
+
+**Category: Economics**
+1. A buyer's perception of value is considered a trade-off between:
+* A) Product value and psychic cost
+* B) Total customer value and total customer cost
+* C) Image value and energy cost
+* D) Service value and monetary cost
+* **Answer**: B
+2. Capital Structure is an optimal mix of which one of the following options:
+* A) Sales and profits
+* B) Debt and equity
+* C) Current assets and fixed assets
+* D) None of these
+* **Answer**: B
+3. At breakeven point:
+* A) Total expenses = Total revenue
+* B) Total expenses > Total revenue
+* C) Total expenses < Total revenue
+* D) None of these
+* **Answer**: A
+4. Floating assets are valued at:
+* A) Market price
+* B) Cost
+* C) Cost or market whichever is lower
+* D) Cost less depreciation
+* **Answer**: C
+5. __________ refers to the risk inherent to the entire market or market segment.
+* A) Financial risk
+* B) Purchasing power
+* C) Systematic risk
+* D) Interest free risk
+* **Answer**: C
+6. The first and foremost function of management is:
+* A) Planning
+* B) Organizing
+* C) Controlling
+* D) Coordination
+* **Answer**: A
+7. Which of the following is a method that is commonly used in qualitative research?
+* A) Self-completion questionnaires
+* B) Surveys
+* C) Ethnography
+* D) Structured observation
+* **Answer**: C
+8. The form of business having unlimited liabilities
+* A) General partnership
+* B) Limited partnership
+* C) Limited liability partnership
+* D) Particular partnership
+* **Answer**: A
+9. The average of the data is also known as:
+* A) Harmonic mean
+* B) Arithmetic mean
+* C) Geometric mean
+* D) Sample mean
+* **Answer**: B
+10. If the current ratio is 2:1 and working capital is Rs. 60,000, what is the value of current assets?
+* A) Rs. 60000
+* B) Rs. 100000
+* C) Rs. 120000
+* D) Rs. 180000
+* **Answer**: C
+11. Verification refers to:
+* A) Confirming ownership
+* B) Valuation and Possession
+* C) Actual existence
+* D) All of these
+* **Answer**: D
+12. Bringing all parties to an agreement is termed as:
+* A) Joinder
+* B) Consensus
+* C) Contract
+* D) None of these
+* **Answer**: B
+13. Debtors have least profit share due to:
+* A) Not participating in operational risk
+* B) Payment to trade payables
+* C) Current ratio and Quick ratio
+* D) None of these
+* **Answer**: A
+14. An expenditure which occurs non-repeatedly and regularly is known as:
+* A) Capital expenditure
+* B) Revenue expenditure
+* C) Deferred revenue expenditure
+* D) None of these
+* **Answer**: A
+15. Supervisor wage is a part of:
+* A) Conversion cost
+* B) Operating cost
+* C) Variable cost
+* D) None of these
+* **Answer**: A
+16. Unsystematic risk is also known as:
+* A) Unavoidable risk
+* B) Random risk
+* C) Specific risk
+* D) None of these
+* **Answer**: C
+17. Characteristics of the job is also known as:
+* A) Job analysis
+* B) Job rating
+* C) Job description
+* D) Job evaluation
+* **Answer**: C
+18. Which research is conducted when a researcher needed a solution to a problem?
+* A) Scientific Research
+* B) Applied Search
+* C) Descriptive Research
+* D) Basic Research
+* **Answer**: B
+19. Change in government policy within the content of tax:
+* A) Tax policy
+* B) Fiscal policy
+* C) Monetary policy
+* D) Regulatory policy
+* **Answer**: B
+20. The part of equity having certain return is called:
+* A) Common stock
+* B) Preferred stock
+* C) Growth stock
+* D) None of these
+* **Answer**: B
+21. Human Resource Management deals with:
+* A) Insurance matters
+* B) Staff functions
+* C) Accounting function
+* D) None of these
+* **Answer**: B
+22. Auditing refers to:
+* A) Reporting the financial information
+* B) Examination of financial information
+* C) Preparation of financial statements
+* D) Maintaining the ledger accounts
+* **Answer**: B
+23. The standard deviation is the __________ of the variance:
+* A) Square
+* B) Square root
+* C) Cube
+* D) Cube root
+* **Answer**: B
+24. According to the capital-asset pricing model (CAPM), a security's expected (required) return is equal to the risk-free rate plus a premium:
+* A) Equal to the security's beta
+* B) Based on the unsystematic risk of the security
+* C) Based on the total risk of the security
+* D) Based on the systematic risk of the security
+* **Answer**: D
+25. Which one renders high profitability?
+* A) Asset
+* B) Balance sheet
+* C) Inventory
+* D) Equity
+* **Answer**: A
+26. In response to market expectations, the credit period has been increased from 45 days to 60 days. This would result in a:
+* A) Decrease in sales
+* B) Decrease in debtors
+* C) Increase in bad debts
+* D) Blocking of funds
+* **Answer**: D
+27. Bonus shares are issued out of:
+* A) Capital reserve
+* B) Free reserve
+* C) Share premium
+* D) None of these
+* **Answer**: B
+28. Which body prepare and publish audit standards:
+* A) International Auditing and Assurance Standards Board
+* B) International Federation of Accountants
+* C) Generally Accepted Auditing Standards
+* D) None of these
+* **Answer**: A
+29. Investment decision making traditionally consists of two steps __________.
+* A) Investment banking and security analysis
+* B) Buying and selling
+* C) Risk and expected return
+* D) Security analysis and portfolio managements
+* **Answer**: D
+30. An advertisement which conceal organization identity:
+* A) Display advertising
+* B) Blind advertising
+* C) Native advertising
+* D) None of these
+* **Answer**: B
+31. Each element having equal chances of selection is called:
+* A) Probability
+* B) Non-probability
+* C) Stratified sampling
+* D) Quota sampling
+* **Answer**: A
+32. Banks realize dividend and interest on behalf of customer is included in:
+* A) Beneficiary
+* B) Agency
+* C) Nominee
+* D) None of these
+* **Answer**: B
+33. Which is the primary activity of a commercial bank?
+* A) Maintaining deposit accounts including current accounts
+* B) Issue and pay cheques
+* C) Collect cheques for the bank's customers
+* D) All of these
+* **Answer**: D
+34. Consider the following statements relating to the World Trade Organization (WTO):
+* A) The WTO deals with the global rules of trade between nations.
+* B) The goal of the WTO is to help producers of goods and services, exporters and importers to conduct their business.
+* C) The WTO, which is a successor body of the General Agreement on Tariffs and Trade, came into being following the Uruguay Round of Negotiations.
+* D) All of these
+* **Answer**: D
+35. Which is the most common measure of central tendency?
+* A) Mean
+* B) Median
+* C) Mode
+* D) Range
+* **Answer**: A
+36. Diversification as a tool for reducing risk by:
+* A) Holding more assets is always better than holding fewer
+* B) Interesting in more than one asset
+* C) Portfolio losses be prevented
+* D) None of these
+* **Answer**: B
+37. When government revenue exceeds government expenditure, it is known as __________ budget.
+* A) Surplus
+* B) Zero
+* C) Balanced
+* D) Deficit
+* **Answer**: A
+38. Which of the following is an example of nonverbal communication?
+* A) An online blog where employees in different cities can share ideas
+* B) A company logo designed to project the organization's image
+* C) An email message reminding employees of an upcoming staff meeting
+* D) A phone call from attorney to a client
+* **Answer**: B
+39. Which is not a characteristic of a service?
+* A) Variability
+* B) Intangibility
+* C) Inseparability
+* D) None of these
+* **Answer**: D
+40. Petty cash is a part of:
+* A) Cash book
+* B) Cash receipt
+* C) Expense book
+* D) Expenditure book
+* **Answer**: A
+41. Which of the following can be distributed among the shareholders?
+* A) Capital reserve
+* B) General reserve
+* C) Revaluation reserve
+* D) None of these
+* **Answer**: B
+42. Strategy is developed by the visionary chief executive in __________ mode of strategic management
+* A) Planning mode
+* B) Adaptive mode
+* C) Strategic mode
+* D) Entrepreneurial mode
+* **Answer**: D
+43. The doctrine of impossibility of performance, rendering a contract void, is based on:
+* A) a commercial impossibility
+* B) a supervening impossibility
+* C) just and reasonable ground
+* D) an unjust enrichment
+* **Answer**: B
+44. Price elasticity of demand that __________ is called inelastic.
+* A) More than 1
+* B) Less than 1
+* C) Equal to 1
+* D) None of these
+* **Answer**: B
+45. Debt is a part of:
+* A) Working capital
+* B) Financial equity
+* C) Capital structure
+* D) None of these
+* **Answer**: C
+46. The types of good that are tangible in nature and that can be consumed in few uses are classified as:
+* A) Durable goods
+* B) Non-durable goods
+* C) Services
+* D) Augmented goods
+* **Answer**: B
+47. Selling expenses includes in:
+* A) Material cost
+* B) Labour cost
+* C) Advertising cost
+* D) Factory cost
+* **Answer**: C
+48. The sum of deviations taken from mean is:
+* A) 0
+* B) 1
+* C) 2
+* D) 3
+* **Answer**: A
+49. Audit evidence is considered sufficient when:
+* A) There is enough of it to afford a reasonable basis for an opinion on financial statements.
+* B) It has been obtained by random selection.
+* C) It is competent.
+* D) It has the qualities of being relevant, objective, and free from known bias.
+* **Answer**: A
+50. The career-related consequence of the delayering of organisations most likely option is:
+* A) A higher proportion of job moves being demotion
+* B) Promotion being a bigger step when it happens
+* C) Lateral moves becoming scarcer
+* D) All of these
+* **Answer**: B
+51. Preference shareholders are __________ of the company:
+* A) Creditors
+* B) Owners
+* C) Customers
+* D) Borrowers
+* **Answer**: B
+52. Which of the following statements are incorrect?
+* A) Services are intangible
+* B) Services are perishable
+* C) Services can be co-produced with customers
+* D) Services are invariable
+* **Answer**: D
+53. The two internal elements of SWOT analysis are:
+* A) Weaknesses and threats
+* B) Opportunities and threats
+* C) Strength and weaknesses
+* D) Strengths and threats
+* **Answer**: C
+54. An organizational structure in which more than one type of departmentalization is employed is called:
+* A) Mixed departmentalization
+* B) Process departmentalization
+* C) Matrix form
+* D) Centralization
+* **Answer**: C
+55. Which of these options, apart from cash, are instruments to distribute profits to shareholders?
+* A) Stock purchase
+* B) Bonus shares
+* C) Stock split
+* D) All of these
+* **Answer**: D
+56. __________ is the subject matter of Macroeconomics.
+* A) Factory pricing
+* B) Growth theory
+* C) Individual incomes
+* D) Market structures
+* **Answer**: B
+57. Joint venture account is a:
+* A) Nominal account
+* B) Personal account
+* C) Real account
+* D) Dummy account
+* **Answer**: A
+58. The basic factors of production are land, labour, capital and:
+* A) Enterprise
+* B) Investment
+* C) Machinery
+* D) Resources
+* **Answer**: A
+59. Which of the following is a measure to reduce inequality of income?
+* A) Promotion of industries
+* B) Social securities
+* C) Granting of credit to poor on concessional rate
+* D) None of these
+* **Answer**: B
+60. The author of the Wealth of Nations is
+* A) Adam Smith
+* B) William Robins
+* C) Ravid Recardo
+* D) None of these
+* **Answer**: A
+61. The difference between desired service and the level of service considered adequate is known as:
+* A) Service Quality
+* B) Service failures
+* C) Tolerance Zone
+* D) Service recovery
+* **Answer**: C
+62. The concept of consumer surplus was developed by:
+* A) Marshal
+* B) Gotham
+* C) Benethan
+* D) None of these
+* **Answer**: A
+63. Which is a system of selling goods directly to customers through a network of self-employed people.
+* A) Multilevel marketing
+* B) Whole sale marketing
+* C) Vertical marketing
+* D) None of these
+* **Answer**: A
+64. An exceptional demand curve is one that slopes:
+* A) Upward to the left
+* B) Downward to the right
+* C) Upward to the right
+* D) [option text cut off in scan]
+* **Answer**: C
+65. Authorized share capital is also known as:
+* A) Registered capital
+* B) Issued capital
+* C) Paid up capital
+* D) None of these
+* **Answer**: A
+66. Net loss occurs when:
+* A) Expenses are greater than income
+* B) Expenses are less than income
+* C) Liabilities are greater than income
+* D) None of these
+* **Answer**: A
+67. The assets that can be converted into cash within a short period (i.e. 1 year or less) are known as:
+* A) Current assets
+* B) Fixed assets
+* C) Intangible assets
+* D) Investments
+* **Answer**: A
+68. Liquid Ratio is equal to liquid assets divided by
+* A) Current Liabilities
+* B) Total Liabilities
+* C) Contingent Liabilities
+* D) None of these
+* **Answer**: A
+69. Liabilities are which of the following:
+* A) Resources
+* B) Obligations
+* C) Future benefits
+* D) Expenses
+* **Answer**: B
+70. Goods returned by customer should be debited to which of the following accounts:
+* A) Sales income account
+* B) Sales account
+* C) Return inward account
+* D) Expenses account
+* **Answer**: C
+
+**Category: General Knowledge**
+1. World Bank is also known as:
+* A) International Bank for Development
+* B) International Bank for Reconstruction and Development
+* C) International Bank for Infrastructure and Development
+* D) International Bank for Design and Development
+* **Answer**: B
+2. International Women's Day is celebrated each year on:
+* A) 6 March
+* B) 8 March
+* C) 10 March
+* D) 12 March
+* **Answer**: B
+3. Government run by officials is called:
+* A) Democracy
+* B) Gerontocracy
+* C) Bureaucracy
+* D) Kakistocracy
+* **Answer**: C
+4. US entered into World War II due to:
+* A) Annexation of Poland by Germany
+* B) Aerial bombing on Poland
+* C) Japanese attack on Pearl Harbour
+* D) Non-payment of dues by Germans
+* **Answer**: C
+5. Where COP26 was took place between 9 and 20 November 2020:
+* A) Stockholm
+* B) Rome
+* C) Glasgow
+* D) None of these
+* **Answer**: C
+
+**Category: Pakistan Studies**
+1. All India Muslim League observed the "Direct Action Day" on:
+* A) August 06, 1944
+* B) August 28, 1945
+* C) August 16, 1946
+* D) August 02, 1947
+* **Answer**: C
+2. When Mushtaq Ahmad Khan died:
+* A) 2012
+* B) 2014
+* C) 2016
+* D) 2018
+* **Answer**: C (unverified — printed key lists no answer for Q77; tick on (C); note: the most-cited Mushtaq Ahmad Khan, Sufi poet/scholar of Seer Hamdan, died 19 Feb 2019 — not among the options, so the question appears defective)
+3. Roshaneh Zafar is the founder of:
+* A) Citizen Foundation
+* B) Alkhidmat Foundation
+* C) Kashf Foundation
+* D) None of these
+* **Answer**: C
+4. Name the country which is not a neighbor of Pakistan:
+* A) Iran
+* B) Afghanistan
+* C) Russia
+* D) China
+* **Answer**: C
+5. The Partition of Bengal was occurred on:
+* A) 16 October 1905
+* B) 18 October 1905
+* C) 20 October 1905
+* D) 22 October 1905
+* **Answer**: A
+6. In which year Pakistan became 'Republic':
+* A) 1947
+* B) 1956
+* C) 1962
+* D) 1973
+* **Answer**: B
+7. Which ancient city is considered as "Pearl of Gandhara Civilization":
+* A) Hasab Abdal
+* B) Taxila
+* C) Wah
+* D) Kamra
+* **Answer**: B
+
+**Category: Everyday Science**
+1. Which of the following gases is the most harmful to the ozone layer:
+* A) Carbon dioxide
+* B) Chlorofluorocarbon
+* C) Nitrogen oxide
+* D) Sulphur dioxide
+* **Answer**: B
+
+**Category: Basic Computer Studies**
+1. The shortcut to add new slide in power point is:
+* A) Ctrl+M
+* B) Ctrl+N
+* C) Ctrl+O
+* D) Ctrl+P
+* **Answer**: A
+2. Who invented computer:
+* A) Charles Babbage
+* B) Fahrenheit
+* C) Howard Aiken
+* D) Vint Cerf
+* **Answer**: A
+3. World Wide Web is:
+* A) Worldwide connection for computers
+* B) Another name for internet
+* C) A collection of worldwide information
+* D) A collection of linked information residing on computers connected by the internet
+* **Answer**: D
+4. 1 Gigabyte is equal to __________.
+* A) 1024 bits
+* B) 1024 megabytes
+* C) 1024 kilobytes
+* D) None of these
+* **Answer**: B
+5. Which keyword is used to find the number of values in a column?
+* A) Total
+* B) Count
+* C) Add
+* D) Sum
+* **Answer**: B
+
+**Category: English**
+1. "Cap it all" means:
+* A) To cover everything
+* B) To seize
+* C) To finish
+* D) To occur
+* **Answer**: C
+2. He said to her, "What a cold day!"
+* A) He told her that it was a cold day.
+* B) He exclaimed that it was a cold day.
+* C) He exclaimed that it was a very cold day.
+* D) He exclaimed sorrowfully that it was a cold day.
+* **Answer**: C
+3. He said, "Be quiet and listen to my words."
+* A) He urged them to be quiet and listen to his words.
+* B) He asked them to be quiet and listen to his words.
+* C) He urged them to be quiet and listen to my words.
+* D) He requests them to be quiet and listen to his words.
+* **Answer**: A
+4. Objects like glass through which things can be seen clearly are called:
+* A) Miscible objects
+* B) Transparent objects
+* C) Translucent objects
+* D) Opaque objects
+* **Answer**: B
+5. He aimed __________ the flying bird.
+* A) at
+* B) by
+* C) of
+* D) with
+* **Answer**: A
+6. Synonym of Hallowed:
+* A) Decayed
+* B) Sacred
+* C) Historical
+* D) Ancient
+* **Answer**: B
+
+**Category: Islamic Studies**
+1. Which surah is called preface of Holy Quran:
+* A) Surah Fateha
+* B) Surah Rehman
+* C) Surah Yaseen
+* D) None of these
+* **Answer**: A
+**Model Paper 118**
+
+**Category: General Knowledge**
+1. An international agreement concluded between states in written form and governed by international law, whether embodied in a single instrument or in two or more related instruments and whatever its particular designation is:
+* A) Hague Convention on the Law of Treaties
+* B) Vienna Convention on the Law of Treaties
+* C) Geneva Convention on the Law of Treaties
+* D) None of these
+* **Answer**: B
+2. Name the first Muslim Hijab woman elected as Member of Israel Parliament in March 2020 elections:
+* A) Haneen Zoabi
+* B) Iman Khatib-Yasin
+* C) Hussniya Jabara
+* D) Nadia Hilou
+* **Answer**: B
+3. The largest cluster of population is in:
+* A) South Asia
+* B) Southeast Asia
+* C) Europe
+* D) None of these
+* **Answer**: A
+4. How many organs are required to form a state?
+* A) 1
+* B) 2
+* C) 3
+* D) 4
+* **Answer**: D
+5. What is currency of Sri Lanka
+* A) Dollar
+* B) Takka
+* C) Rupee
+* D) Lira
+* **Answer**: C
+6. Yellow river is located in:
+* A) China
+* B) US
+* C) Austria
+* D) South Africa
+* **Answer**: A
+7. Conflict over the border region claimed by two countries for area:
+* A) Wadi Halfa Salient
+* B) Nagorno-Karabakh
+* C) Bajo Nuevo Bank
+* D) None of these
+* **Answer**: B
+8. Soviet leader Mikhail Gorbachev's policies of glasnost and perestroika resulted in:
+* A) the sudden introduction of capitalism and democracy to the Soviet Union.
+* B) A new willingness to tolerate significant changes in Soviet society.
+* C) The strengthening of the Soviet Union's domination of Eastern Europe.
+* D) The Soviet Union's withdrawal from the nuclear arms race.
+* **Answer**: B
+9. CENTO stands for:
+* A) Central Treaty Organization
+* B) Command Treaty Organization
+* C) Central Territory Organization
+* D) None of these
+* **Answer**: A
+10. Sports such as Netball, Hockey and Football involve which type of skill:
+* A) Open skills
+* B) Fine skills
+* C) Close skills
+* D) Gross skills
+* **Answer**: A
+11. In World War II which battle support was most needed?
+* A) Nuclear support
+* B) Air Support
+* C) Naval support
+* D) None of these
+* **Answer**: B
+12. The Gulf of Bothnia is situated between
+* A) Finland & Denmark
+* B) Finland & Sweden
+* C) Norway & Sweden
+* D) None of these
+* **Answer**: B
+13. Soft power is:
+* A) Weakening hegemonic influence
+* B) Collaboration among several emerging powers
+* C) Getting others to agree with you without using coercive force
+* D) The influence of financial institutions
+* **Answer**: C
+14. President of Pakistan is elected by:
+* A) National Assembly
+* B) Senate
+* C) Provincial Assemblies
+* D) All of these
+* **Answer**: C †
+15. Animals which are no longer present on earth are called:
+* A) Wildlife animals
+* B) Habitat
+* C) Extinct animals
+* D) Endangered animal
+* **Answer**: C
+16. Stinger missiles were given to Pakistan in which war:
+* A) 1971 war
+* B) 1965 war
+* C) Afghan War
+* D) None of these
+* **Answer**: C
+
+**Category: Pakistan Studies**
+1. Which country first accepted Pakistan:
+* A) China
+* B) Iran
+* C) Iraq
+* D) Saudi Arabia
+* **Answer**: B
+2. Anjuman Himayat-e-Islam was founded in:
+* A) 1799
+* B) 1822
+* C) 1884
+* D) 1900
+* **Answer**: C
+3. Which year was Dr. Abdus Salam awarded Nobel Prize:
+* A) 1969
+* B) 1976
+* C) 1979
+* D) 1989
+* **Answer**: C
+4. The Famous Book "The Daughter of the East" is written by ______
+* A) G Allana
+* B) K. K Aziz
+* C) Benazir Bhutto
+* D) Ayesha Jalal
+* **Answer**: C
+5. Which province of Pakistan is called Bab-ul-Islam?
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Balouchistan
+* **Answer**: B
+6. Military Courts are established in Pakistan through 21st for the period of:
+* A) 2 years
+* B) 3 years
+* C) 4 years
+* D) 5 years
+* **Answer**: A
+7. Keti Bundar is located in:
+* A) Punjab
+* B) Sindh
+* C) KPK
+* D) Balouchistan
+* **Answer**: B
+8. Malala Yousafzai graduated from which university:
+* A) Stanford
+* B) Oxford
+* C) Cambridge
+* D) None of these
+* **Answer**: B
+9. When Muslim League joined the interim government:
+* A) 1945
+* B) 1946
+* C) 1947
+* D) None of these
+* **Answer**: B
+10. Which river flows in Balouchistan?
+* A) Zhob River
+* B) Gomal River
+* C) Dasht River
+* D) All of these
+* **Answer**: D
+11. Dyarchy system firstly used in subcontinent by:
+* A) British Government
+* B) Indian Government
+* C) Pakistan Government
+* D) None of these
+* **Answer**: A
+12. Muslim League started the Day of Deliverance in:
+* A) 1937
+* B) 1939
+* C) 1946
+* D) 1947
+* **Answer**: B
+13. Jammu Kashmir Liberation Front wants to get independence from:
+* A) India
+* B) Pakistan
+* C) Both India & Pakistan
+* D) None of these
+* **Answer**: C
+14. When Balochi tribe join Pakistan:
+* A) 10 June 1947
+* B) 17 June 1947
+* C) 29 June 1947
+* D) None of these
+* **Answer**: C
+15. Which crop requires high temperature, light rainfall or irrigation, 210 frost free days and bright sunshine for its growth?
+* A) Jute
+* B) Wheat
+* C) Cotton
+* D) Rice
+* **Answer**: C
+16. A U-Turn came in foreign policy of Pakistan after world launched war against terrorism in:
+* A) 2000
+* B) 2001
+* C) 2003
+* D) 2004
+* **Answer**: B
+17. On which agreement Muslim League, Congress and Sikh fully agreed with Lord Mountbatten:
+* A) Government of India Act 1935
+* B) Indian Independence Act 1947
+* C) Objective agreement of 1948
+* D) None of these
+* **Answer**: B
+18. What was the title of Allama Iqbal's PhD Thesis?
+* A) The Development of Metaphysics in Persia
+* B) Reconstruction of Religious Thought in Islam
+* C) Concept of Social Justice in Islam
+* D) None of these
+* **Answer**: A
+19. Who abrogated 1956 Constitution?
+* A) Tikka Khan
+* B) Ayub Khan
+* C) Yahya Khan
+* D) Iskandar Mirza
+* **Answer**: D
+20. Which cricket world cup jointly host by Pakistan and India:
+* A) 1983
+* B) 1987
+* C) 2003
+* D) 2011
+* **Answer**: B
+21. The Cyber Harassment Helpline was launched on:
+* A) December 1st 2014
+* B) December 1st 2015
+* C) December 1st 2016
+* D) December 1st 2017
+* **Answer**: C
+22. The main role in the drama "Waris" was acted by:
+* A) Abid Ali
+* B) Talat Siddiqui
+* C) Mehboob Alam
+* D) None of these
+* **Answer**: C
+23. The Jallianwala Bagh massacre is also known as:
+* A) Delhi massacre
+* B) Ludhiana massacre
+* C) Amritsar Massacre
+* D) None of these
+* **Answer**: C
+24. Satpara Lake is in:
+* A) Swat
+* B) Gilgit-Baltistan
+* C) Haripur
+* D) None of these
+* **Answer**: B
+
+**Category: Current Affairs**
+1. General Qamar Javed Bajwa, Chief of Army Staff (COAS) endorsed punishment to ______ on the charges of leakage of sensitive information.
+* A) Brigadier Salem Nawaz
+* B) Brigadier Raja Rizwan
+* C) Major Aslam Iqbal
+* D) None of these
+* **Answer**: B †
+
+**Category: Geography**
+1. Cyclone is basically:
+* A) Violently rotating column of air
+* B) Large system of winds
+* C) Permanently frozen layer
+* D) None of these
+* **Answer**: B
+2. What are cyclones in Australia known as?
+* A) Hurricane
+* B) Typhoon
+* C) Willy-Willies
+* D) Tornado
+* **Answer**: C
+3. The Blue Lagoon is located in:
+* A) Greenland
+* B) Iceland
+* C) Florida
+* D) None of these
+* **Answer**: B
+4. Red Sea is connected to which gulf through Bab-el-Mandeb strait:
+* A) Gulf of Oman
+* B) Gulf of Mexico
+* C) Gulf of Aden
+* D) Gulf of Alaska
+* **Answer**: C
+
+**Category: Everyday Science**
+1. Which of the following replaced the vacuum tubes?
+* A) Battery
+* B) Capacitor
+* C) Transistor
+* D) None of these
+* **Answer**: C
+2. Which women scientist research led to the foundation of fiber optics?
+* A) Dr. Shirley Jackson
+* B) Maria Mitchell
+* C) Rosalind Elsie Franklin
+* D) None of these
+* **Answer**: A
+3. Study of tissues is called:
+* A) Histology
+* B) Cytology
+* C) Anatomy
+* D) None of these
+* **Answer**: A
+4. Which part of the Camera is analogue to the retina in the human eye?
+* A) Lens
+* B) Film
+* C) Aperture
+* D) Shutter
+* **Answer**: B
+5. Two nuclei model given in:
+* A) 1935
+* B) 1940
+* C) 1945
+* D) 1950
+* **Answer**: C
+6. Normal blood pressure measured in millimeter of mercury is:
+* A) 120/100 mmHg
+* B) 120/80 mmHg
+* C) 100/100 mmHg
+* D) 120/50 mmHg
+* **Answer**: B
+7. The boiling point of water depends upon the:
+* A) Atmospheric pressure
+* B) Mass
+* C) Density
+* D) Volume
+* **Answer**: A
+8. The time taken for sunlight to reach the Earth is:
+* A) 8 minutes
+* B) 8 minutes 20 seconds
+* C) 8 minutes 30 seconds
+* D) 9 minutes
+* **Answer**: B
+
+**Category: Basic Computer Studies**
+1. Which of the following is correct email address:
+* A) username@.com
+* B) username@website.info
+* C) username@.pk
+* D) None of these
+* **Answer**: B †
+2. What is the full form of SQL:
+* A) Structured Query Language
+* B) Structured Query List
+* C) Simple Query Language
+* D) None of these
+* **Answer**: A
+3. Which toolbar has a slide design option in MS PowerPoint?
+* A) Drawing toolbar
+* B) Standard toolbar
+* C) Formatting toolbar
+* D) None of these
+* **Answer**: D
+4. Which of the following cannot change fonts?
+* A) Upper case
+* B) Lower case
+* C) Toggle case
+* D) Indent case
+* **Answer**: D
+5. All computer peripherals are connected to the
+* A) CPU
+* B) Motherboard
+* C) Keyboard
+* D) None of these
+* **Answer**: B
+
+**Category: English**
+1. To put up with means:
+* A) To understand
+* B) To adjust
+* C) To tolerate
+* D) To accommodate
+* **Answer**: C
+2. During the lecture, the teacher stood ____ dais.
+* A) at
+* B) on
+* C) to the
+* D) of
+* **Answer**: B
+3. The synonym of Paltry is:
+* A) Admirable
+* B) Insignificant
+* C) Valuable
+* D) Irreplaceable
+* **Answer**: B
+4. Select the pair which has the same relationship. Wisdom: Sagacity
+* A) Denigrate: Devalue
+* B) Primary: Secondary
+* C) Search: Quest
+* D) Highway: Junction
+* **Answer**: C
+5. Passive Voice of "The people elected him Mayor".
+* A) Him was elected Mayor the people.
+* B) He was elected Mayor by the people.
+* C) Mayor is elected by the people.
+* D) He is elected by the people Mayor.
+* **Answer**: B
+6. The old woman lived alone, with ________ to look after ________.
+* A) Someone / her
+* B) Anyone / herself
+* C) Everyone / she
+* D) No one / her
+* **Answer**: D
+7. Stoke is to Cook then:
+* A) Sun: Heat
+* B) Moon: Star
+* C) Planet: Galaxy
+* D) None of these
+* **Answer**: A
+8. Cat is to Kitten then:
+* A) Duck: Cat
+* B) Cow: Calf
+* C) Bear: Deer
+* D) None of these
+* **Answer**: B
+9. Select the pair which has the same relationship. After: Before
+* A) First: Second
+* B) Present: Past
+* C) Contemporary: Historic
+* D) Successor: Predecessor
+* **Answer**: D
+10. He ________ the bank when police caught him.
+* A) stealing
+* B) was stealing
+* C) stole
+* D) had stole
+* **Answer**: B
+11. Who is trying to defend you. Here who is:
+* A) Demonstrative pronoun
+* B) Intensive pronoun
+* C) Interrogative pronoun
+* D) Possessive pronoun
+* **Answer**: C
+12. Select the pair which has the same relationship. Umbrella: Rain
+* A) Light: Sight
+* B) Glare: Stare
+* C) Vaccine: Disease
+* D) Wear: Wool
+* **Answer**: C
+13. The antonym of Egregious is:
+* A) Ordinary
+* B) Enchain
+* C) Acquit
+* D) Consummate
+* **Answer**: A
+14. The idiom "To bury the hatchet" mean:
+* A) To make peace
+* B) To make a foolish choice
+* C) To make a wrong decision
+* D) To lose something
+* **Answer**: A
+15. The meaning of Take up is:
+* A) Lose
+* B) Start
+* C) Give up
+* D) Cease
+* **Answer**: B
+
+**Category: Islamic Studies**
+1. Baba Farid belongs to which sufi order:
+* A) Suharwardia
+* B) Chistia
+* C) Naqshbandi
+* D) Qadria
+* **Answer**: B
+2. Longest Ayat of Quran is ________ of Surah Al-Baqarah.
+* A) Ayat No 282
+* B) Ayat No 284
+* C) Ayat No 286
+* D) None of these
+* **Answer**: A
+3. Battle in which Holy Prophet (PBUH) participated is known as:
+* A) Bayee
+* B) Sarriya
+* C) Ghazwa
+* D) None of these
+* **Answer**: C
+4. How many masarif of Zakat mentioned in the Holy Quran:
+* A) 6
+* B) 7
+* C) 8
+* D) 9
+* **Answer**: C
+5. What does Taraweeh means:
+* A) To stand
+* B) To sit
+* C) To rest
+* D) To pray
+* **Answer**: C
+6. Which two surahs are called Mauzatain?
+* A) Surah Al Baqarah and Surah Imran
+* B) Surah Falak and Surah Naas
+* C) Surah Ahzab and Surah Feel
+* D) None of these
+* **Answer**: B
+7. حضرت خدیجہ کے غلام کا کیا نام تھا جو آپ ﷺ کے ساتھ تجارت کے لیے گئے؟
+* A) مدار
+* B) میسرہ
+* C) مدانت
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+8. [Urdu] آپ ﷺ کے دور میں نازل ہونے والی سورتوں کے بارے میں سوال:
+* A) سورہ البقرہ
+* B) سورہ الاحزاب
+* C) سورہ المائدہ
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+9. [Urdu script question — options:]
+* A) 1
+* B) 2
+* C) 3
+* D) 4
+* **Answer**: A
+**Model Paper 119**
+
+**Category: Subject Related**
+1. Humanistic approach to psychology was founded by:
+* A) Wundt and James
+* B) Rogers and Maslow
+* C) Watson and Skinner
+* D) Freud and Jung
+* **Answer**: B
+2. Child is no more egocentric in which stage of Piaget cognitive development:
+* A) Sensorimotor Stage
+* B) Preoperational Stage
+* C) Formal Operational Stage
+* D) Concrete Operational Stage
+* **Answer**: D
+3. Which teaching methods is used for science subjects:
+* A) Demonstration
+* B) NPT
+* C) Observation
+* D) None of these
+* **Answer**: A
+4. _______ focus was on the scientific study of observable behavior that could be objectively measured and verified.
+* A) Psychoanalysis's
+* B) Structuralism's
+* C) Functionalism's
+* D) Behaviorism's
+* **Answer**: D
+5. "A Child can think logically about objects and events" This is the characteristic given by Piaget of stage:
+* A) Concrete Operational
+* B) Sensory Motor
+* C) Formal Operation
+* D) Pre Operational
+* **Answer**: A
+6. Which type of chart is best for categorical data:
+* A) Pie chart
+* B) Histogram
+* C) Maps
+* D) Vertical bar
+* **Answer**: D
+7. What is the other name of Null Hypothesis?
+* A) Directional hypothesis
+* B) Scientific hypotheses
+* C) Research hypothesis
+* D) Statistical hypothesis
+* **Answer**: D
+8. Assessment at the end of instruction is called:
+* A) Formative
+* B) Summative
+* C) Norm-referenced
+* D) Confirmative
+* **Answer**: B
+9. 'Economics is the science of wealth' was defined by _______.
+* A) Adam Smith
+* B) Robbins
+* C) J.K Mehta
+* D) None of these
+* **Answer**: A
+10. Education as an optional subject for was included in matric and inter in which education policy:
+* A) 1970
+* B) 1972
+* C) 1974
+* D) 1976
+* **Answer**: B
+11. Who is called pioneer of Idealism:
+* A) Aristotle
+* B) Plato
+* C) Socrates
+* D) Alexandar
+* **Answer**: B
+12. The graph used to show data on nominal scale is called:
+* A) Line graph
+* B) Pie graph
+* C) Speed graph
+* D) None of these
+* **Answer**: B
+13. Vice principal is working in place of principal it is called:
+* A) Job seek
+* B) Job replacement
+* C) Job research
+* D) None of these
+* **Answer**: D
+14. Statistical techniques used to compare mean of more than two groups is:
+* A) Analysis of Variance
+* B) Linear correlation and regression
+* C) F-test for precision
+* D) None of these
+* **Answer**: A
+15. Specific objectives are concerned with:
+* A) Planning
+* B) Lesson
+* C) Management
+* D) None of these
+* **Answer**: B
+16. _______ approach to counseling also known as Individual Psychology:
+* A) Psychoanalysis theory
+* B) Adlerian theory
+* C) Behavioral theory
+* D) Humanistic theory
+* **Answer**: B
+17. Assessment where comparison of student performance with another student is made with:
+* A) Criterion-referenced assessments
+* B) Norm Referenced Testing
+* C) Diagnostic assessments
+* D) None of these
+* **Answer**: B
+18. Assessment conducted during learning process to improve student performance is:
+* A) Summative
+* B) Formative
+* C) Diagnostic
+* D) None of these
+* **Answer**: B
+19. Knowledge acquired through culture, skills and tradition is fall in which philosophy:
+* A) Essentialism
+* B) Totalitarian
+* C) Epistemology
+* D) None of these
+* **Answer**: A
+20. Teacher is feeling difficulty in class in bringing in real life objects and he wants to overcome it he will use:
+* A) Models
+* B) Research
+* C) Both A & B
+* D) None of these
+* **Answer**: A
+21. An outline of the topic of the subject to be covered in specific time is called what:
+* A) Syllabus
+* B) Outline
+* C) Course
+* D) None of these
+* **Answer**: A
+22. Which is the easiest step in bloom's taxonomy?
+* A) Understanding
+* B) Remembering
+* C) Applying
+* D) Creating
+* **Answer**: B
+23. "Schools should be run on democratic lines" is held by:
+* A) Reconstructionism
+* B) Progressivism
+* C) Idealism
+* D) Essentialism
+* **Answer**: B
+24. Democracy and Education is a book written by:
+* A) Maria Montessori
+* B) John Dewy
+* C) Mahatma Gandhi
+* D) None of these
+* **Answer**: B
+25. Which sociologist argued that school is a miniature and reflection of society rather than an individual?
+* A) Emile Durkheim
+* B) John Dewey
+* C) Talcott parsons
+* D) Karl Marz
+* **Answer**: A
+26. The standard time duration of a micro teaching cycle is:
+* A) 12 minutes
+* B) 24 minutes
+* C) 36 minutes
+* D) 60 minutes
+* **Answer**: A
+27. Think-Pair-Share and Jigsaw are examples of:
+* A) Cooperative learning
+* B) Management ideas
+* C) Circle learning
+* D) Collaborative learning
+* **Answer**: A
+28. Making value judgment about curriculum is:
+* A) Curriculum design
+* B) Curriculum evaluation
+* C) Curriculum development
+* D) Curriculum elements
+* **Answer**: B
+29. Attitude, beliefs, norms and values are best studied in:
+* A) Observation
+* B) Survey
+* C) Management
+* D) None of these
+* **Answer**: B
+30. All experiences of the children for whom school assumes responsibility is:
+* A) Curricular activities
+* B) Co-curricular activities
+* C) School program
+* D) Curriculum
+* **Answer**: D
+31. Education imparted in a series of lessons or class meetings is called:
+* A) Course
+* B) Curriculum
+* C) Text
+* D) Syllabus
+* **Answer**: A
+32. Copying artwork falls under which learning domain:
+* A) Cognitive domain
+* B) Affective domain
+* C) Psychomotor domain
+* D) None of these
+* **Answer**: C
+33. Active learning method is:
+* A) Remembering
+* B) Debate
+* C) Home work
+* D) None of thee
+* **Answer**: B
+34. The S in apostrophe is used with noun to show:
+* A) Collective
+* B) Concrete
+* C) Possessive
+* D) Attributive
+* **Answer**: C
+35. The process of using sample statistics to draw conclusions about true population parameters is called:
+* A) Descriptive statistics
+* B) Statistical inference
+* C) Scientific method
+* D) Sampling
+* **Answer**: B
+36. Students are passive in:
+* A) Project method
+* B) Discovery method
+* C) Inquiry method
+* D) Lecture method
+* **Answer**: D
+37. A summary measure that is computed to describe a characteristic from only a sample of the population is called:
+* A) Statistic
+* B) Scientific method
+* C) Census
+* D) Parameter
+* **Answer**: A
+38. "Cognitive theory" of learning was given by:
+* A) Skinner
+* B) Pavlov
+* C) Tolman
+* D) Piaget
+* **Answer**: D
+39. Portfolio is a collection of:
+* A) Data
+* B) Investments
+* C) Problems
+* D) Theories
+* **Answer**: A
+40. Goodness deals with _______ aspect of philosophy.
+* A) Ethics
+* B) Axiology
+* C) Epistemology
+* D) None of these
+* **Answer**: A
+41. The reasoning from General to Particular is called:
+* A) Inductive reasoning
+* B) Deductive reasoning
+* C) Analogical reasoning
+* D) Creative reasoning
+* **Answer**: B
+42. Evaluation is the process of:
+* A) Determined the extent of achievement of objectives
+* B) Ascertaining the quality, the value of outcomes
+* C) Comparing the outcomes of instructions
+* D) All of these
+* **Answer**: D
+43. The Socratic method is known as:
+* A) Discussion method
+* B) Lecture Demonstration Method
+* C) Inquiry method
+* D) Question-Answer method
+* **Answer**: D
+44. Effective lesson plan is useful for:
+* A) Social sciences
+* B) Physical sciences
+* C) Economics
+* D) None of these
+* **Answer**: D
+45. Enables lectures to understand science using scientific method is termed as:
+* A) Naturalism
+* B) Curiosity
+* C) Observation
+* D) None of these
+* **Answer**: C
+46. Theory developed deductively under which research paradigm:
+* A) Positivism
+* B) Descriptive
+* C) Predictive
+* D) None of these
+* **Answer**: A
+47. Intelligence is a possession of an individual who have the right to exercise it said by:
+* A) Stedman Graham
+* B) John Dewey
+* C) Ralph Nader
+* D) None of these
+* **Answer**: B
+48. Selection of people for research purposes is called:
+* A) Sampling
+* B) Applied research
+* C) Exploratory Research
+* D) None of these
+* **Answer**: A
+49. The most repeated number in data set is called:
+* A) Mean
+* B) Median
+* C) Mode
+* D) None of these
+* **Answer**: C
+50. A test is said to be _______ if it measures future professional interests or skills of an individual.
+* A) Evaluation test
+* B) General test
+* C) Aptitude test
+* D) None of these
+* **Answer**: C
+51. Employees are lazy according to which theory:
+* A) Theory X
+* B) Theory Y
+* C) Theory Z
+* D) None of these
+* **Answer**: A
+52. Type of learning in which association of stimulus rarely illustrates a particular response with another stimulus that illustrates a response:
+* A) Classical conditioning
+* B) Operant conditioning
+* C) Non-Operant conditioning
+* D) None of these
+* **Answer**: A
+53. The college employees other than faculty assisting the activities of institutions is called:
+* A) Staff
+* B) Upper class
+* C) Lower class
+* D) None of these
+* **Answer**: A
+54. Lesson starts from:
+* A) Previous knowledge
+* B) Forwarding knowledge
+* C) Current knowledge
+* D) None of these
+* **Answer**: A
+55. To start curriculum one should make sure that curriculum should be:
+* A) Relevant with subjective
+* B) Relevant with objective
+* C) Irrelevant with objective
+* D) None of these
+* **Answer**: B
+56. To determine objective of education which one is considered as basic source:
+* A) Philosophy
+* B) Psychology
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+57. The _______ leave granted shall not be debited to the leave account.
+* A) Freedom
+* B) Quarantine
+* C) Access
+* D) None of these
+* **Answer**: B
+58. Research conducted in which type of method:
+* A) Observational
+* B) Experimental
+* C) Analytical
+* D) None of these
+* **Answer**: B
+59. The antonym of feral is:
+* A) Wild
+* B) Raw
+* C) Tame
+* D) Ignorant
+* **Answer**: C
+60. The use of traditional classroom strategies and online learning techniques together is called as:
+* A) Auditive learning
+* B) Blended learning
+* C) Visual learning
+* D) None of these
+* **Answer**: B
+61. While writing a textbook the writer should be aware of the:
+* A) Learner
+* B) Content
+* C) Society
+* D) All of these
+* **Answer**: D
+62. Well is which part of speech:
+* A) Conjunction
+* B) Interjection
+* C) Noun
+* D) None of these
+* **Answer**: B
+63. The educational institutions, libraries, hospitals, and industries store the concerned information by:
+* A) Operating system
+* B) Data management
+* C) Informing system
+* D) Word processing
+* **Answer**: B
+64. The term spiral curriculum was given by:
+* A) Jerome Bruner
+* B) William James
+* C) Ivan Pavlov
+* D) None of these
+* **Answer**: A
+65. A test taken again from the students after little time gives the same result is_______.
+* A) Valid
+* B) Invalid
+* C) Reliable
+* D) Unreliable
+* **Answer**: C
+66. Which of the following is the nature of curriculum?
+* A) Critical
+* B) Creative
+* C) Conservative
+* D) All of these
+* **Answer**: D
+67. A study of conducted to collect data from different groups of a population at the same time:
+* A) Ecological studies
+* B) Clinical trials
+* C) Cross sectional study
+* D) Sampling Strategies
+* **Answer**: C
+68. Which is the best practice control internal and external threat to validity?
+* A) Sequence
+* B) Analysis
+* C) Randomization
+* D) None of these
+* **Answer**: C
+69. Epistemology is the branch of philosophy concerned with the theory of:
+* A) Education
+* B) Learning
+* C) Knowledge
+* D) None of these
+* **Answer**: C
+70. To test the ability of individual about his own emotions and other personality to judge or take decisions:
+* A) Spiritual Intelligence
+* B) Emotional Intelligence
+* C) Social Intelligence
+* D) None of these
+* **Answer**: B
+71. Every system of education is based on:
+* A) Ideology of nation
+* B) Social development
+* C) Intellectual development
+* D) Skill development
+* **Answer**: A
+72. According to Dewey child is:
+* A) Rote Learning
+* B) Active builder of knowledge
+* C) Authoritarian teaching methods
+* D) None of these
+* **Answer**: B
+73. In a process, quantity or condition that the control alters to initiate change in the value of the regulated condition is:
+* A) Dependent variable
+* B) Independent variable
+* C) Controlled variable
+* D) None of these
+* **Answer**: B
+74. The main purpose of the supervision of teaching should be the:
+* A) Advancement of pupil welfare
+* B) Proper utilization of school facilities
+* C) Carrying out of the curriculum
+* D) Achievement of success
+* **Answer**: A
+75. Curriculum is supposed to:
+* A) Be organized by the school
+* B) Achieve the objective
+* C) Both A & B
+* D) None of these
+* **Answer**: C
+76. School is microsystem of:
+* A) Society
+* B) Education
+* C) Guidance
+* D) None of these
+* **Answer**: A
+77. The principle that development first start from head towards other parts of body is:
+* A) Principle of hierarchical integration
+* B) Cephalocaudal principle
+* C) Principle of independence of systems
+* D) Proximodistal principle
+* **Answer**: B
+
+**Category: General Knowledge**
+1. Nelson Mandela belongs to which country:
+* A) Brazil
+* B) Magnolia
+* C) South America
+* D) South Africa
+* **Answer**: D
+2. COVID-19 variant start from which city of China:
+* A) Beijing
+* B) Shanghai
+* C) Wuhan
+* D) Tianjin
+* **Answer**: C
+
+**Category: Pakistan Studies**
+1. The real name of Gama Pehalwan was:
+* A) Ghulam Mohammad Baksh Butt
+* B) Mehr Din Shams
+* C) Kazim Khawar Hayat
+* D) None of these
+* **Answer**: A
+2. According to Human Development Index literacy rate of Pakistan in 2019 was:
+* A) 56%
+* B) 57%
+* C) 58%
+* D) 59%
+* **Answer**: D †
+3. Khilafat movement was ended by:
+* A) Quaid-e-Azam
+* B) Gandhi
+* C) Maulana Muhammad Ali Johar
+* D) None of these
+* **Answer**: B
+4. Din-i-Illahi was promoted by:
+* A) Babar
+* B) Hamayoun
+* C) Jahangir
+* D) Akbar
+* **Answer**: D
+5. Who composed the National Anthem of Pakistan?
+* A) Allama Iqbal
+* B) Hafeez Jalandhari
+* C) Ahmed G. Chagla
+* D) None of these
+* **Answer**: B
+
+**Category: Everyday Science**
+1. Cosmology is a study of:
+* A) Religion
+* B) Universe
+* C) Skin
+* D) Stars
+* **Answer**: B
+2. What is the chemical formula of sugar:
+* A) CH3COOH
+* B) C6H12O6
+* C) C12H22O11
+* D) None of these
+* **Answer**: C
+
+**Category: Basic Computer Studies**
+1. Which of the following is used to create web pages:
+* A) HTTP
+* B) HTML
+* C) URL
+* D) FTP
+* **Answer**: B
+2. Which of the following is output device:
+* A) Mouse
+* B) Keyboard
+* C) Printer
+* D) None of these
+* **Answer**: C
+3. What is the function of the F4 key in a Spreadsheet?
+* A) Change font
+* B) Repeat the last action
+* C) Choose open command
+* D) Open bookmark
+* **Answer**: B
+4. HTTP stands for:
+* A) Hypertext transfer processor
+* B) Hypertext Transfer Protocol
+* C) Hypertext Transport Protocol
+* D) None of these
+* **Answer**: B
+5. A set of instructions that directs a computer's hardware to perform a task is called a:
+* A) Command
+* B) Program
+* C) Operating system
+* D) None of these
+* **Answer**: B
+6. Which Act for the first time made it possible for Indians to take some share in the administration of their country:
+* A) Indian Council Act 1861
+* B) Indian Council Act 1909
+* C) Government of India Act 1935
+* D) None of these
+* **Answer**: A
+7. MB stands for:
+* A) Mili byte
+* B) Megabyte
+* C) Micro byte
+* D) None of these
+* **Answer**: B
+
+**Category: English**
+1. My father didn't like the music _______.
+* A) nor am I
+* B) nor I am
+* C) as me
+* D) None of these
+* **Answer**: D †
+
+**Category: Islamic Studies**
+1. Last caliph of the Ottoman Dynasty was:
+* A) Abdul Majid
+* B) Abdul Hameed
+* C) Abdul Nasir
+* D) None of these
+* **Answer**: A
+2. The source of knowledge for Islamic education foundation based on:
+* A) Quran
+* B) Sunnah
+* C) Fiqah
+* D) All of these
+* **Answer**: D
+**Model Paper 120**
+
+**Category: General Knowledge**
+
+1. Which movement change Africa and Middle East regimes?
+* A) Revolutionary League
+* B) Arab League
+* C) African Peace League
+* D) None of these
+* **Answer**: D
+
+2. How many countries does the Rhine River pass through?
+* A) 4
+* B) 5
+* C) 6
+* D) 7
+* **Answer**: C
+
+3. When did Taiwan separate from China?
+* A) 1947
+* B) 1949
+* C) 1963
+* D) 1977
+* **Answer**: B
+
+4. When China joined World Trade Organization:
+* A) 1995
+* B) 1997
+* C) 1999
+* D) 2001
+* **Answer**: D
+
+5. Sykes-Picot Agreement (also called Asia Minor Agreement) was signed in:
+* A) 1915
+* B) 1916
+* C) 1917
+* D) 1918
+* **Answer**: B
+
+6. The Golden Jubilee of the Indian National Congress (1885-1935) fell in 1935, which was observed during the session held at ______.
+* A) Karachi
+* B) Delhi
+* C) Lucknow
+* D) Not anywhere
+* **Answer**: D
+
+7. Arab League was established in:
+* A) 1941
+* B) 1945
+* C) 1949
+* D) 1965
+* **Answer**: B
+
+8. US adds ______ and ______ in list of Child Soldiers Prevention Act in 2021.
+* A) Armenia & Chile
+* B) Pakistan & Türkiye
+* C) Estonia & Djibouti
+* D) None of these
+* **Answer**: B
+
+9. Max Weber was famous:
+* A) German sociologist
+* B) German biologist
+* C) German artist
+* D) None of these
+* **Answer**: A
+
+10. Siam Paragon is a shopping mall in:
+* A) Phuket
+* B) Bangkok
+* C) Chiang Mai
+* D) None of these
+* **Answer**: B
+
+11. Cold War strategy is named as:
+* A) Containment
+* B) Deterrence
+* C) Balance of power
+* D) Common defence
+* **Answer**: A
+
+12. In hundred-meter race false start time is:
+* A) 0.1 seconds
+* B) 0.25 seconds
+* C) 0.75 seconds
+* D) 1 second
+* **Answer**: A
+
+13. Clausewitz policy is:
+* A) Decision to use force must be mutual
+* B) Strategic deterrence, political and prestige benefits
+* C) The policy of detente evolved from conflict
+* D) None of these
+* **Answer**: B
+
+14. Australian Open tennis tournament is played on which type of court:
+* A) Hard court
+* B) Clay court
+* C) Grass court
+* D) None of these
+* **Answer**: A
+
+15. Transnational Actors and Transnational Governance activated in the area of:
+* A) WW1
+* B) Cold War
+* C) Bluff War
+* D) None of these
+* **Answer**: B
+
+16. Which among the following is the capital of Laos:
+* A) Kabul
+* B) Vientiane
+* C) Vietnam
+* D) Nigeria
+* **Answer**: B
+
+17. In June 2020, United Nation Security Council elections held for:
+* A) To address climate change issues
+* B) To select non-permanent member of UN Security Council
+* C) To discuss Kashmir matters by the request of China
+* D) None of these
+* **Answer**: B
+
+18. Alibaba group found in:
+* A) 1991
+* B) 1993
+* C) 1997
+* D) 1999
+* **Answer**: D
+
+**Category: Pakistan Studies**
+
+1. Pakistan China border agreement was signed in:
+* A) 1947
+* B) 1953
+* C) 1963
+* D) 1967
+* **Answer**: C
+
+2. The Pakistan Super League 2019 won by:
+* A) Peshawar Zalmi
+* B) Multan Sultans
+* C) Quetta Gladiators
+* D) Islamabad United
+* **Answer**: C
+
+3. When Pakistan left CENTO:
+* A) 1971
+* B) 1974
+* C) 1979
+* D) None of these
+* **Answer**: C
+
+4. Kargil War ended through which agreement:
+* A) Delhi Agreement
+* B) Washington Agreement
+* C) Simla Agreement
+* D) None of these
+* **Answer**: B
+
+5. The land lying between the river Ravi and river Chenab is called:
+* A) Bari Doab
+* B) Chaj Doab
+* C) Rachna Doab
+* D) Sindh Sagar Doab
+* **Answer**: C
+
+6. Anna Molka Ahmad is famous for:
+* A) Painting
+* B) Literature
+* C) Scientist
+* D) None of these
+* **Answer**: A
+
+7. When did Quaid-e-Azam join All India Muslim league:
+* A) 1911
+* B) 1912
+* C) 1913
+* D) 1914
+* **Answer**: C
+
+8. Shandur Polo Festival to be held in which month:
+* A) April
+* B) May
+* C) June
+* D) July
+* **Answer**: D
+
+9. Balochistan became province in:
+* A) 1947
+* B) 1956
+* C) 1970
+* D) 1974
+* **Answer**: C
+
+10. Who was the first viceroy of India:
+* A) Lord Canning
+* B) Lord Rippon
+* C) Lord Curzon
+* D) Lord Hastings
+* **Answer**: A
+
+11. The share of industries in GDP of Pakistan after partition:
+* A) 8%
+* B) 12%
+* C) 14%
+* D) 18%
+* **Answer**: A
+
+12. The Indus Waters Treaty water-distribution treaty between India and Pakistan, brokered by the:
+* A) World Bank
+* B) International Monetary Fund
+* C) North Atlantic Treaty Organization
+* D) International Bank for Reconstruction and Development
+* **Answer**: A
+
+13. The Rafi Peer Theatre Workshop (RPTW) named after ______ founded by two brothers.
+* A) Rafi Peer
+* B) Usman Peer
+* C) Faizan Peer
+* D) None of these
+* **Answer**: A
+
+14. Which kind of system of government was introduced in 1962 Constitution?
+* A) Bicameral
+* B) Presidential
+* C) Parliamentary
+* D) None of these
+* **Answer**: B
+
+15. Najam Hussain Syed is famous for:
+* A) Doctor
+* B) Critic
+* C) Psychology
+* D) None of these
+* **Answer**: B
+
+16. Radcliff awarded which district to India for support in Kashmir:
+* A) Ferozpur
+* B) Gurdaspur
+* C) Pathankot
+* D) None of these
+* **Answer**: B
+
+17. Ahmad Shah Patras Bukhari was a famous writer of ______ language.
+* A) English
+* B) Urdu
+* C) Punjabi
+* D) Hindi
+* **Answer**: B
+
+18. Quaid-e-Azam asked three law lords from British government in which commission?
+* A) Mandate commission
+* B) Boundary Commission
+* C) Empowerment commission
+* D) None of these
+* **Answer**: B
+
+19. Pervaiz Musharraf replaces ______ as army chief:
+* A) Abdul Waheed Kakar
+* B) Jahangir Karamat
+* C) Asif Nawaz Janjua
+* D) None of these
+* **Answer**: B
+
+20. Bahadur Shah, the last Mughal Emperor, was exiled to:
+* A) Mysore
+* B) Awadh
+* C) Rangoon
+* D) Baghdad
+* **Answer**: C
+
+**Category: Geography**
+
+1. Where is located the famous tourist place Copacabana Beach in South America:
+* A) Argentina
+* B) Colombia
+* C) Brazil
+* D) Uruguay
+* **Answer**: C
+
+2. Varadero beach is located in which country:
+* A) Cuba
+* B) Nicaragua
+* C) Panama
+* D) None of these
+* **Answer**: A
+
+3. Gangkhar Puensum, the highest unclimbed mountain in the world, is located in:
+* A) India
+* B) China
+* C) Nepal
+* D) Bhutan
+* **Answer**: D
+
+4. The largest river in the world is:
+* A) Amazon
+* B) Nile
+* C) Indus
+* D) None of these
+* **Answer**: A
+
+**Category: Everyday Science**
+
+1. Which of the following nutrients has the highest calorific value?
+* A) Carbohydrates
+* B) Fats
+* C) Vitamins
+* D) Proteins
+* **Answer**: B
+
+2. The average heartbeat per minute in a normal man is:
+* A) 50-60 times
+* B) 70-80 times
+* C) 80-90 times
+* D) None of these
+* **Answer**: B
+
+3. Package of enzymes bounded by a membrane called a:
+* A) Ribosomes
+* B) Golgi apparatus
+* C) Endoplasmic reticulum
+* D) Cytoplasm
+* **Answer**: B
+
+4. When did Martin Cooper invented the cell phone?
+* A) 1971
+* B) 1973
+* C) 1975
+* D) 1977
+* **Answer**: B
+
+5. Which of the following is combustible?
+* A) Hydrogen
+* B) Nitrogen
+* C) Oxygen
+* D) Carbon dioxide
+* **Answer**: A
+
+6. Most crucial step in natural growth in nutrient cycle is:
+* A) Nutrient cycle
+* B) Water cycle
+* C) Nitrogen cycle
+* D) None of these
+* **Answer**: C
+
+7. COVID-19 cause by:
+* A) Bacteria
+* B) Germs
+* C) Virus
+* D) None of these
+* **Answer**: C
+
+8. Telephone was invented by:
+* A) Cerf
+* B) Babbage
+* C) Edison
+* D) Graham
+* **Answer**: D
+
+9. ______ is an instrument for measuring a small electric current.
+* A) Anemometer
+* B) Hygrometer
+* C) Galvanometer
+* D) Sphygmomanometer
+* **Answer**: C
+
+10. The study of insects is called:
+* A) Ornithology
+* B) Entomology
+* C) Zoology
+* D) None of these
+* **Answer**: B
+
+**Category: Basic Computer Studies**
+
+1. Which of the following types of table constraints will prevent the entry of duplicate rows:
+* A) Primary key
+* B) Unique
+* C) Null
+* D) Foreign key
+* **Answer**: A
+
+2. In excel from which tab you can write date of birth like this YYYY/MM/DD:
+* A) Input
+* B) Format menu
+* C) Insert
+* D) None of these
+* **Answer**: B
+
+3. Which of the following is not the characteristics of computer:
+* A) Automation
+* B) Speed
+* C) Intelligence
+* D) Versatility
+* **Answer**: C
+
+4. Audio, Video and PDF can send through:
+* A) Gmail
+* B) Yahoo
+* C) WhatsApp
+* D) All of these
+* **Answer**: D
+
+5. Who is the father of Internet:
+* A) Charles Babbage
+* B) Vint Cerf
+* C) Martin Cooper
+* D) Howard Aiken
+* **Answer**: B
+
+6. MICR stands for:
+* A) Magnetic Ink Character Reader
+* B) Magnetic Ink Character Recognition
+* C) Magnetic Ink Character Receiver
+* D) None of these
+* **Answer**: B
+
+**Category: English**
+
+1. He is different ______ the people around him.
+* A) from
+* B) to
+* C) of
+* D) with
+* **Answer**: A
+
+2. It is time we ______ out.
+* A) go
+* B) went
+* C) gone
+* D) None of these
+* **Answer**: B
+
+3. He died ______ corona.
+* A) from
+* B) of
+* C) to
+* D) None of these
+* **Answer**: B
+
+4. The antonym of Stagnant is:
+* A) Static
+* B) Progress
+* C) Stale
+* D) Filthy
+* **Answer**: B
+
+5. The antonym of facilitate is:
+* A) Ease
+* B) Impede
+* C) Promote
+* D) Enable
+* **Answer**: B
+
+6. What is the synonym of Veracity?
+* A) Authenticity
+* B) Fiction
+* C) Mendacity
+* D) None of these
+* **Answer**: A
+
+7. Synonym of Reverie is:
+* A) Daydream
+* B) Adoration
+* C) Meeting
+* D) Awakening call
+* **Answer**: A
+
+8. I know all the people sitting in the hall. Find complete object in a given sentence:
+* A) I know all the people in the hall.
+* B) All the people sitting in the hall.
+* C) I know the people in hall.
+* D) None of these
+* **Answer**: B
+
+9. Change voice: Jack may solve this problem.
+* A) This problem might be solved by jack.
+* B) This problem may be solved by jack.
+* C) This problem has solved by jack.
+* D) None of these
+* **Answer**: B
+
+10. None of the boys ______ present.
+* A) was
+* B) were
+* C) has
+* D) have
+* **Answer**: A
+
+11. Change narration: Salma said to me, "Can you give me your pen?"
+* A) Salma asked me if I gave her my pen.
+* B) Salma asked me if I can give me your pen.
+* C) Salma asked me if I could give her my pen.
+* D) Salma asked me can I give her my pen
+* **Answer**: C
+
+12. Choose the correct analogy: Sip: Gulp
+* A) Soup: Water
+* B) Tent: Hut
+* C) Touch: Push
+* D) Cup: Glass
+* **Answer**: C
+
+13. The meaning of Idiom At stake is:
+* A) Very low
+* B) In danger
+* C) At the top
+* D) Appropriate
+* **Answer**: B
+
+14. One who travels from place to place is called:
+* A) Journeyman
+* B) Tramp
+* C) Itinerant
+* D) Mendicant
+* **Answer**: C
+
+15. Change narration The boy exclaimed with joy that they had won the match.
+* A) The boys said, "Hurrah! we have won the match."
+* B) The boys said, "we have won the match."
+* C) The boys said, "Hurrah! we won the match."
+* D) None of these
+* **Answer**: A
+
+16. He is good ______ mathematics.
+* A) in
+* B) at
+* C) on
+* D) into
+* **Answer**: B
+
+**Category: Islamic Studies**
+
+1. حضرت محمد ﷺ کی قوم کا نام بتائیں؟
+* A) قوم ثمود
+* B) قوم ہود
+* C) قوم لوط
+* D) ان میں سے کوئی نہیں
+* **Answer**: A
+
+2. کون سے صحابی مشہور مفسر ہیں؟
+* A) حضرت سلمان فارسیؓ
+* B) حضرت سعد بن ابی وقاصؓ
+* C) حضرت حذیفہؓ
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+
+3. خوش الہانی کا معجزہ کس نبی کو دیا گیا؟
+* A) حضرت موسیٰؑ
+* B) حضرت داؤدؑ
+* C) حضرت عیسیٰؑ
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+
+4. حضرت ابوبکر صدیقؓ کا مکمل نام کیا ہے؟
+* A) عبداللہ بن ابی قحافہ
+* B) قاسم بن عبداللہ
+* C) عامر بن عبداللہ
+* D) ان میں سے کوئی نہیں
+* **Answer**: C
+
+5. "ام المومنین" کے لقب سے کون سی صحابیہ مشہور ہیں؟
+* A) حضرت سیدہ زینب بنت جحشؓ
+* B) حضرت سیدہ زینب بنت خزیمہؓ
+* C) حضرت سیدہ حفصہ بنت عمرؓ
+* D) ان میں سے کوئی نہیں
+* **Answer**: B
+
+6. نیچے کے موقع پر کتنے کارڈ ملے؟
+* A) 0
+* B) 13
+* C) 50
+* D) 60
+* **Answer**: B
+
+7. حضرت موسیٰ علیہ السلام کی تربیت کس نے کی؟
+* A) حضرت ابراہیم علیہ السلام
+* B) حضرت شعیب علیہ السلام
+* C) حضرت یعقوب علیہ السلام
+* D) حضرت صالح علیہ السلام
+* **Answer**: B
+
+8. ابوتراب کس کی کنیت ہے؟
+* A) حضرت ابوبکر صدیقؓ
+* B) حضرت عمرؓ
+* C) حضرت عثمانؓ
+* D) حضرت علیؓ
+* **Answer**: D
