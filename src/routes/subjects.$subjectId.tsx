@@ -242,49 +242,35 @@ function SubjectDetailPage() {
           </div>
         </div>
 
-        {modelPapersWithStats.length === 0 ? (
+        {papersToShow.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
             <BookOpen className="size-8 mx-auto mb-2 text-muted-foreground/50" />
-            No papers available for this subject yet.
+            No papers available for this category yet.
           </div>
         ) : (
-          <div className="space-y-8">
-            {papersBySubtopic.map((group) => (
-              <div key={group.subtopicName || "all"} className="space-y-3">
-                {group.subtopicName && (
-                  <div className="flex items-center justify-between border-b border-border/60 pb-2">
-                    <h2 className="text-base font-display font-semibold text-foreground flex items-center gap-2">
-                      <BookOpen className="size-4 text-primary" />
-                      {group.subtopicName}
-                    </h2>
-                    <span className="text-xs text-muted-foreground">
-                      {group.papers.length} {group.papers.length === 1 ? "Paper" : "Papers"}
-                    </span>
-                  </div>
-                )}
-                <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                  {group.papers.map((paper) => {
-                    const lockStatus = getPaperLockStatus({
-                      subjectKey: subjectId,
-                      paperNumber: paper.paperNumber,
-                      isAdmin,
-                      completedPaperNumbers,
-                      attemptedPaperNumbers,
-                    });
-                    const isLocked = !lockStatus.isUnlocked;
-                    const isCompleted = lockStatus.isCompleted;
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {papersToShow.map((paper) => {
+              const lockStatus = getPaperLockStatus({
+                subjectKey: subjectId,
+                paperNumber: paper.paperNumber,
+                isAdmin,
+                completedPaperNumbers,
+                attemptedPaperNumbers,
+              });
+              const isLocked = !lockStatus.isUnlocked;
+              const isCompleted = lockStatus.isCompleted;
 
-                    return (
-                      <div
-                        key={`${paper.subtopicIds[0]}_${paper.paperNumber}`}
-                        className={`group relative rounded-xl border p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2 ${
-                          isLocked
-                            ? "bg-card/50 border-border/50 opacity-60 grayscale-[25%] select-none"
-                            : isCompleted
-                            ? "bg-card border-success/30 hover:border-success/60 hover:shadow-glow"
-                            : "bg-card border-border hover:border-primary/50 hover:shadow-glow"
-                        }`}
-                      >
+              return (
+                <div
+                  key={`${paper.subtopicIds[0]}_${paper.paperNumber}`}
+                  className={`group relative rounded-xl border p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2 ${
+                    isLocked
+                      ? "bg-card/50 border-border/50 opacity-60 grayscale-[25%] select-none"
+                      : isCompleted
+                      ? "bg-card border-success/30 hover:border-success/60 hover:shadow-glow"
+                      : "bg-card border-border hover:border-primary/50 hover:shadow-glow"
+                  }`}
+                >
                   <div>
                     <div className="flex items-center justify-between mb-1">
                       <div
@@ -382,9 +368,6 @@ function SubjectDetailPage() {
                 </div>
               );
             })}
-                </div>
-              </div>
-            ))}
           </div>
         )}
 
