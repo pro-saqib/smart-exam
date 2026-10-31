@@ -1,13 +1,16 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useApp } from "@/store/app-store";
 import { useMemo, useState, useEffect } from "react";
-import { ArrowLeft, BookOpen, FileText, Eye, Check, X, Pencil, Trash2, FileCheck2, Lock } from "lucide-react";
+import { ArrowLeft, BookOpen, FileText, Eye, Check, X, Pencil, Trash2, FileCheck2, Lock, ChevronRight } from "lucide-react";
 import { toast } from "sonner";
-import { buildSubjectGroups, getSubjectModelPapers, getPaperLockStatus, SUBJECT_KEYWORDS, ModelPaper } from "@/lib/model-papers";
+import { buildSubjectGroups, getSubjectModelPapers, getPaperLockStatus, SUBJECT_KEYWORDS, ModelPaper, getSubjectGroup } from "@/lib/model-papers";
 import { getSubjectModelPaperMcqs, getSubjectModelPaperStats } from "@/lib/db-actions";
 import type { MCQ } from "@/lib/types";
 
 export const Route = createFileRoute("/subjects/$subjectId")({
+  validateSearch: (search: Record<string, unknown>) => ({
+    subtopic: (search.subtopic as string) || undefined,
+  }),
   head: () => ({
     meta: [
       { title: "Papers — PrepMind" },
@@ -114,42 +117,127 @@ function SubjectDetailPage() {
   const [previewPaper, setPreviewPaper] = useState<ModelPaper | null>(null);
   const [previewSubtopicId, setPreviewSubtopicId] = useState<string | null>(null);
 
-  const papersBySubtopic = useMemo(() => {
-    if (!canonicalConfig?.namedPapers) {
-      return [{ subtopicName: null, papers: modelPapersWithStats }];
-    }
-    const map = new Map<string, { subtopicName: string; papers: typeof modelPapersWithStats }>();
-    for (const p of modelPapersWithStats) {
-      const subId = p.subtopicIds[0] || "other";
-      const subObj = allSubjects.find((s) => s.id === subId);
-      const subName = subObj?.name || "General";
-      if (!map.has(subId)) {
-        map.set(subId, { subtopicName: subName, papers: [] });
-      }
-      map.get(subId)!.papers.push(p);
-    }
-    return Array.from(map.values());
-  }, [modelPapersWithStats, canonicalConfig, allSubjects]);
+  const { subtopic: selectedSubtopicId } = Route.useSearch();
+
+  const groupSubtopics = useMemo(() => {
+    if (!canonicalConfig) return [];
+    return allSubjects
+      .filter((s) => {
+        const g = getSubjectGroup(s.name, s.parentId);
+        return g?.key === subjectId;
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [allSubjects, canonicalConfig, subjectId]);
 
   // ── A. CANONICAL SUBJECT PAPERS VIEW (e.g. /subjects/english) ──
   if (canonicalConfig || activeGroup) {
     const title = canonicalConfig?.label || activeGroup?.label || "Subject";
     const totalMcqs = activeGroup?.totalMcqs || 0;
 
+    if (canonicalConfig?.namedPapers && !selectedSubtopicId) {
+      return (
+        <div className="space-y-6">
+          {/* Navigation header */}
+          <div className="flex items-center gap-3">
+            <Link
+              to="/subjects"
+              className="p-2 rounded-xl bg-card border border-border hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <ArrowLeft className="size-4" />
+            </Link>
+            <div>
+              <h1 className="text-2xl font-display">{title}</h1>
+              <p className="text-xs text-muted-foreground mt-0.5">
+                {groupSubtopics.length} Categories · {totalMcqs.toLocaleString()} total MCQs
+              </p>
+            </div>
+          </div>
+
+          {groupSubtopics.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
+              <BookOpen className="size-8 mx-auto mb-2 text-muted-foreground/50" />
+              No categories available for this subject yet.
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {groupSubtopics.map((sub) => {
+                const subAttempts = attempts.filter((a) => a.subjectId === sub.id);
+                const attemptedCount = new Set(subAttempts.map((a) => a.mcqId)).size;
+                const accuracy = subAttempts.length > 0
+                  ? Math.round((subAttempts.filter((a) => a.correct).length / subAttempts.length) * 100)
+                  : 0;
+                const paperCount = Math.ceil((sub.totalMcqs || 0) / 100);
+
+                return (
+                  <Link
+                    key={sub.id}
+                    to="/subjects/$subjectId"
+                    params={{ subjectId }}
+                    search={{ subtopic: sub.id }}
+                    className="group relative rounded-xl bg-card border border-border hover:border-primary/50 hover:shadow-glow p-4 shadow-card transition-all duration-200 flex flex-col justify-between gap-3"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="size-8 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 transition-transform">
+                          <BookOpen className="size-4 text-primary" />
+                        </div>
+                        <div className="size-6 rounded-md bg-secondary text-muted-foreground group-hover:text-foreground group-hover:bg-accent grid place-items-center transition-colors">
+                          <ChevronRight className="size-3.5" />
+                        </div>
+                      </div>
+                      <h2 className="font-semibold text-base group-hover:text-primary transition-colors">
+                        {sub.name}
+                      </h2>
+                      <p className="text-xs text-muted-foreground mt-0.5">
+                        {paperCount} {paperCount === 1 ? "Paper" : "Papers"} · {(sub.totalMcqs || 0).toLocaleString()} MCQs
+                      </p>
+                    </div>
+
+                    <div className="pt-2 border-t border-border/50 space-y-1.5">
+                      <div className="flex items-center justify-between text-xs">
+                        <span className="text-muted-foreground">{attemptedCount} solved</span>
+                        <span className="font-medium text-foreground">{accuracy}% accuracy</span>
+                      </div>
+                      <div className="h-1.5 rounded-full bg-muted overflow-hidden">
+                        <div
+                          className="h-full gradient-primary transition-all duration-300"
+                          style={{ width: `${Math.min(100, accuracy)}%` }}
+                        />
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    const selectedSubObj = selectedSubtopicId ? allSubjects.find((s) => s.id === selectedSubtopicId) : null;
+    const papersToShow = selectedSubtopicId
+      ? modelPapersWithStats.filter((p) => p.subtopicIds.includes(selectedSubtopicId))
+      : modelPapersWithStats;
+    const currentTitle = selectedSubObj?.name || title;
+    const currentMcqs = selectedSubObj?.totalMcqs || totalMcqs;
+
     return (
       <div className="space-y-6">
         {/* Navigation header */}
         <div className="flex items-center gap-3">
           <Link
-            to="/subjects"
+            to={canonicalConfig?.namedPapers ? "/subjects/$subjectId" : "/subjects"}
+            params={{ subjectId }}
+            search={canonicalConfig?.namedPapers ? {} : undefined}
             className="p-2 rounded-xl bg-card border border-border hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
+            title={canonicalConfig?.namedPapers ? "Back to Categories" : "Back to Subjects"}
           >
             <ArrowLeft className="size-4" />
           </Link>
           <div>
-            <h1 className="text-2xl font-display">{title}</h1>
+            <h1 className="text-2xl font-display">{currentTitle}</h1>
             <p className="text-xs text-muted-foreground mt-0.5">
-              {modelPapersWithStats.length} {modelPapersWithStats.length === 1 ? "Paper" : "Papers"} · {totalMcqs.toLocaleString()} MCQs
+              {papersToShow.length} {papersToShow.length === 1 ? "Paper" : "Papers"} · {currentMcqs.toLocaleString()} MCQs
             </p>
           </div>
         </div>
