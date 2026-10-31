@@ -305,7 +305,7 @@ export function getSubjectModelPaperMapping(
   if (useNamedPapers) {
     let globalPaperNumber = 1;
     for (const sub of groupSubtopics) {
-      const subMcqs = mcqIndex.filter((m) => m.subjectId === sub.id);
+      const subMcqs = mcqIndex.filter((m) => m.subjectId === sub.id).sort((a, b) => a.id.localeCompare(b.id));
       const subPapers = Math.ceil(subMcqs.length / batchSize) || (sub.totalMcqs > 0 ? Math.ceil(sub.totalMcqs / batchSize) : 0);
 
       for (let i = 0; i < subPapers; i++) {

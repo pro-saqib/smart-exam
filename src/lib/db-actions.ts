@@ -295,10 +295,36 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
     if (!rows) {
       // Use lightweight ID index to find the right slice, then fetch only those full rows
       const mcqIndex = await getMcqIndex(db);
-      const filteredIds = mcqIndex
-        .filter((m) => allowedSubjectIds.has(m.subjectId))
+      const allSubjects = await db.select({
+        id: subject.id,
+        name: subject.name,
+        parentId: subject.parentId,
+        totalMcqs: subject.totalMcqs,
+      }).from(subject);
+
+      const groupSubtopics = allSubjects
+        .filter((s) => {
+          const g = getSubjectGroup(s.name, s.parentId);
+          return g?.key === data.subjectKey;
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+      const orderedSubtopicIds = groupSubtopics.length > 0
+        ? groupSubtopics.map((s) => s.id)
+        : Array.from(allowedSubjectIds);
+
+      const orderedMcqs: { id: string; subjectId: string }[] = [];
+      for (const subId of orderedSubtopicIds) {
+        const subMcqs = mcqIndex
+          .filter((m) => m.subjectId === subId)
+          .sort((a, b) => a.id.localeCompare(b.id));
+        orderedMcqs.push(...subMcqs);
+      }
+
+      const filteredIds = orderedMcqs
         .slice(offset, offset + data.pageSize)
         .map((m) => m.id);
+
       rows = filteredIds.length > 0 ? await getMcqFullRowsByIds(db, filteredIds) : [];
       // Re-sort to match index order (DB may return in different order)
       const idOrder = new Map(filteredIds.map((id, i) => [id, i]));
