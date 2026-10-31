@@ -2,17 +2,15 @@ import type { MCQ, Subject, AttemptLog, PaperLockStatus } from "@/lib/types";
 
 // Canonical subject keywords — ordered per display preference
 export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[]; parentId?: string; namedPapers?: boolean }[] = [
-  { key: "top-english",       label: "Top English",      patterns: [], parentId: "top_english", namedPapers: true },
-  { key: "top-islamic",       label: "Top Islamiat",     patterns: [], parentId: "top_islamic", namedPapers: true },
-  { key: "top-gk",            label: "Top G.K",          patterns: [], parentId: "top_gk",      namedPapers: true },
-  { key: "top-computer",      label: "Top Computer",     patterns: [], parentId: "top_computer", namedPapers: true },
-  { key: "top-pakistan-study", label: "Top P.St",        patterns: [], parentId: "top_pakistan_study", namedPapers: true },
-  { key: "top-everyday-science", label: "Top E.D.S",     patterns: [], parentId: "top_everyday_science", namedPapers: true },
-  { key: "top-urdu",          label: "Top Urdu",         patterns: [], parentId: "top_urdu",    namedPapers: true },
-  { key: "top-pak-affairs",   label: "Top Pak Affairs",  patterns: [], parentId: "top_pak_affairs", namedPapers: true },
-  { key: "top-international-affairs", label: "Top Int. Affairs", patterns: [], parentId: "top_international_affairs", namedPapers: true },
-  { key: "basic-mathematics", label: "Maths",            patterns: [/basic.math/i] },
-  { key: "urdu",             label: "Urdu",             patterns: [/\burdu\b/i] },
+  { key: "english",       label: "English",          patterns: [], parentId: "top_english", namedPapers: true },
+  { key: "islamic",       label: "Islamiat",         patterns: [], parentId: "top_islamic", namedPapers: true },
+  { key: "gk",            label: "G.K",              patterns: [], parentId: "top_gk",      namedPapers: true },
+  { key: "computer",      label: "Computer",         patterns: [], parentId: "top_computer", namedPapers: true },
+  { key: "pakistan-study", label: "P.St",            patterns: [], parentId: "top_pakistan_study", namedPapers: true },
+  { key: "everyday-science", label: "E.D.S",         patterns: [], parentId: "top_everyday_science", namedPapers: true },
+  { key: "urdu",          label: "Urdu",             patterns: [], parentId: "top_urdu",    namedPapers: true },
+  { key: "pak-affairs",   label: "Pak Affairs",      patterns: [], parentId: "top_pak_affairs", namedPapers: true },
+  { key: "international-affairs", label: "Int. Affairs", patterns: [], parentId: "top_international_affairs", namedPapers: true },
   { key: "is-english",          label: "IS English",   patterns: [], parentId: "is_english" },
   { key: "is-gk",               label: "IS G.K",       patterns: [], parentId: "is_gk" },
   { key: "is-pakistan-study",   label: "IS P.St",      patterns: [], parentId: "is_pakistan_study" },
@@ -21,7 +19,9 @@ export const SUBJECT_KEYWORDS: { key: string; label: string; patterns: RegExp[];
   { key: "is-computer",         label: "IS Computer",  patterns: [], parentId: "is_computer" },
   { key: "is-geography",        label: "IS Geography", patterns: [], parentId: "is_geography" },
   { key: "is-current-affairs",  label: "IS C.A",       patterns: [], parentId: "is_current_affairs" },
-  { key: "is-urdu",             label: "IS Urdu",      patterns: [], parentId: "is_urdu" },
+  { key: "is-urdu",             label: "IS Urdu",      patterns: [/\burdu\b/i], parentId: "is_urdu" },
+  { key: "is-mathematics",       label: "IS Maths",     patterns: [/math/i], parentId: "is_mathematics" },
+  { key: "basic-mathematics", label: "Maths",            patterns: [/basic.math/i] },
 ];
 
 export interface SubjectGroup {

@@ -43,32 +43,31 @@ function SubjectsPage() {
 
 function getSubjectIcon(key: string) {
   switch (key) {
-    case "top-english":
+    case "english":
     case "is-english":
       return <Languages className="size-5 text-primary" />;
-    case "top-islamic":
+    case "islamic":
     case "is-islamic-study":
       return <Moon className="size-5 text-primary" />;
-    case "top-gk":
+    case "gk":
     case "is-gk":
       return <Globe2 className="size-5 text-primary" />;
-    case "top-computer":
+    case "computer":
     case "is-computer":
       return <Laptop className="size-5 text-primary" />;
-    case "top-pakistan-study":
+    case "pakistan-study":
     case "is-pakistan-study":
       return <Landmark className="size-5 text-primary" />;
-    case "top-everyday-science":
+    case "everyday-science":
     case "is-everyday-science":
       return <Microscope className="size-5 text-primary" />;
-    case "top-urdu":
     case "urdu":
     case "is-urdu":
       return <GraduationCap className="size-5 text-primary" />;
-    case "top-pak-affairs":
+    case "pak-affairs":
     case "is-current-affairs":
       return <Newspaper className="size-5 text-primary" />;
-    case "top-international-affairs":
+    case "international-affairs":
     case "is-geography":
       return <Compass className="size-5 text-primary" />;
     case "basic-mathematics":
@@ -86,13 +85,10 @@ function SubjectsList() {
   const allGroups = useMemo(() => buildSubjectGroups(subjects), [subjects]);
 
   const groups = useMemo(() => {
-    if (filter === "top") {
-      return allGroups.filter((g) => g.key.startsWith("top-"));
-    }
     if (filter === "is") {
       return allGroups.filter((g) => g.key.startsWith("is-"));
     }
-    return allGroups.filter((g) => !g.key.startsWith("top-") && !g.key.startsWith("is-"));
+    return allGroups.filter((g) => !g.key.startsWith("is-"));
   }, [allGroups, filter]);
 
   // Total MCQs across all groups

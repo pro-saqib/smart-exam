@@ -1,5 +1,5 @@
 import { Link, useLocation, useRouter } from "@tanstack/react-router";
-import { LayoutDashboard, BookOpen, Brain, Sparkles, Flame, PanelLeft, ScanSearch, LogOut, ShieldCheck, Users, GraduationCap } from "lucide-react";
+import { LayoutDashboard, BookOpen, Brain, Sparkles, PanelLeft, ScanSearch, LogOut, ShieldCheck, Users, GraduationCap } from "lucide-react";
 import { useEffect, useState } from "react";
 import { signOut } from "@/lib/auth-client";
 import { toast } from "sonner";
@@ -29,7 +29,6 @@ export function AppShell({ children, user }: { children: React.ReactNode; user: 
   const navItems = [
     { to: "/", label: "Dashboard", icon: LayoutDashboard },
     { to: "/subjects", label: "Subjects", icon: BookOpen },
-    { to: "/subjects", search: { filter: "top" }, label: "Top MCQs", icon: Flame },
     { to: "/subjects", search: { filter: "is" }, label: "Imtiaz Shahid", icon: GraduationCap },
     { to: "/practice", label: "Practice", icon: Brain },
     ...(isAdmin
@@ -71,19 +70,16 @@ export function AppShell({ children, user }: { children: React.ReactNode; user: 
         <nav className="flex-1 px-3 space-y-1 overflow-y-auto">
           {navItems.map((item) => {
             const searchObj = (loc.search as Record<string, any>) || {};
-            const isTopRoute = loc.pathname === "/subjects" && searchObj.filter === "top";
             const isISRoute = loc.pathname === "/subjects" && searchObj.filter === "is";
             const isSubjectsRoute = loc.pathname === "/subjects" && !searchObj.filter;
 
             const active = item.to === "/"
               ? loc.pathname === "/"
-              : item.search?.filter === "top"
-                ? isTopRoute
-                : item.search?.filter === "is"
-                  ? isISRoute
-                  : item.to === "/subjects"
-                    ? isSubjectsRoute
-                    : loc.pathname.startsWith(item.to);
+              : item.search?.filter === "is"
+                ? isISRoute
+                : item.to === "/subjects"
+                  ? isSubjectsRoute
+                  : loc.pathname.startsWith(item.to);
             const Icon = item.icon;
             return (
               <Link
