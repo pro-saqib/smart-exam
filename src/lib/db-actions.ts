@@ -229,11 +229,14 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
 
 // ─── On-Demand MCQ Fetchers ───────────────────────────────────────────────────
 
-export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
+export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
   .inputValidator(
     z.object({
       subjectKey: z.string(),
-      subtopicIds: z.array(z.string()).optional(),
+      subtopicIds: z.union([
+        z.array(z.string()),
+        z.string().transform((s) => s.split(",").filter(Boolean)),
+      ]).optional(),
       paperNumber: z.number().default(1),
       pageSize: z.number().default(100),
     }),
@@ -250,13 +253,19 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
     // Guardrail: non-admin requesting Paper N (N > 1) must have completed or attempted Paper N - 1
     if (session.user.role !== "admin" && data.paperNumber > 1) {
       const prevPaperNumber = data.paperNumber - 1;
+      const targetSubtopicId = data.subtopicIds && data.subtopicIds.length === 1 ? data.subtopicIds[0] : null;
+      const lockSubjectKey = targetSubtopicId ? `${data.subjectKey}:${targetSubtopicId}` : data.subjectKey;
+
       const prevCompletion = await db
         .select({ id: paperCompletion.id })
         .from(paperCompletion)
         .where(
           and(
             eq(paperCompletion.userId, userId),
-            eq(paperCompletion.subjectKey, data.subjectKey),
+            or(
+              eq(paperCompletion.subjectKey, lockSubjectKey),
+              eq(paperCompletion.subjectKey, data.subjectKey),
+            ),
             eq(paperCompletion.paperNumber, prevPaperNumber),
           ),
         )
@@ -266,8 +275,9 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
         // Check fallback: did user attempt questions in Paper N - 1?
         const mcqIndex = await getMcqIndex(db);
         const prevOffset = Math.max(0, (prevPaperNumber - 1) * data.pageSize);
-        const targetSubtopicId = data.subtopicIds && data.subtopicIds.length === 1 ? data.subtopicIds[0] : null;
-        const subIdsToCheck = targetSubtopicId ? [targetSubtopicId] : Array.from(allowedSubjectIds);
+        const subIdsToCheck = (data.subtopicIds && data.subtopicIds.length > 0)
+          ? data.subtopicIds
+          : Array.from(allowedSubjectIds);
         const prevOrderedMcqs: { id: string }[] = [];
         for (const subId of subIdsToCheck) {
           const subMcqs = mcqIndex
@@ -318,9 +328,8 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
         })
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      const targetSubtopicId = data.subtopicIds && data.subtopicIds.length === 1 ? data.subtopicIds[0] : null;
-      const orderedSubtopicIds = targetSubtopicId
-        ? [targetSubtopicId]
+      const orderedSubtopicIds = (data.subtopicIds && data.subtopicIds.length > 0)
+        ? data.subtopicIds
         : (groupSubtopics.length > 0 ? groupSubtopics.map((s) => s.id) : Array.from(allowedSubjectIds));
 
       const orderedMcqs: { id: string; subjectId: string }[] = [];

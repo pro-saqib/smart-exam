@@ -77,13 +77,16 @@ function SubjectDetailPage() {
     };
   }, [activeGroup, attempts]);
 
+  const { subtopic: selectedSubtopicId } = Route.useSearch();
+  const lockSubjectKey = selectedSubtopicId ? `${subjectId}:${selectedSubtopicId}` : subjectId;
+
   const completedPaperNumbers = useMemo(() => {
     return new Set(
       paperCompletions
-        .filter((c) => c.subjectKey === subjectId)
+        .filter((c) => c.subjectKey === lockSubjectKey || c.subjectKey === subjectId)
         .map((c) => c.paperNumber),
     );
-  }, [paperCompletions, subjectId]);
+  }, [paperCompletions, lockSubjectKey, subjectId]);
 
   const attemptedPaperNumbers = useMemo(() => {
     const set = new Set<number>();
@@ -116,8 +119,6 @@ function SubjectDetailPage() {
   const [editName, setEditName] = useState("");
   const [previewPaper, setPreviewPaper] = useState<ModelPaper | null>(null);
   const [previewSubtopicId, setPreviewSubtopicId] = useState<string | null>(null);
-
-  const { subtopic: selectedSubtopicId } = Route.useSearch();
 
   const groupSubtopics = useMemo(() => {
     if (!canonicalConfig) return [];

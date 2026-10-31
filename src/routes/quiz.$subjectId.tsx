@@ -54,15 +54,21 @@ function QuizPage() {
   // All subtopics (have a parentId)
   const allSubtopics = useMemo(() => subjects.filter((s) => !!s.parentId), [subjects]);
   const subject = useMemo(() => subjects.find((x) => x.id === subjectId), [subjects, subjectId]);
+  const subtopicObj = useMemo(
+    () => (subtopicIdsParam ? allSubtopics.find((s) => s.id === subtopicIdsParam) : null),
+    [subtopicIdsParam, allSubtopics],
+  );
+
+  const lockSubjectKey = subtopicIdsParam ? `${subjectId}:${subtopicIdsParam}` : subjectId;
 
   // Determine completed papers for lock calculation
   const completedPaperNumbers = useMemo(() => {
     return new Set(
       paperCompletions
-        .filter((c) => c.subjectKey === subjectId)
+        .filter((c) => c.subjectKey === lockSubjectKey || c.subjectKey === subjectId)
         .map((c) => c.paperNumber),
     );
-  }, [paperCompletions, subjectId]);
+  }, [paperCompletions, lockSubjectKey, subjectId]);
 
   // Evaluate paper lock status
   const lockStatus = useMemo(() => {
@@ -129,9 +135,13 @@ function QuizPage() {
     return () => {
       cancelled = true;
     };
-  }, [subjectId, paper, matchingSubtopicIds, lockStatus.isUnlocked]);
+  }, [subjectId, paper, subtopicPage, subtopicIdsParam, matchingSubtopicIds, lockStatus.isUnlocked]);
 
   const displayTitle = useMemo(() => {
+    if (subtopicObj) {
+      const pageNum = subtopicPage ?? paper ?? 1;
+      return `${subtopicObj.name} — Paper ${pageNum}`;
+    }
     if (paper) {
       return `Paper ${paper}`;
     }
@@ -142,9 +152,12 @@ function QuizPage() {
       return subject.name;
     }
     return "Quiz";
-  }, [paper, canonicalConfig, subject]);
+  }, [subtopicObj, subtopicPage, paper, canonicalConfig, subject]);
 
   const resolvedSubjectName = useMemo(() => {
+    if (subtopicObj) {
+      return `${canonicalConfig ? canonicalConfig.label : subject?.name || "Subject"} (${subtopicObj.name})`;
+    }
     if (canonicalConfig && paper) {
       return `${canonicalConfig.label} — Paper ${paper}`;
     }
@@ -155,10 +168,16 @@ function QuizPage() {
       return subject.name;
     }
     return displayTitle;
-  }, [canonicalConfig, paper, subject, displayTitle]);
+  }, [canonicalConfig, subtopicObj, paper, subject, displayTitle]);
 
-  const backLink = canonicalConfig ? `/subjects/${canonicalConfig.key}` : "/subjects";
-  const uniqueQuizKey = `${subjectId}${paper ? `_paper_${paper}` : ""}`;
+  const backLink = subtopicObj
+    ? `/subjects/${subjectId}?subtopic=${subtopicObj.id}`
+    : canonicalConfig
+    ? `/subjects/${canonicalConfig.key}`
+    : "/subjects";
+
+  const effectivePaperNumber = subtopicPage ?? paper ?? 1;
+  const uniqueQuizKey = `${subjectId}${subtopicIdsParam ? `_${subtopicIdsParam}` : ""}_paper_${effectivePaperNumber}`;
 
   // Route Guard: Locked Screen
   if (!lockStatus.isUnlocked && paper && paper > 1) {
@@ -208,13 +227,13 @@ function QuizPage() {
   }
 
   const handleQuizFinish = async (summary: { score: { correct: number; wrong: number }; total: number; accuracy: number }) => {
-    if (paper && paper >= 1) {
-      await recordPaperCompletion(subjectId, paper, {
+    if (effectivePaperNumber >= 1) {
+      await recordPaperCompletion(lockSubjectKey, effectivePaperNumber, {
         score: summary.score.correct,
         totalQuestions: summary.total,
         accuracy: summary.accuracy,
       });
-      toast.success(`Paper ${paper} completed! Paper ${paper + 1} is now unlocked.`);
+      toast.success(`Paper ${effectivePaperNumber} completed! Paper ${effectivePaperNumber + 1} is now unlocked.`);
     }
   };
 
