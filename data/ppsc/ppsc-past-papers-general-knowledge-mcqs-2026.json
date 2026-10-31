@@ -674,12 +674,12 @@
     {
       "question": "Where is the Statue of Liberty located?",
       "options": {
-        "A": "Washington, D.C.",
-        "B": "Liberty Island, New York City, USA",
-        "C": "Los Angeles, California",
-        "D": "None of these"
+        "A": "Washington",
+        "B": "Chicago",
+        "C": "New York",
+        "D": "Los Angeles"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "How many countries are the members of SAARC?",
@@ -1544,12 +1544,12 @@
     {
       "question": "How many goals have been included in the Sustainable Development Goals?",
       "options": {
-        "A": "17",
-        "B": "12",
-        "C": "15",
-        "D": "26"
+        "A": "12",
+        "B": "15",
+        "C": "16",
+        "D": "17"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Which is the longest river of USA?",
@@ -1964,12 +1964,12 @@
     {
       "question": "Which country has filed a case against Myanmar in the International Court of Justice (ICJ)?",
       "options": {
-        "A": "Gambia",
-        "B": "Austria",
-        "C": "Pakistan",
-        "D": "India"
+        "A": "France",
+        "B": "Australia",
+        "C": "Gambia",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The United Kingdom EU referendum (or the Brexit referendum) took place on ______?",
@@ -2206,7 +2206,8 @@
         "A": "Prime Minister of Germany",
         "B": "President of France",
         "C": "President of Germany",
-        "D": "Prime Minister of France"
+        "D": "Prime Minister of France",
+        "E": "None of the above"
       },
       "correct": "B"
     },

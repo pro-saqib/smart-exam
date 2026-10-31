@@ -140,10 +140,11 @@ function QuizPage() {
   const displayTitle = useMemo(() => {
     if (subtopicObj) {
       const pageNum = subtopicPage ?? paper ?? 1;
-      return `${subtopicObj.name} — Paper ${pageNum}`;
+      return `${subtopicObj.name} — ${pageNum}`;
     }
     if (paper) {
-      return `Paper ${paper}`;
+      const isIS = subjectId.startsWith("is-");
+      return isIS && canonicalConfig ? `${canonicalConfig.label} — ${paper}` : `${paper}`;
     }
     if (canonicalConfig) {
       return canonicalConfig.label;
@@ -159,7 +160,8 @@ function QuizPage() {
       return `${canonicalConfig ? canonicalConfig.label : subject?.name || "Subject"} (${subtopicObj.name})`;
     }
     if (canonicalConfig && paper) {
-      return `${canonicalConfig.label} — Paper ${paper}`;
+      const isIS = subjectId.startsWith("is-");
+      return isIS ? `${canonicalConfig.label} — ${paper}` : canonicalConfig.label;
     }
     if (canonicalConfig) {
       return canonicalConfig.label;
@@ -191,9 +193,9 @@ function QuizPage() {
             <div className="text-xs font-semibold text-primary uppercase tracking-wider">
               {canonicalConfig ? canonicalConfig.label : "Subject Paper"}
             </div>
-            <h2 className="text-xl sm:text-2xl font-display mt-1">Paper {paper} is Locked</h2>
+            <h2 className="text-xl sm:text-2xl font-display mt-1">{paper} is Locked</h2>
             <p className="text-xs sm:text-sm text-muted-foreground mt-2 max-w-xs mx-auto">
-              You need to complete Paper {paper - 1} before you can practice Paper {paper}.
+              You need to complete {paper - 1} before you can practice {paper}.
             </p>
           </div>
           <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-2.5">
@@ -203,7 +205,7 @@ function QuizPage() {
               search={{ paper: paper - 1 }}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow"
             >
-              Start Paper {paper - 1}
+              Start {paper - 1}
             </Link>
             <Link
               to={backLink}
@@ -233,7 +235,7 @@ function QuizPage() {
         totalQuestions: summary.total,
         accuracy: summary.accuracy,
       });
-      toast.success(`Paper ${effectivePaperNumber} completed! Paper ${effectivePaperNumber + 1} is now unlocked.`);
+      toast.success(`${effectivePaperNumber} completed! ${effectivePaperNumber + 1} is now unlocked.`);
     }
   };
 

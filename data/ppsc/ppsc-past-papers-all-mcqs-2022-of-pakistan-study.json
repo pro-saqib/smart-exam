@@ -75,9 +75,9 @@
       "question": "Which country is situated in the east of Pakistan?",
       "options": {
         "A": "India",
-        "B": "China",
-        "C": "Iran",
-        "D": "Afghanistan"
+        "B": "Iran",
+        "C": "China",
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -114,20 +114,20 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Who was the second Prime Minister of Pakistan?",
       "options": {
-        "A": "Ch Muhammad Ali",
-        "B": "Kh. Nazim-ud-Din",
-        "C": "Liaquat Ali Khan",
-        "D": "D. Feroze Khan Noon"
+        "A": "Liaqat Ali Khan",
+        "B": "Khawaja Nazim-ud-Din",
+        "C": "Ch. Muhammad Ali",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -175,9 +175,9 @@
       "question": "Who abrogated 1956 constitution?",
       "options": {
         "A": "Ayub Khan",
-        "B": "Yahya khan",
-        "C": "Iskander Mirza",
-        "D": "Tikka khan"
+        "B": "Yahya Khan",
+        "C": "Iskandar Mirza",
+        "D": "None of these"
       },
       "correct": "C"
     },
@@ -264,12 +264,12 @@
     {
       "question": "Under 1973 Constitution the President of Pakistan is elected by?",
       "options": {
-        "A": "National Assembly",
-        "B": "Provincial Assemblies",
-        "C": "Senate",
-        "D": "All of these"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Chilam Joshi is the festival of?",
@@ -434,12 +434,12 @@
     {
       "question": "Which of the following mountain peaks is called Killer Mountain?",
       "options": {
-        "A": "Nanga Parbat",
-        "B": "Godwin Austin",
-        "C": "Broad Peak",
-        "D": "Raka Poshi"
+        "A": "Godwin Austin",
+        "B": "Broad Peak",
+        "C": "Raka Poshi",
+        "D": "Nanga Parbat"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "What is the height of K2 (Godwin Austin), second highest mountain of world?",
@@ -504,10 +504,10 @@
     {
       "question": "Pakistan joined Non-Aligned Movement (NAM) in which year?",
       "options": {
-        "A": "1980",
-        "B": "1989",
+        "A": "1977",
+        "B": "1978",
         "C": "1979",
-        "D": "None of these"
+        "D": "1981"
       },
       "correct": "C"
     },
@@ -594,12 +594,12 @@
     {
       "question": "Who was the first President of Pakistan?",
       "options": {
-        "A": "Muhammad Ali Jinnah",
-        "B": "Malik Ghulam Muhammad",
-        "C": "Sir Khawaja Nazimuddin",
-        "D": "Iskander Mirza"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "CPEC is a ______?",
@@ -754,12 +754,12 @@
     {
       "question": "Who started the Faraizi Movement?",
       "options": {
-        "A": "Allama Muhammad Iqbal",
-        "B": "Haji Shariat Ullah",
-        "C": "Sir Aga Khan",
+        "A": "Haji Shariat Ullah",
+        "B": "Allama Muhammad Iqbal",
+        "C": "Maulana Muhammad Ali Jauhar",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "An agreement on the demarcation of boundaries was concluded between Pakistan and China in the year?",
@@ -1025,9 +1025,9 @@
       "question": "Who was the first viceroy of India?",
       "options": {
         "A": "Lord Canning",
-        "B": "Lord Hardinge",
-        "C": "Lord Elgin",
-        "D": "Warren Hastings"
+        "B": "Lord Rippon",
+        "C": "Lord Curzon",
+        "D": "Lord Hastings"
       },
       "correct": "A"
     },
@@ -1064,12 +1064,12 @@
     {
       "question": "When Mohammad Ali Bogra presented Bogra Formula in the assembly?",
       "options": {
-        "A": "October 1953",
-        "B": "September 1953",
-        "C": "April 1953",
-        "D": "January 1953"
+        "A": "January 1953",
+        "B": "April 1953",
+        "C": "September 1953",
+        "D": "October 1953"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "One Unit was established in West Pakistan in ______?",
@@ -1164,12 +1164,12 @@
     {
       "question": "Who was UN General Assembly President in 1962-1963?",
       "options": {
-        "A": "Sir Zuffarullah Khan",
-        "B": "Razali",
-        "C": "Ban Ke Moon",
+        "A": "Razali Ismail",
+        "B": "Sir Zafarullah Khan",
+        "C": "Ismat T. Kittani",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "FATA was merged in which province of Pakistan?",
@@ -1204,20 +1204,20 @@
     {
       "question": "Pakistan conducted nuclear tests on May 28, 1998 at?",
       "options": {
-        "A": "Kohe-e-Sufaid",
-        "B": "Chaghi Hills",
-        "C": "Toba Kakar",
-        "D": "Raskoh"
+        "A": "Toba Kakar",
+        "B": "Chaghi hills",
+        "C": "Raskoh",
+        "D": "None of these"
       },
       "correct": "B"
     },
     {
       "question": "Murree was constructed in 1853 at",
       "options": {
-        "A": "Sunny bank",
-        "B": "Nathia gali",
+        "A": "Sunny Bank",
+        "B": "Nathia Gali",
         "C": "Sher Bangala",
-        "D": "None"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -1247,7 +1247,8 @@
         "A": "Punjab",
         "B": "Khyber Pakhtunkhwa",
         "C": "Balochistan",
-        "D": "Sindh"
+        "D": "Sindh",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -1314,12 +1315,12 @@
     {
       "question": "Who started Jihad Movement?",
       "options": {
-        "A": "Shah Walli Ullah",
-        "B": "Haji Shariat Ullah",
-        "C": "Syed Ahmad Shaheed",
+        "A": "Shah Waliullah",
+        "B": "Syed Ahmad Shaheed",
+        "C": "Haji Shariat Ullah",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The books “The Murder of History”, “The Pakistani Historian” and \"Britain and Muslim India\" were written by _____?",
@@ -1334,12 +1335,12 @@
     {
       "question": "Who was the second president of Indian National Congress?",
       "options": {
-        "A": "Womesh Chunder Bonnerjee",
-        "B": "Dadabhai Naroji",
-        "C": "Baddrudin Tayyabji",
-        "D": "None of these"
+        "A": "Narendra Modi",
+        "B": "Ram Nath Kovind",
+        "C": "Droupadi Murmu",
+        "D": "Pranab Mukherjee"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "When US helped Pakistan in Economic Aid for Pakistan?",
@@ -1354,12 +1355,12 @@
     {
       "question": "Which dam is situated on Haro River?",
       "options": {
-        "A": "Mangla",
-        "B": "Khanpur",
+        "A": "Khanpur",
+        "B": "Mangla",
         "C": "Tanda",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "When did East Pakistan became Bangladesh?",
@@ -1494,12 +1495,12 @@
     {
       "question": "Which of the following was the last dynasty of the Delhi Sultanate?",
       "options": {
-        "A": "Lodhi Dynasty",
-        "B": "Tughluq Dynasty",
-        "C": "Mamluk Dynasty",
-        "D": "Khilji Dynasty"
+        "A": "Khilji Dynasty",
+        "B": "Mamluk Dynasty",
+        "C": "Tughlaq Dynasty",
+        "D": "Lodhi Dynasty"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "The Headquarters of Air Force is located in?",
@@ -1567,7 +1568,8 @@
         "A": "Liaqat Ali Khan",
         "B": "Quaid-e-Azam",
         "C": "Moulvi Fazal-ul-haq",
-        "D": "Allama Iqbal"
+        "D": "Allama Iqbal",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -1757,7 +1759,8 @@
         "A": "Dhaka",
         "B": "Karachi",
         "C": "Istanbul",
-        "D": "Amritsar"
+        "D": "Amritsar",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -1837,7 +1840,8 @@
         "A": "Zulifqar Ali Bhutto",
         "B": "Iskandar Ali Mirza",
         "C": "Tikka Khan",
-        "D": "Yahiya Khan"
+        "D": "Yahiya Khan",
+        "E": "None of the above"
       },
       "correct": "A"
     },
@@ -2037,7 +2041,8 @@
         "A": "Sikhs",
         "B": "British",
         "C": "Jews",
-        "D": "Marhatas"
+        "D": "Marhatas",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2107,7 +2112,8 @@
         "A": "Hunza",
         "B": "Quetta",
         "C": "Mingora",
-        "D": "Multan"
+        "D": "Multan",
+        "E": "Karachi"
       },
       "correct": "C"
     },
@@ -2274,12 +2280,12 @@
     {
       "question": "Which river is called the Nile of Pakistan?",
       "options": {
-        "A": "Indus",
-        "B": "Ravi",
-        "C": "Chenab",
-        "D": "None of these"
+        "A": "Chenab",
+        "B": "Jhelum",
+        "C": "Indus",
+        "D": "Sutlej"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "When Imam Ghazali died?",
@@ -2294,12 +2300,12 @@
     {
       "question": "What is the main issue between Pakistan and India?",
       "options": {
-        "A": "Law and order issue",
+        "A": "Law & order issue",
         "B": "Water issue",
-        "C": "Kashmir issue",
+        "C": "Ladakh Issue",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who was the Viceroy in India during the Second World War?",
@@ -2334,9 +2340,9 @@
     {
       "question": "Which city built primarily for capital?",
       "options": {
-        "A": "Islamabad",
-        "B": "London",
-        "C": "New York",
+        "A": "Constantinople",
+        "B": "New York",
+        "C": "London",
         "D": "None of these"
       },
       "correct": "A"
@@ -2354,12 +2360,12 @@
     {
       "question": "Which country Army Chief General Qamar Javed Bajwa visited in 2020?",
       "options": {
-        "A": "Egypt",
-        "B": "Kuwait",
-        "C": "Syria",
+        "A": "Kuwait",
+        "B": "Syria",
+        "C": "Egypt",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Mohammed bin Zayed first UAE leader to visit Pakistan after ______?",
@@ -2404,12 +2410,12 @@
     {
       "question": "Who won the third battle of Panipat in 1761?",
       "options": {
-        "A": "Marathas",
-        "B": "Ahmed Shah Abdali",
-        "C": "British East India Company",
+        "A": "Shuja",
+        "B": "Hemu",
+        "C": "Salman",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "What is the rank of Pakistan in the Transparency International's corruption perception rankings 2020?",
@@ -2514,12 +2520,12 @@
     {
       "question": "Who is known as Boom Boom?",
       "options": {
-        "A": "Shahid Afridi",
-        "B": "Sachin Tendulkar",
-        "C": "Brian Lara",
+        "A": "Shoaib Akhtar",
+        "B": "Shahid Afridi",
+        "C": "Muhammad Amir",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Article of Constitution which gives Supreme Court Suo moto power?",
@@ -2584,22 +2590,22 @@
     {
       "question": "What is the new name of Kashmir highway?",
       "options": {
-        "A": "Ladak Highway",
-        "B": "Poonch Highway",
-        "C": "Srinagar Highway",
+        "A": "Ladakh Highway",
+        "B": "Srinagar Highway",
+        "C": "Poonch Highway",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which industry was growing in Pakistan before 1958?",
       "options": {
-        "A": "Manufacturing",
-        "B": "Cottage",
-        "C": "Chemical",
+        "A": "Cottage",
+        "B": "Chemical",
+        "C": "Manufacturing",
         "D": "All of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "When did an avalanche hit a Pakistan Army base in which 140 soldiers and civilian contractors martyred?",
@@ -2647,7 +2653,8 @@
         "A": "Indus",
         "B": "Jhelum",
         "C": "Chenab",
-        "D": "Ravi"
+        "D": "Ravi",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -2694,7 +2701,7 @@
     {
       "question": "On what date \"Zindagi App\" mobile app was launched?",
       "options": {
-        "A": "August 6, 2020",
+        "A": "August  6, 2020",
         "B": "January 6, 2020",
         "C": "May 6, 2020",
         "D": "April 6, 2020"
@@ -2724,12 +2731,12 @@
     {
       "question": "Who wrote Bhutto Ke Akhri 323 din?",
       "options": {
-        "A": "Colonel Rafiuddin",
-        "B": "Sadiq Salak",
-        "C": "Both A and B",
+        "A": "Brig. Siddique Salik",
+        "B": "Colonel Riffat Ullah",
+        "C": "Colonel Rafiuddin",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "All India Muslim students federation was founded in which city :",
@@ -2764,12 +2771,12 @@
     {
       "question": "What is the name of the economic corridor signed between China and Pakistan in 2015?",
       "options": {
-        "A": "CPEC",
-        "B": "PCEC",
-        "C": "ECPC",
-        "D": "CPEP"
+        "A": "CFEC",
+        "B": "CPEC",
+        "C": "CKET",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The senate of Pakistan was under the constitution of?",
@@ -2907,7 +2914,8 @@
         "A": "Zulfiqar Ali Bhutto",
         "B": "Zia-Ul-Haq",
         "C": "Pervez Musharaf",
-        "D": "Asif Ali Zardari"
+        "D": "Asif Ali Zardari",
+        "E": "Nawaz Sharif"
       },
       "correct": "A"
     },
@@ -2924,9 +2932,9 @@
     {
       "question": "Who founded Jamat-e-Islami?",
       "options": {
-        "A": "Syed Abul ala maududi",
-        "B": "Iqbal",
-        "C": "Ahsan",
+        "A": "Syed Abul Ala Maududi",
+        "B": "Maula Abul Hassan Ali Nudvi",
+        "C": "Hussain Ahmad",
         "D": "None of these"
       },
       "correct": "A"
@@ -2937,7 +2945,8 @@
         "A": "5",
         "B": "9",
         "C": "10",
-        "D": "8"
+        "D": "8",
+        "E": "12"
       },
       "correct": "A"
     },
@@ -2954,12 +2963,12 @@
     {
       "question": "Which Article of 1973 Constitution is related to secret ballot?",
       "options": {
-        "A": "226",
-        "B": "227",
-        "C": "228",
+        "A": "38",
+        "B": "226",
+        "C": "280",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Banjosa Lake is in which city?",
@@ -3244,21 +3253,23 @@
     {
       "question": "On 19 March 2008, the National Assembly elected its first woman speaker _____?",
       "options": {
-        "A": "Hina Rubbani",
-        "B": "Shireen Mazari",
+        "A": "Hina  Rubbani",
+        "B": "Shireen  Mazari",
         "C": "Fahameeda Mirza",
-        "D": "All of these"
+        "D": "All of these",
+        "E": "None"
       },
       "correct": "C"
     },
     {
       "question": "According to 1973 constitution, who elects the president of Pakistan?",
       "options": {
-        "A": "National Assembly",
-        "B": "Senate",
-        "C": "Provincial Assembly",
-        "D": "Both A & B"
-      }
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
+      },
+      "correct": "C"
     },
     {
       "question": "Allahabad Session was held in 1930 by:",
@@ -3396,7 +3407,8 @@
         "A": "Kohat",
         "B": "Mardan",
         "C": "Peshawar",
-        "D": "Hangu"
+        "D": "Hangu",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -3666,7 +3678,8 @@
         "A": "Peshawar Zalmi",
         "B": "Quetta Gladiators",
         "C": "Islamabad United",
-        "D": "Karachi Kings"
+        "D": "Karachi Kings",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -3853,7 +3866,7 @@
     {
       "question": "Muslim percentage in Pakistan is",
       "options": {
-        "A": "94%",
+        "A": "84%",
         "B": "95%",
         "C": "96%",
         "D": "97%"
@@ -3876,7 +3889,8 @@
         "A": "1731",
         "B": "1831",
         "C": "1732",
-        "D": "1832"
+        "D": "1832",
+        "E": "None of these"
       },
       "correct": "B"
     },

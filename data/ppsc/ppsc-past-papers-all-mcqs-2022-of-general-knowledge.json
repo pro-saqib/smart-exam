@@ -284,12 +284,12 @@
     {
       "question": "Which is the capital of Sri Lanka?",
       "options": {
-        "A": "Colombo",
-        "B": "Malay",
-        "C": "Sri Jayawardenapura Kotte",
-        "D": "Kolkata"
+        "A": "Sri Jayawardenepura Kotte",
+        "B": "Colombo",
+        "C": "Both A and B",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The most Populous continent is _____?",
@@ -437,7 +437,8 @@
         "A": "Writer",
         "B": "Scientist",
         "C": "Traveller",
-        "D": "Sportsman"
+        "D": "Sportsman",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -447,7 +448,8 @@
         "A": "Amarta Sen",
         "B": "Arnold Toynbee",
         "C": "Samuel P. Huntington",
-        "D": "Sir Syed Ahmed Khan"
+        "D": "Sir Syed Ahmed Khan",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -465,7 +467,7 @@
       "question": "Braille education system was introduced by Braille for?",
       "options": {
         "A": "Blinds",
-        "B": "Dumb",
+        "B": "Dump",
         "C": "Handicap",
         "D": "Labours"
       },
@@ -504,12 +506,12 @@
     {
       "question": "Who was the first Chairman of Senate?",
       "options": {
-        "A": "Tasleem Aslam",
-        "B": "Habib Ullah Khan",
-        "C": "Abdul Rasheed",
-        "D": "Sikandar Mirza"
+        "A": "Wasim Sajjad",
+        "B": "Agha Siraj Durrani",
+        "C": "Ghulam Ishaq Khan",
+        "D": "Habib Ullah Khan Marwat"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "When was International Monetary Fund (IMF) established?",
@@ -604,12 +606,12 @@
     {
       "question": "Who was the first to measure the earth's radius?",
       "options": {
-        "A": "Eratosthenes",
-        "B": "Copernicus",
+        "A": "Copernicus",
+        "B": "Eratosthenes",
         "C": "Al-Beruni",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Where is Bathsheba Beach?",
@@ -644,12 +646,12 @@
     {
       "question": "Who started ancient Olympic Games?",
       "options": {
-        "A": "American",
-        "B": "Romans",
-        "C": "Greece",
+        "A": "Greeks",
+        "B": "American",
+        "C": "Romans",
         "D": "Egyptians"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which is the hottest desert of the world?",
@@ -714,9 +716,9 @@
     {
       "question": "Who wrote \"Glimpses of World History\"?",
       "options": {
-        "A": "Gandhai",
-        "B": "Nehru",
-        "C": "Rajabdar Parsad",
+        "A": "Mahatma Gandhi",
+        "B": "Jawaharlal Nehru",
+        "C": "Rajindra Prasad",
         "D": "None of these"
       },
       "correct": "B"
@@ -904,19 +906,19 @@
     {
       "question": "Who was the 16th President of the USA?",
       "options": {
-        "A": "George Washington",
-        "B": "Andrew Johnson",
-        "C": "Ulysses S. Grant",
-        "D": "Abraham Lincoln"
+        "A": "Barack Obama",
+        "B": "Kamala Harris",
+        "C": "Donald J. Trump",
+        "D": "Joe Biden"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Which is the first gulf nation to complete FATF conditions?",
       "options": {
-        "A": "Saudi Arabia",
-        "B": "UAE",
-        "C": "Bahrain",
+        "A": "UAE",
+        "B": "Bahrain",
+        "C": "Saudi Arabia",
         "D": "None of these"
       },
       "correct": "A"
@@ -937,7 +939,8 @@
         "A": "Nuclear Scientist",
         "B": "Youngest PM",
         "C": "Astronaut",
-        "D": "Journalist"
+        "D": "Journalist",
+        "E": "Ukraine first lady"
       },
       "correct": "B"
     },
@@ -1024,12 +1027,12 @@
     {
       "question": "Which of the following river is formed by the confluence of Euphrates and Tigris?",
       "options": {
-        "A": "Khabur",
-        "B": "Yarmouk",
-        "C": "Jordan",
-        "D": "Shatt Al-Arab"
+        "A": "Nile River",
+        "B": "Khabur",
+        "C": "Shatt-al-Arab",
+        "D": "Yarmouk"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "US War of Independence for 13 colonies between US and British was lasted for ______?",
@@ -1124,10 +1127,10 @@
     {
       "question": "What is the order of Grand Slams in tennis?",
       "options": {
-        "A": "French open Australian open, Wimbledon and US open",
-        "B": "Australian open, French open, Wimbledon and US open",
-        "C": "Australian open, French open, Wimbledon and UK",
-        "D": "None of these"
+        "A": "French Open, Australian Open, Wimbledon and US open",
+        "B": "Australian Open, French Open, Wimbledon and US open",
+        "C": "Australian Open, Wimbledon Open, French and US open",
+        "D": "Australian Open, US Open, Wimbledon and French open"
       },
       "correct": "B"
     },
@@ -1184,10 +1187,10 @@
     {
       "question": "Who was famous President of Cuba?",
       "options": {
-        "A": "Fidel Castro",
-        "B": "Ramon Zaydin",
-        "C": "Manuel Antonio",
-        "D": "None of these"
+        "A": "Miguel Díaz-Canel",
+        "B": "Bruno Rodríguez Parrilla",
+        "C": "Fidel Castro",
+        "D": "Raul Castro"
       },
       "correct": "A"
     },
@@ -1254,12 +1257,12 @@
     {
       "question": "Times Magazine declared which person the Person of the Year in 2020?",
       "options": {
-        "A": "Donald Trump",
-        "B": "Joe Biden and Kamala Harris",
+        "A": "Joe Biden and Kamala Harris",
+        "B": "Greta Thunberg",
         "C": "Elon Musk",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "London Tower bridge is located on which river?",
@@ -1274,12 +1277,12 @@
     {
       "question": "Mikhail Gorbachev started which movement for reforming and reconstructing in 1985?",
       "options": {
-        "A": "Perestroika and Glasnost",
-        "B": "Perestroika",
-        "C": "Glasnost",
+        "A": "Glasnost",
+        "B": "Perestroika and Glasnost",
+        "C": "Perestroika",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "A line on a map joining places of equal rainfall is called an _____?",
@@ -1314,10 +1317,10 @@
     {
       "question": "Till 2017, How many countries were declared nuclear states?",
       "options": {
-        "A": "9",
-        "B": "7",
-        "C": "8",
-        "D": "None of these"
+        "A": "06",
+        "B": "07",
+        "C": "08",
+        "D": "09"
       },
       "correct": "C"
     },
@@ -1344,12 +1347,12 @@
     {
       "question": "In 1920 which treaty was signed between Turkey and the Allies dismembered?",
       "options": {
-        "A": "Treaty of Sevres",
-        "B": "Treaty of Versailles",
+        "A": "Treaty of Versailles",
+        "B": "Treaty of Sevres",
         "C": "Treaty of Lausanne",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "International Labour Organisation founded in the which year?",
@@ -1404,12 +1407,12 @@
     {
       "question": "When NATO forces left Afghanistan?",
       "options": {
-        "A": "2020",
-        "B": "2021",
-        "C": "2022",
+        "A": "2019",
+        "B": "2020",
+        "C": "2021",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The real name of Ibn e Tamiyyah is ______?",
@@ -1427,7 +1430,8 @@
         "A": "Croatia",
         "B": "Bosnia",
         "C": "Montenegro",
-        "D": "Kosovo"
+        "D": "Kosovo",
+        "E": "South Sudan"
       },
       "correct": "C"
     },
@@ -1594,9 +1598,9 @@
     {
       "question": "Treaty of Lausanne of 1923 is _____?",
       "options": {
-        "A": "Turkey not claim the Arab province",
+        "A": "Turkey not claim the  Arab province",
         "B": "Base to form modern turkey",
-        "C": "The public debt would be share between turkey and its region countries of Ottoman empire",
+        "C": "The public debt would be share between turkey and its  region countries of Ottoman empire",
         "D": "All of these"
       },
       "correct": "D"
@@ -1644,9 +1648,9 @@
     {
       "question": "Which famous personality of English literature awarded nobel Prize in 1907?",
       "options": {
-        "A": "Paul Haysay",
+        "A": "Paul Heyse",
         "B": "Rudyard Kipling",
-        "C": "Ramain Ronnaland",
+        "C": "Romain Rolland",
         "D": "None of these"
       },
       "correct": "B"
@@ -1794,12 +1798,12 @@
     {
       "question": "What is the name for an amphitheater-like hollow that forms at the head of a glacier?",
       "options": {
-        "A": "Cirque",
-        "B": "Kettle",
+        "A": "Kettle",
+        "B": "Cirque",
         "C": "Saddle",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "As per 2024, Which of the following is the latest member of North Atlantic Treaty Organization (NATO)?",
@@ -1954,12 +1958,12 @@
     {
       "question": "Which country is against US embargo attempt on Iran?",
       "options": {
-        "A": "Russia",
-        "B": "France",
-        "C": "China",
-        "D": "India"
+        "A": "China",
+        "B": "Russia",
+        "C": "France",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "When did America enter Afghanistan?",
@@ -1974,8 +1978,8 @@
     {
       "question": "Which of the following uses source of light?",
       "options": {
-        "A": "Perspective",
-        "B": "Conventional",
+        "A": "Conventional",
+        "B": "Perspective",
         "C": "Non-perspective",
         "D": "None of these"
       },
@@ -2057,7 +2061,8 @@
         "A": "China",
         "B": "New Zealand",
         "C": "UK",
-        "D": "USA"
+        "D": "USA",
+        "E": "France"
       },
       "correct": "A"
     },
@@ -2104,10 +2109,10 @@
     {
       "question": "Which continent has minimum birth rate in the world?",
       "options": {
-        "A": "Asia",
-        "B": "Africa",
-        "C": "Australia",
-        "D": "Europe"
+        "A": "Africa",
+        "B": "Asia",
+        "C": "North America",
+        "D": "None of these"
       },
       "correct": "D"
     },
@@ -2127,8 +2132,10 @@
         "A": "London",
         "B": "Birmingham",
         "C": "Paris",
-        "D": "New Delhi"
-      }
+        "D": "New Delhi",
+        "E": "New York City"
+      },
+      "correct": "E"
     },
     {
       "question": "Thermometer was invented by _____?",
@@ -2186,7 +2193,8 @@
         "A": "Yuval Noah Harari",
         "B": "Steve Jobs",
         "C": "Fredrick Angel",
-        "D": "Condoleezza Rice"
+        "D": "Condoleezza Rice",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -2206,7 +2214,8 @@
         "A": "Mutual agreement to end the second world war",
         "B": "Proclamation of France as republic",
         "C": "Abolition of slavery in the USA",
-        "D": "Codifying terms between the victorious Allies and Germany after first world war"
+        "D": "Codifying terms between the victorious Allies and Germany after first world war",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2233,7 +2242,7 @@
     {
       "question": "Golan Heights are disputed between _________?",
       "options": {
-        "A": "Syria & USA",
+        "A": "Syria  & USA",
         "B": "Israel & Iraq",
         "C": "Israel & Taiwan",
         "D": "Syria & Israel"
@@ -2256,7 +2265,8 @@
         "A": "Georgia",
         "B": "Virginia",
         "C": "Florida",
-        "D": "Hawaii"
+        "D": "Hawaii",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -2386,7 +2396,8 @@
         "A": "Greek",
         "B": "French",
         "C": "American",
-        "D": "British"
+        "D": "British",
+        "E": "UAE"
       },
       "correct": "D"
     },
@@ -2573,10 +2584,10 @@
     {
       "question": "When the object moves with the speed of light its mass would be",
       "options": {
-        "A": "zero",
-        "B": "remain same",
-        "C": "Both",
-        "D": "infinity"
+        "A": "Zero",
+        "B": "Doubles",
+        "C": "Remains same",
+        "D": "Infinity"
       },
       "correct": "D"
     },
@@ -2653,12 +2664,12 @@
     {
       "question": "Who is regarded as the father of political science?",
       "options": {
-        "A": "Aristotle",
-        "B": "Plato",
-        "C": "Karl marx",
-        "D": "None"
+        "A": "Plato",
+        "B": "Aristotle",
+        "C": "Karl Marz",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "بحر الظلمات کسے کہتے ھیں؟",
@@ -2753,12 +2764,12 @@
     {
       "question": "The current Secretary General of SAARC belongs to the country:",
       "options": {
-        "A": "Iran",
-        "B": "UAE",
-        "C": "Bangladesh",
-        "D": "None of the above"
+        "A": "Golam Sarwar",
+        "B": "Arjun Bahadur Thapa",
+        "C": "Esala Weerakoon",
+        "D": "Amjad Hussain B. Sial"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Paris Pact ended with _______.",

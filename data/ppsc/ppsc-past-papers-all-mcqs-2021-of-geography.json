@@ -94,12 +94,12 @@
     {
       "question": "Pakistan is located in which continent?",
       "options": {
-        "A": "Africa",
-        "B": "Europe",
-        "C": "Asia",
+        "A": "Europe",
+        "B": "Asia",
+        "C": "Africa",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Ganda Singh Wala Border was connected ____?",
@@ -204,12 +204,12 @@
     {
       "question": "Which country has its land mass in two continents?",
       "options": {
-        "A": "France",
-        "B": "China",
-        "C": "Canada",
-        "D": "Turkey"
+        "A": "Canada",
+        "B": "Türkiye",
+        "C": "China",
+        "D": "France"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Which city the most densely populated city in the world?",
@@ -244,8 +244,8 @@
     {
       "question": "Which of the following countries is situated in Africa?",
       "options": {
-        "A": "Swaziland",
-        "B": "Albania",
+        "A": "Congo",
+        "B": "Swaziland",
         "C": "Cuba",
         "D": "None of these"
       },
@@ -334,10 +334,10 @@
     {
       "question": "Florence city is located in which country?",
       "options": {
-        "A": "Egypt",
-        "B": "UAE",
+        "A": "Germany",
+        "B": "France",
         "C": "Italy",
-        "D": "None"
+        "D": "None of these"
       },
       "correct": "C"
     },
@@ -359,7 +359,7 @@
         "C": "Moti Masjid",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Where is famous building Chauburji located",

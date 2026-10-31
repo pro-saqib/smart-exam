@@ -221,7 +221,7 @@ function PracticePage() {
   }, [selectedSubjectKey, subjectGroups]);
 
   const modeName = mode === "weak" ? "Weak Questions" : mode === "wrong" ? "Wrong Retry" : "Solve Later";
-  const paperLabel = selectedPaperNumber === "all" ? "All Papers" : `Paper ${selectedPaperNumber}`;
+  const paperLabel = selectedPaperNumber === "all" ? "All" : `${selectedPaperNumber}`;
   const resolvedPracticeTitle = `${subjectLabel} · ${modeName}${selectedPaperNumber !== "all" ? ` (${paperLabel})` : ""}`;
   const practiceUniqueKey = `practice_${selectedSubjectKey}_${selectedPaperNumber}_${mode}`;
 
@@ -323,7 +323,7 @@ function PracticePage() {
 
       <QuizRunner
         items={items}
-        title={selectedPaperNumber === "all" ? "All questions" : `Paper ${selectedPaperNumber}`}
+        title={selectedPaperNumber === "all" ? "All questions" : `${selectedPaperNumber}`}
         subtitle=""
         resultSubtitle={`${subjectLabel} · ${modeName}`}
         emptyText="No questions match this mode yet."

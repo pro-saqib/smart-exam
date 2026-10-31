@@ -14,12 +14,12 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Warsak dam is constructed on which river?",
@@ -54,7 +54,7 @@
     {
       "question": "The largest earth filled dam of the world is _____?",
       "options": {
-        "A": "Mangla dam",
+        "A": "Mangla  dam",
         "B": "Basha dam",
         "C": "Tarbela dam",
         "D": "None of these"
@@ -154,12 +154,12 @@
     {
       "question": "Pakistan is located in which continent?",
       "options": {
-        "A": "Africa",
-        "B": "Europe",
-        "C": "Asia",
+        "A": "Europe",
+        "B": "Asia",
+        "C": "Africa",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "\"Zulu\" is a prominent tribe of _____?",

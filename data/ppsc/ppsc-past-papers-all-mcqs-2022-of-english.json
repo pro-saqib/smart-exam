@@ -67,7 +67,7 @@
         "A": "Unattainable dream",
         "B": "An impracticable wish",
         "C": "Both A and B",
-        "D": "bad dream"
+        "D": "A bad dream"
       },
       "correct": "C"
     },
@@ -335,7 +335,7 @@
       "question": "The idiom “To burry the hatchet” mean?",
       "options": {
         "A": "To start a war",
-        "B": "To make a foolish choice",
+        "B": "To make a foolish  choice",
         "C": "To make peace",
         "D": "To burn something important"
       },
@@ -345,7 +345,7 @@
       "question": "Idiom: To get into the hot water means ____?",
       "options": {
         "A": "To o be impatient",
-        "B": "To be in a confused state of mind",
+        "B": "To be in  a confused state of mind",
         "C": "To get into trouble",
         "D": "To suffer a huge finical loss"
       },
@@ -665,7 +665,7 @@
       "question": "The departmental store is open ______ eight to seven.",
       "options": {
         "A": "From",
-        "B": "On",
+        "B": "By",
         "C": "Between",
         "D": "During"
       },
@@ -954,10 +954,10 @@
     {
       "question": "Now we want to go home. Which mood of verb is used in this sentence?",
       "options": {
-        "A": "Imperative Mood",
-        "B": "Infinitive Mood",
-        "C": "Indicative Mood",
-        "D": "None of these"
+        "A": "Infinitive Mood",
+        "B": "Indicative Mood",
+        "C": "Imperative Mood",
+        "D": "Subjunctive Mood"
       },
       "correct": "B"
     },
@@ -994,10 +994,10 @@
     {
       "question": "Frugal : Parsimonious :: ?",
       "options": {
-        "A": "Joy : Ecstasy",
-        "B": "Rich : Poor",
-        "C": "Love : Hate",
-        "D": "Poor : Misery"
+        "A": "Joy: Ecstasy",
+        "B": "Rich: Poor",
+        "C": "Love: Hate",
+        "D": "Poor: Misery"
       },
       "correct": "A"
     },
@@ -1027,7 +1027,8 @@
         "A": "Is fond of them",
         "B": "Hates them",
         "C": "Is afraid of them",
-        "D": "Wants to set them free"
+        "D": "Wants to set them free",
+        "E": "Seldom loves them"
       },
       "correct": "A"
     },
@@ -1157,7 +1158,8 @@
         "A": "Efficient",
         "B": "Competent",
         "C": "Skilled",
-        "D": "Inept"
+        "D": "Inept",
+        "E": "Wizard"
       },
       "correct": "D"
     },
@@ -1196,7 +1198,7 @@
       "options": {
         "A": "Who needs these clothes?",
         "B": "Whom needs these clothes?",
-        "C": "Who needs are these clothes?",
+        "C": "Who needs  are these clothes?",
         "D": "None of these"
       },
       "correct": "A"
@@ -1384,22 +1386,22 @@
     {
       "question": "Choose the correct one:",
       "options": {
-        "A": "Pakistan and India is poor.",
-        "B": "Both Pakistan as well as India are poor.",
-        "C": "Both Pakistan and India are poor.",
+        "A": "This is a Perfect",
+        "B": "This is a most Perfect",
+        "C": "This is most Perfect",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Choose the correct one:",
       "options": {
-        "A": "She invite me and my sister.",
-        "B": "She invited me and my sister.",
-        "C": "She invites I and my sister.",
+        "A": "This is a Perfect",
+        "B": "This is a most Perfect",
+        "C": "This is most Perfect",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "He is looking for someone to offer, her glamours and well paid and undemanding job, but I think he is _____?",
@@ -1474,9 +1476,9 @@
     {
       "question": "Change Voice: Daniel is singing a song.",
       "options": {
-        "A": "song is being sung by Danial.",
-        "B": "song had being sung by Danial.",
-        "C": "song was being sung by Danial.",
+        "A": "A song is being sung by Danial.",
+        "B": "A song had being sung by Danial.",
+        "C": "A song was being sung by Danial.",
         "D": "None of these"
       },
       "correct": "A"
@@ -1505,7 +1507,7 @@
       "question": "Eat one's cake and have it means ____?",
       "options": {
         "A": "Policy in coach fighting among friends",
-        "B": "policy to keep dog as a house guard",
+        "B": "A policy to keep dog as a house guard",
         "C": "To maintain disease cat",
         "D": "Have it both ways"
       },
@@ -1654,12 +1656,12 @@
     {
       "question": "If you come across my keys, bring it to me, can you?",
       "options": {
-        "A": "Can't you",
-        "B": "Don't you",
-        "C": "Will you",
+        "A": "don't you",
+        "B": "isn't you",
+        "C": "can't you",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Young : Old :: Morning : ____?",
@@ -1714,12 +1716,12 @@
     {
       "question": "Choose the correct one:",
       "options": {
-        "A": "series of lectures were delivered.",
-        "B": "series of lectures was delivered.",
-        "C": "series of lecture was delivered.",
+        "A": "This is a Perfect",
+        "B": "This is a most Perfect",
+        "C": "This is most Perfect",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "As ___ is ready to help me I have to do __________ by myself.",
@@ -2015,8 +2017,8 @@
       "question": "Fly in the face of means:",
       "options": {
         "A": "Against",
-        "B": "Reward",
-        "C": "Respect",
+        "B": "Respect",
+        "C": "Reward",
         "D": "Joyful"
       },
       "correct": "A"
@@ -2097,7 +2099,7 @@
         "A": "Smouldering",
         "B": "Warming",
         "C": "Glittering",
-        "D": "None"
+        "D": "None of these"
       },
       "correct": "C"
     },
@@ -2177,7 +2179,8 @@
         "A": "done",
         "B": "did",
         "C": "has",
-        "D": "does"
+        "D": "does",
+        "E": "None"
       },
       "correct": "C"
     },
@@ -2197,7 +2200,7 @@
         "A": "Ignorant",
         "B": "Unpretentious",
         "C": "Awkward",
-        "D": "None"
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -2494,7 +2497,7 @@
     {
       "question": "A Jaundiced Eye Means?",
       "options": {
-        "A": "Prejudiced Person",
+        "A": "A Prejudiced Person",
         "B": "Offer gratitude",
         "C": "An intelligent",
         "D": "None"

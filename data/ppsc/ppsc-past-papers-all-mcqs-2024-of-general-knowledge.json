@@ -4,12 +4,12 @@
     {
       "question": "Which of the following is the world's largest inland water body?",
       "options": {
-        "A": "Sea of Azov",
-        "B": "Black Sea",
-        "C": "Caspian Sea",
-        "D": "None of these"
+        "A": "Aral Sea",
+        "B": "Caspian Sea",
+        "C": "Black Sea",
+        "D": "Sea of Azov"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "What is the number of permanent members of UN Security Council are holding the right to exercise veto power?",
@@ -474,12 +474,12 @@
     {
       "question": "Who is the Current President of Ukraine?",
       "options": {
-        "A": "Leonid Kravchuk",
-        "B": "Petro Poroshenko",
-        "C": "Volodymyr Zelensky",
-        "D": "None of these"
+        "A": "Vitali Klitschko",
+        "B": "Volodymyr Zelenskyy",
+        "C": "Petro Poroshenko",
+        "D": "Denys Shmyhal"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which is the smallest country/state in world by land and population?",
@@ -534,10 +534,10 @@
     {
       "question": "Which of the following is considered the Deepest lake of the world?",
       "options": {
-        "A": "Caspian sea",
-        "B": "Lake mead",
+        "A": "Lake Victoria",
+        "B": "Lake Superior",
         "C": "Lake Baikal",
-        "D": "None of these"
+        "D": "Lake Erie"
       },
       "correct": "C"
     },
@@ -594,12 +594,12 @@
     {
       "question": "Which is the largest country in the Arabian Peninsula?",
       "options": {
-        "A": "Saudi Arabia",
+        "A": "Oman",
         "B": "Yemen",
-        "C": "Kuwait",
-        "D": "None of these"
+        "C": "Saudi Arabia",
+        "D": "Kuwait"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which is the biggest/largest hot desert of the World?",
@@ -777,7 +777,7 @@
         "A": "Abdul Qasim",
         "B": "Jabir bin Hayan",
         "C": "Zakariya Al-Razi",
-        "D": "Abu Ali Sina"
+        "D": "Abu Ali  Sina"
       },
       "correct": "D"
     },
@@ -844,12 +844,12 @@
     {
       "question": "Who is the Current Prime Minister of Malaysia?",
       "options": {
-        "A": "Mahathir Bin Mohamad",
-        "B": "Anwar Ibrahim",
-        "C": "Ismail Sabri Yaakob",
-        "D": "None of these"
+        "A": "Muhyiddin Yassin",
+        "B": "Mahathir Mohamad",
+        "C": "Anwar Ibrahim",
+        "D": "Ismail Sabri Yaakob"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "What is the national currency of China?",
@@ -1054,12 +1054,12 @@
     {
       "question": "Who is the creator of the character named Sherlock Holmes?",
       "options": {
-        "A": "Edgar Allen Poe",
-        "B": "Agatha Christie",
-        "C": "Arthur Conan Doyle",
-        "D": "John Lehmann"
+        "A": "Agatha Christie",
+        "B": "Arthur Conan Doyle",
+        "C": "J.K. Rowling",
+        "D": "Charles Dickens"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "New Deal was written by?",
@@ -1104,12 +1104,12 @@
     {
       "question": "Who is called the Father of History?",
       "options": {
-        "A": "Aristotle",
-        "B": "Socrates",
-        "C": "Herodotus",
-        "D": "Plato"
+        "A": "Socrates",
+        "B": "Herodotus",
+        "C": "Aristotle",
+        "D": "Thucydides"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Where were the 2022 Winter Olympics held?",
@@ -1187,7 +1187,8 @@
         "A": "New York",
         "B": "Paris",
         "C": "London",
-        "D": "Madrid"
+        "D": "Madrid",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1207,7 +1208,8 @@
         "A": "Writer",
         "B": "Scientist",
         "C": "Traveller",
-        "D": "Sportsman"
+        "D": "Sportsman",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1267,7 +1269,8 @@
         "A": "Allama Iqbal",
         "B": "Abul Kalam Azad",
         "C": "Choudhri Rehmat Ali",
-        "D": "General Ayoub Khan"
+        "D": "General Ayoub Khan",
+        "E": "None of the above"
       },
       "correct": "B"
     },
@@ -1287,7 +1290,8 @@
         "A": "Japanese",
         "B": "Chinese",
         "C": "Urdu",
-        "D": "English"
+        "D": "English",
+        "E": "Turkish"
       },
       "correct": "A"
     },
@@ -1494,12 +1498,12 @@
     {
       "question": "Who became the first black president of South Africa, his party was banned in 1961 and he was given life imprisonment?",
       "options": {
-        "A": "Robert Mogabe",
-        "B": "Nelson Mandela",
+        "A": "Nelson Mandela",
+        "B": "Robert Mugabe",
         "C": "Eddi Amin",
         "D": "Martin Luther King"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The members of International court of justice (ICJ) shall be elected for the term of?",
@@ -1717,7 +1721,8 @@
         "A": "Bhutan",
         "B": "Palestine",
         "C": "Syria",
-        "D": "Yemen"
+        "D": "Yemen",
+        "E": "Spain"
       },
       "correct": "C"
     },
@@ -1874,12 +1879,12 @@
     {
       "question": "What is name of Iran’s new currency?",
       "options": {
-        "A": "Roman",
-        "B": "Sian",
-        "C": "Bron",
-        "D": "Toman"
+        "A": "Iranian rial",
+        "B": "Lira",
+        "C": "Taka",
+        "D": "Rupee"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "The last ruler of Soviet Union (USSR) was _______?",
@@ -1887,7 +1892,8 @@
         "A": "Mikhail Gorbachev",
         "B": "Boris Yeltsin",
         "C": "Leonid Brezhnev",
-        "D": "Ban Ki Moon"
+        "D": "Ban Ki Moon",
+        "E": "None of the above"
       },
       "correct": "A"
     },
@@ -1905,11 +1911,11 @@
       "question": "Libya, Algeria, and Tunisia belong to which continent?",
       "options": {
         "A": "Asia",
-        "B": "Europe",
-        "C": "Africa",
+        "B": "Africa",
+        "C": "Europe",
         "D": "South America"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Where is the Kala Pani Jail located on which island?",
@@ -1945,31 +1951,31 @@
       "question": "The Order of the Rising Sun is an award of which country?",
       "options": {
         "A": "China",
-        "B": "South Korea",
-        "C": "Japan",
+        "B": "Japan",
+        "C": "South Korea",
         "D": "India"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the author of the book In Search of Identity?",
       "options": {
-        "A": "Anwar El Sadat",
-        "B": "Naguib Mahfouz",
-        "C": "Taha Hussein",
-        "D": "Ahmed Zewail"
+        "A": "Naguib Mahfouz",
+        "B": "Anwar el-Sadat",
+        "C": "Ahmad Zewail",
+        "D": "Taha Hussein"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "To which country did Benjamin Franklin (1706–1790) belong?",
       "options": {
-        "A": "England",
-        "B": "France",
-        "C": "America",
-        "D": "Canada"
+        "A": "US",
+        "B": "UK",
+        "C": "Canada",
+        "D": "China"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Cutting Edge is the autobiography of?",
@@ -2547,7 +2553,8 @@
         "A": "Prime Minister of Nepal",
         "B": "King of Bhutan",
         "C": "President of Maldives",
-        "D": "Prime Minister of Sri Lanka"
+        "D": "Prime Minister of Sri Lanka",
+        "E": "President of France"
       },
       "correct": "D"
     },
@@ -2735,8 +2742,8 @@
       "question": "Sam Nujoma belongs to which country:",
       "options": {
         "A": "Namibia",
-        "B": "Morocco",
-        "C": "Indonesia",
+        "B": "Indonesia",
+        "C": "Morocco",
         "D": "Burma"
       },
       "correct": "A"
@@ -2764,12 +2771,12 @@
     {
       "question": "Who was the last king of Afghanistan?",
       "options": {
-        "A": "Zahir shah",
-        "B": "Amman ullah",
-        "C": "Nadir shah",
+        "A": "Muhammad Tarkai",
+        "B": "Muhammad Zahir shah",
+        "C": "Ahmed shah Abdali",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Recep Tayyip Erdogan belongs to which Political Party?",
@@ -2825,8 +2832,8 @@
       "question": "Indra Nooyi famous businesswoman belongs to which country?",
       "options": {
         "A": "India",
-        "B": "UK",
-        "C": "China",
+        "B": "China",
+        "C": "UK",
         "D": "Ireland"
       },
       "correct": "A"
@@ -2884,12 +2891,12 @@
     {
       "question": "Who is the author of the book \"Documents on Punjab\"?",
       "options": {
-        "A": "Khushwant Singh",
-        "B": "O.P. Ralhan",
-        "C": "Amrita Pritam",
-        "D": "None of these"
+        "A": "O.P Ralhan",
+        "B": "Stanley Wolpert",
+        "C": "Muhammad Jahangir",
+        "D": "Khushwant Singh"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Who was the first chairman of the UN Human Rights Commission?",
@@ -2907,19 +2914,20 @@
         "A": "Jerusalem",
         "B": "Gaza",
         "C": "Ramallah",
-        "D": "Jenin"
+        "D": "Jenin",
+        "E": "None of these"
       },
       "correct": "C"
     },
     {
       "question": "Who wrote the book \"The Sufis\"?",
       "options": {
-        "A": "Rumi",
-        "B": "Al-Ghazali",
-        "C": "Idries Shah",
-        "D": "None of these"
+        "A": "Idries Shah",
+        "B": "Nisar Shah",
+        "C": "Jalal ud din Rumi",
+        "D": "Sheikh Nasiruddin Mahmud"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "What is the total number of Judges in European Court of Human Rights?",
@@ -2946,8 +2954,8 @@
       "options": {
         "A": "Judo",
         "B": "Cricket",
-        "C": "Football",
-        "D": "Hockey"
+        "C": "Tennis",
+        "D": "Basket ball"
       },
       "correct": "A"
     },
@@ -2974,12 +2982,12 @@
     {
       "question": "Who discovered the Indus Valley Civilization?",
       "options": {
-        "A": "Mortimer Wheeler",
-        "B": "Alexander Cunningham",
-        "C": "Rakhaldas Banerji",
-        "D": "John Marshall"
+        "A": "John Marshall",
+        "B": "Mortimer Wheeler",
+        "C": "Alexander Cunningham",
+        "D": "Rakhaldas Banerji"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "The Arab League had how many founding members?",
@@ -3047,7 +3055,8 @@
         "A": "1986",
         "B": "1987",
         "C": "1988",
-        "D": "1989"
+        "D": "1989",
+        "E": "1990"
       },
       "correct": "D"
     },
@@ -3175,11 +3184,11 @@
       "question": "Which of the following is the number of lakes in the Great African Lakes region?",
       "options": {
         "A": "5",
-        "B": "7",
-        "C": "8",
-        "D": "5"
+        "B": "6",
+        "C": "7",
+        "D": "8"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Who got 2019 Nobel peace prize?",
@@ -3297,7 +3306,8 @@
         "A": "Canberra",
         "B": "Paris",
         "C": "Geneva",
-        "D": "Vienna"
+        "D": "Vienna",
+        "E": "Washington"
       },
       "correct": "D"
     },
@@ -3517,7 +3527,8 @@
         "A": "Indonesia",
         "B": "Denmark",
         "C": "USA",
-        "D": "Netherlands"
+        "D": "Netherlands",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -3527,7 +3538,8 @@
         "A": "London airport",
         "B": "Delhi airport",
         "C": "Jinnah airport",
-        "D": "King Fahd airport"
+        "D": "King Fahd airport",
+        "E": "None of htese"
       },
       "correct": "D"
     },
@@ -3697,7 +3709,8 @@
         "A": "Sweden",
         "B": "Holland",
         "C": "Belgium",
-        "D": "Austria"
+        "D": "Austria",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -3864,12 +3877,12 @@
     {
       "question": "Which of the following is the largest producer of shale gas?",
       "options": {
-        "A": "USA",
-        "B": "UK",
+        "A": "Qatar",
+        "B": "USA",
         "C": "China",
-        "D": "Japan"
+        "D": "Russia"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who wrote American Declaration of Independence?",
@@ -3894,12 +3907,12 @@
     {
       "question": "An intervention of Saudi Arabia with Qatar, Bahrain and USA lead against which country?",
       "options": {
-        "A": "Yemen",
-        "B": "Syria",
-        "C": "Egypt",
+        "A": "Syria",
+        "B": "Egypt",
+        "C": "Yemen",
         "D": "Sudan"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The Godray Pass is close to the border of _____?",
@@ -3934,21 +3947,22 @@
     {
       "question": "What is an Isthmus?",
       "options": {
-        "A": "Narrow strip of land that connects two oceans",
-        "B": "Narrow piece of land connecting two large areas",
-        "C": "Both A and B",
-        "D": "None"
+        "A": "Inland sea",
+        "B": "A large lagoon",
+        "C": "Narrow strip of land connecting two land masses",
+        "D": "Land formed at the mouth of a river"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Where is the Headquarter of European Central Bank?",
       "options": {
-        "A": "Paris",
-        "B": "Brussels",
-        "C": "Rome",
-        "D": "Madrid"
-      }
+        "A": "Brussels",
+        "B": "Frankfurt",
+        "C": "Berlin",
+        "D": "Luxembourg"
+      },
+      "correct": "B"
     },
     {
       "question": "Which is the smallest state in Asia?",
@@ -3996,7 +4010,8 @@
         "A": "Russia",
         "B": "China",
         "C": "Germany",
-        "D": "Australia"
+        "D": "Australia",
+        "E": "Ukraine"
       },
       "correct": "D"
     },
@@ -4046,7 +4061,8 @@
         "A": "1500 km",
         "B": "2000 km",
         "C": "2500 km",
-        "D": "3000 km"
+        "D": "3000 km",
+        "E": "2200 km"
       },
       "correct": "D"
     },
@@ -4364,11 +4380,11 @@
       "question": "Game in which both male and female players participate:",
       "options": {
         "A": "Tennis",
-        "B": "Volleyball",
-        "C": "Basketball",
-        "D": "Korfball"
+        "B": "Korfball",
+        "C": "Netball",
+        "D": "Volleyball"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Mount Damavand is located in which country?",
@@ -4573,12 +4589,12 @@
     {
       "question": "Who is Boris Johnson's great-grandfather?",
       "options": {
-        "A": "Mustafa Kemal",
-        "B": "Ali Kemal",
-        "C": "Winfried Brun",
+        "A": "Ali Kemal",
+        "B": "Mustafa Kemal",
+        "C": "Winston Churchill",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which U.S military operation in 2011 resulted in the death of Osama bin Laden in Pakistan ?",

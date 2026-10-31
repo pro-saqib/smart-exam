@@ -74,10 +74,10 @@
     {
       "question": "What does a trade surplus mean?",
       "options": {
-        "A": "Imports are greater than exports",
-        "B": "Exports are greater than imports",
-        "C": "Both exports and imports are equal",
-        "D": "There is no international trade"
+        "A": "A country imports more than it exports",
+        "B": "A country exports more than it imports",
+        "C": "A country has balanced trade",
+        "D": "A country has no international trade"
       },
       "correct": "B"
     },
@@ -254,12 +254,12 @@
     {
       "question": "What is a subsidy?",
       "options": {
-        "A": "A tax imposed by the government",
-        "B": "A loan given by the government",
-        "C": "A benefit given to individuals or businesses by the government",
+        "A": "A benefit given to individuals or businesses by the government",
+        "B": "A tax imposed by the government",
+        "C": "A loan given by the government",
         "D": "A fine charged by the government"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "If the height of a triangle is 4 cm less than its base, and the hypotenuse is 10 cm, find the other sides?",
@@ -1248,7 +1248,8 @@
         "B": "96",
         "C": "98",
         "D": "100"
-      }
+      },
+      "correct": null
     },
     {
       "question": "The Roman Numeral \"XVI\" means ___?",

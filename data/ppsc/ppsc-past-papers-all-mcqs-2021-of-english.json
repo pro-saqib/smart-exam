@@ -24,10 +24,10 @@
     {
       "question": "He is good ______ mathematics.",
       "options": {
-        "A": "In",
-        "B": "At",
-        "C": "On",
-        "D": "Into"
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "into"
       },
       "correct": "B"
     },
@@ -94,7 +94,7 @@
     {
       "question": "Idiom: Rule of Thumb means?",
       "options": {
-        "A": "rough estimate",
+        "A": "A rough estimate",
         "B": "Fixed rule",
         "C": "Exact estimation",
         "D": "An easy choice"
@@ -107,7 +107,7 @@
         "A": "Unattainable dream",
         "B": "An impracticable wish",
         "C": "Both A and B",
-        "D": "bad dream"
+        "D": "A bad dream"
       },
       "correct": "C"
     },
@@ -174,12 +174,12 @@
     {
       "question": "Choose the correctly punctuated sentence:",
       "options": {
-        "A": "My aunt who lives in Karachi, is a doctor.",
-        "B": "My aunt, who lives in Karachi is a doctor.",
-        "C": "My aunt, “who lives in Karachi”, is a doctor.",
-        "D": "None of these"
+        "A": "The teachers loud voices startled the five year old child What a scene!",
+        "B": "The teachers' loud voices startled the five-year-old child, what a scene!",
+        "C": "The teachers loud voices startled the five-year-old child. What a scene!",
+        "D": "The teachers' loud voices startled the five-year-old child. What a scene!"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Change into Indirect: He said, \"Honesty is the best policy.“",
@@ -316,7 +316,7 @@
       "options": {
         "A": "To conceal one's talent",
         "B": "To listen someone",
-        "C": "very small distance / A narrow escape",
+        "C": "A very small distance / A narrow escape",
         "D": "None"
       },
       "correct": "C"
@@ -367,7 +367,8 @@
         "A": "Information",
         "B": "requirement",
         "C": "infant",
-        "D": "famous"
+        "D": "famous",
+        "E": "none of the above"
       },
       "correct": "D"
     },
@@ -474,12 +475,12 @@
     {
       "question": "Correction: He gave me many advices.",
       "options": {
-        "A": "He give me many pieces of advice",
-        "B": "He gave me many pieces of advice",
-        "C": "He gave me many piece of advice",
+        "A": "He gave me many pieces of advice",
+        "B": "He give me many pieces of advice",
+        "C": "He gave me many piece of advices",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Synonym of Exude is?",
@@ -504,12 +505,12 @@
     {
       "question": "I am good ______ tennis.",
       "options": {
-        "A": "Of",
-        "B": "In",
-        "C": "At",
+        "A": "at",
+        "B": "of",
+        "C": "to",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "He cares ________ the environment.",
@@ -554,12 +555,12 @@
     {
       "question": "Do you understand what I mean?",
       "options": {
-        "A": "What I mean is that understood by you?",
-        "B": "Was what I mean understood by you?",
-        "C": "Is what I mean understood by you?",
-        "D": "What I mean is understood by you?"
+        "A": "What I mean is understood by you?",
+        "B": "What I mean is that understood by you?",
+        "C": "Is what I mean is understood by you",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "You will go, or you will miss the train. It is which type of sentence?",
@@ -584,12 +585,12 @@
     {
       "question": "Change Voice: The Doctor bandaged the arm of the injured man.",
       "options": {
-        "A": "The arm of the injured man was bandaged by the doctor.",
-        "B": "The injured man bandaged his arm.",
-        "C": "The injured man made the doctor injure his arm.",
+        "A": "The injured man bandaged his arm.",
+        "B": "The injured man made the doctor injure his arm.",
+        "C": "The arm of the injured man was bandaged by the doctor.",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "To pull socks up means _____?",
@@ -604,12 +605,12 @@
     {
       "question": "My friend is a couch potato. What does the idiom/phrase \"couch potato\" means?",
       "options": {
-        "A": "Lazy person",
+        "A": "Active person",
         "B": "Busy person",
-        "C": "Active person",
+        "C": "Lazy person",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "To lay ______ something for rainy day.",
@@ -734,12 +735,12 @@
     {
       "question": "It is a time ______ out.",
       "options": {
-        "A": "Went",
-        "B": "To go",
-        "C": "Going",
+        "A": "to go",
+        "B": "went",
+        "C": "going",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Synonym of \"Eradicate\" is?",
@@ -747,19 +748,20 @@
         "A": "Accept",
         "B": "Eliminate",
         "C": "Endorse",
-        "D": "Install"
+        "D": "Install",
+        "E": "None of these"
       },
       "correct": "B"
     },
     {
       "question": "He died ______ corona.",
       "options": {
-        "A": "Of",
-        "B": "From",
-        "C": "To",
+        "A": "from",
+        "B": "of",
+        "C": "to",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Choose analogous pair: Poverty : Prosperity :: ____?",
@@ -974,12 +976,12 @@
     {
       "question": "Quality of mangoes _______ good.",
       "options": {
-        "A": "Were",
-        "B": "Was",
+        "A": "Was",
+        "B": "Were",
         "C": "Had",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The cat _____ by a bus.",
@@ -994,12 +996,12 @@
     {
       "question": "I said to him, \"Why are you working so hard?\"",
       "options": {
-        "A": "I asked him why was he working so hard.",
-        "B": "I asked him why he was working so hard.",
+        "A": "I asked him why he was working so hard.",
+        "B": "I asked him why was he working so hard.",
         "C": "I asked him why had he been working so hard.",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Ali asked, \"How long will it take to travel from Germany to South Africa?\"",
@@ -1034,12 +1036,12 @@
     {
       "question": "Which verb form ends in \"ing\" and acts as a noun?",
       "options": {
-        "A": "Participle",
+        "A": "Gerund",
         "B": "Infinitive",
-        "C": "Gerund",
-        "D": "None of these"
+        "C": "Transitive",
+        "D": "Indefinite"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "They will pick out _____ a turban.",
@@ -1115,11 +1117,11 @@
       "question": "Which comes immediately after the noun?",
       "options": {
         "A": "Verb Phrase",
-        "B": "Adverb Phrase",
-        "C": "Adjective Phrase",
+        "B": "Adjective Phrase",
+        "C": "Adverb Phrase",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The dog sprang ______ him.",
@@ -1294,12 +1296,12 @@
     {
       "question": "Choose the correct one:",
       "options": {
-        "A": "This is most perfect.",
-        "B": "This is Perfect.",
-        "C": "This is a most Perfect.",
+        "A": "This is a Perfect",
+        "B": "This is a most Perfect",
+        "C": "This is most Perfect",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "The Synonym of \"Moribund\" is?",
@@ -1334,12 +1336,12 @@
     {
       "question": "Choose the correct one:",
       "options": {
-        "A": "That news is too good to be true.",
-        "B": "The news is too good to be true.",
-        "C": "This news is too good to be true.",
+        "A": "This is a Perfect",
+        "B": "This is a most Perfect",
+        "C": "This is most Perfect",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "His behaviour was unprofessional enough _____ terminated immediately.",
@@ -1374,12 +1376,12 @@
     {
       "question": "Choose the correctly punctuated sentence:",
       "options": {
-        "A": "I met a beautiful, European woman.",
-        "B": "I met a beautiful European woman.",
-        "C": "I met a beautiful, European, woman.",
-        "D": "None of these"
+        "A": "The teachers loud voices startled the five year old child What a scene!",
+        "B": "The teachers' loud voices startled the five-year-old child, what a scene!",
+        "C": "The teachers loud voices startled the five-year-old child. What a scene!",
+        "D": "The teachers' loud voices startled the five-year-old child. What a scene!"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "I liked to meet ______ friends but sometimes I like to be _____?",
@@ -1465,11 +1467,11 @@
       "question": "Change voice: Were the clothes dries in the lawn by mother?",
       "options": {
         "A": "Did the mother dried the clothes in the lawn?",
-        "B": "Did his mother dry the clothes in the lawn?",
-        "C": "Did the mother dry the clothes in the lawn?",
+        "B": "Did the mother dry the clothes in the lawn?",
+        "C": "Did his mother dry the clothes in the lawn?",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "As plentiful as blackberries means _____?",
@@ -1574,22 +1576,22 @@
     {
       "question": "Choose correct one:",
       "options": {
-        "A": "Both sisters is in same class.",
-        "B": "Both sisters are in the same class.",
-        "C": "The both sisters are in same class.",
+        "A": "Both sisters are in same class.",
+        "B": "The both sisters are in same class.",
+        "C": "Both sisters is in same class.",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Choose correct one:",
       "options": {
-        "A": "Hundred of people are watching the match on TV",
-        "B": "Hundreds of people are watching the match on TV",
-        "C": "hundreds of people are watching the match on TV",
+        "A": "Both sisters are in same class.",
+        "B": "The both sisters are in same class.",
+        "C": "Both sisters is in same class.",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Synonym of Native is?",
@@ -1644,7 +1646,7 @@
     {
       "question": "Change voice: She must be helped by me.",
       "options": {
-        "A": "I shall be helped by her.",
+        "A": "I shall be helped by her",
         "B": "I must help her.",
         "C": "I must helped her.",
         "D": "None of these"
@@ -1674,12 +1676,12 @@
     {
       "question": "Choose the Correct one:",
       "options": {
-        "A": "white and black dog is barking",
-        "B": "white and a black dog is barking",
-        "C": "white and black dog are barking",
+        "A": "This is a Perfect",
+        "B": "This is a most Perfect",
+        "C": "This is most Perfect",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "International Day against “Corporal Punishment of Children” is _____?",
@@ -1704,12 +1706,12 @@
     {
       "question": "Which one is correct?",
       "options": {
-        "A": "That car is not yours.",
-        "B": "That car is not theirs.",
-        "C": "The library lost all its books.",
+        "A": "The library lost all its books",
+        "B": "That car is not yours",
+        "C": "That car is not theirs",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "They decided to buy the house because ______ location would allow _____ to work to get very easily.",
@@ -1824,9 +1826,9 @@
     {
       "question": "We should take taxi ___ it is more expensive.",
       "options": {
-        "A": "And",
-        "B": "Though",
-        "C": "Even if",
+        "A": "and",
+        "B": "though",
+        "C": "even if",
         "D": "None of these"
       },
       "correct": "C"
@@ -1924,10 +1926,10 @@
     {
       "question": "It was a mistake that I didn't ______ the contract before signing it.",
       "options": {
-        "A": "Check out",
-        "B": "Look through",
-        "C": "Come by",
-        "D": "See out"
+        "A": "Look through",
+        "B": "Read",
+        "C": "See out",
+        "D": "Check out"
       },
       "correct": "B"
     },
@@ -2127,7 +2129,8 @@
         "A": "With",
         "B": "Of",
         "C": "On",
-        "D": "In"
+        "D": "In",
+        "E": "From"
       },
       "correct": "C"
     },
@@ -2154,10 +2157,11 @@
     {
       "question": "The idiom 'Month of Sundays' means?",
       "options": {
-        "A": "special Sunday",
-        "B": "very long time ago",
-        "C": "short period",
-        "D": "Days of regret"
+        "A": "A special Sunday",
+        "B": "A very long time ago",
+        "C": "A short period",
+        "D": "Days of regret",
+        "E": "Ancient times"
       },
       "correct": "B"
     },
@@ -2317,7 +2321,8 @@
         "A": "From",
         "B": "At",
         "C": "For",
-        "D": "To"
+        "D": "To",
+        "E": "With"
       },
       "correct": "C"
     },
@@ -2534,12 +2539,12 @@
     {
       "question": "I have come to know of your hole and corner method of dealing with people.",
       "options": {
-        "A": "suspicious",
-        "B": "secret",
-        "C": "servile",
-        "D": "strict"
+        "A": "Strict",
+        "B": "Servile",
+        "C": "Secret",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Choose the synonym FRANK",
@@ -2634,7 +2639,7 @@
     {
       "question": "نو نقعد نہ تیرا یدھار",
       "options": {
-        "A": "bird in hand is worth than two in the bush",
+        "A": "A bird in hand is worth than two in the bush",
         "B": "It makes two to quarrel",
         "C": "Birds of feather flock together",
         "D": "None"
@@ -2935,7 +2940,7 @@
       "question": "ایک ھاتھ سے تالی نھیں بجتی",
       "options": {
         "A": "It makes two to quarrel",
-        "B": "bird in hand is worth than two in the bush",
+        "B": "A bird in hand is worth than two in the bush",
         "C": "birds of feather flock together",
         "D": "None"
       },
@@ -3037,7 +3042,8 @@
         "A": "Stimulate",
         "B": "Reject",
         "C": "Disperse",
-        "D": "Disturb"
+        "D": "Disturb",
+        "E": "Destroy"
       },
       "correct": "A"
     },
@@ -3175,7 +3181,7 @@
       "question": "_____ elderly couple strolled along ___ beach",
       "options": {
         "A": "An /the",
-        "B": "/the",
+        "B": "A /the",
         "C": "An /that",
         "D": "none"
       },

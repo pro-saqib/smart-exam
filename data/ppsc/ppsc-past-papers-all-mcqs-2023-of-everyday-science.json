@@ -377,7 +377,8 @@
         "A": "Lens",
         "B": "Cornea",
         "C": "Retina",
-        "D": "All of these"
+        "D": "All of these",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -387,7 +388,8 @@
         "A": "Behavior of human beings",
         "B": "Insects",
         "C": "Scientific terms",
-        "D": "The formation of rocks"
+        "D": "The formation of rocks",
+        "E": "Plants"
       },
       "correct": "B"
     },
@@ -557,7 +559,8 @@
         "A": "Sudden Heavy floods",
         "B": "No rain for a long time",
         "C": "Heavy showers",
-        "D": "Winds and rains"
+        "D": "Winds and rains",
+        "E": "All of these"
       },
       "correct": "C"
     },
@@ -617,7 +620,8 @@
         "A": "Ophthalmology",
         "B": "Obstetrics",
         "C": "Physiology",
-        "D": "Hematology"
+        "D": "Hematology",
+        "E": "None of these"
       },
       "correct": "A"
     },

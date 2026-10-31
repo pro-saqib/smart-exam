@@ -287,7 +287,8 @@
         "A": "26 A.H.",
         "B": "25 A.H.",
         "C": "24 A.H.",
-        "D": "27 A.H."
+        "D": "27 A.H.",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -375,7 +376,7 @@
       "question": "Who gave the suggestion of digging the trench around the city of Madinah at the time of Battle of Khandaq?",
       "options": {
         "A": "Hazrat Abu Bakr Siddique (R.A)",
-        "B": "Hazrat Umar (R.A)",
+        "B": "Hazrat  Umar (R.A)",
         "C": "Hazrat Salman Al-Farsi (R.A)",
         "D": "None of these"
       },
@@ -1017,7 +1018,8 @@
         "A": "Hazrat Aysha Siddiqa (R.A)",
         "B": "Hazrat Memona (R.A)",
         "C": "Hazrat Hafsa (R.A)",
-        "D": "Hazrat Safia (R.A)"
+        "D": "Hazrat Safia (R.A)",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1047,7 +1049,8 @@
         "A": "650 AD",
         "B": "350 AD",
         "C": "750 AD",
-        "D": "790 AD"
+        "D": "790 AD",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1114,12 +1117,12 @@
     {
       "question": "بیت المقدس کو جنات کی مدد سے کس نے تیار کروایا؟",
       "options": {
-        "A": "حضرت ابرہیم علیہ السلام",
-        "B": "حضرت خضر علیہ السلام",
-        "C": "حضرت سلیمان علیہ السلام",
+        "A": "حضرت سلیمان",
+        "B": "حضرت خضر",
+        "C": "حضرت ابراہیم",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "دوسرے سفر شام میں جس بحیرہ راہب نسطورا سے ملاقات ہوئی تھی اسکا اصل نام کیا تھا؟",
@@ -1147,8 +1150,10 @@
         "A": "Aimen",
         "B": "Kulsoom",
         "C": "Fatima",
-        "D": "Sobia"
-      }
+        "D": "Sobia",
+        "E": "Nafeesa"
+      },
+      "correct": "E"
     },
     {
       "question": "What are the basic subjects of Quran according to Shah Waliullah?",

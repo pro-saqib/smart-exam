@@ -33,7 +33,6 @@ export function AppShell({ children, user }: { children: React.ReactNode; user: 
     { to: "/practice", label: "Practice", icon: Brain },
     ...(isAdmin
       ? [
-          { to: "/extractor", label: "Extractor", icon: ScanSearch, badge: "Admin" },
           { to: "/admin/users", label: "Community", icon: Users, badge: "Admin" },
         ]
       : []),

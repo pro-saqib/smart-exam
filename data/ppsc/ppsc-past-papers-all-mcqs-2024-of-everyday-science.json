@@ -317,7 +317,8 @@
         "A": "Vitamin K",
         "B": "Vitamin B",
         "C": "Vitamin C",
-        "D": "Vitamin D"
+        "D": "Vitamin D",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -784,12 +785,12 @@
     {
       "question": "Who invented the Steam Engine?",
       "options": {
-        "A": "Bessel",
-        "B": "James Watt",
-        "C": "Faraday",
+        "A": "James Watt",
+        "B": "Faraday",
+        "C": "Bessel",
         "D": "All of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The main constituent of Hemoglobin is _____?",
@@ -837,7 +838,8 @@
         "A": "Lens",
         "B": "Cornea",
         "C": "Retina",
-        "D": "All of these"
+        "D": "All of these",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -884,30 +886,30 @@
     {
       "question": "What are moraines?",
       "options": {
-        "A": "Sand dunes formed by wind",
-        "B": "Deposits by glaciers",
-        "C": "Rocks formed by volcanic eruptions",
-        "D": "Sediments carried by rivers"
+        "A": "Layers of sediment formed by rivers",
+        "B": "Deposits of rock and debris left by glaciers",
+        "C": "Erosion caused by wind in deserts",
+        "D": "Volcanic materials ejected during an eruption"
       },
       "correct": "B"
     },
     {
       "question": "What is a peninsula?",
       "options": {
-        "A": "A piece of land surrounded by water on three sides",
-        "B": "A body of water surrounded by land",
-        "C": "A large island surrounded by ocean",
-        "D": "A piece of land completely surrounded by wate"
+        "A": "A landmass surrounded by water on all sides",
+        "B": "A landmass surrounded by water on three sides",
+        "C": "A type of mountain range",
+        "D": "A small island"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "What is the approximate percentage of water in carbonated drinks?",
       "options": {
         "A": "70%",
-        "B": "80%",
+        "B": "82%",
         "C": "92%",
-        "D": "95%"
+        "D": "60%"
       },
       "correct": "C"
     },
@@ -915,21 +917,21 @@
       "question": "A stone is a unit of which measurement?",
       "options": {
         "A": "Length",
-        "B": "Weight",
-        "C": "Area",
-        "D": "Volum"
+        "B": "Time",
+        "C": "Weight",
+        "D": "Area"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "What is the process called when a cell engulfs another cell?",
       "options": {
-        "A": "Phagocytosis",
-        "B": "Mitosis",
-        "C": "Diffusion",
-        "D": "Osmosis"
+        "A": "Pinocytosis",
+        "B": "Phagocytosis",
+        "C": "Exocytosis",
+        "D": "Diffusion"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "What is the climate fund required by 2030 as per the NCFS (National Climate Finance Strategy)?",
@@ -944,22 +946,22 @@
     {
       "question": "Cyril Ramaphosa is the president of which country?",
       "options": {
-        "A": "Zimbabwe",
-        "B": "South Africa",
+        "A": "Nigeria",
+        "B": "Ghana",
         "C": "Kenya",
-        "D": "Nigeria"
+        "D": "South Africa"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "What are detritivores also called?",
       "options": {
-        "A": "Producers",
-        "B": "Herbivores",
-        "C": "Decomposers",
-        "D": "Carnivores"
+        "A": "Herbivores",
+        "B": "Decomposers",
+        "C": "Carnivores",
+        "D": "Producers"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The Cave Squeaker, an endangered species of Frog, found in which country?",
@@ -1007,7 +1009,8 @@
         "A": "Edward Teller",
         "B": "Charles Darwin",
         "C": "Charlas Babbage",
-        "D": "Einstein"
+        "D": "Einstein",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -1134,12 +1137,12 @@
     {
       "question": "What is the last planet in the solar system?",
       "options": {
-        "A": "Saturn",
-        "B": "Neptune",
-        "C": "Uranus",
+        "A": "Uranus",
+        "B": "Saturn",
+        "C": "Neptune",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "White blood cells also called leukocytes fight against?",
@@ -1275,11 +1278,11 @@
       "question": "Which one is not a vestigial organ of human being?",
       "options": {
         "A": "Appendix",
-        "B": "Eye lid",
-        "C": "Coccyx",
+        "B": "Coccyx",
+        "C": "Eye lid",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The potential of pure water is ____?",
@@ -1346,8 +1349,8 @@
       "options": {
         "A": "Cosmic rays",
         "B": "Gamma rays",
-        "C": "Alpha rays",
-        "D": "Manta rays"
+        "C": "Manta rays",
+        "D": "Alpha rays"
       },
       "correct": "A"
     },
@@ -1497,7 +1500,8 @@
         "A": "5 liters",
         "B": "7 liters",
         "C": "6 liters",
-        "D": "9 liters"
+        "D": "9 liters",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1574,12 +1578,12 @@
     {
       "question": "Which Basic Unit is used in Fabrication of Bodies And transistors?",
       "options": {
-        "A": "Iron",
-        "B": "Silicon",
-        "C": "Hydrogen",
-        "D": "None"
+        "A": "Germanium",
+        "B": "Iron",
+        "C": "Silicon",
+        "D": "Glass"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Radio waves frequency is measured in _____?",
@@ -1744,10 +1748,10 @@
     {
       "question": "Which type of energy is produced during a fission reaction in a nuclear reactor?",
       "options": {
-        "A": "Kinetic energy",
-        "B": "Electrical energy",
-        "C": "Thermal energy",
-        "D": "Potential energy"
+        "A": "Kinetic Energy",
+        "B": "Electrical Energy",
+        "C": "Thermal Energy",
+        "D": "Potential Energy"
       },
       "correct": "C"
     },
@@ -1774,12 +1778,12 @@
     {
       "question": "A rainbow is formed when light passes through:",
       "options": {
-        "A": "A prism",
-        "B": "A mirror",
-        "C": "A water droplet",
-        "D": "A glass pane"
+        "A": "Water droplets",
+        "B": "Prism",
+        "C": "Mirror",
+        "D": "Glass"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Global warming is believed to have started in the?",
@@ -2164,10 +2168,10 @@
     {
       "question": "One nautical mile is equal to how many kilometers?",
       "options": {
-        "A": "1851 kilometers",
-        "B": "1853 kilometers",
-        "C": "1852 kilometers",
-        "D": "1854 kilometers"
+        "A": "1.613",
+        "B": "1.932",
+        "C": "1.853",
+        "D": "1.766"
       },
       "correct": "C"
     },
@@ -2214,12 +2218,12 @@
     {
       "question": "Water has maximum density at:",
       "options": {
-        "A": "0 c",
-        "B": "4 c",
-        "C": "5 c",
-        "D": "6 c"
+        "A": "0°C",
+        "B": "41°C",
+        "C": "4°K",
+        "D": "4°C"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "What is the annual number of live births per 1,000 people called?",

@@ -4,10 +4,10 @@
     {
       "question": "He is good ______ mathematics.",
       "options": {
-        "A": "In",
-        "B": "At",
-        "C": "On",
-        "D": "Into"
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "into"
       },
       "correct": "B"
     },
@@ -24,9 +24,9 @@
     {
       "question": "Idiom: The Alpha and Omega means?",
       "options": {
-        "A": "beautiful object",
+        "A": "A beautiful object",
         "B": "Beginning and end",
-        "C": "good man",
+        "C": "A good man",
         "D": "Something divine"
       },
       "correct": "B"
@@ -104,10 +104,10 @@
     {
       "question": "Idiom: \"Red letter day\" means?",
       "options": {
-        "A": "dangerous day",
+        "A": "A dangerous day",
         "B": "An important day",
         "C": "An eventful day",
-        "D": "formidable day"
+        "D": "A formidable day"
       },
       "correct": "B"
     },
@@ -246,7 +246,7 @@
       "options": {
         "A": "Lord Minto",
         "B": "Lord Curzon",
-        "C": "O Hume",
+        "C": "A.O Hume",
         "D": "Salimullah"
       },
       "correct": "C"
@@ -347,7 +347,8 @@
         "A": "For",
         "B": "With",
         "C": "On",
-        "D": "from"
+        "D": "from",
+        "E": "Into"
       },
       "correct": "B"
     },
@@ -464,12 +465,12 @@
     {
       "question": "What is the Antonym of 'Detest'?",
       "options": {
-        "A": "Admire",
-        "B": "Reject",
-        "C": "Deny",
-        "D": "None of these"
+        "A": "Reject",
+        "B": "Deny",
+        "C": "Adjacent",
+        "D": "Admire"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "The idiom: \"To be all ears\" means?",
@@ -544,12 +545,12 @@
     {
       "question": "Change narration: The mother said to her son, \"May you be successful\".",
       "options": {
-        "A": "The mother prayed that his son might be successful",
-        "B": "The mother prayed by her son might be successful",
-        "C": "The mother prayed that her son might be successful",
-        "D": "The mother prayed that her son may be successful"
+        "A": "The mother prayed that her son might be successful.",
+        "B": "The mother prayed that his son might be successful.",
+        "C": "The mother prayed that her son may be successful.",
+        "D": "[not printed in source]"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "My friend and brother always ___ me in my studies.",
@@ -664,12 +665,12 @@
     {
       "question": "He died ______ corona.",
       "options": {
-        "A": "Of",
-        "B": "From",
-        "C": "To",
+        "A": "from",
+        "B": "of",
+        "C": "to",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Talk : Stammer ::",
@@ -1087,7 +1088,8 @@
         "A": "From",
         "B": "For",
         "C": "Of",
-        "D": "To"
+        "D": "To",
+        "E": "On"
       },
       "correct": "C"
     },
@@ -1114,10 +1116,10 @@
     {
       "question": "The meaning of Put on is:",
       "options": {
-        "A": "call",
-        "B": "wear",
-        "C": "escape",
-        "D": "none of the"
+        "A": "Call",
+        "B": "Wear",
+        "C": "Escape",
+        "D": "None of these"
       },
       "correct": "B"
     },

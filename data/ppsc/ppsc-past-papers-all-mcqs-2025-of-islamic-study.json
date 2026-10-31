@@ -215,7 +215,7 @@
       "question": "Who gave the suggestion of digging the trench around the city of Madinah at the time of Battle of Khandaq?",
       "options": {
         "A": "Hazrat Abu Bakr Siddique (R.A)",
-        "B": "Hazrat Umar (R.A)",
+        "B": "Hazrat  Umar (R.A)",
         "C": "Hazrat Salman Al-Farsi (R.A)",
         "D": "None of these"
       },
@@ -274,12 +274,12 @@
     {
       "question": "Which battle is referred to as Yaumul Furqan?",
       "options": {
-        "A": "Hunayn",
-        "B": "Badr",
-        "C": "Uhad",
+        "A": "Badr",
+        "B": "Uhad",
+        "C": "Hunayn",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "What is the punishment of Had-e-Qazf (false Accusation)?",
@@ -584,12 +584,12 @@
     {
       "question": "When Zakat become obligatory?",
       "options": {
-        "A": "2 AH",
-        "B": "4 AH",
-        "C": "5 AH",
+        "A": "1 Hijri",
+        "B": "2 Hijri",
+        "C": "3 Hijri",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Hijri calendar was started in :",
@@ -604,22 +604,22 @@
     {
       "question": "Current Hijri Year is ______?",
       "options": {
-        "A": "Hazrat Yousuf (AS)",
-        "B": "Hazrat Adam (A.S)",
-        "C": "Hazrat Musa (A.S)",
-        "D": "None of these"
+        "A": "623AD",
+        "B": "622AD",
+        "C": "628AD",
+        "D": "630AD"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who purchased the well of Ruma and declared it as a trust?",
       "options": {
-        "A": "Hazrat Ali",
-        "B": "Hazrat Umar",
-        "C": "Hazrat Usman",
+        "A": "Hazrat Abu Bakar (RA)",
+        "B": "Hazrat Usman (RA)",
+        "C": "Hazrat Ali (RA)",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "وہ لفظ جسے زور لگا کر دو بار پڑھا جاتا ہے کیا کہلاتا ہے؟",
@@ -1244,12 +1244,12 @@
     {
       "question": "At which occasion Salat became obligation (Farz)?",
       "options": {
-        "A": "Boycott",
+        "A": "Miraj",
         "B": "Migration",
-        "C": "Miraj",
-        "D": "None of these"
+        "C": "Boycott",
+        "D": "Visit to Taaif"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Why is Hazrat Hanzala (RA) called 'Ghaseel-ul-Malaika'?",
@@ -1385,11 +1385,11 @@
       "question": "Who translated the Quran in Subcontinent as Fateh-ur-Rehman?",
       "options": {
         "A": "Shah Abdul Aziz",
-        "B": "Sir Syed Ahmed Khan",
-        "C": "Shah Wali Ullah",
-        "D": "Maulana Ashraf Ali Thanvi"
+        "B": "Shah Wali Ullah",
+        "C": "Maulana Ashraf Thanvi",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who was born inside the Kaaba?",
@@ -1567,7 +1567,8 @@
         "A": "617 AD",
         "B": "618 AD",
         "C": "620 AD",
-        "D": "619 AD"
+        "D": "619 AD",
+        "E": "616 AD"
       },
       "correct": "D"
     },

@@ -2484,12 +2484,12 @@
     {
       "question": "Noble gases have which type of bonding between them?",
       "options": {
-        "A": "No chemical bonding",
-        "B": "Covalent",
-        "C": "Ionic",
-        "D": "Metallic"
+        "A": "Ionic bonding",
+        "B": "No chemical bonding",
+        "C": "Metallic bonding",
+        "D": "Covalent bonding"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which particle is emitted during beta decay?",

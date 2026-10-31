@@ -144,12 +144,12 @@
     {
       "question": "Which sign is used to create an absolute cell reference in MS Excel?",
       "options": {
-        "A": "@",
-        "B": "=",
-        "C": "$",
+        "A": "$",
+        "B": "@",
+        "C": "#",
         "D": "%"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which is used for arranging data in ascending/descending order in MS Excel?",
@@ -204,12 +204,12 @@
     {
       "question": "Which shortcut key is used to moves the cursor one page down?",
       "options": {
-        "A": "Alt + PageDown",
-        "B": "Shift + PageDown",
-        "C": "Ctrl + PageDown",
-        "D": "PageDown"
+        "A": "Ctrl + PageDown",
+        "B": "PageDown",
+        "C": "Shift + PageDown",
+        "D": "Alt + PageDown"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which of the following is a single-user system? DOS, Windows, Linux, None of these",
@@ -484,12 +484,12 @@
     {
       "question": "Which protocol provides E-mail facility among different hosts?",
       "options": {
-        "A": "FTP",
+        "A": "TELNET",
         "B": "SNMP",
-        "C": "TELNET",
-        "D": "SMTP"
+        "C": "SMTP",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Which of following is word processing software?",
@@ -594,12 +594,12 @@
     {
       "question": "Which of the following is a correct email format of Email address?",
       "options": {
-        "A": "Name.website.com",
-        "B": "Www.nameofebsite.com",
-        "C": "Name@website.com",
-        "D": "Name@website@info"
+        "A": "Name@website.com",
+        "B": "Name.website.com",
+        "C": "Name@website@info",
+        "D": "All of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "CAD stands for _______?",
@@ -644,12 +644,12 @@
     {
       "question": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
       "options": {
-        "A": "Animation Scheme",
-        "B": "Slide Transition",
-        "C": "Slide Design",
-        "D": "None of these"
+        "A": "Slide Transition",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which allow to access from one cell to another?",
@@ -684,22 +684,22 @@
     {
       "question": "Which key is used to minimize Excel Worksheet?",
       "options": {
-        "A": "CTRL+F9",
-        "B": "CTRL+F5",
-        "C": "CTRL+F11",
+        "A": "CTRL+F5",
+        "B": "CTRL+F11",
+        "C": "CTRL+F9",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which of the key is used to close the active window?",
       "options": {
-        "A": "Ctrl+F4",
-        "B": "Ctrl+F5",
-        "C": "Alt+F6",
-        "D": "Alt+F4"
+        "A": "Alt+F4",
+        "B": "Esc+F4",
+        "C": "Ctrl+F4",
+        "D": "Alt+F5"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "Which function key is used for refreshing Windows?",
@@ -744,12 +744,12 @@
     {
       "question": "Which file starts MS Word?",
       "options": {
-        "A": "Word.exe.",
-        "B": "Msword.exe.",
-        "C": "Winword.exe",
-        "D": "None of these"
+        "A": "Winword.exe",
+        "B": "MSword.exe",
+        "C": "Word.exe",
+        "D": "Word356.exe"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Google is a _____?",
@@ -884,12 +884,12 @@
     {
       "question": "Which is not a multitasking operating system?",
       "options": {
-        "A": "DOS",
-        "B": "Windows",
+        "A": "Windows",
+        "B": "DOS",
         "C": "Linux",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "What is the keyboard shortcut for creating a chart from the selected cells?",
@@ -954,20 +954,20 @@
     {
       "question": "Which of the following is not a part of the control panel?",
       "options": {
-        "A": "Date and time",
-        "B": "My documents",
-        "C": "Display",
+        "A": "My documents",
+        "B": "Display",
+        "C": "Date and time",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "What is the smallest width of a column in MS Word?",
       "options": {
         "A": "0.5",
-        "B": "0",
-        "C": "1",
-        "D": "None of these"
+        "B": "1.0",
+        "C": "1.5",
+        "D": "2.5"
       },
       "correct": "A"
     },
@@ -1064,12 +1064,12 @@
     {
       "question": "What do you call a collection of records matching parameters of query?",
       "options": {
-        "A": "Dynaset",
-        "B": "Field",
-        "C": "Record",
+        "A": "Field",
+        "B": "Record",
+        "C": "Query",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "In website we move from one place to another by _____?",
@@ -1115,7 +1115,7 @@
       "question": "Which is used for open a website?",
       "options": {
         "A": "Browser",
-        "B": "Google",
+        "B": "Gmail",
         "C": "Yahoo",
         "D": "None of these"
       },
@@ -1124,12 +1124,12 @@
     {
       "question": "Which tab is not available on left panel when you open a presentation in PowerPoint?",
       "options": {
-        "A": "Outline",
-        "B": "Slides",
-        "C": "Notes",
-        "D": "All of these"
+        "A": "Slides",
+        "B": "Notes",
+        "C": "Outline",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which operation you will perform if you need to move a block of text?",
@@ -1154,12 +1154,12 @@
     {
       "question": "Which software is used to access webpages?",
       "options": {
-        "A": "Browser",
-        "B": "URL",
-        "C": "IP",
-        "D": "None"
+        "A": "Website",
+        "B": "Link",
+        "C": "Host",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Which one is incorrect? B1*B2, 10+17, B1*17, None of these",
@@ -1174,10 +1174,10 @@
     {
       "question": "Which area in an excel window allows entering values and formulas?",
       "options": {
-        "A": "Menu Bar",
-        "B": "Title Bar",
-        "C": "Formula Bar",
-        "D": "None of these"
+        "A": "Title bar",
+        "B": "Menu bar",
+        "C": "Formula bar",
+        "D": "Standard toolbar"
       },
       "correct": "C"
     },
@@ -1197,7 +1197,8 @@
         "A": "F1",
         "B": "F2",
         "C": "F5",
-        "D": "F7"
+        "D": "F7",
+        "E": "All of these"
       },
       "correct": "C"
     },
@@ -1395,8 +1396,8 @@
       "question": "In MS Excel ready-made templates are available under ______ tab in new option.",
       "options": {
         "A": "File",
-        "B": "Count",
-        "C": "Table",
+        "B": "Insert",
+        "C": "Design",
         "D": "None of these"
       },
       "correct": "A"
@@ -1454,7 +1455,7 @@
     {
       "question": "How many options does a binary choice offer",
       "options": {
-        "A": "One",
+        "A": "one",
         "B": "two",
         "C": "three",
         "D": "None of these"
@@ -1564,9 +1565,9 @@
     {
       "question": "A chart can be put as a part of the presentation using",
       "options": {
-        "A": "Insert > chart",
-        "B": "Insert > pictures > chart",
-        "C": "Edit > chart",
+        "A": "Insert -> Chart",
+        "B": "Insert -> Pictures -> Chart",
+        "C": "Edit -> Chart",
         "D": "None of these"
       },
       "correct": "A"
@@ -1666,7 +1667,7 @@
       "options": {
         "A": "Print",
         "B": "Save as",
-        "C": "save",
+        "C": "Save",
         "D": "None of these"
       },
       "correct": "B"
@@ -1744,10 +1745,10 @@
     {
       "question": "You can use the formula palette to",
       "options": {
-        "A": "Enter assumptions data",
+        "A": "Format cells containing numbers",
         "B": "Create and edit formula containing functions",
-        "C": "Format cells containing numbers",
-        "D": "none"
+        "C": "Enter assumptions data",
+        "D": "None of these"
       },
       "correct": "B"
     },

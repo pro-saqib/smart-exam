@@ -4,112 +4,112 @@
     {
       "question": "Who is the Current Chief Justice of Pakistan (CJP)?",
       "options": {
-        "A": "Justice Umar Ata Bandial",
+        "A": "Justice Yahya Afridi",
         "B": "Justice Qazi Faez Isa",
-        "C": "Justice Yahya Afridi",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who is the Current Secretary of State of the United States?",
-      "options": {
-        "A": "Daniel Bennett Smith",
-        "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
-      },
-      "correct": "B"
-    },
-    {
-      "question": "Who is the Current Secretary General of OIC?",
-      "options": {
-        "A": "Ismail Ould Cheikh Ahmed",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
+        "C": "Justice Mansoor Ali Shah",
+        "D": "Justice Umar Ata Bandial"
       },
       "correct": "A"
     },
     {
-      "question": "Who is the current President of Iran?",
+      "question": "Who is the Current Secretary of State of the United States?",
       "options": {
-        "A": "Ebrahim Raisi",
-        "B": "Masoud Pezeshkian",
-        "C": "Hassan Rouhani",
-        "D": "None of these"
+        "A": "John Kerry",
+        "B": "Marco Rubio",
+        "C": "Antony Blinken",
+        "D": "Mike Pompeo"
       },
       "correct": "B"
+    },
+    {
+      "question": "Who is the current Secretary General of OIC?",
+      "options": {
+        "A": "Iyad Madani",
+        "B": "Hissein Brahim Taha",
+        "C": "Yousef Al-Othaimeen",
+        "D": "Ismail Ould Cheikh Ahmed"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Who is the current President of Iran?",
+      "options": {
+        "A": "Masoud Pezeshkian",
+        "B": "Hassan Rouhani",
+        "C": "Mohammad Mokhber",
+        "D": "Ebrahim Raisi"
+      },
+      "correct": "A"
     },
     {
       "question": "Who is the Current Foreign Minister of Pakistan?",
       "options": {
         "A": "Bilawal Bhutto Zardari",
-        "B": "Ishaq Dar",
-        "C": "Jalil Abbas Jilani",
-        "D": "None of these"
+        "B": "Mohammad Ishaq Dar",
+        "C": "Hina Rabbani Khar",
+        "D": "Shah Mehmood Qureshi"
       },
       "correct": "B"
     },
     {
       "question": "Who is the Current Governor of Punjab?",
       "options": {
-        "A": "Chaudhry Sarwar",
-        "B": "Baligh Ur Rehman",
-        "C": "Sardar Saleem Haider",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who is the the current Attorney General of Pakistan?",
-      "options": {
-        "A": "Khalid Jawad Khan",
-        "B": "Mansoor Usman Awan",
-        "C": "Shehzad Ata Elahi",
-        "D": "None of these"
+        "A": "Omar Sarfraz Cheema",
+        "B": "Sardar Saleem Haider Khan",
+        "C": "Baligh Ur Rehman",
+        "D": "Chaudhry Sarwar"
       },
       "correct": "B"
     },
     {
-      "question": "Who is the Current Governor of Balochistan?",
+      "question": "Who is the the current Attorney General of Pakistan?",
       "options": {
-        "A": "Abdul Wali Kakar",
-        "B": "Mir Jan Mohammad Jamali",
-        "C": "Jaffar Khan Mandokhail",
-        "D": "None of these"
+        "A": "Shehzad Ata Elahi",
+        "B": "Khalid Jawed Khan",
+        "C": "Mansoor Usman Awan",
+        "D": "Anwar Mansoor Khan"
       },
       "correct": "C"
     },
     {
+      "question": "Who is the Current Governor of Balochistan?",
+      "options": {
+        "A": "Syed Zahoor Agha",
+        "B": "Abdul Wali Kakar",
+        "C": "Amanullah Khan Yasinzai",
+        "D": "Jaffar Khan Mandokhail"
+      },
+      "correct": "D"
+    },
+    {
       "question": "Who is the Current Chief Minister of Balochistan?",
       "options": {
-        "A": "Mir Abdul Quddus Bizenjo",
-        "B": "Ali Mardan Domki",
+        "A": "Abdul Quddus Bizenjo",
+        "B": "Jam Kamal Khan",
         "C": "Sarfraz Bugti",
-        "D": "Jam Kamal Khan"
+        "D": "Nawab Sanaullah Zehri"
       },
       "correct": "C"
     },
     {
       "question": "Who is the Current Secretary General of United Nation (UNO)?",
       "options": {
-        "A": "Kofi Annan",
+        "A": "António Guterres",
         "B": "Ban Ki-moon",
-        "C": "António Guterres",
-        "D": "None of these"
+        "C": "Stéphane Dujarric",
+        "D": "Kofi Annan"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Who is the Current Interior Minister of Pakistan?",
       "options": {
-        "A": "Sheikh Rasheed Ahmed",
-        "B": "Mohsin Naqvi",
-        "C": "Dr Gohar Ejaz",
-        "D": "None of these"
+        "A": "Chaudhry Nisar Ali Khan",
+        "B": "Rana Sanaullah",
+        "C": "Sheikh Rashid Ahmed",
+        "D": "Mohsin Naqvi"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "What is the Capital of Sudan?",
@@ -124,12 +124,12 @@
     {
       "question": "Who is the Current President of India?",
       "options": {
-        "A": "Manmohan Singh",
-        "B": "Droupadi Murmu",
-        "C": "Narendar Modi",
-        "D": "None of these"
+        "A": "Narendra Modi",
+        "B": "Ram Nath Kovind",
+        "C": "Droupadi Murmu",
+        "D": "Pranab Mukherjee"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Who is the present Director General (DG) of World Health Organization (WHO)?",
@@ -154,12 +154,12 @@
     {
       "question": "Who is the Current President of Brazil?",
       "options": {
-        "A": "Michel Temer",
+        "A": "Dilma Rousseff",
         "B": "Jair Bolsonaro",
-        "C": "Lula da Silva",
-        "D": "None of these"
+        "C": "Michel Temer",
+        "D": "Luiz Inácio Lula da Silva"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Which country hosted the G20 Summit in 2025?",
@@ -185,21 +185,21 @@
       "question": "Who is the current federal minister of planning and development________?",
       "options": {
         "A": "Asad Umar",
-        "B": "Shafqat Hussain",
-        "C": "Ahsan Iqbal",
-        "D": "None of these"
+        "B": "Ahsan Iqbal",
+        "C": "Khosru Bakhtiar",
+        "D": "Option 4"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the current Vice President of USA?",
       "options": {
-        "A": "Donald Trump",
+        "A": "Barack Obama",
         "B": "Kamala Harris",
-        "C": "JD Vance",
-        "D": "None of these"
+        "C": "Donald Trump",
+        "D": "Joe Biden"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "World Water Day is annually observed every year on which date?",
@@ -214,40 +214,40 @@
     {
       "question": "Who is the Current Inspector General (IG) of Punjab Police??",
       "options": {
-        "A": "Inam Ghani",
-        "B": "Rao Abdul Kareem",
-        "C": "Dr. Usman Anwar",
-        "D": "None of these"
+        "A": "Aamir Zulfiqar Khan",
+        "B": "Dr. Usman Anwar",
+        "C": "Faisal Shahkar",
+        "D": "Rao Abdul Kareem"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Who is the current President of World Bank?",
       "options": {
-        "A": "Jose Antonio Ocampo",
+        "A": "Robert Zoellick",
         "B": "Ajay Banga",
-        "C": "Ngozi Okonjo-Iweala",
-        "D": "None of these"
+        "C": "David Malpass",
+        "D": "Jim Yong Kim"
       },
       "correct": "B"
     },
     {
       "question": "Who is the current president of France?",
       "options": {
-        "A": "Binali yildirim",
-        "B": "Emmanuel Macron",
-        "C": "Francois Hollande",
-        "D": "None of these"
+        "A": "Emmanuel Macron",
+        "B": "Marine Le Pen",
+        "C": "François Hollande",
+        "D": "Nicolas Sarkozy"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Who is the Current President of Azad Jammu and Kashmir (AJK)?",
       "options": {
-        "A": "Sardar Masood Khan",
-        "B": "Choudhry Abdul Majeed",
-        "C": "Barrister Sultan Mahmood",
-        "D": "None of these"
+        "A": "Sardar Tanveer Ilyas",
+        "B": "Abdul Qayyum Niazi",
+        "C": "Raja Farooq Haider",
+        "D": "Chaudhry Anwar-ul-Haq"
       },
       "correct": "D"
     },
@@ -294,12 +294,12 @@
     {
       "question": "Who is the Current Supreme Leader of Taliban in Afghanistan?",
       "options": {
-        "A": "Mullah Abdul Ghani Bardar",
-        "B": "Mullah Haibat Ullah Akhunzada",
-        "C": "Mullah Abdul Hakim",
-        "D": "Siraj Uddin Haqqani"
+        "A": "Hibatullah Akhundzada",
+        "B": "Mullah Hassan Akhund",
+        "C": "Amir Khan Muttaqi",
+        "D": "Mullah Baradar"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The fifth heart of Asia: Istanbul Process Ministerial meeting was held in Islamabad on 8-9 December 2015. Where was the fourth meeting held?",
@@ -314,22 +314,22 @@
     {
       "question": "Who is the Current Chairman of PEMRA?",
       "options": {
-        "A": "Ambreen Jan",
-        "B": "Fayyaz-UL-Hassan",
-        "C": "Fawad Chaudhry",
-        "D": "None of these"
+        "A": "Muhammad Saleem Baig",
+        "B": "Absar Alam",
+        "C": "Option 4",
+        "D": "Rashid Ahmad"
       },
       "correct": "A"
     },
     {
       "question": "Who is the current Prime Minister of Saudi Arabia?",
       "options": {
-        "A": "King Abdul Aziz",
-        "B": "Muhammad bin Salman",
-        "C": "Sheikh Khalid bin Khalifa",
-        "D": "None of these"
+        "A": "Faisal bin Farhan",
+        "B": "King Salman",
+        "C": "Abdulaziz bin Salman",
+        "D": "Crown Prince Mohammed bin Salman"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "The US Congress and Senate raised the debt limit of US Government by?",
@@ -345,11 +345,11 @@
       "question": "Who is the Current Ambassador of Pakistan to Afghanistan?",
       "options": {
         "A": "Asif Ali Khan Durrani",
-        "B": "Zahid Nasr UllahKhan",
-        "C": "Obaid Ur Rehman Nizamani",
-        "D": "None of these"
+        "B": "Syed Abrar Hussain",
+        "C": "Mansoor Ahmad Khan",
+        "D": "Zahid Nasrullah Khan"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "On which date ICC issued war crimes warrant against Russian president Vladimir Putin?",
@@ -384,12 +384,12 @@
     {
       "question": "Who is the current ambassador of Pakistan to USA?",
       "options": {
-        "A": "Rizwan Saeed Sheikh",
-        "B": "Dr Asad Majeed Khan",
-        "C": "Sardar Masood Khan",
-        "D": "None of these"
+        "A": "Sardar Ali Khan",
+        "B": "Rizwan Saeed Sheikh",
+        "C": "Masood Khan",
+        "D": "Asad Majeed Khan"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who is the founder of Wikipedia ?",
@@ -435,21 +435,21 @@
       "question": "Who is the current permanent representative of Pakistan to United Nations?",
       "options": {
         "A": "Maleeha Lodhi",
-        "B": "Munir Akram",
-        "C": "Asim Iftikhar Ahmad",
-        "D": "None of the above"
+        "B": "Asim Iftikhar Ahmad",
+        "C": "Syed Haider Shah",
+        "D": "Munir Akram"
       },
       "correct": "C"
     },
     {
       "question": "Who is the current President of the International Court of Justice (ICJ)?",
       "options": {
-        "A": "Abeel Ahmed",
-        "B": "Abdul Qawi Ahmed Yusuf",
-        "C": "Ahmed Yusuf",
+        "A": "Ronny Abraham",
+        "B": "Yuji Iwasawa",
+        "C": "Nawaf Salam",
         "D": "Joan Donoghue"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "The CASA-1000 Project will export electricity from Tajikistan and _________ to Pakistan?",
@@ -494,10 +494,10 @@
     {
       "question": "Who is the Current President of Syria?",
       "options": {
-        "A": "Ahmed al-Sharaa",
-        "B": "Bashar Hafez",
-        "C": "Bashar Alvi",
-        "D": "None of these"
+        "A": "Bashar al-Assad",
+        "B": "Faisal Mekdad",
+        "C": "Hussein Arnous",
+        "D": "Ali Mamlouk"
       },
       "correct": "A"
     },
@@ -514,20 +514,20 @@
     {
       "question": "Who is the Current Chairman of Senate of Pakistan?",
       "options": {
-        "A": "Ahsan Iqbal",
-        "B": "Yousaf Raza Gillani",
-        "C": "Raza Rabbani",
-        "D": "None of these"
+        "A": "Mian Raza Rabbani",
+        "B": "Sadiq Sanjrani",
+        "C": "Nayyar Hussain Bukhari",
+        "D": "Yusuf Raza Gillani"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "The current seats of senate are:",
       "options": {
-        "A": "Hussain Shah",
-        "B": "Arshad Nadeem",
-        "C": "Jahangir Khan",
-        "D": "Wasim Akram"
+        "A": "Ahsan Iqbal",
+        "B": "Yousaf Raza Gillani",
+        "C": "Raza Rabbani",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -684,10 +684,10 @@
     {
       "question": "Who is the Current Prime Minister of Turkey?",
       "options": {
-        "A": "Ahmet Davutoglu",
-        "B": "Binali",
-        "C": "Tayyip Erdogan",
-        "D": "None of these"
+        "A": "Kemal Kılıçdaroğlu",
+        "B": "Ahmet Davutoğlu",
+        "C": "Binali Yıldırım",
+        "D": "Recep Tayyip Erdoğan"
       },
       "correct": "D"
     },

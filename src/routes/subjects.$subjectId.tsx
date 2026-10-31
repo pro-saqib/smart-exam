@@ -229,7 +229,11 @@ function SubjectDetailPage() {
           <Link
             to={canonicalConfig?.namedPapers ? "/subjects/$subjectId" : "/subjects"}
             params={{ subjectId }}
-            search={canonicalConfig?.namedPapers ? {} : undefined}
+            search={
+              canonicalConfig?.namedPapers
+                ? (selectedSubtopicId ? {} : undefined)
+                : (subjectId.startsWith("is-") ? { filter: "is" } : undefined)
+            }
             className="p-2 rounded-xl bg-card border border-border hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
             title={canonicalConfig?.namedPapers ? "Back to Categories" : "Back to Subjects"}
           >
@@ -294,7 +298,7 @@ function SubjectDetailPage() {
                       {isLocked ? (
                         <span
                           className="size-6 rounded-md bg-secondary/50 text-muted-foreground/40 grid place-items-center cursor-not-allowed"
-                          title={`Locked — Complete Paper ${paper.paperNumber - 1} to unlock`}
+                          title={`Locked — Complete ${paper.paperNumber - 1} to unlock`}
                         >
                           <Lock className="size-3" />
                         </span>
@@ -323,7 +327,7 @@ function SubjectDetailPage() {
 
                     {isLocked ? (
                       <p className="text-[10px] text-muted-foreground/90 mt-0.5 font-medium">
-                        Complete Paper {paper.paperNumber - 1} to unlock
+                        Complete {paper.paperNumber - 1} to unlock
                       </p>
                     ) : (
                       <div className="flex items-center gap-1.5 text-[10px] mt-0.5 text-muted-foreground">
@@ -341,7 +345,7 @@ function SubjectDetailPage() {
                       <button
                         disabled
                         className="w-full inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg bg-secondary/60 text-muted-foreground text-xs font-medium cursor-not-allowed border border-border/50"
-                        title={`Complete Paper ${paper.paperNumber - 1} to unlock this paper`}
+                        title={`Complete ${paper.paperNumber - 1} to unlock this paper`}
                       >
                         <Lock className="size-3" /> Locked
                       </button>
@@ -421,15 +425,7 @@ function SubjectDetailPage() {
       {children.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground space-y-3">
           <BookOpen className="size-8 mx-auto text-muted-foreground/50" />
-          <p className="max-w-xs mx-auto">No subtopics yet. Start by importing questions from the MCQ Extractor.</p>
-          {isAdmin && (
-            <Link
-              to="/extractor"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow mx-auto"
-            >
-              Go to MCQ Extractor
-            </Link>
-          )}
+          <p className="max-w-xs mx-auto">No subtopics yet.</p>
         </div>
       ) : (
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">

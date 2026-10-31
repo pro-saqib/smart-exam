@@ -26,7 +26,7 @@
       "options": {
         "A": "Hazrat Abu Bakar",
         "B": "Hazrat Umar",
-        "C": "Hazrat Usman",
+        "C": "Hazrat  Usman",
         "D": "Hazrat Ali"
       },
       "correct": "C"
@@ -144,9 +144,9 @@
     {
       "question": "In which Surah the Holy Quran there is mention of Zulqarnain?",
       "options": {
-        "A": "Surah An-Nur",
-        "B": "Surah Noon",
-        "C": "Surah Al Mujadala",
+        "A": "Surah Al Baqarrah",
+        "B": "Surah Al Mujadala",
+        "C": "Surah Al Imran",
         "D": "Surah Al Kahaf"
       },
       "correct": "D"
@@ -364,12 +364,12 @@
     {
       "question": "Who is called Umar-e-Sani?",
       "options": {
-        "A": "Hazrat Umar bin Abdullah R.A",
-        "B": "Hazrat Umar bin Khataab R.A",
-        "C": "Hazrat Umar bin Abdul Azeez R.A",
-        "D": "None of these"
+        "A": "Hazrat Umar bin Abdullah (R-A)",
+        "B": "Hazrat Umar bin Khataab (R-A)",
+        "C": "Hazrat Abdullah bin Umar(R-A)",
+        "D": "Hazrat Umar bin Abdul Azeez (R-A)"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who accepted Islam first in Children?",
@@ -495,7 +495,7 @@
       "question": "Who gave the suggestion of digging the trench around the city of Madinah at the time of Battle of Khandaq?",
       "options": {
         "A": "Hazrat Abu Bakr Siddique (R.A)",
-        "B": "Hazrat Umar (R.A)",
+        "B": "Hazrat  Umar (R.A)",
         "C": "Hazrat Salman Al-Farsi (R.A)",
         "D": "None of these"
       },
@@ -715,11 +715,11 @@
       "question": "What is Istelam?",
       "options": {
         "A": "Salam to Kaaba",
-        "B": "Kissing Hajr-e-Aswad",
-        "C": "Praying at Muqam-e-Ibrahim",
-        "D": "None of these"
+        "B": "Salam to Hajre Aswad",
+        "C": "Kissing Hajre Aswad",
+        "D": "Praying at Muqam-e-Ibrahim"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The number of Ashab-e-Kahf was?",
@@ -764,12 +764,12 @@
     {
       "question": "Which battle is referred to as Yaumul Furqan?",
       "options": {
-        "A": "Hunayn",
-        "B": "Badr",
-        "C": "Uhad",
+        "A": "Badr",
+        "B": "Uhad",
+        "C": "Hunayn",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Paradise is mentioned in Quran for _____ times.",
@@ -1084,12 +1084,12 @@
     {
       "question": "Current Hijri Year is ______(Click)?",
       "options": {
-        "A": "Usman Ghani (رضہ)",
-        "B": "Umar Farooq (رضہ)",
-        "C": "Abu Bakr Siddique (رضہ)",
-        "D": "Ali Al-Murtaza (رضہ)"
+        "A": "Hazrat Usman (RA)",
+        "B": "Hazrat Abu Bakar (RA)",
+        "C": "Hazrat Umar (RA)",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "On which place, first Wahi was descended?",
@@ -1377,7 +1377,8 @@
         "A": "Quran",
         "B": "Zaboor",
         "C": "Turat",
-        "D": "Injeel"
+        "D": "Injeel",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -1455,9 +1456,9 @@
       "question": "Name the wife of Prophet Muhammad (PBUH) who was daughter of Umar Farooq (R.A)?",
       "options": {
         "A": "Hazrat Hafsah (رضہ)",
-        "B": "Hazrat Juwairyyah (رضہ)",
-        "C": "Hazrat Aisha (رضہ)",
-        "D": "Hazrat Maimoonah (رضہ)"
+        "B": "Hazrat  Juwairyyah (رضہ)",
+        "C": "Hazrat  Aisha (رضہ)",
+        "D": "Hazrat  Maimoonah (رضہ)"
       },
       "correct": "A"
     },
@@ -1495,8 +1496,8 @@
       "question": "Who was the angel that delivered messages to Prophet Muhammad ﷺ from Allah?",
       "options": {
         "A": "Hazrat Israfeel (علیہ)",
-        "B": "Hazrat Mikael (علیہ)",
-        "C": "Hazrat Jibrael (علیہ)",
+        "B": "Hazrat \tMikael (علیہ)",
+        "C": "Hazrat \tJibrael (علیہ)",
         "D": "None of these"
       },
       "correct": "C"
@@ -1584,12 +1585,12 @@
     {
       "question": "When Zakat become obligatory?",
       "options": {
-        "A": "2 AH",
-        "B": "4 AH",
-        "C": "5 AH",
+        "A": "1 Hijri",
+        "B": "2 Hijri",
+        "C": "3 Hijri",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Masjid-e-Nimra is situated in _____?",
@@ -1667,7 +1668,8 @@
         "A": "3rd",
         "B": "2nd",
         "C": "5th",
-        "D": "7th"
+        "D": "7th",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -1704,12 +1706,12 @@
     {
       "question": "When was the first battle fought by Muslims?",
       "options": {
-        "A": "1 A.H.",
-        "B": "2 A.H.",
-        "C": "3 A.H.",
-        "D": "None of these"
+        "A": "Gazwa-e-Khalber",
+        "B": "Ghazwa-e-Khandaq",
+        "C": "Ghazwa-e-Badar",
+        "D": "Ghazwa-e-Ohd"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Treaty of Hudaybiyyah was concluded in which Hijri year?",
@@ -1717,7 +1719,8 @@
         "A": "9",
         "B": "7",
         "C": "8",
-        "D": "6"
+        "D": "6",
+        "E": "10"
       },
       "correct": "D"
     },
@@ -1957,7 +1960,8 @@
         "A": "30 days",
         "B": "40 days",
         "C": "20 days",
-        "D": "10 days"
+        "D": "10 days",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -1984,12 +1988,12 @@
     {
       "question": "What does Israel mean?",
       "options": {
-        "A": "Man of God",
-        "B": "Liked by God",
-        "C": "Friend of God",
+        "A": "Liked by God",
+        "B": "Friend of God",
+        "C": "Man of God",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Hazrat Amina (RA) mother of Hazrat Muhammad (SAW) belonged to which tribe?",
@@ -2294,12 +2298,12 @@
     {
       "question": "At which occasion Salat became obligation (Farz)?",
       "options": {
-        "A": "Boycott",
+        "A": "Miraj",
         "B": "Migration",
-        "C": "Miraj",
-        "D": "None of these"
+        "C": "Boycott",
+        "D": "Visit to Taaif"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which is the oldest and largest mosque in the world?",
@@ -2717,7 +2721,8 @@
         "A": "Hazrat Amina",
         "B": "Hazrat Abdullah",
         "C": "Hazrat Abdul Mutalib",
-        "D": "Hazrat Qasim"
+        "D": "Hazrat Qasim",
+        "E": "None of the above"
       },
       "correct": "A"
     },
@@ -2744,12 +2749,12 @@
     {
       "question": "Name the woman, after Hazrat Khadija (RA) who embraced Islam?",
       "options": {
-        "A": "Hazrat Labala bint Haris",
-        "B": "Hazrat Ayesha",
-        "C": "Umm e Habiba",
-        "D": "None of these"
+        "A": "Ummay Aimen",
+        "B": "Lababa bint Haris",
+        "C": "Buraida Aslami",
+        "D": "Hazrat Samiya"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The commandment of “Qazaf punishment” was given in ______?",
@@ -3014,22 +3019,22 @@
     {
       "question": "حج کی فرضیت کے احکام کس سورۃ میں ہیں؟",
       "options": {
-        "A": "سورة ال عمران",
-        "B": "سورۃ مومنین",
-        "C": "سورة البقره",
-        "D": "ان میں سے کوئی نہیں"
+        "A": "سورہ مومنین",
+        "B": "سورہ آل عمران",
+        "C": "سورہ بقرہ",
+        "D": "سورہ جمعہ"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "مسجد قبا کی زمین کس کی ملکیت تھی؟",
       "options": {
-        "A": "حضرت ابوایوب انصاریؓ",
-        "B": "حضرت کلثوم بن ہرم رضی اللہ عنہ",
-        "C": "سہل اور سہیل",
-        "D": "ان میں سے کوئی نہیں"
+        "A": "سہیل اور سہیل",
+        "B": "حضرت عمرو بن یاسر رضی اللہ عنہ",
+        "C": "حضرت ابو ایوب انصاری",
+        "D": "حضرت کلثوم بن ہدم رضی اللہ عنہ"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Cave of Thawr is a cave in a mountain _____?",
@@ -3204,12 +3209,12 @@
     {
       "question": "What is the name of the father of Hazrat Umar (R.A)?",
       "options": {
-        "A": "Farooq",
-        "B": "Abu Hafs",
-        "C": "Khattab",
+        "A": "Khattab",
+        "B": "Farooq",
+        "C": "Abu Hafs",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "For how years Hazrat Abdul Muttalib (R.A) took care of Prophet (SAW)?",
@@ -3504,18 +3509,18 @@
     {
       "question": "الم سے قرآن مجید میں کتنی سورتیں شروع ہوتی ہیں؟",
       "options": {
-        "A": "چھ",
-        "B": "چار",
+        "A": "چار",
+        "B": "چھ",
         "C": "آٹھ",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "اصحاب الاخدود سے مراد کیا ہے؟",
       "options": {
         "A": "جنگ میں شامل ہونے والے",
-        "B": "مشکل میں کام آنے والے",
+        "B": "مشکل میں کام آنے والے",
         "C": "کھائی کھودنے والے",
         "D": "ان میں سے کوئی نہیں"
       },
@@ -3565,8 +3570,8 @@
       "question": "فترت الوحی کسے کہتے ہیں؟",
       "options": {
         "A": "پہلی وحی کو",
-        "B": "آخری وحی کو",
-        "C": "پہلی اور آخری وحی کے درمیان کے وقت کو",
+        "B": "آخری وحی کو",
+        "C": "پہلی اور آخری وحی کے درمیان کے وقت کو",
         "D": "ان میں سے کوئی نہیں"
       },
       "correct": "C"
@@ -3674,12 +3679,12 @@
     {
       "question": "Name the Masjid (Mosque) in which Holy prophet Muhammad (SAW) led the prayer during Miraaj?",
       "options": {
-        "A": "Masjid-e-Quba",
-        "B": "Masjid-e-Aqsa",
-        "C": "Bait-ul-Muqdas",
-        "D": "None of these"
+        "A": "Masjid-e-Aqsa",
+        "B": "Masjid-e-Quba",
+        "C": "Masjid-e-Nabvi",
+        "D": "Bait-ul-Maqdas"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which Surah of the Holy Quran confirms the Islamic Religion as the complete Religion?",
@@ -3864,10 +3869,10 @@
     {
       "question": "What is Jobbery?",
       "options": {
-        "A": "Looking for a job enthusiastically",
-        "B": "Flattery of suspensors",
+        "A": "Robbery performed by previous employee",
+        "B": "Looking for a job enthusiastically",
         "C": "Conduct of public business for private gain",
-        "D": "Robbery performed try Previous employee"
+        "D": "Flattery of superiors"
       },
       "correct": "C"
     },
@@ -3884,10 +3889,10 @@
     {
       "question": "Which Prophet of Allah had minimum age?",
       "options": {
-        "A": "Hazrat Ibrahim (AS)",
-        "B": "Hazrat Muhammad (SAW)",
-        "C": "Hazrat Musa (AS)",
-        "D": "Hazrat Easa (AS)"
+        "A": "Hazrat Ibraheem (A.S)",
+        "B": "Hazrat Muhammad (S.A.W)",
+        "C": "Hazrat Musa (A.S)",
+        "D": "Hazrat Eesa (A.S)"
       },
       "correct": "D"
     },
@@ -3904,12 +3909,12 @@
     {
       "question": "Name the first foster mother of the Prophet Muhammad (PBUH)?",
       "options": {
-        "A": "Hazrat Sobia (RA)",
-        "B": "Hazrat Haleema (RA)",
-        "C": "Hazrat Khola (RA)",
+        "A": "Hazrat Haleema (R. A)",
+        "B": "Hazrat Sobia (R. A)",
+        "C": "Hazrat Khola (R. A)",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The Holy Quran contains the Makki and Madni Surah’s. The Madni surah’s have a general emphasis on _____?",
@@ -4147,7 +4152,8 @@
         "A": "Ahmad Sirhindi",
         "B": "Imam Ghizali",
         "C": "Ibn-e-Taimya",
-        "D": "Shah Waliullah"
+        "D": "Shah Waliullah",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -4357,7 +4363,7 @@
         "A": "Soam",
         "B": "Salat",
         "C": "Hajj",
-        "D": "None of these"
+        "D": "None of above"
       },
       "correct": "B"
     },
@@ -4384,10 +4390,11 @@
     {
       "question": "Treaty of Hudaybiyyah took place in March 628________.",
       "options": {
-        "A": "Dhu al-Qi’dah 6 AH",
+        "A": "Dhu al-Qi’dah  6 AH",
         "B": "RAMAZAN 6 AH",
         "C": "RAJAB 6 AH",
-        "D": "shaban 6 AH"
+        "D": "shaban 6 AH",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -4417,19 +4424,20 @@
         "A": "Shab-e-Qadar",
         "B": "Shab-e-Miraj",
         "C": "Shab-e-Bara’at",
-        "D": "All of these"
+        "D": "All of these",
+        "E": "None of these"
       },
       "correct": "A"
     },
     {
       "question": "Who was the Prophet which first laid the foundation of Masjid-e-Aqsa?",
       "options": {
-        "A": "Hazart Muhammad ﷺ",
-        "B": "Hazart Daood ( A.S)",
-        "C": "Hazart Suleman (علیہ)",
-        "D": "Hazart Ibrahim ( A.S)"
+        "A": "Hazrat Ibrahim (A.S)",
+        "B": "Hazrat Daood (A.S)",
+        "C": "Hazrat Younas (A.S)",
+        "D": "Hazrat Suleman (A.S)"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "Verbal meaning of Hajj ___?",
@@ -4437,7 +4445,8 @@
         "A": "The will to visit",
         "B": "which is not accepted",
         "C": "which is accepted",
-        "D": "which is performed with deficiencies"
+        "D": "which is performed with deficiencies",
+        "E": "which is observed correctly"
       },
       "correct": "A"
     },
@@ -4477,7 +4486,8 @@
         "A": "620 A.D",
         "B": "619 A.D",
         "C": "618 A.D",
-        "D": "617 A.D"
+        "D": "617 A.D",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -4537,7 +4547,8 @@
         "A": "1000",
         "B": "2000",
         "C": "3000",
-        "D": "4000"
+        "D": "4000",
+        "E": "5000"
       },
       "correct": "C"
     },
@@ -4577,7 +4588,8 @@
         "A": "Hazrat Umar Farooq (R.A)",
         "B": "Hazrat Abu Bakar (R.A)",
         "C": "Hazrat Ali (R.A)",
-        "D": "Hazrat Usman (RA)"
+        "D": "Hazrat Usman (RA)",
+        "E": "None of these"
       },
       "correct": "A"
     },

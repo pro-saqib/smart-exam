@@ -22,14 +22,14 @@
       "correct": "A"
     },
     {
-      "question": "Who is the Current Secretary General of OIC?",
+      "question": "Who is the current Secretary General of OIC?",
       "options": {
-        "A": "Ismail Ould Cheikh Ahmed",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
+        "A": "Iyad Madani",
+        "B": "Hissein Brahim Taha",
+        "C": "Yousef Al-Othaimeen",
+        "D": "Ismail Ould Cheikh Ahmed"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Where is the headquarters of SAARC located?",
@@ -54,12 +54,12 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Mount Vesuvius is located in which country?",
@@ -387,7 +387,8 @@
         "A": "Allama Iqbal",
         "B": "Abul Kalam Azad",
         "C": "Choudhri Rehmat Ali",
-        "D": "General Ayoub Khan"
+        "D": "General Ayoub Khan",
+        "E": "None of the above"
       },
       "correct": "B"
     },
@@ -434,22 +435,22 @@
     {
       "question": "Which country has no land border?",
       "options": {
-        "A": "Cuba",
-        "B": "Sri Lanka",
-        "C": "Nepal",
-        "D": "None of these"
+        "A": "Sri Lanka",
+        "B": "Nepal",
+        "C": "Cuba",
+        "D": "All of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Who was the first to invent Airplane?",
       "options": {
-        "A": "Wright Brothers",
-        "B": "Aero Brothers",
+        "A": "Aero Brothers",
+        "B": "Wright Brothers",
         "C": "William Brothers",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "What is the capital of Argentina?",
@@ -497,7 +498,8 @@
         "A": "Kuala Lumpur",
         "B": "Copenhagen",
         "C": "Kabul",
-        "D": "London"
+        "D": "London",
+        "E": "None of the above"
       },
       "correct": "B"
     },
@@ -584,12 +586,12 @@
     {
       "question": "Who is the Current Ambassador of European Union to Pakistan?",
       "options": {
-        "A": "Androulla Kaminara",
-        "B": "Stavros Lambrinidis",
-        "C": "Dr Riina Kionka",
-        "D": "None of these"
+        "A": "Dr. Riina Kionka",
+        "B": "Androulla Kaminara",
+        "C": "Jean-François Cautain",
+        "D": "Lars-Gunnar Wigemark"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which is the Largest Continent by Population?",
@@ -597,7 +599,8 @@
         "A": "Europe",
         "B": "Asia",
         "C": "North America",
-        "D": "South America"
+        "D": "South America",
+        "E": "Australia"
       },
       "correct": "B"
     },
@@ -657,7 +660,8 @@
         "A": "Japan",
         "B": "Israel",
         "C": "US",
-        "D": "UK"
+        "D": "UK",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -787,7 +791,8 @@
         "A": "Mikhail Gorbachev",
         "B": "Boris Yeltsin",
         "C": "Leonid Brezhnev",
-        "D": "Ban Ki Moon"
+        "D": "Ban Ki Moon",
+        "E": "None of the above"
       },
       "correct": "A"
     },
@@ -826,7 +831,7 @@
       "options": {
         "A": "Azerbaijan and India",
         "B": "Armenia and India",
-        "C": "Azerbaijan and Armenia",
+        "C": "Azerbaijan and  Armenia",
         "D": "None of these"
       },
       "correct": "C"
@@ -947,7 +952,8 @@
         "A": "North America",
         "B": "South America",
         "C": "Asia",
-        "D": "Europe"
+        "D": "Europe",
+        "E": "Australia"
       },
       "correct": "B"
     },
@@ -967,7 +973,8 @@
         "A": "50",
         "B": "56",
         "C": "48",
-        "D": "47"
+        "D": "47",
+        "E": "97"
       },
       "correct": "B"
     },
@@ -1034,12 +1041,12 @@
     {
       "question": "Mussolini is from which country?",
       "options": {
-        "A": "Italy",
-        "B": "France",
-        "C": "Russia",
-        "D": "None of these"
+        "A": "Germany",
+        "B": "Spain",
+        "C": "Indonesia",
+        "D": "Italy"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Who started Civil Rights Movement?",
@@ -1064,22 +1071,22 @@
     {
       "question": "Iron Dome is a Mobile Defence system developed by which country?",
       "options": {
-        "A": "Israel",
-        "B": "Iran",
-        "C": "Japan",
-        "D": "USA"
+        "A": "USA",
+        "B": "China",
+        "C": "Israel",
+        "D": "Iran"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which Desert is called Cold Desert?",
       "options": {
-        "A": "Gobi",
-        "B": "Sahara",
+        "A": "Sahara",
+        "B": "Gobi",
         "C": "Arabian",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Adam Smith was famous a/an ______?",
@@ -1224,12 +1231,12 @@
     {
       "question": "Which author has been selected for the Booker Prize 2020 for his work 'Shuggie Bain'?",
       "options": {
-        "A": "Douglas Stuart",
-        "B": "Howard Jacobson",
+        "A": "Howard Jacobson",
+        "B": "Douglas Stuart",
         "C": "Bernice Rubens",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "People in England died in 1952 due to _____?",
@@ -1387,8 +1394,10 @@
         "A": "London",
         "B": "Birmingham",
         "C": "Paris",
-        "D": "New Delhi"
-      }
+        "D": "New Delhi",
+        "E": "New York City"
+      },
+      "correct": "E"
     },
     {
       "question": "The Muslims population in the world is?",
@@ -1453,12 +1462,12 @@
     {
       "question": "Which country has filed a case against Myanmar in the International Court of Justice (ICJ)?",
       "options": {
-        "A": "Gambia",
-        "B": "Austria",
-        "C": "Pakistan",
-        "D": "India"
+        "A": "France",
+        "B": "Australia",
+        "C": "Gambia",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which one Country abolished the post of Prime Minister?",
@@ -1513,22 +1522,22 @@
     {
       "question": "Who was the first tutor of Lata Mangeshkar?",
       "options": {
-        "A": "Ahmad Khurshid",
-        "B": "Ghulam Ali",
-        "C": "Aman Ali Khan",
+        "A": "Ghulam Ali",
+        "B": "Ahmad Khurshid",
+        "C": "Mehdi Hassan",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Treaty is an International agreement conclude between states in written form and governed by International law embodied in a single instrument or in two or more related instruments is provided in which Treaty?",
       "options": {
-        "A": "Nairobi Convention",
-        "B": "Vienna Convention",
+        "A": "Vienna Convention",
+        "B": "Nairobi Convention",
         "C": "Hague Convention",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Surena an invention of University of Tehran is a _____?",
@@ -1583,10 +1592,10 @@
     {
       "question": "Which of the following is the narrowest strait of the world?",
       "options": {
-        "A": "Strait of Tartar",
-        "B": "Malacca Strait",
+        "A": "Bosphorous Strait",
+        "B": "Strait of Tartar",
         "C": "Palk Strait",
-        "D": "Strait Yucatan"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -1786,7 +1795,8 @@
         "A": "England",
         "B": "Australia",
         "C": "Japan",
-        "D": "Pakistan"
+        "D": "Pakistan",
+        "E": "Bhutan"
       },
       "correct": "B"
     },
@@ -1803,22 +1813,22 @@
     {
       "question": "China got more gold medals in Asian Games?",
       "options": {
-        "A": "2018",
+        "A": "2016",
         "B": "2017",
-        "C": "2016",
+        "C": "2018",
         "D": "2019"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Name the game in which sides of teams are changed after every goal?",
       "options": {
-        "A": "Soccer",
-        "B": "Rugby",
+        "A": "Rugby",
+        "B": "Ice hockey",
         "C": "Baseball",
-        "D": "Ice Hockey"
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "A game which is played by horse riders .",
@@ -1875,8 +1885,8 @@
       "options": {
         "A": "1960",
         "B": "1970",
-        "C": "1980",
-        "D": "1990"
+        "C": "19280",
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -2145,7 +2155,7 @@
       "options": {
         "A": "uninterruptible power supply",
         "B": "uninterruptible power super",
-        "C": "uninterruptible phone supply",
+        "C": "uninterruptible phone  supply",
         "D": "none"
       },
       "correct": "A"

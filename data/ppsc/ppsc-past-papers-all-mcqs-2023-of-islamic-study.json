@@ -27,7 +27,8 @@
         "A": "26 A.H.",
         "B": "25 A.H.",
         "C": "24 A.H.",
-        "D": "27 A.H."
+        "D": "27 A.H.",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -154,12 +155,12 @@
     {
       "question": "Current Hijri Year is ______?",
       "options": {
-        "A": "Ahzab",
-        "B": "Maida",
-        "C": "Baqra",
-        "D": "None of these"
+        "A": "623AD",
+        "B": "622AD",
+        "C": "628AD",
+        "D": "630AD"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who are Harut and Marut in the Quran?",
@@ -304,12 +305,12 @@
     {
       "question": "Which surah of the Holy Quran in which Allah has promised to protect the Holy Quran?",
       "options": {
-        "A": "Surah Al-Hijr",
-        "B": "Al-Maida",
-        "C": "Surah Al-Baqarah",
-        "D": "None of these"
+        "A": "Surah Al-Anfal",
+        "B": "Surah Al-Maida",
+        "C": "Surah Al-Hijr",
+        "D": "Surah Al-Baqarah"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which surahs are called Mauzatain?",
@@ -364,12 +365,12 @@
     {
       "question": "Which mosque was ordered by Allah to destroy?",
       "options": {
-        "A": "Zirar",
-        "B": "Mushrikoon",
-        "C": "Kafiroon",
+        "A": "Kafroon",
+        "B": "Zirar",
+        "C": "Mushrikoon",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "ہوا روشنی پانی چرند پرند کس کے تابع تھے ؟",
@@ -477,7 +478,8 @@
         "A": "5th",
         "B": "7th",
         "C": "4th",
-        "D": "6th"
+        "D": "6th",
+        "E": "8th"
       },
       "correct": "D"
     },

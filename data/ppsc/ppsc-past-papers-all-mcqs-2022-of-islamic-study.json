@@ -244,12 +244,12 @@
     {
       "question": "Current Hijri Year is ______(Click)?",
       "options": {
-        "A": "7.5 tola",
-        "B": "8 tola",
-        "C": "5 tola",
+        "A": "Hazrat Usman (RA)",
+        "B": "Hazrat Abu Bakar (RA)",
+        "C": "Hazrat Umar (RA)",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "\"Al-Risalah\" on Usul-ul-Fiqh was written by?",
@@ -344,12 +344,12 @@
     {
       "question": "When Zakat become obligatory?",
       "options": {
-        "A": "2 AH",
-        "B": "4 AH",
-        "C": "5 AH",
+        "A": "1 Hijri",
+        "B": "2 Hijri",
+        "C": "3 Hijri",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Hijri calendar was started in :",
@@ -364,12 +364,12 @@
     {
       "question": "Current Hijri Year is ______?",
       "options": {
-        "A": "Hazrat Ayesha",
-        "B": "Umm e Habiba",
-        "C": "Hazrat Maria",
-        "D": "None of these"
+        "A": "623AD",
+        "B": "622AD",
+        "C": "628AD",
+        "D": "630AD"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Pious-Caliphate lasted for about:__________ Years?",
@@ -404,12 +404,12 @@
     {
       "question": "What is Sahihain:",
       "options": {
-        "A": "Bukhari and Muslim",
+        "A": "Mishkat",
         "B": "Bukhari",
-        "C": "Mishkat",
-        "D": "None"
+        "C": "Bukhari and Muslim",
+        "D": "Ibne Majah"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which book compiled by Ahmad Bin Shoaib?",
@@ -564,12 +564,12 @@
     {
       "question": "Name the woman, after Hazrat Khadija (RA) who embraced Islam?",
       "options": {
-        "A": "Hazrat Labala bint Haris",
-        "B": "Hazrat Ayesha",
-        "C": "Umm e Habiba",
-        "D": "None of these"
+        "A": "Ummay Aimen",
+        "B": "Lababa bint Haris",
+        "C": "Buraida Aslami",
+        "D": "Hazrat Samiya"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Qazaf is ______?",
@@ -674,9 +674,9 @@
     {
       "question": "Who wrote Ar-Resala?",
       "options": {
-        "A": "Imam Abu Hanifa",
-        "B": "Imam Malik",
-        "C": "Imam Shafi",
+        "A": "Imam Abu Haneefa (R.A)",
+        "B": "Imam Malik (R.A)",
+        "C": "Imam Shafi (R.A)",
         "D": "None of these"
       },
       "correct": "C"
@@ -707,7 +707,7 @@
         "A": "Penitence",
         "B": "Glorification",
         "C": "Testimony",
-        "D": "None of these"
+        "D": "Repudiation of infidelity"
       },
       "correct": "C"
     },
@@ -774,12 +774,12 @@
     {
       "question": "ذکر کے لغوی معنی کیا ہیں؟",
       "options": {
-        "A": "یاد کرنا",
-        "B": "پکارنا",
-        "C": "تسبیح پڑھنا",
+        "A": "اللہ اللہ کرنا",
+        "B": "اللہ کو بہت زیادہ یاد کرنا",
+        "C": "یاد کرنا",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "غزوہ تبوک پر جاتے ھوئے آپ ﷺ نیابت کس کو دے گے؟",
@@ -864,7 +864,7 @@
     {
       "question": "Which book written by The book attributed to Hazrat Ali R.A?",
       "options": {
-        "A": "Nehjul Balagha",
+        "A": "Nehjul  Balagha",
         "B": "Siah Bukhari",
         "C": "Both A and B",
         "D": "None of these"
@@ -874,12 +874,12 @@
     {
       "question": "Who admired Muslim efforts for save Ahadith?",
       "options": {
-        "A": "AJ Springer",
-        "B": "Haiti",
+        "A": "Haiti",
+        "B": "A J Springer",
         "C": "W. Montgomery Watt",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Before Islam Friday was called _____?",
@@ -947,7 +947,8 @@
         "A": "7",
         "B": "6",
         "C": "8",
-        "D": "10"
+        "D": "10",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -967,19 +968,20 @@
         "A": "Qutubuddin Ahmad Siddiqui",
         "B": "Shah Wali Ullah",
         "C": "Qutubuddin Ahmad Faruqi",
-        "D": "Qutubuddin Fareed"
+        "D": "Qutubuddin Fareed",
+        "E": "None of these"
       },
       "correct": "B"
     },
     {
       "question": "Which book wrote by Imam Ghazali?",
       "options": {
-        "A": "Hujjat-ul-Baligha",
-        "B": "Al-Fouz-ul-Kabeer",
-        "C": "Ahya Al-Uloom",
+        "A": "Al fouzulkabeer",
+        "B": "Ahya al uloom",
+        "C": "Hujjatulbaligha",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The word uttered before Namaz is called ____?",
@@ -1035,9 +1037,9 @@
       "question": "During Which prayer, the change of Qibla happened?",
       "options": {
         "A": "Asar",
-        "B": "Zuhr",
-        "C": "Fajar",
-        "D": "Magrib"
+        "B": "Zohar",
+        "C": "Magrab",
+        "D": "Eisha"
       },
       "correct": "B"
     },
@@ -1267,7 +1269,8 @@
         "A": "Hazrat Umar (رضہ)",
         "B": "Hazrat abu Salman (رضہ)",
         "C": "Hazrat Hamza (رضہ)",
-        "D": "Hazrat Saad bin Maaz (رضہ)"
+        "D": "Hazrat Saad bin Maaz (رضہ)",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1317,7 +1320,8 @@
         "A": "U.N. Charter",
         "B": "International Charter",
         "C": "French Constitution",
-        "D": "Khutba-Hajjat-ul-Vida"
+        "D": "Khutba-Hajjat-ul-Vida",
+        "E": "None of these"
       },
       "correct": "D"
     },

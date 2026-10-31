@@ -99,6 +99,10 @@ const modelPaperMcqCache = new Map<string, any[]>();
 let mcqIndexCache: { id: string; subjectId: string }[] | null = null;
 
 async function getMcqIndex(db: any): Promise<{ id: string; subjectId: string }[]> {
+  if (process.env.NODE_ENV === "development") {
+    mcqIndexCache = null;
+    modelPaperMcqCache.clear();
+  }
   if (!mcqIndexCache) {
     mcqIndexCache = await db
       .select({ id: mcq.id, subjectId: mcq.subjectId })
@@ -301,7 +305,7 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
 
         if (prevAttempts.length === 0) {
           throw new Error(
-            `LOCKED_PAPER: Paper ${data.paperNumber} is locked. You must complete Paper ${prevPaperNumber} first.`,
+            `LOCKED_PAPER: ${data.paperNumber} is locked. You must complete ${prevPaperNumber} first.`,
           );
         }
       }
@@ -860,11 +864,13 @@ export const dbRecordAttempt = createServerFn({ method: "POST" })
     });
   });
 
-export const dbClearAttempts = createServerFn({ method: "POST" }).handler(async () => {
-  const session = await requireSession();
-  const db = await getDb();
-  await db.delete(attempt).where(eq(attempt.userId, session.user.id));
-});
+export const dbClearAttempts = createServerFn({ method: "POST" })
+  .inputValidator(z.object({ userId: z.string() }))
+  .handler(async ({ data }) => {
+    await requireAdmin();
+    const db = await getDb();
+    await db.delete(attempt).where(eq(attempt.userId, data.userId));
+  });
 
 export const dbRecordPaperCompletion = createServerFn({ method: "POST" })
   .inputValidator(

@@ -4,10 +4,10 @@
     {
       "question": "Who is the Current Secretary of State of the United States?",
       "options": {
-        "A": "Daniel Bennett Smith",
+        "A": "John Kerry",
         "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
+        "C": "Antony Blinken",
+        "D": "Mike Pompeo"
       },
       "correct": "B"
     },
@@ -24,52 +24,52 @@
     {
       "question": "Who is the Current Prime Minister of Nepal?",
       "options": {
-        "A": "Madhav Kumar Nepal",
-        "B": "KP Sharma Oli",
-        "C": "Balendra Shah",
-        "D": "None of these"
+        "A": "KP Sharma Oli",
+        "B": "Pushpa Kamal Dahal",
+        "C": "Sher Bahadur Deuba",
+        "D": "Balendra Shah"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who is the Current Secretary General of United Nation (UNO)?",
       "options": {
-        "A": "Kofi Annan",
+        "A": "António Guterres",
         "B": "Ban Ki-moon",
-        "C": "António Guterres",
-        "D": "None of these"
+        "C": "Stéphane Dujarric",
+        "D": "Kofi Annan"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Who is the Current President of Brazil?",
       "options": {
-        "A": "Michel Temer",
+        "A": "Dilma Rousseff",
         "B": "Jair Bolsonaro",
-        "C": "Lula da Silva",
-        "D": "None of these"
+        "C": "Michel Temer",
+        "D": "Luiz Inácio Lula da Silva"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who is the Current President of Russia?",
       "options": {
-        "A": "Mikhail Mishustin",
-        "B": "Vladimir Putin",
-        "C": "Volodymyr Zelenskyy",
-        "D": "None of these"
+        "A": "Dmitry Medvedev",
+        "B": "Sergey Lavrov",
+        "C": "Mikhail Mishustin",
+        "D": "Vladimir Putin"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Who is the current Vice President of USA?",
       "options": {
-        "A": "Donald Trump",
+        "A": "Barack Obama",
         "B": "Kamala Harris",
-        "C": "JD Vance",
-        "D": "None of these"
+        "C": "Donald Trump",
+        "D": "Joe Biden"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "When is National Constitution Day celebrated?",
@@ -134,12 +134,12 @@
     {
       "question": "Who is the current Prime Minister of Saudi Arabia?",
       "options": {
-        "A": "King Abdul Aziz",
-        "B": "Muhammad bin Salman",
-        "C": "Sheikh Khalid bin Khalifa",
-        "D": "None of these"
+        "A": "Faisal bin Farhan",
+        "B": "King Salman",
+        "C": "Abdulaziz bin Salman",
+        "D": "Crown Prince Mohammed bin Salman"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Who won Nobel Prize in Literature 2021?",
@@ -297,7 +297,8 @@
         "A": "China",
         "B": "Brazil",
         "C": "India",
-        "D": "Pakistan"
+        "D": "Pakistan",
+        "E": "All of these"
       },
       "correct": "D"
     },

@@ -34,12 +34,12 @@
     {
       "question": "Which kind of system of government was introduced in 1962 constitution?",
       "options": {
-        "A": "Presidential",
-        "B": "Autonomous",
-        "C": "Confederate",
-        "D": "Bicameral"
+        "A": "Bicameral",
+        "B": "Presidential",
+        "C": "Parliamentary",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which country is in the north west of Pakistan?",
@@ -127,7 +127,7 @@
         "A": "Punjab",
         "B": "Sindh",
         "C": "KPK",
-        "D": "None of these"
+        "D": "Balouchistan"
       },
       "correct": "B"
     },
@@ -155,9 +155,9 @@
       "question": "Who abrogated 1956 constitution?",
       "options": {
         "A": "Ayub Khan",
-        "B": "Yahya khan",
-        "C": "Iskander Mirza",
-        "D": "Tikka khan"
+        "B": "Yahya Khan",
+        "C": "Iskandar Mirza",
+        "D": "None of these"
       },
       "correct": "C"
     },
@@ -194,12 +194,12 @@
     {
       "question": "Under 1973 Constitution the President of Pakistan is elected by?",
       "options": {
-        "A": "National Assembly",
-        "B": "Provincial Assemblies",
-        "C": "Senate",
-        "D": "All of these"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "On which river Diamer Bhasha dam is being constructed?",
@@ -255,8 +255,8 @@
       "question": "K-2 is also known as?",
       "options": {
         "A": "Godwin Austin",
-        "B": "broad peak",
-        "C": "Roshan peak",
+        "B": "Broad Peak",
+        "C": "Roshan Peak",
         "D": "Sia Kingri"
       },
       "correct": "A"
@@ -314,7 +314,7 @@
     {
       "question": "The largest earth filled dam of the world is _____?",
       "options": {
-        "A": "Mangla dam",
+        "A": "Mangla  dam",
         "B": "Basha dam",
         "C": "Tarbela dam",
         "D": "None of these"
@@ -495,7 +495,7 @@
       "question": "Maharaja Heri Singh of Kashmir signed instrument of accession with India on _____?",
       "options": {
         "A": "August 14, 1947",
-        "B": "October 26, 1947",
+        "B": "October  26, 1947",
         "C": "August 16, 1947",
         "D": "August 14, 1948"
       },
@@ -524,12 +524,12 @@
     {
       "question": "When was the Kashmir issue taken to the United Nations by India?",
       "options": {
-        "A": "26 January 1949",
-        "B": "15 August 1947",
-        "C": "1 January 1948",
+        "A": "15 August 1947",
+        "B": "01 January 1948",
+        "C": "26 January 1949",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the last ruler/caliph of the Ummayed dynasty?",
@@ -777,7 +777,8 @@
         "A": "Zulfikar Ali Bhutto",
         "B": "Ayyub Khan",
         "C": "Nawaz Sharif",
-        "D": "Ch Muhammad Ali"
+        "D": "Ch Muhammad Ali",
+        "E": "All of these"
       },
       "correct": "B"
     },
@@ -947,7 +948,8 @@
         "A": "40,914 Sq Km",
         "B": "74,521 Sq Km",
         "C": "205,344 Sq Km",
-        "D": "347,190 Sq Km"
+        "D": "347,190 Sq Km",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -1044,12 +1046,12 @@
     {
       "question": "Where is Shah Jahan's tomb located?",
       "options": {
-        "A": "Agra",
-        "B": "Delhi",
-        "C": "Sikan",
+        "A": "Delhi",
+        "B": "Sikan",
+        "C": "Agra",
         "D": "Fatehpur"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Six Points of Sheikh Mujibur Rahman was presented in which year?",
@@ -1435,7 +1437,7 @@
       "question": "\"Taleem-e-Balighan\" drama was written by _____?",
       "options": {
         "A": "Khawaja Moinuddin",
-        "B": "Mustansar Hussain",
+        "B": "Mustansar  Hussain",
         "C": "Allam Iqbal",
         "D": "None of these"
       },
@@ -1477,7 +1479,8 @@
         "A": "Zulifqar Ali Bhutto",
         "B": "Iskandar Ali Mirza",
         "C": "Tikka Khan",
-        "D": "Yahiya Khan"
+        "D": "Yahiya Khan",
+        "E": "None of the above"
       },
       "correct": "A"
     },
@@ -1717,7 +1720,8 @@
         "A": "Karachi Port",
         "B": "Port Qasim",
         "C": "Gwadar",
-        "D": "Pasni"
+        "D": "Pasni",
+        "E": "All"
       },
       "correct": "B"
     },
@@ -1754,12 +1758,12 @@
     {
       "question": "What is the main issue between Pakistan and India?",
       "options": {
-        "A": "Law and order issue",
+        "A": "Law & order issue",
         "B": "Water issue",
-        "C": "Kashmir issue",
+        "C": "Ladakh Issue",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who was the Viceroy in India during the Second World War?",
@@ -1824,10 +1828,10 @@
     {
       "question": "Who was the 3rd President of Pakistan?",
       "options": {
-        "A": "Mr. Z.A Bhutto",
-        "B": "Ayyub khan",
-        "C": "Gen Yahya Khan",
-        "D": "Mr. Pervez Musharaf"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
       "correct": "C"
     },
@@ -1884,11 +1888,12 @@
     {
       "question": "According to 1973 constitution, who elects the president of Pakistan?",
       "options": {
-        "A": "National Assembly",
-        "B": "Senate",
-        "C": "Provincial Assembly",
-        "D": "Both A & B"
-      }
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
+      },
+      "correct": "C"
     },
     {
       "question": "Saindak project is producing copper, silver, and gold with the help/collaboration of which country?",
@@ -1913,10 +1918,10 @@
     {
       "question": "Who is the current Chief Justice of Pakistan?",
       "options": {
-        "A": "Justice Umar Ata Bandial",
-        "B": "Justice Qazi Faiz Isa",
-        "C": "Justice Saqib Nisar",
-        "D": "None of these"
+        "A": "Justice Mansoor Ali Shah",
+        "B": "Justice Yahya Afridi",
+        "C": "Justice Qazi Faez Isa",
+        "D": "Justice Umar Ata Bandial"
       },
       "correct": "B"
     },
@@ -1924,8 +1929,8 @@
       "question": "Which is the largest District of FATA by population?",
       "options": {
         "A": "Bajaur",
-        "B": "Mohmand",
-        "C": "Kurram",
+        "B": "Khurram",
+        "C": "Mohmand",
         "D": "None of these"
       },
       "correct": "A"
@@ -2233,10 +2238,10 @@
     {
       "question": "Maleeha Lodhi became Permanent Representative of Pakistan to the United Nations in the year:",
       "options": {
-        "A": "2017",
-        "B": "2012",
-        "C": "2015",
-        "D": "2018"
+        "A": "Asim Iftikhar Ahmad",
+        "B": "Maleeha Lodhi",
+        "C": "Syed Haider Shah",
+        "D": "Munir Akram"
       },
       "correct": "C"
     },
@@ -2256,7 +2261,8 @@
         "A": "Bolan",
         "B": "Jhelum",
         "C": "Dashat",
-        "D": "Hub"
+        "D": "Hub",
+        "E": "None of the above"
       },
       "correct": "C"
     },
@@ -2343,12 +2349,12 @@
     {
       "question": "How many were the members of Basic Democracies from East Pakistan?",
       "options": {
-        "A": "60000",
-        "B": "80000",
-        "C": "40000",
-        "D": "20000"
+        "A": "40000",
+        "B": "50000",
+        "C": "60000",
+        "D": "70000"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Ahmad Shah Pitras Bukhari was a famous writer of which language?",
@@ -2445,7 +2451,7 @@
       "options": {
         "A": "Successful",
         "B": "Un-Conclusive",
-        "C": "Delayed till future",
+        "C": "Delayed Till Further",
         "D": "None of these"
       },
       "correct": "B"
@@ -2463,12 +2469,12 @@
     {
       "question": "The Charismatic Leader: Quaid-e-Azam Mohammad Ali Jinnah and the Creation of Pakistan:",
       "options": {
-        "A": "Benazir Bhutto",
-        "B": "Shaukat Hayat khan",
-        "C": "Sikandar Hayat",
-        "D": "Colonel llahi Baksh"
+        "A": "Sikandar Hayat",
+        "B": "Col. Ilahi Bukhsh",
+        "C": "Stanley Wolpert",
+        "D": "Ayesha Jalal"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "The first Pakistan Super League (PSL) season was entirely held in Pakistan in the year?",
@@ -2563,12 +2569,12 @@
     {
       "question": "When was Anjuman e Himayat e Islam founded?",
       "options": {
-        "A": "September 1884",
-        "B": "October 1884",
-        "C": "September 1885",
-        "D": "November 1885"
+        "A": "1881",
+        "B": "1882",
+        "C": "1883",
+        "D": "1884"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "What is soft power?",
@@ -2663,10 +2669,10 @@
     {
       "question": "When did the Indian mutiny take place?",
       "options": {
-        "A": "1856",
+        "A": "1849",
         "B": "1857",
-        "C": "1859",
-        "D": "1851"
+        "C": "1865",
+        "D": "1902"
       },
       "correct": "B"
     },

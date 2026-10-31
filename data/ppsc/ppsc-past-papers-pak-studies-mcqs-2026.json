@@ -24,12 +24,12 @@
     {
       "question": "Which kind of system of government was introduced in 1962 constitution?",
       "options": {
-        "A": "Presidential",
-        "B": "Autonomous",
-        "C": "Confederate",
-        "D": "Bicameral"
+        "A": "Bicameral",
+        "B": "Presidential",
+        "C": "Parliamentary",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who presented the Objective Resolution in the constituent Assembly?",
@@ -174,10 +174,10 @@
     {
       "question": "Who was the second Prime Minister of Pakistan?",
       "options": {
-        "A": "Ch Muhammad Ali",
-        "B": "Kh. Nazim-ud-Din",
-        "C": "Liaquat Ali Khan",
-        "D": "D. Feroze Khan Noon"
+        "A": "Liaqat Ali Khan",
+        "B": "Khawaja Nazim-ud-Din",
+        "C": "Ch. Muhammad Ali",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -474,10 +474,10 @@
     {
       "question": "Who was the founder of the Unionist Party?",
       "options": {
-        "A": "Liaqat Ali Khan",
-        "B": "Sir Fazal Hussain",
-        "C": "Molana Fazal ul Haq",
-        "D": "Syed Amir Hassan"
+        "A": "Sir Sikandar Hayat Khan",
+        "B": "Sir Fazl-i-Hussain",
+        "C": "Chaudhry Khaliquzzaman",
+        "D": "Ch. Rehmat Ali"
       },
       "correct": "B"
     },
@@ -684,12 +684,12 @@
     {
       "question": "Pakistan purchased Gwadar from Muscat (Oman) in which year?",
       "options": {
-        "A": "1956",
-        "B": "1957",
-        "C": "1958",
-        "D": "1959"
+        "A": "1947",
+        "B": "1958",
+        "C": "1962",
+        "D": "1977"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which Congress leader was called “Show Boy of Congress” by Quaid-e-Azam?",
@@ -894,12 +894,12 @@
     {
       "question": "Under 1973 Constitution the President of Pakistan is elected by?",
       "options": {
-        "A": "National Assembly",
-        "B": "Provincial Assemblies",
-        "C": "Senate",
-        "D": "All of these"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Which Act partitioned British India into Pakistan and India?",
@@ -982,14 +982,14 @@
       "correct": "A"
     },
     {
-      "question": "Who became the first female / woman Chief Minister of Punjab and of any province in Pakistan?",
+      "question": "Who is the current Chief Minister of Punjab?",
       "options": {
-        "A": "Benazir Bhutto",
-        "B": "Hina Rabani Khar",
-        "C": "Maryam Nawaz",
-        "D": "Marriyum Aurangzeb"
+        "A": "Maryam Nawaz Sharif",
+        "B": "Hamza Shahbaz",
+        "C": "Usman Buzdar",
+        "D": "Shahbaz Sharif"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "On which river Diamer Bhasha dam is being constructed?",
@@ -1004,10 +1004,10 @@
     {
       "question": "Who was the first and only Vice President of Pakistan?",
       "options": {
-        "A": "Iskander Ali Mirza",
-        "B": "Ghulam Muhammad",
-        "C": "Nur-ul-Amin",
-        "D": "Lord Mayo"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
       "correct": "C"
     },
@@ -1044,10 +1044,10 @@
     {
       "question": "Which report rejected the idea/demand of separate electorates for Muslims after the Lucknow Pact?",
       "options": {
-        "A": "Pirpur Report",
+        "A": "Simon Report",
         "B": "Nehru Report",
-        "C": "Simmon Report",
-        "D": "Cripps Report"
+        "C": "Cabinet Mission",
+        "D": "Rowlatt Act"
       },
       "correct": "B"
     },
@@ -1075,11 +1075,11 @@
       "question": "Which sector is known as the backbone of Pakistan's economy?",
       "options": {
         "A": "Services",
-        "B": "Industry",
-        "C": "Agriculture",
-        "D": "None of these"
+        "B": "Agriculture",
+        "C": "Industry",
+        "D": "Labour"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Education expenditure as a percentage of GDP in Pakistan was approximately?",
@@ -1275,11 +1275,11 @@
       "question": "Who was the first Foreign Minister of Pakistan?",
       "options": {
         "A": "Liaquat Ali Khan",
-        "B": "Quaid-e-Azam",
-        "C": "Muhammad Ali",
-        "D": "Zafarullah Khan"
+        "B": "Zafarullah Khan",
+        "C": "Khawaja Nazimuddin",
+        "D": "Ghulam Muhammad"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "How many districts are there in Punjab?",
@@ -1334,12 +1334,12 @@
     {
       "question": "When Tashkent Declaration was signed, who was the President of Pakistan?",
       "options": {
-        "A": "Ayub Khan",
-        "B": "Zia ul Haq",
-        "C": "Zulifqar Ali Bhutto",
-        "D": "None of these"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Tashkent Declaration with Pakistan was signed by Indian Prime Minister?",
@@ -1524,10 +1524,10 @@
     {
       "question": "Pakistan joined Non-Aligned Movement (NAM) in which year?",
       "options": {
-        "A": "1980",
-        "B": "1989",
+        "A": "1977",
+        "B": "1978",
         "C": "1979",
-        "D": "None of these"
+        "D": "1981"
       },
       "correct": "C"
     },
@@ -1544,12 +1544,12 @@
     {
       "question": "What is the minimum age of Senator under 1973 Constitution?",
       "options": {
-        "A": "30 years",
-        "B": "25 years",
+        "A": "25 years",
+        "B": "30 years",
         "C": "35 years",
-        "D": "None of these"
+        "D": "40 years"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which city in Punjab, Pakistan, is renowned for beautiful camel skin art, handicrafts, and glazed pottery?",
@@ -1664,12 +1664,12 @@
     {
       "question": "When Pervez Musharraf resigned as the President of Pakistan?",
       "options": {
-        "A": "14 July 2008",
-        "B": "18 August 2008",
-        "C": "12 September 2008",
-        "D": "7 October 2005"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Liaquat Ali Khan was assassinated in Rawalpindi on?",
@@ -2157,7 +2157,8 @@
         "A": "Air Marshal Paery Cane",
         "B": "Air marshal Asgher Khan",
         "C": "Air marshal Zafar Khan",
-        "D": "Air marshal anwar khan"
+        "D": "Air marshal anwar khan",
+        "E": "None of them"
       },
       "correct": "B"
     },
@@ -2327,7 +2328,8 @@
         "A": "Punjab",
         "B": "Sindh",
         "C": "Baluchistan",
-        "D": "KPK"
+        "D": "KPK",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -2494,12 +2496,12 @@
     {
       "question": "After the death of Zia ul Haq on 7th August 1988, who was made the President of Pakistan?",
       "options": {
-        "A": "Muhammad khan Junejo",
-        "B": "Ghulam Ishaq Khan",
-        "C": "Farooq Ahmad Leghari",
-        "D": "None of these"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The energy crisis in Pakistan is mainly due to ______?",
@@ -2855,9 +2857,10 @@
       "question": "The constitution of Pakistan 1973. can be amended______",
       "options": {
         "A": "With the simple majority vote in the twohouses of parliament",
-        "B": "With two-third majority in the National Assembly and a simple majority of the Senate.",
+        "B": "With two-third majority in the National Assembly and a simple majority of the  Senate.",
         "C": "With two-third majority of both the houses of partiament.",
-        "D": "With the approval of Provincial Legislatures"
+        "D": "With the approval of Provincial Legislatures",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -2934,12 +2937,12 @@
     {
       "question": "Which Pakistani cricketer played in 6 consecutive World Cups?",
       "options": {
-        "A": "Javed Miandad",
-        "B": "Wasim Akram",
-        "C": "Imran Khan",
-        "D": "Inzamam-ul-Haq"
+        "A": "Shahid Afridi",
+        "B": "Javed Miandad",
+        "C": "Inzamam-ul-Haq",
+        "D": "Wasim Akram"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The Shandur Polo Festival is usually held every year on?",
@@ -2964,32 +2967,32 @@
     {
       "question": "Who was not a member of the 1st Cabinet of Pakistan?",
       "options": {
-        "A": "Sardar Abdur Rab Nishter",
-        "B": "Hussain Shaheed Suharwardy",
-        "C": "Jogendra Nath Mandal",
-        "D": "Malik Ghulam Muhammad"
+        "A": "M.A Bogra",
+        "B": "Liaquat Ali Khan",
+        "C": "I.I Chundrigar",
+        "D": "Ghulam Muhammad"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Khanki Headwork is located on which river?",
       "options": {
-        "A": "Jehlum",
-        "B": "Chenab",
+        "A": "Chenab",
+        "B": "Jehlum",
         "C": "Indus",
-        "D": "None of these"
+        "D": "Ravi"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "When Mohammad Ali Bogra presented Bogra Formula in the assembly?",
       "options": {
-        "A": "October 1953",
-        "B": "September 1953",
-        "C": "April 1953",
-        "D": "January 1953"
+        "A": "January 1953",
+        "B": "April 1953",
+        "C": "September 1953",
+        "D": "October 1953"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "When did Sir Radcliffe arrive in the subcontinent?",
@@ -3244,12 +3247,12 @@
     {
       "question": "Who is the Current IG of National Highways and Motorway Police (NHMP)?",
       "options": {
-        "A": "Khalid Mahmood",
-        "B": "Aamir Zulfiqar Khan",
-        "C": "Allah Dino Khawaja",
-        "D": "Mr. Sultan Ahmad Chaudhry"
+        "A": "Waleed Ahmad",
+        "B": "Salman Ali Khan",
+        "C": "Inam Ghani",
+        "D": "Khalid Mahmood"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "North Korea, East Germany, and Cambodia were recognized during the reign of _____?",
@@ -3337,7 +3340,8 @@
         "A": "Anjuman Himayat-e-Islam",
         "B": "Indian National Congress",
         "C": "Muslim League",
-        "D": "Muslim Students Federation"
+        "D": "Muslim Students Federation",
+        "E": "United Nations Organization"
       },
       "correct": "B"
     },

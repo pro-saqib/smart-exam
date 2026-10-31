@@ -160,7 +160,7 @@ export function getSubjectModelPapers(
       for (let i = 0; i < subPapers; i++) {
         const isLast = i === subPapers - 1;
         const paperMcqsCount = isLast ? subTotal - i * batchSize : batchSize;
-        const label = subPapers === 1 ? sub.name : `${sub.name} — Paper ${i + 1}`;
+        const label = subPapers === 1 ? sub.name : `${sub.name} — ${i + 1}`;
         papers.push({
           paperNumber: i + 1,
           name: label,
@@ -178,17 +178,21 @@ export function getSubjectModelPapers(
     return papers;
   }
 
-  // Default: flat pool chunked into "Paper 1, Paper 2, ..."
+  // Default: flat pool chunked into "1, 2, ..." or "Subject Label — 1, Subject Label — 2" for IS
   const papers: ModelPaper[] = [];
   const totalPapers = Math.ceil(totalMcqsCount / batchSize);
+  const isImtiazShahid = groupKey.startsWith("is-");
 
   for (let i = 0; i < totalPapers; i++) {
     const isLast = i === totalPapers - 1;
     const paperMcqsCount = isLast ? totalMcqsCount - i * batchSize : batchSize;
+    const paperName = isImtiazShahid && canonicalConfig
+      ? `${canonicalConfig.label} — ${i + 1}`
+      : `${i + 1}`;
 
     papers.push({
       paperNumber: i + 1,
-      name: `Paper ${i + 1}`,
+      name: paperName,
       mcqs: [],
       totalMcqs: paperMcqsCount,
       attemptedCount: 0,
@@ -212,11 +216,17 @@ export function getModelPaperMcqs(
   const totalPapers = Math.max(1, Math.ceil(subjectMcqs.length / batchSize));
   const safePaperNumber = Math.max(1, Math.min(paperNumber, totalPapers));
 
+  const canonicalConfig = SUBJECT_KEYWORDS.find((sk) => sk.key === groupKey);
+  const isImtiazShahid = groupKey.startsWith("is-");
+  const paperName = isImtiazShahid && canonicalConfig
+    ? `${canonicalConfig.label} — ${safePaperNumber}`
+    : `${safePaperNumber}`;
+
   const start = (safePaperNumber - 1) * batchSize;
   const chunk = subjectMcqs.slice(start, start + batchSize);
 
   return {
-    name: `Paper ${safePaperNumber}`,
+    name: paperName,
     mcqs: chunk,
     paperNumber: safePaperNumber,
     totalPapers,

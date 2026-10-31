@@ -14,12 +14,12 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Pakistan is located in _______?",
@@ -94,10 +94,10 @@
     {
       "question": "Which is the highest peak of Himalayas range in Pakistan?",
       "options": {
-        "A": "K-2",
+        "A": "Tirich Mir",
         "B": "Nanga Parbat",
-        "C": "Sakasar",
-        "D": "Tirichmir"
+        "C": "K2",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -184,12 +184,12 @@
     {
       "question": "Pakistan is located in which continent?",
       "options": {
-        "A": "Africa",
-        "B": "Europe",
-        "C": "Asia",
+        "A": "Europe",
+        "B": "Asia",
+        "C": "Africa",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Industrial revolution started from which country?",
@@ -215,7 +215,7 @@
       "question": "Pakistan lies of the tropic zone of _____?",
       "options": {
         "A": "Tropic of Cancer",
-        "B": "Temperature Zone",
+        "B": "Temperature  Zone",
         "C": "Tropic of Capricorn",
         "D": "None of these"
       },
@@ -256,7 +256,7 @@
       "options": {
         "A": "Miani Sahib",
         "B": "Makli",
-        "C": "Mawa Sahib",
+        "C": "Mewa Shah",
         "D": "None of these"
       },
       "correct": "B"
@@ -304,8 +304,8 @@
     {
       "question": "Which river flows in Europe?",
       "options": {
-        "A": "Volga",
-        "B": "Thames",
+        "A": "Thames",
+        "B": "Volga",
         "C": "Danube",
         "D": "All of these"
       },
@@ -375,9 +375,9 @@
       "question": "Where is tower bridge located?",
       "options": {
         "A": "London",
-        "B": "Peris",
-        "C": "Glasgow",
-        "D": "Liverpool"
+        "B": "Budapest",
+        "C": "Colombo",
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -437,7 +437,8 @@
         "A": "Black stone",
         "B": "Golden stone",
         "C": "Snow covered",
-        "D": "Green covered"
+        "D": "Green covered",
+        "E": "All of these"
       },
       "correct": "C"
     },

@@ -364,12 +364,12 @@
     {
       "question": "What is an endemic disease?",
       "options": {
-        "A": "A disease found worldwide",
-        "B": "A disease generally prevalent in a particular area",
-        "C": "A disease spread by insects",
-        "D": "A genetic disease"
+        "A": "Disease generally prevalent in a particular area",
+        "B": "Disease with high incidence all over the country",
+        "C": "Disease affecting children under 5 years old",
+        "D": "Disease brought to the country by travellers and livestock"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Meteorology is the science of?",
@@ -634,12 +634,12 @@
     {
       "question": "What is the Circumference of Earth?",
       "options": {
-        "A": "450,000 km",
-        "B": "50,075 km",
-        "C": "40,075 km",
-        "D": "30,000 km"
+        "A": "30,000 km",
+        "B": "40,000 km",
+        "C": "50,000 km",
+        "D": "20,000 km"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The largest planet of the solar system is _____?",
@@ -987,7 +987,8 @@
         "A": "Vitamin K",
         "B": "Vitamin B",
         "C": "Vitamin C",
-        "D": "Vitamin D"
+        "D": "Vitamin D",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -1014,12 +1015,12 @@
     {
       "question": "What is H5N1?",
       "options": {
-        "A": "Virus",
-        "B": "Disease",
+        "A": "Fungi",
+        "B": "Virus",
         "C": "Bacteria",
-        "D": "None of these"
+        "D": "Vaccine"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Sunlight is composed of ?",
@@ -1117,7 +1118,8 @@
         "A": "Lungs",
         "B": "Brain",
         "C": "Heart",
-        "D": "Liver"
+        "D": "Liver",
+        "E": "Bones"
       },
       "correct": "D"
     },
@@ -1164,12 +1166,12 @@
     {
       "question": "Who invented dynamite?",
       "options": {
-        "A": "Dr. Alfred B. Nobel",
-        "B": "H. W. Seeley",
-        "C": "Lionel Lukin",
-        "D": "Roger Bacon"
+        "A": "Newton",
+        "B": "Edison",
+        "C": "Alfred Nobel",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Water has maximum density at _____?",
@@ -1184,12 +1186,12 @@
     {
       "question": "Who was the first to invent Airplane?",
       "options": {
-        "A": "Wright Brothers",
-        "B": "Aero Brothers",
+        "A": "Aero Brothers",
+        "B": "Wright Brothers",
         "C": "William Brothers",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which of the following mineral is used in cement industry and plaster of Paris?",
@@ -1444,12 +1446,12 @@
     {
       "question": "Which of the following is a man-made substance?",
       "options": {
-        "A": "Rubber",
-        "B": "Plastic",
+        "A": "Plastic",
+        "B": "Rubber",
         "C": "Steel",
-        "D": "None of these"
+        "D": "Iron"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Sunlight is a good source of vitamin ____?",
@@ -1596,7 +1598,7 @@
       "options": {
         "A": "Red Corpuscle (Red Blood Cells)",
         "B": "Vitamins",
-        "C": "White Corpuscles (White Blood Cells)",
+        "C": "White  Corpuscles (White Blood Cells)",
         "D": "Carbohydrates"
       },
       "correct": "C"
@@ -1674,12 +1676,12 @@
     {
       "question": "Which of the following is the name of the smallest part of the matter discovered by the scientists?",
       "options": {
-        "A": "Quark",
-        "B": "Proton",
-        "C": "Neutron",
-        "D": "Positron"
+        "A": "Proton",
+        "B": "Neutron",
+        "C": "Positron",
+        "D": "Quark"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "An example of a hereditary disease is _______?",
@@ -1764,10 +1766,10 @@
     {
       "question": "Which of the following medicines is administered to patients suffering from diabetes?",
       "options": {
-        "A": "Suggar",
+        "A": "Penicillin",
         "B": "Insulin",
-        "C": "Both A and B",
-        "D": "None of these"
+        "C": "Sulpha drugs",
+        "D": "none of these"
       },
       "correct": "B"
     },
@@ -2004,12 +2006,12 @@
     {
       "question": "Which two organs are mainly affected by Malaria?",
       "options": {
-        "A": "Lungs and Heart",
-        "B": "Kidneys and Lungs",
-        "C": "Heart and Brain",
-        "D": "Spleen and Liver"
+        "A": "Lungs and heart",
+        "B": "Spleen and liver",
+        "C": "Kidneys and lungs",
+        "D": "Heart and brain"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Diabetes is caused due to the malfunctioning of ________?",
@@ -2294,12 +2296,12 @@
     {
       "question": "Heavy water used in Nuclear reactors is also called?",
       "options": {
-        "A": "pH-7",
-        "B": "Deuterium Oxide",
-        "C": "Tritium Oxide",
-        "D": "Distilled Water"
+        "A": "Deuterium Oxide",
+        "B": "PH 7",
+        "C": "Distilled water",
+        "D": "Tritium Oxide"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Less than one percent of Earth’s water is fresh water but Ocean contains what percent of the total water of planet Earth?",
@@ -2484,12 +2486,12 @@
     {
       "question": "Which component of diet helps in preventing constipation?",
       "options": {
-        "A": "Carbohydrates",
-        "B": "Fiber",
-        "C": "Fats",
-        "D": "Proteins"
+        "A": "Fats",
+        "B": "Proteins",
+        "C": "Fibers",
+        "D": "Carbohydrates"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Which of the following diseases affects the skin?",
@@ -2557,7 +2559,8 @@
         "A": "Behavior of human beings",
         "B": "Insects",
         "C": "Scientific terms",
-        "D": "The formation of rocks"
+        "D": "The formation of rocks",
+        "E": "Plants"
       },
       "correct": "B"
     },
@@ -2587,7 +2590,8 @@
         "A": "Hygrometer",
         "B": "Anemometer",
         "C": "Bolometer",
-        "D": "Galvanometer"
+        "D": "Galvanometer",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -2727,7 +2731,8 @@
         "A": "Solar",
         "B": "Chemical",
         "C": "Electrical",
-        "D": "Mechanical"
+        "D": "Mechanical",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -2854,12 +2859,12 @@
     {
       "question": "What poisonous gas is contained in the exhaust fumes from cars?",
       "options": {
-        "A": "Ammonia",
-        "B": "Carbon monoxide",
-        "C": "Sulfur dioxide",
-        "D": "None of these"
+        "A": "ammonia",
+        "B": "coal gas",
+        "C": "carbon monoxide",
+        "D": "sulphur dioxide"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Experience to sunlight results in formation of ______?",
@@ -3124,12 +3129,12 @@
     {
       "question": "Lunar eclipse occurs on:",
       "options": {
-        "A": "New moon",
-        "B": "Half moon",
-        "C": "Full moon",
-        "D": "Quarter moon"
+        "A": "Full Moon",
+        "B": "Half Moon",
+        "C": "Quarter Moon",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which Gas is used in the preparation of Soft drinks?",
@@ -3154,22 +3159,22 @@
     {
       "question": "Let us suppose a mass on Earth be 100 kg. What will be mass on moon?",
       "options": {
-        "A": "Less than 100 kg",
-        "B": "More than 100 kg",
+        "A": "more than 100 kg",
+        "B": "less than 100 kg",
         "C": "100 kg (perfectly)",
-        "D": "None of these"
+        "D": "No proper information"
       },
       "correct": "C"
     },
     {
       "question": "North and South poles are separated by?",
       "options": {
-        "A": "The International Date Line",
-        "B": "The plane of tropic of cancer",
-        "C": "Plane of Equator",
+        "A": "Plane of Equator",
+        "B": "The international date line",
+        "C": "The plane of tropic of cancer",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Parkinson is a disease of _____?",
@@ -3214,12 +3219,12 @@
     {
       "question": "Which of the following is considered the largest archipelago of the world?",
       "options": {
-        "A": "Indonesia",
-        "B": "Philippines",
+        "A": "Philippines",
+        "B": "Indonesia",
         "C": "Virgin Islands",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The Earth is the _____ largest planet of the solar system.",
@@ -3254,12 +3259,12 @@
     {
       "question": "Which unit is used to measure latitudes of earth?",
       "options": {
-        "A": "Degrees",
-        "B": "Radian",
+        "A": "Radian",
+        "B": "Degrees",
         "C": "Angular Unit",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Trachea disease concerns _____?",
@@ -3377,7 +3382,8 @@
         "A": "Spleen",
         "B": "Liver",
         "C": "Bone Marrow",
-        "D": "Heart"
+        "D": "Heart",
+        "E": "Kidney"
       },
       "correct": "C"
     },
@@ -3455,7 +3461,7 @@
       "question": "Which of the following metals is not Only magnetic but also radioactive?",
       "options": {
         "A": "Thorium",
-        "B": "Aluminium",
+        "B": "Aluminum",
         "C": "Iron",
         "D": "None of these"
       },
@@ -3557,7 +3563,8 @@
         "A": "Edward Teller",
         "B": "Charles Darwin",
         "C": "Charlas Babbage",
-        "D": "Einstein"
+        "D": "Einstein",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -3637,7 +3644,8 @@
         "A": "Sudden Heavy floods",
         "B": "No rain for a long time",
         "C": "Heavy showers",
-        "D": "Winds and rains"
+        "D": "Winds and rains",
+        "E": "All of these"
       },
       "correct": "C"
     },
@@ -3694,12 +3702,12 @@
     {
       "question": "What is the weight of the average human brain?",
       "options": {
-        "A": "1.9 kg",
-        "B": "1.4 kg",
+        "A": "1.5 kg",
+        "B": "1.9 kg",
         "C": "2.3 kg",
-        "D": "None of these"
+        "D": "2.7 kg"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "White blood cells also called leukocytes fight against?",
@@ -3777,7 +3785,8 @@
         "A": "Jupiter",
         "B": "Neptune",
         "C": "Mercury",
-        "D": "Saturn"
+        "D": "Saturn",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -3854,12 +3863,12 @@
     {
       "question": "What is an average age of horse?",
       "options": {
-        "A": "35-40 years",
-        "B": "20-25 years",
-        "C": "25-30 years",
-        "D": "None of these"
+        "A": "20-25 years",
+        "B": "25-30 years",
+        "C": "30-35 years",
+        "D": "35-40 years"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Eugenics is the science of improving ______ species by breeding out disease and disabilities.",
@@ -3974,12 +3983,12 @@
     {
       "question": "Which of the following pair is incorrect?",
       "options": {
-        "A": "Sparrow : Trumpet",
-        "B": "Horse : Neigh",
-        "C": "Monkey : Polytities",
-        "D": "Owl : Chirp"
+        "A": "Monkey : polylities",
+        "B": "Owl : Chirp",
+        "C": "Horse : Neigh",
+        "D": "Sparrow : Trumpet"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Biome is community of _____?",
@@ -4006,8 +4015,8 @@
       "options": {
         "A": "Volatile",
         "B": "Viscous",
-        "C": "Evapurative",
-        "D": "None of the above"
+        "C": "Evaporative",
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -4047,7 +4056,7 @@
         "A": "Gypsum",
         "B": "Mercury",
         "C": "Limestone",
-        "D": "none"
+        "D": "Granite"
       },
       "correct": "B"
     },
@@ -4064,12 +4073,12 @@
     {
       "question": "Which bird eats pebbles for helping digestion by grinding up the ingested food?",
       "options": {
-        "A": "Pigeon",
-        "B": "Hen",
-        "C": "Ostrich",
-        "D": "Owl"
+        "A": "Owl",
+        "B": "Ostrich",
+        "C": "Hen",
+        "D": "Pigeon"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Scotograph is an instrument for _____?",
@@ -4114,12 +4123,12 @@
     {
       "question": "Which of the following can be used to focus sunlight at one point?",
       "options": {
-        "A": "Concave Mirror",
-        "B": "Convex lens",
-        "C": "Plane Mirror",
-        "D": "Concave lens"
+        "A": "Plane Mirror",
+        "B": "Concave lens",
+        "C": "Concave Mirror",
+        "D": "Convex lens"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Organisms encode their genes in long strands of _____?",
@@ -4194,12 +4203,12 @@
     {
       "question": "What is the meaning of Benton?",
       "options": {
-        "A": "Good manners",
-        "B": "Afresh",
-        "C": "Farewell",
-        "D": "Authority"
+        "A": "Afresh",
+        "B": "Good manners",
+        "C": "A place name",
+        "D": "Authority (AI)"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Biogas is the name of _____?",
@@ -4244,12 +4253,12 @@
     {
       "question": "What should be given to an athlete for instant energy?",
       "options": {
-        "A": "Carbohydrates",
-        "B": "Vitamin",
-        "C": "Fats",
-        "D": "Protein"
+        "A": "Vitamin",
+        "B": "Fats",
+        "C": "Protein",
+        "D": "Carbohydrates"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Muscular and nervous disorder is due to lack of which vitamin?",
@@ -4304,12 +4313,12 @@
     {
       "question": "Which hormone is responsible for production of milk in human body?",
       "options": {
-        "A": "Testosterone",
-        "B": "Oxytocin",
-        "C": "Prolactin",
-        "D": "Thyroxin"
+        "A": "Oxytocin",
+        "B": "Prolactin",
+        "C": "Thyroxin",
+        "D": "Testosterone"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Pollination by birds is called?",
@@ -4377,7 +4386,8 @@
         "A": "Spleen",
         "B": "Kidney",
         "C": "Lungs",
-        "D": "Heart"
+        "D": "Heart",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -4427,7 +4437,8 @@
         "A": "Heat energy",
         "B": "Electrical signals",
         "C": "Optical Signals",
-        "D": "Microwaves"
+        "D": "Microwaves",
+        "E": "both b & d"
       },
       "correct": "B"
     },
@@ -4474,10 +4485,10 @@
     {
       "question": "Which catalyst is used for separation of Oxygen and Hydrogen in water (H2O)?",
       "options": {
-        "A": "Heat",
-        "B": "Nitric Acid",
+        "A": "Sodium Chloride",
+        "B": "Heat",
         "C": "Electricity",
-        "D": "Sodium Chloride"
+        "D": "Nitric Acid"
       },
       "correct": "C"
     },
@@ -4637,7 +4648,7 @@
         "A": "The average operation of the Earth's surface will increase gradually",
         "B": "The oxygen content of the atmosphere will decrease",
         "C": "Increased amount of UV rays will reach Earth's surface",
-        "D": "Sea levels will rise as the glaciers' caps will gradually melt"
+        "D": "Sea levels will rise as the polar ice caps will gradually melt"
       },
       "correct": "C"
     },
@@ -4927,8 +4938,10 @@
         "A": "Curtist Youngs",
         "B": "Albert Einstein",
         "C": "Hugo de Vries",
-        "D": "Flemming"
-      }
+        "D": "Flemming",
+        "E": "Ian Wilmut"
+      },
+      "correct": "E"
     },
     {
       "question": "Deficiency of vitamin A causes? Loss of appetite, Night blindness ,Thought infection ,Both A and B",
@@ -5126,7 +5139,8 @@
         "A": "Contaminated food or water",
         "B": "Coughing",
         "C": "Touch",
-        "D": "All"
+        "D": "All",
+        "E": "None"
       },
       "correct": "D"
     },

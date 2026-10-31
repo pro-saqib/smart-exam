@@ -4,12 +4,12 @@
     {
       "question": "Which kind of system of government was introduced in 1962 constitution?",
       "options": {
-        "A": "Presidential",
-        "B": "Autonomous",
-        "C": "Confederate",
-        "D": "Bicameral"
+        "A": "Bicameral",
+        "B": "Presidential",
+        "C": "Parliamentary",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The Tashkent declaration between Pakistan and India was signed on?",
@@ -24,12 +24,12 @@
     {
       "question": "Who introduced the Basic Democracy?",
       "options": {
-        "A": "Liaquat Ali Khan",
-        "B": "Ayoub Khan",
-        "C": "Muhammad Ali Bogra",
-        "D": "None of these"
+        "A": "Ayub Khan",
+        "B": "Bhutto",
+        "C": "Zia",
+        "D": "None of above"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Islamabad was officially made the capital of Pakistan in _____?",
@@ -52,14 +52,14 @@
       "correct": "B"
     },
     {
-      "question": "Who is the Current Secretary General of OIC?",
+      "question": "Who is the current Secretary General of OIC?",
       "options": {
-        "A": "Ismail Ould Cheikh Ahmed",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
+        "A": "Iyad Madani",
+        "B": "Hissein Brahim Taha",
+        "C": "Yousef Al-Othaimeen",
+        "D": "Ismail Ould Cheikh Ahmed"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Who invented Telephone?",
@@ -94,12 +94,12 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The second largest Continent (by area) of the world is ______?",
@@ -124,10 +124,10 @@
     {
       "question": "Who was the second Prime Minister of Pakistan?",
       "options": {
-        "A": "Ch Muhammad Ali",
-        "B": "Kh. Nazim-ud-Din",
-        "C": "Liaquat Ali Khan",
-        "D": "D. Feroze Khan Noon"
+        "A": "Liaqat Ali Khan",
+        "B": "Khawaja Nazim-ud-Din",
+        "C": "Ch. Muhammad Ali",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -174,12 +174,12 @@
     {
       "question": "Where is the Statue of Liberty located?",
       "options": {
-        "A": "Washington, D.C.",
-        "B": "Liberty Island, New York City, USA",
-        "C": "Los Angeles, California",
-        "D": "None of these"
+        "A": "Washington",
+        "B": "Chicago",
+        "C": "New York",
+        "D": "Los Angeles"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Which country has the longest coastline in the world?",
@@ -204,9 +204,9 @@
     {
       "question": "When was FATA merged into Khyber Pakhtunkhwa (KPK)?",
       "options": {
-        "A": "24th May 2018",
-        "B": "25th May 2018",
-        "C": "26th May 2018",
+        "A": "May 31, 2018",
+        "B": "May 31, 2019",
+        "C": "May 31, 2020",
         "D": "None of these"
       },
       "correct": "A"
@@ -274,12 +274,12 @@
     {
       "question": "What is the capital of Austria?",
       "options": {
-        "A": "Sydney",
-        "B": "Canberra",
-        "C": "Vienna",
-        "D": "None of the above"
+        "A": "Zurich",
+        "B": "Vienna",
+        "C": "Budapest",
+        "D": "Prague"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "When Magna Carta signed by King John of England?",
@@ -304,12 +304,12 @@
     {
       "question": "IMF funds are primarily provided for which of the following?",
       "options": {
-        "A": "Reduction in inflation",
-        "B": "Infrastructure development",
-        "C": "Economic stabilization and reform",
-        "D": "Military assistance"
+        "A": "To ensure a stable exchange rate",
+        "B": "Measures to curb government expenditure",
+        "C": "Humanitarian aid",
+        "D": "Measures to reduce inflation"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Tashkent Declaration with Pakistan was signed by Indian Prime Minister?",
@@ -484,12 +484,12 @@
     {
       "question": "What is the name of the ocean that lies between Europe and the United States?",
       "options": {
-        "A": "Atlantic ocean",
-        "B": "Pacific ocean",
-        "C": "Arctic ocean",
-        "D": "Mediterranean Sea"
+        "A": "Indian ocean",
+        "B": "Pacific Ocean",
+        "C": "Atlantic Ocean",
+        "D": "Arctic Ocean"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Battle of Plassey was fought in ______?",
@@ -617,7 +617,8 @@
         "A": "South Africa",
         "B": "France",
         "C": "Canada",
-        "D": "Kazakhstan"
+        "D": "Kazakhstan",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -644,12 +645,12 @@
     {
       "question": "After the death of Zia ul Haq on 7th August 1988, who was made the President of Pakistan?",
       "options": {
-        "A": "Muhammad khan Junejo",
-        "B": "Ghulam Ishaq Khan",
-        "C": "Farooq Ahmad Leghari",
-        "D": "None of these"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Rakaposhi is located in which mountain range?",
@@ -737,7 +738,8 @@
         "A": "Film Industry",
         "B": "Rare birds",
         "C": "Cars",
-        "D": "Computers"
+        "D": "Computers",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -827,7 +829,8 @@
         "A": "Uzbekistan",
         "B": "Kazakhstan",
         "C": "Kyrgyzstan",
-        "D": "Iraq"
+        "D": "Iraq",
+        "E": "Iran"
       },
       "correct": "A"
     },
@@ -837,17 +840,18 @@
         "A": "3 August 2019",
         "B": "5 August 2019",
         "C": "4 August 2019",
-        "D": "6 August 2019"
+        "D": "6 August 2019",
+        "E": "None of these"
       },
       "correct": "B"
     },
     {
       "question": "Murree was constructed in 1853 at",
       "options": {
-        "A": "Sunny bank",
-        "B": "Nathia gali",
+        "A": "Sunny Bank",
+        "B": "Nathia Gali",
         "C": "Sher Bangala",
-        "D": "None"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -867,7 +871,8 @@
         "A": "Punjab",
         "B": "Khyber Pakhtunkhwa",
         "C": "Balochistan",
-        "D": "Sindh"
+        "D": "Sindh",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -1014,12 +1019,12 @@
     {
       "question": "When was Quaid-e-Azam first appointed as Third Presidency Magistrate in Bombay?",
       "options": {
-        "A": "1899",
-        "B": "1900",
-        "C": "1947",
-        "D": "1930"
+        "A": "1900",
+        "B": "1902",
+        "C": "1903",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "When President Mamnoon Hussain signed the FATA merger bill?",
@@ -1054,12 +1059,12 @@
     {
       "question": "What was the amount of the IMF loan provided to Pakistan in June 2023?",
       "options": {
-        "A": "$1 billion",
-        "B": "$2 billion",
-        "C": "$3 billion",
-        "D": "$4 billion"
+        "A": "$2 billion",
+        "B": "$3 billion",
+        "C": "$4 billion",
+        "D": "$5 billion"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which of the following opposed the Pakistan membership in United Nation?",
@@ -1154,12 +1159,12 @@
     {
       "question": "Who discovered the sea route to India?",
       "options": {
-        "A": "Christopher Columbus",
-        "B": "Ferdinand Magellan",
-        "C": "Vasco da Gama",
-        "D": "Marco Polo"
+        "A": "Hopkins",
+        "B": "Columbus",
+        "C": "Magellan",
+        "D": "Vasco da Gamma"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Which planet has no moon?",
@@ -1267,8 +1272,10 @@
         "A": "Sir Syed Ahmed Khan",
         "B": "Chaudhry Rehmat Ali",
         "C": "Waqar ul Mulk",
-        "D": "Allama Iqbal"
-      }
+        "D": "Allama Iqbal",
+        "E": "Syed Ameer Ali"
+      },
+      "correct": "E"
     },
     {
       "question": "Wall street is, located in ____?",
@@ -1316,7 +1323,8 @@
         "A": "John Vincent Atanasoff",
         "B": "Daglus Elbert",
         "C": "Charles Babbage",
-        "D": "Isaac Newton"
+        "D": "Isaac Newton",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -1353,12 +1361,12 @@
     {
       "question": "The ongoing Israel-Palestine crisis resulted from which 1947 decision?",
       "options": {
-        "A": "Oslo Accords",
-        "B": "Camp David Accords",
-        "C": "UN Partition Plan",
-        "D": "Balfour Declaration"
+        "A": "The Balfour Declaration",
+        "B": "The UN Partition Plan for Palestine",
+        "C": "The creation of the State of Israel",
+        "D": "The Sykes-Picot Agreement"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "What is the meaning of the term Apartheid?",
@@ -1374,31 +1382,31 @@
       "question": "Libya, Algeria, and Tunisia belong to which continent?",
       "options": {
         "A": "Asia",
-        "B": "Europe",
-        "C": "Africa",
+        "B": "Africa",
+        "C": "Europe",
         "D": "South America"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "For what achievement did James Chadwick receive the Nobel Prize in 1935?",
       "options": {
-        "A": "Discovery of the proton",
+        "A": "Discovery of the electron",
         "B": "Discovery of the neutron",
-        "C": "Development of the atomic bomb",
-        "D": "Discovery of radioactivity"
+        "C": "Theory of relativity",
+        "D": "Invention of the microscope"
       },
       "correct": "B"
     },
     {
       "question": "In the early 1970s, Pakistan played a role in rapprochement between which two countries?",
       "options": {
-        "A": "US and USSR",
-        "B": "US and China",
-        "C": "China and India",
-        "D": "USSR and India"
+        "A": "United States and Soviet Union",
+        "B": "India and China",
+        "C": "United States and China",
+        "D": "Pakistan and India"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Thal Nova is a project of which sector?",
@@ -1413,49 +1421,49 @@
     {
       "question": "The UN Charter was finalized at which conference?",
       "options": {
-        "A": "Paris Peace Conference",
-        "B": "Yalta Conference",
+        "A": "Yalta Conference",
+        "B": "Versailles Conference",
         "C": "San Francisco Conference",
-        "D": "Potsdam Conference"
+        "D": "Geneva Conference"
       },
       "correct": "C"
     },
     {
       "question": "Which country is located north of the Gulf of Aden?",
       "options": {
-        "A": "Saudi Arabia",
-        "B": "Oman",
-        "C": "Yemen",
-        "D": "United Arab Emirates"
+        "A": "Yemen",
+        "B": "Somalia",
+        "C": "Djibouti",
+        "D": "Oman"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which country is referred to as the Boot of Europe?",
       "options": {
         "A": "Spain",
-        "B": "Italy",
-        "C": "Greece",
+        "B": "Greece",
+        "C": "Italy",
         "D": "Portugal"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Who is the Christian-turned-Muslim writer of the biography Muhammad: His Life Based on the Earliest Sources?",
       "options": {
         "A": "Karen Armstrong",
-        "B": "Muhammad Asad",
-        "C": "Martin Lings",
-        "D": "Marmaduke Pickthall"
+        "B": "Martin Lings",
+        "C": "William Montgomery Watt",
+        "D": "Reza Aslan"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which ancient civilization developed between the Tigris and Euphrates rivers?",
       "options": {
         "A": "Indus Valley Civilization",
-        "B": "Mesopotamia",
-        "C": "Ancient Egypt",
+        "B": "Mesopotamian Civilization",
+        "C": "Egyptian Civilization",
         "D": "Minoan Civilization"
       },
       "correct": "B"
@@ -1484,11 +1492,11 @@
       "question": "The Houthi uprising is taking place in which country?",
       "options": {
         "A": "Syria",
-        "B": "Yemen",
-        "C": "Iraq",
+        "B": "Iraq",
+        "C": "Yemen",
         "D": "Libya"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Which river is known as mother of rivers",
@@ -1546,7 +1554,7 @@
         "A": "Separate electorates",
         "B": "Separate muslim state",
         "C": "Separation of Sindh from Bombay",
-        "D": "Separate Muslim Eduction"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -1733,10 +1741,10 @@
     {
       "question": "Khanki Headworks is situated on River Chenab in District?",
       "options": {
-        "A": "Lahore",
+        "A": "Narowal",
         "B": "Gujranwala",
         "C": "Mianwali",
-        "D": "Norwal"
+        "D": "Lahore"
       },
       "correct": "B"
     },
@@ -1793,9 +1801,9 @@
     {
       "question": "Who founded Jamat-e-Islami?",
       "options": {
-        "A": "Syed Abul ala maududi",
-        "B": "Iqbal",
-        "C": "Ahsan",
+        "A": "Syed Abul Ala Maududi",
+        "B": "Maula Abul Hassan Ali Nudvi",
+        "C": "Hussain Ahmad",
         "D": "None of these"
       },
       "correct": "A"
@@ -1833,12 +1841,12 @@
     {
       "question": "Mussolini is from which country?",
       "options": {
-        "A": "Italy",
-        "B": "France",
-        "C": "Russia",
-        "D": "None of these"
+        "A": "Germany",
+        "B": "Spain",
+        "C": "Indonesia",
+        "D": "Italy"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Salgotarjan is a city located in?",
@@ -1963,10 +1971,10 @@
     {
       "question": "Who gave six points formula in 1966:",
       "options": {
-        "A": "Lal Bahadur Shastri",
+        "A": "Bahadur Shastri",
         "B": "Sheikh Mujeeb Ur Rehman",
         "C": "Jawaharlal Nehru",
-        "D": "Indiri Gandhi"
+        "D": "Indira Gandhi"
       },
       "correct": "B"
     },
@@ -2083,12 +2091,12 @@
     {
       "question": "Who was the last king of Afghanistan?",
       "options": {
-        "A": "Zahir shah",
-        "B": "Amman ullah",
-        "C": "Nadir shah",
+        "A": "Muhammad Tarkai",
+        "B": "Muhammad Zahir shah",
+        "C": "Ahmed shah Abdali",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "اخوان الصفاء کسی قسم کی تنظیم تھی ؟",
@@ -2214,8 +2222,8 @@
       "question": "Which among the following is a left bank tributary of the Indus river?",
       "options": {
         "A": "Zanskar",
-        "B": "Shyok",
-        "C": "Gilgit",
+        "B": "Gilgit",
+        "C": "Shyok",
         "D": "Kabul"
       },
       "correct": "A"
@@ -2264,11 +2272,11 @@
       "question": "Francois Bernier belongs to which country:",
       "options": {
         "A": "China",
-        "B": "Italy",
-        "C": "France",
+        "B": "France",
+        "C": "Italy",
         "D": "Russia"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "One of the country where alcohol has been very successfully used as motor fuel is:",
@@ -2345,7 +2353,7 @@
       "options": {
         "A": "Uzbekistan",
         "B": "Kazakhstan",
-        "C": "Turkmenistan",
+        "C": "Kyrgyzstan",
         "D": "Tajikistan"
       },
       "correct": "A"
@@ -2686,7 +2694,8 @@
         "A": "Bolan",
         "B": "Jhelum",
         "C": "Dashat",
-        "D": "Hub"
+        "D": "Hub",
+        "E": "None of the above"
       },
       "correct": "C"
     },
@@ -2755,7 +2764,8 @@
         "A": "4 April 2020",
         "B": "1 April 2020",
         "C": "6 April 2020",
-        "D": "30 April 2020"
+        "D": "30 April 2020",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -2772,7 +2782,7 @@
     {
       "question": "Golan Heights are disputed between _________?",
       "options": {
-        "A": "Syria & USA",
+        "A": "Syria  & USA",
         "B": "Israel & Iraq",
         "C": "Israel & Taiwan",
         "D": "Syria & Israel"
@@ -2875,7 +2885,8 @@
         "A": "6",
         "B": "10",
         "C": "4",
-        "D": "3"
+        "D": "3",
+        "E": "5"
       },
       "correct": "C"
     },
@@ -2897,7 +2908,7 @@
         "C": "Warren Hasting",
         "D": "Lord Harding"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "How many seaports are there in Pakistan?",
@@ -2905,7 +2916,8 @@
         "A": "4",
         "B": "3",
         "C": "5",
-        "D": "2"
+        "D": "2",
+        "E": "1"
       },
       "correct": "B"
     },

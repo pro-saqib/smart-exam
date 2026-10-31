@@ -4,20 +4,20 @@
     {
       "question": "Who is the Current Chief Justice of Pakistan (CJP)?",
       "options": {
-        "A": "Justice Umar Ata Bandial",
+        "A": "Justice Yahya Afridi",
         "B": "Justice Qazi Faez Isa",
-        "C": "Justice Yahya Afridi",
-        "D": "None of these"
+        "C": "Justice Mansoor Ali Shah",
+        "D": "Justice Umar Ata Bandial"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Who is the Current Secretary of State of the United States?",
       "options": {
-        "A": "Daniel Bennett Smith",
+        "A": "John Kerry",
         "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
+        "C": "Antony Blinken",
+        "D": "Mike Pompeo"
       },
       "correct": "B"
     },
@@ -34,12 +34,12 @@
     {
       "question": "Who is the Current Prime Minister of Azad Jammu and Kashmir (AJK)?",
       "options": {
-        "A": "Syed Iftikhar Ali Gillani",
-        "B": "Raja Faisal Mumtaz Rathore",
-        "C": "Chaudhry Anwar-ul-Haq",
-        "D": "None of these"
+        "A": "Raja Farooq Haider",
+        "B": "Sardar Tanveer Ilyas",
+        "C": "Syed Iftikhar Ali Gilan",
+        "D": "Chaudhry Anwar-ul-Haq"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Operation Arctic Endurance was launched on which territory due to fears of annexation by the USA?",
@@ -84,12 +84,12 @@
     {
       "question": "Who is the Current President of Cuba?",
       "options": {
-        "A": "Raul Castro",
-        "B": "Fidel Castro",
-        "C": "Miguel Diaz",
-        "D": "None of these"
+        "A": "Miguel Díaz-Canel",
+        "B": "Bruno Rodríguez Parrilla",
+        "C": "Fidel Castro",
+        "D": "Raul Castro"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "What sort of agreement singed between Pakistan and Saudi Arabia in September 2025?",
@@ -104,32 +104,32 @@
     {
       "question": "Who is the Current Governor of Punjab?",
       "options": {
-        "A": "Chaudhry Sarwar",
-        "B": "Baligh Ur Rehman",
-        "C": "Sardar Saleem Haider",
-        "D": "None of these"
+        "A": "Omar Sarfraz Cheema",
+        "B": "Sardar Saleem Haider Khan",
+        "C": "Baligh Ur Rehman",
+        "D": "Chaudhry Sarwar"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the Current Minister for Finance and Revenue of Pakistan?",
       "options": {
         "A": "Muhammad Aurangzeb",
-        "B": "Shamshad Akhtar",
-        "C": "Ishaq Dar",
-        "D": "None of these"
+        "B": "Shaukat Tarin",
+        "C": "Miftah Ismail",
+        "D": "Ishaq Dar"
       },
       "correct": "A"
     },
     {
       "question": "Who is the Current Director General of the Federal Investigation Agency (FIA)?",
       "options": {
-        "A": "Dr. Usman Anwar",
-        "B": "Riffat Mukhtar Raja",
-        "C": "Abdul Khaliq Shaikh",
-        "D": "None of these"
+        "A": "Mohsin Butt",
+        "B": "Ahmad Ishaque Jehangir",
+        "C": "Bashir Memon",
+        "D": "Dr. Usman Anwar"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "The second MILGEM warship PNS Khaibar was launched during a ceremony attended by which leader?",
@@ -184,20 +184,20 @@
     {
       "question": "Who is the Current Governor of Balochistan?",
       "options": {
-        "A": "Abdul Wali Kakar",
-        "B": "Mir Jan Mohammad Jamali",
-        "C": "Jaffar Khan Mandokhail",
-        "D": "None of these"
+        "A": "Syed Zahoor Agha",
+        "B": "Abdul Wali Kakar",
+        "C": "Amanullah Khan Yasinzai",
+        "D": "Jaffar Khan Mandokhail"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who is the Current Chief Minister of Balochistan?",
       "options": {
-        "A": "Mir Abdul Quddus Bizenjo",
-        "B": "Ali Mardan Domki",
+        "A": "Abdul Quddus Bizenjo",
+        "B": "Jam Kamal Khan",
         "C": "Sarfraz Bugti",
-        "D": "Jam Kamal Khan"
+        "D": "Nawab Sanaullah Zehri"
       },
       "correct": "C"
     },
@@ -274,12 +274,12 @@
     {
       "question": "Who is the Current Secretary General of United Nation (UNO)?",
       "options": {
-        "A": "Kofi Annan",
+        "A": "António Guterres",
         "B": "Ban Ki-moon",
-        "C": "António Guterres",
-        "D": "None of these"
+        "C": "Stéphane Dujarric",
+        "D": "Kofi Annan"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Education expenditure as a percentage of GDP in Pakistan was approximately?",
@@ -324,12 +324,12 @@
     {
       "question": "Who is the Current President of Ukraine?",
       "options": {
-        "A": "Leonid Kravchuk",
-        "B": "Petro Poroshenko",
-        "C": "Volodymyr Zelensky",
-        "D": "None of these"
+        "A": "Vitali Klitschko",
+        "B": "Volodymyr Zelenskyy",
+        "C": "Petro Poroshenko",
+        "D": "Denys Shmyhal"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The World Health Organization (WHO) declared the COVID-19 outbreak a global pandemic on ?",
@@ -374,10 +374,10 @@
     {
       "question": "Who is the Current Deputy Chairman of Senate of Pakistan?",
       "options": {
-        "A": "Yousaf Raza Gilani",
-        "B": "Sardar Ayaz Sadiq",
-        "C": "Syedal Khan Nasir",
-        "D": "None of these"
+        "A": "Abdul Ghafoor Haideri",
+        "B": "Saleem Mandviwalla",
+        "C": "Syedaal Khan Nasar",
+        "D": "Mirza Muhammad Afridi"
       },
       "correct": "C"
     },
@@ -504,12 +504,12 @@
     {
       "question": "Who is the current Vice President of USA?",
       "options": {
-        "A": "Donald Trump",
+        "A": "Barack Obama",
         "B": "Kamala Harris",
-        "C": "JD Vance",
-        "D": "None of these"
+        "C": "Donald Trump",
+        "D": "Joe Biden"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Kabir Sidhu is the chairman of which organization?",
@@ -914,12 +914,12 @@
     {
       "question": "Who is the Current IG of National Highways and Motorway Police (NHMP)?",
       "options": {
-        "A": "Khalid Mahmood",
-        "B": "Aamir Zulfiqar Khan",
-        "C": "Allah Dino Khawaja",
-        "D": "Mr. Sultan Ahmad Chaudhry"
+        "A": "Waleed Ahmad",
+        "B": "Salman Ali Khan",
+        "C": "Inam Ghani",
+        "D": "Khalid Mahmood"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Which countries have signed a 10 year contract to operate the Chabahar port?",

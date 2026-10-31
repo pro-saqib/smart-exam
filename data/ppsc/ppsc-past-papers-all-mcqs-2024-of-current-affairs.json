@@ -4,10 +4,10 @@
     {
       "question": "Who is the Current Secretary of State of the United States?",
       "options": {
-        "A": "Daniel Bennett Smith",
+        "A": "John Kerry",
         "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
+        "C": "Antony Blinken",
+        "D": "Mike Pompeo"
       },
       "correct": "B"
     },
@@ -22,64 +22,64 @@
       "correct": "B"
     },
     {
-      "question": "Who is the Current Secretary General of OIC?",
+      "question": "Who is the current Secretary General of OIC?",
       "options": {
-        "A": "Ismail Ould Cheikh Ahmed",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
+        "A": "Iyad Madani",
+        "B": "Hissein Brahim Taha",
+        "C": "Yousef Al-Othaimeen",
+        "D": "Ismail Ould Cheikh Ahmed"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Who is the Current Governor of the State Bank of Pakistan (SBP)?",
       "options": {
-        "A": "Dr Reza Baqir",
-        "B": "Tariq Bajwa",
-        "C": "Jameel Ahmed",
-        "D": "None of these"
+        "A": "Reza Baqir",
+        "B": "Jameel Ahmad",
+        "C": "Ashraf Mahmood Wathra",
+        "D": "Tariq Bajwa"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the Current Chief Minister of Sindh?",
       "options": {
-        "A": "Qaim Ali Shah",
-        "B": "Jam Mir Kamal Khan",
-        "C": "Syed Murad Ali Shah",
-        "D": "None of these"
+        "A": "Imran Ismail",
+        "B": "Murad Ali Shah",
+        "C": "Qaim Ali Shah",
+        "D": "Syed Murad Ali Shah"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the current Prime Minister of the United Kingdom (UK)?",
       "options": {
         "A": "Andy Burnham",
         "B": "Keir Starmer",
-        "C": "Boris Johnson",
-        "D": "None of these"
+        "C": "Rishi Sunak",
+        "D": "Boris Johnson"
       },
       "correct": "A"
     },
     {
       "question": "Who is the Current Foreign Minister of Russia?",
       "options": {
-        "A": "Igor Ivanov",
-        "B": "Yevgeny Primakov",
+        "A": "Andrey Kozyrev",
+        "B": "Dmitry Peskov",
         "C": "Sergey Lavrov",
-        "D": "None of these"
+        "D": "Igor Ivanov"
       },
       "correct": "C"
     },
     {
       "question": "Who is the current Vice President of USA?",
       "options": {
-        "A": "Donald Trump",
+        "A": "Barack Obama",
         "B": "Kamala Harris",
-        "C": "JD Vance",
-        "D": "None of these"
+        "C": "Donald Trump",
+        "D": "Joe Biden"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Which is the world’s most polluted city, as per the US Air Quality Index?",
@@ -96,10 +96,10 @@
       "options": {
         "A": "Donald Trump",
         "B": "Joe Biden",
-        "C": "Bill Clinton",
-        "D": "None of these"
+        "C": "Kamala Harris",
+        "D": "Barack Obama"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which one of the following is a sustainable development goal (SDG) target to be achieved by 2030?",
@@ -124,9 +124,9 @@
     {
       "question": "Who was awarded the UK Brain of the Year Award in 2025?",
       "options": {
-        "A": "Dr. Amjad Saqib",
-        "B": "Dr. Faisal Khan",
-        "C": "Dr. Abdul Qadeer Khan",
+        "A": "Amjad Saqib",
+        "B": "Dr. Abdul Qadeer Khan",
+        "C": "Muhammad Naeem",
         "D": "Dr. Shahid Malik"
       },
       "correct": "A"
@@ -134,22 +134,22 @@
     {
       "question": "Which nation changed all criminal laws from colonial times in July 2024?",
       "options": {
-        "A": "India",
-        "B": "Pakistan",
+        "A": "Pakistan",
+        "B": "India",
         "C": "South Africa",
         "D": "Australia"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who is the Current Chief Secretary of Punjab?",
       "options": {
-        "A": "Abdul Khaliq Khan",
+        "A": "Zahid Akhtar Zaman",
         "B": "Kamran Ali Afzal",
-        "C": "Abdullah Khan Sumbal",
-        "D": "Akhtar Zaman"
+        "C": "Major (r) Azam Suleman Khan",
+        "D": "Abdullah Khan Sumbal"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "In Lahore, Central Business District (CBD) is being developed at ____?",
@@ -174,12 +174,12 @@
     {
       "question": "What is the rank of Pakistan in Global Innovation Index 2021?",
       "options": {
-        "A": "107",
-        "B": "87",
-        "C": "99",
-        "D": "None of these"
+        "A": "99",
+        "B": "109",
+        "C": "129",
+        "D": "161"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "In which event did Kazakhstan win its first-ever Olympic medal?",
@@ -214,10 +214,10 @@
     {
       "question": "Who is the current chairman of the Pakistan Cricket Board (PCB)?",
       "options": {
-        "A": "Ramiz Raja",
-        "B": "Ehsan Mani",
-        "C": "Najam Sethi",
-        "D": "Syed Mohsin Naqvi"
+        "A": "Ehsan Mani",
+        "B": "Najam Sethi",
+        "C": "Ramiz Raja",
+        "D": "Mohsin Naqvi"
       },
       "correct": "D"
     },

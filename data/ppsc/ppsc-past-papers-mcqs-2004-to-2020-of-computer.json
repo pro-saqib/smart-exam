@@ -274,12 +274,12 @@
     {
       "question": "Which of the following holds data and processing instructions temporarily until the CPU needs it?",
       "options": {
-        "A": "Main memory",
-        "B": "ROM",
-        "C": "Control unit",
+        "A": "ROM",
+        "B": "Control Unit",
+        "C": "Main memory",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "A physical connection between the microprocessor memory and other parts of the microcomputer is known as?",
@@ -314,12 +314,12 @@
     {
       "question": "How much data can a single layer, single sided DVD can store?",
       "options": {
-        "A": "34.7 GB",
-        "B": "24.7 GB",
-        "C": "4.7 GB",
-        "D": "14.7 GB"
+        "A": "4.7 GB",
+        "B": "14.7 GB",
+        "C": "24.7 GB",
+        "D": "34.7 GB"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "The files deleted from the computer are stored in _____?",
@@ -405,9 +405,9 @@
       "question": "Which command will you use in PowerPoint if you need to change the color of different objects without changing content?",
       "options": {
         "A": "Design template",
-        "B": "Color scheme",
-        "C": "Object color",
-        "D": "Font color"
+        "B": "Color Scheme",
+        "C": "Object Color",
+        "D": "Font Color"
       },
       "correct": "B"
     },
@@ -504,12 +504,12 @@
     {
       "question": "Which shortcut key is used to moves the cursor one page down?",
       "options": {
-        "A": "Alt + PageDown",
-        "B": "Shift + PageDown",
-        "C": "Ctrl + PageDown",
-        "D": "PageDown"
+        "A": "Ctrl + PageDown",
+        "B": "PageDown",
+        "C": "Shift + PageDown",
+        "D": "Alt + PageDown"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which of following software is used to prepare/create multimedia presentation?",
@@ -634,12 +634,12 @@
     {
       "question": "What is the use of a firewall in a computer?",
       "options": {
-        "A": "For data transmission",
-        "B": "For monitoring",
-        "C": "For security",
-        "D": "For authentication"
+        "A": "To recover lost data",
+        "B": "Protect against unauthorized access and threats",
+        "C": "To increase processing speed",
+        "D": "Monitor website traffic"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The biggest/largest Islamic country by area is _____?",
@@ -734,12 +734,12 @@
     {
       "question": "Which alignment choice spreads the data across the width of the cell?",
       "options": {
-        "A": "Distributed",
-        "B": "Center",
-        "C": "Justify",
-        "D": "None of these"
+        "A": "center",
+        "B": "distributed",
+        "C": "justify",
+        "D": "indent"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which of the following can be renamed?",
@@ -874,12 +874,12 @@
     {
       "question": "Printer is an example of?",
       "options": {
-        "A": "Hard copy",
-        "B": "Soft copy",
-        "C": "Photocopy",
-        "D": "None of these"
+        "A": "Soft copy",
+        "B": "Hard copy",
+        "C": "Photo copy",
+        "D": "Ditto copy"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Default name of a newly created MS Word File is?",
@@ -1015,9 +1015,9 @@
       "question": "BIOS is used for?",
       "options": {
         "A": "Updating system information on network",
-        "B": "Loading system",
+        "B": "Loading operating system",
         "C": "It helps in routing",
-        "D": "It takes inputs from keywords and other devices"
+        "D": "It takes inputs from keywords and other devices."
       },
       "correct": "B"
     },
@@ -1144,12 +1144,12 @@
     {
       "question": "In MS Excel, which function automatically total a column or row of values?",
       "options": {
-        "A": "SUM",
+        "A": "Total",
         "B": "ADD",
-        "C": "TOTAL",
-        "D": "None of these"
+        "C": "SUM",
+        "D": "AVG"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Eight (8) Bits make up a _____?",
@@ -1197,7 +1197,8 @@
         "A": "Hard Drive",
         "B": "Mouse",
         "C": "Keyboard",
-        "D": "Printer"
+        "D": "Printer",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1257,7 +1258,7 @@
         "A": "Misspelled word/Spelling Error",
         "B": "Character mistakes",
         "C": "Grammatical mistakes",
-        "D": "Spacing mistakes"
+        "D": "Spacing  mistakes"
       },
       "correct": "A"
     },
@@ -1294,12 +1295,12 @@
     {
       "question": "In which view headers and footers are visible?",
       "options": {
-        "A": "Normal View",
-        "B": "Page Layout View",
-        "C": "Print Layout View",
-        "D": "Both B and C"
+        "A": "Draft View",
+        "B": "Print Layout View",
+        "C": "Web Layout View",
+        "D": "Outline View"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "In MS Word and Excel, to combine two or more cells into one is called?",
@@ -1314,12 +1315,12 @@
     {
       "question": "Docx is the extension of which of the following?",
       "options": {
-        "A": "MS Excel",
-        "B": "MS Word",
-        "C": "MS PowerPoint",
-        "D": "MS Outlook"
+        "A": "MS Word",
+        "B": "MS Excel",
+        "C": "Power Point",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "A combination of 16 bits is called _____?",
@@ -1467,7 +1468,8 @@
         "A": "Ctrl + Space",
         "B": "Ctrl + Esc",
         "C": "WIN+ Esc",
-        "D": "Alt + Esc"
+        "D": "Alt + Esc",
+        "E": "Shift + Esc"
       },
       "correct": "B"
     },
@@ -1704,12 +1706,12 @@
     {
       "question": "In MS Word 2007, which shortcut key is used to switch to Outline view?",
       "options": {
-        "A": "ALT+CTRL+O",
-        "B": "ALT+CTRL+P",
-        "C": "ALT+SHIFT+O",
+        "A": "ALT+CTRL+P",
+        "B": "ALT+SHIFT+O",
+        "C": "ALT+CTRL+O",
         "D": "ALT+SHIFT+P"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which of following device can store large amount of data",
@@ -1814,12 +1816,12 @@
     {
       "question": "Which of the following is a correct email format of Email address?",
       "options": {
-        "A": "Name.website.com",
-        "B": "Www.nameofebsite.com",
-        "C": "Name@website.com",
-        "D": "Name@website@info"
+        "A": "Name@website.com",
+        "B": "Name.website.com",
+        "C": "Name@website@info",
+        "D": "All of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Within a browser what does a Home do?",
@@ -1974,10 +1976,10 @@
     {
       "question": "Which type of Computer Program would be used to design an invitation card?",
       "options": {
-        "A": "Simulation",
-        "B": "Word Processing",
-        "C": "Desktop Publishing",
-        "D": "Virtual really"
+        "A": "Word processing",
+        "B": "Simulation",
+        "C": "Desktop publishing",
+        "D": "Virtual realty"
       },
       "correct": "C"
     },
@@ -1994,12 +1996,12 @@
     {
       "question": "Which of the following is not a major reason for an email bounce?",
       "options": {
-        "A": "Domain server is down",
-        "B": "Stale file handle",
-        "C": "bad domain name",
-        "D": "Bad user account name"
+        "A": "Bad user account name",
+        "B": "Bad domain name",
+        "C": "Stale file handle",
+        "D": "Domain server is down"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Shortcut key to close an application or a window _____?",
@@ -2134,12 +2136,12 @@
     {
       "question": "What is a Terabyte?",
       "options": {
-        "A": "Flesh memory",
-        "B": "One Trillion byte",
-        "C": "An optical storage medium",
-        "D": "None of these"
+        "A": "An optical storage medium capable of storing vast amounts of information",
+        "B": "A multifunctional operating environment",
+        "C": "Flash memory",
+        "D": "Roughly a trillion bytes"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "To copy a picture of the screen to the clipboard use?",
@@ -2244,12 +2246,12 @@
     {
       "question": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
       "options": {
-        "A": "Animation Scheme",
-        "B": "Slide Transition",
-        "C": "Slide Design",
-        "D": "None of these"
+        "A": "Slide Transition",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "What are the number of columns in MS Excel 2007?",
@@ -2374,12 +2376,12 @@
     {
       "question": "Which of the key is used to close the active window?",
       "options": {
-        "A": "Ctrl+F4",
-        "B": "Ctrl+F5",
-        "C": "Alt+F6",
-        "D": "Alt+F4"
+        "A": "Alt+F4",
+        "B": "Esc+F4",
+        "C": "Ctrl+F4",
+        "D": "Alt+F5"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "Page number is inserted in _____?",
@@ -2525,9 +2527,9 @@
       "question": "What type of operating system MS-DOS is?",
       "options": {
         "A": "Command Line Interface",
-        "B": "Graphical Line Interface",
+        "B": "Graphical User Interface",
         "C": "Multitasking",
-        "D": "Menu Drawn Interface"
+        "D": "Menu Driven Interface"
       },
       "correct": "A"
     },
@@ -2544,12 +2546,12 @@
     {
       "question": "Which file starts MS Word?",
       "options": {
-        "A": "Word.exe.",
-        "B": "Msword.exe.",
-        "C": "Winword.exe",
-        "D": "None of these"
+        "A": "Winword.exe",
+        "B": "MSword.exe",
+        "C": "Word.exe",
+        "D": "Word356.exe"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "ALU is a component of processor, which consists of ____?",
@@ -2564,12 +2566,12 @@
     {
       "question": "In MS Word 2016, which of the following shortcut key is used to use paste special?",
       "options": {
-        "A": "CTRL + V",
-        "B": "CTRL + ALT + V",
+        "A": "CTRL + ALT + V",
+        "B": "CTRL + V",
         "C": "CTRL + TAB + V",
-        "D": "None of these"
+        "D": "ALT + V"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "In MS PowerPoint, on mouse click option can be used by?",
@@ -2584,22 +2586,22 @@
     {
       "question": "To stop a slideshow in MS Power point which of the following option a correct?",
       "options": {
-        "A": "Press Escape",
-        "B": "Press F2",
-        "C": "Press CTRL",
-        "D": "None of these"
+        "A": "Press F2",
+        "B": "Press CTRL",
+        "C": "Press Escape",
+        "D": "Press F5"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "In Microsoft Window 7, which of the following is not a gadget?",
       "options": {
-        "A": "Weather",
-        "B": "Date and time",
-        "C": "Recycle Bin",
-        "D": "None of these"
+        "A": "Recycle Bin",
+        "B": "Weather",
+        "C": "Date and time",
+        "D": "News"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Layout of handout defines _____?",
@@ -2657,7 +2659,8 @@
         "A": "John Vincent Atanasoff",
         "B": "Daglus Elbert",
         "C": "Charles Babbage",
-        "D": "Isaac Newton"
+        "D": "Isaac Newton",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -2754,7 +2757,7 @@
     {
       "question": "Software that assists you, or acts on your behalf, to perform repetitive computer-related tasks is a(n):",
       "options": {
-        "A": "Intelligenagent",
+        "A": "Intelligent Agent",
         "B": "Robot",
         "C": "Fuzzy logic",
         "D": "Genetic algorithm"
@@ -2824,22 +2827,22 @@
     {
       "question": "What is to be used to add text in slide?",
       "options": {
-        "A": "Note box",
-        "B": "Text box",
-        "C": "Comment box",
-        "D": "None of these"
+        "A": "Text box",
+        "B": "Note box",
+        "C": "Text layer",
+        "D": "Comment box"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Reusable optical storage will typically have acronym?",
       "options": {
-        "A": "RW",
-        "B": "CD",
+        "A": "CD",
+        "B": "RW",
         "C": "DVD",
-        "D": "None of these"
+        "D": "ROM"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "A/an _____ appearing on a webpage opens another document which clicked?",
@@ -2924,12 +2927,12 @@
     {
       "question": "How many types of page orientations?",
       "options": {
-        "A": "4",
-        "B": "2",
-        "C": "3",
-        "D": "None of these"
+        "A": "3",
+        "B": "5",
+        "C": "2",
+        "D": "1"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "To fix values in an excel we use _____?",
@@ -2944,12 +2947,12 @@
     {
       "question": "Which of following show document name and information?",
       "options": {
-        "A": "Title Bar",
-        "B": "Format",
-        "C": "Insert tab",
-        "D": "None of these"
+        "A": "Format",
+        "B": "insert tab",
+        "C": "Home",
+        "D": "title Bar"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "In MS Word 2016, the Screenshot is in the?",
@@ -2974,12 +2977,12 @@
     {
       "question": "To set indent, to change Margins and to set tabs show under?",
       "options": {
-        "A": "Home",
-        "B": "Insert",
-        "C": "Ruler",
+        "A": "Ruler",
+        "B": "Home",
+        "C": "Insert",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Illustration group is in which tab?",
@@ -3004,12 +3007,12 @@
     {
       "question": "Which of the following is not a type of chart?",
       "options": {
-        "A": "T-graph",
-        "B": "Pie-chart",
-        "C": "Area chart",
-        "D": "None of these"
+        "A": "Pie-chart",
+        "B": "Area chart",
+        "C": "T-graph",
+        "D": "Line graph"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Photo editor is found in _____?",
@@ -3095,11 +3098,11 @@
       "question": "In Microsoft Window 7, _______ can give you information about weather.",
       "options": {
         "A": "File",
-        "B": "Window explorer",
-        "C": "Gadgets",
-        "D": "Both A and C"
+        "B": "Gadgets",
+        "C": "Window explorer",
+        "D": "Both A and B"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "In PowerPoint 2007 an orderly display information using different media elements is known as?",
@@ -3154,12 +3157,12 @@
     {
       "question": "When creating a new table which method can be used to choose fields from standard databases and tables?",
       "options": {
-        "A": "Create table in Design View",
-        "B": "Create Table by Entering data",
-        "C": "Create Table using wizard",
-        "D": "None of above"
+        "A": "Create table in design view",
+        "B": "Create table using wizard",
+        "C": "Create table by entering data",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The default language of Microsoft Word is ______?",
@@ -3184,12 +3187,12 @@
     {
       "question": "Who invented the Qwerty keyboard?",
       "options": {
-        "A": "Georage Orville",
-        "B": "Christopher Latham Sholes",
+        "A": "Christopher Latham Sholes",
+        "B": "George Orville",
         "C": "Isaac Newton",
         "D": "Kurt Keplan"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Slide ______ of the effects that determine how a slide moves in and out of the view in the slideshow.",
@@ -3337,19 +3340,19 @@
         "A": "Audio",
         "B": "Image",
         "C": "Video",
-        "D": "None of these"
+        "D": "Flash"
       },
       "correct": "C"
     },
     {
       "question": "Which object is the output of the database application?",
       "options": {
-        "A": "Report",
-        "B": "Table",
-        "C": "Form",
-        "D": "Query"
+        "A": "Form",
+        "B": "Query",
+        "C": "Table",
+        "D": "Report"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "To move to the previous cell in a table inserted in a document, press?",
@@ -3367,7 +3370,8 @@
         "A": "Output device",
         "B": "Input device",
         "C": "Hardware",
-        "D": "Software"
+        "D": "Software",
+        "E": "All of these"
       },
       "correct": "B"
     },
@@ -3554,12 +3558,12 @@
     {
       "question": "Which of the following is not used to access the web?",
       "options": {
-        "A": "Modem",
-        "B": "ISDN",
+        "A": "ISDN",
+        "B": "Modem",
         "C": "UDP",
-        "D": "None of these"
+        "D": "DSL"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "In MS Word 2007, which shortcut key is used for \"Go to a page, bookmark, footnote, table, comment, graphic or other location\"?",
@@ -3597,7 +3601,8 @@
         "A": "Alt+Ctrl+M",
         "B": "Alt+Ctrl+C",
         "C": "Shift+Ctrl+M",
-        "D": "Shift+Ctrl+C"
+        "D": "Shift+Ctrl+C",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -3717,7 +3722,8 @@
         "A": "Serial Port",
         "B": "Bus",
         "C": "Modem",
-        "D": "Logic Gate"
+        "D": "Logic Gate",
+        "E": "RAM"
       },
       "correct": "B"
     },
@@ -3827,7 +3833,8 @@
         "A": "A system file",
         "B": "An animated movie file",
         "C": "MS Encarta document",
-        "D": "An image file"
+        "D": "An image file",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -3894,10 +3901,10 @@
     {
       "question": "Which area in an excel window allows entering values and formulas?",
       "options": {
-        "A": "Menu Bar",
-        "B": "Title Bar",
-        "C": "Formula Bar",
-        "D": "None of these"
+        "A": "Title bar",
+        "B": "Menu bar",
+        "C": "Formula bar",
+        "D": "Standard toolbar"
       },
       "correct": "C"
     },
@@ -3934,12 +3941,12 @@
     {
       "question": "Which is used for web page and web address?",
       "options": {
-        "A": "Software",
-        "B": "Search Engine",
-        "C": "Both A and B",
+        "A": "Search engine",
+        "B": "Software",
+        "C": "Both a & b",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Which part of the computer is used for the transfer of data?",
@@ -3984,12 +3991,12 @@
     {
       "question": "The purpose of _____ is to act as holding area, enabling the CPU to manipulate data before transferring it to a device.",
       "options": {
-        "A": "Buffer",
-        "B": "ROM",
-        "C": "Compiler",
-        "D": "None of these"
+        "A": "ROM",
+        "B": "Compiler",
+        "C": "Buffer",
+        "D": "Tabulater"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which is a high speed point-to-point channel for attaching a graphics card to a computer's motherboard, primary to assist in the acceleration of 3D computer graphics?",
@@ -4004,12 +4011,12 @@
     {
       "question": "Which program is used to convert high level programming to low level machine code?",
       "options": {
-        "A": "Tabulator",
-        "B": "Compiler",
-        "C": "Assembler",
-        "D": "None of these"
+        "A": "Assembler",
+        "B": "Distributer",
+        "C": "Compiler",
+        "D": "Tabulater"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Integrated Circuits (ICs) belonged to which generation of computers?",
@@ -4017,7 +4024,8 @@
         "A": "Second",
         "B": "Fourth",
         "C": "First",
-        "D": "Third"
+        "D": "Third",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -4034,12 +4042,12 @@
     {
       "question": "Which shortcut key is used to update selected fields?",
       "options": {
-        "A": "F9",
-        "B": "F4",
-        "C": "F6",
-        "D": "None of these"
+        "A": "F4",
+        "B": "F6",
+        "C": "F9",
+        "D": "F10"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which of the following is not included in the MS Office Package?",
@@ -4067,7 +4075,8 @@
         "A": "F1",
         "B": "F2",
         "C": "F5",
-        "D": "F7"
+        "D": "F7",
+        "E": "All of these"
       },
       "correct": "C"
     },
@@ -4084,12 +4093,12 @@
     {
       "question": "A set of instructions that operates various parts of the Computer Hardware is called?",
       "options": {
-        "A": "URL",
-        "B": "Hardware Manager",
-        "C": "Device",
-        "D": "Software"
+        "A": "Hardware Manager",
+        "B": "Device",
+        "C": "Software",
+        "D": "URL"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "CRT is a technology used in ?",
@@ -4124,22 +4133,22 @@
     {
       "question": "What is the name of programs which control the hardware of computer?",
       "options": {
-        "A": "Operators",
-        "B": "Connecters",
-        "C": "Drivers",
+        "A": "Drives",
+        "B": "Operators",
+        "C": "Connecters",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "How to duplicate values in cell range in Excel 2016?",
       "options": {
-        "A": "Click the conditional formatting button in the styles group of the theme",
-        "B": "Select the range of cell in the work sheet",
+        "A": "Select the range of cell in the work sheet",
+        "B": "Click the conditional formatting button in the styles group of the theme",
         "C": "Both A and B",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "MS Excel displays the current (active) cell address in the ______?",
@@ -4174,12 +4183,12 @@
     {
       "question": "What Cascade Delete option is used for?",
       "options": {
-        "A": "It repeats the recent delete operation to all the records of current table",
-        "B": "It ensures that all the related records will be deleted from parent table is deleted",
-        "C": "It is used to delete all the records of tables in a database",
+        "A": "It is used to delete all the records of all tables in a database",
+        "B": "It repeats the recent delete operation to all the records of current table",
+        "C": "It ensures that all the related records will be deleted automatically when the record from parent table is deleted.",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The MAC operating system is developed by _____?",
@@ -4194,10 +4203,10 @@
     {
       "question": "In MS Excel 2016, which of the following can be used to split windows into two?",
       "options": {
-        "A": "Format > Window",
-        "B": "View > Window> Spilt",
-        "C": "Window > Spilt",
-        "D": "View > Spilt"
+        "A": "Format > window",
+        "B": "View > window > split",
+        "C": "Window > split",
+        "D": "View > split"
       },
       "correct": "B"
     },
@@ -4224,12 +4233,12 @@
     {
       "question": "What term describes a background that appears as a grainy, non-smooth surface?",
       "options": {
-        "A": "Texture",
-        "B": "Velvet",
-        "C": "Pattern",
-        "D": "Gradient"
+        "A": "Pattern",
+        "B": "Gradient",
+        "C": "Texture",
+        "D": "Velvet"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "DOS cannot retrieve any data from the disk if a computer virus corrupts its _____?",
@@ -4254,12 +4263,12 @@
     {
       "question": "Which of the following windows do not have start button?",
       "options": {
-        "A": "Windows 10",
-        "B": "Windows 8",
-        "C": "Windows vista",
+        "A": "Windows Vista",
+        "B": "Windows 7",
+        "C": "Windows 8",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Which was the first Gulf state who recognize Israel?",
@@ -4354,10 +4363,10 @@
     {
       "question": "Which of the following is the latest version of MS Excel?",
       "options": {
-        "A": "Excel 2024",
+        "A": "Excel 2019",
         "B": "Excel 2016",
         "C": "Excel 2017",
-        "D": "Office 365"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -4414,12 +4423,12 @@
     {
       "question": "To access directly font dialogue box in PowerPoint which shortcut key used?",
       "options": {
-        "A": "Ctrl+T",
-        "B": "Ctrl+C",
-        "C": "Ctrl+E",
-        "D": "Ctrl+R"
+        "A": "Ctrl + C",
+        "B": "Ctrl + R",
+        "C": "Ctrl + E",
+        "D": "Ctrl + T"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "In Microsoft PowerPoint, two kinds of sound effects files that can be added to the presentation are?",
@@ -4434,12 +4443,12 @@
     {
       "question": "What category of web-based system would you assign to discussion groups?",
       "options": {
-        "A": "Online communities",
-        "B": "Collaborative work",
+        "A": "Collaborative work",
+        "B": "Online communities",
         "C": "Web portals",
         "D": "Workflow-oriented"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "In the computer which part is the most complicated?",
@@ -4484,12 +4493,12 @@
     {
       "question": "Which of these terms refers to the sharpness or clarity of an image?",
       "options": {
-        "A": "Depth",
-        "B": "Dot pitch",
-        "C": "Resolution",
-        "D": "Width"
+        "A": "Width",
+        "B": "Resolution",
+        "C": "Dot pitch",
+        "D": "Depth"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The best orientation to fix maximum columns on a single sheet for print is _____?",
@@ -4567,7 +4576,8 @@
         "A": "Twitter",
         "B": "Facebook",
         "C": "YouTube",
-        "D": "Google"
+        "D": "Google",
+        "E": "Instagram"
       },
       "correct": "D"
     },
@@ -4834,10 +4844,10 @@
     {
       "question": "To move between the worksheets in a workbook in MS Excel, we can use which of the following shortcut?",
       "options": {
-        "A": "ALT+=",
-        "B": "Ctrl+Tab",
-        "C": "Ctrl+F",
-        "D": "Ctrl+Page up/Page Down"
+        "A": "Alt + =",
+        "B": "Ctrl + F9",
+        "C": "Ctrl + Tab",
+        "D": "Ctrl + Page up"
       },
       "correct": "D"
     },
@@ -4917,7 +4927,8 @@
         "A": "Motherboard",
         "B": "Hard Disk Drive",
         "C": "Central processing unit",
-        "D": "All of the above"
+        "D": "All of the above",
+        "E": "None"
       },
       "correct": "D"
     },
@@ -5094,12 +5105,12 @@
     {
       "question": "Which of the following EXCEL feature allows users to evaluate values and return a result?",
       "options": {
-        "A": "Formula",
-        "B": "Formating",
-        "C": "Filters",
-        "D": "None of these"
+        "A": "Filters",
+        "B": "Insertions",
+        "C": "Formatting",
+        "D": "Formulas"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Words having similar meanings are called:",

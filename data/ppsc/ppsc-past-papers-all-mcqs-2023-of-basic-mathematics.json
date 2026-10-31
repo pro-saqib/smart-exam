@@ -404,20 +404,20 @@
     {
       "question": "Bringing all parties to an agreement is termed as:",
       "options": {
-        "A": "joinder",
-        "B": "consensus",
-        "C": "contract",
-        "D": "none of these"
+        "A": "Joinder",
+        "B": "Consensus",
+        "C": "Contract",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Verification refers to:",
       "options": {
-        "A": "confirming ownership",
-        "B": "valuation and possession",
-        "C": "actual existence",
-        "D": "all of these"
+        "A": "Confirming ownership",
+        "B": "Valuation and Possession",
+        "C": "Actual existence",
+        "D": "All of these"
       },
       "correct": "D"
     },
@@ -434,10 +434,10 @@
     {
       "question": "The average of the data is also known as:",
       "options": {
-        "A": "harmonic mean",
-        "B": "arithmetic mean",
-        "C": "geometric mean",
-        "D": "sample mean"
+        "A": "Harmonic mean",
+        "B": "Arithmetic mean",
+        "C": "Geometric mean",
+        "D": "Sample mean"
       },
       "correct": "B"
     },
@@ -454,30 +454,30 @@
     {
       "question": "Which of the following is a method that is commonly used in qualitative research?",
       "options": {
-        "A": "self-completion questionnaires",
-        "B": "surveys",
-        "C": "ethnography",
-        "D": "structured observation"
+        "A": "Self-completion questionnaires",
+        "B": "Surveys",
+        "C": "Ethnography",
+        "D": "Structured observation"
       },
       "correct": "C"
     },
     {
       "question": "At breakeven point:",
       "options": {
-        "A": "total expenses = total revenue",
-        "B": "total expenses > total revenue",
-        "C": "total expenses < total revenue",
-        "D": "none"
+        "A": "Total expenses = Total revenue",
+        "B": "Total expenses > Total revenue",
+        "C": "Total expenses < Total revenue",
+        "D": "None of these"
       },
       "correct": "A"
     },
     {
       "question": "Capital Structure is an optimal mix of which one of the following options:",
       "options": {
-        "A": "sales and product",
-        "B": "debt and equity",
-        "C": "current assets and fixed assets",
-        "D": "none"
+        "A": "Sales and profits",
+        "B": "Debt and equity",
+        "C": "Current assets and fixed assets",
+        "D": "None of these"
       },
       "correct": "B"
     },

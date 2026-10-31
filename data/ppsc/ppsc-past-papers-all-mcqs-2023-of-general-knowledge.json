@@ -74,12 +74,12 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Big Ben clock is located in which city?",
@@ -664,10 +664,10 @@
     {
       "question": "What is name of Iran’s new currency?",
       "options": {
-        "A": "France",
-        "B": "Italy",
-        "C": "Greece",
-        "D": "Russia"
+        "A": "Iranian rial",
+        "B": "Lira",
+        "C": "Taka",
+        "D": "Rupee"
       },
       "correct": "A"
     },
@@ -757,7 +757,8 @@
         "A": "1556-1578",
         "B": "1689-1694",
         "C": "1789-1799",
-        "D": "1800-1810"
+        "D": "1800-1810",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -767,7 +768,8 @@
         "A": "Europe",
         "B": "Asia",
         "C": "North America",
-        "D": "South America"
+        "D": "South America",
+        "E": "Australia"
       },
       "correct": "B"
     },
@@ -917,8 +919,10 @@
         "A": "Bhutan",
         "B": "Nepal",
         "C": "Sri Lanka",
-        "D": "Afghanistan"
-      }
+        "D": "Afghanistan",
+        "E": "Bangladesh"
+      },
+      "correct": "E"
     },
     {
       "question": "After how many days did the Chinese city of Wuhan open after the coronavirus lockdown?",
@@ -1113,12 +1117,12 @@
     {
       "question": "What is name of Iran’s new currency?",
       "options": {
-        "A": "Roman",
-        "B": "Sian",
-        "C": "Bron",
-        "D": "Toman"
+        "A": "Iranian rial",
+        "B": "Lira",
+        "C": "Taka",
+        "D": "Rupee"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "Germany remained in allied from 1945 to _____?",
@@ -1206,7 +1210,8 @@
         "A": "Prime Minister of Nepal",
         "B": "King of Bhutan",
         "C": "President of Maldives",
-        "D": "Prime Minister of Sri Lanka"
+        "D": "Prime Minister of Sri Lanka",
+        "E": "President of France"
       },
       "correct": "D"
     },
@@ -1253,12 +1258,12 @@
     {
       "question": "Iron Dome is a Mobile Defence system developed by which country?",
       "options": {
-        "A": "Israel",
-        "B": "Iran",
-        "C": "Japan",
-        "D": "USA"
+        "A": "USA",
+        "B": "China",
+        "C": "Israel",
+        "D": "Iran"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Geneva is a famous city of _____?",
@@ -1403,12 +1408,12 @@
     {
       "question": "Select the correct passive form of the given sentence. They should follow all the instructions carefully.",
       "options": {
-        "A": "All the instructions should be carefully followed by them.",
-        "B": "Let the instructions be read carefully",
+        "A": "Let the instructions be read carefully",
+        "B": "All the instructions should be carefully followed by them.",
         "C": "All the instructions will be carefully followed by them.",
         "D": "All the instructions would be carefully followed by them."
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Probability of something in interest rate of XXX.",
@@ -1846,7 +1851,8 @@
         "A": "Gabon",
         "B": "Laos",
         "C": "Lesotho",
-        "D": "Niue"
+        "D": "Niue",
+        "E": "Congo"
       },
       "correct": "C"
     },
@@ -1916,7 +1922,8 @@
         "A": "Japan",
         "B": "Qatar",
         "C": "Australia",
-        "D": "China"
+        "D": "China",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2003,12 +2010,12 @@
     {
       "question": "Who is popularly known as Father of Indian Constitution?",
       "options": {
-        "A": "Jawaharlal Nehru",
-        "B": "Rajendra Prasad",
-        "C": "Dr. Bhimrao Ramji Ambedkar",
-        "D": "Mahatma Gandhi"
+        "A": "B.R Ambedkar",
+        "B": "Jawaharlal Nehru",
+        "C": "Mahatama Gandhi",
+        "D": "Bal Gangadhar Tilak"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Cloud gate located in ----------?",
@@ -2028,7 +2035,7 @@
         "C": "Peaceful Engagement",
         "D": "War on terrorism"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "After Cold War a new cold war or cold war 2 has arisen between:",
@@ -2203,12 +2210,12 @@
     {
       "question": "The largest producer of electricity in the Islamic World is:",
       "options": {
-        "A": "Saudi Arabia",
-        "B": "Pakistan",
-        "C": "Uzbekistan",
-        "D": "Turkey"
+        "A": "Kazakhstan",
+        "B": "Uzbekistan",
+        "C": "Saudi Arabia",
+        "D": "Tajikistan"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Carrie Logar bill authorised non military aid to Pakistan for a period of :",

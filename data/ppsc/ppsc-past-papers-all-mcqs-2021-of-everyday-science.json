@@ -137,7 +137,8 @@
         "A": "Vitamin K",
         "B": "Vitamin B",
         "C": "Vitamin C",
-        "D": "Vitamin D"
+        "D": "Vitamin D",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -224,12 +225,12 @@
     {
       "question": "Name the element which is used to fabricate solar cells and transistors?",
       "options": {
-        "A": "Germanium",
-        "B": "Iron",
-        "C": "Silicon",
+        "A": "Silicon",
+        "B": "Germanium",
+        "C": "Iron",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Bronze is an alloy of _____?",
@@ -294,12 +295,12 @@
     {
       "question": "Name the acid which is present in the sting of ants?",
       "options": {
-        "A": "Oxalic Acid",
-        "B": "Tartaric Acid",
-        "C": "Formic Acid",
+        "A": "Formic Acid",
+        "B": "Oxalic Acid",
+        "C": "Tartaric Acid",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Proton was discovered by _____?",
@@ -344,12 +345,12 @@
     {
       "question": "Which metal is used in the florescent tubes and bulb of thermometer?",
       "options": {
-        "A": "Mercury",
+        "A": "Copper",
         "B": "Iron",
-        "C": "Copper",
+        "C": "Mercury",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Ozone is an allotropic form of?",
@@ -584,12 +585,12 @@
     {
       "question": "How many Neutrons in Hydrogen?",
       "options": {
-        "A": "2",
+        "A": "0",
         "B": "1",
-        "C": "0",
-        "D": "None of these"
+        "C": "2",
+        "D": "3"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "The Third most abundant element is ______?",
@@ -614,12 +615,12 @@
     {
       "question": "Which acid is used in fermentation process of food?",
       "options": {
-        "A": "HCL",
+        "A": "Acetic Acid",
         "B": "Lactic Acid",
-        "C": "Acetic Acid",
+        "C": "HCL",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The most common element to all perfumes is _____?",
@@ -684,12 +685,12 @@
     {
       "question": "Gold, Silver and Copper are ________ minerals.",
       "options": {
-        "A": "Natural",
-        "B": "Solid",
-        "C": "Hard",
+        "A": "Solid",
+        "B": "Hard",
+        "C": "Natural",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The function of transformer is _____?",
@@ -1044,9 +1045,9 @@
     {
       "question": "With no air resistance regardless of their masses, the bodies fall with",
       "options": {
-        "A": "Same acceleration",
-        "B": "Different acceleration",
-        "C": "Same velocity",
+        "A": "same acceleration",
+        "B": "different acceleration",
+        "C": "same velocity",
         "D": "None of these"
       },
       "correct": "A"

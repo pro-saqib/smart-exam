@@ -284,12 +284,12 @@
     {
       "question": "دامن تر ہونا محاورہ ہے اس کا مفہوم کیا ہے؟",
       "options": {
-        "A": "گناہ گار ہونا",
-        "B": "مصیبت میں پڑ جانا",
-        "C": "اولاد ہونا",
-        "D": "ان میں سے کوئی نہیں"
+        "A": "آنسو سے بھیگ جانا",
+        "B": "گناہ گار ہونا",
+        "C": "غم میں شریک ہونا",
+        "D": "پیاس بجھانا"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "حسد نیکیوں کو اس طرح کھا جاتا ہے جس طرح آگ ـــــــ کو؟",
@@ -334,12 +334,12 @@
     {
       "question": "Change narration: The mother said to her son, \"May you be successful\".",
       "options": {
-        "A": "The mother prayed that his son might be successful",
-        "B": "The mother prayed by her son might be successful",
-        "C": "The mother prayed that her son might be successful",
-        "D": "The mother prayed that her son may be successful"
+        "A": "The mother prayed that her son might be successful.",
+        "B": "The mother prayed that his son might be successful.",
+        "C": "The mother prayed that her son may be successful.",
+        "D": "[not printed in source]"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "My friend and brother always ___ me in my studies.",

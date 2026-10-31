@@ -1,7 +1,7 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
 import { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { adminListUsers, adminUpdateUserRole } from "@/lib/db-actions";
+import { adminListUsers, adminUpdateUserRole, dbClearAttempts } from "@/lib/db-actions";
 import {
   Users,
   ShieldCheck,
@@ -36,6 +36,18 @@ function AdminUsersPage() {
   const { data: users = [], isLoading, error } = useQuery({
     queryKey: ["admin", "users"],
     queryFn: () => adminListUsers(),
+  });
+
+  const clearAttemptsMutation = useMutation({
+    mutationFn: (vars: { userId: string }) =>
+      dbClearAttempts({ data: vars }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["admin", "users"] });
+      toast.success("Attempts cleared successfully");
+    },
+    onError: (err: any) => {
+      toast.error(err.message || "Failed to clear attempts");
+    },
   });
 
   const updateRoleMutation = useMutation({
@@ -234,9 +246,23 @@ function AdminUsersPage() {
                       </td>
 
                       <td className="py-3 px-4">
-                        <div className="flex items-center gap-1.5 text-foreground font-medium text-xs">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
-                          <span>{u.totalAttempts} MCQs attempted</span>
+                        <div className="flex items-center gap-1.5">
+                          <button
+                            onClick={async () => {
+                              if (confirm("Are you sure you want to clear all attempts for this user? This cannot be undone.")) {
+                                clearAttemptsMutation.mutate({ userId: u.id });
+                              }
+                            }}
+                            className="text-xs text-destructive hover:underline cursor-pointer disabled:opacity-50"
+                            disabled={clearAttemptsMutation.isPending}
+                          >
+                            Clear Attempts
+                          </button>
+                          <span className="text-xs text-muted-foreground">·</span>
+                          <div className="flex items-center gap-1.5 text-foreground font-medium text-xs">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
+                            <span>{u.totalAttempts} MCQs attempted</span>
+                          </div>
                         </div>
                       </td>
 

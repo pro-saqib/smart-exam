@@ -124,12 +124,12 @@
     {
       "question": "What is the Circumference of Earth?",
       "options": {
-        "A": "450,000 km",
-        "B": "50,075 km",
-        "C": "40,075 km",
-        "D": "30,000 km"
+        "A": "30,000 km",
+        "B": "40,000 km",
+        "C": "50,000 km",
+        "D": "20,000 km"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which of the following is a landlocked country? Uganda, Hungry, Kenya, Both A and",

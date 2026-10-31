@@ -105,7 +105,7 @@
       "question": "What type of reaction takes place in sun?",
       "options": {
         "A": "Fusion reaction",
-        "B": "Nuclear reaction",
+        "B": "Nuclear  reaction",
         "C": "Both A and B",
         "D": "None of these"
       },
@@ -335,7 +335,7 @@
       "question": "Which resources are non-renewable?",
       "options": {
         "A": "Geo thermal",
-        "B": "Fossil fules",
+        "B": "Fossil fuels",
         "C": "Solar",
         "D": "None of these"
       },
@@ -347,7 +347,8 @@
         "A": "Vitamin K",
         "B": "Vitamin B",
         "C": "Vitamin C",
-        "D": "Vitamin D"
+        "D": "Vitamin D",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -444,12 +445,12 @@
     {
       "question": "Who invented dynamite?",
       "options": {
-        "A": "Dr. Alfred B. Nobel",
-        "B": "H. W. Seeley",
-        "C": "Lionel Lukin",
-        "D": "Roger Bacon"
+        "A": "Newton",
+        "B": "Edison",
+        "C": "Alfred Nobel",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Astronomy is the study of _______?",
@@ -824,9 +825,9 @@
     {
       "question": "Which mushroom is not edible?",
       "options": {
-        "A": "Amanita phalloides",
-        "B": "Oyster mushroom",
-        "C": "Straw mushroom",
+        "A": "Amanita Phalloides",
+        "B": "Oyster Mushrooms",
+        "C": "Straw Mushrooms",
         "D": "None of these"
       },
       "correct": "A"
@@ -954,12 +955,12 @@
     {
       "question": "What is the last planet in the solar system?",
       "options": {
-        "A": "Saturn",
-        "B": "Neptune",
-        "C": "Uranus",
+        "A": "Uranus",
+        "B": "Saturn",
+        "C": "Neptune",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Electrical activity of the brain is measured by ______?",
@@ -1215,11 +1216,11 @@
       "question": "Which one is not a vestigial organ of human being?",
       "options": {
         "A": "Appendix",
-        "B": "Eye lid",
-        "C": "Coccyx",
+        "B": "Coccyx",
+        "C": "Eye lid",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Snowcapped mountains are found on which of the following planet?",
@@ -1367,7 +1368,8 @@
         "A": "Dash",
         "B": "Bracket",
         "C": "Comma",
-        "D": "Full Stop"
+        "D": "Full Stop",
+        "E": "All of these"
       },
       "correct": "A"
     },
@@ -1377,7 +1379,8 @@
         "A": "Oxygen",
         "B": "Carbon dioxide",
         "C": "Hydrogen",
-        "D": "None of these"
+        "D": "None of these",
+        "E": "All of these"
       },
       "correct": "B"
     },
@@ -1404,10 +1407,10 @@
     {
       "question": "One nautical mile is equal to how many kilometers?",
       "options": {
-        "A": "1851 kilometers",
-        "B": "1853 kilometers",
-        "C": "1852 kilometers",
-        "D": "1854 kilometers"
+        "A": "1.613",
+        "B": "1.932",
+        "C": "1.853",
+        "D": "1.766"
       },
       "correct": "C"
     },
@@ -1636,7 +1639,7 @@
       "options": {
         "A": "Aqueous solutions",
         "B": "Base",
-        "C": "Hydroxide",
+        "C": "Hydroxides",
         "D": "None of these"
       },
       "correct": "B"

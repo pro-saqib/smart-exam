@@ -4,70 +4,70 @@
     {
       "question": "Who is the Current Secretary of State of the United States?",
       "options": {
-        "A": "Daniel Bennett Smith",
+        "A": "John Kerry",
         "B": "Marco Rubio",
-        "C": "Mike Pompeo",
-        "D": "None of these"
+        "C": "Antony Blinken",
+        "D": "Mike Pompeo"
       },
       "correct": "B"
     },
     {
-      "question": "Who is the Current Secretary General of OIC?",
+      "question": "Who is the current Secretary General of OIC?",
       "options": {
-        "A": "Ismail Ould Cheikh Ahmed",
-        "B": "Yousef bin Ahmad Al-Othaimeen",
-        "C": "Hussein Ibrahim Taha",
-        "D": "None of these"
+        "A": "Iyad Madani",
+        "B": "Hissein Brahim Taha",
+        "C": "Yousef Al-Othaimeen",
+        "D": "Ismail Ould Cheikh Ahmed"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Who is the Current Chief Minister (CM) of Gilgit-Baltistan (GB)?",
       "options": {
-        "A": "Khalid Khurshid Khan",
-        "B": "Yar Muhammad",
-        "C": "Amjad Hussain Azar",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
-      "question": "Who is the Current Governor of Sindh?",
-      "options": {
-        "A": "Nehal Hashmi",
-        "B": "Imran Ismail",
-        "C": "Kamran Khan Tessori",
-        "D": "None of these"
+        "A": "Amjad Hussain Azar",
+        "B": "Haji Fida Muhammad",
+        "C": "Khalid Khurshid",
+        "D": "Gulbar Khan"
       },
       "correct": "A"
     },
     {
-      "question": "Who is the Current Chief Minister of Sindh?",
+      "question": "Who is the Current Governor of Sindh?",
       "options": {
-        "A": "Qaim Ali Shah",
-        "B": "Jam Mir Kamal Khan",
-        "C": "Syed Murad Ali Shah",
-        "D": "None of these"
+        "A": "Kamran Tessori",
+        "B": "Imran Ismail",
+        "C": "Nehal Hashmi",
+        "D": "Muhammad Zubair"
       },
       "correct": "C"
+    },
+    {
+      "question": "Who is the Current Chief Minister of Sindh?",
+      "options": {
+        "A": "Imran Ismail",
+        "B": "Murad Ali Shah",
+        "C": "Qaim Ali Shah",
+        "D": "Syed Murad Ali Shah"
+      },
+      "correct": "B"
     },
     {
       "question": "Who is the current Prime Minister of the United Kingdom (UK)?",
       "options": {
         "A": "Andy Burnham",
         "B": "Keir Starmer",
-        "C": "Boris Johnson",
-        "D": "None of these"
+        "C": "Rishi Sunak",
+        "D": "Boris Johnson"
       },
       "correct": "A"
     },
     {
       "question": "Who is the Current Deputy Chairman of Senate of Pakistan?",
       "options": {
-        "A": "Yousaf Raza Gilani",
-        "B": "Sardar Ayaz Sadiq",
-        "C": "Syedal Khan Nasir",
-        "D": "None of these"
+        "A": "Abdul Ghafoor Haideri",
+        "B": "Saleem Mandviwalla",
+        "C": "Syedaal Khan Nasar",
+        "D": "Mirza Muhammad Afridi"
       },
       "correct": "C"
     },
@@ -85,51 +85,51 @@
       "question": "Who is the Current Chief Election Commissioner of Pakistan?",
       "options": {
         "A": "Sikandar Sultan Raja",
-        "B": "Altaf Ibrahim Qureshi",
-        "C": "Sardar Muhammad Raza Khan",
-        "D": "None of these"
+        "B": "Fakhruddin G. Ebrahim",
+        "C": "Sardar Muhammad Raza",
+        "D": "Justice (r) Hamid Ali Mirza"
       },
       "correct": "A"
     },
     {
       "question": "Who is the Current Chairman of Council of Islamic Ideology of Pakistan (CII)?",
       "options": {
-        "A": "Mufti Mohammad Zubair",
-        "B": "Muhammad Raghib Hussain Naeemi",
-        "C": "Dr. Qibla Ayaz",
-        "D": "None of these"
+        "A": "Dr. Qibla Ayaz",
+        "B": "Dr. Raghib Hussain Naeemi",
+        "C": "Muhammad Khan Sherani",
+        "D": "Sanaullah Niazi"
       },
       "correct": "B"
     },
     {
       "question": "Who is the Current Foreign Minister of Russia?",
       "options": {
-        "A": "Igor Ivanov",
-        "B": "Yevgeny Primakov",
+        "A": "Andrey Kozyrev",
+        "B": "Dmitry Peskov",
         "C": "Sergey Lavrov",
-        "D": "None of these"
+        "D": "Igor Ivanov"
       },
       "correct": "C"
     },
     {
       "question": "Who is the Current Direct General (Head) of International Atomic Energy Agency (IAEA)?",
       "options": {
-        "A": "Yukiya Amano",
-        "B": "Rafael Mariano Grossi",
-        "C": "Mohammaded El Baradei",
-        "D": "None of these"
+        "A": "Rafael Mariano Grossi",
+        "B": "Yukiya Amano",
+        "C": "Hans Blix",
+        "D": "Mohamed ElBaradei"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Who is the Current Managing Director of IMF?",
       "options": {
-        "A": "Gita Gopinath",
-        "B": "Pierre-Olivier Gourinchas",
-        "C": "Kristalina Georgieva",
-        "D": "None of these"
+        "A": "Kristalina Georgieva",
+        "B": "Christine Lagarde",
+        "C": "David Lipton",
+        "D": "Geoffrey Okamoto"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which country releases 572 Pakistani prisoners in Ramzan 2019?",
@@ -144,32 +144,32 @@
     {
       "question": "Who is the Current President of Azad Jammu and Kashmir (AJK)?",
       "options": {
-        "A": "Sardar Masood Khan",
-        "B": "Choudhry Abdul Majeed",
-        "C": "Barrister Sultan Mahmood",
-        "D": "None of these"
+        "A": "Sardar Tanveer Ilyas",
+        "B": "Abdul Qayyum Niazi",
+        "C": "Raja Farooq Haider",
+        "D": "Chaudhry Anwar-ul-Haq"
       },
       "correct": "D"
     },
     {
       "question": "Who is the Current Chairman of FBR?",
       "options": {
-        "A": "Muhammad Ashfaq Ahmed",
-        "B": "Rashid Mahmood Langrial",
-        "C": "Malik Amjad Zubair Tiwana",
-        "D": "None of these"
+        "A": "Amir Zafar Khan",
+        "B": "Shabbar Zaidi",
+        "C": "Rashid Mahmood Langrial",
+        "D": "Asim Ahmad"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Who is the Current Supreme Leader of Taliban in Afghanistan?",
       "options": {
-        "A": "Mullah Abdul Ghani Bardar",
-        "B": "Mullah Haibat Ullah Akhunzada",
-        "C": "Mullah Abdul Hakim",
-        "D": "Siraj Uddin Haqqani"
+        "A": "Hibatullah Akhundzada",
+        "B": "Mullah Hassan Akhund",
+        "C": "Amir Khan Muttaqi",
+        "D": "Mullah Baradar"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which country touches both Arctic Atlantic oceans?",
@@ -184,10 +184,10 @@
     {
       "question": "Who is the Current DG ISPR of Pakistan Army?",
       "options": {
-        "A": "Major General Babar Iftikhar",
-        "B": "Major General Asif Ghafoor",
-        "C": "Major General Ahmed Sharif Chaudhry",
-        "D": "Lt General Asim Saleem Bajwa"
+        "A": "Lt Gen Asim Saleem Bajwa",
+        "B": "Maj Gen Babar Iftikhar",
+        "C": "Lt Gen Ahmed Sharif Chaudhry",
+        "D": "Maj Gen Asif Ghafoor"
       },
       "correct": "C"
     },
@@ -195,21 +195,21 @@
       "question": "Who is the current permanent representative of Pakistan to United Nations?",
       "options": {
         "A": "Maleeha Lodhi",
-        "B": "Munir Akram",
-        "C": "Asim Iftikhar Ahmad",
-        "D": "None of the above"
+        "B": "Asim Iftikhar Ahmad",
+        "C": "Syed Haider Shah",
+        "D": "Munir Akram"
       },
       "correct": "C"
     },
     {
       "question": "Who is the Current Chief of Air Staff of Pakistan Air Force (PAF)?",
       "options": {
-        "A": "Air Marshal Sohail Aman",
-        "B": "Air Marshal Mujahid Anwar Khan",
-        "C": "Air Marshal Zaheer Ahmad Babar",
-        "D": "None of these"
+        "A": "Air Chief Marshal Mujahid Anwar Khan",
+        "B": "Air Chief Marshal Zaheer Ahmad Babar Sidhu",
+        "C": "Air Chief Marshal Tahir Rafique Butt",
+        "D": "Air Chief Marshal Sohail Aman"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which key is used for left alignment in MS Word?",
@@ -224,15 +224,25 @@
     {
       "question": "Who is the Current Ambassador of European Union to Pakistan?",
       "options": {
-        "A": "Androulla Kaminara",
-        "B": "Stavros Lambrinidis",
-        "C": "Dr Riina Kionka",
-        "D": "None of these"
+        "A": "Dr. Riina Kionka",
+        "B": "Androulla Kaminara",
+        "C": "Jean-François Cautain",
+        "D": "Lars-Gunnar Wigemark"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Who is the Current Chairman of Senate of Pakistan?",
+      "options": {
+        "A": "Mian Raza Rabbani",
+        "B": "Sadiq Sanjrani",
+        "C": "Nayyar Hussain Bukhari",
+        "D": "Yusuf Raza Gillani"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "The current seats of senate are:",
       "options": {
         "A": "Ahsan Iqbal",
         "B": "Yousaf Raza Gillani",
@@ -242,21 +252,11 @@
       "correct": "B"
     },
     {
-      "question": "The current seats of senate are:",
-      "options": {
-        "A": "Air Marshal Sohail Aman",
-        "B": "Air Marshal Mujahid Anwar Khan",
-        "C": "Air Marshal Zaheer Ahmad Babar",
-        "D": "None of these"
-      },
-      "correct": "C"
-    },
-    {
       "question": "Who is the Current Chief Justice of Sindh High Court?",
       "options": {
-        "A": "Justice Ahmed Ali M. Shaikh",
-        "B": "Justice Muhammad Shafi Siddiqui",
-        "C": "Justice Muhammad Junaid Ghaffar",
+        "A": "Justice Sajjad Ali Shah",
+        "B": "Justice Ahmed Ali M. Shaikh",
+        "C": "Justice Zafar Ahmed Rajput",
         "D": "Justice Aqeel Ahmed Abbasi"
       },
       "correct": "C"
@@ -266,28 +266,28 @@
       "options": {
         "A": "Esala Weerakoon",
         "B": "Golam Sarwar",
-        "C": "Amjad Hussain Sial",
-        "D": "None of these"
+        "C": "Arjun Bahadur Thapa",
+        "D": "Amjad Hussain B. Sial"
       },
       "correct": "B"
     },
     {
       "question": "Who is the Current Ambassador of Pakistan to India?",
       "options": {
-        "A": "Jalil Abbas Jilani",
-        "B": "Muneer Akram",
+        "A": "Salman Bashir",
+        "B": "Sohail Mahmood",
         "C": "Saad Ahmad Warraich",
-        "D": "None of these"
+        "D": "Abdul Basit"
       },
       "correct": "C"
     },
     {
       "question": "Who is the Current Prime Minister of Turkey?",
       "options": {
-        "A": "Ahmet Davutoglu",
-        "B": "Binali",
-        "C": "Tayyip Erdogan",
-        "D": "None of these"
+        "A": "Kemal Kılıçdaroğlu",
+        "B": "Ahmet Davutoğlu",
+        "C": "Binali Yıldırım",
+        "D": "Recep Tayyip Erdoğan"
       },
       "correct": "D"
     },
@@ -304,32 +304,32 @@
     {
       "question": "Who is the Current CEO of Amazon?",
       "options": {
-        "A": "Andy Jassy",
-        "B": "Jeff Bezos",
-        "C": "Bill gates",
-        "D": "None of these"
+        "A": "Sundar Pichai",
+        "B": "Andy Jassy",
+        "C": "Tim Cook",
+        "D": "Jeff Bezos"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who is the Current Chief Justice of Lahore High Court?",
       "options": {
-        "A": "Justice Tahira Safdar",
-        "B": "Justice Ayesha Malik",
-        "C": "Justice Aalia Neelum",
-        "D": "None of these"
+        "A": "Justice Sayyed Mazahar Ali Akbar Naqvi",
+        "B": "Justice Muhammad Ameer Bhatti",
+        "C": "Justice Malik Shahzad Ahmad Khan",
+        "D": "Justice Aalia Neelum"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Who is the Current Leader of Hurriyat Conference?",
       "options": {
-        "A": "Syed Ali Shah Geelani",
-        "B": "Yaseen Malik",
-        "C": "Masarat Alam Bhat",
-        "D": "None of these"
+        "A": "Mirwaiz Umar Farooq",
+        "B": "Masarat Alam Bhat",
+        "C": "Syed Ali Shah Geelani",
+        "D": "Yasin Malik"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Who is the current CEO of Pakistan Steel Mill?",
@@ -404,12 +404,12 @@
     {
       "question": "Who is the Current Speaker of Punjab Assembly?",
       "options": {
-        "A": "Dost Muhammad Mazari",
-        "B": "Chaudhry Pervaiz Elahi",
-        "C": "Malik Muhammad Ahmad Khan",
-        "D": "Sardar Sibtain Khan"
+        "A": "Sibgatullah Khan",
+        "B": "Pervaiz Elahi",
+        "C": "Chaudhry Parvez Elahi",
+        "D": "Malik Muhammad Ahmad Khan"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Organization of dependencies of UK which are now sovereign states where nominal need of organization is British Monarch?",
@@ -447,7 +447,8 @@
         "A": "9th",
         "B": "8th",
         "C": "10th",
-        "D": "th"
+        "D": "th",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -504,10 +505,10 @@
     {
       "question": "When US capitol hill journey incident occurred",
       "options": {
-        "A": "5 January 2021",
-        "B": "6January 2021",
-        "C": "7 January 2021",
-        "D": "2 January 2021"
+        "A": "05 January 2021",
+        "B": "06 January 2021",
+        "C": "07 January 2021",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -515,9 +516,9 @@
       "question": "Who is the present Secretary General of SAARC_______?",
       "options": {
         "A": "Golam Sarwar",
-        "B": "Hussain Irshad",
-        "C": "Vikram Nisa noor",
-        "D": "None"
+        "B": "Arjun Bahadur Thapa",
+        "C": "Esala Weerakoon",
+        "D": "Amjad Hussain B. Sial"
       },
       "correct": "A"
     },

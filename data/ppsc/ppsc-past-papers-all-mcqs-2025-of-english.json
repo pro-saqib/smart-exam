@@ -27,7 +27,7 @@
         "A": "Is a letter written by her?",
         "B": "Has the letter been written by her?",
         "C": "Is she writing a letter?",
-        "D": "letter is written by her?"
+        "D": "A letter is written by her?"
       },
       "correct": "A"
     },
@@ -57,9 +57,10 @@
         "A": "To be exactly correct",
         "B": "Speaking directly to the point",
         "C": "Perform as a task with exactness",
-        "D": "To say something that is exactly right"
+        "D": "To say something that is exactly right",
+        "E": "All of these"
       },
-      "correct": "D"
+      "correct": "E"
     },
     {
       "question": "The Synonym of Obstinate?",
@@ -184,7 +185,7 @@
     {
       "question": "Sentence Completion: To answer accurately is more important than ____?",
       "options": {
-        "A": "quick finish",
+        "A": "A quick finish",
         "B": "To finish quickly",
         "C": "Finishing quickly",
         "D": "You finish quickly"
@@ -194,9 +195,9 @@
     {
       "question": "The idiom \"A DARK HORSE\" means?",
       "options": {
-        "A": "wicked fellow",
+        "A": "A wicked fellow",
         "B": "An unexpected winner",
-        "C": "criminal getting the dirty water",
+        "C": "A criminal getting the dirty water",
         "D": "None of these"
       },
       "correct": "B"
@@ -224,20 +225,20 @@
     {
       "question": "Choose the correctly punctuated sentence:",
       "options": {
-        "A": "My aunt who lives in Karachi, is a doctor.",
-        "B": "My aunt, who lives in Karachi is a doctor.",
-        "C": "My aunt, “who lives in Karachi”, is a doctor.",
-        "D": "None of these"
+        "A": "The teachers loud voices startled the five year old child What a scene!",
+        "B": "The teachers' loud voices startled the five-year-old child, what a scene!",
+        "C": "The teachers loud voices startled the five-year-old child. What a scene!",
+        "D": "The teachers' loud voices startled the five-year-old child. What a scene!"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Idiom: \"Red letter day\" means?",
       "options": {
-        "A": "dangerous day",
+        "A": "A dangerous day",
         "B": "An important day",
         "C": "An eventful day",
-        "D": "formidable day"
+        "D": "A formidable day"
       },
       "correct": "B"
     },
@@ -314,7 +315,7 @@
     {
       "question": "Faux Pas means?",
       "options": {
-        "A": "lame person",
+        "A": "A lame person",
         "B": "Luck",
         "C": "False and incorrect step",
         "D": "Wisdom"
@@ -354,12 +355,12 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Credibility",
-        "B": "Credibilitty",
-        "C": "Cradibility",
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The Synonym of Sufficient is?",
@@ -577,7 +578,7 @@
         "A": "Joining nuclei",
         "B": "Splitting heavy nucleus into smaller nuclei",
         "C": "Neutron absorption",
-        "D": "None of these"
+        "D": "None  of these"
       },
       "correct": "B"
     },
@@ -617,7 +618,8 @@
         "A": "Japanese",
         "B": "Chinese",
         "C": "Urdu",
-        "D": "English"
+        "D": "English",
+        "E": "Turkish"
       },
       "correct": "A"
     },
@@ -924,12 +926,12 @@
     {
       "question": "Which one is correct?",
       "options": {
-        "A": "You can pass unless you work hard",
-        "B": "You can’t pass unless you work hard",
-        "C": "You can’t pass if you work hard",
+        "A": "The library lost all its books",
+        "B": "That car is not yours",
+        "C": "That car is not theirs",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Synonym of VORACIOUS is?",
@@ -1017,7 +1019,7 @@
         "A": "Person of soft nature",
         "B": "Completely unarmed",
         "C": "Person used as a tool to do something dangerous",
-        "D": "narrow escape"
+        "D": "A narrow escape"
       },
       "correct": "C"
     },
@@ -1084,12 +1086,12 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "She asked, “Could you help me, please?”",
-        "B": "She asked, “Could you help me, Please.”",
-        "C": "She asked, “Could you help me please?”",
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which of the following is a plural?",
@@ -1267,7 +1269,8 @@
         "A": "My self",
         "B": "This book",
         "C": "Everyone",
-        "D": "Who"
+        "D": "Who",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -1594,22 +1597,22 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Oppertunity",
-        "B": "Apportunity",
-        "C": "Opertunity",
-        "D": "Opportunity"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Imidiatly",
-        "B": "Immidiatly",
-        "C": "Imidiately",
-        "D": "Immediately"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Antonym of \"fickle\" is?",
@@ -1645,7 +1648,7 @@
       "question": "The idiom “To burry the hatchet” mean?",
       "options": {
         "A": "To start a war",
-        "B": "To make a foolish choice",
+        "B": "To make a foolish  choice",
         "C": "To make peace",
         "D": "To burn something important"
       },
@@ -1655,7 +1658,7 @@
       "question": "Idiom: To get into the hot water means ____?",
       "options": {
         "A": "To o be impatient",
-        "B": "To be in a confused state of mind",
+        "B": "To be in  a confused state of mind",
         "C": "To get into trouble",
         "D": "To suffer a huge finical loss"
       },
@@ -1717,7 +1720,8 @@
         "A": "Sober",
         "B": "Cruel",
         "C": "Harmonious",
-        "D": "Divine"
+        "D": "Divine",
+        "E": "All of these"
       },
       "correct": "B"
     },
@@ -1747,7 +1751,8 @@
         "A": "Docile",
         "B": "Flexible",
         "C": "Obscure",
-        "D": "Stubborn"
+        "D": "Stubborn",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -1974,10 +1979,10 @@
     {
       "question": "Which of the following best defines a compound sentence?",
       "options": {
-        "A": "sentence with a subject and a verb",
+        "A": "A sentence with a subject and a verb",
         "B": "Two independent clauses joined by a conjunction",
-        "C": "sentence with only one idea",
-        "D": "sentence ending with a question mark"
+        "C": "A sentence with only one idea",
+        "D": "A sentence ending with a question mark"
       },
       "correct": "B"
     },
@@ -2114,10 +2119,10 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "Everything is good in menu",
-        "B": "Everything is good on the menu",
-        "C": "Everything is good at menu",
-        "D": "Everything good is menu"
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -2224,22 +2229,22 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Bureucracy",
-        "B": "Bureaucracy",
-        "C": "Beaucracy",
-        "D": "Boreauracy"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
       "correct": "B"
     },
     {
       "question": "I am good ______ tennis.",
       "options": {
-        "A": "Of",
-        "B": "In",
-        "C": "At",
+        "A": "at",
+        "B": "of",
+        "C": "to",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Stubborn : Obstinate :: Generous : ?",
@@ -2354,12 +2359,12 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Chalange",
-        "B": "Challange",
-        "C": "Challenge",
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Either of these two roads ____ to the post office?",
@@ -2454,12 +2459,12 @@
     {
       "question": "Do you understand what I mean?",
       "options": {
-        "A": "What I mean is that understood by you?",
-        "B": "Was what I mean understood by you?",
-        "C": "Is what I mean understood by you?",
-        "D": "What I mean is understood by you?"
+        "A": "What I mean is understood by you?",
+        "B": "What I mean is that understood by you?",
+        "C": "Is what I mean is understood by you",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "You will go, or you will miss the train. It is which type of sentence?",
@@ -2504,12 +2509,12 @@
     {
       "question": "Change Voice: The Doctor bandaged the arm of the injured man.",
       "options": {
-        "A": "The arm of the injured man was bandaged by the doctor.",
-        "B": "The injured man bandaged his arm.",
-        "C": "The injured man made the doctor injure his arm.",
+        "A": "The injured man bandaged his arm.",
+        "B": "The injured man made the doctor injure his arm.",
+        "C": "The arm of the injured man was bandaged by the doctor.",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "In Ilm-ul-Bayan, what are words that have the same category and class called?",
@@ -2534,12 +2539,12 @@
     {
       "question": "My friend is a couch potato. What does the idiom/phrase \"couch potato\" means?",
       "options": {
-        "A": "Lazy person",
+        "A": "Active person",
         "B": "Busy person",
-        "C": "Active person",
+        "C": "Lazy person",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "My books are ____ the table.",
@@ -2564,10 +2569,10 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Prety",
-        "B": "Pretty",
-        "C": "Prettey",
-        "D": "Prity"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -2594,12 +2599,12 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Coaltion",
-        "B": "Coallition",
-        "C": "Coalition",
-        "D": "Colition"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "There aren’t ____ people here",
@@ -3394,12 +3399,12 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "India attacked on Pakistan in 1965.",
-        "B": "India attacks Pakistan in 1965.",
-        "C": "India attacked Pakistan in 1965.",
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Fill in the blank: He did not pay heed ______ his brother’s advice:",
@@ -3514,12 +3519,12 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Cyclone",
-        "B": "Cyclean",
-        "C": "Cyclon",
-        "D": "Clolorie"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which word is wrongly spelt in the following set of words?",
@@ -3584,10 +3589,10 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Sucecde",
-        "B": "Succeed",
-        "C": "Sueecde",
-        "D": "Sucedetes"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -3664,12 +3669,12 @@
     {
       "question": "Choose correct one:",
       "options": {
-        "A": "Both sisters is in same class.",
-        "B": "Both sisters are in the same class.",
-        "C": "The both sisters are in same class.",
+        "A": "Both sisters are in same class.",
+        "B": "The both sisters are in same class.",
+        "C": "Both sisters is in same class.",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Synonym of Native is?",
@@ -3874,12 +3879,12 @@
     {
       "question": "identify the correct sentence:",
       "options": {
-        "A": "i am sick by your lies",
-        "B": "i am sick from your lies",
-        "C": "i am sick of your lies",
-        "D": "i am sick to your lies"
+        "A": "The goalkeeper played well.",
+        "B": "The goalkeeper play good",
+        "C": "The goalkeeper played beautiful",
+        "D": "Both A & B"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Many young men were ___ at street corners for the coffee bars to open",
@@ -3954,12 +3959,12 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Victory",
-        "B": "Victery",
-        "C": "Victary",
-        "D": "Victon"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Children broke window pane. (which word is a plural noun)",
@@ -3974,12 +3979,12 @@
     {
       "question": "Fifth column refers to:",
       "options": {
-        "A": "Long writing",
-        "B": "Loyalty",
-        "C": "Treachery",
-        "D": "Hogo pillar"
+        "A": "Loyalty",
+        "B": "Treachery",
+        "C": "Long writing",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The opposite of 'Distill' is",

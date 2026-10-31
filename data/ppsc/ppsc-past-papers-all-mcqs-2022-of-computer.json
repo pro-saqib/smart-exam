@@ -54,12 +54,12 @@
     {
       "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
       "options": {
-        "A": "Tom Burne",
-        "B": "Tim Burner Lee",
-        "C": "Fred Zuckerberg",
-        "D": "Both a and b"
+        "A": "Laiszlo Neztjev",
+        "B": "Tom Burns",
+        "C": "Tim Berners Lee",
+        "D": "Fred Zukerburg"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "CTRL + S is the shortcut key for?",
@@ -225,9 +225,9 @@
       "question": "Which command will you use in PowerPoint if you need to change the color of different objects without changing content?",
       "options": {
         "A": "Design template",
-        "B": "Color scheme",
-        "C": "Object color",
-        "D": "Font color"
+        "B": "Color Scheme",
+        "C": "Object Color",
+        "D": "Font Color"
       },
       "correct": "B"
     },
@@ -264,10 +264,10 @@
     {
       "question": "What is the main difference between a mainframe and a super computer?",
       "options": {
-        "A": "Super computer is much larger than mainframe computers",
-        "B": "Super computers are much smaller than mainframe computers",
-        "C": "Supercomputers are focused to execute few programs as fast as possible while mainframe uses its power to execute as many programs concurrently",
-        "D": "None of these"
+        "A": "Supercomputer is much larger than mainframe computers",
+        "B": "Supercomputers are much smaller than mainframe computers",
+        "C": "Supercomputers are focused to execute a few programs as fast as possible while the main frame used its power to execute as many programs concurrently",
+        "D": "Supercomputers are focused to execute as many programs as possible while the mainframe uses its power to execute a few programs as fast as possible"
       },
       "correct": "C"
     },
@@ -374,12 +374,12 @@
     {
       "question": "Which of these refers to the PowerPoint view used for displaying only the text (title and bullets)?",
       "options": {
-        "A": "Slide show",
-        "B": "Outline view",
-        "C": "Slide sorter view",
+        "A": "Slide sorter show",
+        "B": "Slide view",
+        "C": "Outline view",
         "D": "Notes page view"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Which of these is a a type of sound file?",
@@ -394,12 +394,12 @@
     {
       "question": "What is gutter margin in MS Word?",
       "options": {
-        "A": "Margin that is added to the Left margin when printing",
-        "B": "Margin that is added to the binding side of page when printing",
-        "C": "Margin that is added to the right margin when printing",
-        "D": "None of these"
+        "A": "Margin that is added to the left margin when printing",
+        "B": "Margin that is added to right margin when printing",
+        "C": "Margin that is added to the binding side of page when printing",
+        "D": "Margin that is added to the outside of the page when printing"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "What is the shortcut key for Help in MS Word?",
@@ -467,7 +467,7 @@
         "A": "Star",
         "B": "Mesh",
         "C": "Bus",
-        "D": "None of above"
+        "D": "None of the above"
       },
       "correct": "B"
     },
@@ -764,12 +764,12 @@
     {
       "question": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
       "options": {
-        "A": "Animation Scheme",
-        "B": "Slide Transition",
-        "C": "Slide Design",
-        "D": "None of these"
+        "A": "Slide Transition",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The ______ function in Excel returns the highest value in a set of data that you specify.",
@@ -814,12 +814,12 @@
     {
       "question": "Which file stored in computer that perform functions quickly while browsing?",
       "options": {
-        "A": "Exe",
-        "B": "Cookies",
-        "C": "Cache",
+        "A": "Cache",
+        "B": "Exe",
+        "C": "Cookies",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "If you insert some slides from other presentation into current one choose ______?",
@@ -894,12 +894,12 @@
     {
       "question": "Who is pioneered in developing modern computer?",
       "options": {
-        "A": "Dauglas Englebert",
-        "B": "Steve Jobes",
+        "A": "Douglas Engle Bert",
+        "B": "Steve Jobs",
         "C": "Bill Gates",
-        "D": "Charles Babbage"
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "1 Kilo Bytes (KB) = ___ bytes.",
@@ -984,10 +984,10 @@
     {
       "question": "What is a Light Pen?",
       "options": {
-        "A": "Mechanical Input device",
-        "B": "Optical input device",
-        "C": "Electronic input device",
-        "D": "Optical output device"
+        "A": "Mechanical Input Device",
+        "B": "Optical input Device",
+        "C": "Electronic Input Device",
+        "D": "Optical Output Device"
       },
       "correct": "B"
     },
@@ -1049,7 +1049,7 @@
         "C": "Help",
         "D": "All of these"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "The smallest meaningful unit of data in a database is called _____?",
@@ -1064,12 +1064,12 @@
     {
       "question": "Which memory is used to start a computer?",
       "options": {
-        "A": "WAN",
-        "B": "RAM",
-        "C": "ROM",
+        "A": "RAM",
+        "B": "ROM",
+        "C": "WAN",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "In Gmail we attached ______?",
@@ -1104,12 +1104,12 @@
     {
       "question": "Which one of the following is not a system software?",
       "options": {
-        "A": "Operating System",
-        "B": "Entertainment",
-        "C": "Utility Software",
-        "D": "Driver"
+        "A": "Utility Software",
+        "B": "Driver",
+        "C": "Entertainment",
+        "D": "Operating system"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Which devices are used to backup data?",
@@ -1224,12 +1224,12 @@
     {
       "question": "Which query do you use to answer the question \"Which employees earn more than $5000 a month\"?",
       "options": {
-        "A": "Update query",
-        "B": "Search query",
-        "C": "Select query",
+        "A": "Select query",
+        "B": "Update query",
+        "C": "Search query",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "We can use _____ to convert Word in to PDF.",
@@ -1354,32 +1354,32 @@
     {
       "question": "Which can be used for quick access to commonly used commands and tools?",
       "options": {
-        "A": "Toolbar",
-        "B": "Status bar",
-        "C": "Menu bar",
+        "A": "Title bar",
+        "B": "Tool bar",
+        "C": "Task bar",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "After creating the table which of the following is correct?",
       "options": {
-        "A": "Fields can be added and deleted as needed",
+        "A": "Fields cannot be added",
         "B": "Fields cannot be deleted",
-        "C": "Fields cannot be added",
-        "D": "None of these"
+        "C": "Fields can added but only once",
+        "D": "Fields can added and deleted as needed"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Which of the following execute instructions?",
       "options": {
-        "A": "CPU",
-        "B": "Motherboard",
-        "C": "Hard Disk",
+        "A": "Motherboard",
+        "B": "Hard disk",
+        "C": "CPU",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "In computer disk storage is a subdivision on a magnetic disk or optical disk called ______?",
@@ -1405,7 +1405,7 @@
       "question": "Which is used for open a website?",
       "options": {
         "A": "Browser",
-        "B": "Google",
+        "B": "Gmail",
         "C": "Yahoo",
         "D": "None of these"
       },
@@ -1414,20 +1414,20 @@
     {
       "question": "A set of instructions that operates various parts of the Computer Hardware is called?",
       "options": {
-        "A": "URL",
-        "B": "Hardware Manager",
-        "C": "Device",
-        "D": "Software"
+        "A": "Hardware Manager",
+        "B": "Device",
+        "C": "Software",
+        "D": "URL"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "In MS Excel 2016, which of the following can be used to split windows into two?",
       "options": {
-        "A": "Format > Window",
-        "B": "View > Window> Spilt",
-        "C": "Window > Spilt",
-        "D": "View > Spilt"
+        "A": "Format > window",
+        "B": "View > window > split",
+        "C": "Window > split",
+        "D": "View > split"
       },
       "correct": "B"
     },
@@ -1487,7 +1487,8 @@
         "A": "128",
         "B": "256",
         "C": "1024",
-        "D": "512"
+        "D": "512",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -1565,8 +1566,8 @@
       "question": "In MS Excel ready-made templates are available under ______ tab in new option.",
       "options": {
         "A": "File",
-        "B": "Count",
-        "C": "Table",
+        "B": "Insert",
+        "C": "Design",
         "D": "None of these"
       },
       "correct": "A"
@@ -1724,12 +1725,12 @@
     {
       "question": "To insert slide numbers",
       "options": {
-        "A": "Insert a new text box and select Insert > slide Number",
-        "B": "Insert a text box and select insert >> page number",
-        "C": "Select insert> text box",
-        "D": "None"
+        "A": "Insert a text box and select insert >> Page Number",
+        "B": "Insert a textbox and select insert >> Page Number",
+        "C": "Choose Insert >> Slide Number",
+        "D": "Insert a new text box and select Insert >> slide Number"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "In a power point presentation",
@@ -2006,7 +2007,7 @@
       "options": {
         "A": "Metropolitan Area Network",
         "B": "Main Area Network",
-        "C": "Median Area Network",
+        "C": "Median  Area Network",
         "D": "None"
       },
       "correct": "A"
@@ -2067,7 +2068,7 @@
         "A": "Search engine",
         "B": "Browser",
         "C": "Protocol",
-        "D": "Gate way"
+        "D": "Gateway"
       },
       "correct": "C"
     },
@@ -2224,10 +2225,10 @@
     {
       "question": "If you open the file after that you start your work that you last ends",
       "options": {
-        "A": "book mark",
-        "B": "cross reference",
-        "C": "reference",
-        "D": "none"
+        "A": "Bookmark",
+        "B": "Cross reference",
+        "C": "Reference",
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -2257,7 +2258,8 @@
         "A": "Ctrl+V",
         "B": "Ctrl+X",
         "C": "Alt+X",
-        "D": "Shift+Alt+X"
+        "D": "Shift+Alt+X",
+        "E": "Ctrl+C"
       },
       "correct": "A"
     },
@@ -2294,10 +2296,10 @@
     {
       "question": "Web browser stores previous information for web pages is termed as",
       "options": {
-        "A": "auto complete",
-        "B": "feed",
-        "C": "web slices",
-        "D": "none"
+        "A": "Auto complete",
+        "B": "Feed",
+        "C": "Web slices",
+        "D": "None of these"
       },
       "correct": "A"
     },

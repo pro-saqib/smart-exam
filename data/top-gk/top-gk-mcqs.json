@@ -209,12 +209,12 @@
   {
     "question": "Which Continent has no desert?",
     "options": {
-      "A": "Europe",
+      "A": "Asia",
       "B": "Australia",
-      "C": "N.America",
-      "D": "S.America"
+      "C": "Europe",
+      "D": "None of these"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Europe is the only continent without a desert.It has a temperate climate with sufficient rainfall.Additional information:Divided by the Ural MountainsSecond-smallest continentCovers 2% of Earth’s surfaceArea: 10.18 million km²Last verified on 16-01-2026",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=2"
@@ -300,12 +300,12 @@
   {
     "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
     "options": {
-      "A": "Tom Burne",
-      "B": "Tim Burner Lee",
-      "C": "Fred Zuckerberg",
-      "D": "Both a and b"
+      "A": "Laiszlo Neztjev",
+      "B": "Tom Burns",
+      "C": "Tim Berners Lee",
+      "D": "Fred Zukerburg"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Inventor: Tim Berners-LeeCollaborator: Robert CailliauYear of invention: 1989 AugustOrganization: CERN (European physics lab, Switzerland)First website: 1991 (public release)WWWW stands for World-Wide Web Worm.Last verified on 24-06-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=3"
@@ -698,24 +698,24 @@
   {
     "question": "Who is the Current Secretary General of United Nation (UNO)?",
     "options": {
-      "A": "Kofi Annan",
+      "A": "António Guterres",
       "B": "Ban Ki-moon",
-      "C": "António Guterres",
-      "D": "None of these"
+      "C": "Stéphane Dujarric",
+      "D": "Kofi Annan"
     },
-    "correct": "C",
+    "correct": "A",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=6"
   },
   {
     "question": "What is the name of the Prime Minister of India at the time of the 1965 war?",
     "options": {
-      "A": "Sanjay Gandhi",
-      "B": "Indira Gandhi",
-      "C": "Lal Bahadur Shastri",
-      "D": "Morarji Desai"
+      "A": "Rahul Gandhi",
+      "B": "Amit Shah",
+      "C": "Manmohan Singh",
+      "D": "Narendra Modi"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Indian PM (1965 War): Lal Bahadur Shastri Pakistani President (1965 War): Ayub Khan War duration: August – September 1965 Peace agreement: Tashkent Agreement, 10 January 1966Last verified on 17-01-2026",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=6"
@@ -825,12 +825,12 @@
   {
     "question": "Which country has no land border?",
     "options": {
-      "A": "Syria",
-      "B": "Sri Lanka",
-      "C": "Nepal",
-      "D": "None of these"
+      "A": "Sri Lanka",
+      "B": "Nepal",
+      "C": "Cuba",
+      "D": "All of these"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Sri Lanka is an island country in South Asia.It has no land border with any other country.It is located in the Indian Ocean, southeast of India.Sri Lanka is separated from India by the Palk Strait and the Gulf of Mannar.Additional information:Five countries that have no land border because they are island countries:Sri LankaMaldivesJapanIcelandMadagascarLast verified on 26-09-2026",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=7"
@@ -902,12 +902,12 @@
   {
     "question": "Who is the current Prime Minister of Afghanistan?",
     "options": {
-      "A": "Mullah Ghani Barader",
-      "B": "Mullah Mohammad Hasan AKhund",
-      "C": "Mohammed Abdul Kabir",
-      "D": "None of these"
+      "A": "Mullah Mohammad Hassan Akhund",
+      "B": "Mullah Baradar",
+      "C": "Hibatullah Akhundzada",
+      "D": "Amir Khan Muttaqi"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Current Prime Minister: Mullah Mohammad Hasan AkhundAssumed Office: September 7, 2021Current Supreme Leader: Hibatullah AkhundzadaForm of Government: Islamic Emirate of AfghanistanLast verified on 06-07-2026Reference click here",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=8"
@@ -954,10 +954,10 @@
   {
     "question": "ASCII stands for:",
     "options": {
-      "A": "American Standard Conduct for Information Interchange",
-      "B": "Armenia Standard Code for Information Interchange",
-      "C": "American Standard Code for Information Interchange",
-      "D": "None of these"
+      "A": "American Standard code for information coding",
+      "B": "Advanced standard code for information interchange",
+      "C": "American standard code for information interchange",
+      "D": "American system code for information interchange"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation ASCII: American Standard Code for Information InterchangePurpose: Character encoding standardRange: 0–127Represents: Letters, numbers & punctuationWork began: May 1961Definitive version: Published in 1968Last updated by NA ON 16-09-2026",
@@ -1146,12 +1146,12 @@
   {
     "question": "What is the name of current Crown prince of Saudi Arabia?",
     "options": {
-      "A": "Mohammed bin Salman",
-      "B": "Muhammad bin Nayof",
-      "C": "Nayef bin Muhammad",
+      "A": "Salman bin Muhammad",
+      "B": "Nayef bin Muhammad",
+      "C": "Muhammad bin Nayof",
       "D": "None of these"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Mohammed bin Salman (MBS) is the current crown prince, deputy prime minister((2022) and minister of defense of Saudi Arabia Mohammed was appointed crown prince on 21 June 2017, following the King's decision to depose Muhammad bin Nayef Last updated on 13-09-2026",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=10"
@@ -1159,12 +1159,12 @@
   {
     "question": "Who is the current CEO of OpenAI (ChatGPT)?",
     "options": {
-      "A": "Elon Musk",
-      "B": "Sam Altman",
-      "C": "Will Cathcart",
-      "D": "None of these"
+      "A": "Sundar Pichai",
+      "B": "Satya Nadella",
+      "C": "Elon Musk",
+      "D": "Sam Altman"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation As of September 2026, Samuel Altman is the current CEO of OpenAI.Samuel Altman is an Entrepreneur of the USA. Note: ChatGPT is an artificial intelligence chatbot developed by OpenAI and launched on November 30, 2022.***",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=10"
@@ -1352,12 +1352,12 @@
   {
     "question": "Who wrote the book known by the name of \"An Apology for Muhammad and Muhammadans\"?",
     "options": {
-      "A": "Roger William",
-      "B": "Albert Mayo",
-      "C": "John Davenport",
-      "D": "William Muir"
+      "A": "William Muir",
+      "B": "John Davenport",
+      "C": "Albert Mayo",
+      "D": "Roger William"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation John Davenport wrote An Apology for Muhammad and Muhammadans.He defending the Prophet Muhammad against Western criticisms.It was first published in 1869.Last verified on 08-09-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=11"
@@ -1390,12 +1390,12 @@
   {
     "question": "Which of the following is the world's largest inland water body?",
     "options": {
-      "A": "Sea of Azov",
-      "B": "Black Sea",
-      "C": "Caspian Sea",
-      "D": "None of these"
+      "A": "Aral Sea",
+      "B": "Caspian Sea",
+      "C": "Black Sea",
+      "D": "Sea of Azov"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Largest inland water body: Caspian SeaBordering countries: 5 (Russia, Iran, Azerbaijan, Kazakhstan, and Turkmenistan)Surface area: ~371,000 km²Volume: ~78,200 km³Largest river flowing into it: Volga RiverLast verified on 07-09-2026",
     "subtopic": "World Records & Firsts",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=11"
@@ -2110,14 +2110,14 @@
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=17"
   },
   {
-    "question": "Who is the Current Secretary General of OIC?",
+    "question": "Who is the current Secretary General of OIC?",
     "options": {
-      "A": "Ismail Ould Cheikh Ahmed",
-      "B": "Yousef bin Ahmad Al-Othaimeen",
-      "C": "Hussein Ibrahim Taha",
-      "D": "None of these"
+      "A": "Iyad Madani",
+      "B": "Hissein Brahim Taha",
+      "C": "Yousef Al-Othaimeen",
+      "D": "Ismail Ould Cheikh Ahmed"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Ismail Ould Cheikh Ahmed is the Current Secretary-General of OIC.He is elected for a five-year term starting August 28, 2026.He belongs to the Mauritanian.Last verified on 02-09-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=17"
@@ -2294,12 +2294,12 @@
   {
     "question": "Who is the Current Prime Minister of Japan?",
     "options": {
-      "A": "Fumio Kishida",
-      "B": "Sanae Takaichi",
+      "A": "Yoshihide Suga",
+      "B": "Fumio Kishida",
       "C": "Shigeru Ishiba",
-      "D": "None of these"
+      "D": "Sanae Takaichi"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Sanae Takaichi is the Current Prime Minister of Japan since 2026.She is the first woman PM of Japan.She won general elections of 2026.She belongs to Liberal Democratic Party of Japan (LDP).She replaced Shigeru Ishiba.Updated on 22/03/2026Click here for reference",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=18"
@@ -2411,12 +2411,12 @@
   {
     "question": "Who is the current chairman of FBR?",
     "options": {
-      "A": "Central Board of Revenue",
-      "B": "Control Board of Revenue",
-      "C": "California Bearing Ratio",
-      "D": "Central Bank of the Russia"
+      "A": "Amir Zafar Khan",
+      "B": "Shabbar Zaidi",
+      "C": "Rashid Mahmood Langrial",
+      "D": "Asim Ahmad"
     },
-    "correct": "A",
+    "correct": "C",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=19"
   },
@@ -2512,12 +2512,12 @@
   {
     "question": "Who is the current President of Iran?",
     "options": {
-      "A": "Ebrahim Raisi",
-      "B": "Masoud Pezeshkian",
-      "C": "Hassan Rouhani",
-      "D": "None of these"
+      "A": "Masoud Pezeshkian",
+      "B": "Hassan Rouhani",
+      "C": "Mohammad Mokhber",
+      "D": "Ebrahim Raisi"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Masoud Pezeshkian is the current president of Iran since 28 July 2024.He won Iranian presidential elections by securing 53.7 % votes.Successor: Ebrahim Raisi (perished in Helicopter crash in May 2024) Last verified on 23-08-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=20"
@@ -2822,12 +2822,12 @@
   {
     "question": "Who is the current President of Financial Action Task Force (FATF)?",
     "options": {
-      "A": "Giles Thomson",
-      "B": "T. Raja Kumar",
+      "A": "Marcus Pleyer",
+      "B": "Giles Thomson",
       "C": "Elisa de Anda Madrazo",
-      "D": "None of these"
+      "D": "T. Raja Kumar"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Giles Thomson of the United Kingdom is the current President of the FATF.He assumed office on 1 July 2026 for a two-year term (2026–2028).He succeeded Elisa de Anda Madrazo of Mexico.Before becoming President, Giles Thomson served as FATF Vice-President (2025–2026).Last verified on 05-08-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=23"
@@ -3003,12 +3003,12 @@
   {
     "question": "Who is the Current Prime Minister of Nepal?",
     "options": {
-      "A": "Madhav Kumar Nepal",
-      "B": "KP Sharma Oli",
-      "C": "Balendra Shah",
-      "D": "None of these"
+      "A": "KP Sharma Oli",
+      "B": "Pushpa Kamal Dahal",
+      "C": "Sher Bahadur Deuba",
+      "D": "Balendra Shah"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Balendra Shah, known as Balen Shah is the Current Prime Minister of Nepal since 2026.He replaced Sushila Karki.He also became the youngest PM of Nepal at the age of 35.Click here for reference Last verified on 02-08-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=24"
@@ -3040,12 +3040,12 @@
   {
     "question": "Who is the current Chancellor of Germany?",
     "options": {
-      "A": "Olaf Scholz",
-      "B": "Lars Klingbeil",
-      "C": "Robert Habeck",
-      "D": "None of these"
+      "A": "Robert Habeck",
+      "B": "Angela Merkel",
+      "C": "Friedrich Merz",
+      "D": "Olaf Scholz"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Lars Klingbeil is the current and 20th vice-chancellor of Germany. He replaced Robert Habeck as German Vice Chancellor in May 2025. Last Verified and updated on 30-07-2026Refrence Click hereاس کو ضرور پڑھ کے جائیںWho is the current Chancellor of Germany?",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=24"
@@ -3247,12 +3247,12 @@
   {
     "question": "Where is the Statue of Liberty located?",
     "options": {
-      "A": "Washington, D.C.",
-      "B": "Liberty Island, New York City, USA",
-      "C": "Los Angeles, California",
-      "D": "None of these"
+      "A": "Washington",
+      "B": "Chicago",
+      "C": "New York",
+      "D": "Los Angeles"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Location: Liberty Island, New York City, USAIt was a gift from France to the United States as a symbol of friendship.Construction Started: 1876Construction Completed: 1886Dedicated: 28 October 1886Additional information:Height: 93 meters (305 feet)Designer: Frédéric Auguste Bartholdi (French sculptor).It was designated a U.S. National Monument on 15 October 1924.It became a UNESCO World Heritage Site in 1984.Last verified on 26-07-2026",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=26"
@@ -3327,8 +3327,8 @@
     "options": {
       "A": "Andy Burnham",
       "B": "Keir Starmer",
-      "C": "Boris Johnson",
-      "D": "None of these"
+      "C": "Rishi Sunak",
+      "D": "Boris Johnson"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Andy Burnham is the current & 59th prime minister of the United Kingdom (UK) since July 2026 Party affiliation: Labour Party Predecessor: Keir StarmerLast Updated on 24-07-2026 Click here for reference *** Last verified on 24-07-2026",
@@ -4385,12 +4385,12 @@
   {
     "question": "Who is the Current President of Ukraine?",
     "options": {
-      "A": "Leonid Kravchuk",
-      "B": "Petro Poroshenko",
-      "C": "Volodymyr Zelensky",
-      "D": "None of these"
+      "A": "Vitali Klitschko",
+      "B": "Volodymyr Zelenskyy",
+      "C": "Petro Poroshenko",
+      "D": "Denys Shmyhal"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Volodymyr Zelensky is the 6th and current President of Ukraine since 20 May 2019.Preceded by Petro PoroshenkoPolitical party: IndependentLast verified on 02-02-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=35"
@@ -4761,10 +4761,10 @@
   {
     "question": "Which of the following is considered the Deepest lake of the world?",
     "options": {
-      "A": "Caspian sea",
-      "B": "Lake mead",
+      "A": "Lake Victoria",
+      "B": "Lake Superior",
       "C": "Lake Baikal",
-      "D": "None of these"
+      "D": "Lake Erie"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Lake: Lake BaikalCountry: Russia (Siberia)Depth: 1,642 metersType: Freshwater lakeAge: Over 25 million yearsLast verified on 31-03-2026",
@@ -4876,12 +4876,12 @@
   {
     "question": "What is the capital of Austria?",
     "options": {
-      "A": "Sydney",
-      "B": "Canberra",
-      "C": "Vienna",
-      "D": "None of the above"
+      "A": "Zurich",
+      "B": "Vienna",
+      "C": "Budapest",
+      "D": "Prague"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Austria Capital is Vienna.Austria Currency is Euro.Austria official language is German.Austria located is in Continent Europe.Austria Primary Religion is Christianity.Austria Parliament called National Assembly.Tricks for RememberEURO BIG -FAN-PI –SMSMind Trick : BIG FAN of PI and wished through SMS**BIG**B-BelgiumI-IrelandG-Germany**FAN**F-FranceA-AustriaN-Netherland**PI**P-PortugalI-Italy**SMS**S-SpainM-MaltaS-SolvariaLast verified on 09-07-2026",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=38"
@@ -5111,12 +5111,12 @@
   {
     "question": "Who is the Current President of India?",
     "options": {
-      "A": "Manmohan Singh",
-      "B": "Droupadi Murmu",
-      "C": "Narendar Modi",
-      "D": "None of these"
+      "A": "Narendra Modi",
+      "B": "Ram Nath Kovind",
+      "C": "Droupadi Murmu",
+      "D": "Pranab Mukherjee"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Droupadi Murmu became the first tribal woman President of India. Took office on 25 July 2022, becoming the 15th President. She replaced Ram Nath Kovind. Previously served as 9th Governor of Jharkhand (2015–2021). Last verified on 15-01-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=40"
@@ -5383,12 +5383,12 @@
   {
     "question": "How many official working languages are recognized by UNO?",
     "options": {
-      "A": "4",
-      "B": "5",
-      "C": "6",
-      "D": "7"
+      "A": "8",
+      "B": "6",
+      "C": "4",
+      "D": "None of these"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation United Nations (UNO) recognizes six official working languages.Additional information:Official Languages: Arabic, Chinese, English, French, Russian, SpanishFounded: 24 October 1945Headquarters: New York, USAPurpose: Promote international peace, security, and cooperationMembers: 193 countriesLast verified on 15-01-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=42"
@@ -5590,12 +5590,12 @@
   {
     "question": "Which is the largest country in the Arabian Peninsula?",
     "options": {
-      "A": "Saudi Arabia",
+      "A": "Oman",
       "B": "Yemen",
-      "C": "Kuwait",
-      "D": "None of these"
+      "C": "Saudi Arabia",
+      "D": "Kuwait"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Largest country in Arabian Peninsula: Saudi ArabiaIt covers about 80% of the Arabian Peninsula.Area: 2,149,690 km² (2.15 million km²)Capital: RiyadhCurrency: Saudi RiyalOfficial Language: ArabicAdditional information:Arabian Peninsula Countries (7):Saudi ArabiaYemenOmanUnited Arab Emirates (UAE)KuwaitQatarBahrainLast verified on 16-06-2026",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=44"
@@ -5681,11 +5681,11 @@
     "question": "Who is the current President of Myanmar?",
     "options": {
       "A": "Min Aung Hlaing",
-      "B": "Htin Kyaw",
-      "C": "Henry Van Thio",
-      "D": "None of these"
+      "B": "Aung San Suu Kyi",
+      "C": "Win Myint",
+      "D": "Myint Swe"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Min Aung Hlaing is the current president of Myanmar since 2026.He succeeded Win Myint.He is a retired army general.Last updated on 25-06-2026Click here for reference",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=45"
@@ -5732,12 +5732,12 @@
   {
     "question": "IMF funds are primarily provided for which of the following?",
     "options": {
-      "A": "Reduction in inflation",
-      "B": "Infrastructure development",
-      "C": "Economic stabilization and reform",
-      "D": "Military assistance"
+      "A": "To ensure a stable exchange rate",
+      "B": "Measures to curb government expenditure",
+      "C": "Humanitarian aid",
+      "D": "Measures to reduce inflation"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation IMF funds are primarily provided for economic stabilization and reform of countries facing financial crises.IMF provides financial assistance to improve balance of payments and stabilize economies.It supports reforms related to monetary, fiscal, and economic policies.Additional information:Founded: 27 December 1945Headquarters: Washington, D.C., USAMembers: 190 countriesOfficial language: EnglishLast verified on 25-06-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=45"
@@ -6560,12 +6560,12 @@
   {
     "question": "What is the Circumference of Earth?",
     "options": {
-      "A": "450,000 km",
-      "B": "50,075 km",
-      "C": "40,075 km",
-      "D": "30,000 km"
+      "A": "30,000 km",
+      "B": "40,000 km",
+      "C": "50,000 km",
+      "D": "20,000 km"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The Earth’s circumference at the equator is about 40,075 km (24,901 miles).Measured through the poles, it is slightly smaller: 40,008 km (24,860 miles).The difference is due to the equatorial bulge caused by Earth's rotation.Diameter: ~12,756 km (7,926 miles).Age of Earth: ~4.453 billion years.Last verified on 31-03-2026",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=51"
@@ -7052,12 +7052,12 @@
   {
     "question": "Who is the Current President of Brazil?",
     "options": {
-      "A": "Michel Temer",
+      "A": "Dilma Rousseff",
       "B": "Jair Bolsonaro",
-      "C": "Lula da Silva",
-      "D": "None of these"
+      "C": "Michel Temer",
+      "D": "Luiz Inácio Lula da Silva"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Current President: Lula da SilvaReplaced: Jair BolsonaroPresidential Number: 39thTerm Started: 1 January 2023Political Party: Workers’ PartyPrevious Presidency: 35th President (2003–2011) Click here for reference Last verified on 08-05-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=55"
@@ -7234,10 +7234,10 @@
   {
     "question": "Father of former US Secretary of State Madeleine Albright was also a member of UN Commission on India-Pakistan and author of the book “Danger in Kashmir”. What was his name?",
     "options": {
-      "A": "Josef Albright",
-      "B": "Josef Korbel",
-      "C": "Owen Dixon",
-      "D": "None of these"
+      "A": "John Kerry",
+      "B": "Marco Rubio",
+      "C": "Antony Blinken",
+      "D": "Mike Pompeo"
     },
     "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Josef Korbel was the father of Madeleine Albright.He served in the UN Commission on India and Pakistan (UNIP).He also wrote the book Danger in Kashmir.Last verified on 01-05-2026",
@@ -7337,12 +7337,12 @@
   {
     "question": "Who is the Current President of Russia?",
     "options": {
-      "A": "Mikhail Mishustin",
-      "B": "Vladimir Putin",
-      "C": "Volodymyr Zelenskyy",
-      "D": "None of these"
+      "A": "Dmitry Medvedev",
+      "B": "Sergey Lavrov",
+      "C": "Mikhail Mishustin",
+      "D": "Vladimir Putin"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Vladimir Putin has served continuously as president or prime minister since 1999: As prime minister from 1999 to 2000 and from 2008 to 2012, As president from 2000 to 2008, and since 2012Born: 7 October 1952, Leningrad, Russian SFSR, Soviet UnionParty: Independent (1991–1995, 2001–2008, since 2012).Last updated by NA on 27 April 2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=57"
@@ -7402,12 +7402,12 @@
   {
     "question": "What is the name of the ocean that lies between Europe and the United States?",
     "options": {
-      "A": "Atlantic ocean",
-      "B": "Pacific ocean",
-      "C": "Arctic ocean",
-      "D": "Mediterranean Sea"
+      "A": "Indian ocean",
+      "B": "Pacific Ocean",
+      "C": "Atlantic Ocean",
+      "D": "Arctic Ocean"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Ocean: Atlantic OceanRank: 2nd largest oceanArea: ~106 million km²Borders: Europe, Africa, North & South AmericaImportance: Trade and transportation routeLast verified on 27-04-2026",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=58"
@@ -7700,12 +7700,12 @@
   {
     "question": "Who is the current Secretary General of NATO?",
     "options": {
-      "A": "Anders Fogh Rasmussen",
-      "B": "Antonio Guterres",
-      "C": "Mark Rutte",
-      "D": "None of these"
+      "A": "Jens Stoltenberg",
+      "B": "Jaap de Hoop Scheffer",
+      "C": "Anders Fogh Rasmussen",
+      "D": "Mark Rutte"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Mark Rutte is the current Secretary General of NATO since October 2024He has also served as the prime minister of Netherlands.He replaced Jens Stoltenberg to become NATO Secretary General. *********VU FIA UDC CONSTABLE PAST PAPER 31-12-2021Verified and updated on 05 April 2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=60"
@@ -7869,12 +7869,12 @@
   {
     "question": "Taekwondo is a popular form of Martial Arts. From which country did Taekwondo originate?",
     "options": {
-      "A": "China",
+      "A": "Korea",
       "B": "Japan",
-      "C": "Korea",
-      "D": "None of these"
+      "C": "China",
+      "D": "Malaysia"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Taekwondo is a martial art that originated in Korea, with a history dating back over 2,000 years.The modern version of Taekwondo was developed in the 1950s and 1960s in South Korea.It has since become a popular martial art and Olympic sport.Last verified on 04-04-2026",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=62"
@@ -8258,12 +8258,12 @@
   {
     "question": "Who was the first Asian to have received the Nobel Prize?",
     "options": {
-      "A": "C.V. Raman",
-      "B": "R.N. Tangore",
-      "C": "Mother Teresa",
-      "D": "I.A. Bunin"
+      "A": "Rabindar Nath Tagore",
+      "B": "Mother Teressa",
+      "C": "Abdul Salam",
+      "D": "C.V Raman"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The first Noble Prize to be awarded to a South Asian was awarded to Rabindranath Tagore.YEARLAUREATECOUNTRY AT THE TIME OF THE AWARDCATEGORYCOMMENT1913Rabindranath Tagore British IndiaLiteratureFirst Asian and Indian Nobel laureateLast verified on 30-03-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=65"
@@ -8322,10 +8322,10 @@
   {
     "question": "Who is the current president of Sri Lanka?",
     "options": {
-      "A": "Ranil Wickremesinghe",
-      "B": "Mahinda Rajapksa",
+      "A": "Gotabaya Rajapaksa",
+      "B": "Mahinda Rajapaksa",
       "C": "Anura Kumara Dissanayake",
-      "D": "None of these"
+      "D": "Ranil Wickremesinghe"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Anura Kumara Dissanayake is the current & tenth President of Sri Lanka since 23 Sep 2024.Predecessor: Ranil WickremesingheParty affiliation: Janatha Vimukthi Peramuna Updated on 23-03-2026Click here for reference",
@@ -8335,12 +8335,12 @@
   {
     "question": "The current president of Turkey is?",
     "options": {
-      "A": "Recep Tayyip Erdogan",
-      "B": "Harun Armagan",
-      "C": "Ahmet-Davutoglu",
-      "D": "None of these"
+      "A": "Abdullah Gül",
+      "B": "Ahmet Davutoğlu",
+      "C": "Recep Tayyip Erdoğan",
+      "D": "Binali Yıldırım"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Recep Tayyip Erdogan is serving as the 12th and current president of Turkey since 2014.He was reelected for a 3rd term in 2023, which is set to last until 2028.Last updated on 25-03-2026Click here for reference",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=65"
@@ -8348,12 +8348,12 @@
   {
     "question": "Who is the Current Prime Minister of Malaysia?",
     "options": {
-      "A": "Mahathir Bin Mohamad",
-      "B": "Anwar Ibrahim",
-      "C": "Ismail Sabri Yaakob",
-      "D": "None of these"
+      "A": "Muhyiddin Yassin",
+      "B": "Mahathir Mohamad",
+      "C": "Anwar Ibrahim",
+      "D": "Ismail Sabri Yaakob"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Anwar Ibrahim is the current & 10th prime minister of Malaysia since November 2022He replaced Ismail Sabri YaakobVerified on 25/03/2026Click here for reference",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=65"
@@ -8790,12 +8790,12 @@
   {
     "question": "Who is the current prime minister of Spain?",
     "options": {
-      "A": "George Floyd",
-      "B": "Pedro Sanchez",
-      "C": "Mariano Rajoy",
-      "D": "None of these"
+      "A": "Mariano Rajoy",
+      "B": "José Luis Rodríguez Zapatero",
+      "C": "Pedro Sánchez",
+      "D": "Alberto Núñez Feijóo"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Pedro Sanchez became prime minister of Spain in 2018Pedro Sanchez replaced Mariano RajoyLast updated on 6-3-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=69"
@@ -8920,12 +8920,12 @@
   {
     "question": "Who is the current Prime Minister of India?",
     "options": {
-      "A": "Pranab Mukherjee",
-      "B": "Manmohan Singh",
-      "C": "Narendra Modi",
-      "D": "None of these"
+      "A": "Rahul Gandhi",
+      "B": "Amit Shah",
+      "C": "Manmohan Singh",
+      "D": "Narendra Modi"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Narendra Modi is the current & 14th Prime Minister of India He was sworn in for the third time on 09 June 2024Party affiliation: Bharatiya Janata Party (BJP)Modi was preceded by Manmohan Singh in 2014.****Updated & verified on 10 Feb 2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=70"
@@ -8933,12 +8933,12 @@
   {
     "question": "Who is the Current President of China?",
     "options": {
-      "A": "Hu Jintao",
-      "B": "Li Keqiang",
-      "C": "Xi Jinping",
-      "D": "None of these"
+      "A": "Xi Jinping",
+      "B": "Hu Jintao",
+      "C": "Li Qiang",
+      "D": "Zhao Leji"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Xi Jinping is the current president of China ***Xi Jinping replaced Hu Jintao to become Chinese president in 2013.Xi Jinping was re-elected in March 2018.On 10 March 2023, Xi Jinping serured third term as Chinese President. Last updated on 17-02-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=70"
@@ -8961,10 +8961,10 @@
     "options": {
       "A": "Donald Trump",
       "B": "Joe Biden",
-      "C": "Bill Clinton",
-      "D": "None of these"
+      "C": "Kamala Harris",
+      "D": "Barack Obama"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Donald Trump replaced Joe Biden to become president of United States of America (USA) on 20 January 2025.He is the 47th president of USHe had previously served as 45th president from 2016 to 2020.He belongs to Republicans PartyUpdated & verified on 15 Feb 2026Click here for verification",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=70"
@@ -9011,12 +9011,12 @@
   {
     "question": "Who is the current Prime Minister of Russia?",
     "options": {
-      "A": "Dmitry Medvedev",
-      "B": "Mikhail Mishustin",
-      "C": "Vladimir Meadon",
-      "D": "None of these"
+      "A": "Vladimir Putin",
+      "B": "Dmitry Medvedev",
+      "C": "Sergey Lavrov",
+      "D": "Mikhail Mishustin"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Mikhail Mishustin is the current Prime Minister of Russia since 16 January 2020.Note: Vladimir Putin is the current President of Russia.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=70"
@@ -9115,10 +9115,10 @@
   {
     "question": "Who became the first female Prime Minister of Bangladesh?",
     "options": {
-      "A": "Begum Nusrat",
-      "B": "Benazir Zia",
-      "C": "Khaleda Zia",
-      "D": "Hasina Wajid"
+      "A": "Sheikh Hasina",
+      "B": "Muhammad Yunus",
+      "C": "Tarique Rahman",
+      "D": "Khaleda Zia"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Khaleda Zia Significance: First woman to lead the government of Bangladesh.Political Party: Bangladesh Nationalist Party (BNP)Terms as PM: 1991–1996, 2001–2006Last verified on 16-02-2026",
@@ -9388,12 +9388,12 @@
   {
     "question": "Who created the first gasoline Car?",
     "options": {
-      "A": "Karl Benz",
-      "B": "Henry Ford",
+      "A": "Henry Ford",
+      "B": "Karl Benz",
       "C": "Enzo Ferrari",
       "D": "None of these"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Karl Benz created the first gasoline-powered carKnown as the Benz Patent-MotorwagenPatent Date: January 29, 1886 (Patent No. 37435).Karl Benz was a German engine designer.Last update 07-02-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=73"
@@ -9414,10 +9414,10 @@
   {
     "question": "Who was the President of the USA during World War II?",
     "options": {
-      "A": "Harry Truman",
-      "B": "Theodore Roosevelt",
-      "C": "Franklin D. Roosevelt",
-      "D": "Abraham Lincoln"
+      "A": "Barack Obama",
+      "B": "Kamala Harris",
+      "C": "Donald J. Trump",
+      "D": "Joe Biden"
     },
     "correct": "C",
     "subtopic": "International Organizations",
@@ -9504,12 +9504,12 @@
   {
     "question": "What is the length of badminton court for single competition?",
     "options": {
-      "A": "16.2 m",
-      "B": "13.40 m",
-      "C": "14.63 m",
-      "D": "13.80 m"
+      "A": "13.40 m",
+      "B": "14.40 m",
+      "C": "15.40 m",
+      "D": "16.40 m"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Singles Court:Length: 13.40 m (44 ft)Width: 5.18 m (17 ft)Doubles Court:Length: 15.38 m (50.5 ft)Width: 5.18 m (17 ft)Difference in Length: 1.98 m (6.5 ft) longer for doublesLast verified on 02-02-2026",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=74"
@@ -9620,12 +9620,12 @@
   {
     "question": "Who is the current president of France?",
     "options": {
-      "A": "Binali yildirim",
-      "B": "Emmanuel  Macron",
-      "C": "Francois Hollande",
-      "D": "None of these"
+      "A": "Emmanuel Macron",
+      "B": "Marine Le Pen",
+      "C": "François Hollande",
+      "D": "Nicolas Sarkozy"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The current President of France is Emmanuel Macron.He has been serving as president since 14 May 2017 and was re‑elected in 2022.Macron is the eighth President of the Fifth Republic of France.He leads the centrist political movement Renaissance.Last updated on 25 Jan 2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=75"
@@ -9659,12 +9659,12 @@
   {
     "question": "How many goals have been included in the Sustainable Development Goals?",
     "options": {
-      "A": "17",
-      "B": "12",
-      "C": "15",
-      "D": "26"
+      "A": "12",
+      "B": "15",
+      "C": "16",
+      "D": "17"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation There are 17 Sustainable Development Goals (SDGs).Established by the United Nations in 2015.Additional information:No PovertyZero HungerGood Health and Well-beingQuality EducationGender EqualityClean Water and SanitationAffordable and Clean EnergyDecent Work and Economic GrowthIndustry, Innovation, and InfrastructureReduced InequalitiesSustainable Cities and CommunitiesResponsible Consumption and ProductionClimate ActionLife Below WaterLife on LandPeace, Justice, and Strong InstitutionsPartnerships for the GoalsLast verified on 16-01-2026",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=75"
@@ -9879,12 +9879,12 @@
   {
     "question": "Who is the creator of the character named Sherlock Holmes?",
     "options": {
-      "A": "Edgar Allen Poe",
-      "B": "Agatha Christie",
-      "C": "Arthur Conan Doyle",
-      "D": "John Lehmann"
+      "A": "Agatha Christie",
+      "B": "Arthur Conan Doyle",
+      "C": "J.K. Rowling",
+      "D": "Charles Dickens"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Sir Arthur Conan Doyle created the character Sherlock Holmes He was first introduced the iconic detective in his novel A Study in Scarlet in 1887He was a British writer and medical doctor.The Sherlock Holmes stories are milestones in the field of crime fiction.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=77"
@@ -10166,12 +10166,12 @@
   {
     "question": "Who is called the Father of History?",
     "options": {
-      "A": "Aristotle",
-      "B": "Socrates",
-      "C": "Herodotus",
-      "D": "Plato"
+      "A": "Socrates",
+      "B": "Herodotus",
+      "C": "Aristotle",
+      "D": "Thucydides"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Herodotus is called the Father of History.Additional information:Born: 484 BC, Halicarnassus (modern-day Bodrum, Turkey)Died: 425 BC, Thurii, ItalyFamous Work: Histories – detailed accounts of Greco-Persian WarsContribution: First to collect, verify, and narrate historical events systematicallyLast verified on 18-01-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=79"
@@ -10312,7 +10312,7 @@
       "A": "Forest and Sustainable cities",
       "B": "Forests and sustainable production and consumption",
       "C": "Forest and Ecosystem",
-      "D": "None of these"
+      "D": "Forest and Water"
     },
     "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Theme 2022: “Forests and sustainable production and consumption”.International Day of Forests is celebrated every year on 21 March.It celebrated to raise awareness about forests and their importance.Additional information:First celebrated by the United Nations in 2013.Last verified on 17-01-2026",
@@ -10504,12 +10504,12 @@
   {
     "question": "Who is the current Prime Minister of Saudi Arabia?",
     "options": {
-      "A": "King Abdul Aziz",
-      "B": "Muhammad bin Salman",
-      "C": "Sheikh Khalid bin Khalifa",
-      "D": "None of these"
+      "A": "Faisal bin Farhan",
+      "B": "King Salman",
+      "C": "Abdulaziz bin Salman",
+      "D": "Crown Prince Mohammed bin Salman"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Prime Minister: Muhammad bin SalmanAppointment Date: 27 September 2022Also Known As: MBSOther Position: Crown Prince of Saudi ArabiaLast verified on 16-03-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=82"
@@ -11727,7 +11727,7 @@
     "question": "Braille education system was introduced by Braille for?",
     "options": {
       "A": "Blinds",
-      "B": "Dumb",
+      "B": "Dump",
       "C": "Handicap",
       "D": "Labours"
     },
@@ -12854,9 +12854,9 @@
   {
     "question": "Which country is famous for sprinters?",
     "options": {
-      "A": "United States",
+      "A": "Spain",
       "B": "England",
-      "C": "Spain",
+      "C": "United States",
       "D": "Jamaica"
     },
     "correct": "D",
@@ -13607,12 +13607,12 @@
   {
     "question": "Who is the current prime Minister of France?",
     "options": {
-      "A": "Sebastien Lecornu",
-      "B": "Emmanuel Macron",
+      "A": "Gabriel Attal",
+      "B": "Élisabeth Borne",
       "C": "Michel Barnier",
-      "D": "None of these"
+      "D": "Jean Castex"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Sebastien Lecornu is the current Prime Minister of France since October 2025He replaced Francois BayrouHe belongs to Renaissance party Updated & Verified on 22 Oct 2025Click here for Reference",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=106"
@@ -13968,12 +13968,12 @@
   {
     "question": "Who was the first to measure the earth's radius?",
     "options": {
-      "A": "Eratosthenes",
-      "B": "Copernicus",
+      "A": "Copernicus",
+      "B": "Eratosthenes",
       "C": "Al-Beruni",
       "D": "None of these"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Eratosthenes was the first person to calculate the Earth's radius in the 3rd century B.C.E.He was a Greek astronomer who lived in Alexandria, Egypt.Eratosthenes's calculation of the Earth's radius was 6,366 km, which is close to the modern value of 6,378 km.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=109"
@@ -14356,10 +14356,10 @@
   {
     "question": "Who is the Current President of Syria?",
     "options": {
-      "A": "Ahmed al-Sharaa",
-      "B": "Bashar Hafez",
-      "C": "Bashar Alvi",
-      "D": "None of these"
+      "A": "Bashar al-Assad",
+      "B": "Faisal Mekdad",
+      "C": "Hussein Arnous",
+      "D": "Ali Mamlouk"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation As of March 2026, Ahmed al-Sharaa is the current & 20th president of Syria. Preceded by Himself (as de facto Leader), Bashar al-Assad (as President, 2024).Last updated on 30-03-2026 Click here for reference",
@@ -14447,12 +14447,12 @@
   {
     "question": "Who started ancient Olympic Games?",
     "options": {
-      "A": "American",
-      "B": "Romans",
-      "C": "Greece",
+      "A": "Greeks",
+      "B": "American",
+      "C": "Romans",
       "D": "Egyptians"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The ancient Olympic Games were started by the Greeks in Olympia around 776 B.C.According to legend, Heracles (Hercules) founded the Games to honor Zeus.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=112"
@@ -14656,11 +14656,11 @@
     "question": "Who is the Current President of Zimbabwe?",
     "options": {
       "A": "Robert Mugabe",
-      "B": "Emmerson Mnangagwa",
-      "C": "Constantine Chiwenga",
-      "D": "None of these"
+      "B": "Constantino Chiwenga",
+      "C": "Emmerson Mnangagwa",
+      "D": "Nelson Chamisa"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Emmerson Mnangagwa is the current president of Zimbabwe Since 2017.He replaced Robert Mugabe. He is the third president of Zimbabwe Click here for referenceUpdated & verified on 09-09-2025",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=114"
@@ -14795,12 +14795,12 @@
   {
     "question": "Who is the Current Ambassador of European Union to Pakistan?",
     "options": {
-      "A": "Androulla  Kaminara",
-      "B": "Stavros Lambrinidis",
-      "C": "Dr Riina Kionka",
-      "D": "None of these"
+      "A": "Dr. Riina Kionka",
+      "B": "Androulla Kaminara",
+      "C": "Jean-François Cautain",
+      "D": "Lars-Gunnar Wigemark"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The current Ambassador of the European Union to Pakistan is Raimundas Karoblis.Assumption of Office: September 2025Former Lithuanian diplomat and Minister of National DefenceServed as EU Ambassador to Tajikistan (2022–2025)Replace Dr Riina KionkaLast updated question by NA 12-JUNE-2026",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=115"
@@ -15534,12 +15534,12 @@
   {
     "question": "What is the Currency of Malaysia?",
     "options": {
-      "A": "Togrog",
-      "B": "Omani Rial",
-      "C": "Ringgit",
-      "D": "Balboa"
+      "A": "Dollar",
+      "B": "Yen",
+      "C": "Baht",
+      "D": "Ringgit"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Malaysia's Capital is Kuala Lumpur.Malaysia's Currency is Ringgit.Malaysia's official language is Malay.Malaysia located is on the Continent of Asia.Malaysia's Primary Religion is Islam.Malaysia's Head of Govt. is Prime Minister –Anwar IbrahimMalaysia Parliament is called Majilis.Tricks for Remember",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=121"
@@ -15716,9 +15716,9 @@
   {
     "question": "Who wrote \"Glimpses of World History\"?",
     "options": {
-      "A": "Gandhai",
-      "B": "Nehru",
-      "C": "Rajabdar Parsad",
+      "A": "Mahatma Gandhi",
+      "B": "Jawaharlal Nehru",
+      "C": "Rajindra Prasad",
       "D": "None of these"
     },
     "correct": "B",
@@ -16637,12 +16637,12 @@
   {
     "question": "Pakistan is located in which continent?",
     "options": {
-      "A": "Africa",
-      "B": "Europe",
-      "C": "Asia",
+      "A": "Europe",
+      "B": "Asia",
+      "C": "Africa",
       "D": "None of these"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia.Pakistan is the world's fifth-most populous country.Pakistan is the world's second-largest Muslim population.Pakistan is the 33rd-largest country by area.The capital of Pakistan is: Islamabadthe Currency of Pakistan is: the Pakistani rupee",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=129"
@@ -16689,12 +16689,12 @@
   {
     "question": "Who invented the Steam Engine?",
     "options": {
-      "A": "Bessel",
-      "B": "James Watt",
-      "C": "Faraday",
+      "A": "James Watt",
+      "B": "Faraday",
+      "C": "Bessel",
       "D": "All of these"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation James Watt, a Scottish engineer, patented improvements to the steam engine in 1781.He significantly enhancing its efficiency and power, and revolutionizing industry and transportation.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=130"
@@ -16780,12 +16780,12 @@
   {
     "question": "How many are Great Lakes in the world?",
     "options": {
-      "A": "5",
-      "B": "4",
+      "A": "4",
+      "B": "5",
       "C": "10",
-      "D": "None of these"
+      "D": "15"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation There are 5 Great Lakes in the world.They are located in North America: SuperiorMichiganHuronErieOntarioThey form the largest group of freshwater lakes by total area.Four of the five Great Lakes are shared by the United States and Canada.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=130"
@@ -16935,12 +16935,12 @@
   {
     "question": "Who discovered the sea route to India?",
     "options": {
-      "A": "Christopher Columbus",
-      "B": "Ferdinand Magellan",
-      "C": "Vasco da Gama",
-      "D": "Marco Polo"
+      "A": "Hopkins",
+      "B": "Columbus",
+      "C": "Magellan",
+      "D": "Vasco da Gamma"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Vasco da Gama was the first European to reach India by sea, arriving at Calicut in 1498.He was a famous Portuguese Explorer.He was belonged to Portugal.He was born in 1460 in the town of Sines.He was died in 1524.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=132"
@@ -17508,12 +17508,12 @@
   {
     "question": "Which UN body deals with Population Problems?",
     "options": {
-      "A": "UNDP",
-      "B": "UNFPA",
-      "C": "UNICEF",
-      "D": "UNESCO"
+      "A": "UNFPA",
+      "B": "UNICEF",
+      "C": "UNESCO",
+      "D": "UNDP"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation UNFPA stand for United Nations Population Fund.This is a UN agency aimed at improving reproductive and maternal health worldwide.Headquarters: New York, United StatesFounded: 1969Parent organization: United Nations",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=136"
@@ -18356,10 +18356,10 @@
     "options": {
       "A": "50",
       "B": "60",
-      "C": "58",
-      "D": "54"
+      "C": "54",
+      "D": "None of these"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation There are 54 independent states in Africa.These countries are recognized as sovereign nations and are members of the African Union.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=142"
@@ -18393,10 +18393,10 @@
   {
     "question": "Which country was invaded twice by Germany in the 20th century and itself had brutally colonized Congo?",
     "options": {
-      "A": "Poland",
-      "B": "Belgium",
-      "C": "USA",
-      "D": "Uk"
+      "A": "Belgium",
+      "B": "Poland",
+      "C": "France",
+      "D": "UK"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation On September 1, 1939, German forces under the control of Adolf Hitler bombard Poland on land and from the air.",
@@ -18445,7 +18445,7 @@
   {
     "question": "The concept of Carbon Credits originated from which of the following?",
     "options": {
-      "A": "Gary Summit, Riode Janeiro",
+      "A": "Earth Summit, Rio de Janeiro",
       "B": "Kyoto Protocol",
       "C": "Montreal Protocol",
       "D": "Conference of Parties (COP) 19"
@@ -18458,12 +18458,12 @@
   {
     "question": "Which Saudi King visited Pakistan in 1974?",
     "options": {
-      "A": "Shah Faisal",
-      "B": "Shah Salman",
-      "C": "Shah Farman",
-      "D": "Talal bin Waleed"
+      "A": "Shah Farman",
+      "B": "Talal bin Wwaleed",
+      "C": "Shah Salmen",
+      "D": "Shah Faisal"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The Saudi King who visited Pakistan in 1974 was King Faisal.He was the King of Saudi Arabia from 1964 until his assassination in 1975. King Faisal was also known for his anti-communist and pro-Palestinian stance.He played a significant role in the 1973 oil embargo.",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=143"
@@ -19876,12 +19876,12 @@
   {
     "question": "Who was the 16th President of the USA?",
     "options": {
-      "A": "George Washington",
-      "B": "Andrew Johnson",
-      "C": "Ulysses S. Grant",
-      "D": "Abraham Lincoln"
+      "A": "Barack Obama",
+      "B": "Kamala Harris",
+      "C": "Donald J. Trump",
+      "D": "Joe Biden"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The 16th President of the USA was Abraham Lincoln.He served from 1861 to 1865.The short list of Prime Ministers of USA:1st. George Washington2nd. Adams John Adams3rd. Thomas Jefferson15th. James Buchanan16th. Abraham Lincoln17th. Andrew Johnson44th. Barack Obama45th. Donald Trump46th. Joe Biden (Current)",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=154"
@@ -19916,12 +19916,12 @@
   {
     "question": "Who is the Current CEO of Amazon?",
     "options": {
-      "A": "Andy Jassy",
-      "B": "Jeff Bezos",
-      "C": "Bill gates",
-      "D": "None of these"
+      "A": "Sundar Pichai",
+      "B": "Andy Jassy",
+      "C": "Tim Cook",
+      "D": "Jeff Bezos"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Andrew Jassy is an American business executive who is the president and chief executive officer (CEO) of Amazon.*****RY5022023",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=155"
@@ -19956,11 +19956,11 @@
     "question": "Which of the following is known as the Father of Railways?",
     "options": {
       "A": "James Watt",
-      "B": "Thomas Newcomer",
-      "C": "Edmund Cartwright",
-      "D": "George Stpehenson"
+      "B": "George Stephenson",
+      "C": "Thomas Newcomer",
+      "D": "Edmund Cartwright"
     },
-    "correct": "D",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation George Stephenson is known as the \"Father of Railways\".Because of his pioneering work in developing the first public inter-city railway line in 1825.It revolutionized transportation and transformed the way people and goods moved around the world.He designed and built several iconic trains, including the famous \"Rocket,\" which won the Rainhill Trials in 1829.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=155"
@@ -19994,12 +19994,12 @@
   {
     "question": "Which of the following is considered the largest archipelago of the world?",
     "options": {
-      "A": "Indonesia",
-      "B": "Philippines",
+      "A": "Philippines",
+      "B": "Indonesia",
       "C": "Virgin Islands",
       "D": "None of these"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Indonesia is considered the largest archipelago in the world, comprising more than 17,000 islands.Including Sumatra, Java, Bali, and Kalimantan.It stretching from the northern tip of Sumatra to the southern edge of Papua.",
     "subtopic": "World Records & Firsts",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=155"
@@ -20113,7 +20113,7 @@
       "A": "Mackenzie River",
       "B": "Nelson River",
       "C": "Fraser River",
-      "D": "All of the above"
+      "D": "All of these"
     },
     "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Mackenzie River, Nelson River, and Fraser River - flow in Canada.Mackenzie River: Located in the Northwest Territories, it's the longest river in Canada and flows into the Arctic Ocean.Nelson River: Located in Manitoba, it flows into Hudson Bay.Fraser River: Located in British Columbia, it flows into the Pacific Ocean.",
@@ -20201,12 +20201,12 @@
   {
     "question": "Who colonised Argentine in 16th century?",
     "options": {
-      "A": "France",
+      "A": "Spain",
       "B": "Germany",
       "C": "Russia",
-      "D": "Spain"
+      "D": "France"
     },
-    "correct": "D",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Argentina was colonized by Spain in the 16th century.In 1516, Spanish conquistador Juan Díaz de Solís arrived in what is now Argentina.In 1580, the Spanish established the first permanent settlement in Buenos Aires. Spain ruled Argentina for over 300 years, until Argentina declared independence in 1816.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=157"
@@ -20228,11 +20228,11 @@
     "question": "Who is the chief executive of Islamic Republic of Afghanistan?",
     "options": {
       "A": "Ashraf Ghani",
-      "B": "Abudllah Abdullah",
-      "C": "Salahuddin Rubbani",
+      "B": "Abdullah Abdullah",
+      "C": "Salahuddin Rabbani",
       "D": "None of these"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The position of Chief Executive of the Islamic Republic of Afghanistan is currently vacant.The post was created in September 2014 and was held by Abdullah Abdullah from 2014 to 2020.However, after the Taliban took over in 2021, the position was abolished.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=157"
@@ -20279,10 +20279,10 @@
   {
     "question": "In which city of Russia St. Basil's Cathedral is located?",
     "options": {
-      "A": "Nizhny",
-      "B": "St Peters burg",
+      "A": "Saint",
+      "B": "Nizhny",
       "C": "Moscow",
-      "D": "None of these"
+      "D": "Kazan"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation St. Basil's Cathedral is located in Moscow, Russia, on Red Square.This iconic building, known for its colorful, onion-shaped domes.It was completed in the 16th century.It is a symbol of Russian architecture.Kremlin is in Moscow, the President House.",
@@ -20305,12 +20305,12 @@
   {
     "question": "In May, 2016, a British citizen of Pakistan origin won the elections for Mayor of London. What is his name?",
     "options": {
-      "A": "Sadiq Khan",
-      "B": "Nazeer Ahmad",
-      "C": "Muhammad Pervez",
-      "D": "Sadiq Qureshi"
+      "A": "Rory Stewart",
+      "B": "Boris Johnson",
+      "C": "Sadiq Khan",
+      "D": "Ken Livingstone"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Sadiq Aman Khan SPk Hon FRIBA is a British politician serving as Mayor of London since 2016. He was previously a Member of Parliament (MP) for Tooting from 2005 until 2016Born: Sadiq Aman Khan 8 October 1970 (age 52)Tooting, London, EnglandPolitical party: LabourMayor London Sadiq Khan's vote ratio:First round 40%Second round 55.2%ND13-1-2023",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=158"
@@ -20370,12 +20370,12 @@
   {
     "question": "Which one of the following is not related to disarmament?",
     "options": {
-      "A": "NATO",
-      "B": "SALT",
+      "A": "SALT",
+      "B": "CTBT",
       "C": "NPT",
-      "D": "CTBT"
+      "D": "NATO"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation NATO stands for The North Atlantic Treaty Organisation.It was established in the year 1949.Its headquarter is located in Brussels, Belgium.Unlike NPT, SALT, and CTBT, NATO is not related to disarmament.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=158"
@@ -20486,12 +20486,12 @@
   {
     "question": "Which river flows under Westminster Abbey Bridge?",
     "options": {
-      "A": "Tiber",
-      "B": "Thames",
-      "C": "Volga",
+      "A": "Volga",
+      "B": "Tiber",
+      "C": "Thames",
       "D": "None of these"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The River Thames flows under Westminster Bridge in London.The River Thames also known as the River Isis.It is a river that flows through southern England including London.It is the second-longest in the United Kingdom.The Length of the River Thames: 346 km",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=159"
@@ -20563,12 +20563,12 @@
   {
     "question": "Who invented a system of reading and writing for the blind?",
     "options": {
-      "A": "Hale Keller",
-      "B": "Sir Humphrey Davey",
-      "C": "Louis Braille",
-      "D": "Louis Pasteur"
+      "A": "Louis Braille",
+      "B": "Louis Pasteur",
+      "C": "Sir Humphrey Davey",
+      "D": "Helen Keller"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Louis Braille was a French educator and the inventor of a reading and writing systemBraille was blinded at the age of three in one eyeBorn: 4 January 1809 Coupvray, FranceDied: 6 January 1852 (aged 43) Paris, FranceResting place: Panthéon, Paris CoupvrayND13-1-2023",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=160"
@@ -20641,12 +20641,12 @@
   {
     "question": "Which country has its land mass in two continents?",
     "options": {
-      "A": "France",
-      "B": "China",
-      "C": "Canada",
-      "D": "Turkey"
+      "A": "Canada",
+      "B": "Türkiye",
+      "C": "China",
+      "D": "France"
     },
-    "correct": "D",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Turkey has its land mass in two continents: Asia and Europe.It with the Bosphorus River separating the two continents.Approximately 97% of Turkey's land is in Asia, while 3% is in Europe.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=160"
@@ -21022,12 +21022,12 @@
   {
     "question": "Which of the following river is formed by the confluence of Euphrates and Tigris?",
     "options": {
-      "A": "Khabur",
-      "B": "Yarmouk",
-      "C": "Jordan",
-      "D": "Shatt Al-Arab"
+      "A": "Nile River",
+      "B": "Khabur",
+      "C": "Shatt-al-Arab",
+      "D": "Yarmouk"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The Shatt Al-Arab river is formed by the confluence of the Euphrates and Tigris rivers in southern Iraq.It flows into the Persian Gulf. It serves as an important waterway in the region.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=163"
@@ -21126,10 +21126,10 @@
   {
     "question": "Who was famous President of Cuba?",
     "options": {
-      "A": "Fidel Castro",
-      "B": "Ramon Zaydin",
-      "C": "Manuel Antonio",
-      "D": "None of these"
+      "A": "Miguel Díaz-Canel",
+      "B": "Bruno Rodríguez Parrilla",
+      "C": "Fidel Castro",
+      "D": "Raul Castro"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Fidel Castro was a Cuban revolutionary and politician who was the leader of Cuba from 1959 to 2008.Born: August 13, 1926Died: November 25, 2016",
@@ -21619,9 +21619,9 @@
   {
     "question": "Which famous personality of English literature awarded nobel Prize in 1907?",
     "options": {
-      "A": "Paul Haysay",
+      "A": "Paul Heyse",
       "B": "Rudyard Kipling",
-      "C": "Ramain Ronnaland",
+      "C": "Romain Rolland",
       "D": "None of these"
     },
     "correct": "B",
@@ -21776,9 +21776,9 @@
     "question": "Where is tower bridge located?",
     "options": {
       "A": "London",
-      "B": "Peris",
-      "C": "Glasgow",
-      "D": "Liverpool"
+      "B": "Budapest",
+      "C": "Colombo",
+      "D": "None of these"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Tower Bridge is a Grade, built between 1886 and 1894, designed by Horace Jones and engineered by John Wolfe Barry. The bridge crosses the River Thames close to the Tower of London.It is one of five London bridges owned and maintained by the Bridge House Estates, a charitable trust founded in 1282.",
@@ -21866,12 +21866,12 @@
   {
     "question": "Which country is against US embargo attempt on Iran?",
     "options": {
-      "A": "Russia",
-      "B": "France",
-      "C": "China",
-      "D": "India"
+      "A": "China",
+      "B": "Russia",
+      "C": "France",
+      "D": "None of these"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation China opposes the U.S. embargo attempts on Iran.It supporting economic and diplomatic ties with Iran as part of its foreign policy and regional strategy.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=170"
@@ -21892,8 +21892,8 @@
   {
     "question": "Which of the following uses source of light?",
     "options": {
-      "A": "Perspective",
-      "B": "Conventional",
+      "A": "Conventional",
+      "B": "Perspective",
       "C": "Non-perspective",
       "D": "None of these"
     },
@@ -22076,10 +22076,10 @@
   {
     "question": "Which continent has minimum birth rate in the world?",
     "options": {
-      "A": "Asia",
-      "B": "Africa",
-      "C": "Australia",
-      "D": "Europe"
+      "A": "Africa",
+      "B": "Asia",
+      "C": "North America",
+      "D": "None of these"
     },
     "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Europe has the lowest fertility rate of the continents.Averaging around 1.5 births per woman. Less than 5% of all global birthsList of lowest to highest Second: North America. Average TFR: ~1.6 births per womanThird: Asia, Average TFR: ~1.9 births per womanFourth: Latin America and the Caribbean. Average TFR: ~2.0 births per womanFifth: Oceania. Average TFR: ~2.1 births per womanAfrica has the highest fertility rate of the continents.Africa: 4.7 children per womanLast updated by NA on 16-07-2026",
@@ -22156,12 +22156,12 @@
   {
     "question": "Mussolini is from which country?",
     "options": {
-      "A": "Italy",
-      "B": "France",
-      "C": "Russia",
-      "D": "None of these"
+      "A": "Germany",
+      "B": "Spain",
+      "C": "Indonesia",
+      "D": "Italy"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Benito Mussolini was an Italian politician and leader of the National Fascist Party.He ruled Italy as Prime Minister from 1922 until his ousting in 1943.He is known for his authoritarian and fascist regime, which allied with Nazi Germany and Japan during World War II.Mussolini was born in Predappio, Italy in 1883.He was executed in Milan, Italy in 1945.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=172"
@@ -22182,12 +22182,12 @@
   {
     "question": "Iron Dome is a Mobile Defence system developed by which country?",
     "options": {
-      "A": "Israel",
-      "B": "Iran",
-      "C": "Japan",
-      "D": "USA"
+      "A": "USA",
+      "B": "China",
+      "C": "Israel",
+      "D": "Iran"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Iron Dome is an air defense system developed by Rafael Advanced Defense Systems and Israel Aerospace Industries.First, put into service in 2011, it is designed to stop short-range rockets and artillery like those fired from Gaza. In the ongoing conflict between Israel and Palestine, both sides launch air strikes and rocket attacks. Israel used the Iron Dome defense system for Defence.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=172"
@@ -22444,12 +22444,12 @@
   {
     "question": "Which country has filed a case against Myanmar in the International Court of Justice (ICJ)?",
     "options": {
-      "A": "Gambia",
-      "B": "Austria",
-      "C": "Pakistan",
-      "D": "India"
+      "A": "France",
+      "B": "Australia",
+      "C": "Gambia",
+      "D": "None of these"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation In 2019, Gambia filed a case against Myanmar in the International Court of Justice (ICJ)Against the Rohingya Muslim minority.The case seeks accountability for alleged violations of the Genocide Convention.Additional informationThe Gambia is a small West African country.It's known for its diverse ecosystems around the central Gambia River.Capital: BanjulCurrency: Gambian DalasiOfficial language: English",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=174"
@@ -22535,10 +22535,10 @@
   {
     "question": "Which of the following is the narrowest strait of the world?",
     "options": {
-      "A": "Strait of Tartar",
-      "B": "Malacca Strait",
+      "A": "Bosphorous Strait",
+      "B": "Strait of Tartar",
       "C": "Palk Strait",
-      "D": "Strait Yucatan"
+      "D": "None of these"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The Strait of Tartar is the narrowest in the world. It is 7.3 km wide at the narrowest point. It is located between the Russian island of Sakhalin and mainland AsiaConnecting the Sea of Okhotsk in the north with the Sea of Japan to the south.",
@@ -22782,10 +22782,10 @@
   {
     "question": "Florence city is located in which country?",
     "options": {
-      "A": "Egypt",
-      "B": "UAE",
+      "A": "Germany",
+      "B": "France",
       "C": "Italy",
-      "D": "None"
+      "D": "None of these"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Florence is the capital city of the Italian region of Tuscany and of the province of Florence. Florence is often known as the \"Jewel of the Renaissance\".",
@@ -22808,12 +22808,12 @@
   {
     "question": "According to OAG which of the following routes is the busiest?",
     "options": {
-      "A": "Singapore to New York",
-      "B": "Kuala Lumpur to Singapore",
+      "A": "Kuala Lumpur to Singapore",
+      "B": "Singapore to New York",
       "C": "New York to Washington",
-      "D": "None of these"
+      "D": "Beijing to Shanghai"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation According to OAG (Official Airline Guide), the Kuala Lumpur to Singapore route is one of the busiest international air routes.Due to high demand for business and tourism travel between the two cities.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=177"
@@ -22847,12 +22847,12 @@
   {
     "question": "Who was the last king of Afghanistan?",
     "options": {
-      "A": "Zahir shah",
-      "B": "Amman ullah",
-      "C": "Nadir shah",
+      "A": "Muhammad Tarkai",
+      "B": "Muhammad Zahir shah",
+      "C": "Ahmed shah Abdali",
       "D": "None of these"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Mohammed Zahir Shah was the last king of Afghanistan, Reigning from 1933 until he was deposed in 1973.HistoryHead of House of Barakzai: Tenure 17 July 1978 – 23 July 2007Born: 15 October 1914 Kabul, AfghanistanDied: 23 July 2007 (aged 92) Kabul, Afghanistan",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=177"
@@ -23068,12 +23068,12 @@
   {
     "question": "Which state of India was struck by lightning more than 36,000 times in 13 hours?",
     "options": {
-      "A": "Uttar Pradesh",
-      "B": "Maharashtra",
-      "C": "Andhra Pradesh",
-      "D": "None of these"
+      "A": "Uttar Pardesh",
+      "B": "Central Pardesh",
+      "C": "Maharashtra",
+      "D": "Andhra Pardesh"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The southern Indian state of Andhra Pradesh had an electrifying night this week after officials reportedly recorded 36,749 lightning strikes in just 13 hours.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=179"
@@ -23147,8 +23147,8 @@
     "options": {
       "A": "Table Tennis",
       "B": "Lawn Tennis",
-      "C": "Badminton",
-      "D": "Squash"
+      "C": "Football",
+      "D": "Rugby"
     },
     "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Rafael Nadal is a renowned professional tennis player from Spain, widely recognized for his success on clay courts.He has won numerous Grand Slam titles throughout his career.",
@@ -23200,9 +23200,8 @@
     "options": {
       "A": "Judo",
       "B": "Cricket",
-      "C": "Football",
-      "D": "Hockey",
-      "E": "Badminton"
+      "C": "Tennis",
+      "D": "Basket ball"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Japan Capital is Tokyo.Japan Currency is Yen.Japan official language is Japanese.Japan located is in Continent Asia.Japan national game is Judo. Japan Primary Religion is Buddhism or Shinto (But Secular Country).Japan Head of Govt. is Prime Minister –Fumio Kishida.Japan Parliament called Diet.",
@@ -23461,12 +23460,12 @@
   {
     "question": "Which country is most affected by COVID-19?",
     "options": {
-      "A": "Brazil",
-      "B": "India",
-      "C": "USA",
-      "D": "Italy"
+      "A": "U.S.A.",
+      "B": "Italy",
+      "C": "India",
+      "D": "Brazil"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation According to the World Health Organization (WHO) and other reliable sources, the United States has been the country most affected by COVID-19 in terms of the total number of cases and deaths.As of September 2022, the USA has reported:Total cases: over 92 millionTotal deaths: over 1.1 million",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=182"
@@ -23487,12 +23486,12 @@
   {
     "question": "Which country has the most languages in the world?",
     "options": {
-      "A": "Cambodia",
-      "B": "Nigeria",
-      "C": "Indonesia",
-      "D": "Papua New Guinea"
+      "A": "Indonesia",
+      "B": "Papua New Guinea",
+      "C": "Nigeria",
+      "D": "Cambodia"
     },
-    "correct": "D",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Papua New Guinea (PNG) is a country in the Pacific Islands.It has the most languages of any country in the world! With over 800 known languages.PNG accounts for approximately 12% of the world's total number of languages. This is due to its unique geography, with many isolated mountain valleys and island communities.The country with the least languages in the world is Vatican City, with only one official language, which is Italian.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=182"
@@ -23540,12 +23539,12 @@
   {
     "question": "Which country banned on telecommunication on China Huawei from its 5G network?",
     "options": {
-      "A": "Japan",
-      "B": "India",
-      "C": "France",
-      "D": "UK"
+      "A": "India",
+      "B": "Japan",
+      "C": "UK",
+      "D": "France"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The UK banned Huawei from its 5G network in 2020, citing security concerns.The decision required the removal of all Huawei equipment from UK 5G networks by 2027.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=182"
@@ -23566,12 +23565,12 @@
   {
     "question": "Horseshoe bay is situated in which country?",
     "options": {
-      "A": "Australia",
-      "B": "Canada",
-      "C": "Japan",
-      "D": "Mexico"
+      "A": "Mexico",
+      "B": "Japan",
+      "C": "Canada",
+      "D": "Australia"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Horseshoe Bay is a small coastal community located on the southern tip of Vancouver Island, British Columbia, Canada.It is situated about 30 kilometers (19 miles) west of Victoria, the capital city of British Columbia.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=183"
@@ -23579,12 +23578,12 @@
   {
     "question": "Which of the following province of Afghanistan has no border with Pakistan?",
     "options": {
-      "A": "Herat",
-      "B": "Nimruz",
-      "C": "Paktika",
-      "D": "Nangharhar"
+      "A": "Paktika",
+      "B": "Nangarhar",
+      "C": "Nimruz",
+      "D": "Herat"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Herat is a province in western Afghanistan that shares borders with:Iran (to the west)Turkmenistan (to the north)Ghor Province (to the east)Farah Province (to the south)It does not share a border with Pakistan.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=183"
@@ -23785,12 +23784,12 @@
   {
     "question": "During the tenure of which Russian President, Geneva Accord was signed?",
     "options": {
-      "A": "Boris Yaltrin",
-      "B": "Mikhail Gorbachev",
-      "C": "Vladmir Putin",
-      "D": "Dnitry Madvedve"
+      "A": "Mikhail Gorbachev",
+      "B": "Boris Yaltrin",
+      "C": "Vladimir Putin",
+      "D": "Dmitry Medvedev"
     },
-    "correct": "B",
+    "correct": "A",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=184"
   },
@@ -24376,12 +24375,12 @@
   {
     "question": "The husband of Begum Khalida Zia, former Prime Minister of Bangladesh had remained the President of Bangladesh. What was his name?",
     "options": {
-      "A": "General Zia-ur Rahman",
-      "B": "General Jamal Zia",
-      "C": "General Abdul Satar Zia",
-      "D": "General Irshad Hussain Zia"
+      "A": "Sheikh Hasina",
+      "B": "Muhammad Yunus",
+      "C": "Tarique Rahman",
+      "D": "Khaleda Zia"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation General Ziaur Rahman was the husband of Begum Khaleda Zia.He served as the President of Bangladesh from 1977 to 1981.",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=189"
@@ -24719,12 +24718,12 @@
   {
     "question": "Which of the following is the largest producer of shale gas?",
     "options": {
-      "A": "USA",
-      "B": "UK",
+      "A": "Qatar",
+      "B": "USA",
       "C": "China",
-      "D": "Japan"
+      "D": "Russia"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The USA is the largest producer of shale gas, leading globally with advanced extraction technologies.In 2020, Chevron, a major U.S. company, produced an average of 387,000 barrels of shale oil per day.",
     "subtopic": "World Records & Firsts",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=191"
@@ -24758,12 +24757,12 @@
   {
     "question": "What is an Isthmus?",
     "options": {
-      "A": "Narrow strip of land that connects two oceans",
-      "B": "Narrow piece of land connecting two large areas",
-      "C": "Both A and B",
-      "D": "None"
+      "A": "Inland sea",
+      "B": "A large lagoon",
+      "C": "Narrow strip of land connecting two land masses",
+      "D": "Land formed at the mouth of a river"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The city of Auckland in the North Island of New Zealand is situated on an isthmus.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=192"
@@ -24771,13 +24770,12 @@
   {
     "question": "Where is the Headquarter of European Central Bank?",
     "options": {
-      "A": "Paris",
-      "B": "Brussels",
-      "C": "Rome",
-      "D": "Madrid",
-      "E": "Frankfurt"
+      "A": "Brussels",
+      "B": "Frankfurt",
+      "C": "Berlin",
+      "D": "Luxembourg"
     },
-    "correct": "E",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation European Central Bank: one of the world's most important central banksEuropean Central Bank Founded: 1998 Frankfurt, a city in Germany",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=192"
@@ -24918,12 +24916,12 @@
   {
     "question": "Who is the longest-serving Prime Minister of Malaysia?",
     "options": {
-      "A": "Mahathir Mohamad",
-      "B": "Abdullah Ahmad Badawi",
-      "C": "Najib Razak",
-      "D": "Anwar Ibrahim"
+      "A": "Muhyiddin Yassin",
+      "B": "Mahathir Mohamad",
+      "C": "Anwar Ibrahim",
+      "D": "Ismail Sabri Yaakob"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Mahathir Mohamad is the longest-serving Prime Minister of Malaysia.He held office for two non-consecutive terms.First term from 1981 to 2003.Second term from 2018 to 2020.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=193"
@@ -25218,9 +25216,9 @@
     "question": "Who is the current Prime Minister of New Zealand?",
     "options": {
       "A": "Christopher Luxon",
-      "B": "Jacinda Arden",
-      "C": "Chris Hipkins",
-      "D": "None of these"
+      "B": "Jacinda Ardern",
+      "C": "John Key",
+      "D": "Chris Hipkins"
     },
     "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Christopher Mark Luxon is the current and 42nd prime minister of New Zealand since 2023. He served as leader of the Opposition from 2021 to 2023.Last updated on 08-04-2026 Click here for reference",
@@ -26738,11 +26736,10 @@
   {
     "question": "Maleeha Lodhi became Permanent Representative of Pakistan to the United Nations in the year:",
     "options": {
-      "A": "2017",
-      "B": "2012",
-      "C": "2015",
-      "D": "2018",
-      "E": "2004"
+      "A": "Asim Iftikhar Ahmad",
+      "B": "Maleeha Lodhi",
+      "C": "Syed Haider Shah",
+      "D": "Munir Akram"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Maleeha Lodhi is a Pakistani diplomat, political scientist, and former Pakistan Representative to the United Nations.Maleeha Lodhi became the first woman Permanent Representative of Pakistan to the United Nations from February 2015 to 30 Sep 2019.Maleeha Lodhi's Awarded : Hilal-i-ImtiazMaleeha Lodhi is being replaced by Munir Akram in Sep 2019ND07-3-2023",
@@ -27793,12 +27790,12 @@
   {
     "question": "Recep Tayyip Erdogan is the ________ president of Turkey.",
     "options": {
-      "A": "12th",
-      "B": "13th",
-      "C": "10th",
-      "D": "11th"
+      "A": "Abdullah Gül",
+      "B": "Ahmet Davutoğlu",
+      "C": "Recep Tayyip Erdoğan",
+      "D": "Binali Yıldırım"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Recep Tayyip Erdoğan is a Turkish politician serving as the 12th and current president of Turkey since 2014.Erdoğan is serving as the first executive president, consistent with a presidential system.He previously served as prime minister of Turkey from 2003 to 2014 andas mayor of Istanbul from 1994 to 1998.He also co-founded the Justice and Development Party in 2001.He was reelected for a 3rd term on 28 May 2023, which is set to last until May 2028.",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=215"
@@ -28758,10 +28755,10 @@
   {
     "question": "Who is the current Prime Minister of China________?",
     "options": {
-      "A": "Xi Jinping",
-      "B": "Li Keqiang",
+      "A": "Li Keqiang",
+      "B": "Wang Yi",
       "C": "Li Qiang",
-      "D": "None of these"
+      "D": "Xi Jinping"
     },
     "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Li Qiang is the 8th and current premier of China Appointment: 11 March 2023 Replaced: Li Keqiang last verified on 02-04-2025",
@@ -28906,12 +28903,12 @@
   {
     "question": "December 3, (every year) is observed all over the world as:",
     "options": {
-      "A": "International Day of Persons with Disabilities",
-      "B": "International Literacy Day",
-      "C": "International Civil Aviation Day",
-      "D": "International Day of Human Rights"
+      "A": "International Literacy Day",
+      "B": "International Civil Aviation Day",
+      "C": "International Day of Persons with Disabilities",
+      "D": "International Human Rights"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation December 3 is observed worldwide as the International Day of Persons with DisabilitiesOrigin: Established in 1992 by the United Nations General Assembly.Additional informationInternational Literacy Day is celebrated each year on 8 SeptemberThe International Civil Aviation Organization: 7 December Human Rights Day is celebrated annually around the world on 10 DecemberLast updated 17 july 2026 by NA",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=223"
@@ -29679,13 +29676,12 @@
   {
     "question": "Who is the current vice Chancellor of Germany?",
     "options": {
-      "A": "Angela Merkel",
-      "B": "Gerhard Schroder",
-      "C": "Robert Habeck",
-      "D": "Friedrich Merz",
-      "E": "None of these"
+      "A": "Christian Lindner",
+      "B": "Robert Habeck",
+      "C": "Lars Klingbeil",
+      "D": "Olaf Scholz"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation April 21, 2026, Friedrich Merz is the Chancellor of Germany. A member of the center-right Christian Democratic Union (CDU), He took office on May 6, 2025 He succeeded Olaf Scholzاس کو ضرور پڑھ کے جائیںWho is the current vice Chancellor of Germany?",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=229"
@@ -30231,12 +30227,12 @@
   {
     "question": "Who is popularly known as Father of Indian Constitution?",
     "options": {
-      "A": "Jawaharlal Nehru",
-      "B": "Rajendra Prasad",
-      "C": "Dr. Bhimrao Ramji Ambedkar",
-      "D": "Mahatma Gandhi"
+      "A": "B.R Ambedkar",
+      "B": "Jawaharlal Nehru",
+      "C": "Mahatama Gandhi",
+      "D": "Bal Gangadhar Tilak"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Dr Bhimrao Ambedkar is known as the father of the Indian constitution.On 29 August 1947, the Constituent Assembly set up a Drafting Committee. This Drafting Committee was headed by Dr. Bhimrao Ambedkar.Dr. Bhimrao Ambedkar Born: April 14, 1891, Nagar, IndiaDr. Bhimrao Ambedka Died: on December 6, 1956, in New Delhi, IndiaND5.3.2023",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=233"
@@ -30349,12 +30345,12 @@
   {
     "question": "What is the theme of World Environment day 2021?",
     "options": {
-      "A": "Clean the world",
-      "B": "Climate Change Control",
-      "C": "Ecosystem Restoration",
+      "A": "Ecosystem Restoration",
+      "B": "Time for nature",
+      "C": "Air Pollution",
       "D": "None of these"
     },
-    "correct": "C",
+    "correct": "A",
     "subtopic": "Important Days",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=234"
   },
@@ -30689,12 +30685,12 @@
   {
     "question": "World Diabetes Day is observed on which date?",
     "options": {
-      "A": "November 11",
-      "B": "November 12",
-      "C": "November 13",
-      "D": "November 14"
+      "A": "14th November",
+      "B": "8th March",
+      "C": "16th June",
+      "D": "20th January"
     },
-    "correct": "D",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation World Diabetes Day is observed on 14 November.The theme for World Diabetes Day 2021-23 is access to diabetes care",
     "subtopic": "Important Days",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=237"
@@ -30844,12 +30840,12 @@
   {
     "question": "The current Secretary General of SAARC belongs to the country:",
     "options": {
-      "A": "Iran",
-      "B": "UAE",
-      "C": "Bangladesh",
-      "D": "None of the above"
+      "A": "Golam Sarwar",
+      "B": "Arjun Bahadur Thapa",
+      "C": "Esala Weerakoon",
+      "D": "Amjad Hussain B. Sial"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Golam Sarwar from Bangladesh is the current Secretary-General of SAARC, having assumed charge on 4th March 2023.Golam Sarwar belongs to Bangladesh.Replaced: Esala Weerakoon",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=238"
@@ -31228,12 +31224,12 @@
   {
     "question": "Who is the current president of European Union (EU)?",
     "options": {
-      "A": "Roberta Metsola",
-      "B": "David Sassoli",
-      "C": "Othmar Karas",
-      "D": "None of these"
+      "A": "Charles Michel",
+      "B": "Roberta Metsola",
+      "C": "Christine Lagarde",
+      "D": "Ursula von der Leyen"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Roberta Metsola replaced David Sassoli to became EU president in January 2022. Roberta Metsola belongs: MaltaReference ClickRK1123",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=241"
@@ -31976,11 +31972,10 @@
   {
     "question": "Who was the first prime minister of India?",
     "options": {
-      "A": "Manmohan Singh",
-      "B": "Vajpayee",
-      "C": "Narasimha Rao",
-      "D": "Jawaharlal Nehru",
-      "E": "Narendar Modi"
+      "A": "Rahul Gandhi",
+      "B": "Amit Shah",
+      "C": "Manmohan Singh",
+      "D": "Narendra Modi"
     },
     "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Lord Mountbatten swears in Jawaharlal Nehru as the first Prime Minister of independent India on 15 August 1947",
@@ -32163,11 +32158,11 @@
     "question": "WHO certifies which country as Malaria free?",
     "options": {
       "A": "Pakistan",
-      "B": "Brazil",
-      "C": "Canada",
-      "D": "China"
+      "B": "China",
+      "C": "Brazil",
+      "D": "Japan"
     },
-    "correct": "D",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The World Health Organization (WHO) has declared China malaria-free, after a 70-year effort to wipe it out. China used to report 30 million cases a year during the 1940s.",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=248"
@@ -32668,12 +32663,12 @@
   {
     "question": "Which former prime minister of Japan assassinated on 8 July 2022??",
     "options": {
-      "A": "Fumio Kishida",
-      "B": "Shinzo Abe",
-      "C": "Naoto Kan",
-      "D": "None of these"
+      "A": "Yoshihide Suga",
+      "B": "Fumio Kishida",
+      "C": "Shigeru Ishiba",
+      "D": "Sanae Takaichi"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Shino Abe: former PM of Japan (longest-serving leader)Shinzo Abe killed: 8 July 2022Shinzo Abe became Japanese PM first time: 2006Shinzo Abe served Japanese PM second time: 2012 to 2022",
     "subtopic": "Current Affairs & World Leaders",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=252"
@@ -32955,13 +32950,12 @@
   {
     "question": "Who became the prime minister of France in May 2022?",
     "options": {
-      "A": "Edouard Philippe",
-      "B": "Jean Castex",
-      "C": "Emmanuel Macron",
-      "D": "Elisabeth Borne",
-      "E": "None of these"
+      "A": "Gabriel Attal",
+      "B": "Élisabeth Borne",
+      "C": "Michel Barnier",
+      "D": "Jean Castex"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation Emmanuel Macron as president, Édouard Philippe became French Prime Minister on 15 May 2017.The current French Prime Minister is Elisabeth Borne since May 2022.Check updated statushttps://en.wikipedia.org/wiki/Prime_Minister_of_France",
     "subtopic": "International Organizations",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=254"
@@ -33734,12 +33728,12 @@
   {
     "question": "Princeton University is a famous university of:",
     "options": {
-      "A": "Pakistan",
-      "B": "Japan",
-      "C": "UK",
-      "D": "USA"
+      "A": "UK",
+      "B": "USA",
+      "C": "France",
+      "D": "Türkiye"
     },
-    "correct": "D",
+    "correct": "B",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation DANS:For the eleventh year in a push, Princeton College has claimed the beat spot in U.S. News & World Report's Best College rankings. Schools are positioned agreeing to their execution over a set of markers of fabulousness. U.S. News & World Report discharged its 2022 Best Colleges rankings Monday.",
     "subtopic": "General Knowledge",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=260"
@@ -34335,12 +34329,12 @@
   {
     "question": "Which European language is the official language of African country Mozambique?",
     "options": {
-      "A": "Purtuges",
-      "B": "English",
-      "C": "Spanish",
-      "D": "None"
+      "A": "French",
+      "B": "Bahasa Malay",
+      "C": "Portuguese",
+      "D": "ان میں سے کوئی نہیں"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "(0) اس سوال کو وضاحت کے ساتھ پڑھیں Explanation The only official language of Mozambique is Portuguese, which is spoken mostly as a second language by about half the population.",
     "subtopic": "World Geography",
     "sourceUrl": "https://testpointpk.com/subcategory-mcqs/100-most-repeated-gk-mcqs?page=265"

@@ -35,7 +35,7 @@
       "question": "FIR stands for _______?",
       "options": {
         "A": "First Information Regular",
-        "B": "First Information Report",
+        "B": "First Information  Report",
         "C": "First in charge Report",
         "D": "None of these"
       },
@@ -84,12 +84,12 @@
     {
       "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
       "options": {
-        "A": "Tom Burne",
-        "B": "Tim Burner Lee",
-        "C": "Fred Zuckerberg",
-        "D": "Both a and b"
+        "A": "Laiszlo Neztjev",
+        "B": "Tom Burns",
+        "C": "Tim Berners Lee",
+        "D": "Fred Zukerburg"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Russia launched a war against Ukraine in?",
@@ -214,12 +214,12 @@
     {
       "question": "Which Continent has no desert?",
       "options": {
-        "A": "Europe",
+        "A": "Asia",
         "B": "Australia",
-        "C": "N.America",
-        "D": "S.America"
+        "C": "Europe",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which is the capital of Japan?",
@@ -624,10 +624,10 @@
     {
       "question": "Which of the following is considered the Deepest lake of the world?",
       "options": {
-        "A": "Caspian sea",
-        "B": "Lake mead",
+        "A": "Lake Victoria",
+        "B": "Lake Superior",
         "C": "Lake Baikal",
-        "D": "None of these"
+        "D": "Lake Erie"
       },
       "correct": "C"
     },
@@ -764,12 +764,12 @@
     {
       "question": "How many official working languages are recognized by UNO?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "7"
+        "A": "8",
+        "B": "6",
+        "C": "4",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The largest bird in the world is?",
@@ -1254,10 +1254,10 @@
     {
       "question": "Father of former US Secretary of State Madeleine Albright was also a member of UN Commission on India-Pakistan and author of the book “Danger in Kashmir”. What was his name?",
       "options": {
-        "A": "Josef Albright",
-        "B": "Josef Korbel",
-        "C": "Owen Dixon",
-        "D": "None of these"
+        "A": "John Kerry",
+        "B": "Marco Rubio",
+        "C": "Antony Blinken",
+        "D": "Mike Pompeo"
       },
       "correct": "B"
     },
@@ -1287,7 +1287,7 @@
         "A": "Abdul Qasim",
         "B": "Jabir bin Hayan",
         "C": "Zakariya Al-Razi",
-        "D": "Abu Ali Sina"
+        "D": "Abu Ali  Sina"
       },
       "correct": "D"
     },
@@ -1564,12 +1564,12 @@
     {
       "question": "Who was the first Asian to have received the Nobel Prize?",
       "options": {
-        "A": "C.V. Raman",
-        "B": "R.N. Tangore",
-        "C": "Mother Teresa",
-        "D": "I.A. Bunin"
+        "A": "Rabindar Nath Tagore",
+        "B": "Mother Teressa",
+        "C": "Abdul Salam",
+        "D": "C.V Raman"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which is the oldest mountain in the 400 million years group?",
@@ -1647,7 +1647,8 @@
         "A": "South Africa",
         "B": "France",
         "C": "Canada",
-        "D": "Kazakhstan"
+        "D": "Kazakhstan",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -1724,10 +1725,10 @@
     {
       "question": "Who was the President of the USA during World War II?",
       "options": {
-        "A": "Harry Truman",
-        "B": "Theodore Roosevelt",
-        "C": "Franklin D. Roosevelt",
-        "D": "Abraham Lincoln"
+        "A": "Barack Obama",
+        "B": "Kamala Harris",
+        "C": "Donald J. Trump",
+        "D": "Joe Biden"
       },
       "correct": "C"
     },
@@ -1934,12 +1935,12 @@
     {
       "question": "What is the length of badminton court for single competition?",
       "options": {
-        "A": "16.2 m",
-        "B": "13.40 m",
-        "C": "14.63 m",
-        "D": "13.80 m"
+        "A": "13.40 m",
+        "B": "14.40 m",
+        "C": "15.40 m",
+        "D": "16.40 m"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "What is the angle of sector in Shot Put?",
@@ -2094,12 +2095,12 @@
     {
       "question": "How many goals have been included in the Sustainable Development Goals?",
       "options": {
-        "A": "17",
-        "B": "12",
-        "C": "15",
-        "D": "26"
+        "A": "12",
+        "B": "15",
+        "C": "16",
+        "D": "17"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "On which date is World Food Day observed?",
@@ -2245,11 +2246,11 @@
       "question": "Which country is bordered by 14 countries and 2 autonomous regions?",
       "options": {
         "A": "Russia",
-        "B": "China",
-        "C": "India",
+        "B": "India",
+        "C": "China",
         "D": "Brazil"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Three-time football world cup winner Pele, also known as King of Football belonged to which country?",
@@ -2344,12 +2345,12 @@
     {
       "question": "Who is the creator of the character named Sherlock Holmes?",
       "options": {
-        "A": "Edgar Allen Poe",
-        "B": "Agatha Christie",
-        "C": "Arthur Conan Doyle",
-        "D": "John Lehmann"
+        "A": "Agatha Christie",
+        "B": "Arthur Conan Doyle",
+        "C": "J.K. Rowling",
+        "D": "Charles Dickens"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Highest military award of Italy is?",
@@ -2407,7 +2408,8 @@
         "A": "Bulgaria",
         "B": "Argentina",
         "C": "Algeria",
-        "D": "Estonia"
+        "D": "Estonia",
+        "E": "All of the above"
       },
       "correct": "D"
     },
@@ -2904,12 +2906,12 @@
     {
       "question": "Who is called the Father of History?",
       "options": {
-        "A": "Aristotle",
-        "B": "Socrates",
-        "C": "Herodotus",
-        "D": "Plato"
+        "A": "Socrates",
+        "B": "Herodotus",
+        "C": "Aristotle",
+        "D": "Thucydides"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "KUNA is news agency of _____?",
@@ -3247,7 +3249,7 @@
         "A": "Forest and Sustainable cities",
         "B": "Forests and sustainable production and consumption",
         "C": "Forest and Ecosystem",
-        "D": "None of these"
+        "D": "Forest and Water"
       },
       "correct": "B"
     },
@@ -4987,7 +4989,8 @@
         "A": "Allama Iqbal",
         "B": "Abul Kalam Azad",
         "C": "Choudhri Rehmat Ali",
-        "D": "General Ayoub Khan"
+        "D": "General Ayoub Khan",
+        "E": "None of the above"
       },
       "correct": "B"
     },
@@ -5137,7 +5140,8 @@
         "A": "Film Industry",
         "B": "Rare birds",
         "C": "Cars",
-        "D": "Computers"
+        "D": "Computers",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -5247,7 +5251,8 @@
         "A": "Amarta Sen",
         "B": "Arnold Toynbee",
         "C": "Samuel P. Huntington",
-        "D": "Sir Syed Ahmed Khan"
+        "D": "Sir Syed Ahmed Khan",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -5257,7 +5262,8 @@
         "A": "USA",
         "B": "Denmark",
         "C": "UK",
-        "D": "India"
+        "D": "India",
+        "E": "All of these"
       },
       "correct": "C"
     },
@@ -5355,7 +5361,7 @@
       "question": "Braille education system was introduced by Braille for?",
       "options": {
         "A": "Blinds",
-        "B": "Dumb",
+        "B": "Dump",
         "C": "Handicap",
         "D": "Labours"
       },
@@ -5594,10 +5600,10 @@
     {
       "question": "What is the Capital of Monaco?",
       "options": {
-        "A": "Yaren",
-        "B": "Monaco",
-        "C": "Lima",
-        "D": "Doha"
+        "A": "Monte Carlo",
+        "B": "Monaco City",
+        "C": "Nice",
+        "D": "Cannes"
       },
       "correct": "B"
     },
@@ -5744,12 +5750,12 @@
     {
       "question": "Which country has no land border?",
       "options": {
-        "A": "Cuba",
-        "B": "Sri Lanka",
-        "C": "Nepal",
-        "D": "None of these"
+        "A": "Sri Lanka",
+        "B": "Nepal",
+        "C": "Cuba",
+        "D": "All of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which city is widely considered the world's leading financial center?",
@@ -5997,7 +6003,8 @@
         "A": "38th parallel",
         "B": "49th parallel",
         "C": "Durand line",
-        "D": "Mechmohan line"
+        "D": "Mechmohan line",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -6014,10 +6021,10 @@
     {
       "question": "What is the largest ethnic group in Afghanistan?",
       "options": {
-        "A": "Tajiks",
-        "B": "Uzbeks",
-        "C": "Pashtuns",
-        "D": "Hazaras"
+        "A": "Tajik",
+        "B": "Hazara",
+        "C": "Pashtun",
+        "D": "Uzbek"
       },
       "correct": "C"
     },
@@ -6175,9 +6182,9 @@
       "question": "Who is the current permanent representative of Pakistan to United Nations?",
       "options": {
         "A": "Maleeha Lodhi",
-        "B": "Munir Akram",
-        "C": "Asim Iftikhar Ahmad",
-        "D": "None of the above"
+        "B": "Asim Iftikhar Ahmad",
+        "C": "Syed Haider Shah",
+        "D": "Munir Akram"
       },
       "correct": "C"
     },
@@ -6347,7 +6354,8 @@
         "A": "2nd Century BC",
         "B": "3rd Century BC",
         "C": "2nd Century",
-        "D": "BC 4th Century BC"
+        "D": "BC 4th Century BC",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -6487,7 +6495,8 @@
         "A": "Titcaca lake",
         "B": "Assal Lake",
         "C": "Keenjhar lake",
-        "D": "Dead Sea"
+        "D": "Dead Sea",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -7034,9 +7043,9 @@
     {
       "question": "Who wrote \"Glimpses of World History\"?",
       "options": {
-        "A": "Gandhai",
-        "B": "Nehru",
-        "C": "Rajabdar Parsad",
+        "A": "Mahatma Gandhi",
+        "B": "Jawaharlal Nehru",
+        "C": "Rajindra Prasad",
         "D": "None of these"
       },
       "correct": "B"
@@ -7714,12 +7723,12 @@
     {
       "question": "Cable Beach is located in which country?",
       "options": {
-        "A": "New Zealand",
-        "B": "Australia",
-        "C": "Canada",
-        "D": "South Africa"
+        "A": "Australia",
+        "B": "Bahamas",
+        "C": "New Zealand",
+        "D": "Mexico"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which of the following was the theme of the 2016 Rio Olympics?",
@@ -7874,12 +7883,12 @@
     {
       "question": "Which movie won the Oscar for Best Picture in 2022?",
       "options": {
-        "A": "CODA",
-        "B": "Dune",
-        "C": "Belfast",
-        "D": "None of these"
+        "A": "Dune",
+        "B": "The Power of the Dog",
+        "C": "CODA",
+        "D": "King Richard"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "The angle of elevation of the top of a tower from a point 20 m away from its base is 45 °. What is the height of the tower?",
@@ -7904,12 +7913,12 @@
     {
       "question": "Who is Ketanji Brown Jackson?",
       "options": {
-        "A": "First female Chief Justice of the U.S. Supreme Court",
-        "B": "First Black woman appointed to the U.S. Supreme Court",
-        "C": "First African American U.S. President",
+        "A": "Black judge on the U.S. Supreme Court",
+        "B": "US Senator",
+        "C": "New York Governor",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "In which city did an attack occur during a 2024 campaign rally for former President Donald Trump?",
@@ -8054,10 +8063,10 @@
     {
       "question": "Who is the Current Ambassador of Pakistan to India?",
       "options": {
-        "A": "Jalil Abbas Jilani",
-        "B": "Muneer Akram",
+        "A": "Salman Bashir",
+        "B": "Sohail Mahmood",
         "C": "Saad Ahmad Warraich",
-        "D": "None of these"
+        "D": "Abdul Basit"
       },
       "correct": "C"
     },
@@ -8257,8 +8266,10 @@
         "A": "Bhutan",
         "B": "Nepal",
         "C": "Sri Lanka",
-        "D": "Afghanistan"
-      }
+        "D": "Afghanistan",
+        "E": "Bangladesh"
+      },
+      "correct": "E"
     },
     {
       "question": "Ban-Ki Moon was the _____?",
@@ -8343,10 +8354,10 @@
     {
       "question": "What is the order of Grand Slams in tennis?",
       "options": {
-        "A": "French open Australian open, Wimbledon and US open",
-        "B": "Australian open, French open, Wimbledon and US open",
-        "C": "Australian open, French open, Wimbledon and UK",
-        "D": "None of these"
+        "A": "French Open, Australian Open, Wimbledon and US open",
+        "B": "Australian Open, French Open, Wimbledon and US open",
+        "C": "Australian Open, Wimbledon Open, French and US open",
+        "D": "Australian Open, US Open, Wimbledon and French open"
       },
       "correct": "B"
     },
@@ -8473,12 +8484,12 @@
     {
       "question": "Who was the last king of Afghanistan?",
       "options": {
-        "A": "Zahir shah",
-        "B": "Amman ullah",
-        "C": "Nadir shah",
+        "A": "Muhammad Tarkai",
+        "B": "Muhammad Zahir shah",
+        "C": "Ahmed shah Abdali",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Recep Tayyip Erdogan belongs to which Political Party?",
@@ -8523,12 +8534,12 @@
     {
       "question": "Which of the following province of Afghanistan has no border with Pakistan?",
       "options": {
-        "A": "Herat",
-        "B": "Nimruz",
-        "C": "Paktika",
-        "D": "Nangharhar"
+        "A": "Paktika",
+        "B": "Nangarhar",
+        "C": "Nimruz",
+        "D": "Herat"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Tegel airport of located in which country?",
@@ -8626,7 +8637,8 @@
         "A": "Indonesia",
         "B": "Denmark",
         "C": "USA",
-        "D": "Netherlands"
+        "D": "Netherlands",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -8886,7 +8898,8 @@
         "A": "Russia",
         "B": "China",
         "C": "Japan",
-        "D": "England"
+        "D": "England",
+        "E": "Pakistan"
       },
       "correct": "B"
     },
@@ -8946,7 +8959,8 @@
         "A": "Cyprus",
         "B": "Rhodesia",
         "C": "Nicosia",
-        "D": "Ceylon"
+        "D": "Ceylon",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -8966,7 +8980,8 @@
         "A": "France",
         "B": "Germany",
         "C": "Holland",
-        "D": "Belgium"
+        "D": "Belgium",
+        "E": "Japan"
       },
       "correct": "D"
     },
@@ -9056,7 +9071,8 @@
         "A": "Italy",
         "B": "Portugal",
         "C": "Russia",
-        "D": "Germany"
+        "D": "Germany",
+        "E": "UK"
       },
       "correct": "D"
     },
@@ -9126,7 +9142,8 @@
         "A": "Iran",
         "B": "Philistines",
         "C": "Kashmir",
-        "D": "South Africa"
+        "D": "South Africa",
+        "E": "UK"
       },
       "correct": "D"
     },
@@ -9226,7 +9243,8 @@
         "A": "Nile",
         "B": "Indus",
         "C": "Lena",
-        "D": "Yangtze"
+        "D": "Yangtze",
+        "E": "None of these"
       },
       "correct": "C"
     },

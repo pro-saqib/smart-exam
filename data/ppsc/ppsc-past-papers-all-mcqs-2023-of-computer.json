@@ -404,12 +404,12 @@
     {
       "question": "What is meant by a dedicated computer?",
       "options": {
-        "A": "Which is assigned one and only one task",
-        "B": "Which is used by one person only",
-        "C": "Which is meant for application software",
-        "D": "None of these"
+        "A": "Which is used by one person only",
+        "B": "Which is assigned one and only one task",
+        "C": "Which uses one kind of software",
+        "D": "Which is meant for application software"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "EBCDIC stands for _______?",
@@ -444,12 +444,12 @@
     {
       "question": "Which shortcut key is used to moves the cursor one page down?",
       "options": {
-        "A": "Alt + PageDown",
-        "B": "Shift + PageDown",
-        "C": "Ctrl + PageDown",
-        "D": "PageDown"
+        "A": "Ctrl + PageDown",
+        "B": "PageDown",
+        "C": "Shift + PageDown",
+        "D": "Alt + PageDown"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which of following software is used to prepare/create multimedia presentation?",
@@ -694,22 +694,22 @@
     {
       "question": "What is gutter margin in MS Word?",
       "options": {
-        "A": "Margin that is added to the Left margin when printing",
-        "B": "Margin that is added to the binding side of page when printing",
-        "C": "Margin that is added to the right margin when printing",
-        "D": "None of these"
+        "A": "Margin that is added to the left margin when printing",
+        "B": "Margin that is added to right margin when printing",
+        "C": "Margin that is added to the binding side of page when printing",
+        "D": "Margin that is added to the outside of the page when printing"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "What is the smallest and largest font size available in Font Size tool on formatting toolbar?",
       "options": {
-        "A": "Smallest 8 & largest 70",
-        "B": "Smallest 8 & largest 71",
-        "C": "Smallest 8 & largest 72",
+        "A": "6 and 72",
+        "B": "8 and 72",
+        "C": "12 and 1392",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Which shortcut key is used to print a document?",
@@ -934,12 +934,12 @@
     {
       "question": "In which view headers and footers are visible?",
       "options": {
-        "A": "Normal View",
-        "B": "Page Layout View",
-        "C": "Print Layout View",
-        "D": "Both B and C"
+        "A": "Draft View",
+        "B": "Print Layout View",
+        "C": "Web Layout View",
+        "D": "Outline View"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "In MS Word and Excel, to combine two or more cells into one is called?",
@@ -954,22 +954,22 @@
     {
       "question": "Which protocol provides E-mail facility among different hosts?",
       "options": {
-        "A": "FTP",
+        "A": "TELNET",
         "B": "SNMP",
-        "C": "TELNET",
-        "D": "SMTP"
+        "C": "SMTP",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Which of the following is not an output device of a computer?",
       "options": {
-        "A": "Keyboard",
-        "B": "Mouse",
-        "C": "Scanner",
-        "D": "All of these"
+        "A": "Printer",
+        "B": "Keyboard",
+        "C": "CRT Screen",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Which of following is not a valid data type in MS Excel?",
@@ -984,12 +984,12 @@
     {
       "question": "Which of the following is a way to access secondary memory?",
       "options": {
-        "A": "Density method",
-        "B": "Transfer method",
-        "C": "Action method",
-        "D": "Random access memory"
+        "A": "Random Access Memory",
+        "B": "Action method",
+        "C": "Transfer method",
+        "D": "Density method"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Ctrl + W Shortcut is used in Microsoft Word to _____?",
@@ -1037,7 +1037,8 @@
         "A": "Modifier",
         "B": "Function",
         "C": "Alphanumeric",
-        "D": "Adjustment"
+        "D": "Adjustment",
+        "E": "None"
       },
       "correct": "A"
     },
@@ -1345,9 +1346,9 @@
       "question": "What type of operating system MS-DOS is?",
       "options": {
         "A": "Command Line Interface",
-        "B": "Graphical Line Interface",
+        "B": "Graphical User Interface",
         "C": "Multitasking",
-        "D": "Menu Drawn Interface"
+        "D": "Menu Driven Interface"
       },
       "correct": "A"
     },
@@ -1384,12 +1385,12 @@
     {
       "question": "Which file starts MS Word?",
       "options": {
-        "A": "Word.exe.",
-        "B": "Msword.exe.",
-        "C": "Winword.exe",
-        "D": "None of these"
+        "A": "Winword.exe",
+        "B": "MSword.exe",
+        "C": "Word.exe",
+        "D": "Word356.exe"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "In MS PowerPoint, on mouse click option can be used by?",
@@ -1454,12 +1455,12 @@
     {
       "question": "Which of the following pane is NOT available in Task Pane?",
       "options": {
-        "A": "Master Slide",
-        "B": "Slide Design",
-        "C": "Slide Transition",
-        "D": "None of these"
+        "A": "Getting started",
+        "B": "Clip Art",
+        "C": "Word Art",
+        "D": "Search results"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "A user interface that is easy to use is considered to be _____?",
@@ -1684,12 +1685,12 @@
     {
       "question": "What type of connection would be used to connect a printer directly to a network?",
       "options": {
-        "A": "Ethernet cable",
-        "B": "USB",
-        "C": "Serial",
-        "D": "None of these"
+        "A": "USB",
+        "B": "Serial",
+        "C": "Firewire",
+        "D": "Ethernet cable"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Move to the next cell in the row in MS Excel _____?",
@@ -1844,12 +1845,12 @@
     {
       "question": "Which is an example of a formula?",
       "options": {
-        "A": "Add(A1:A2)",
-        "B": "SUM(A1:A2)",
-        "C": "=A1 +A2",
-        "D": "None of these"
+        "A": "=A1+A2",
+        "B": "add(A1:A2)",
+        "C": "A1+A2",
+        "D": "SUM(A1:A2)"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "What is the shortcut key create subscript in MS-Word?",
@@ -1857,7 +1858,8 @@
         "A": "Alt+Shift+delete",
         "B": "Ctrl+ =",
         "C": "Ctrl+S",
-        "D": "Alt+="
+        "D": "Alt+=",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -2077,7 +2079,8 @@
         "A": "Task bar",
         "B": "Status bar",
         "C": "System tray",
-        "D": "Launch pad"
+        "D": "Launch pad",
+        "E": "None"
       },
       "correct": "C"
     },
@@ -2327,7 +2330,8 @@
         "A": "Conductors",
         "B": "Diodes",
         "C": "Transistors",
-        "D": "None of these"
+        "D": "None of these",
+        "E": "all of the above"
       },
       "correct": "C"
     },
@@ -2355,8 +2359,8 @@
       "question": "In MS Excel ready-made templates are available under ______ tab in new option.",
       "options": {
         "A": "File",
-        "B": "Count",
-        "C": "Table",
+        "B": "Insert",
+        "C": "Design",
         "D": "None of these"
       },
       "correct": "A"
@@ -2404,10 +2408,10 @@
     {
       "question": "Which of the following cannot change fonts?",
       "options": {
-        "A": "toggle case",
-        "B": "upper case",
-        "C": "lower case",
-        "D": "indent case"
+        "A": "Upper case",
+        "B": "Lower case",
+        "C": "Toggle case",
+        "D": "Indent case"
       },
       "correct": "D"
     },
@@ -2497,7 +2501,8 @@
         "A": "Ctrl+V",
         "B": "Ctrl+X",
         "C": "Alt+X",
-        "D": "Shift+Alt+X"
+        "D": "Shift+Alt+X",
+        "E": "Ctrl+C"
       },
       "correct": "A"
     },
@@ -2647,7 +2652,8 @@
         "A": "Calculate data",
         "B": "Enter data",
         "C": "Analyze data",
-        "D": "All of these"
+        "D": "All of these",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2697,7 +2703,8 @@
         "A": "Ctrl + A",
         "B": "Ctrl + N",
         "C": "Ctrl + M",
-        "D": "Ctrl + S"
+        "D": "Ctrl + S",
+        "E": "None of these"
       },
       "correct": "A"
     },
@@ -2817,7 +2824,8 @@
         "A": "Moves the cursor one paragraph down",
         "B": "Moves the cursor one line down",
         "C": "Moves the cursor one page down",
-        "D": "Moves the cursor one screen down"
+        "D": "Moves the cursor one screen down",
+        "E": "None of these"
       },
       "correct": "A"
     },

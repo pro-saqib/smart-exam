@@ -6,7 +6,7 @@
       "options": {
         "A": "Hazrat Abu Bakar",
         "B": "Hazrat Umar",
-        "C": "Hazrat Usman",
+        "C": "Hazrat  Usman",
         "D": "Hazrat Ali"
       },
       "correct": "C"
@@ -54,12 +54,12 @@
     {
       "question": "Who is called Umar-e-Sani?",
       "options": {
-        "A": "Hazrat Umar bin Abdullah R.A",
-        "B": "Hazrat Umar bin Khataab R.A",
-        "C": "Hazrat Umar bin Abdul Azeez R.A",
-        "D": "None of these"
+        "A": "Hazrat Umar bin Abdullah (R-A)",
+        "B": "Hazrat Umar bin Khataab (R-A)",
+        "C": "Hazrat Abdullah bin Umar(R-A)",
+        "D": "Hazrat Umar bin Abdul Azeez (R-A)"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "When did the Conquest of Makkah (Fatah Makkah) by the Holy Prophet Muhammad (ﷺ) take place?",
@@ -134,12 +134,12 @@
     {
       "question": "Which battle is referred to as Yaumul Furqan?",
       "options": {
-        "A": "Hunayn",
-        "B": "Badr",
-        "C": "Uhad",
+        "A": "Badr",
+        "B": "Uhad",
+        "C": "Hunayn",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Compilation of Ahadith is called _____?",
@@ -264,12 +264,12 @@
     {
       "question": "Who purchased the well of Ruma and declared it as a trust?",
       "options": {
-        "A": "Hazrat Ali",
-        "B": "Hazrat Umar",
-        "C": "Hazrat Usman",
+        "A": "Hazrat Abu Bakar (RA)",
+        "B": "Hazrat Usman (RA)",
+        "C": "Hazrat Ali (RA)",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Hazrat Amna died at the way of-----?",
@@ -304,12 +304,12 @@
     {
       "question": "Who freed Hazrat Bilal (RA) from slavery?",
       "options": {
-        "A": "Hazrat Abu Bakr (RA)",
-        "B": "Hazrat Umar (RA)",
-        "C": "Hazrat Usman (RA)",
+        "A": "Hazrat Umar RA",
+        "B": "Hazrat Usman RA",
+        "C": "Hazrat Ali RA",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "How many manzils (Stages) are there in Quran?",
@@ -327,8 +327,10 @@
         "A": "To obey",
         "B": "To have safety",
         "C": "To bow down the neck",
-        "D": "To seek safety"
-      }
+        "D": "To seek safety",
+        "E": "All of these"
+      },
+      "correct": "E"
     },
     {
       "question": "How many months declared sacred?",
@@ -393,22 +395,22 @@
     {
       "question": "ملکہ سبا کا اصلی نام کیا تھا؟",
       "options": {
-        "A": "بلقیس",
-        "B": "سارہ",
+        "A": "سارہ",
+        "B": "بلقیس",
         "C": "حاجرہ",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "بیت المقدس کو جنات کی مدد سے کس نے تیار کروایا؟",
       "options": {
-        "A": "حضرت ابرہیم علیہ السلام",
-        "B": "حضرت خضر علیہ السلام",
-        "C": "حضرت سلیمان علیہ السلام",
+        "A": "حضرت سلیمان",
+        "B": "حضرت خضر",
+        "C": "حضرت ابراہیم",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "عہد نبوی میں کن دو صحابہ کے ساتھ لعان کا مسئلہ درپیش ہوا؟",
@@ -433,12 +435,12 @@
     {
       "question": "نفس لوامہ کسے کہتے ہیں؟",
       "options": {
-        "A": "ملامت کرنے والا",
-        "B": "گناہوں کی طرف مائل کرنے والا",
-        "C": "دنیا کی طرف کھینچنے والا",
+        "A": "گناہوں کی طرف مائل کرنے والا",
+        "B": "دنیا کی طرف کھینچنے والا",
+        "C": "ملامت کرنے والا",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "قریش مکہ گرمیوں میں کس ملک ہجرت کرتے تھے؟",
@@ -453,12 +455,12 @@
     {
       "question": "سکھ کتنے خداؤں کو مانتے ہیں؟",
       "options": {
-        "A": "دو",
-        "B": "تین",
-        "C": "ایک",
+        "A": "ایک",
+        "B": "دو",
+        "C": "تین",
         "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "The Miracle of the camel was related to which Prophet?",
@@ -563,9 +565,9 @@
     {
       "question": "ولید بن عتبہ کو غزوہ بدر میں کس نے قتل کیا؟",
       "options": {
-        "A": "حضرت حمزہ",
+        "A": "حضرت خالد بن ولید",
         "B": "حضرت علی",
-        "C": "حضرت مصعب بن عمیر",
+        "C": "(not legible in scan)",
         "D": "ان میں سے کوئی نہیں"
       },
       "correct": "B"
@@ -613,12 +615,12 @@
     {
       "question": "ہجری کیلنڈر کب شروع ہوا؟",
       "options": {
-        "A": "16 H",
-        "B": "17 H",
-        "C": "18 H",
-        "D": "19 H"
+        "A": "17 ہجری",
+        "B": "16 ہجری",
+        "C": "15 ہجری",
+        "D": "ان میں سے کوئی نہیں"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "من و سلوی کس نبی کی امت پر نازل ہوا؟",
@@ -653,10 +655,10 @@
     {
       "question": "Who put circles for the first time in Quran-e-Pak?",
       "options": {
-        "A": "Imam Malik R.A",
-        "B": "Imam Shafi R.A",
-        "C": "Hazart Abu al-Aswad al-Du’ali RA",
-        "D": "Hazrat Umar (R.A)"
+        "A": "Imam Malik RA",
+        "B": "Imam Shafi RA",
+        "C": "Hazrat Abu al aswad douli RA",
+        "D": "All of these"
       },
       "correct": "C"
     },
@@ -774,7 +776,7 @@
       "question": "اصحاب الاخدود سے مراد کیا ہے؟",
       "options": {
         "A": "جنگ میں شامل ہونے والے",
-        "B": "مشکل میں کام آنے والے",
+        "B": "مشکل میں کام آنے والے",
         "C": "کھائی کھودنے والے",
         "D": "ان میں سے کوئی نہیں"
       },
@@ -804,8 +806,8 @@
       "question": "فترت الوحی کسے کہتے ہیں؟",
       "options": {
         "A": "پہلی وحی کو",
-        "B": "آخری وحی کو",
-        "C": "پہلی اور آخری وحی کے درمیان کے وقت کو",
+        "B": "آخری وحی کو",
+        "C": "پہلی اور آخری وحی کے درمیان کے وقت کو",
         "D": "ان میں سے کوئی نہیں"
       },
       "correct": "C"
@@ -993,12 +995,12 @@
     {
       "question": "Which Turkish leader abolished the Institution of Caliphate?",
       "options": {
-        "A": "Maulana Shibli Naumani",
-        "B": "Mustafa Kamal Attaturk",
-        "C": "Sir Syed Ahmed Khan",
-        "D": "Sultan Abdul Majid"
+        "A": "Mustafa Kamal Ataturk",
+        "B": "Sultan Abdul Majeed",
+        "C": "Mustafa Jamal Ataturk",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Which OIC conference was held in Pakistan?",

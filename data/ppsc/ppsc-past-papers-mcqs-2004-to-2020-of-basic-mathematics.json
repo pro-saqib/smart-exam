@@ -1064,12 +1064,12 @@
     {
       "question": "Which of the following is not a major reason for an email bounce?",
       "options": {
-        "A": "Domain server is down",
-        "B": "Stale file handle",
-        "C": "bad domain name",
-        "D": "Bad user account name"
+        "A": "Bad user account name",
+        "B": "Bad domain name",
+        "C": "Stale file handle",
+        "D": "Domain server is down"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Sam bought a 12 pack of soda for $5.40. How much did he pay per can of soda?",
@@ -2288,7 +2288,8 @@
         "B": "700 mg",
         "C": "500 mg",
         "D": "300 mg"
-      }
+      },
+      "correct": null
     },
     {
       "question": "'A' is twice as old as 'B'. Three year ago 'A' was three times as old as 'B' How old is 'A' now?",
@@ -3163,12 +3164,12 @@
     {
       "question": "How many times do the hands of a clock coincide in a day?",
       "options": {
-        "A": "11",
-        "B": "32",
-        "C": "22",
+        "A": "18",
+        "B": "22",
+        "C": "25",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Evaluate 48.95 - 32.006 = _____?",
@@ -3813,12 +3814,12 @@
     {
       "question": "One megawatt is equal to how many kilowatts?",
       "options": {
-        "A": "1000 Kilowatt",
-        "B": "100 Kilowatt",
-        "C": "100000 Kilowatt",
-        "D": "10000 Kilowatt"
+        "A": "100 Kilowatt",
+        "B": "1000 Kilowatt",
+        "C": "10000 Kilowatt",
+        "D": "100000 Kilowatt"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "A man spends 35% of his income on food, 25% on children's education and 80% of the remaining on the house rent. What percentage of his income he is left with?",
@@ -5033,10 +5034,10 @@
     {
       "question": "One nautical mile is equal to how many kilometers?",
       "options": {
-        "A": "1851 kilometers",
-        "B": "1853 kilometers",
-        "C": "1852 kilometers",
-        "D": "1854 kilometers"
+        "A": "1.613",
+        "B": "1.932",
+        "C": "1.853",
+        "D": "1.766"
       },
       "correct": "C"
     },

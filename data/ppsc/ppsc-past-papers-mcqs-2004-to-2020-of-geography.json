@@ -54,22 +54,22 @@
     {
       "question": "Who introduced the Basic Democracy?",
       "options": {
-        "A": "Liaquat Ali Khan",
-        "B": "Ayoub Khan",
-        "C": "Muhammad Ali Bogra",
-        "D": "None of these"
+        "A": "Ayub Khan",
+        "B": "Bhutto",
+        "C": "Zia",
+        "D": "None of above"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Who invented the World Wide Web (WWW) with Robert Cailliau?",
       "options": {
-        "A": "Tom Burne",
-        "B": "Tim Burner Lee",
-        "C": "Fred Zuckerberg",
-        "D": "Both a and b"
+        "A": "Laiszlo Neztjev",
+        "B": "Tom Burns",
+        "C": "Tim Berners Lee",
+        "D": "Fred Zukerburg"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The largest Island of the world is _____?",
@@ -364,12 +364,12 @@
     {
       "question": "Lady Finger Peak is located in which country?",
       "options": {
-        "A": "China",
-        "B": "Nepal",
-        "C": "India",
-        "D": "Pakistan"
+        "A": "Russia",
+        "B": "India",
+        "C": "Pakistan",
+        "D": "Canada"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Which river does not flow on Pakistan land?",
@@ -454,7 +454,7 @@
     {
       "question": "The largest earth filled dam of the world is _____?",
       "options": {
-        "A": "Mangla dam",
+        "A": "Mangla  dam",
         "B": "Basha dam",
         "C": "Tarbela dam",
         "D": "None of these"
@@ -504,10 +504,10 @@
     {
       "question": "Which of the following is considered the Deepest lake of the world?",
       "options": {
-        "A": "Caspian sea",
-        "B": "Lake mead",
+        "A": "Lake Victoria",
+        "B": "Lake Superior",
         "C": "Lake Baikal",
-        "D": "None of these"
+        "D": "Lake Erie"
       },
       "correct": "C"
     },
@@ -534,12 +534,12 @@
     {
       "question": "Who is the Current President of India?",
       "options": {
-        "A": "Manmohan Singh",
-        "B": "Droupadi Murmu",
-        "C": "Narendar Modi",
-        "D": "None of these"
+        "A": "Narendra Modi",
+        "B": "Ram Nath Kovind",
+        "C": "Droupadi Murmu",
+        "D": "Pranab Mukherjee"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Who was the first President of All India Muslim League?",
@@ -654,10 +654,10 @@
     {
       "question": "Pakistan joined Non-Aligned Movement (NAM) in which year?",
       "options": {
-        "A": "1980",
-        "B": "1989",
+        "A": "1977",
+        "B": "1978",
         "C": "1979",
-        "D": "None of these"
+        "D": "1981"
       },
       "correct": "C"
     },
@@ -734,12 +734,12 @@
     {
       "question": "When was the Kashmir issue taken to the United Nations by India?",
       "options": {
-        "A": "26 January 1949",
-        "B": "15 August 1947",
-        "C": "1 January 1948",
+        "A": "15 August 1947",
+        "B": "01 January 1948",
+        "C": "26 January 1949",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Hanna lake is located in _____?",
@@ -1014,12 +1014,12 @@
     {
       "question": "How many goals have been included in the Sustainable Development Goals?",
       "options": {
-        "A": "17",
-        "B": "12",
-        "C": "15",
-        "D": "26"
+        "A": "12",
+        "B": "15",
+        "C": "16",
+        "D": "17"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Which day is observed as Black Day in Kashmir_____?",
@@ -1144,12 +1144,12 @@
     {
       "question": "Who invented dynamite?",
       "options": {
-        "A": "Dr. Alfred B. Nobel",
-        "B": "H. W. Seeley",
-        "C": "Lionel Lukin",
-        "D": "Roger Bacon"
+        "A": "Newton",
+        "B": "Edison",
+        "C": "Alfred Nobel",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Which Range is called Roof of the World?",
@@ -1254,12 +1254,12 @@
     {
       "question": "Quaid-E-Azam Solar Park is one of the biggest projects for solar power generation in Pakistan. Where is it located?",
       "options": {
-        "A": "Sukkur",
-        "B": "Rahim Yar Khan",
-        "C": "Bahawalpur",
-        "D": "Mianwali"
+        "A": "Multan",
+        "B": "Sukkur",
+        "C": "Rahim Yar Khan",
+        "D": "Bahawalpur"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Barack Obama was _____ President of USA?",
@@ -1304,12 +1304,12 @@
     {
       "question": "What term describes a picture that has been resized by a percentage?",
       "options": {
-        "A": "Scaled",
-        "B": "Stretched",
-        "C": "Flipped",
-        "D": "Cropped"
+        "A": "Cropped",
+        "B": "Flipped",
+        "C": "Stretched",
+        "D": "Scaled"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "Which regiment of Pakistan Army has received maximum numbers of “Nishan-e-Haider”?",
@@ -1324,12 +1324,12 @@
     {
       "question": "Siraj Raisani belonged to which political party?",
       "options": {
-        "A": "Pakistan Muslim League N",
+        "A": "Pakistan Muslim League-N",
         "B": "Pakistan Muslim League Q",
-        "C": "Balochistan Awami Party",
-        "D": "None of these"
+        "C": "Awami National Party",
+        "D": "Balochistan Awami Party"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "First Barani University was established at which city?",
@@ -1824,12 +1824,12 @@
     {
       "question": "How many are Great Lakes in the world?",
       "options": {
-        "A": "5",
-        "B": "4",
+        "A": "4",
+        "B": "5",
         "C": "10",
-        "D": "None of these"
+        "D": "15"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "First summit of SAARC was held in 1985 in?",
@@ -2074,10 +2074,10 @@
     {
       "question": "Who is the Current Ambassador of Pakistan to India?",
       "options": {
-        "A": "Jalil Abbas Jilani",
-        "B": "Muneer Akram",
+        "A": "Salman Bashir",
+        "B": "Sohail Mahmood",
         "C": "Saad Ahmad Warraich",
-        "D": "None of these"
+        "D": "Abdul Basit"
       },
       "correct": "C"
     },
@@ -2187,7 +2187,8 @@
         "A": "Islamabad",
         "B": "Geneva",
         "C": "Tokyo",
-        "D": "Moscow"
+        "D": "Moscow",
+        "E": "London"
       },
       "correct": "D"
     },
@@ -2226,10 +2227,10 @@
       "options": {
         "A": "50",
         "B": "60",
-        "C": "58",
-        "D": "54"
+        "C": "54",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "The territorial claim over the island of Abu Musa is disputed between _____?",
@@ -2327,7 +2328,8 @@
         "A": "Russia",
         "B": "China",
         "C": "Ukraine",
-        "D": "Romania"
+        "D": "Romania",
+        "E": "Taiwan"
       },
       "correct": "A"
     },
@@ -2417,7 +2419,8 @@
         "A": "1829",
         "B": "1950",
         "C": "1940",
-        "D": "1931"
+        "D": "1931",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2574,10 +2577,10 @@
     {
       "question": "Who was appointed as caretaker Prime Minister on March 25, 2013?",
       "options": {
-        "A": "Mian muhammad Samroo",
-        "B": "Justice (R) Hasir ul MUlk",
+        "A": "Mian Muhammad Somroo",
+        "B": "Justice (R) Nasir-ul-Mulik",
         "C": "Mir Hazar Khan Khoso",
-        "D": "Javad Jabbar"
+        "D": "Javed Jabbar"
       },
       "correct": "C"
     },
@@ -2615,7 +2618,7 @@
       "question": "Pakistan lies of the tropic zone of _____?",
       "options": {
         "A": "Tropic of Cancer",
-        "B": "Temperature Zone",
+        "B": "Temperature  Zone",
         "C": "Tropic of Capricorn",
         "D": "None of these"
       },
@@ -2714,12 +2717,12 @@
     {
       "question": "Which of the following is considered the largest archipelago of the world?",
       "options": {
-        "A": "Indonesia",
-        "B": "Philippines",
+        "A": "Philippines",
+        "B": "Indonesia",
         "C": "Virgin Islands",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "St. Petersburg is a _____?",
@@ -2774,10 +2777,10 @@
     {
       "question": "In which city of Russia St. Basil's Cathedral is located?",
       "options": {
-        "A": "Nizhny",
-        "B": "St Peters burg",
+        "A": "Saint",
+        "B": "Nizhny",
         "C": "Moscow",
-        "D": "None of these"
+        "D": "Kazan"
       },
       "correct": "C"
     },
@@ -2874,12 +2877,12 @@
     {
       "question": "Which country has its land mass in two continents?",
       "options": {
-        "A": "France",
-        "B": "China",
-        "C": "Canada",
-        "D": "Turkey"
+        "A": "Canada",
+        "B": "Türkiye",
+        "C": "China",
+        "D": "France"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "In which province is the town Dalbandin located?",
@@ -2914,12 +2917,12 @@
     {
       "question": "Who was the first governor of West Pakistan?",
       "options": {
-        "A": "Sardar Abdul Rub Nishter",
-        "B": "Ghulam Mustafa Khar",
-        "C": "Mushtaq Ahmad Gurmani",
-        "D": "None of these"
+        "A": "Sardar Abdur Rab Nishtar",
+        "B": "Mushtaq Ahmad Gurmani",
+        "C": "Ghulam Mustafa Khan",
+        "D": "Malik Amir Muhammad Khan"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Where is the Adriatic Sea locked?",
@@ -3197,7 +3200,8 @@
         "A": "1844",
         "B": "1845",
         "C": "1848",
-        "D": "1846"
+        "D": "1846",
+        "E": "1847"
       },
       "correct": "D"
     },
@@ -3224,12 +3228,12 @@
     {
       "question": "Horseshoe bay is situated in which country?",
       "options": {
-        "A": "Australia",
-        "B": "Canada",
-        "C": "Japan",
-        "D": "Mexico"
+        "A": "Mexico",
+        "B": "Japan",
+        "C": "Canada",
+        "D": "Australia"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Ching Ping Dam is located in ________?",
@@ -3334,12 +3338,12 @@
     {
       "question": "Which country has officially legalized recreational use of Marijuana?",
       "options": {
-        "A": "United States",
-        "B": "France",
-        "C": "Canada",
-        "D": "China"
+        "A": "Canada",
+        "B": "United States",
+        "C": "China",
+        "D": "France"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "In which city does the desert city Timbuktu lie?",
@@ -3544,12 +3548,12 @@
     {
       "question": "What is an Isthmus?",
       "options": {
-        "A": "Narrow strip of land that connects two oceans",
-        "B": "Narrow piece of land connecting two large areas",
-        "C": "Both A and B",
-        "D": "None"
+        "A": "Inland sea",
+        "B": "A large lagoon",
+        "C": "Narrow strip of land connecting two land masses",
+        "D": "Land formed at the mouth of a river"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "Atlas mountains are present in?",
@@ -3897,7 +3901,8 @@
         "A": "Euro",
         "B": "Africa",
         "C": "Asia",
-        "D": "South America"
+        "D": "South America",
+        "E": "North America"
       },
       "correct": "C"
     },
@@ -4087,16 +4092,17 @@
         "A": "Nile",
         "B": "Indus",
         "C": "Lena",
-        "D": "Yangtze"
+        "D": "Yangtze",
+        "E": "None of these"
       },
       "correct": "C"
     },
     {
       "question": "In 2016 the UN General Assembly declared to replace UN Commission on the human rights with the",
       "options": {
-        "A": "UN Human Rights Agency",
-        "B": "UN Human Rights Committee",
-        "C": "UN Human Rights Council",
+        "A": "UN  Human Rights Agency",
+        "B": "UN  Human Rights Committee",
+        "C": "UN  Human Rights Council",
         "D": "None"
       },
       "correct": "C"
@@ -4144,12 +4150,12 @@
     {
       "question": "Which of the following river is without delta?",
       "options": {
-        "A": "Narmada River",
+        "A": "Narmada",
         "B": "St. Lawrence",
         "C": "Indus",
         "D": "Both A and B"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "In which country is the cape of good hope ?",

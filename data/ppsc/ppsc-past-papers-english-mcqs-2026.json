@@ -164,9 +164,9 @@
     {
       "question": "Idiom: The Alpha and Omega means?",
       "options": {
-        "A": "beautiful object",
+        "A": "A beautiful object",
         "B": "Beginning and end",
-        "C": "good man",
+        "C": "A good man",
         "D": "Something divine"
       },
       "correct": "B"
@@ -304,9 +304,9 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "Have Ahsan play football?",
-        "B": "Does Ahsan play football?",
-        "C": "Do Ahsan play football?",
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
         "D": "None of these"
       },
       "correct": "B"
@@ -384,10 +384,10 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "He has died a year ago.",
-        "B": "He died a year ago.",
-        "C": "He had died a year ago.",
-        "D": "He is died a year ago."
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -424,9 +424,9 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "The person to who I sold the house was a fraud.",
-        "B": "The person to whom I sold the house was a fraud.",
-        "C": "The person which I sold the house was a fraud.",
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
         "D": "None of these"
       },
       "correct": "B"
@@ -1254,12 +1254,12 @@
     {
       "question": "Choose the correctly punctuated sentence:",
       "options": {
-        "A": "My aunt who lives in Karachi, is a doctor.",
-        "B": "My aunt, who lives in Karachi is a doctor.",
-        "C": "My aunt, “who lives in Karachi”, is a doctor.",
-        "D": "None of these"
+        "A": "The teachers loud voices startled the five year old child What a scene!",
+        "B": "The teachers' loud voices startled the five-year-old child, what a scene!",
+        "C": "The teachers loud voices startled the five-year-old child. What a scene!",
+        "D": "The teachers' loud voices startled the five-year-old child. What a scene!"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "None of you _____ done work correctly.",
@@ -1504,10 +1504,10 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "Let you and I go together",
-        "B": "Let you and me go together",
-        "C": "Let I and you go together",
-        "D": "Let me and you go together"
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -1614,12 +1614,12 @@
     {
       "question": "Which one is correct?",
       "options": {
-        "A": "He is family man",
-        "B": "He is a family man",
-        "C": "He is a man with family",
-        "D": "He family man"
+        "A": "The library lost all its books",
+        "B": "That car is not yours",
+        "C": "That car is not theirs",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The meaning of in a fix is?",
@@ -1824,20 +1824,20 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "He wrote the best book.",
-        "B": "He wrote a best book.",
-        "C": "He wrote an best book.",
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which is the correct sentence?",
       "options": {
-        "A": "She is the Fatima Jinah of society",
-        "B": "She is the Fatima Jinnah of society",
-        "C": "She is Fatima Jinnah of the society",
-        "D": "None of these"
+        "A": "Sceneries of Kashmir are beautiful.",
+        "B": "The scenery of Kashmir is beautiful.",
+        "C": "The scenery of Kashmir are beautiful.",
+        "D": "The scenery of Kashmir was beautiful."
       },
       "correct": "B"
     },
@@ -1934,12 +1934,12 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "No sooner I had reached the station than the bus left.",
-        "B": "No sooner had I reach the station than the bus left.",
-        "C": "No sooner had I reached the station than the bus left.",
-        "D": "No sooner did I reached the station than the bus left."
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
+        "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Idiom: Break a leg means?",

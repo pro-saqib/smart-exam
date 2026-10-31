@@ -564,10 +564,10 @@
     {
       "question": "What is the shortcut key to open a new MS Word document?",
       "options": {
-        "A": "Ctrl + O",
+        "A": "Ctrl + M",
         "B": "Ctrl + N",
-        "C": "Ctrl + W",
-        "D": "Ctrl + M"
+        "C": "Ctrl + U",
+        "D": "Ctrl + J"
       },
       "correct": "B"
     },
@@ -704,12 +704,12 @@
     {
       "question": "What is gutter margin in MS Word?",
       "options": {
-        "A": "Margin that is added to the Left margin when printing",
-        "B": "Margin that is added to the binding side of page when printing",
-        "C": "Margin that is added to the right margin when printing",
-        "D": "None of these"
+        "A": "Margin that is added to the left margin when printing",
+        "B": "Margin that is added to right margin when printing",
+        "C": "Margin that is added to the binding side of page when printing",
+        "D": "Margin that is added to the outside of the page when printing"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "A(An) _____ is an Internet service that provides remote storage to computer users.",
@@ -1117,7 +1117,8 @@
         "A": "Hard Drive",
         "B": "Mouse",
         "C": "Keyboard",
-        "D": "Printer"
+        "D": "Printer",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1167,7 +1168,7 @@
         "A": "Misspelled word/Spelling Error",
         "B": "Character mistakes",
         "C": "Grammatical mistakes",
-        "D": "Spacing mistakes"
+        "D": "Spacing  mistakes"
       },
       "correct": "A"
     },
@@ -1364,12 +1365,12 @@
     {
       "question": "In which view headers and footers are visible?",
       "options": {
-        "A": "Normal View",
-        "B": "Page Layout View",
-        "C": "Print Layout View",
-        "D": "Both B and C"
+        "A": "Draft View",
+        "B": "Print Layout View",
+        "C": "Web Layout View",
+        "D": "Outline View"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Which protocol is used to delete the email from the server?",
@@ -1414,12 +1415,12 @@
     {
       "question": "Which protocol provides E-mail facility among different hosts?",
       "options": {
-        "A": "FTP",
+        "A": "TELNET",
         "B": "SNMP",
-        "C": "TELNET",
-        "D": "SMTP"
+        "C": "SMTP",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Spooling is required for devices such as _____?",
@@ -1444,12 +1445,12 @@
     {
       "question": "Docx is the extension of which of the following?",
       "options": {
-        "A": "MS Excel",
-        "B": "MS Word",
-        "C": "MS PowerPoint",
-        "D": "MS Outlook"
+        "A": "MS Word",
+        "B": "MS Excel",
+        "C": "Power Point",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Software required to run the hardware is known as _____?",
@@ -1564,12 +1565,12 @@
     {
       "question": "Which of the following is not an output device of a computer?",
       "options": {
-        "A": "Keyboard",
-        "B": "Mouse",
-        "C": "Scanner",
-        "D": "All of these"
+        "A": "Printer",
+        "B": "Keyboard",
+        "C": "CRT Screen",
+        "D": "None of these"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "Which of following is not a valid data type in MS Excel?",
@@ -1604,12 +1605,12 @@
     {
       "question": "Which of the following is a way to access secondary memory?",
       "options": {
-        "A": "Density method",
-        "B": "Transfer method",
-        "C": "Action method",
-        "D": "Random access memory"
+        "A": "Random Access Memory",
+        "B": "Action method",
+        "C": "Transfer method",
+        "D": "Density method"
       },
-      "correct": "B"
+      "correct": "C"
     },
     {
       "question": "The software which contains rows and columns is called in MS Excel is called?",
@@ -1844,12 +1845,12 @@
     {
       "question": "What does SSL stand for?",
       "options": {
-        "A": "Safe Security Login",
-        "B": "Secure System Link",
-        "C": "Secure Socket Layer",
-        "D": "Simple Socket Link"
+        "A": "Secure Socket Layer",
+        "B": "Secure Service Layer",
+        "C": "System Security Layer",
+        "D": "Standard Secure Layer"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "How do you select a chart in MS PowerPoint?",
@@ -1864,12 +1865,12 @@
     {
       "question": "In MS Word 2007, which shortcut key is used to switch to Outline view?",
       "options": {
-        "A": "ALT+CTRL+O",
-        "B": "ALT+CTRL+P",
-        "C": "ALT+SHIFT+O",
+        "A": "ALT+CTRL+P",
+        "B": "ALT+SHIFT+O",
+        "C": "ALT+CTRL+O",
         "D": "ALT+SHIFT+P"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "In MS Excel you can use a function to combine text from two cells into one cell. But you can use an operator to do the same thing. Which operator is that?",
@@ -1994,12 +1995,12 @@
     {
       "question": "Which of the following is a correct email format of Email address?",
       "options": {
-        "A": "Name.website.com",
-        "B": "Www.nameofebsite.com",
-        "C": "Name@website.com",
-        "D": "Name@website@info"
+        "A": "Name@website.com",
+        "B": "Name.website.com",
+        "C": "Name@website@info",
+        "D": "All of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "MS PowerPoint is example of _____?",
@@ -2244,12 +2245,12 @@
     {
       "question": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
       "options": {
-        "A": "Animation Scheme",
-        "B": "Slide Transition",
-        "C": "Slide Design",
-        "D": "None of these"
+        "A": "Slide Transition",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Ctrl + N Shortcut key is used in MS Word to _______?",
@@ -2357,7 +2358,7 @@
         "A": "Point-to-point connection",
         "B": "Broadcast connection",
         "C": "Multicast connection",
-        "D": "Anycast connection"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -2394,12 +2395,12 @@
     {
       "question": "Which key is used to minimize Excel Worksheet?",
       "options": {
-        "A": "CTRL+F9",
-        "B": "CTRL+F5",
-        "C": "CTRL+F11",
+        "A": "CTRL+F5",
+        "B": "CTRL+F11",
+        "C": "CTRL+F9",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "An Art of writing code words is called ?",
@@ -2414,12 +2415,12 @@
     {
       "question": "Which of the key is used to close the active window?",
       "options": {
-        "A": "Ctrl+F4",
-        "B": "Ctrl+F5",
-        "C": "Alt+F6",
-        "D": "Alt+F4"
+        "A": "Alt+F4",
+        "B": "Esc+F4",
+        "C": "Ctrl+F4",
+        "D": "Alt+F5"
       },
-      "correct": "D"
+      "correct": "A"
     },
     {
       "question": "How to create a new presentation in PowerPoint?",
@@ -2427,7 +2428,8 @@
         "A": "Ctrl+ M",
         "B": "Ctrl+ U",
         "C": "Ctrl+ S",
-        "D": "Ctrl+ N"
+        "D": "Ctrl+ N",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2574,10 +2576,10 @@
     {
       "question": "What is the role of META AI in business?",
       "options": {
-        "A": "Improving ad targeting",
-        "B": "Enhancing customer engagement",
-        "C": "Automating data analysis",
-        "D": "All of the above"
+        "A": "Enhancing customer experiences through AI-driven recommendations",
+        "B": "Improving business decision-making with data insights and analytics",
+        "C": "Automating tasks and processes to improve efficiency",
+        "D": "All of these"
       },
       "correct": "D"
     },
@@ -2734,12 +2736,12 @@
     {
       "question": "Sachal Sarmast was a famous poet of which language?",
       "options": {
-        "A": "Sindhi",
-        "B": "Baluchi",
-        "C": "Punjabi",
-        "D": "None of these"
+        "A": "Baluchi",
+        "B": "Punjabi",
+        "C": "Sindhi",
+        "D": "Kashmiri"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Two are more computers connected to each other for sharing information from a _____?",
@@ -2817,7 +2819,8 @@
         "A": "Second",
         "B": "Fourth",
         "C": "First",
-        "D": "Third"
+        "D": "Third",
+        "E": "None of these"
       },
       "correct": "D"
     },
@@ -2854,12 +2857,12 @@
     {
       "question": "You will need to open a ______ to access a website.",
       "options": {
-        "A": "Word Processor",
-        "B": "Spreadsheet",
-        "C": "Browser",
-        "D": "Presentation Tool"
+        "A": "Browser",
+        "B": "Email",
+        "C": "PowerPoint",
+        "D": "URL"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "The space left between the margin and the start of a paragraph is called _____?",
@@ -3034,10 +3037,10 @@
     {
       "question": "Which of the following is Mozilla Firefox?",
       "options": {
-        "A": "Antivirus software",
+        "A": "Anti-virus software",
         "B": "Web browser",
         "C": "URL",
-        "D": "Code"
+        "D": "COO"
       },
       "correct": "B"
     },

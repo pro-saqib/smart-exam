@@ -24,12 +24,12 @@
     {
       "question": "Who introduced the Basic Democracy?",
       "options": {
-        "A": "Liaquat Ali Khan",
-        "B": "Ayoub Khan",
-        "C": "Muhammad Ali Bogra",
-        "D": "None of these"
+        "A": "Ayub Khan",
+        "B": "Bhutto",
+        "C": "Zia",
+        "D": "None of above"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "The Largest Desert of Pakistan is?",
@@ -64,12 +64,12 @@
     {
       "question": "The culture of ______ roots in Indus Valley Civilization.",
       "options": {
-        "A": "Balouchistan",
-        "B": "Sindh",
+        "A": "Sindh",
+        "B": "Balouchistan",
         "C": "KPK",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Khunjerab pass connects ______?",
@@ -87,7 +87,7 @@
         "A": "Punjab",
         "B": "Sindh",
         "C": "KPK",
-        "D": "None of these"
+        "D": "Balouchistan"
       },
       "correct": "B"
     },
@@ -255,11 +255,11 @@
       "question": "Who was the first Foreign Minister of Pakistan?",
       "options": {
         "A": "Liaquat Ali Khan",
-        "B": "Quaid-e-Azam",
-        "C": "Muhammad Ali",
-        "D": "Zafarullah Khan"
+        "B": "Zafarullah Khan",
+        "C": "Khawaja Nazimuddin",
+        "D": "Ghulam Muhammad"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "How many districts are there in Punjab?",
@@ -415,9 +415,9 @@
       "question": "Who is the Current Chief Election Commissioner of Pakistan?",
       "options": {
         "A": "Sikandar Sultan Raja",
-        "B": "Altaf Ibrahim Qureshi",
-        "C": "Sardar Muhammad Raza Khan",
-        "D": "None of these"
+        "B": "Fakhruddin G. Ebrahim",
+        "C": "Sardar Muhammad Raza",
+        "D": "Justice (r) Hamid Ali Mirza"
       },
       "correct": "A"
     },
@@ -544,10 +544,10 @@
     {
       "question": "Which is the Oldest University of Pakistan?",
       "options": {
-        "A": "University of the Punjab, Lahore",
-        "B": "King Edward Medical University, Lahore",
-        "C": "University of Agriculture, Faisalabad",
-        "D": "Sindh Madressatul Islam University, Karachi"
+        "A": "Punjab University",
+        "B": "Peshawar University",
+        "C": "Sindh University",
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -735,21 +735,21 @@
       "question": "Who was the first viceroy of India?",
       "options": {
         "A": "Lord Canning",
-        "B": "Lord Hardinge",
-        "C": "Lord Elgin",
-        "D": "Warren Hastings"
+        "B": "Lord Rippon",
+        "C": "Lord Curzon",
+        "D": "Lord Hastings"
       },
       "correct": "A"
     },
     {
       "question": "Who was the last Governor General of Pakistan?",
       "options": {
-        "A": "Iskander Mirza",
-        "B": "Liaqiat Ali khan",
-        "C": "Khawaja nizam u din",
-        "D": "Muhammad ali"
+        "A": "Quaid-e-Azam",
+        "B": "Ghulam Muhammad",
+        "C": "Khaja Nazim-u-deen",
+        "D": "Major Gen Sikandar Mirza"
       },
-      "correct": "A"
+      "correct": "D"
     },
     {
       "question": "How many Ministers are there in Cabinet Mission?",
@@ -1014,12 +1014,12 @@
     {
       "question": "When was Quaid-e-Azam first appointed as Third Presidency Magistrate in Bombay?",
       "options": {
-        "A": "1899",
-        "B": "1900",
-        "C": "1947",
-        "D": "1930"
+        "A": "1900",
+        "B": "1902",
+        "C": "1903",
+        "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Pakistan has no diplomatic relations with _____?",
@@ -1217,16 +1217,18 @@
         "A": "Sir Syed Ahmed Khan",
         "B": "Chaudhry Rehmat Ali",
         "C": "Waqar ul Mulk",
-        "D": "Allama Iqbal"
-      }
+        "D": "Allama Iqbal",
+        "E": "Syed Ameer Ali"
+      },
+      "correct": "E"
     },
     {
       "question": "Tirich Mir is located in which mountain range?",
       "options": {
-        "A": "Karakuram",
-        "B": "Hindukash",
-        "C": "Suleman",
-        "D": "Koh-e-Sufaid"
+        "A": "Himalayas",
+        "B": "Hindu Kush",
+        "C": "Karakoram",
+        "D": "Pamirs"
       },
       "correct": "B"
     },
@@ -1266,7 +1268,8 @@
         "A": "1583",
         "B": "1582",
         "C": "1581",
-        "D": "1584"
+        "D": "1584",
+        "E": "None of these"
       },
       "correct": "B"
     },
@@ -1284,7 +1287,7 @@
       "question": "Pakistan lies of the tropic zone of _____?",
       "options": {
         "A": "Tropic of Cancer",
-        "B": "Temperature Zone",
+        "B": "Temperature  Zone",
         "C": "Tropic of Capricorn",
         "D": "None of these"
       },
@@ -1483,32 +1486,32 @@
     {
       "question": "At the time of Independence which community was in majority in the state of Kashmir?",
       "options": {
-        "A": "Hindu",
-        "B": "Muslim",
+        "A": "Muslim",
+        "B": "Hindu",
         "C": "Sikh",
-        "D": "None of these"
+        "D": "Christian"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Who was Mohammad Ali Bogra?",
       "options": {
-        "A": "New law of Pakistan",
-        "B": "Third report",
-        "C": "Prime Minister",
-        "D": "Pakistan report"
+        "A": "Prime Minister",
+        "B": "Foreign Minister",
+        "C": "Law Minister",
+        "D": "Parliament Minister"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Who was the last ruler of Lodi dynasty?",
       "options": {
-        "A": "Ibrahim Lodhi",
-        "B": "Bahlol Lodhi",
+        "A": "Bahlol Lodhi",
+        "B": "Ibrahim Lodhi",
         "C": "Akbar Lodhi",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "The main demand of simla Muslim Deputation accepted in Minto Morley Reforms of 1906 was about?",
@@ -1516,7 +1519,7 @@
         "A": "Separate electorates",
         "B": "Separate muslim state",
         "C": "Separation of Sindh from Bombay",
-        "D": "Separate Muslim Eduction"
+        "D": "None of these"
       },
       "correct": "A"
     },
@@ -1543,12 +1546,12 @@
     {
       "question": "What is the main issue between Pakistan and India?",
       "options": {
-        "A": "Law and order issue",
+        "A": "Law & order issue",
         "B": "Water issue",
-        "C": "Kashmir issue",
+        "C": "Ladakh Issue",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "Tipu Sultan got martyred on _____?",
@@ -1576,7 +1579,8 @@
         "A": "Zulfiqar Ali Bhutto",
         "B": "Zia-Ul-Haq",
         "C": "Pervez Musharaf",
-        "D": "Asif Ali Zardari"
+        "D": "Asif Ali Zardari",
+        "E": "Nawaz Sharif"
       },
       "correct": "A"
     },
@@ -1636,7 +1640,8 @@
         "A": "1907",
         "B": "1904",
         "C": "1906",
-        "D": "1913"
+        "D": "1913",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -1716,7 +1721,8 @@
         "A": "Mamnoon Hussain",
         "B": "Farooq Ahmed Laghari",
         "C": "Asif Ali Zardari",
-        "D": "Rafiq Tarar"
+        "D": "Rafiq Tarar",
+        "E": "None of the above"
       },
       "correct": "C"
     },
@@ -1813,12 +1819,12 @@
     {
       "question": "Sehat Health Insurance Program started from which province of Pakistan?",
       "options": {
-        "A": "Punjab",
-        "B": "Sindh",
-        "C": "KPK",
+        "A": "KPK",
+        "B": "Punjab",
+        "C": "Sindh",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Rohri is a city located in which district?",
@@ -1893,12 +1899,12 @@
     {
       "question": "Who was the last Prime Minister of United Punjab?",
       "options": {
-        "A": "Khizer Tiwana",
-        "B": "Sikandar Hayat",
-        "C": "Sir Evan Jenkins",
+        "A": "Sir Evan Jenkins",
+        "B": "Khizer Tiwana",
+        "C": "Sikandar Hayat",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "A referendum on allowing Pervez Musharraf to continue as President for five years was held in Pakistan on which date?",
@@ -2013,9 +2019,9 @@
     {
       "question": "Hinglaj Mata Temple, is situated in which Province of Pakistan?",
       "options": {
-        "A": "KPK",
-        "B": "Balochistan",
-        "C": "Punjab",
+        "A": "Punjab",
+        "B": "Balouchistan",
+        "C": "Sindh",
         "D": "None of these"
       },
       "correct": "B"
@@ -2063,12 +2069,12 @@
     {
       "question": "Who requested Ahmad Shah Abdali to come India in 18th century?",
       "options": {
-        "A": "Shah Wali Ullah",
-        "B": "Mirza Ghalib",
-        "C": "Al-Beruni",
+        "A": "Al Beruni",
+        "B": "Shah Wali Ullah",
+        "C": "Mirza Ghalib",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Lahore the area of Punjab joins which city to India?",
@@ -2084,8 +2090,8 @@
       "question": "Who was the first Shaheed in Pakistan Movement?",
       "options": {
         "A": "Ghazi Ilm Din",
-        "B": "Abdul Malik",
-        "C": "Muhammad Suleman Shah",
+        "B": "Muhammad Suleman Shah",
+        "C": "Abdul Malik",
         "D": "None of these"
       },
       "correct": "B"
@@ -2118,7 +2124,7 @@
         "C": "60",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "D"
     },
     {
       "question": "On August 4, 2020, the government published a map of Pakistan and announced that if anybody using incorrect map of Pakistan, he will face _______?",
@@ -2133,12 +2139,12 @@
     {
       "question": "When Pakistan declared Corona emergency?",
       "options": {
-        "A": "23 March 2020",
-        "B": "19 March 2020",
-        "C": "13 March 2020",
+        "A": "13 March 2020",
+        "B": "23 March 2020",
+        "C": "19 March 2020",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "When Nidwa tul Ulema established?",
@@ -2414,8 +2420,8 @@
       "question": "Who was the last governor of undivided Punjab?",
       "options": {
         "A": "Sir Evan Jenkins",
-        "B": "Francis mudie",
-        "C": "Abdur Rab Nashter",
+        "B": "Francis Mudie",
+        "C": "Abdurrab Nishtar",
         "D": "None of these"
       },
       "correct": "A"
@@ -2463,10 +2469,10 @@
     {
       "question": "Who was the 3rd President of Pakistan?",
       "options": {
-        "A": "Mr. Z.A Bhutto",
-        "B": "Ayyub khan",
-        "C": "Gen Yahya Khan",
-        "D": "Mr. Pervez Musharaf"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
       "correct": "C"
     },
@@ -2543,12 +2549,12 @@
     {
       "question": "Where is \"Qadam Gah of Mola Ali (R.A)\" located?",
       "options": {
-        "A": "Bibi Pak Daman, Lahore",
-        "B": "Peshawar",
-        "C": "Hyderabad, Sindh",
+        "A": "Hyderabad Sindh",
+        "B": "Bibi Pak Daman (Lahore)",
+        "C": "Peshawar",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Which of the following is not a social issue in Pakistan?",
@@ -2563,12 +2569,12 @@
     {
       "question": "Pakistan is expected to harvest wheat crop with the first month of which Mela?",
       "options": {
-        "A": "Baisakhi Mela",
-        "B": "Mela Maveshiyan",
-        "C": "Jashan-e-Baharan",
+        "A": "Mela Maveshiyan",
+        "B": "Jashan-e-Baharan",
+        "C": "Maghi Mela",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Dr. Arif Alvi was the _____ President of Pakistan.",
@@ -2606,7 +2612,8 @@
         "A": "English",
         "B": "Hindus",
         "C": "Sikhs",
-        "D": "Marhattas"
+        "D": "Marhattas",
+        "E": "None of these"
       },
       "correct": "C"
     },
@@ -2693,12 +2700,12 @@
     {
       "question": "Who was the Second President of Pakistan?",
       "options": {
-        "A": "Malik Ghulam Muhammad",
-        "B": "Iskander Mirza",
-        "C": "Muhammad Ali Jinnah",
-        "D": "Ayub Khan"
+        "A": "Mamnoon Hussain",
+        "B": "Arif Alvi",
+        "C": "Asif Ali Zardari",
+        "D": "Pervez Musharraf"
       },
-      "correct": "D"
+      "correct": "C"
     },
     {
       "question": "Where is Dasu Dam situated?",
@@ -2826,7 +2833,8 @@
         "A": "Rawalpindi",
         "B": "Taxila",
         "C": "Peshawar",
-        "D": "Quetta"
+        "D": "Quetta",
+        "E": "Attock"
       },
       "correct": "B"
     },
@@ -2903,10 +2911,10 @@
     {
       "question": "Who is the current chairman of the Pakistan Cricket Board (PCB)?",
       "options": {
-        "A": "Ramiz Raja",
-        "B": "Ehsan Mani",
-        "C": "Najam Sethi",
-        "D": "Syed Mohsin Naqvi"
+        "A": "Ehsan Mani",
+        "B": "Najam Sethi",
+        "C": "Ramiz Raja",
+        "D": "Mohsin Naqvi"
       },
       "correct": "D"
     },
@@ -2923,12 +2931,12 @@
     {
       "question": "How many were the members of Basic Democracies from East Pakistan?",
       "options": {
-        "A": "60000",
-        "B": "80000",
-        "C": "40000",
-        "D": "20000"
+        "A": "40000",
+        "B": "50000",
+        "C": "60000",
+        "D": "70000"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Nadir Shah invaded India in __ :",
@@ -2946,7 +2954,8 @@
         "A": "February 1, 2022",
         "B": "February 3, 2022",
         "C": "February 5, 2022",
-        "D": "February 4, 2022"
+        "D": "February 4, 2022",
+        "E": "February 6, 2022"
       },
       "correct": "C"
     },
@@ -3006,7 +3015,8 @@
         "A": "1871",
         "B": "1875",
         "C": "1873",
-        "D": "1872"
+        "D": "1872",
+        "E": "1900"
       },
       "correct": "B"
     },

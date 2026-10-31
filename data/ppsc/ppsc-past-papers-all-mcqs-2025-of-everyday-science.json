@@ -414,12 +414,12 @@
     {
       "question": "What is the Circumference of Earth?",
       "options": {
-        "A": "450,000 km",
-        "B": "50,075 km",
-        "C": "40,075 km",
-        "D": "30,000 km"
+        "A": "30,000 km",
+        "B": "40,000 km",
+        "C": "50,000 km",
+        "D": "20,000 km"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "The largest planet of the solar system is _____?",
@@ -637,8 +637,10 @@
         "A": "Typhoid",
         "B": "Choler",
         "C": "Flu",
-        "D": "Jaundice"
-      }
+        "D": "Jaundice",
+        "E": "Both A and B"
+      },
+      "correct": "E"
     },
     {
       "question": "The diameter of Jupiter is eleven times the diameter of ______?",
@@ -766,7 +768,8 @@
         "A": "Vitamin K",
         "B": "Vitamin B",
         "C": "Vitamin C",
-        "D": "Vitamin D"
+        "D": "Vitamin D",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -1273,12 +1276,12 @@
     {
       "question": "What is H5N1?",
       "options": {
-        "A": "Virus",
-        "B": "Disease",
+        "A": "Fungi",
+        "B": "Virus",
         "C": "Bacteria",
-        "D": "None of these"
+        "D": "Vaccine"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Who coined the term gene?",
@@ -1336,7 +1339,8 @@
         "A": "Igneous rocks",
         "B": "Sedimentary rocks",
         "C": "Metamorphic rocks",
-        "D": "Acid rocks"
+        "D": "Acid rocks",
+        "E": "Basic rocks"
       },
       "correct": "C"
     },
@@ -1723,12 +1727,12 @@
     {
       "question": "Which direction does wind flow around areas of high pressure in the Northern Hemisphere?",
       "options": {
-        "A": "South west direction",
-        "B": "Counter clock wise direction",
-        "C": "Clockwise direction",
+        "A": "Counter clockwise direction",
+        "B": "Clockwise direction",
+        "C": "South west direction",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "B"
     },
     {
       "question": "Fat is stored in which part of the body?",
@@ -1736,7 +1740,7 @@
         "A": "Liver",
         "B": "Heart",
         "C": "Subcutaneous",
-        "D": "None of these"
+        "D": "Arteries"
       },
       "correct": "C"
     },
@@ -1753,12 +1757,12 @@
     {
       "question": "What is defined as the minimal point of soil moisture the plant requires?",
       "options": {
-        "A": "Soil Point",
-        "B": "Wilting Point",
-        "C": "Field Point",
+        "A": "Wilting point",
+        "B": "Field Point",
+        "C": "Soil Point",
         "D": "None of these"
       },
-      "correct": "B"
+      "correct": "A"
     },
     {
       "question": "Sedimentary rocks are _______?",
@@ -1884,9 +1888,9 @@
       "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
       "options": {
         "A": "Oxygen",
-        "B": "Carbon dioxide",
+        "B": "Nitrogen",
         "C": "Hydrogen Sulphide",
-        "D": "None of these"
+        "D": "Carbon dioxide"
       },
       "correct": "C"
     },
@@ -2043,12 +2047,12 @@
     {
       "question": "Which of the following can be recycled many times?",
       "options": {
-        "A": "Sodium",
-        "B": "Aluminum",
-        "C": "Amazon forest",
-        "D": "None of these"
+        "A": "Plastic",
+        "B": "Wood",
+        "C": "Organic materials",
+        "D": "Aluminum"
       },
-      "correct": "B"
+      "correct": "D"
     },
     {
       "question": "Deforestation at large scale can be observed at _____?",
@@ -2396,7 +2400,8 @@
         "A": "Lungs",
         "B": "Brain",
         "C": "Heart",
-        "D": "Liver"
+        "D": "Liver",
+        "E": "Bones"
       },
       "correct": "D"
     },
@@ -2413,7 +2418,7 @@
     {
       "question": "What is the Diameter of Earth?",
       "options": {
-        "A": "15742 km",
+        "A": "15742  km",
         "B": "14742 km",
         "C": "13742 km",
         "D": "12756 km"
@@ -2456,7 +2461,7 @@
         "A": "Joining nuclei",
         "B": "Splitting heavy nucleus into smaller nuclei",
         "C": "Neutron absorption",
-        "D": "None of these"
+        "D": "None  of these"
       },
       "correct": "B"
     },
@@ -2743,12 +2748,12 @@
     {
       "question": "Who invented dynamite?",
       "options": {
-        "A": "Dr. Alfred B. Nobel",
-        "B": "H. W. Seeley",
-        "C": "Lionel Lukin",
-        "D": "Roger Bacon"
+        "A": "Newton",
+        "B": "Edison",
+        "C": "Alfred Nobel",
+        "D": "None of these"
       },
-      "correct": "A"
+      "correct": "C"
     },
     {
       "question": "Water has maximum density at _____?",
@@ -2763,12 +2768,12 @@
     {
       "question": "Who was the first to invent Airplane?",
       "options": {
-        "A": "Wright Brothers",
-        "B": "Aero Brothers",
+        "A": "Aero Brothers",
+        "B": "Wright Brothers",
         "C": "William Brothers",
         "D": "None of these"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Which gas among the following is a major greenhouse gas?",
@@ -3223,12 +3228,12 @@
     {
       "question": "Name the element which is used to fabricate solar cells and transistors?",
       "options": {
-        "A": "Germanium",
-        "B": "Iron",
-        "C": "Silicon",
+        "A": "Silicon",
+        "B": "Germanium",
+        "C": "Iron",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Ammonia Solvay process is used for the manufacture of _____?",
@@ -4016,7 +4021,8 @@
         "A": "Blood Issues",
         "B": "Dirty Water",
         "C": "Dirty environment",
-        "D": "Mosquito"
+        "D": "Mosquito",
+        "E": "All of these"
       },
       "correct": "D"
     },
@@ -4905,8 +4911,8 @@
       "options": {
         "A": "Volatile",
         "B": "Viscous",
-        "C": "Evapurative",
-        "D": "None of the above"
+        "C": "Evaporative",
+        "D": "None of these"
       },
       "correct": "A"
     },

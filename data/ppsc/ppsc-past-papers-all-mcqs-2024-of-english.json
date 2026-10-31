@@ -24,9 +24,9 @@
     {
       "question": "Idiom: The Alpha and Omega means?",
       "options": {
-        "A": "beautiful object",
+        "A": "A beautiful object",
         "B": "Beginning and end",
-        "C": "good man",
+        "C": "A good man",
         "D": "Something divine"
       },
       "correct": "B"
@@ -447,7 +447,8 @@
         "A": "An ominous warning",
         "B": "a windfall",
         "C": "An unexpected disaster",
-        "D": "thunderstorm"
+        "D": "A thunderstorm",
+        "E": "None of the above"
       },
       "correct": "C"
     },
@@ -585,7 +586,7 @@
       "question": "The departmental store is open ______ eight to seven.",
       "options": {
         "A": "From",
-        "B": "On",
+        "B": "By",
         "C": "Between",
         "D": "During"
       },
@@ -827,7 +828,8 @@
         "A": "He swore by God that he is not guilty.",
         "B": "He swore by God that he will not guilty.",
         "C": "He swore by God that he was not guilty.",
-        "D": "All are correct"
+        "D": "All are correct",
+        "E": "All are wrong"
       },
       "correct": "C"
     },
@@ -1015,7 +1017,7 @@
       "question": "Eat one's cake and have it means ____?",
       "options": {
         "A": "Policy in coach fighting among friends",
-        "B": "policy to keep dog as a house guard",
+        "B": "A policy to keep dog as a house guard",
         "C": "To maintain disease cat",
         "D": "Have it both ways"
       },
@@ -1034,12 +1036,12 @@
     {
       "question": "Which verb form ends in \"ing\" and acts as a noun?",
       "options": {
-        "A": "Participle",
+        "A": "Gerund",
         "B": "Infinitive",
-        "C": "Gerund",
-        "D": "None of these"
+        "C": "Transitive",
+        "D": "Indefinite"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "_____ dangerously a person lives, _____ likely he or she is to die young.",
@@ -1114,12 +1116,12 @@
     {
       "question": "Which one is correct?",
       "options": {
-        "A": "That car is not yours.",
-        "B": "That car is not theirs.",
-        "C": "The library lost all its books.",
+        "A": "The library lost all its books",
+        "B": "That car is not yours",
+        "C": "That car is not theirs",
         "D": "None of these"
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "question": "Coffee : Beverages ::",
@@ -1174,9 +1176,9 @@
     {
       "question": "Choose the correct sentence:",
       "options": {
-        "A": "She has laugh.",
-        "B": "She had laughed.",
-        "C": "She has laughing.",
+        "A": "She is having a car that she loves.",
+        "B": "She has a car that she loves.",
+        "C": "She has been having a car that she loves.",
         "D": "None of these"
       },
       "correct": "B"
@@ -1254,10 +1256,10 @@
     {
       "question": "It was a mistake that I didn't ______ the contract before signing it.",
       "options": {
-        "A": "Check out",
-        "B": "Look through",
-        "C": "Come by",
-        "D": "See out"
+        "A": "Look through",
+        "B": "Read",
+        "C": "See out",
+        "D": "Check out"
       },
       "correct": "B"
     },
@@ -1527,7 +1529,8 @@
         "A": "Win",
         "B": "Wins",
         "C": "Is winning",
-        "D": "Won"
+        "D": "Won",
+        "E": "Has won"
       },
       "correct": "B"
     },
@@ -1744,12 +1747,12 @@
     {
       "question": "Fifty rupees ______ not a big amount.",
       "options": {
-        "A": "Is",
-        "B": "Are",
-        "C": "Has",
-        "D": "Have"
+        "A": "are",
+        "B": "is",
+        "C": "has",
+        "D": "were"
       },
-      "correct": "A"
+      "correct": "B"
     },
     {
       "question": "Men, women, and children in __________ part of the world wear some sort of jewelry, either as ornaments or because of superstitions.",
@@ -1957,7 +1960,8 @@
         "A": "Mistake",
         "B": "Mistaken",
         "C": "Mistook",
-        "D": "Mistaking"
+        "D": "Mistaking",
+        "E": "All of these"
       },
       "correct": "B"
     },
@@ -2234,10 +2238,10 @@
     {
       "question": "Choose the correct spelling:",
       "options": {
-        "A": "Curisity",
-        "B": "Curiosity",
-        "C": "Curiusity",
-        "D": "all are wrong"
+        "A": "Excutive",
+        "B": "Executive",
+        "C": "Ixecutive",
+        "D": "None of these"
       },
       "correct": "B"
     },
@@ -2267,7 +2271,8 @@
         "A": "Abundance",
         "B": "Scarcity",
         "C": "Stoppage",
-        "D": "Quickness"
+        "D": "Quickness",
+        "E": "None"
       },
       "correct": "B"
     },
@@ -2414,10 +2419,10 @@
     {
       "question": "What is meant by Meander?",
       "options": {
-        "A": "grassy area",
-        "B": "barren area",
-        "C": "bend of a river",
-        "D": "bend of canal"
+        "A": "A grassy area",
+        "B": "A barren area",
+        "C": "A bend of a river",
+        "D": "A bend of canal"
       },
       "correct": "C"
     },
@@ -2454,12 +2459,12 @@
     {
       "question": "What is the Synonym of \"Forbid\"?",
       "options": {
-        "A": "Debar",
-        "B": "Inhibit",
-        "C": "Preclude",
-        "D": "Prohibit"
+        "A": "Preclude",
+        "B": "Prohibit",
+        "C": "Inhibit",
+        "D": "Debar"
       },
-      "correct": "D"
+      "correct": "B"
     },
     {
       "question": "To fight tooth and nail means:",
@@ -2876,7 +2881,7 @@
       "options": {
         "A": "I was given a book by her.",
         "B": "She was given a book.",
-        "C": "book is given by her to me.",
+        "C": "A book is given by her to me.",
         "D": "I was given her a book."
       },
       "correct": "A"
@@ -3035,8 +3040,8 @@
       "question": "Fly in the face of means:",
       "options": {
         "A": "Against",
-        "B": "Reward",
-        "C": "Respect",
+        "B": "Respect",
+        "C": "Reward",
         "D": "Joyful"
       },
       "correct": "A"
@@ -3135,11 +3140,12 @@
       "question": "Emily is falling _____ the horse.",
       "options": {
         "A": "In",
-        "B": "Off",
+        "B": "Of",
         "C": "Onto",
-        "D": "Inside"
+        "D": "inside",
+        "E": "Off"
       },
-      "correct": "B"
+      "correct": "E"
     },
     {
       "question": "To provide explanation which symbol is used ?",
@@ -3157,7 +3163,8 @@
         "A": "Bitterly hostile",
         "B": "Friendly with each other",
         "C": "Without hope",
-        "D": "Deceiving somebody"
+        "D": "Deceiving somebody",
+        "E": "All of the above"
       },
       "correct": "A"
     },
