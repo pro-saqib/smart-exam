@@ -114,6 +114,23 @@ function SubjectDetailPage() {
   const [previewPaper, setPreviewPaper] = useState<ModelPaper | null>(null);
   const [previewSubtopicId, setPreviewSubtopicId] = useState<string | null>(null);
 
+  const papersBySubtopic = useMemo(() => {
+    if (!canonicalConfig?.namedPapers) {
+      return [{ subtopicName: null, papers: modelPapersWithStats }];
+    }
+    const map = new Map<string, { subtopicName: string; papers: typeof modelPapersWithStats }>();
+    for (const p of modelPapersWithStats) {
+      const subId = p.subtopicIds[0] || "other";
+      const subObj = allSubjects.find((s) => s.id === subId);
+      const subName = subObj?.name || "General";
+      if (!map.has(subId)) {
+        map.set(subId, { subtopicName: subName, papers: [] });
+      }
+      map.get(subId)!.papers.push(p);
+    }
+    return Array.from(map.values());
+  }, [modelPapersWithStats, canonicalConfig, allSubjects]);
+
   // ── A. CANONICAL SUBJECT PAPERS VIEW (e.g. /subjects/english) ──
   if (canonicalConfig || activeGroup) {
     const title = canonicalConfig?.label || activeGroup?.label || "Subject";
@@ -143,29 +160,43 @@ function SubjectDetailPage() {
             No papers available for this subject yet.
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {modelPapersWithStats.map((paper) => {
-              const lockStatus = getPaperLockStatus({
-                subjectKey: subjectId,
-                paperNumber: paper.paperNumber,
-                isAdmin,
-                completedPaperNumbers,
-                attemptedPaperNumbers,
-              });
-              const isLocked = !lockStatus.isUnlocked;
-              const isCompleted = lockStatus.isCompleted;
+          <div className="space-y-8">
+            {papersBySubtopic.map((group) => (
+              <div key={group.subtopicName || "all"} className="space-y-3">
+                {group.subtopicName && (
+                  <div className="flex items-center justify-between border-b border-border/60 pb-2">
+                    <h2 className="text-base font-display font-semibold text-foreground flex items-center gap-2">
+                      <BookOpen className="size-4 text-primary" />
+                      {group.subtopicName}
+                    </h2>
+                    <span className="text-xs text-muted-foreground">
+                      {group.papers.length} {group.papers.length === 1 ? "Paper" : "Papers"}
+                    </span>
+                  </div>
+                )}
+                <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                  {group.papers.map((paper) => {
+                    const lockStatus = getPaperLockStatus({
+                      subjectKey: subjectId,
+                      paperNumber: paper.paperNumber,
+                      isAdmin,
+                      completedPaperNumbers,
+                      attemptedPaperNumbers,
+                    });
+                    const isLocked = !lockStatus.isUnlocked;
+                    const isCompleted = lockStatus.isCompleted;
 
-              return (
-                <div
-                  key={paper.paperNumber}
-                  className={`group relative rounded-xl border p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2 ${
-                    isLocked
-                      ? "bg-card/50 border-border/50 opacity-60 grayscale-[25%] select-none"
-                      : isCompleted
-                      ? "bg-card border-success/30 hover:border-success/60 hover:shadow-glow"
-                      : "bg-card border-border hover:border-primary/50 hover:shadow-glow"
-                  }`}
-                >
+                    return (
+                      <div
+                        key={`${paper.subtopicIds[0]}_${paper.paperNumber}`}
+                        className={`group relative rounded-xl border p-3 shadow-card transition-all duration-200 flex flex-col justify-between gap-2 ${
+                          isLocked
+                            ? "bg-card/50 border-border/50 opacity-60 grayscale-[25%] select-none"
+                            : isCompleted
+                            ? "bg-card border-success/30 hover:border-success/60 hover:shadow-glow"
+                            : "bg-card border-border hover:border-primary/50 hover:shadow-glow"
+                        }`}
+                      >
                   <div>
                     <div className="flex items-center justify-between mb-1">
                       <div
@@ -263,6 +294,9 @@ function SubjectDetailPage() {
                 </div>
               );
             })}
+                </div>
+              </div>
+            ))}
           </div>
         )}
 

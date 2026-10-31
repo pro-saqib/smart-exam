@@ -145,9 +145,8 @@ export function getSubjectModelPapers(
     : 0;
 
   if (useNamedPapers) {
-    // Generate per-subtopic named papers: "Synonyms 1", "Synonyms 2", "Antonyms 1", etc.
+    // Generate per-subtopic named papers: "Antonyms 1", "Antonyms 2", etc.
     const papers: ModelPaper[] = [];
-    let globalPaperNumber = 1;
 
     for (const sub of groupSubtopics) {
       const subTotal = sub.totalMcqs || 0;
@@ -161,9 +160,9 @@ export function getSubjectModelPapers(
       for (let i = 0; i < subPapers; i++) {
         const isLast = i === subPapers - 1;
         const paperMcqsCount = isLast ? subTotal - i * batchSize : batchSize;
-        const label = subPapers === 1 ? sub.name : `${sub.name} ${i + 1}`;
+        const label = subPapers === 1 ? sub.name : `${sub.name} — Paper ${i + 1}`;
         papers.push({
-          paperNumber: globalPaperNumber,
+          paperNumber: i + 1,
           name: label,
           mcqs: [],
           totalMcqs: paperMcqsCount,
@@ -171,8 +170,8 @@ export function getSubjectModelPapers(
           accuracy: subAccuracy,
           subtopicIds: [sub.id],
           subtopicPage: i + 1,
+          subtopicId: sub.id,
         });
-        globalPaperNumber++;
       }
     }
 

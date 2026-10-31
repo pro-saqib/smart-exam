@@ -266,8 +266,17 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
         // Check fallback: did user attempt questions in Paper N - 1?
         const mcqIndex = await getMcqIndex(db);
         const prevOffset = Math.max(0, (prevPaperNumber - 1) * data.pageSize);
-        const prevIds = mcqIndex
-          .filter((m) => allowedSubjectIds.has(m.subjectId))
+        const targetSubtopicId = data.subtopicIds && data.subtopicIds.length === 1 ? data.subtopicIds[0] : null;
+        const subIdsToCheck = targetSubtopicId ? [targetSubtopicId] : Array.from(allowedSubjectIds);
+        const prevOrderedMcqs: { id: string }[] = [];
+        for (const subId of subIdsToCheck) {
+          const subMcqs = mcqIndex
+            .filter((m) => m.subjectId === subId)
+            .sort((a, b) => a.id.localeCompare(b.id));
+          prevOrderedMcqs.push(...subMcqs);
+        }
+
+        const prevIds = prevOrderedMcqs
           .slice(prevOffset, prevOffset + data.pageSize)
           .map((m) => m.id);
 
@@ -309,9 +318,10 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "GET" })
         })
         .sort((a, b) => a.name.localeCompare(b.name));
 
-      const orderedSubtopicIds = groupSubtopics.length > 0
-        ? groupSubtopics.map((s) => s.id)
-        : Array.from(allowedSubjectIds);
+      const targetSubtopicId = data.subtopicIds && data.subtopicIds.length === 1 ? data.subtopicIds[0] : null;
+      const orderedSubtopicIds = targetSubtopicId
+        ? [targetSubtopicId]
+        : (groupSubtopics.length > 0 ? groupSubtopics.map((s) => s.id) : Array.from(allowedSubjectIds));
 
       const orderedMcqs: { id: string; subjectId: string }[] = [];
       for (const subId of orderedSubtopicIds) {
