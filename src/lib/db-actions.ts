@@ -4,9 +4,9 @@ import { requireSession, requireAdmin } from "@/lib/session";
 import { createDb } from "@/db";
 import { getEnv } from "@/lib/env";
 import { user, subject, mcq, attempt, solveLater, paperCompletion } from "@/db/schema";
-import { eq, and, inArray, desc, sql } from "drizzle-orm";
+import { eq, and, inArray, desc, sql, or } from "drizzle-orm";
 import { INITIAL_SUBJECTS } from "@/store/app-store";
-import { getSubjectModelPaperMapping } from "@/lib/model-papers";
+import { getSubjectModelPaperMapping, getSubjectGroup } from "@/lib/model-papers";
 
 async function getDb() {
   const env = await getEnv();
