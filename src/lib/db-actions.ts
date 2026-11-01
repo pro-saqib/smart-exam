@@ -440,6 +440,24 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
 
     const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, subjectMcqs, 100);
 
+    // Get all user attempts in these subtopics to filter papers with attempts only
+    const allUserAttempts = await db
+      .select({ mcqId: attempt.mcqId })
+      .from(attempt)
+      .where(eq(attempt.userId, userId));
+
+    const userAttemptedMcqIds = new Set(allUserAttempts.map((a) => a.mcqId));
+    const papersWithAttempts = new Set<number>();
+
+    for (const m of subjectMcqs) {
+      if (userAttemptedMcqIds.has(m.id)) {
+        const paperNum = mcqIdToPaperNumber.get(m.id);
+        if (paperNum !== undefined) {
+          papersWithAttempts.add(paperNum);
+        }
+      }
+    }
+
     let matchingIds = new Set<string>();
 
     if (data.mode === "wrong") {
@@ -487,7 +505,7 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
 
     const counts: Record<number, number> = {};
     for (const m of subjectMcqs) {
-      if (matchingIds.has(m.id)) {
+      if (matchingIds.has(m.id) && papersWithAttempts.has(mcqIdToPaperNumber.get(m.id)!)) {
         const paperNum = mcqIdToPaperNumber.get(m.id)!;
         counts[paperNum] = (counts[paperNum] || 0) + 1;
       }

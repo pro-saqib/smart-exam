@@ -71,7 +71,10 @@ function PracticePage() {
     }
 
     const statsByMcq: Record<string, { subjectId: string; total: number; wrong: number; lastCorrect?: boolean; lastAt: number }> = {};
+    const subjectsWithAttempts = new Set<string>();
+
     for (const a of attempts) {
+      subjectsWithAttempts.add(a.subjectId);
       if (!statsByMcq[a.mcqId]) {
         statsByMcq[a.mcqId] = { subjectId: a.subjectId, total: 0, wrong: 0, lastAt: 0 };
       }
@@ -86,37 +89,54 @@ function PracticePage() {
       }
     }
 
+    // Also track subjects with solve-later items
+    for (const item of solveLaterItems) {
+      subjectsWithAttempts.add(item.subjectId);
+    }
+
     return subjectGroups.map((g) => {
       const groupSubtopicSet = new Set(g.subtopicIds);
       let count = 0;
+      let hasAttempts = false;
 
       if (mode === "weak") {
         for (const s of Object.values(statsByMcq)) {
-          if (groupSubtopicSet.has(s.subjectId) && s.wrong >= Math.max(1, Math.floor(s.total / 2))) {
-            count++;
+          if (groupSubtopicSet.has(s.subjectId)) {
+            hasAttempts = true;
+            if (s.wrong >= Math.max(1, Math.floor(s.total / 2))) {
+              count++;
+            }
           }
         }
       } else if (mode === "wrong") {
         for (const s of Object.values(statsByMcq)) {
-          if (groupSubtopicSet.has(s.subjectId) && s.lastCorrect === false) {
-            count++;
+          if (groupSubtopicSet.has(s.subjectId)) {
+            hasAttempts = true;
+            if (s.lastCorrect === false) {
+              count++;
+            }
           }
         }
       } else if (mode === "solve_later") {
         const uniqueMcqIdsInGroup = new Set<string>();
         for (const item of solveLaterItems) {
           if (groupSubtopicSet.has(item.subjectId)) {
+            hasAttempts = true;
             uniqueMcqIdsInGroup.add(item.mcqId);
           }
         }
         count = uniqueMcqIdsInGroup.size;
       }
 
+      // Check if this group has any attempts (for filtering)
+      const groupHasAttempts = Array.from(groupSubtopicSet).some((id) => subjectsWithAttempts.has(id));
+
       return {
         ...g,
         filteredCount: count,
+        hasAttempts: groupHasAttempts,
       };
-    });
+    }).filter((g) => g.hasAttempts);
   }, [subjectGroups, attempts, mode, solveLaterItems]);
 
   // Selected subtopic IDs
