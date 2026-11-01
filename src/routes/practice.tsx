@@ -136,7 +136,7 @@ function PracticePage() {
         filteredCount: count,
         hasAttempts: groupHasAttempts,
       };
-    }).filter((g) => g.hasAttempts);
+    }).filter((g) => g.filteredCount && g.filteredCount > 0);
   }, [subjectGroups, attempts, mode, solveLaterItems]);
 
   // Selected subtopic IDs
@@ -157,7 +157,7 @@ function PracticePage() {
     }
 
     let cancelled = false;
-    getPracticeModelPaperCounts({
+    console.log("Debug getPracticeModelPaperCounts", { mode, selectedSubjectKey, activeSubtopicIds }); getPracticeModelPaperCounts({
       data: {
         mode,
         subjectKey: selectedSubjectKey,
@@ -186,9 +186,9 @@ function PracticePage() {
 
     // Check if it's a composite key (subtopicId_paperNumber)
     if (selectedPaperNumber.includes("_")) {
-      const parts = selectedPaperNumber.split("_");
-      const subtopicId = parts[0];
-      const paperNum = parts[1];
+      const lastUnderscore = selectedPaperNumber.lastIndexOf("_");
+      const subtopicId = selectedPaperNumber.substring(0, lastUnderscore);
+      const paperNum = selectedPaperNumber.substring(lastUnderscore + 1);
       return { paperNumber: paperNum, subtopicIds: [subtopicId] };
     }
 
@@ -201,15 +201,24 @@ function PracticePage() {
     if (!selectedSubjectKey) return [];
     const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
     const totalCount = activeGroup?.totalMcqs || 0;
+    console.log("Debug modelPapers", { selectedSubjectKey, activeGroup, totalCount });
     const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
+    console.log("Debug basePapers", basePapers);
 
     // Attach exact counts and filter out papers with 0 matching questions
-    return basePapers
-      .map((p) => ({
-        ...p,
-        filteredCount: paperCounts[p.paperNumber] ?? 0,
-      }))
+    const papers = basePapers
+      .map((p) => {
+        let count = 0;
+        if (p.subtopicIds.length === 1) {
+          const key = `${p.subtopicIds[0]}_${p.paperNumber}`;
+          count = paperCounts[key] ?? 0;
+        } else {
+          count = paperCounts[p.paperNumber] ?? 0;
+        }
+        return { ...p, filteredCount: count };
+      })
       .filter((p) => p.filteredCount && p.filteredCount > 0);
+    return papers;
   }, [selectedSubjectKey, subtopics, subjectGroups, attempts, mode, paperCounts]);
 
   // Fetch MCQs on demand from D1 whenever settings change

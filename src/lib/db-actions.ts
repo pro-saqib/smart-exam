@@ -4,7 +4,7 @@ import { requireSession, requireAdmin } from "@/lib/session";
 import { createDb } from "@/db";
 import { getEnv } from "@/lib/env";
 import { user, subject, mcq, attempt, solveLater, paperCompletion } from "@/db/schema";
-import { eq, and, inArray, desc, sql, or } from "drizzle-orm";
+import { eq, and, inArray, desc, sql, or, like } from "drizzle-orm";
 import { INITIAL_SUBJECTS } from "@/store/app-store";
 import { getSubjectModelPaperMapping, getSubjectGroup } from "@/lib/model-papers";
 
@@ -337,7 +337,11 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
               createdAt: mcq.createdAt,
             })
             .from(mcq)
-            .where(inArray(mcq.subjectId, orderedSubtopicIds))
+            .where(
+              data.subjectKey.startsWith("is-")
+                ? like(mcq.subjectId, `${data.subjectKey.replace(/-/g, "_")}_%`)
+                : inArray(mcq.subjectId, orderedSubtopicIds)
+            )
             .orderBy(mcq.id)
             .limit(data.pageSize)
             .offset(offset)
@@ -430,32 +434,62 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
       totalMcqs: subject.totalMcqs,
     }).from(subject);
 
+    // Get subtopics in canonical order (matches getSubjectModelPapers sorting)
+    const groupSubtopics = allSubjects
+      .filter((s) => data.subtopicIds.includes(s.id))
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    console.log("Debug IS_ENGLISH_CHECK", { data }); console.log("Debug getPracticeModelPaperCounts SQL scope", {
+        startsWithIS: data.subjectKey.startsWith("is-"),
+        likePattern: `${data.subjectKey.replace(/-/g, "_")}_%`,
+        inArray: data.subtopicIds
+    });
     const subjectMcqs = await db
       .select({ id: mcq.id, subjectId: mcq.subjectId })
       .from(mcq)
-      .where(inArray(mcq.subjectId, data.subtopicIds))
+      .where(
+        data.subjectKey.startsWith("is-")
+          ? like(mcq.subjectId, `${data.subjectKey.replace(/-/g, "_")}_%`)
+          : inArray(mcq.subjectId, data.subtopicIds)
+      )
       .orderBy(mcq.id);
+
+    console.log("Debug subjectMcqs length", subjectMcqs.length);
 
     if (subjectMcqs.length === 0) return {};
 
-    const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, subjectMcqs, 100);
+    // Build local paper mapping per subtopic (matches getSubjectModelPapers numbering)
+    const mcqToLocalPaper = new Map<string, { subjectId: string; localPaperNum: number }>();
+    const batchSize = 100;
 
-    // Get all user attempts in these subtopics to filter papers with attempts only
+    for (const sub of groupSubtopics) {
+      const subMcqs = subjectMcqs.filter((m) => m.subjectId === sub.id).sort((a, b) => a.id.localeCompare(b.id));
+      let localPaperNum = 1;
+      for (let i = 0; i < subMcqs.length; i += batchSize) {
+        const chunk = subMcqs.slice(i, i + batchSize);
+        for (const m of chunk) {
+          mcqToLocalPaper.set(m.id, { subjectId: sub.id, localPaperNum });
+        }
+        localPaperNum++;
+      }
+    }
+
+    // Get all user attempts to find papers with attempts
     const allUserAttempts = await db
       .select({ mcqId: attempt.mcqId })
       .from(attempt)
       .where(eq(attempt.userId, userId));
 
     const userAttemptedMcqIds = new Set(allUserAttempts.map((a) => a.mcqId));
-    const papersWithAttempts = new Set<number>();
+    const papersWithAttempts = new Set<string>();
 
     for (const m of subjectMcqs) {
-      if (userAttemptedMcqIds.has(m.id)) {
-        const paperNum = mcqIdToPaperNumber.get(m.id);
-        if (paperNum !== undefined) {
-          papersWithAttempts.add(paperNum);
+      // if (userAttemptedMcqIds.has(m.id)) { // REMOVED: Should include all papers, not just those with attempts
+        const paperInfo = mcqToLocalPaper.get(m.id);
+        if (paperInfo) {
+          papersWithAttempts.add(`${paperInfo.subjectId}_${paperInfo.localPaperNum}`);
         }
-      }
+      // }
     }
 
     let matchingIds = new Set<string>();
@@ -503,15 +537,29 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
       }
     }
 
-    const counts: Record<number, number> = {};
+    const counts: Record<string, number> = {};
+    const globalPaperCounts: Record<number, number> = {};
     for (const m of subjectMcqs) {
-      if (matchingIds.has(m.id) && papersWithAttempts.has(mcqIdToPaperNumber.get(m.id)!)) {
-        const paperNum = mcqIdToPaperNumber.get(m.id)!;
-        counts[paperNum] = (counts[paperNum] || 0) + 1;
+      if (matchingIds.has(m.id)) {
+        const paperInfo = mcqToLocalPaper.get(m.id);
+        if (paperInfo) {
+          const paperKey = `${paperInfo.subjectId}_${paperInfo.localPaperNum}`;
+          counts[paperKey] = (counts[paperKey] || 0) + 1;
+        }
       }
     }
 
-    return counts;
+    // Also compute global paper number counts for IS subjects where model papers are flat-chunked 1..N
+    let globalIdx = 0;
+    for (const m of subjectMcqs) {
+      const globalPaperNum = Math.floor(globalIdx / 100) + 1;
+      if (matchingIds.has(m.id)) {
+        globalPaperCounts[globalPaperNum] = (globalPaperCounts[globalPaperNum] || 0) + 1;
+      }
+      globalIdx++;
+    }
+
+    return { ...counts, ...globalPaperCounts };
   });
 
 export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
@@ -531,7 +579,6 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
 
     const hasSubjectFilter = Boolean(data.subjectKey && data.subtopicIds && data.subtopicIds.length > 0);
     const filterSubjectIds = hasSubjectFilter ? data.subtopicIds! : [];
-    const paperNum = data.paperNumber !== "all" ? parseInt(data.paperNumber, 10) : null;
 
     let selectedMcqs: any[] = [];
 
@@ -543,7 +590,11 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
         ? await db
             .select({ id: mcq.id, subjectId: mcq.subjectId })
             .from(mcq)
-            .where(inArray(mcq.subjectId, filterSubjectIds))
+            .where(
+              data.subjectKey.startsWith("is-")
+                ? like(mcq.subjectId, `${data.subjectKey.replace(/-/g, "_")}_%`)
+                : inArray(mcq.subjectId, filterSubjectIds)
+            )
             .orderBy(mcq.id)
         : [];
 
@@ -604,16 +655,47 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
       // Fetch full rows only for matching IDs — no full-table scan
       let filteredMatchingMcqs = await getMcqFullRowsByIds(db, scopedIds);
 
-      if (paperNum !== null && !isNaN(paperNum) && data.subjectKey && data.subjectKey !== "all") {
-        const allSubjects = await db.select({
-          id: subject.id,
-          name: subject.name,
-          parentId: subject.parentId,
-          totalMcqs: subject.totalMcqs,
-        }).from(subject);
+      if (data.paperNumber !== "all" && data.subjectKey && data.subjectKey !== "all") {
+        // Handle composite key: subtopicId_paperNumber or simple paperNumber
+        let targetSubtopicId: string | null = null;
+        let targetPaperNum: number | null = null;
 
-        const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, subjectMcqs, 100);
-        selectedMcqs = filteredMatchingMcqs.filter((m) => mcqIdToPaperNumber.get(m.id) === paperNum);
+        if (data.paperNumber.includes("_")) {
+          const lastUnderscore = data.paperNumber.lastIndexOf("_");
+          targetSubtopicId = data.paperNumber.substring(0, lastUnderscore);
+          targetPaperNum = parseInt(data.paperNumber.substring(lastUnderscore + 1), 10);
+        } else {
+          targetPaperNum = parseInt(data.paperNumber, 10);
+        }
+
+        if (targetPaperNum !== null && !isNaN(targetPaperNum)) {
+          const batchSize = 100;
+
+          // Build local paper mapping for the selected subtopic(s)
+          const mcqToLocalPaper = new Map<string, number>();
+          const selectedSubtopics = targetSubtopicId
+            ? filterSubjectIds.filter((id) => id === targetSubtopicId)
+            : filterSubjectIds;
+
+          if (selectedSubtopics.length > 0) {
+            const selectedMcqsBySubtopic = subjectMcqs
+              .filter((m: any) => selectedSubtopics.includes(m.subjectId))
+              .sort((a: any, b: any) => a.id.localeCompare(b.id));
+
+            let localPaperNum = 1;
+            for (let i = 0; i < selectedMcqsBySubtopic.length; i += batchSize) {
+              const chunk = selectedMcqsBySubtopic.slice(i, i + batchSize);
+              for (const m of chunk) {
+                mcqToLocalPaper.set(m.id, localPaperNum);
+              }
+              localPaperNum++;
+            }
+
+            selectedMcqs = filteredMatchingMcqs.filter((m) => mcqToLocalPaper.get(m.id) === targetPaperNum);
+          }
+        } else {
+          selectedMcqs = filteredMatchingMcqs.slice(0, data.count);
+        }
       } else {
         selectedMcqs = filteredMatchingMcqs.slice(0, data.count);
       }
@@ -942,6 +1024,7 @@ export const dbRecordPaperCompletion = createServerFn({ method: "POST" })
 export const getSubjectModelPaperStats = createServerFn({ method: "POST" })
   .inputValidator(
     z.object({
+      subjectKey: z.string(),
       subtopicIds: z.array(z.string()),
     }),
   )
@@ -957,7 +1040,11 @@ export const getSubjectModelPaperStats = createServerFn({ method: "POST" })
     const subjectMcqs = await db
       .select({ id: mcq.id, subjectId: mcq.subjectId })
       .from(mcq)
-      .where(inArray(mcq.subjectId, data.subtopicIds))
+      .where(
+        data.subjectKey.startsWith("is-")
+          ? like(mcq.subjectId, `${data.subjectKey.replace(/-/g, "_")}_%`)
+          : inArray(mcq.subjectId, data.subtopicIds)
+      )
       .orderBy(mcq.id);
 
     if (subjectMcqs.length === 0) return {};

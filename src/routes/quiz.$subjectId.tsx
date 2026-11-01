@@ -90,11 +90,14 @@ function QuizPage() {
       return subtopicIdsParam.split(",").filter(Boolean);
     }
     if (canonicalConfig) {
-      return allSubtopics
+      const subtopics = allSubtopics
         .filter((s) => canonicalConfig.parentId
           ? s.parentId === canonicalConfig.parentId
           : canonicalConfig.patterns.some((p) => p.test(s.name)))
-        .map((s) => s.id);
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+      // For IS subjects: return ALL subtopics so chunking happens via LIMIT/OFFSET
+      return subtopics.map((s) => s.id);
     }
     const children = subjects.filter((s) => s.parentId === subjectId);
     if (children.length > 0) {

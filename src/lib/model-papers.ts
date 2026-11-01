@@ -54,6 +54,13 @@ export function getSubjectGroup(subtopicName: string, subtopicParentId?: string)
     if (subject.patterns.length > 0 && subject.patterns.some((p) => p.test(subtopicName))) {
       return { key: subject.key, label: subject.label };
     }
+    // Match IS subjects by ID if parentId is not set
+    if (!subject.parentId && subtopicParentId === subject.parentId) {
+       // Wait, this was wrong, should be comparing subtopicParentId to subject.id
+    }
+    if (!subject.parentId && subtopicParentId === subject.id) {
+        return { key: subject.key, label: subject.label };
+    }
   }
   return null;
 }
@@ -125,6 +132,7 @@ export function getSubjectModelPapers(
   attempts: AttemptLog[],
   batchSize = 100
 ): ModelPaper[] {
+  console.log("getSubjectModelPapers input", { groupKey, totalMcqsCount, subtopics: subtopics.length });
   if (totalMcqsCount <= 0) return [];
 
   const canonicalConfig = SUBJECT_KEYWORDS.find((sk) => sk.key === groupKey);
@@ -133,9 +141,12 @@ export function getSubjectModelPapers(
   const groupSubtopics = subtopics
     .filter((s) => {
       const g = getSubjectGroup(s.name, s.parentId);
+      console.log("getSubjectModelPapers check group", { sName: s.name, sParentId: s.parentId, g });
       return g?.key === groupKey;
     })
     .sort((a, b) => a.name.localeCompare(b.name)); // Alphabetical sorting matching quiz route
+  console.log("getSubjectModelPapers groupSubtopics count", groupSubtopics.length);
+
 
   const groupSubtopicIds = groupSubtopics.map((s) => s.id);
   const groupSubtopicSet = new Set(groupSubtopicIds);
@@ -170,7 +181,6 @@ export function getSubjectModelPapers(
           accuracy: subAccuracy,
           subtopicIds: [sub.id],
           subtopicPage: i + 1,
-          subtopicId: sub.id,
         });
       }
     }
@@ -197,7 +207,8 @@ export function getSubjectModelPapers(
       totalMcqs: paperMcqsCount,
       attemptedCount: 0,
       accuracy: overallAccuracy,
-      subtopicIds: groupSubtopicIds,
+      subtopicIds: isImtiazShahid ? groupSubtopics.map(s => s.id) : groupSubtopicIds,
+      subtopicPage: isImtiazShahid ? i + 1 : undefined,
     });
   }
 
