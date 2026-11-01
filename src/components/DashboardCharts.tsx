@@ -6,18 +6,15 @@ import {
   Cell,
   XAxis, YAxis, CartesianGrid,
   Tooltip, Legend, ResponsiveContainer,
-  PieChart, Pie,
 } from "recharts";
 import { format, subDays, parseISO } from "date-fns";
-import { TrendingUp, BarChart3, PieChart as PieIcon } from "lucide-react";
-import { useNavigate } from "@tanstack/react-router";
+import { TrendingUp, BarChart3 } from "lucide-react";
 import { buildSubjectGroups } from "@/lib/model-papers";
 
 export function DashboardCharts() {
   const { subjects, mcqs, attempts } = useApp();
-  const navigate = useNavigate();
 
-  const { trend, mastery, dist, recentSubjects } = useMemo(() => {
+  const { trend, mastery } = useMemo(() => {
     const subtopics = subjects.filter((s) => !!s.parentId);
     const groups = buildSubjectGroups(subtopics, mcqs);
 
@@ -77,25 +74,7 @@ export function DashboardCharts() {
       return { subject: getShortName(g.label), accuracy: acc, count: g.totalMcqs, key: g.key };
     });
 
-    // --- 3. Topic Distribution (Donut) ---
-    const colorMap = ["#4A94FF", "#22C55E", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899", "#14B8A8", "#F97316", "#06B6D4", "#84CC16"];
-    const dist = groups.map((g, idx) => ({
-      subject: getShortName(g.label),
-      count: g.totalMcqs,
-      fill: colorMap[idx % colorMap.length],
-    })).filter((d) => d.count > 0);
-
-    // --- 4. Recent Subjects ---
-    const recentSubjects = groups
-      .map((g) => {
-        const groupAttempts = attempts.filter((a) => g.subtopicIds.includes(a.subjectId));
-        const acc = groupAttempts.length
-          ? Math.round((groupAttempts.filter((x) => x.correct).length / groupAttempts.length) * 100)
-          : 0;
-        return { id: g.key, name: g.label, count: g.totalMcqs, accuracy: acc };
-      });
-
-    return { trend, mastery, dist, recentSubjects };
+    return { trend, mastery };
   }, [subjects, mcqs, attempts]);
 
   return (
@@ -152,78 +131,6 @@ export function DashboardCharts() {
             </BarChart>
           </ResponsiveContainer>
         )}
-      </div>
-
-      {/* Topic Distribution */}
-      <div className="flex flex-col rounded-2xl bg-card border border-border p-6 shadow-card">
-        <div className="flex items-center gap-2 mb-4">
-          <PieIcon className="size-4 text-primary-glow" />
-          <h3 className="font-semibold">Topic Distribution</h3>
-        </div>
-        <div className="flex-1 min-h-0">
-          {dist.length > 0 && (
-            <ResponsiveContainer width="100%" height={260}>
-              <PieChart>
-                <Pie
-                  data={dist}
-                  dataKey="count"
-                  nameKey="subject"
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={60}
-                  outerRadius={90}
-                  paddingAngle={2}
-                  fill="#4A94FF"
-                  label={({ name }) => name}
-                  labelLine={{ stroke: "#6B7280", strokeWidth: 1 }}
-                >
-                  {dist.map((entry, i) => (
-                    <Cell key={`cell-${i}`} fill={entry.fill} />
-                  ))}
-                </Pie>
-                <Tooltip
-                  contentStyle={{ backgroundColor: "#1F2937", borderColor: "#374151" }}
-                  itemStyle={{ color: "#F3F4F6" }}
-                  formatter={(val: number, name: string) => [`${val} MCQs`, name]}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-          )}
-        </div>
-      </div>
-
-      {/* Recent Subjects */}
-      <div className="flex flex-col rounded-2xl bg-card border border-border p-6 shadow-card">
-        <div className="flex items-center gap-2 mb-4">
-          <BarChart3 className="size-4 text-primary-glow" />
-          <h3 className="font-semibold">Subjects Overview</h3>
-        </div>
-        <div className="flex-1 min-h-0 max-h-[260px] overflow-y-auto pr-1 space-y-2">
-          {recentSubjects.map((s) => (
-            <div
-              key={s.id}
-              className="flex items-center justify-between p-3 rounded-lg bg-secondary/30 border border-border cursor-pointer hover:border-primary/50 transition-colors"
-              onClick={() => navigate({ to: "/subjects/$subjectId", params: { subjectId: s.id } })}
-            >
-              <div className="flex-1 min-w-0">
-                <div className="text-sm font-medium truncate">{s.name}</div>
-                <div className="text-xs text-muted-foreground">{s.count.toLocaleString()} MCQs</div>
-              </div>
-              <div className="ml-4 text-right">
-                <div className="text-sm font-medium">{s.accuracy}%</div>
-                <div className="w-16 h-1.5 rounded-full bg-muted overflow-hidden">
-                  <div
-                    className="h-full gradient-primary transition-all"
-                    style={{ width: `${Math.min(100, s.accuracy)}%` }}
-                  />
-                </div>
-              </div>
-            </div>
-          ))}
-          {recentSubjects.length === 0 && (
-            <div className="text-center text-muted-foreground text-sm py-8">No subjects yet</div>
-          )}
-        </div>
       </div>
     </section>
   );

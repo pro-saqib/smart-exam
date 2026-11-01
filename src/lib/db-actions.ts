@@ -95,23 +95,6 @@ let lastCacheTime = 0;
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 const modelPaperMcqCache = new Map<string, any[]>();
 
-// Tier-1: lightweight ID index — only id + subjectId (orders of magnitude smaller than full rows)
-let mcqIndexCache: { id: string; subjectId: string }[] | null = null;
-
-async function getMcqIndex(db: any): Promise<{ id: string; subjectId: string }[]> {
-  if (process.env.NODE_ENV === "development") {
-    mcqIndexCache = null;
-    modelPaperMcqCache.clear();
-  }
-  if (!mcqIndexCache) {
-    mcqIndexCache = await db
-      .select({ id: mcq.id, subjectId: mcq.subjectId })
-      .from(mcq)
-      .orderBy(mcq.id);
-  }
-  return mcqIndexCache;
-}
-
 // Tier-2: full row fetch by explicit ID list (used only for delivering quiz MCQs)
 async function getMcqFullRowsByIds(db: any, ids: string[]) {
   if (!ids.length) return [];
@@ -151,10 +134,15 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
     subjects = fetchedSubjects;
     countMap = new Map<string, number>();
 
-    const mcqIndex = await getMcqIndex(db);
+    // Use SQL aggregation to get MCQ counts per subject if totalMcqs is 0
+    const counts = await db.select({
+      subjectId: mcq.subjectId,
+      cnt: sql<number>`count(*)`,
+    }).from(mcq).groupBy(mcq.subjectId);
+
     const computedCounts = new Map<string, number>();
-    for (const m of mcqIndex) {
-      computedCounts.set(m.subjectId, (computedCounts.get(m.subjectId) || 0) + 1);
+    for (const c of counts) {
+      computedCounts.set(c.subjectId, c.cnt);
     }
 
     for (const s of subjects) {
@@ -179,8 +167,10 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
     db
       .select({
         mcqId: solveLater.mcqId,
+        subjectId: mcq.subjectId,
       })
       .from(solveLater)
+      .innerJoin(mcq, eq(solveLater.mcqId, mcq.id))
       .where(eq(solveLater.userId, userId)),
     db
       .select({
@@ -195,9 +185,6 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
       .from(paperCompletion)
       .where(eq(paperCompletion.userId, userId)),
   ]);
-
-  const mcqIndex = await getMcqIndex(db);
-  const mcqSubjectMap = new Map(mcqIndex.map((m) => [m.id, m.subjectId]));
 
   return {
     subjects: subjects.map((s) => ({
@@ -217,7 +204,7 @@ export const loadUserData = createServerFn({ method: "GET" }).handler(async () =
       at: a.at.getTime(),
     })),
     solveLaterIds: userSolveLater.map((s) => s.mcqId),
-    solveLaterItems: userSolveLater.map((s) => ({ mcqId: s.mcqId, subjectId: mcqSubjectMap.get(s.mcqId) || "" })),
+    solveLaterItems: userSolveLater.map((s) => ({ mcqId: s.mcqId, subjectId: s.subjectId })),
     paperCompletions: userCompletions.map((c) => ({
       id: c.id,
       subjectKey: c.subjectKey,
@@ -277,22 +264,22 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
 
       if (!prevCompletion) {
         // Check fallback: did user attempt questions in Paper N - 1?
-        const mcqIndex = await getMcqIndex(db);
         const prevOffset = Math.max(0, (prevPaperNumber - 1) * data.pageSize);
         const subIdsToCheck = (data.subtopicIds && data.subtopicIds.length > 0)
           ? data.subtopicIds
           : Array.from(allowedSubjectIds);
-        const prevOrderedMcqs: { id: string }[] = [];
-        for (const subId of subIdsToCheck) {
-          const subMcqs = mcqIndex
-            .filter((m) => m.subjectId === subId)
-            .sort((a, b) => a.id.localeCompare(b.id));
-          prevOrderedMcqs.push(...subMcqs);
-        }
 
-        const prevIds = prevOrderedMcqs
-          .slice(prevOffset, prevOffset + data.pageSize)
-          .map((m) => m.id);
+        const prevMcqRows = subIdsToCheck.length > 0
+          ? await db
+              .select({ id: mcq.id })
+              .from(mcq)
+              .where(inArray(mcq.subjectId, subIdsToCheck))
+              .orderBy(mcq.id)
+              .limit(data.pageSize)
+              .offset(prevOffset)
+          : [];
+
+        const prevIds = prevMcqRows.map((m: any) => m.id);
 
         const prevAttempts =
           prevIds.length > 0
@@ -316,8 +303,6 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
     const offset = Math.max(0, (data.paperNumber - 1) * data.pageSize);
 
     if (!rows) {
-      // Use lightweight ID index to find the right slice, then fetch only those full rows
-      const mcqIndex = await getMcqIndex(db);
       const allSubjects = await db.select({
         id: subject.id,
         name: subject.name,
@@ -336,39 +321,43 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
         ? data.subtopicIds
         : (groupSubtopics.length > 0 ? groupSubtopics.map((s) => s.id) : Array.from(allowedSubjectIds));
 
-      const orderedMcqs: { id: string; subjectId: string }[] = [];
-      for (const subId of orderedSubtopicIds) {
-        const subMcqs = mcqIndex
-          .filter((m) => m.subjectId === subId)
-          .sort((a, b) => a.id.localeCompare(b.id));
-        orderedMcqs.push(...subMcqs);
-      }
-
-      const filteredIds = orderedMcqs
-        .slice(offset, offset + data.pageSize)
-        .map((m) => m.id);
-
-      rows = filteredIds.length > 0 ? await getMcqFullRowsByIds(db, filteredIds) : [];
-      // Re-sort to match index order (DB may return in different order)
-      const idOrder = new Map(filteredIds.map((id, i) => [id, i]));
-      rows = rows.slice().sort((a: any, b: any) => (idOrder.get(a.id) ?? 0) - (idOrder.get(b.id) ?? 0));
+      rows = orderedSubtopicIds.length > 0
+        ? await db
+            .select({
+              id: mcq.id,
+              subjectId: mcq.subjectId,
+              question: mcq.question,
+              options: mcq.options,
+              correct: mcq.correct,
+              explanation: mcq.explanation,
+              createdAt: mcq.createdAt,
+            })
+            .from(mcq)
+            .where(inArray(mcq.subjectId, orderedSubtopicIds))
+            .orderBy(mcq.id)
+            .limit(data.pageSize)
+            .offset(offset)
+        : [];
       modelPaperMcqCache.set(cacheKey, rows);
     }
 
-    const [userAttempts, userSolveLater] = await Promise.all([
-      db
-        .select({
-          mcqId: attempt.mcqId,
-          correct: attempt.correct,
-          at: attempt.at,
-        })
-        .from(attempt)
-        .where(eq(attempt.userId, userId)),
-      db
-        .select({ mcqId: solveLater.mcqId })
-        .from(solveLater)
-        .where(eq(solveLater.userId, userId)),
-    ]);
+    const rowMcqIds = rows.map((r: any) => r.id);
+    const [userAttempts, userSolveLater] = rowMcqIds.length > 0
+      ? await Promise.all([
+          db
+            .select({
+              mcqId: attempt.mcqId,
+              correct: attempt.correct,
+              at: attempt.at,
+            })
+            .from(attempt)
+            .where(and(eq(attempt.userId, userId), inArray(attempt.mcqId, rowMcqIds))),
+          db
+            .select({ mcqId: solveLater.mcqId })
+            .from(solveLater)
+            .where(and(eq(solveLater.userId, userId), inArray(solveLater.mcqId, rowMcqIds))),
+        ])
+      : [[], []];
 
     const solveLaterSet = new Set(userSolveLater.map((s) => s.mcqId));
     const attemptsByMcq: Record<string, { total: number; wrong: number; lastCorrect?: boolean; lastAt: number }> = {};
@@ -429,13 +418,15 @@ export const getPracticeModelPaperCounts = createServerFn({ method: "POST" })
       totalMcqs: subject.totalMcqs,
     }).from(subject);
 
-    const mcqIndex = await getMcqIndex(db);
-    const subtopicSet = new Set(data.subtopicIds);
-    const subjectMcqs = mcqIndex.filter((m) => subtopicSet.has(m.subjectId));
+    const subjectMcqs = await db
+      .select({ id: mcq.id, subjectId: mcq.subjectId })
+      .from(mcq)
+      .where(inArray(mcq.subjectId, data.subtopicIds))
+      .orderBy(mcq.id);
 
     if (subjectMcqs.length === 0) return {};
 
-    const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, mcqIndex, 100);
+    const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, subjectMcqs, 100);
 
     let matchingIds = new Set<string>();
 
@@ -518,9 +509,13 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
       // Random mode disabled per requirements, fallback to weak/wrong/solve_later
       selectedMcqs = [];
     } else {
-      const mcqIndex = await getMcqIndex(db);
-      const filterSubtopicSet = new Set(filterSubjectIds);
-      const subjectMcqs = hasSubjectFilter ? mcqIndex.filter((m) => filterSubtopicSet.has(m.subjectId)) : mcqIndex;
+      const subjectMcqs = hasSubjectFilter && filterSubjectIds.length > 0
+        ? await db
+            .select({ id: mcq.id, subjectId: mcq.subjectId })
+            .from(mcq)
+            .where(inArray(mcq.subjectId, filterSubjectIds))
+            .orderBy(mcq.id)
+        : [];
 
       let matchingIds = new Set<string>();
 
@@ -570,11 +565,10 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
       const matchingIdArray = Array.from(matchingIds);
       if (matchingIdArray.length === 0) return [];
 
-      // Filter to only IDs in our subject scope (already filtered via mcqIndex above)
-      const scopedIds = matchingIdArray.filter((id) => {
-        const entry = subjectMcqs.find((m) => m.id === id);
-        return entry !== undefined;
-      });
+      // Filter to only IDs in our subject scope
+      const scopedIds = hasSubjectFilter
+        ? matchingIdArray.filter((id) => subjectMcqs.some((m: any) => m.id === id))
+        : matchingIdArray;
       if (scopedIds.length === 0) return [];
 
       // Fetch full rows only for matching IDs — no full-table scan
@@ -588,7 +582,7 @@ export const getPracticeQuizMcqs = createServerFn({ method: "POST" })
           totalMcqs: subject.totalMcqs,
         }).from(subject);
 
-        const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, mcqIndex, 100);
+        const mcqIdToPaperNumber = getSubjectModelPaperMapping(data.subjectKey, allSubjects, subjectMcqs, 100);
         selectedMcqs = filteredMatchingMcqs.filter((m) => mcqIdToPaperNumber.get(m.id) === paperNum);
       } else {
         selectedMcqs = filteredMatchingMcqs.slice(0, data.count);
@@ -930,9 +924,11 @@ export const getSubjectModelPaperStats = createServerFn({ method: "POST" })
       return {};
     }
 
-    const mcqIndex = await getMcqIndex(db);
-    const subtopicSet = new Set(data.subtopicIds);
-    const subjectMcqs = mcqIndex.filter((m) => subtopicSet.has(m.subjectId));
+    const subjectMcqs = await db
+      .select({ id: mcq.id, subjectId: mcq.subjectId })
+      .from(mcq)
+      .where(inArray(mcq.subjectId, data.subtopicIds))
+      .orderBy(mcq.id);
 
     if (subjectMcqs.length === 0) return {};
 
@@ -993,14 +989,9 @@ export const getMcqsByIds = createServerFn({ method: "POST" })
 
     if (!data.mcqIds || data.mcqIds.length === 0) return [];
 
-    const mcqIndex = await getMcqIndex(db);
-    const mcqSet = new Set(data.mcqIds);
-    const matchedIds = mcqIndex.filter((m) => mcqSet.has(m.id)).map((m) => m.id);
-
-    if (matchedIds.length === 0) return [];
-
-    const matched = await getMcqFullRowsByIds(db, matchedIds);
-    const mcqIds = matched.map((m) => m.id);
+    const matched = await getMcqFullRowsByIds(db, data.mcqIds);
+    if (matched.length === 0) return [];
+    const mcqIds = matched.map((m: any) => m.id);
     const [userAttempts, userSolveLater] = await Promise.all([
       db
         .select({
