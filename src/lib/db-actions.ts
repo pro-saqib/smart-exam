@@ -303,23 +303,27 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
     const offset = Math.max(0, (data.paperNumber - 1) * data.pageSize);
 
     if (!rows) {
-      const allSubjects = await db.select({
-        id: subject.id,
-        name: subject.name,
-        parentId: subject.parentId,
-        totalMcqs: subject.totalMcqs,
-      }).from(subject);
+      let orderedSubtopicIds: string[] = [];
 
-      const groupSubtopics = allSubjects
-        .filter((s) => {
-          const g = getSubjectGroup(s.name, s.parentId);
-          return g?.key === data.subjectKey;
-        })
-        .sort((a, b) => a.name.localeCompare(b.name));
+      if (data.subtopicIds && data.subtopicIds.length > 0) {
+        orderedSubtopicIds = data.subtopicIds;
+      } else {
+        const allSubjects = await db.select({
+          id: subject.id,
+          name: subject.name,
+          parentId: subject.parentId,
+          totalMcqs: subject.totalMcqs,
+        }).from(subject);
 
-      const orderedSubtopicIds = (data.subtopicIds && data.subtopicIds.length > 0)
-        ? data.subtopicIds
-        : (groupSubtopics.length > 0 ? groupSubtopics.map((s) => s.id) : Array.from(allowedSubjectIds));
+        const groupSubtopics = allSubjects
+          .filter((s) => {
+            const g = getSubjectGroup(s.name, s.parentId);
+            return g?.key === data.subjectKey;
+          })
+          .sort((a, b) => a.name.localeCompare(b.name));
+
+        orderedSubtopicIds = groupSubtopics.length > 0 ? groupSubtopics.map((s) => s.id) : Array.from(allowedSubjectIds);
+      }
 
       rows = orderedSubtopicIds.length > 0
         ? await db
