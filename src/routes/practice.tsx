@@ -178,6 +178,24 @@ function PracticePage() {
     };
   }, [mode, selectedSubjectKey, activeSubtopicIdsKey]);
 
+  // Parse paperNumber and subtopicIds from selected value
+  const parsedPaperSelection = useMemo(() => {
+    if (selectedPaperNumber === "all") {
+      return { paperNumber: "all", subtopicIds: activeSubtopicIds };
+    }
+
+    // Check if it's a composite key (subtopicId_paperNumber)
+    if (selectedPaperNumber.includes("_")) {
+      const parts = selectedPaperNumber.split("_");
+      const subtopicId = parts[0];
+      const paperNum = parts[1];
+      return { paperNumber: paperNum, subtopicIds: [subtopicId] };
+    }
+
+    // Fallback to simple paper number
+    return { paperNumber: selectedPaperNumber, subtopicIds: activeSubtopicIds };
+  }, [selectedPaperNumber, activeSubtopicIds]);
+
   // Model papers for selected subject
   const modelPapers = useMemo(() => {
     if (!selectedSubjectKey) return [];
@@ -203,8 +221,8 @@ function PracticePage() {
       data: {
         mode,
         subjectKey: selectedSubjectKey,
-        subtopicIds: activeSubtopicIds,
-        paperNumber: selectedPaperNumber,
+        subtopicIds: parsedPaperSelection.subtopicIds,
+        paperNumber: parsedPaperSelection.paperNumber,
         count: mode === "random" ? questionCount : 100,
       },
     })
@@ -222,7 +240,7 @@ function PracticePage() {
     return () => {
       cancelled = true;
     };
-  }, [mode, selectedSubjectKey, activeSubtopicIdsKey, selectedPaperNumber, questionCount]);
+  }, [mode, selectedSubjectKey, activeSubtopicIdsKey, parsedPaperSelection, questionCount]);
 
   const handleModeChange = (newMode: Mode) => {
     setMode(newMode);
@@ -308,11 +326,16 @@ function PracticePage() {
                   className="w-full rounded-lg bg-secondary/40 border border-border px-3 py-[9px] sm:py-2.5 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
                   <option value="all">All Papers</option>
-                  {modelPapers.map((p) => (
-                    <option key={p.paperNumber} value={p.paperNumber}>
-                      {p.name} {p.filteredCount !== undefined ? `(${p.filteredCount})` : `(${p.totalMcqs})`}
-                    </option>
-                  ))}
+                  {modelPapers.map((p) => {
+                    const paperKey = p.subtopicIds.length === 1
+                      ? `${p.subtopicIds[0]}_${p.paperNumber}`
+                      : `${p.paperNumber}`;
+                    return (
+                      <option key={paperKey} value={paperKey}>
+                        {p.name} {p.filteredCount !== undefined ? `(${p.filteredCount})` : `(${p.totalMcqs})`}
+                      </option>
+                    );
+                  })}
                 </select>
               </label>
             )}
