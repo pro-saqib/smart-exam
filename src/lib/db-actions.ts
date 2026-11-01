@@ -346,22 +346,30 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
     }
 
     const rowMcqIds = rows.map((r: any) => r.id);
-    const [userAttempts, userSolveLater] = rowMcqIds.length > 0
-      ? await Promise.all([
-          db
-            .select({
-              mcqId: attempt.mcqId,
-              correct: attempt.correct,
-              at: attempt.at,
-            })
-            .from(attempt)
-            .where(and(eq(attempt.userId, userId), inArray(attempt.mcqId, rowMcqIds))),
-          db
-            .select({ mcqId: solveLater.mcqId })
-            .from(solveLater)
-            .where(and(eq(solveLater.userId, userId), inArray(solveLater.mcqId, rowMcqIds))),
-        ])
-      : [[], []];
+    const rowMcqIdSet = new Set(rowMcqIds);
+
+    let userAttempts = [];
+    let userSolveLater = [];
+
+    if (rowMcqIds.length > 0) {
+      const allUserAttempts = await db
+        .select({
+          mcqId: attempt.mcqId,
+          correct: attempt.correct,
+          at: attempt.at,
+        })
+        .from(attempt)
+        .where(eq(attempt.userId, userId));
+
+      userAttempts = allUserAttempts.filter((a: any) => rowMcqIdSet.has(a.mcqId));
+
+      const allUserSolveLater = await db
+        .select({ mcqId: solveLater.mcqId })
+        .from(solveLater)
+        .where(eq(solveLater.userId, userId));
+
+      userSolveLater = allUserSolveLater.filter((s: any) => rowMcqIdSet.has(s.mcqId));
+    }
 
     const solveLaterSet = new Set(userSolveLater.map((s) => s.mcqId));
     const attemptsByMcq: Record<string, { total: number; wrong: number; lastCorrect?: boolean; lastAt: number }> = {};
