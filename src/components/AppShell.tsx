@@ -177,12 +177,23 @@ export function AppShell({ children, user }: { children: React.ReactNode; user: 
       {/* Mobile bottom nav */}
       <nav className="md:hidden fixed bottom-0 inset-x-0 z-30 glass border-t border-border flex justify-around">
         {navItems.map((item) => {
-          const active = item.to === "/" ? loc.pathname === "/" : loc.pathname.startsWith(item.to);
+          const searchObj = (loc.search as Record<string, any>) || {};
+          const isISRoute = loc.pathname === "/subjects" && searchObj.filter === "is";
+          const isSubjectsRoute = loc.pathname === "/subjects" && !searchObj.filter;
+
+          const active = item.to === "/"
+            ? loc.pathname === "/"
+            : item.search?.filter === "is"
+              ? isISRoute
+              : item.to === "/subjects"
+                ? isSubjectsRoute
+                : loc.pathname.startsWith(item.to);
           const Icon = item.icon;
           return (
             <Link
-              key={item.to}
+              key={item.label}
               to={item.to}
+              search={item.search}
               className={`flex flex-col items-center gap-1 py-2.5 px-2 text-[11px] ${
                 active ? "text-primary-glow" : "text-muted-foreground"
               }`}
