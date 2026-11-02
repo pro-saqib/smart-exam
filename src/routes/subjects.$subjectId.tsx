@@ -186,7 +186,7 @@ function SubjectDetailPage() {
                           <ChevronRight className="size-3.5" />
                         </div>
                       </div>
-                      <h2 className="font-semibold text-base group-hover:text-primary transition-colors">
+                      <h2 className="font-semibold text-sm group-hover:text-primary transition-colors">
                         {sub.name}
                       </h2>
                       <p className="text-xs text-muted-foreground mt-0.5">
