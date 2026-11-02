@@ -50,6 +50,8 @@ function SubjectDetailPage() {
 
   const [paperStats, setPaperStats] = useState<Record<number, { attemptedCount: number; accuracy: number }>>({});
 
+  const { subtopic: selectedSubtopicId } = Route.useSearch();
+
   useEffect(() => {
     if (!activeGroup || activeGroup.subtopicIds.length === 0) {
       setPaperStats({});
@@ -57,7 +59,6 @@ function SubjectDetailPage() {
     }
 
     let cancelled = false;
-    const selectedSubtopicId = Route.useSearch()?.subtopic;
 
     // When a specific subtopic is selected, only fetch stats for that subtopic
     // to ensure paper numbering matches the displayed papers
@@ -83,9 +84,7 @@ function SubjectDetailPage() {
     return () => {
       cancelled = true;
     };
-  }, [activeGroup, attempts, subjectId]);
-
-  const { subtopic: selectedSubtopicId } = Route.useSearch();
+  }, [activeGroup, attempts, subjectId, selectedSubtopicId]);
   const lockSubjectKey = selectedSubtopicId ? `${subjectId}:${selectedSubtopicId}` : subjectId;
 
   const completedPaperNumbers = useMemo(() => {
