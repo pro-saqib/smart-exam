@@ -57,10 +57,18 @@ function SubjectDetailPage() {
     }
 
     let cancelled = false;
+    const selectedSubtopicId = Route.useSearch()?.subtopic;
+
+    // When a specific subtopic is selected, only fetch stats for that subtopic
+    // to ensure paper numbering matches the displayed papers
+    const subtopicIds = selectedSubtopicId && activeGroup.subtopicIds.includes(selectedSubtopicId)
+      ? [selectedSubtopicId]
+      : activeGroup.subtopicIds;
+
     getSubjectModelPaperStats({
       data: {
         subjectKey: subjectId,
-        subtopicIds: activeGroup.subtopicIds,
+        subtopicIds,
       },
     })
       .then((stats) => {
@@ -75,7 +83,7 @@ function SubjectDetailPage() {
     return () => {
       cancelled = true;
     };
-  }, [activeGroup, attempts]);
+  }, [activeGroup, attempts, subjectId]);
 
   const { subtopic: selectedSubtopicId } = Route.useSearch();
   const lockSubjectKey = selectedSubtopicId ? `${subjectId}:${selectedSubtopicId}` : subjectId;
