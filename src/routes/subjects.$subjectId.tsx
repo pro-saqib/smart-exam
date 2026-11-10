@@ -85,12 +85,20 @@ function SubjectDetailPage() {
       cancelled = true;
     };
   }, [activeGroup, attempts, subjectId, selectedSubtopicId]);
-  const lockSubjectKey = selectedSubtopicId ? `${subjectId}:${selectedSubtopicId}` : subjectId;
+  const lockSubjectKey =
+    selectedSubtopicId && !selectedSubtopicId.includes(",")
+      ? `${subjectId}:${selectedSubtopicId}`
+      : subjectId;
 
   const completedPaperNumbers = useMemo(() => {
     return new Set(
       paperCompletions
-        .filter((c) => c.subjectKey === lockSubjectKey || c.subjectKey === subjectId)
+        .filter(
+          (c) =>
+            c.subjectKey === lockSubjectKey ||
+            c.subjectKey === subjectId ||
+            c.subjectKey.startsWith(`${subjectId}:`),
+        )
         .map((c) => c.paperNumber),
     );
   }, [paperCompletions, lockSubjectKey, subjectId]);
@@ -167,7 +175,7 @@ function SubjectDetailPage() {
               No categories available for this subject yet.
             </div>
           ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {groupSubtopics.map((sub) => {
                 const subAttempts = attempts.filter((a) => a.subjectId === sub.id);
                 const attemptedCount = new Set(subAttempts.map((a) => a.mcqId)).size;
@@ -260,7 +268,7 @@ function SubjectDetailPage() {
             No papers available for this category yet.
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {papersToShow.map((paper) => {
               const lockStatus = getPaperLockStatus({
                 subjectKey: subjectId,
@@ -435,7 +443,7 @@ function SubjectDetailPage() {
           <p className="max-w-xs mx-auto">No subtopics yet.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {children.map((child) => {
             const count = child.totalMcqs ?? mcqs.filter((m) => m.subjectId === child.id).length;
             const relevantAttempts = attempts.filter((a) => a.subjectId === child.id);

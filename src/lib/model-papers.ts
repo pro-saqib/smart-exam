@@ -54,10 +54,7 @@ export function getSubjectGroup(subtopicName: string, subtopicParentId?: string)
     if (subject.patterns.length > 0 && subject.patterns.some((p) => p.test(subtopicName))) {
       return { key: subject.key, label: subject.label };
     }
-    // Match IS subjects by ID if parentId is not set
-    if (!subject.parentId && subtopicParentId === subject.parentId) {
-       // Wait, this was wrong, should be comparing subtopicParentId to subject.id
-    }
+    // Match IS subjects by ID when parentId is not set
     if (!subject.parentId && subtopicParentId === subject.id) {
         return { key: subject.key, label: subject.label };
     }
@@ -73,7 +70,17 @@ let lastGroupsCache: SubjectGroup[] = [];
 export function buildSubjectGroups(subjects: Subject[], mcqs?: MCQ[]): SubjectGroup[] {
   const groupMap = new Map<string, SubjectGroup>();
 
+  const hasChildrenIds = new Set(
+    subjects
+      .filter((s) => subjects.some((child) => child.parentId === s.id))
+      .map((s) => s.id)
+  );
+
   for (const s of subjects) {
+    if (hasChildrenIds.has(s.id)) {
+      continue;
+    }
+
     // Determine the canonical group for this subject.
     // IS subjects now have no subtopics (they are the subject).
     // The previous logic assumed only subjects with parentId should be grouped.
@@ -132,7 +139,6 @@ export function getSubjectModelPapers(
   attempts: AttemptLog[],
   batchSize = 100
 ): ModelPaper[] {
-  console.log("getSubjectModelPapers input", { groupKey, totalMcqsCount, subtopics: subtopics.length });
   if (totalMcqsCount <= 0) return [];
 
   const canonicalConfig = SUBJECT_KEYWORDS.find((sk) => sk.key === groupKey);
@@ -141,12 +147,9 @@ export function getSubjectModelPapers(
   const groupSubtopics = subtopics
     .filter((s) => {
       const g = getSubjectGroup(s.name, s.parentId);
-      console.log("getSubjectModelPapers check group", { sName: s.name, sParentId: s.parentId, g });
       return g?.key === groupKey;
     })
     .sort((a, b) => a.name.localeCompare(b.name)); // Alphabetical sorting matching quiz route
-  console.log("getSubjectModelPapers groupSubtopics count", groupSubtopics.length);
-
 
   const groupSubtopicIds = groupSubtopics.map((s) => s.id);
   const groupSubtopicSet = new Set(groupSubtopicIds);

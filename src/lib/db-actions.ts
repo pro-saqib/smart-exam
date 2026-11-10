@@ -256,6 +256,7 @@ export const getSubjectModelPaperMcqs = createServerFn({ method: "POST" })
             or(
               eq(paperCompletion.subjectKey, lockSubjectKey),
               eq(paperCompletion.subjectKey, data.subjectKey),
+              like(paperCompletion.subjectKey, `${data.subjectKey}:%`),
             ),
             eq(paperCompletion.paperNumber, prevPaperNumber),
           ),
@@ -1055,18 +1056,21 @@ export const getSubjectModelPaperStats = createServerFn({ method: "POST" })
       mcqIdToPaperNumber.set(m.id, paperNum);
     });
 
-    const userAttempts = await db
-      .select({
-        mcqId: attempt.mcqId,
-        correct: attempt.correct,
-      })
-      .from(attempt)
-      .where(
-        and(
-          eq(attempt.userId, userId),
-          inArray(attempt.subjectId, data.subtopicIds),
-        ),
-      );
+    const subjectMcqIds = subjectMcqs.map((m) => m.id);
+    const userAttempts = subjectMcqIds.length > 0
+      ? await db
+          .select({
+            mcqId: attempt.mcqId,
+            correct: attempt.correct,
+          })
+          .from(attempt)
+          .where(
+            and(
+              eq(attempt.userId, userId),
+              inArray(attempt.mcqId, subjectMcqIds),
+            ),
+          )
+      : [];
 
     const paperStats: Record<number, { attemptedMcqIds: Set<string>; correctAttempts: number; totalAttempts: number }> = {};
 

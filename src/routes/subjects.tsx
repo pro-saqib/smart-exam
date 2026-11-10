@@ -114,7 +114,7 @@ function SubjectsList() {
           No subjects loaded yet.
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {groups.map((group) => {
             const groupAttempts = attempts.filter((a) => group.subtopicIds.includes(a.subjectId));
             const attemptedCount = new Set(groupAttempts.map((a) => a.mcqId)).size;

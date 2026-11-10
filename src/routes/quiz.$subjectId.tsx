@@ -59,13 +59,21 @@ function QuizPage() {
     [subtopicIdsParam, allSubtopics],
   );
 
-  const lockSubjectKey = subtopicIdsParam ? `${subjectId}:${subtopicIdsParam}` : subjectId;
+  const lockSubjectKey =
+    subtopicIdsParam && !subtopicIdsParam.includes(",")
+      ? `${subjectId}:${subtopicIdsParam}`
+      : subjectId;
 
   // Determine completed papers for lock calculation
   const completedPaperNumbers = useMemo(() => {
     return new Set(
       paperCompletions
-        .filter((c) => c.subjectKey === lockSubjectKey || c.subjectKey === subjectId)
+        .filter(
+          (c) =>
+            c.subjectKey === lockSubjectKey ||
+            c.subjectKey === subjectId ||
+            c.subjectKey.startsWith(`${subjectId}:`),
+        )
         .map((c) => c.paperNumber),
     );
   }, [paperCompletions, lockSubjectKey, subjectId]);

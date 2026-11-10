@@ -157,7 +157,7 @@ function PracticePage() {
     }
 
     let cancelled = false;
-    console.log("Debug getPracticeModelPaperCounts", { mode, selectedSubjectKey, activeSubtopicIds }); getPracticeModelPaperCounts({
+    getPracticeModelPaperCounts({
       data: {
         mode,
         subjectKey: selectedSubjectKey,
@@ -201,9 +201,7 @@ function PracticePage() {
     if (!selectedSubjectKey) return [];
     const activeGroup = subjectGroups.find((g) => g.key === selectedSubjectKey);
     const totalCount = activeGroup?.totalMcqs || 0;
-    console.log("Debug modelPapers", { selectedSubjectKey, activeGroup, totalCount });
     const basePapers = getSubjectModelPapers(selectedSubjectKey, subtopics, totalCount, attempts, 100);
-    console.log("Debug basePapers", basePapers);
 
     // Attach exact counts and filter out papers with 0 matching questions
     const papers = basePapers

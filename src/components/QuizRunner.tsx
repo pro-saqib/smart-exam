@@ -752,32 +752,3 @@ function shuffleDeterministic<T>(arr: readonly T[], seed: string): T[] {
   return a;
 }
 
-function ToggleRow({
-  label,
-  description,
-  checked,
-  onChange,
-}: {
-  label: string;
-  description: string;
-  checked: boolean;
-  onChange: (v: boolean) => void;
-}) {
-  return (
-    <label className="flex items-center justify-between gap-3 p-3 sm:p-4 rounded-xl border border-border bg-secondary/40 cursor-pointer">
-      <div className="flex items-center gap-2.5">
-        <Shuffle className="size-4 text-primary-glow shrink-0" />
-        <div className="text-xs sm:text-sm font-medium flex items-center gap-2 flex-wrap">
-          <span>{label}</span>
-          <span className="text-[11px] sm:text-xs text-muted-foreground font-normal">— {description}</span>
-        </div>
-      </div>
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={(e) => onChange(e.target.checked)}
-        className="size-4 accent-primary cursor-pointer shrink-0"
-      />
-    </label>
-  );
-}
